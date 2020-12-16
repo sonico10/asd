@@ -199,240 +199,241 @@
 				}
 			]
 		}
-	}],
-	"name": "Silva",
-	"source": "Hergard",
-	"ability": [{
-		"wis": 2
-	}],
-	"size": "M",
-	"speed": {
-		"walk": 30,
-		"climb":30
-	},
-	"traitTags": [
-		"Tool Proficiency",
-		"Skill Proficiency"
-	],
-	"entries": [
-		"As a silva, you have the following special traits:",
-		{
-			"name": "Age",
-			"entries": [
-				"From the year silva emerge from their pods, they live an average of 150-250 years."
-			]
-		},
-		{
-			"name": "Alignment",
-			"entries": [
-				"Most silva are good, and many lean towards lawfulness. Most city-folk are lawful, though a few adventurers may be chaotic."
-			]
-		},
-		{
-			"name": "Size",
-			"entries": [
-				"Silva are about 6 feet tall. Their bodies are lightweight, weighing 100-130 pounds. Your size is Medium."
-			]
-		},
-		{
-			"name": "Speed",
-			"entries": [
-				"Your base walking speed is 30 feet."
-			]
-		},
-		{
-			"name": "Photosynthesis",
-			"entries": [
-				"You do not need to sleep while in sunlight. Instead, you can choose to sunbathe for 4 hours a day. While sunbathing, you can enter a dream-like state. Such dreams are actually mental exercises connecting with the surrounding plantlife, that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep, and you are considered fully nourished for the rest of the day.",
-				"If you do not get the opportunity to sunbathe, you can still sleep and eat normally. When you do so, you consume the same amount of food and sleep for the same length as a human."
-			]
-		},
-		{
-			"name": "Call of the Forest",
-			"entries": [
-				" You know the druidcraft cantrip. Once you reach 3rd level, you can cast the entangle spell once. Once you reach 5th level, you can also cast the plant growth spell once. You regain the ability to cast them this way when you finish a long rest. Wisdom is your spellcasting ability for these spells."
-			]
-		},
-		{
-			"name": "Treewalker",
-			"entries": [
-				"You have a climbing speed of 30 feet."
-			]
-		},
-		{
-			"name": "Languages",
-			"entries": [
-				"You can speak, read, and write Common and Sylvan."
-			]
-		}
-	],
-	"subraces": [{
-			"name": "Forest",
-			"ability": [{
-				"dex": 1
-			}],
-			"entries": [{
-					"type": "section",
-					"entries": [{
-						"name": "Silva (Forest)",
-						"entries": [
-							"As a forest silva, you have inherent quickness and stealth, and you are able to blend into the background of forested environments. In the wilderness, forest silva are found in only the largest forests, far from civilization. Their body is tall, thin, and covered in a thin bark."
-						]
-					}]
-				},
-				{
-					"name": "Ability Score Increase",
-					"type": "entries",
-					"entries": [
-						"Your Dexterity score increases by 1."
-					]
-				},
-				{
-					"name": "Plant Camouflage",
-					"entries": [
-						"When standing still, you have advantage on Dexterity (Stealth) checks you make while obscured by plants."
-					]
-				}
-			]
-		},
-		{
-			"name": "Jungle",
-			"ability": [{
-				"int": 1
-			}],
-			"entries": [{
-					"type": "section",
-					"entries": [{
-						"name": "Silva (Jungle)",
-						"entries": [
-							"As a jungle silva, you are hardier than your forest cousins, tested by the ruthless monsters that roam the large jungles that dot the world. Your time in the dark undergrowth of the jungle has also improved your vision substantially."
-						]
-					}]
-				},
-				{
-					"name": "Ability Score Increase",
-					"type": "entries",
-					"entries": [
-						"Your Constitution score increases by 1."
-					]
-				},
-				{
-					"name": "Darkvision",
-					"entries": [
-						"Accustomed to the dark canopies of the jungle, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-					]
-				}
-			]
-		},
-		{
-			"name": "Swamp",
-			"ability": [{
-				"int": 1
-			}],
-			"entries": [{
-					"type": "section",
-					"entries": [{
-						"name": "Silva (Swamp)",
-						"entries": [
-							"As a swamp silva, you are more accustomed to malleable terrain as opposed to your woodland brothers and sisters. If your roots can't find a way along a road, you make a new road instead. Your body has darker colored vines streaking across it and your hair may grow swamp flowers in it."
-						]
-					}]
-				},
-				{
-					"name": "Ability Score Increase",
-					"type": "entries",
-					"entries": [
-						"Your Strength score increases by 1."
-					]
-				},
-				{
-					"name": "Swampwalker",
-					"entries": [
-						"Natural difficult terrain does not effect your movement."
-					]
-				}
-			]
-		},
-		{
-			"name": "Fey",
-			"ability": [{
-				"int": 1
-			}],
-			"entries": [{
-					"type": "section",
-					"entries": [{
-						"name": "Silva (Fey)",
-						"entries": [
-							"As a fey silva, you originate from the Feywilds' whimsical forests. Crossed the veil just after their birth, they long to experience the life of all the other races of Her'gard. Usually they are very emotional and sociable, even compared to other silva."
-						]
-					}]
-				},
-				{
-					"name": "Ability Score Increase",
-					"type": "entries",
-					"entries": [
-						"Your Charisma score increases by 1."
-					]
-				},
-				{
-					"name": "Fey Ancestry",
-					"entries": [
-						"You have advantage on saving throws against being charmed, and magic can't put you to sleep."
-					]
-				}
-			]
-		}
-	],
-	"fluff": {
+	}, {
 		"name": "Silva",
 		"source": "Hergard",
+		"ability": [{
+			"wis": 2
+		}],
+		"size": "M",
+		"speed": {
+			"walk": 30,
+			"climb": 30
+		},
+		"traitTags": [
+			"Tool Proficiency",
+			"Skill Proficiency"
+		],
 		"entries": [
-			"Living in towns and cities near their place of origin, the silva, often misnamed as “Green Elves,” are an ancient race that look like tall, humanoid half-plant, half-elves. In actuality, they are far more similar to the former than the latter. They hail from only the greatest forests, jungles and other biomes of nature - the only places that can support their Mother Trees.",
+			"As a silva, you have the following special traits:",
 			{
-				"name": "Born from Nature",
+				"name": "Age",
 				"entries": [
-					"The silva do not reproduce like the other races. Instead, they are born from the seed-pods of giant trees, called “Mother Trees”. These trees average around 400 to 500 feet in height, with the base of the trunk being about 20-25 feet in diameter. Each silva city has one of these trees, which are always positioned near the center of the city. Silva parents go to the Mother Tree and partake in a sacred ritual, in which they bind segments of their souls to a pod of the tree. After about a year the pod bursts and the small silva \"seedling\" emerges, greeted by a large jubilation festival where all the silva gather and celebrate the arrival of their young ones."
+					"From the year silva emerge from their pods, they live an average of 150-250 years."
 				]
 			},
 			{
-				"name": "Bark and Leaf",
+				"name": "Alignment",
 				"entries": [
-					"The silva do not merely look like plants – they are plants. They do not need to consume food to survive, and they wither when they are without water and sunlight for a long period of time. They can consume food, but they prefer to get their nourishment from photosynthesis.",
-					"Silva biology is very different from any other race. They do not have internal organs, but instead are formed from growing plant matter, with sap for blood, and sometimes bark for skin.",
-					"Due to their plant-like nature, as the year goes on, the silva change with the season. During the winter, their leaves go brown and their limbs become stiff. In the fall, they become a vibrant display of reds and yellows."
+					"Most silva are good, and many lean towards lawfulness. Most city-folk are lawful, though a few adventurers may be chaotic."
 				]
 			},
 			{
-				"name": "Canopy Cities",
+				"name": "Size",
 				"entries": [
-					"When they approach a silva city, a ground-dweller might not even notice. Their cities exist high within the canopies of the forest, dominated by their Mother Tree. Under the shelter of their lush foliage, the silva have made their homes in these verdant, multi-level cities composed entirely of plants. Sometimes, silva ally with wood elves to create a vast and beautiful city of homes in the midst of the leaves of a forest."
+					"Silva are about 6 feet tall. Their bodies are lightweight, weighing 100-130 pounds. Your size is Medium."
 				]
 			},
 			{
-				"name": "Rule of the Nine",
+				"name": "Speed",
 				"entries": [
-					"The Nine are the first silva, initially born over 4000 years ago. Although they live to the normal age of silva, their memories are passed upon dying. Whenever one of the Nine dies, they are reborn exactly one year later. They grow in a special birthing pod among the roots of the greatest Mother Tree, the Elysium. While growing, the greatest silva warriors are tasked to protect the Nine from anyone who seeks to hurt them in their vegetative state. When reborn, they do not initially remember their past lives. If they are discovered early, they can be “trained” to remember their past within a few months. For those that are not found early, they slowly regain memories over the course of 2-5 years. The Nine are considered gods on earth, and they are given the divine right to rule, considering their millennia of experience."
+					"Your base walking speed is 30 feet."
 				]
 			},
 			{
-				"name": "Silva Names",
-				"entries": [{
-					"entries": [
-						"The silva have short, concise names, merely used as identifiers more than anything. They do not have family or clan names, so some popular names are often reused.",
-						{
-							"name": "Male Names",
-							"entries": [
-								"Abur, Banua, Chonai, Dampunts, Gutai, Jara, Magny, Qachaa, Tachu, Targay"
-							]
-						}, {
-							"name": "Female Names",
-							"entries": [
-								" Choque, Chuaca, Coca, Cuilla, Cura, Ollssill, Pola, Rima, Sica, Sisuyo"
-							]
-						}
-					]
-				}]
+				"name": "Photosynthesis",
+				"entries": [
+					"You do not need to sleep while in sunlight. Instead, you can choose to sunbathe for 4 hours a day. While sunbathing, you can enter a dream-like state. Such dreams are actually mental exercises connecting with the surrounding plantlife, that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep, and you are considered fully nourished for the rest of the day.",
+					"If you do not get the opportunity to sunbathe, you can still sleep and eat normally. When you do so, you consume the same amount of food and sleep for the same length as a human."
+				]
+			},
+			{
+				"name": "Call of the Forest",
+				"entries": [
+					" You know the druidcraft cantrip. Once you reach 3rd level, you can cast the entangle spell once. Once you reach 5th level, you can also cast the plant growth spell once. You regain the ability to cast them this way when you finish a long rest. Wisdom is your spellcasting ability for these spells."
+				]
+			},
+			{
+				"name": "Treewalker",
+				"entries": [
+					"You have a climbing speed of 30 feet."
+				]
+			},
+			{
+				"name": "Languages",
+				"entries": [
+					"You can speak, read, and write Common and Sylvan."
+				]
 			}
-		]
-	}
+		],
+		"subraces": [{
+				"name": "Forest",
+				"ability": [{
+					"dex": 1
+				}],
+				"entries": [{
+						"type": "section",
+						"entries": [{
+							"name": "Silva (Forest)",
+							"entries": [
+								"As a forest silva, you have inherent quickness and stealth, and you are able to blend into the background of forested environments. In the wilderness, forest silva are found in only the largest forests, far from civilization. Their body is tall, thin, and covered in a thin bark."
+							]
+						}]
+					},
+					{
+						"name": "Ability Score Increase",
+						"type": "entries",
+						"entries": [
+							"Your Dexterity score increases by 1."
+						]
+					},
+					{
+						"name": "Plant Camouflage",
+						"entries": [
+							"When standing still, you have advantage on Dexterity (Stealth) checks you make while obscured by plants."
+						]
+					}
+				]
+			},
+			{
+				"name": "Jungle",
+				"ability": [{
+					"int": 1
+				}],
+				"entries": [{
+						"type": "section",
+						"entries": [{
+							"name": "Silva (Jungle)",
+							"entries": [
+								"As a jungle silva, you are hardier than your forest cousins, tested by the ruthless monsters that roam the large jungles that dot the world. Your time in the dark undergrowth of the jungle has also improved your vision substantially."
+							]
+						}]
+					},
+					{
+						"name": "Ability Score Increase",
+						"type": "entries",
+						"entries": [
+							"Your Constitution score increases by 1."
+						]
+					},
+					{
+						"name": "Darkvision",
+						"entries": [
+							"Accustomed to the dark canopies of the jungle, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+						]
+					}
+				]
+			},
+			{
+				"name": "Swamp",
+				"ability": [{
+					"int": 1
+				}],
+				"entries": [{
+						"type": "section",
+						"entries": [{
+							"name": "Silva (Swamp)",
+							"entries": [
+								"As a swamp silva, you are more accustomed to malleable terrain as opposed to your woodland brothers and sisters. If your roots can't find a way along a road, you make a new road instead. Your body has darker colored vines streaking across it and your hair may grow swamp flowers in it."
+							]
+						}]
+					},
+					{
+						"name": "Ability Score Increase",
+						"type": "entries",
+						"entries": [
+							"Your Strength score increases by 1."
+						]
+					},
+					{
+						"name": "Swampwalker",
+						"entries": [
+							"Natural difficult terrain does not effect your movement."
+						]
+					}
+				]
+			},
+			{
+				"name": "Fey",
+				"ability": [{
+					"int": 1
+				}],
+				"entries": [{
+						"type": "section",
+						"entries": [{
+							"name": "Silva (Fey)",
+							"entries": [
+								"As a fey silva, you originate from the Feywilds' whimsical forests. Crossed the veil just after their birth, they long to experience the life of all the other races of Her'gard. Usually they are very emotional and sociable, even compared to other silva."
+							]
+						}]
+					},
+					{
+						"name": "Ability Score Increase",
+						"type": "entries",
+						"entries": [
+							"Your Charisma score increases by 1."
+						]
+					},
+					{
+						"name": "Fey Ancestry",
+						"entries": [
+							"You have advantage on saving throws against being charmed, and magic can't put you to sleep."
+						]
+					}
+				]
+			}
+		],
+		"fluff": {
+			"name": "Silva",
+			"source": "Hergard",
+			"entries": [
+				"Living in towns and cities near their place of origin, the silva, often misnamed as “Green Elves,” are an ancient race that look like tall, humanoid half-plant, half-elves. In actuality, they are far more similar to the former than the latter. They hail from only the greatest forests, jungles and other biomes of nature - the only places that can support their Mother Trees.",
+				{
+					"name": "Born from Nature",
+					"entries": [
+						"The silva do not reproduce like the other races. Instead, they are born from the seed-pods of giant trees, called “Mother Trees”. These trees average around 400 to 500 feet in height, with the base of the trunk being about 20-25 feet in diameter. Each silva city has one of these trees, which are always positioned near the center of the city. Silva parents go to the Mother Tree and partake in a sacred ritual, in which they bind segments of their souls to a pod of the tree. After about a year the pod bursts and the small silva \"seedling\" emerges, greeted by a large jubilation festival where all the silva gather and celebrate the arrival of their young ones."
+					]
+				},
+				{
+					"name": "Bark and Leaf",
+					"entries": [
+						"The silva do not merely look like plants – they are plants. They do not need to consume food to survive, and they wither when they are without water and sunlight for a long period of time. They can consume food, but they prefer to get their nourishment from photosynthesis.",
+						"Silva biology is very different from any other race. They do not have internal organs, but instead are formed from growing plant matter, with sap for blood, and sometimes bark for skin.",
+						"Due to their plant-like nature, as the year goes on, the silva change with the season. During the winter, their leaves go brown and their limbs become stiff. In the fall, they become a vibrant display of reds and yellows."
+					]
+				},
+				{
+					"name": "Canopy Cities",
+					"entries": [
+						"When they approach a silva city, a ground-dweller might not even notice. Their cities exist high within the canopies of the forest, dominated by their Mother Tree. Under the shelter of their lush foliage, the silva have made their homes in these verdant, multi-level cities composed entirely of plants. Sometimes, silva ally with wood elves to create a vast and beautiful city of homes in the midst of the leaves of a forest."
+					]
+				},
+				{
+					"name": "Rule of the Nine",
+					"entries": [
+						"The Nine are the first silva, initially born over 4000 years ago. Although they live to the normal age of silva, their memories are passed upon dying. Whenever one of the Nine dies, they are reborn exactly one year later. They grow in a special birthing pod among the roots of the greatest Mother Tree, the Elysium. While growing, the greatest silva warriors are tasked to protect the Nine from anyone who seeks to hurt them in their vegetative state. When reborn, they do not initially remember their past lives. If they are discovered early, they can be “trained” to remember their past within a few months. For those that are not found early, they slowly regain memories over the course of 2-5 years. The Nine are considered gods on earth, and they are given the divine right to rule, considering their millennia of experience."
+					]
+				},
+				{
+					"name": "Silva Names",
+					"entries": [{
+						"entries": [
+							"The silva have short, concise names, merely used as identifiers more than anything. They do not have family or clan names, so some popular names are often reused.",
+							{
+								"name": "Male Names",
+								"entries": [
+									"Abur, Banua, Chonai, Dampunts, Gutai, Jara, Magny, Qachaa, Tachu, Targay"
+								]
+							}, {
+								"name": "Female Names",
+								"entries": [
+									" Choque, Chuaca, Coca, Cuilla, Cura, Ollssill, Pola, Rima, Sica, Sisuyo"
+								]
+							}
+						]
+					}]
+				}
+			]
+		}
+	}]
 }
