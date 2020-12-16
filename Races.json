@@ -24,7 +24,7 @@
 		"size": "M",
 		"speed": {
 			"walk": 25,
-			"swimming": 30
+			"swim": 30
 		},
 		"traitTags": [
 			"Improved Resting",
@@ -115,37 +115,39 @@
 			"entries": [
 				"On their floating city ships or in recluse walled river cities, lutrinians are always working with water to make a better life for themselves. The smell of fish and the gentle lapping of the waves is their constant companion. Explorers and adventurers, they have probably reached farther on the sea than any other race can claim to have.",
 				{
-					"name": "Evolved Golems",
+					"name": "Lissome and Charming",
 					"entries": [
-						"The vect were preceded by unthinking golems of various designs but, though they are still constructed rather than born, they are now fully living beings. Underneath their armored exteriors lies an organically-influenced anatomy, with a circulatory system crafted from leather piping and a network of magic nerves. At the core of each vect unit is an everlasting construct core, tinged with the influence of the Spark that awoke them.",
-						"Vect bodies are humanoid in shape, but unmistakably mechanical, with large air intakes, protective shoulderplates, toothless jaws, and glowing mechanical eyes. Though each of the Foundries produces its vect in slightly unique proportions, the general shape is always the same, and vect can normally scavenge spare parts from the deceased if they are ever grievously injured. In fact, many vect choose to install specially-designed embedded components to improve their bodies, up to and including replacing limbs with appropriate tools. If a vect unit is preparing for a dangerous journey, their preparation will likely include purchasing embedded components as replacement parts.",
-						"Vect can work tirelessly and never need to sleep, instead entering a dreamless period of inactivation each day. Most vect create endless lists of goals and chores, taking comfort in the sequence and monotony of tasks to break up the endless march of days, weeks, and months. It is not uncommon to see a vect standing watch over his party, sharpening tools and repairing armor while the others sleep."
+						"Agile and fast, the small lutrinians are excellent at avoiding their numerous predators. Sometimes hunted for their thick and warm fur by the less scrupulous members of society the lutrinians develop survival skills early on. Their webbed hands and feet and their powerful tail makes them exceptional swimmers.",
+						"If captured they rely on their wits and winning smile. Nobody will deny how adorable they can be when they are not on the wrong side of a prank, and even then their natural charm will often get them out of sticky situations.",
+						"Their small stature and short limbs can be detrimental when fighting, that's why they tend to favor weapons with a longer reach like polearms, harpoons and pikes, or ranged weapons akin to bows, crossbows, slings or even bolas."
 					]
 				},
 				{
-					"name": "Mechanical Minds",
+					"name": "Coast and River Banks",
 					"entries": [
-						"Although vect units experience the same fear, anger, pain, loss, and other emotions that humanoids do, their expression of them is muted. Neither do their mechanical faces and harsh, metallic voices endear themselves, driving a wedge between vect and most other living things. Many vect, therefore, seek refuge in logical thinking. Some become emotionally distant and lack introspection, whereas others plumb the philosophies of existence and consider what it means to be alive. These become the two extremes, between vect who seek to embrace their status as living things, and those who wish to banish all within themselves that is not construct. The vast majority of vect exist between these extremes.",
-						"Vect are most comfortable existing within a small group of some kind, as long as it is dedicated to a purpose. Temples, adventuring parties, and voyages of exploration are deeply attractive to the vect."
+						"Wherever it might be on the golden coast of the far east or the freezing fjords of the north, lutrinians are always living near a body of water. Constructing at least part of their cities on stilts or outright making their abode something that floats and can be moved if need be, the lutrinians have lots of tricks to fish, from nets dragging under to colonies of shellfish growing on the stilts of their cities, giving them an almost endless source of food.",
+						"The lutrinians spend a lot of time with their family, grooming each other to maintain the waterproof characteristics of their fur, creating deep bonds between the members of a clan.",
+						"Most lutrinians rarely go far in land, they are far more at ease near bodies of water, but if the reward is enticing enough, it might be the promise of a jolly good time, the quest for a particularly tasty beverage or maybe their trying to find the secret to a longer life, they will venture outside of their comfort zone."
 					]
 				},
 				{
-					"name": "Search for Meaning",
+					"name": "Playful Tricksters",
 					"entries": [
-						"All vect are keenly aware that they were once nonliving material which suddenly came to be fully-formed as a living thing. And while there is no doubt that vect are alive, the destination of their souls upon death is another matter entirely. The philosophical implications of this are not lost on them, and the questions of existence echo loudly inside some vect. ",
-						"Though the Foundries are intelligent beyond measure, they are wordless in their duties, and ascribe no grand meaning to their creations.",
-						"Some vect find comfort in faith, normally worshipping gods of arcana, smiths, and constructs. Others seek permanent distraction in quests and chores. Others still look to the 'verse for answers, and seek meaning through understanding."
+						"Due to their short life span, lutrinians try to make the most of every day. They live in the moment not wary of consequences. Always looking to amuse themselves they often play tricks on their entourage. A night spent with a lutrinian is not something you easily forget.",
+						"Lutrinians favor occupations offering amusement and fast rewards. Piracy, thievery and adventuring play a big part of their lives. At ease on the waters they make great ship captains and deck hands. Some turn to a life of entertainment performing shows and regaling crowds with grandiose tales and epic ballads about the accomplishment of famous lutrinians of past and present."
 					]
 				},
 				{
-					"name": "Vect Names",
+					"name": "Lutrinian Names",
 					"entries": [{
 						"entries": [
-							"The original vect were divided into working groups and given numbers by their dwarven keepers; nothing more was necessary. Now, however, all vect choose their own names, usually designations reflecting some function or purpose, though some vect choose to be identified by their serial number, or a nickname given to them by others.",
+							"At birth, a lutrinian is given a name and if they are born from a long bloodline, a family name.",
 							{
-								"name": "Vect Names",
+								"name": "Lutrinian  Names",
 								"entries": [
-									"176, Armory, Bolts, Clunk, Crusher, Glitch, Hammerer, Keeper, Lifter, Null, Phong, Scarce, Three-Four-Three, Titan, Unit Seventeen, Watcher"
+									"Male Names: Charles, Lucien, Bonaparte, Jacques, Albert, Hyppolite, Octave, César, Jules, Jean, Louis, Pierre, Henri, Marcel, Paul, André",
+									"Female Names: Apolline, Joséphine, Vidra, Céline, Jeanne, Suzanne, Marie, Louise, Eugénie, Augustine, Marguerite, Germaine, Yvonne, Madeleine",
+									"Family Names: Morvan, Prigent, Duran, Madec, Perron, Chevalier, Le Moine, Fleury, Le Clerc, Archambeau, Delahaye, La Palisse, La Canne"
 								]
 							}
 						]
