@@ -143,11 +143,19 @@
 						"entries": [
 							"At birth, a lutrinian is given a name and if they are born from a long bloodline, a family name.",
 							{
-								"name": "Lutrinian  Names",
+								"name": "Male Names",
 								"entries": [
-									"Male Names: Charles, Lucien, Bonaparte, Jacques, Albert, Hyppolite, Octave, César, Jules, Jean, Louis, Pierre, Henri, Marcel, Paul, André",
-									"Female Names: Apolline, Joséphine, Vidra, Céline, Jeanne, Suzanne, Marie, Louise, Eugénie, Augustine, Marguerite, Germaine, Yvonne, Madeleine",
-									"Family Names: Morvan, Prigent, Duran, Madec, Perron, Chevalier, Le Moine, Fleury, Le Clerc, Archambeau, Delahaye, La Palisse, La Canne"
+									"Charles, Lucien, Bonaparte, Jacques, Albert, Hyppolite, Octave, César, Jules, Jean, Louis, Pierre, Henri, Marcel, Paul, André"
+								]
+							}, {
+								"name": "Female Names",
+								"entries": [
+									"Apolline, Joséphine, Vidra, Céline, Jeanne, Suzanne, Marie, Louise, Eugénie, Augustine, Marguerite, Germaine, Yvonne, Madeleine"
+								]
+							}, {
+								"name": "Family Names",
+								"entries": [
+									"Morvan, Prigent, Duran, Madec, Perron, Chevalier, Le Moine, Fleury, Le Clerc, Archambeau, Delahaye, La Palisse, La Canne"
 								]
 							}
 						]
