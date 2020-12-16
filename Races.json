@@ -51,9 +51,9 @@
 				]
 			},
 			{
-				"name": "Thermal Vision",
+				"name": "Darkvision",
 				"entries": [
-					"You can use a bonus action on your turn to switch from your normal vision to heat-detecting thermal vision or back again. Your thermal vision can see 20 feet through darkness and heavily obscured conditions, but you are blind beyond this radius. You can't discern color with your thermal vision, nor can you see through invisibility, illusions, or magical darkness. This vision penetrates most materials, but is blocked by any one-inch barrier."
+					"Accustomed to life underwater you have superior darkvision in dark and dim conditions. You can see in dim light withing 60 feet as if you were in bright light, and in darkness as if it were dim light. You can't discern color in darkness only shades of gray."
 				]
 			},
 			{
@@ -110,18 +110,10 @@
 			}
 		],
 		"fluff": {
-			"name": "Vect",
-			"source": "MFOV:Vect",
-			"entries": [{
-					"type": "quote",
-					"entries": [
-						"Very gradually, by degrees, pale blue hues invade the quiet of night, and Hammerer knows that only a few hours remain until dawn. Throughout the afternoon, evening, and night, he has meticulously inspected his tools, a wide array of mallets, sledges, and, of course, hammers, cleaning them, performing repairs, and organizing them by size and by color, only powering down for a few hours in the middle of the night.",
-						"Through the walls of his workshop, Hammerer can see the heat signatures of people waking up and preparing breakfast; he performs a similar ritual, polishing his chassis and running diagnostics for the day ahead. Mentally, he has a checklist of duties and chores before he begins the day's work.",
-						"Finally, the clocks strike seven, and Hammerer leaves his home, a room barely ten feet square, and heads out into the town. Somewhere in the market, a child cries for his mother to buy him a toy, and Hammerer puzzles at this behavior; work, after all, is far more interesting than frivolity."
-					],
-					"by": "A typical morning for Hammerer, a vect craftsman"
-				},
-				"Living constructs designed by dwarves as laborers, the vect are now free to search for meaning across the width of the 'verse.",
+			"name": "Lutrinian",
+			"source": "Hergard",
+			"entries": [
+				"On their floating city ships or in recluse walled river cities, lutrinians are always working with water to make a better life for themselves. The smell of fish and the gentle lapping of the waves is their constant companion. Explorers and adventurers, they have probably reached farther on the sea than any other race can claim to have.",
 				{
 					"name": "Evolved Golems",
 					"entries": [
