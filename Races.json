@@ -514,7 +514,7 @@
 				]
 			},
 			{
-				"name": "Fiend Save DC",
+				"name": "Fiend Save DC:",
 				"entries": [
 					"8 + your proficiency bonus + your Charisma modifier"
 				]
