@@ -31,7 +31,7 @@
 			"Skill Proficiency"
 		],
 		"entries": [
-			"As a lutrinian, you have the following special traits",
+			"As a lutrinian, you have the following special traits:",
 			{
 				"name": "Age",
 				"entries": [
@@ -93,7 +93,7 @@
 				"entries": [{
 						"type": "section",
 						"entries": [{
-							"name": "Lutrinian (River)",
+							"name": "(River)",
 							"entries": [
 								"Living in small enclaved cities along river banks, river lutrinians are not welcoming of outsiders."
 							]
@@ -123,7 +123,7 @@
 				"entries": [{
 						"type": "section",
 						"entries": [{
-							"name": "Lutrinian (Sea)",
+							"name": "(Sea)",
 							"entries": [
 								"A sea lutrinian will often live a nomadic life, from ports to ports, always on the move on ships raiding trade vessels."
 							]
