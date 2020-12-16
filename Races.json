@@ -739,7 +739,7 @@
 			"name": "Ghost",
 			"source": "Hergard",
 			"prerequisite": [{
-				"other": "Charisma 8 or less",
+				"other": "or Charisma 8 or less",
 				"ability": [{
 					"dex": 13
 				}]
