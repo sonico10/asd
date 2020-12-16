@@ -3,17 +3,18 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "Hergard",
-				"full": "Lutrinian",
+				"json": "MFOV:Vect",
+				"full": "Vect",
 				"authors": [
-					"Herbalist's Guide to Her'gard"
+					"Middle Finger of Vecna"
 				],
-				"abbreviation": "HGH",
-				"url": "https://tinyurl.com/hergard",
+				"abbreviation": "MFoV",
+				"url": "http://mfov.magehandpress.com/2017/06/vect.html",
+				"version": "2018.01.13"
 			}
 		],
-		"dateAdded": 1607875712,
-		"dateLastModified": 1607875712
+		"dateAdded": 1545342498,
+		"dateLastModified": 1545342498
 	},
 	"race": [
 		{
