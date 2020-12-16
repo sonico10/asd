@@ -3,14 +3,15 @@
 	"_meta": {
 		"sources": [{
 			"json": "Hergard",
-			"full": "Lutrian",
+			"full": "Herbalist's Guide to Her'gard",
 			"authors": [
-				"Redstom"
+				"TheRedstom"
 			],
 			"abbreviation": "HGH",
 			"url": "https://tinyurl.com/hergard",
 			"version": "2018.01.13"
 		}],
+		"convertedBy": ["TheRedstom"],
 		"dateAdded": 1607875712,
 		"dateLastModified": 1607875712
 	},
