@@ -739,14 +739,10 @@
 			"name": "Ghost",
 			"source": "Hergard",
 			"prerequisite": [{
-			{
-				"other": "Charisma 8 or less"
-			},
-				"ability": [
-					{
-						"dex": 13
-					}
-				]
+				"other": "Charisma 8 or less",
+				"ability": [{
+					"dex": 13
+				}]
 			}],
 			"entries": [
 				"Through training or lack of presence, you are skilled at hiding away from the idle eye. You gain the following benefits:",
@@ -759,7 +755,8 @@
 					]
 				}
 			]
-		},{
+		},
+		{
 			"name": "Journeyman Conductor",
 			"source": "Hergard",
 			"entries": [
@@ -773,7 +770,8 @@
 				},
 				"This die can be given to others as a bonus action (as per the Bardic Inspiration bard feature), or can be used to fuel your techniques. A Bardic Inspiration die is expended when you use it. You regain this expended bardic inspiration die when you finish a short or long rest."
 			]
-		},{
+		},
+		{
 			"name": "Knife Master",
 			"source": "Hergard",
 			"entries": [
