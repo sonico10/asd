@@ -86,35 +86,65 @@
 			}
 		],
 		"subraces": [{
-			"name": "Lutrinian (River)",
-			"ability": [{
-				"cha": 1
-			}],
-			"entries": [{
-					"type": "section",
-					"entries": [{
-						"name": "Lutrinian (River)",
+				"name": "Lutrinian (River)",
+				"ability": [{
+					"cha": 1
+				}],
+				"entries": [{
+						"type": "section",
+						"entries": [{
+							"name": "Lutrinian (River)",
+							"entries": [
+								"Living in small enclaved cities along river banks, river lutrinians are not welcoming of outsiders."
+							]
+						}]
+					},
+					{
+						"name": "Ability Score Increase",
+						"type": "entries",
 						"entries": [
-							"Living in small enclaved cities along river banks, river lutrinians are not welcoming of outsiders."
+							"Your Charisma score increases by 1."
 						]
-					}]
-				},
-				{
-					"name": "Ability Score Increase",
-					"type": "entries",
-					"entries": [
-						"Your Charisma score increases by 1."
-					]
-				},
-				{
-					"name": "Territorial",
-					"entries": [
-						"When a creature you can see moves within your reach, you can use your reaction to make an opportunity attack against the creature.",
-						"Once you use this ability, you must finish a short or long rest before you can use it again."
-					]
-				}
-			]
-		}],
+					},
+					{
+						"name": "Territorial",
+						"entries": [
+							"When a creature you can see moves within your reach, you can use your reaction to make an opportunity attack against the creature.",
+							"Once you use this ability, you must finish a short or long rest before you can use it again."
+						]
+					}
+				]
+			},
+			{
+				"name": "Lutrinian (Sea)",
+				"ability": [{
+					"int": 1
+				}],
+				"entries": [{
+						"type": "section",
+						"entries": [{
+							"name": "Lutrinian (Sea)",
+							"entries": [
+								"A sea lutrinian will often live a nomadic life, from ports to ports, always on the move on ships raiding trade vessels."
+							]
+						}]
+					},
+					{
+						"name": "Ability Score Increase",
+						"type": "entries",
+						"entries": [
+							"Your Intelligence  score increases by 1."
+						]
+					},
+					{
+						"name": "Tools Savvy",
+						"entries": [
+							"You double your proficiency bonus when rolling an ability check with any artisan's tool you are proficient with."
+						]
+					}
+				]
+			}
+		],
 		"fluff": {
 			"name": "Lutrinian",
 			"source": "Hergard",
