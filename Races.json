@@ -555,5 +555,133 @@
 				}
 			]
 		}
+	}, {
+		"name": "Veneris",
+		"source": "Hergard",
+		"ability": [{
+			"dex": 1,
+			"int": 2
+		}],
+		"size": "M",
+		"speed": {
+			"walk": 30,
+			"climb": 30
+		},
+		"traitTags": [
+			"Tool Proficiency",
+			"Skill Proficiency"
+		],
+		"entries": [
+			"As a veneris, you have the following special traits:",
+			{
+				"name": "Age",
+				"entries": [
+					"Veneris reach adulthood at around 25 years and live an average of 150 years."
+				]
+			},
+			{
+				"name": "Alignment",
+				"entries": [
+					"Most veneris lean towards neutrality due to their nature to live life day by day. Some become chaotic over time, achieving their goals by doing anything it takes."
+				]
+			},
+			{
+				"name": "Size",
+				"entries": [
+					"Veneris have a similar stature to humans. Your size is Medium."
+				]
+			},
+			{
+				"name": "Speed",
+				"entries": [
+					"Your base walking speed is 30 feet."
+				]
+			},
+			{
+				"name": "Toxic Resilience",
+				"entries": [
+					"You gain resistance to poison damage and have advantage on saving throws against being poisoned."
+				]
+			},
+			{
+				"name": "Sly",
+				"entries": [
+					"You have advantage on Dexterity (Stealth) checks made to hide."
+				]
+			},
+			{
+				"name": "Survivalist",
+				"entries": [
+					"You are proficient with scimitars, longbows and daggers."
+				]
+			},
+			{
+				"name": "Languages",
+				"entries": [
+					"You can speak, read, and write Common. Snakes understand your words. You have advantage on Charisma checks made to influence them."
+				]
+			},
+			{
+				"name": "Venomous Bite",
+				"entries": [
+					"You can use your venomous fangs in combat to inflict burning pain on your enemies. You can make melee attacks with your bite using Dexterity with a range of 5 feet, dealing 1d4 piercing damage. You are proficient in these attacks. If you hit with your bite, you can use your reaction to inject venom into your target, forcing them to make a Constitution saving throw. On a failed save, they take poison damage equal to a number of d6s equal to your proficiency bonus and become poisoned for the next minute. On a successful save they are not poisoned and take half as much damage. A poisoned enemy may repeat the save at the end of each of their turns. Once you inject venom, you can't do so again until you finish a short or long rest.",
+					"Bite Save DC = 8 + your proficiency bonus + your Constitution modifier"
+				]
+			}
+		],
+		"fluff": {
+			"name": "Veneris",
+			"source": "Hergard",
+			"entries": [
+				"Hiding in plain sight, there are a group of humans who share a cursed ancestry. Accursed many years ago, they struggle to live in civilized society, shunned for their horrid appearance. Not much is known about how they became the way they are, causing the more adventurous veneris to seek out arcane texts on their history.",
+				{
+					"name": "Hexed by Ancient Magic",
+					"entries": [
+						"Little to no information exists as to why veneris became the wicked-looking, snake skinned people they are today. The most prevalent are three myths that spread through word of mouth. Some speak of an ancient Yuan-ti king who in their last moments, cursed the group of humans taking over his dying kingdom. Others tell the tale how a town of people decided to make their way into the Feywild, only to return screaming as their hair turned into scaly tendrils. Few believe the oldest saga of how Lutra, goddess of all animals bewitched a gathering of human soldiers, trying to destroy one of the ancient forests for timber."
+					]
+				},
+				{
+					"name": "Terrifying Appearance",
+					"entries": [
+						"Veneris are usually not pleasant to the eye of an outsider. They are slim, mostly human skinned individuals, with snake-like coils in place of their hair and a venomous bite alike to a skake's. Unlike monsterous medusas, veneris aren't inherently evil but have been brutally hunted for their incredibly rare venom and hardy scales. Although they are more intelligent than most races by nature, they have been forced out of civilization due to their hideous appearance.",
+						"Veneris usually wear rags, tattered cloth and leather. Even the wealthy individuals prefer silky cloths, wispy dresses and light robes instead of layered clothing or armor.",
+						"Those who have an affinity with natural magic dress themselves in decorative fungi, allowing them to be further in tune with mother nature."
+					]
+				},
+				{
+					"name": "Rags to Riches",
+					"entries": [
+						"Some veneris scout around towns and small cities, finding the bare minimum to survive.They don't involve themselves much with society since their unnatural appearance. Struggling to live a day to day life, these veneris have a natural talent for staying hidden from sight.",
+						"Many of them however, merge into human society hiding their true selves. They cover up their hair with large cloths and scarfs or mask their body with magic. Due to their natural quick wits that is usually used to counteract their looks, they climb the ranks of the social ladder rather quickly and may even be able to become nobles in a city. After gaining some influence and most importantly a roof above their heads, these veneris invite others who can't integrate into civilization as well as they can, helping them live a better life."
+					]
+				},
+				{
+					"name": "Struggling Families",
+					"entries": [
+						"Veneris are always born in groups of three from eggs lain by their mother. When they are born, veneris have a snake-like tail and sometimes scales instead of skin on some parts of their body. They eventually shed their scales and their tail splits and gradually forms into feet as they learn to walk around at the age of four. Though a veneris might mate with other races there is a higher chance that the child will resemble the veneris parent rather than the other ancestor.",
+						"Veneris are often despised or feared, so they train their children in combat. From an early age they train their kids how to hunt small animals or steal from the busy streets of civilized land. This is also the time when the more powerful veneris discover their ability to employ a gaze that turns those who behold them to stone."
+					]
+				},
+				{
+					"name": "Veneris Names",
+					"entries": [{
+						"entries": [
+							"Veneris have short names that usually resemble the name of a snake, naga or their monsterous sisters, the Medusas.",
+							{
+								"name": "Male Names",
+								"entries": [
+									"Chisnaon, Chranibos, Hodnaumas, Hosus, Huxhess, Krusakshez, Kunagos, Oses, Phonytion, Sthudis, Vadronos, Vothonos"
+								]
+							}, {
+								"name": "Female Names",
+								"entries": [
+									"Avita, Crishaa, Hugge, Khatta, Kyrero, Lashnishtra, Mencarea, Nagini, Nidratta, Pholea, Rorora, Zosda"
+								]
+							}
+						]
+					}]
+				}
+			]
+		}
 	}]
 }
