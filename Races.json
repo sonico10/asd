@@ -27,8 +27,8 @@
 			"swim": 30
 		},
 		"traitTags": [
-			"Improved Resting",
-			"Natural Armor"
+			"Tool Proficiency",
+			"Skill Proficiency"
 		],
 		"entries": [
 			"As a lutrinian, you have the following special traits",
@@ -60,12 +60,6 @@
 				"name": "Darkvision",
 				"entries": [
 					"Accustomed to life underwater you have superior darkvision in dark and dim conditions. You can see in dim light withing 60 feet as if you were in bright light, and in darkness as if it were dim light. You can't discern color in darkness only shades of gray."
-				]
-			},
-			{
-				"name": "Charming",
-				"entries": [
-					"Your natural charm gives you proficiency in the Persuasion skill."
 				]
 			},
 			{
