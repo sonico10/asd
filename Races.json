@@ -112,18 +112,6 @@
 							"When a creature you can see moves within your reach, you can use your reaction to make an opportunity attack against the creature.",
 							"Once you use this ability, you must finish a short or long rest before you can use it again."
 						]
-					},
-					{
-						"name": "Pixie Magic",
-						"entries": [
-							" You know the cantrips ​druidcraft​ and ​dancing lights​. Charisma is your spellcasting ability for these cantrips."
-						]
-					},
-					{
-						"name": "Pixie Dust",
-						"entries": [
-							"As a bonus action on your turn, you can touch one creature. That creature gains a flying speed of 30 feet until the end of its next turn. Once you use this trait, you require a short or long rest before you can use it again. At 11th level, the creature you touch instead gains a flying speed for 1 minute."
-						]
 					}
 				],
 				"skillProficiencies": [{
