@@ -688,5 +688,24 @@
 				}
 			]
 		}
+	}],
+	"feat": [{
+		"name": "Gambler",
+		"source": "Hergard",
+		"ability": [{
+			"dex": 1
+		}],
+		"entries": [
+			"Playing with luck is your specialty, you gain the following benefits:",
+			{
+				"type": "list",
+				"items": [
+					"Increase your Charisma or Intelligence score by 1, to a maximum of 20.",
+					"You gain proficiency with two types of gaming sets of your choice.",
+					"You have advantage on Deception (Charisma) checks to bluff opponents in games of chance and History (Intelligence) checks to count cards.",
+					"When an enemy targets you with a weapon attack but before it rolls to hit, you may use your reaction to lower your AC to 11 for the duration of the attack. If the attack misses you, you may make a weapon attack against the target if it is within range, dealing an additional amount of damage on a successful hit equal to the amount you reduced your AC."
+				]
+			}
+		]
 	}]
 }
