@@ -739,9 +739,10 @@
 			"name": "Ghost",
 			"source": "Hergard",
 			"prerequisite": [{
-				"ability": [{
-						"cha": 8
-					},
+			{
+				"other": "Charisma 8 or less"
+			},
+				"ability": [
 					{
 						"dex": 13
 					}
@@ -755,6 +756,34 @@
 						"Creatures engaged in conversation have disadvantage on Wisdom (Perception) checks to notice you.",
 						"You have advantage on Dexterity (Stealth) checks when you remain still.",
 						"When you roll initiative, you can immediately take the Hide action for free. You regain the ability to do so after a short rest."
+					]
+				}
+			]
+		},{
+			"name": "Journeyman Conductor",
+			"source": "Hergard",
+			"entries": [
+				"You have spent some time in the bardic teachings of a maestro. granting you minor command over the music of combat. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You learn 2 Conducting Techniques of your choice from among those available to the College of the Maestro in the bard class. If a technique you use requires your target to make a saving throw to resist the technique's effects, the saving throw DC equals 8 + proficiency bonus + your Charisma modifier.",
+						"If you already have Bardic Inspiration dice, you gain one more: otherwise, you have one Bardic Inspiration die which is a d6."
+					]
+				},
+				"This die can be given to others as a bonus action (as per the Bardic Inspiration bard feature), or can be used to fuel your techniques. A Bardic Inspiration die is expended when you use it. You regain this expended bardic inspiration die when you finish a short or long rest."
+			]
+		},{
+			"name": "Knife Master",
+			"source": "Hergard",
+			"entries": [
+				"You only need the smallest of blades to deal crippling wounds, and you are skilled at making sudden, rapid strikes when an opportunity is presented. You gain the following features:",
+				{
+					"type": "list",
+					"items": [
+						"When you deal a critical hit with a dagger or sickle, you roll 1d6 and add the result to the damage rolled for the attack.",
+						"You can use daggers to attempt to pick locks, adding your proficiency bonus to related checks.",
+						"You gain advantage on any Dexterity (Sleight of Hand) checks to conceal a dagger or sickle on your person."
 					]
 				}
 			]
