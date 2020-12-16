@@ -624,8 +624,13 @@
 			{
 				"name": "Venomous Bite",
 				"entries": [
-					"You can use your venomous fangs in combat to inflict burning pain on your enemies. You can make melee attacks with your bite using Dexterity with a range of 5 feet, dealing 1d4 piercing damage. You are proficient in these attacks. If you hit with your bite, you can use your reaction to inject venom into your target, forcing them to make a Constitution saving throw. On a failed save, they take poison damage equal to a number of d6s equal to your proficiency bonus and become poisoned for the next minute. On a successful save they are not poisoned and take half as much damage. A poisoned enemy may repeat the save at the end of each of their turns. Once you inject venom, you can't do so again until you finish a short or long rest.",
-					"Bite Save DC = 8 + your proficiency bonus + your Constitution modifier"
+					"You can use your venomous fangs in combat to inflict burning pain on your enemies. You can make melee attacks with your bite using Dexterity with a range of 5 feet, dealing 1d4 piercing damage. You are proficient in these attacks. If you hit with your bite, you can use your reaction to inject venom into your target, forcing them to make a Constitution saving throw. On a failed save, they take poison damage equal to a number of d6s equal to your proficiency bonus and become poisoned for the next minute. On a successful save they are not poisoned and take half as much damage. A poisoned enemy may repeat the save at the end of each of their turns. Once you inject venom, you can't do so again until you finish a short or long rest."
+				]
+			},
+			{
+				"name": "Bite Save DC",
+				"entries": [
+					"8 + your proficiency bonus + your Constitution modifier""
 				]
 			}
 		],
