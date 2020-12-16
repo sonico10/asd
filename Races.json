@@ -86,14 +86,14 @@
 			}
 		],
 		"subraces": [{
-				"name": "Lutrinian (River)",
+				"name": "River",
 				"ability": [{
 					"cha": 1
 				}],
 				"entries": [{
 						"type": "section",
 						"entries": [{
-							"name": "(River)",
+							"name": "Lutrinian (River)",
 							"entries": [
 								"Living in small enclaved cities along river banks, river lutrinians are not welcoming of outsiders."
 							]
@@ -116,14 +116,14 @@
 				]
 			},
 			{
-				"name": "Lutrinian (Sea)",
+				"name": "Sea",
 				"ability": [{
 					"int": 1
 				}],
 				"entries": [{
 						"type": "section",
 						"entries": [{
-							"name": "(Sea)",
+							"name": "Lutrinian (Sea)",
 							"entries": [
 								"A sea lutrinian will often live a nomadic life, from ports to ports, always on the move on ships raiding trade vessels."
 							]
