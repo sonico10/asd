@@ -435,5 +435,125 @@
 				}
 			]
 		}
+	}, {
+		"name": "Succubus/Incubus",
+		"source": "Hergard",
+		"ability": [{
+			"cha": 2,
+			"dex": 1
+		}],
+		"size": "M",
+		"speed": {
+			"walk": 30
+		},
+		"traitTags": [
+			"Tool Proficiency",
+			"Skill Proficiency"
+		],
+		"entries": [
+			"As a succubus / incubus, you have the following special traits:",
+			{
+				"name": "Age",
+				"entries": [
+					"Succubi and incubi mature at the same rate as humans, though tend to live as long as they continue to feast on souls periodically."
+				]
+			},
+			{
+				"name": "Alignment",
+				"entries": [
+					"Imbued with their innate entrancing ability, most succubi and incubi are evil. Outcasts of their society however, in rare situations may escape to the Material Plane and lean toward neutrality."
+				]
+			},
+			{
+				"name": "Size",
+				"entries": [
+					"Succubi and Incubi have about the same size and build as humans. Your size is Medium."
+				]
+			},
+			{
+				"name": "Speed",
+				"entries": [
+					"Your base walking speed is 30 feet."
+				]
+			},
+			{
+				"name": "Darkvision",
+				"entries": [
+					"Thanks to your fiendish heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. Thanks to your heritage, your darkvision is unusual: everything you see in darkness is a shade of deep red."
+				]
+			},
+			{
+				"name": "Widowmaker",
+				"entries": [
+					"Some fiends enjoy manipulating their prey, while others prefer to seduce them into an early grave. You have proficiency in either the Persuasion or the Deception skill."
+				]
+			},
+			{
+				"name": "Devil's Shapechange",
+				"entries": [
+					"You walk amongst everyday folk like you are one of them. You can cast a fiendishly altered version of disguise self without expending a spell slot. Instead of its normal duration, it lasts until you are able to concentrate on it as if it was a spell or until you dismiss the illusion.",
+					"A creature can recognize your disguise by making a successful Wisdom (Insight) check against your Fiend Save DC."
+				]
+			},
+			{
+				"name": "Wings from the Nine Hells",
+				"entries": [
+					"You have a small set of wings on your back. However, these wings are not strong enough to hold your weight for an extended period of time. You can use your wings to suddenly thrust yourself forward 10 feet on the battlefield as a bonus action. This movement doesn't provoke opportunity attacks. You regain the ability to use this feature after taking a short or long rest."
+				]
+			},
+			{
+				"name": "Draining Kiss",
+				"entries": [
+					"Once you reach 5th level, you gain the ability to drain the life of a foe with your deadly kiss. As an action, you may kiss a target within 5 feet of you. The target must succeed on a Constitution saving throw or take necrotic damage equal to your character level + your Charisma modifier. The DC equals your Fiend Save DC. Additionally, you gain hit points equal to the damage dealt. After you use your draining kiss, you can't use it again until you finish a long rest."
+				]
+			},
+			{
+				"name": "Languages",
+				"entries": [
+					"You can speak, read, and write Common and Infernal."
+				]
+			},
+			{
+				"name": "Fiend Save DC",
+				"entries": [
+					"8 + your proficiency bonus + your Charisma modifier"
+				]
+			}
+		],
+		"fluff": {
+			"name": "Succubus/Incubus",
+			"source": "Hergard",
+			"entries": [
+				"Lascivious and fiendish in nature, succubi and incubi are loyal servants to the archdevils of the Kingdom of Never. They thrive on manipulating unsuspecting targets, using their charismatic personality and beguiling nature to charm them into performing acts against their will or feast upon their souls.",
+				{
+					"name": "Soul Collectors",
+					"entries": [
+						"Utmost value to devilkind, succubi and incubi work to collect the essence of the living. Their archdevil masters send them to the Material Plane to fulfill a mortal's end of the bargain, taking their soul whole or on rare occasion only part of it. If they are tasked to find a certain individual, they fight to the death to acquire their spirit. These fiends are capable of living with or stalking a person for decades if needed before they strike where their target is most vulnerable."
+					]
+				},
+				{
+					"name": "The Kiss of Death",
+					"entries": [
+						"Famously their most used form of assassination, sucubi and incubi are capable of ripping out the soul of a living creature just by kissing them. For this signature style of killing, their evil acts are easily recognized by blood hunters, clerics and others who seek to destroy such beings. After devouring an individual's soul, it is transported to the Kingdom of Never where the succubus or incubus' master uses them as they please.",
+						"There is one way however to free a soul collected by a succubus or incubus. You have to kill the fiend that took the individual's soul and preform a ritual with their blood, attempting to trade with their archdevil master for something they desire more than the person's soul."
+					]
+				},
+				{
+					"name": "Shapeshifters",
+					"entries": [
+						"The work of succubi and incubi is not easy. If they murder an individual in broad daylight, they risk the chance of being discovered by a cleric or other holy person, dooming them to be chased after or even killed by their radiant power. As a safeguard against such situations succubi and incubi are gifted with the talent to shapeshift.",
+						"Some turn into shadowy figures, assassinating their targets and taking their soul as their last breath escapes their mouth.",
+						"Others shift into the desired form of a curvy woman, a muscular man or sometimes into their target's significant other to charm and deceive, leaving them vulnerable and defenseless at night or in their own homes."
+					]
+				},
+				{
+					"name": "Mistaken Desire",
+					"entries": [
+						"Folktales and bards' songs tell tales of succubi and incubi falling in love with a certain individual and even bearing children with them, however this is an extremely rare occasion. These devils usually do not feel emotions, nor do they have the desires a human or other intelligent race would. They are born to fulfill only one goal: serve their archdevil creator. Some folk mistake their decade-long missions for love or attraction, however most of the time this is only a means to an end for them.",
+						"Rarely however, succubi and incubi are born with emotions and feelings like any other race. When in pursuit of a person they might meet their soulmate and fall in real, humanly love with them. This is a dangerous game for them because if their archdevil finds out there is only one way for them to survive: kissing their one true love without taking their soul. If they are capable of such an act, their bond to the Kingdom of Never is broken, their creator has no domain over them anymore and they lose their natural hunger for souls."
+					]
+				}
+			]
+		}
 	}]
 }
