@@ -1601,52 +1601,6 @@
 		}
 
 	],
-	"subclass": [{
-		"name": "Botanist",
-		"shortName": "Botanist",
-		"source": "HGH",
-		"additionalSpells": [{
-			"prepared": {
-				"3": [
-					"detect poison and disease",
-					"entangle"
-				],
-				"5": [
-					"spike growth",
-					"sprout plants"
-				],
-				"9": [
-					"plant growth",
-					"speak with plants"
-				],
-				"13": [
-					"grasping vine",
-					"guardian of nature"
-				],
-				"17": [
-					"tree stride",
-					"wrath of nature"
-				]
-			}
-		}],
-		"subclassFeatures": [
-			"Wild Growth|Artificer|TCE|Botanist|HGH|3",
-			"Deadly Bloom|Artificer|TCE|Botanist|HGH|5",
-			"Verdant Power|Artificer|TCE|Botanist|HGH|9",
-			"Awakened Forest|Artificer|TCE|Botanist|HGH|15"
-		]
-	}],
-	"subclassFeature": [{
-			"name": "Botanist",
-			"source": "HGH",
-			"className": "Artificer",
-			"classSource": "TCE",
-			"subclassShortName": "Botanist",
-			"subclassSource": "HGH",
-			"level": 3,
-			"entries": [
-				"An artificer who specializes as an Botanist modifies armor to function almost like a second skin. The armor is enhanced to hone the artificer's magic, unleash potent attacks, and generate a formidable defense. The artificer bonds with this armor, becoming one with it even as they experiment with it and refine its magical capabilities."
-			]
-		}
-	]
+	"subclass": [],
+	"subclassFeature": []
 }
