@@ -785,7 +785,7 @@
 					]
 				}
 			]
-		},{
+		}, {
 			"name": "Larger Than Life",
 			"source": "Hergard",
 			"prerequisite": [{
@@ -803,7 +803,7 @@
 					]
 				}
 			]
-		},{
+		}, {
 			"name": "Stone Headed",
 			"source": "Hergard",
 			"prerequisite": [{
@@ -847,10 +847,9 @@
 			"name": "Advanced Psionics",
 			"source": "Hergard",
 			"prerequisite": [{
-			"race": [
-				{
+				"race": [{
 					"name": "gith"
-				}
+				}]
 			}],
 			"entries": [
 				"You've trained your mind to greatly improve your psionic capabilities. You gain the following benefits:",
@@ -863,6 +862,6 @@
 				}
 			]
 		}
-		
+
 	]
 }
