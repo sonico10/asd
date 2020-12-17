@@ -785,6 +785,64 @@
 					]
 				}
 			]
+		},{
+			"name": "Larger Than Life",
+			"source": "Hergard",
+			"prerequisite": [{
+				"other": "Small race"
+			}],
+			"entries": [
+				"Despite your humble size, you are a force to be reckoned with. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Your Strength score increases by 1, to a maximum of 20.",
+						"You ignore the heavy property for weapons you are proficient with.",
+						"You count as one size larger when determining whom you can grapple or shove.",
+						"Your carrying capacity and the weight you can push, drag, or lift is one and a half times its normal value."
+					]
+				}
+			]
+		},{
+			"name": "Stone Headed",
+			"source": "Hergard",
+			"prerequisite": [{
+				"other": "Intelligence 8 or lower"
+			}],
+			"entries": [
+				"Lack of mental capability has turned into something good for you, and you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Your Constitution score increases by 1, to a maximum of 20.",
+						"You have advantage on saving throws made to resist enchantment spells.",
+						"You are immune to being charmed."
+					]
+				}
+			]
+		},
+		{
+			"name": "Whip Master",
+			"source": "Hergard",
+			"entries": [
+				"You've learned how to use the out-of-the-ordinary properties of a whip to your advantage. Its versatile nature allows you to perform a variety of maneuvers. While wielding a whip you also gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"With the whip, you can manipulate objects such as switches, levers, chests, or doorknobs within 10 feet. If an object weighs fewer than 5 pounds, you can grab and deposit it into a free hand."
+					]
+				},
+				"In addition, when you take the Attack action and attack with only a whip, you can use a bonus action to use one of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"You can attempt to disarm or knock prone a creature within range. Make an attack roll with a -5 penalty contested by the target's Stength (Athletics) check or Dexterity (Acrobatics) check (the target chooses the ability to use). You automatically fail the contest if the target is two or more size categories larger than you. If you win the contest, the attack causes no damage or other ill effect, but the defender either drops an item of your choice or is knocked prone (your choice).",
+						"You can make a single weapon attack with a whip against a creature within range.",
+						"You can use the Help action to aid an ally attacking an enemy within 10 feet of you."
+					]
+				}
+			]
 		}
+		
 	]
 }
