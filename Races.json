@@ -867,7 +867,7 @@
 					]
 				}
 			]
-		},{
+		}, {
 			"name": "Aquan Magic",
 			"source": "Hergard",
 			"ability": [{
@@ -889,7 +889,7 @@
 					]
 				}
 			]
-		},{
+		}, {
 			"name": "Arcane Plagiarist",
 			"source": "Hergard",
 			"ability": [{
@@ -908,6 +908,693 @@
 						"Your Wisdom score increases by 1.",
 						"You learn the minor illusion cantrip.",
 						"You learn the silent image spell and may cast it once at first level without expending a spell slot. You regain use of this ability after you finish a long rest. Wisdom is your spellcasting ability for these spells."
+					]
+				}
+			]
+		},
+		{
+			"name": "Athletic Perfection",
+			"source": "Hergard",
+			"ability": [{
+				"choose": {
+					"from": [
+						"str",
+						"dex"
+					],
+					"amount": 1
+				}
+			}],
+			"prerequisite": [{
+				"race": [{
+					"name": "goliath"
+				}]
+			}],
+			"entries": [
+				"The time spent competing with your peers has helped to shape your body to a near perfect state. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Your Strength or Dexterity score increases by 1.",
+						"You gain proficiency in Stealth, Acrobatics or Sleight of Hand.",
+						"You have advantage on Athletics checks made to throw objects or small creatures."
+					]
+				}
+			]
+		}, {
+			"name": "Auran Spirit",
+			"source": "Hergard",
+			"prerequisite": [{
+				"race": [{
+					"name": "aarakocra"
+				}]
+			}],
+			"entries": [
+				"You have learned spent time learning from your elders, preparing to tend to the spiritual need of your tribe. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You learn the guidance and gust cantrips.",
+						"You learn the augury or the find familiar spell. You can cast the spell you choose as a ritual. (If you choose the find familiar spell, unless you gain it from another source, you can only conjure a creature with a flying speed)."
+					]
+				}
+			]
+		}, {
+			"name": "Blood of The Chameleon",
+			"source": "Hergard",
+			"ability": [{
+				"dex": 1
+			}],
+			"prerequisite": [{
+				"race": [{
+					"name": "lizardfolk"
+				}]
+			}],
+			"entries": [
+				"You are skilled at ambushing foes and prey, aided by modified scales. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Your Dexterity score increases by 1.",
+						"You gain proficiency in Stealth.",
+						"Your scales can change hue to aid your ambushes. You can attempt to hide while only lightly obscured by foliage, snow, heavy rain and other natural effects."
+					]
+				}
+			]
+		}, {
+			"name": "Blood of The Komodo",
+			"source": "Hergard",
+			"ability": [{
+				"con": 1
+			}],
+			"prerequisite": [{
+				"race": [{
+					"name": "lizardfolk"
+				}]
+			}],
+			"entries": [
+				"You produce acidic saliva, which you can use to augment your attacks. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Your Constitution score increases by 1.",
+						"You gain resistance to poison damage.",
+						"You secrete a dangerous venom. When you make a bite attack, you can choose to add an additional 1d6 acid damage. You can do this a number of times equal to your Constitution modifier, and you regain all uses after you finish a long rest."
+					]
+				}
+			]
+		}, {
+			"name": "Child Of The Current",
+			"source": "Hergard",
+			"ability": [{
+				"choose": {
+					"from": [
+						"str",
+						"con"
+					],
+					"amount": 1
+				}
+			}],
+			"prerequisite": [{
+				"race": [{
+					"name": "triton"
+				}]
+			}],
+			"entries": [
+				"You were born in the water, and have learned to use it to increase your vitality. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Your Strength or Constitution score increases by 1.",
+						"You have advantage on Athletics checks while underwater.",
+						"If you spend an entire short rest submerged in water, you may treat a number of hit dice up to your Constitution modifier as having rolled their maximum."
+					]
+				}
+			]
+		}, {
+			"name": "Divine Avatar",
+			"source": "Hergard",
+			"ability": [{
+				"con": 1
+			}],
+			"prerequisite": [{
+				"race": [{
+					"name": "aasimar"
+				}]
+			}],
+			"entries": [
+				"You have learned to harness the divine energy within you to aid your allies, as well as smite your enemies. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Your Constitution score increases by 1.",
+						"When you transform into your divine form using your Radiant Consumption, Radiant Soul or Necrotic Shroud feature, creatures of your choice that you can see within 30 feet of you regain hit points equal to your level."
+					]
+				}
+			]
+		}, {
+			"name": "Draconic Blessing",
+			"source": "Hergard",
+			"ability": [{
+				"cha": 1
+			}],
+			"prerequisite": [{
+				"race": [{
+					"name": "kobold"
+				}]
+			}],
+			"entries": [
+				"Either you or your ancestors received a boon from a chromatic dragon, granting you a spark of their power. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Your Charisma score increases by 1."
+					]
+				},
+				"Choose one of the following draconic bloodlines. You gain the benefits associated with it:",
+				{
+					"type": "list",
+					"items": [
+						"Black. You gain resistance to acid damage and learn theacid splash cantrip.",
+						"Blue. You gain resistance to lightning damage and learn the shocking grasp cantrip.",
+						"Green. You gain resistance to poison damage and learn the poison spray cantrip.",
+						"Red. You gain resistance to fire damage and learn theproduce flame cantrip.",
+						"White. You gain resistance to cold damage and learn the ray of frost cantrip."
+					]
+				}
+			]
+		}, {
+			"name": "Emissary of The Air",
+			"source": "Hergard",
+			"ability": [{
+				"dex": 1
+			}],
+			"prerequisite": [{
+				"race": [{
+					"name": "air genasi"
+				}]
+			}],
+			"entries": [
+				"The quickness of wind guides your movements. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Your Dexterity score increases by 1.",
+						"In response to being hit with a weapon attack, you can use your reaction to transform your body into wind, instantly reappearing in an unoccupied space within 60 feet causing the attack to miss. You regain use of this ability after you finish a short or long rest."
+					]
+				}
+			]
+		}, {
+			"name": "Expert Mimic",
+			"source": "Hergard",
+			"prerequisite": [{
+				"race": [{
+					"name": "kenku"
+				}]
+			}],
+			"entries": [
+				"You have spent so long copying others, it's second nature to you now. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency with two of the following: Thieves' tools, Forgery kit, Calligraphy tools or Painter's tools",
+						"During a long rest, you can spend time observing a willing creature. From this, you can mimic their proficiency in a specific skill or tool, gaining proficiency in this skill until the start of your next long rest."
+					]
+				}
+			]
+		}, {
+			"name": "Fey Spirit",
+			"source": "Hergard",
+			"ability": [{
+				"cha": 1
+			}],
+			"prerequisite": [{
+				"race": [{
+					"name": "eladrin"
+				}]
+			}],
+			"entries": [
+				"You are more in touch with the fickle magics of the Feywild than others of you kind, allowing you to alter your form. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Your Charisma score increases by 1.",
+						"You can speak, read, and write Sylvan.",
+						"You learn the alter self spell and can cast it once without expending a spell slot. You regain use of this feature once you complete a short or long rest. Charisma is your spellcasting ability for this spell."
+					]
+				}
+			]
+		}, {
+			"name": "Focused Radiance",
+			"source": "Hergard",
+			"ability": [{
+				"choose": {
+					"from": [
+						"wis",
+						"cha"
+					],
+					"amount": 1
+				}
+			}],
+			"prerequisite": [{
+				"race": [{
+					"name": "aasimar"
+				}]
+			}],
+			"entries": [
+				"You have learned to focus the divine energy within your body, using it to cast spells. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Your Wisdom or Charisma score increases by 1.",
+						"You learn the guidance or sacred flame cantrip.",
+						"You learn the bless or guiding bolt spell, and may cast it once at second level without using a spell slot. You regain use of this ability when you finish a long rest. Charisma is your spellcasting ability for these spells."
+					]
+				}
+			]
+		}, {
+			"name": "Grasp of The Earth",
+			"source": "Hergard",
+			"ability": [{
+				"str": 1
+			}],
+			"prerequisite": [{
+				"race": [{
+					"name": "earth genasi"
+				}]
+			}],
+			"entries": [
+				"You use the power of the earth to impede your enemies. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Your Strength score increases by 1.",
+						"As an action, you can strike the ground, causing soil and rocks to leap up around another creature within 30 feet. This creature must make a Strength saving through (DC 8 + your proficiency bonus + your Constitution modifier) or be take 1d6 bludgeoning damage and be restrained for 1 minute. If this creature is within range, you may use a bonus action to make a melee weapon attack against it. You regain use of this ability after you finish a long rest."
+					]
+				}
+			]
+		}, {
+			"name": "Guardian of The Waves",
+			"source": "Hergard",
+			"ability": [{
+				"wis": 1
+			}],
+			"prerequisite": [{
+				"race": [{
+					"name": "water genasi"
+				}]
+			}],
+			"entries": [
+				"You are attuned to the oceans and the deep places of the world, gracing you with powers. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Your Wisdom score increases by 1.",
+						"As an action, you give yourself a watery form that lasts for one round. While in this form, you can pass through another creature's space, however you cannot end your turn there. While in this form, you may also pass through gaps as small as 1 inch. You regain the use of this ability after you finish a short or long rest.",
+						"You can cast the speak with animals spell at will, however unless you gain it from another source you can only speak with creatures that can breathe water, as well as dolphins and whales."
+					]
+				}
+			]
+		}, {
+			"name": "Iron Will",
+			"source": "Hergard",
+			"prerequisite": [{
+				"race": [{
+					"name": "githzerai"
+				}]
+			}],
+			"entries": [
+				"The Chaos of Limbo is truly violent, and you have trained your mind to resist it. You gain the following benefit:",
+				{
+					"type": "list",
+					"items": [
+						"You have advantage on Intelligence, Wisdom and Charisma saving throws against spells."
+					]
+				}
+			]
+		}, {
+			"name": "Lazy Brute",
+			"source": "Hergard",
+			"prerequisite": [{
+				"race": [{
+					"name": "bugbear"
+				}]
+			}],
+			"entries": [
+				"The sooner you get done dealing with your foes, the sooner you can go back to sleep. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"When you roll a critical hit on a melee weapon attack, you can roll one additional damage dice.",
+						"If you spend all of a short rest sleeping, you gain temporary hit points equal to your proficiency bonus + half your level (rounded down)."
+					]
+				}
+			]
+		}, {
+			"name": "Leader of The Pack",
+			"source": "Hergard",
+			"ability": [{
+				"cha": 1
+			}],
+			"prerequisite": [{
+				"race": [{
+					"name": "tabaxi"
+				}]
+			}],
+			"entries": [
+				"You have a magnetic personality, and cats always seem to look to you for guidance. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Your Charisma score increases by 1.",
+						"You have advantage on Animal Handling checks made with feline creatures.",
+						"Once per long rest you may cast the find familiar spell as a ritual. Unless you gain this spell from another source, when you cast it this way you can only target a cat."
+					]
+				}
+			]
+		}, {
+			"name": "Light on Your Feet",
+			"source": "Hergard",
+			"ability": [{
+				"dex": 1
+			}],
+			"prerequisite": [{
+				"race": [{
+					"name": "tabaxi"
+				}]
+			}],
+			"entries": [
+				"No matter how you fall, you always seem to be able to twist and land on your feet. You gin the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Your Dexterity score increases by 1.",
+						"You gain proficiency in Acrobatics.",
+						"You do not take damage from falling 20 feet or less. When you do take damage from falling, you may reduce the damage by an amount equal to half your level."
+					]
+				}
+			]
+		}, {
+			"name": "Magic of The Grove",
+			"source": "Hergard",
+			"ability": [{
+				"wis": 1
+			}],
+			"prerequisite": [{
+				"race": [{
+					"name": "firbolg"
+				}]
+			}],
+			"entries": [
+				"There are few as attuned to the forest as you. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Your Wisdom score increases by 1.",
+						"You learn the druidcraft cantrip",
+						"You learn the pass without trace spell, and may cast it once without expending a spell slot. You regain use of this ability after you finish a long rest."
+					]
+				}
+			]
+		}, {
+			"name": "Make-do Attitude",
+			"source": "Hergard",
+			"ability": [{
+				"wis": 1
+			}],
+			"prerequisite": [{
+				"race": [{
+					"name": "tortle"
+				}]
+			}],
+			"entries": [
+				"You've learned to survive and craft basic tools and weapons from only what you can scavenge. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Your Wisdom score increases by 1.",
+						"You gain proficiency with one of the following: woodcarvers tools, weavers tools, herbalism kit",
+						"During a short or long rest, provided you have access to an appropriate crafting material (ie. wood, vines, etc) you can make one of the following: a fishing pole, a club, a net, a blow gun or 10 blowgun darts. To do this you require appropriate tools (ie. Woodcarvers) or a dagger."
+					]
+				}
+			]
+		}, {
+			"name": "Mountain's Blessing",
+			"source": "Hergard",
+			"ability": [{
+				"choose": {
+					"from": [
+						"int",
+						"wis"
+					],
+					"amount": 1
+				}
+			}],
+			"prerequisite": [{
+				"race": [{
+					"name": "goliath"
+				}]
+			}],
+			"entries": [
+				"The markings that cover your body expand, indicating your blessing by a mountain spirit. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Your Intelligence or Wisdom score increases by one.",
+						"You gain proficiency in Religion",
+						"When you make a saving throw against a magical effect, you may choose to give yourself advantage on the roll. You can do this after you see the roll, but before you know the result. You regain use of this feature after you finish a short or long rest."
+					]
+				}
+			]
+		}, {
+			"name": "Nest of Serpents",
+			"source": "Hergard",
+			"prerequisite": [{
+				"race": [{
+					"name": "yuan-ti pureblood"
+				}]
+			}],
+			"entries": [
+				"You've studied the rituals of those in higher castes as they devote themselves to the serpent gods, and you've picked up a thing or two from them. You gain the following benefit:",
+				{
+					"type": "list",
+					"items": [
+						"As an action, you can transform a pile of sticks, ten arrows or small pieces of wood into a swarm of poisonous snakes. The swarm acts as your ally, and obeys your commands. This transformation lasts for one minute, after which the swarm reverts to its original form. If the swarm is killed before this, it reverts to normal early. You may do this once, and regain this ability after you finish a long rest."
+					]
+				}
+			]
+		}, {
+			"name": "Primordial Constitution",
+			"source": "Hergard",
+			"ability": [{
+				"con": 1
+			}],
+			"prerequisite": [{
+				"race": [{
+					"name": "genasi"
+				}]
+			}],
+			"entries": [
+				"As a plane touched humanoid, your body is hardier than many others. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Your Constitution score increases by one.",
+						"You gain resistance to cold and poison damage.",
+						"You have advantage on saving throws against being poisoned."
+					]
+				}
+			]
+		}, {
+			"name": "Promising Commander",
+			"source": "Hergard",
+			"ability": [{
+				"str": 1
+			}],
+			"prerequisite": [{
+				"race": [{
+					"name": "githyanki"
+				}]
+			}],
+			"entries": [
+				"You performed endless training routines to amplify your tactical abilities in the timeless Astral Sea. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Your Strength score increases by one.",
+						"You learn one language of your choice.",
+						"As a bonus action, you let out a rallying war cry, ending the frightened or charmed condition on yourself and a number of allies that can hear you equal to your Intelligence modifier (minimum of 1). You can use this ability once, and regain the ability to do so when you finish a long rest."
+					]
+				}
+			]
+		}, {
+			"name": "Protector Of Nature",
+			"source": "Hergard",
+			"prerequisite": [{
+				"race": [{
+					"name": "firbolg"
+				}]
+			}],
+			"entries": [
+				"You have learned to use Fey charms to prevent others from tampering with the areas you protect. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency in Persuasion. If you are already proficient, you can add double your proficiency bonus to your persuasion checks.",
+						"As an action, you can beguile those who would damage the natural world. Choose one creature within 30 feet of you. It must succeed on a Wisdom saving throw (DC 8 + proficiency bonus + your Charisma modifier) or become charmed by you for 1 minute. A creature makes this saving throw with disadvantage if it has harmed a beast or plant in the past round. If the target takes any damage, it may repeat the saving throw, ending the effect on a success. You can do this once, and regain the ability to do it again after you finish a long rest."
+					]
+				}
+			]
+		}, {
+			"name": "Savage Attacker",
+			"source": "Hergard",
+			"ability": [{
+				"str": 1
+			}],
+			"prerequisite": [{
+				"race": [{
+					"name": "orc"
+				}]
+			}],
+			"entries": [
+				"When you hit someone, they had better stay down. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Your Strength score increases by one.",
+						"When you reduce a creature to zero hitpoints with a melee weapon attack, you can make another melee weapon attack as a bonus action. If this attack hits, it does additional damage equal to your Strength modifier."
+					]
+				}
+			]
+		}, {
+			"name": "Shadow Magic",
+			"source": "Hergard",
+			"prerequisite": [{
+				"race": [{
+					"name": "shadar-kai"
+				}]
+			}],
+			"entries": [
+				"In the lifetimes you have spent serving your shrouded queen, you have gained an affinity for magic that influences others. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You learn the friends cantrip.",
+						"You learn the charm person and detect thoughts spells and can cast each spell once without expending a spell slot. You regain the use of this feature once you finish a long rest. Charisma is your spellcasting ability for these spells."
+					]
+				}
+			]
+		}, {
+			"name": "Serpent Form",
+			"source": "Hergard",
+			"ability": [{
+				"choose": {
+					"from": [
+						"int",
+						"cha"
+					],
+					"amount": 1
+				}
+			}],
+			"prerequisite": [{
+				"race": [{
+					"name": "yuan-ti pureblood"
+				}]
+			}],
+			"entries": [
+				"You have unlocked more of your serpentfolk heritage. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Your Intelligence or Charisma score increases by 1.",
+						"You can use an action to polymorph into a Medium snake or back into your true form. Your statistics are the same in each form. Any equipment you are wearing or carrying isn't transformed. If you die, you stay in your current form.",
+						"While in snake form, you gain a bite attack as a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. When you hit with a bite attack, you can choose to deal 2d6 additional poison damage to the target. Once you deal this poison damage, you can't do so again until you finish a short or long rest."
+					]
+				}
+			]
+		}, {
+			"name": "Strength of The Sea",
+			"source": "Hergard",
+			"ability": [{
+				"con": 1
+			}],
+			"prerequisite": [{
+				"race": [{
+					"name": "sea elf"
+				}]
+			}],
+			"entries": [
+				"Your time deep beneath the waves has toughened your body. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Your Constitution score increases by one.",
+						"You gain resistance to cold and acid damage",
+						"You are resistant to the effects of extreme pressure."
+					]
+				}
+			]
+		}, {
+			"name": "The Eternal Flame",
+			"source": "Hergard",
+			"ability": [{
+				"int": 1
+			}],
+			"prerequisite": [{
+				"race": [{
+					"name": "fire genasi"
+				}]
+			}],
+			"entries": [
+				"A flame burns within you, and you've learned how to harness it. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Your Intelligence score increases by one.",
+						"As an action, you surround yourself with a wreath of flames which lasts for one minute. While this is active, any creature that hits you with a melee attack from within 5 feet of you takes fire damage equal to your Constitution modifier.",
+						"Additionally, when you roll fire damage while this wreath is active, you may add your Constitution modifier to the damage rolled. You regain use of this ability after you finish a long rest."
+					]
+				}
+			]
+		}, {
+			"name": "Trickster's Spirit",
+			"source": "Hergard",
+			"ability": [{
+				"dex": 1
+			}],
+			"prerequisite": [{
+				"race": [{
+					"name": "goblin"
+				}]
+			}],
+			"entries": [
+				"You are accustomed to using others to avoid being attacked. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Your Dexterity score increases by 1.",
+						"When a creature you can see targets you with an attack and another creature is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. Once you use this ability, you can't do so again until you finish a short or long rest."
+					]
+				}
+			]
+		}, {
+			"name": "Wings of Iron ",
+			"source": "Hergard",
+			"ability": [{
+				"dex": 1
+			}],
+			"prerequisite": [{
+				"race": [{
+					"name": "aarakocra"
+				}]
+			}],
+			"entries": [
+				"You have spent your formative years training with the wardens of your tribe. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Your Dexterity score increases by one.",
+						"You gain proficiency with spears, javelins and nets.",
+						"When you are flying and dive at least 30 feet towards a target and hit it with a melee weapon, you can cause the attack to deal an additional 1d6 damage of the weapons type to the target."
 					]
 				}
 			]
