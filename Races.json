@@ -788,6 +788,9 @@
 		}, {
 			"name": "Larger Than Life",
 			"source": "Hergard",
+			"ability": [{
+				"str": 1
+			}],
 			"prerequisite": [{
 				"other": "Small race"
 			}],
@@ -806,6 +809,9 @@
 		}, {
 			"name": "Stone Headed",
 			"source": "Hergard",
+			"ability": [{
+				"con": 1
+			}],
 			"prerequisite": [{
 				"other": "Intelligence 8 or lower"
 			}],
@@ -858,6 +864,50 @@
 					"items": [
 						"You learn the message cantrip",
 						"You learn the catapult and enhance ability spells and can cast them once without expending a spell slot. You regain the ability to cast them again when you finish a long rest. Intelligence is your spellcasting ability for these spells."
+					]
+				}
+			]
+		},{
+			"name": "Aquan Magic",
+			"source": "Hergard",
+			"ability": [{
+				"cha": 1
+			}],
+			"prerequisite": [{
+				"race": [{
+					"name": "triton"
+				}]
+			}],
+			"entries": [
+				"You are more attuned to the magic of the Elemental Plane of Water than others of your kind. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Your Charisma modifier increases by 1.",
+						"You learn the shape water cantrip.",
+						"You learn the ice knife spell, and may cast it at second level once without expending a spell slot. You regain use of this ability after you finish a long rest. Charisma is your spellcasting ability for these spells."
+					]
+				}
+			]
+		},{
+			"name": "Arcane Plagiarist",
+			"source": "Hergard",
+			"ability": [{
+				"wis": 1
+			}],
+			"prerequisite": [{
+				"race": [{
+					"name": "kenku"
+				}]
+			}],
+			"entries": [
+				"You have learned to mimic the magical abilities of others. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Your Wisdom score increases by 1.",
+						"You learn the minor illusion cantrip.",
+						"You learn the silent image spell and may cast it once at first level without expending a spell slot. You regain use of this ability after you finish a long rest. Wisdom is your spellcasting ability for these spells."
 					]
 				}
 			]
