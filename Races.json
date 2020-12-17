@@ -842,6 +842,26 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Advanced Psionics",
+			"source": "Hergard",
+			"prerequisite": [{
+			"race": [
+				{
+					"name": "gith"
+				}
+			}],
+			"entries": [
+				"You've trained your mind to greatly improve your psionic capabilities. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You learn the message cantrip",
+						"You learn the catapult and enhance ability spells and can cast them once without expending a spell slot. You regain the ability to cast them again when you finish a long rest. Intelligence is your spellcasting ability for these spells."
+					]
+				}
+			]
 		}
 		
 	]
