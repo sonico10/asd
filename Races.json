@@ -15,6 +15,3127 @@
 		"dateAdded": 1607875712,
 		"dateLastModified": 1607875712
 	},
+	"spell": [{
+		"name": "Acid Rain",
+		"source": "Hergard",
+		"level": 3,
+		"school": "A",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "radius",
+			"distance": {
+				"type": "feet",
+				"amount": 15
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true
+		},
+		"duration": [{
+			"type": "timed",
+			"duration": {
+				"type": "minute",
+				"amount": 1,
+				"upTo": true
+			},
+			"concentration": true
+		}],
+		"entries": ["Droplets of murky acid coalesce and fall from the air in a 15-foot radius around you for the duration. When a creature other than you starts or ends its turn in the area, it must make a Constitution saving throw, taking {@damage 4d4} acid damage on a failed save, or half as much damage on a successful one."],
+		"entriesHigherLevel": [{
+			"name": "At Higher Levels",
+			"entries": ["When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@dice 2d4} for each slot level above 3rd."]
+		}],
+		"damageInflict": ["acid"],
+		"savingThrow": ["constitution"],
+		"areaTags": ["R"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Artificer",
+				"source": "TCE"
+			}, {
+				"name": "Druid",
+				"source": "PHB"
+			}, {
+				"name": "Sorcerer",
+				"source": "PHB"
+			}, {
+				"name": "Wizard",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Antiheal",
+		"source": "Hergard",
+		"level": 7,
+		"school": "N",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "touch"
+			}
+		},
+		"components": {
+			"s": true
+		},
+		"duration": [{
+			"type": "timed",
+			"duration": {
+				"type": "day",
+				"amount": 7
+			}
+		}],
+		"entries": ["You attempt to infect a creature you touch with an insidious poison. The target must make a Constitution saving throw. On a failed saving throw, the target can't regain hit points for the duration, and whenever they would regain hit points, they instead take poison damage equal to the amount of hit points they would have regained. The target regains no hit points from completing a long rest (taking no poison damage), and loses all its hit dice for the duration.", "This spell's effects are subtle, and hidden from detection by the detect poison and disease and detect magic spells."],
+		"damageInflict": ["poison"],
+		"savingThrow": ["constitution"],
+		"areaTags": ["ST"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Cleric",
+				"source": "PHB"
+			}, {
+				"name": "Druid",
+				"source": "PHB"
+			}, {
+				"name": "Warlock",
+				"source": "PHB"
+			}, {
+				"name": "Witch",
+				"source": "Hergard"
+			}, {
+				"name": "Wizard",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Ball Lightning",
+		"source": "Hergard",
+		"level": 2,
+		"school": "V",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 30
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true
+		},
+		"duration": [{
+			"type": "timed",
+			"duration": {
+				"type": "minute",
+				"amount": 1,
+				"upTo": true
+			},
+			"concentration": true
+		}],
+		"entries": ["You call forth a 5-foot-diameter sphere of shimmering lightning in an unoccupied space of your choice within range, that lasts for the duration. Any creature that starts its turn within 5 feet of the sphere must make a Dexterity saving throw. The creature takes {@damage 3d8} lightning damage on a failed save, or half as much damage on a successful one. ", "When you summon the sphere, choose a direction for it to move. At the start of each of your turns, the sphere moves 10 feet in that direction. As a bonus action, you can choose a new direction for the sphere to move, and it immediately moves 5 feet in that direction.", "The sphere is ethereal, able to move through objects and barriers, and hovers. The sphere sheds bright blue light in a 30-foot radius and dim light for an additional 30 feet."],
+		"entriesHigherLevel": [{
+			"name": "At Higher Levels",
+			"entries": ["When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@dice 1d8} for each slot level above 2nd."]
+		}],
+		"damageInflict": ["lightning"],
+		"savingThrow": ["dexterity"],
+		"areaTags": ["S"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Druid",
+				"source": "PHB"
+			}, {
+				"name": "Sorcerer",
+				"source": "PHB"
+			}, {
+				"name": "Warlock",
+				"source": "PHB"
+			}, {
+				"name": "Wizard",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Barbed Strike",
+		"source": "Hergard",
+		"level": 2,
+		"school": "T",
+		"time": [{
+			"number": 1,
+			"unit": "bonus"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "self"
+			}
+		},
+		"components": {
+			"v": true
+		},
+		"duration": [{
+			"type": "timed",
+			"duration": {
+				"type": "minute",
+				"amount": 1,
+				"upTo": true
+			},
+			"concentration": true
+		}],
+		"entries": ["The next time you hit a creature with a weapon attack before this spell ends, the weapon grows vicious barbs that lacerate the target. The attack deals an extra {@damage 2d4} piercing damage and causes the target to bleed (if its physiology allows it). A bleeding creature takes {@damage 2d4} slashing damage at the start of each of its turns. At the end of each of its turns, the target can make a Constitution saving throw, ending the spell on a success. The target or a creature within 5 feet of it can also use an action to make a Wisdom (Medicine) check against your spell save DC, ending the spell on a success."],
+		"damageInflict": ["piercing", "slashing"],
+		"savingThrow": ["constitution"],
+		"abilityCheck": ["wisdom"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Ranger",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Barkskin",
+		"source": "Hergard",
+		"otherSources": [{
+			"source": "PHB"
+		}],
+		"level": 2,
+		"school": "T",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "touch"
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true,
+			"m": "a handful of oak bark"
+		},
+		"duration": [{
+			"type": "timed",
+			"duration": {
+				"type": "hour",
+				"amount": 1
+			}
+		}],
+		"entries": ["You touch a willing creature. Until the spell ends, the target's skin has a rough, bark-like appearance, granting it a +2 bonus to its AC. This spell cannot cause the target's AC to be higher than 18."],
+		"damageInflict": ["piercing", "slashing"],
+		"savingThrow": ["constitution"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Druid",
+				"source": "PHB"
+			}, {
+				"name": "Ranger",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Bigby's Precocious Pugilism",
+		"source": "Hergard",
+		"level": 1,
+		"school": "V",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "touch"
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true,
+			"m": "a moderate amount of alcohol or other distilled spirits"
+		},
+		"duration": [{
+			"type": "instant"
+		}],
+		"entries": ["You wreath your fists in power while preparing yourself for retreat, then make a melee spell attack against a creature within range. On a hit, the target takes {@damage 3d4} force damage. Whether you hit or not, you gain the benefits of the Disengage action."],
+		"entriesHigherLevel": [{
+			"name": "At Higher Levels",
+			"entries": ["When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@dice 1d4 + 1} for each slot level above 2nd."]
+		}],
+		"damageInflict": ["force"],
+		"spellAttack": ["M"],
+		"areaTags": ["ST"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Artificer",
+				"source": "TCE"
+			}, {
+				"name": "Wizard",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Barrier",
+		"source": "Hergard",
+		"level": 0,
+		"school": "A",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 10
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true
+		},
+		"duration": [{
+			"type": "timed",
+			"duration": {
+				"type": "minute",
+				"amount": 1
+			}
+		}],
+		"entries": ["You condense ambient magical energy into an immobile, shimmering panel up to 5-foot-by-5-foot in size, floating in any orientation within range. It lasts until the duration or until you dismiss it as an action. The panel cannot occupy the same space as a creature or an object. It can withstand damage equal to your spellcasting ability modifier or a force up to 30 pounds.", "If you cast this spell multiple times, you can have up to three panels active at a time."],
+		"areaTags": ["C"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Artificer",
+				"source": "TCE"
+			}, {
+				"name": "Bard",
+				"source": "PHB"
+			}, {
+				"name": "Cleric",
+				"source": "PHB"
+			}, {
+				"name": "Druid",
+				"source": "PHB"
+			}, {
+				"name": "Sorcerer",
+				"source": "PHB"
+			}, {
+				"name": "Wizard",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Blasting Bubble",
+		"source": "Hergard",
+		"level": 2,
+		"school": "V",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 30
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true,
+			"m": "a glass bead"
+		},
+		"duration": [{
+			"type": "instant"
+		}],
+		"entries": ["You inflate a roiling bubble of water and send it flying at one creature within range. Make a ranged spell attack against the target. On a hit, the target takes {@damage 2d8} bludgeoning damage. Hit or miss, the bubble then explodes. The target and each creature within 10 feet of it must succeed on a Strength saving throw or take {@damage 2d8} thunder damage. If one of the creatures around the original target fails the saving throw, they are also pushed 10 feet away from the original target.", "A target immersed in water has disadvantage on the saving throw."],
+		"entriesHigherLevel": [{
+			"name": "At Higher Levels",
+			"entries": ["When you cast this spell using a spell slot of 3rd level or higher, the thunder damage increases by {@dice 1d8} for each slot level above 2nd."]
+		}],
+		"damageInflict": ["bludgeoning", "thunder"],
+		"spellAttack": ["R"],
+		"savingThrow": ["strength"],
+		"areaTags": ["ST", "R"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Druid",
+				"source": "PHB"
+			}, {
+				"name": "Sorcerer",
+				"source": "PHB"
+			}, {
+				"name": "Wizard",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Blinding Spit",
+		"source": "Hergard",
+		"level": 2,
+		"school": "V",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 15
+			}
+		},
+		"components": {
+			"v": true
+		},
+		"duration": [{
+			"type": "instant"
+		}],
+		"entries": ["You spit a glob of yellow acid into the eyes (or nearest equivalent) of a creature of your choice within range. Make a ranged spell attack against the target. On a hit, the target takes {@damage 4d4} acid damage and is {@condition blinded} until the end of its next turn."],
+		"entriesHigherLevel": [{
+			"name": "At Higher Levels",
+			"entries": ["When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@dice 2d4} for each slot level above 2nd."]
+		}],
+		"damageInflict": ["acid"],
+		"conditionInflict": ["blinded"],
+		"spellAttack": ["R"],
+		"areaTags": ["ST"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Druid",
+				"source": "PHB"
+			}, {
+				"name": "Ranger",
+				"source": "PHB"
+			}, {
+				"name": "Sorcerer",
+				"source": "PHB"
+			}, {
+				"name": "Warlock",
+				"source": "PHB"
+			}, {
+				"name": "Witch",
+				"source": "Hergard"
+			}, {
+				"name": "Wizard",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Caustic Pool",
+		"source": "Hergard",
+		"level": 1,
+		"school": "C",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 30
+			}
+		},
+		"components": {
+			"s": true,
+			"m": "a vial of acid worth at least 25gp"
+		},
+		"duration": [{
+			"type": "timed",
+			"duration": {
+				"type": "minute",
+				"amount": 1
+			}
+		}],
+		"entries": ["Bubbling, multi-colored acid pools across the ground in a 15-foot square starting from a point within range. For the duration, this pool turns the ground in the area into difficult terrain.", "When a creature moves into the spell's area for the first time on a turn or starts its turn there, that creature must succeed on a Constitution saving throw or take {@damage 3d4} acid damage."],
+		"entriesHigherLevel": [{
+			"name": "At Higher Levels",
+			"entries": ["When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@dice 1d4} for each slot level above 1st."]
+		}],
+		"damageInflict": ["acid"],
+		"spellAttack": ["R"],
+		"savingThrow": ["constitution"],
+		"areaTags": ["Q"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Artificer",
+				"source": "TCE"
+			}, {
+				"name": "Druid",
+				"source": "PHB"
+			}, {
+				"name": "Sorcerer",
+				"source": "PHB"
+			}, {
+				"name": "Warlock",
+				"source": "PHB"
+			}, {
+				"name": "Witch",
+				"source": "Hergard"
+			}, {
+				"name": "Wizard",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Chaotic Burst",
+		"source": "Hergard",
+		"level": 3,
+		"school": "V",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 120
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true,
+			"m": "a brightly coloured stone or marble"
+		},
+		"duration": [{
+			"type": "instant"
+		}],
+		"entries": ["A globe of shifting colors appears at your fingertip and darts to a point you choose within range. It then violently explodes in a burst of colorful chaotic energy. Each creature in a 20-foot-radius sphere centered on that point must make a Dexterity saving throw. A creature takes {@damage 6d8 + 1d8} damage on a failed save, or half as much damage on a successful one.", "The number rolled on the {@dice d8} determines the spell's damage type.", {
+			"type": "table",
+			"caption": "Chaotic Burst",
+			"colLabels": ["{@dice d8}", "Damage Type"],
+			"colStyles": ["col-1 text-center", "col-11"],
+			"rows": [
+				[{
+					"type": "cell",
+					"roll": {
+						"exact": 1
+					}
+				}, "Acid"],
+				[{
+					"type": "cell",
+					"roll": {
+						"exact": 2
+					}
+				}, "Cold"],
+				[{
+					"type": "cell",
+					"roll": {
+						"exact": 3
+					}
+				}, "Fire"],
+				[{
+					"type": "cell",
+					"roll": {
+						"exact": 4
+					}
+				}, "Lightning"],
+				[{
+					"type": "cell",
+					"roll": {
+						"exact": 5
+					}
+				}, "Thunder"],
+				[{
+					"type": "cell",
+					"roll": {
+						"exact": 6
+					}
+				}, "Radiant"],
+				[{
+					"type": "cell",
+					"roll": {
+						"exact": 7
+					}
+				}, "Necrotic"],
+				[{
+					"type": "cell",
+					"roll": {
+						"exact": 8
+					}
+				}, "Psychic"]
+			]
+		}, "The elemental effect spreads around corners and may impact the environment as appropriate to the accompanying elemental effect."],
+		"entriesHigherLevel": [{
+			"name": "At Higher Levels",
+			"entries": ["When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@dice 1d6} for each slot level about 3rd."]
+		}],
+		"damageInflict": ["acid", "cold", "fire", "lightning", "necrotic", "psychic", "radiant", "thunder"],
+		"spellAttack": ["R"],
+		"savingThrow": ["dexterity"],
+		"areaTags": ["S"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Sorcerer",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Chilling Gaze",
+		"source": "Hergard",
+		"level": 5,
+		"school": "E",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 60
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true
+		},
+		"duration": [{
+			"type": "timed",
+			"duration": {
+				"type": "minute",
+				"amount": 1
+			},
+			"concentration": true
+		}],
+		"entries": ["Choose a creature that you can see within range. If the target can see you, it must make a Wisdom saving throw. On a failed save, the target takes {@damage 6d6} cold damage and is {@condition paralyzed} until the end of your next turn unless it is immune to cold damage or immune to being {@condition frightened}. The paralysis ends early if you deal damage to the creature or if the spell ends. On a successful save, it takes half as much damage and isn't {@condition paralyzed}. When the paralysis ends, the target is {@condition frightened} of you for the duration.", "At the end of each of its turns, the {@condition frightened} target can make another Wisdom saving throw, with disadvantage if it can see you. On a success, the spell ends on the target."],
+		"entriesHigherLevel": [{
+			"name": "At Higher Levels",
+			"entries": ["When you cast this spell using a spell slot of 6th level or higher, you can target one additional creature for each slot level above 5th."]
+		}],
+		"damageInflict": ["cold"],
+		"conditionInflict": ["frightened", "paralyzed"],
+		"savingThrow": ["wisdom"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Druid",
+				"source": "PHB"
+			}, {
+				"name": "Sorcerer",
+				"source": "PHB"
+			}, {
+				"name": "Warlock",
+				"source": "PHB"
+			}, {
+				"name": "Witch",
+				"source": "Hergard"
+			}, {
+				"name": "Wizard",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Cloak of Embers",
+		"source": "Hergard",
+		"level": 1,
+		"school": "A",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "self"
+			}
+		},
+		"components": {
+			"v": true,
+			"m": "a piece of charcoal"
+		},
+		"duration": [{
+			"type": "timed",
+			"duration": {
+				"type": "hour",
+				"amount": 1
+			}
+		}],
+		"entries": ["A retaliatory bulwark cascades around you in the form of a smoldering veil of cinders. For the duration, when a creature hits you with a melee attack, reduce the damage of the attack by {@dice 1d6}. The attacker takes the same amount of fire damage.", "After three melee attacks are mitigated, the spell ends.", "At the end of each of its turns, the {@condition frightened} target can make another Wisdom saving throw, with disadvantage if it can see you. On a success, the spell ends on the target."],
+		"entriesHigherLevel": [{
+			"name": "At Higher Levels",
+			"entries": ["When you cast this spell using a spell slot of 3rd or 4th level, the spell can mitigate up to five attacks before ending. When you use a spell slot of 5th level or higher, the reduction and damage also increases by {@dice 1d6}."]
+		}],
+		"damageInflict": ["fire"],
+		"areaTags": ["ST"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Sorcerer",
+				"source": "PHB"
+			}, {
+				"name": "Warlock",
+				"source": "PHB"
+			}, {
+				"name": "Witch",
+				"source": "Hergard"
+			}, {
+				"name": "Wizard",
+				"source": "PHB"
+			}, {
+				"name": "Soul Binder",
+				"source": "Hergard"
+			}]
+		}
+	}, {
+		"name": "Companion Recall",
+		"source": "Hergard",
+		"level": 4,
+		"school": "C",
+		"time": [{
+			"number": 1,
+			"unit": "minute"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "self"
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true,
+			"m": "a old and rusty compass"
+		},
+		"duration": [{
+			"type": "instant"
+		}],
+		"entries": ["You call your companion back to you though the Ethereal plane. Your soulbound appears in a space within 10 feet of you. If your companion is on a different plane than you, there is a 50% chance the spell will fail."],
+		"miscTags": ["SMN", "TP"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Soul Binder",
+				"source": "Hergard"
+			}]
+		}
+	}, {
+		"name": "Celkilor's Syphon",
+		"source": "Hergard",
+		"level": 0,
+		"school": "N",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 60
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true,
+			"m": "a mosquito encased in tree sap"
+		},
+		"duration": [{
+			"type": "instant"
+		}],
+		"entries": ["You drain life energy from a creature you can see within range. The target must succeed on a Constitution saving throw or take {@damage 1d4} necrotic damage. You gain temporary hit points equal to the amount of damage dealt for 1 minute. This spell has no effect on undead or constructs.", "This spell's damage increases by {@dice 1d4} when you reach 5th level ({@dice 2d4}), 11th level ({@dice 3d4}), and 17th level ({@dice 4d4})."],
+		"damageInflict": ["necrotic"],
+		"savingThrow": ["constitution"],
+		"miscTags": ["THP"],
+		"areaTags": ["ST"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Sorcerer",
+				"source": "PHB"
+			}, {
+				"name": "Warlock",
+				"source": "PHB"
+			}, {
+				"name": "Witch",
+				"source": "Hergard"
+			}, {
+				"name": "Wizard",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Dark Rune of Garamar",
+		"source": "Hergard",
+		"level": 6,
+		"school": "N",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "line",
+			"distance": {
+				"type": "feet",
+				"amount": 100
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true,
+			"m": "a small blade or sharp object"
+		},
+		"duration": [{
+			"type": "timed",
+			"duration": {
+				"type": "minute",
+				"amount": 1
+			},
+			"concentration": true
+		}],
+		"entries": ["You quickly carve a rune into the palm of your hand. The rune then begins emitting black and red vapor. Extending your hand to expose the palm, you send forth a blast of vile energy, forming a line of 100 feet long and 5 feet wide in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes {@damage 6d8} necrotic damage on a failed save, or half as much on a successful save.", "On each of your turns for the duration, you can use your action to fire off another blast of energy from the rune. Each subsequent time you do so, the necrotic damage increases by an additional {@dice 1d8}, to a maximum of {@dice 9d8}. However, the pain from the rune begins to take hold. Each time you fire off another blast after the initial one, you take {@damage 1d8} necrotic damage. This necrotic damage ignores resistance and immunity, but doesn't force you to make Constitution saving throws to maintain concentration."],
+		"damageInflict": ["necrotic"],
+		"savingThrow": ["dexterity"],
+		"miscTags": ["SCL"],
+		"areaTags": ["L"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Warlock",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Dawnlantern",
+		"source": "Hergard",
+		"level": 3,
+		"school": "V",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "line",
+			"distance": {
+				"type": "feet",
+				"amount": 100
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true,
+			"m": "a polearm weapon, a sunflower petal"
+		},
+		"duration": [{
+			"type": "instant"
+		}],
+		"entries": ["Light collimates onto your polearm, concentrating into a lance of dazzling radiance. You fire the lance in a direction you choose, and it flies in a line 100 feet long and 5 feet wide. Your weapon returns to you after. Make a ranged spell attack for each creature in the line. On a hit, the target takes {@damage 4d6} radiant damage. Hit or miss, the lance flashes brilliantly as it passes through its targets. The target and all creatures within 5 feet of it must succeed on a Constitution saving throw or be {@condition blinded} for one minute. Undead and oozes have disadvantage on this saving throw.", "A {@condition blinded} creature must make a Constitution saving throw at the end of each of its turns. On a successful save, it is no longer {@condition blinded}."],
+		"entriesHigherLevel": [{
+			"name": "At Higher Levels",
+			"entries": ["When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@dice 1d6} for each slot level above 3rd."]
+		}],
+		"damageInflict": ["radiant"],
+		"conditionInflict": ["blinded"],
+		"spellAttack": ["R"],
+		"savingThrow": ["constitution"],
+		"areaTags": ["MT", "L"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Cleric",
+				"source": "PHB"
+			}, {
+				"name": "Druid",
+				"source": "PHB"
+			}, {
+				"name": "Paladin",
+				"source": "PHB"
+			}, {
+				"name": "Sorcerer",
+				"source": "PHB"
+			}, {
+				"name": "Warlock",
+				"source": "PHB"
+			}, {
+				"name": "Wizard",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Devil's Chains",
+		"source": "Hergard",
+		"level": 5,
+		"school": "C",
+		"time": [{
+			"number": 1,
+			"unit": "bonus"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 60
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true
+		},
+		"duration": [{
+			"type": "timed",
+			"duration": {
+				"type": "minute",
+				"amount": 1
+			},
+			"concentration": true
+		}],
+		"entries": ["You summon four animated barbed chains in unoccupied spaces within range. Each animated chain is an object with an AC of 20, 20 hit points, resistance to piercing damage, and immunity to poison, psychic and thunder damage. Each chain disappears when it is reduced to 0 hit points or when the spell ends.", "As an action, you can cause each chain created by this spell to lash out at a creature within 5 feet of it. Make a melee spell attack for each chain. On a hit, the target takes {@damage 2d6} slashing damage and is {@condition grappled} (escape DC equal to your spell save DC). Until the grapple ends, the target is {@condition restrained} and takes {@damage 2d6} piercing damage at the start of each of its turns. Each chain can only grapple one creature at a time, and can't attack another creature while it is grappling one."],
+		"entriesHigherLevel": [{
+			"name": "At Higher Levels",
+			"entries": ["When you cast this spell using a spell slot of 6th level or higher, you create one additional chain for each slot level above 5th."]
+		}],
+		"damageInflict": ["piercing", "slashing"],
+		"conditionInflict": ["restrained", "grappled"],
+		"spellAttack": ["M"],
+		"areaTags": ["MT"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Sorcerer",
+				"source": "PHB"
+			}, {
+				"name": "Warlock",
+				"source": "PHB"
+			}, {
+				"name": "Wizard",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Dissolve",
+		"source": "Hergard",
+		"level": 3,
+		"school": "T",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 30
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true,
+			"m": "a black dragon's scale"
+		},
+		"duration": [{
+			"type": "timed",
+			"duration": {
+				"type": "minute",
+				"amount": 1
+			},
+			"concentration": true
+		}],
+		"entries": ["A target of your choice that you can see within range begins to waste away, their outer layers afflicted with acidic corrosion. The target must make a Constitution saving throw. The target takes {@damage 6d4} acid damage on a failed save, or half as much damage on a successful one. On a failed save, the target also begins to dissolve for the spell's duration. At the end of each of its turns, the target repeats the saving throw. It takes {@damage 6d4} acid damage on a failed save, and the spell ends on a successful one.", "If you target a construct or a creature wearing metal armor, it makes the saving throws with disadvantage. If you target an object that isn't being worn or carried, it doesn't make a saving throw and the spell deals maximum damage to it.", "If you target a nonmagical surface, such as a stone wall or a metal floor, this spell dissolves a 5-foot square of it, and then the spell ends."],
+		"entriesHigherLevel": [{
+			"name": "At Higher Levels",
+			"entries": ["When you cast this spell using a spell slot of 4th level or higher, the initial damage increases by {@dice 2d4} for each slot level above 3rd."]
+		}],
+		"damageInflict": ["acid"],
+		"savingThrow": ["constitution"],
+		"areaTags": ["ST"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Artificer",
+				"source": "TCE"
+			}, {
+				"name": "Sorcerer",
+				"source": "PHB"
+			}, {
+				"name": "Wizard",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Dying Breath",
+		"source": "Hergard",
+		"level": 3,
+		"school": "D",
+		"time": [{
+			"number": 1,
+			"unit": "minute"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "touch"
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true,
+			"m": "four diamonds, each worth 50 gp"
+		},
+		"duration": [{
+			"type": "timed",
+			"duration": {
+				"type": "minute",
+				"amount": 10
+			},
+			"concentration": true
+		}],
+		"entries": ["You place two diamonds on your eyes, and two on the eyes of a creature's corpse that has been dead no longer than 1 month.", "For the duration of the spell, you experience the last 10 minutes of the creature's life through its eyes. You are considered blind, deaf and {@condition incapacitated} while concentrating on this spell. If any of the diamonds are moved, the spell ends.", "This spell has no effect on dead creatures currently reanimated by animate dead or another spell."],
+		"entriesHigherLevel": [{
+			"name": "At Higher Levels",
+			"entries": ["When you cast this spell using a spell slot of 7th level or higher, the corpse can have died up to 100 years ago."]
+		}],
+		"classes": {
+			"fromClassList": [{
+				"name": "Cleric",
+				"source": "PHB"
+			}, {
+				"name": "Druid",
+				"source": "PHB"
+			}, {
+				"name": "Paladin",
+				"source": "PHB"
+			}, {
+				"name": "Sorcerer",
+				"source": "PHB"
+			}, {
+				"name": "Witch",
+				"source": "Hergard"
+			}, {
+				"name": "Wizard",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Earthen Disk",
+		"source": "Hergard",
+		"level": 1,
+		"school": "T",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 30
+			}
+		},
+		"components": {
+			"s": true,
+			"m": "a rock or chunk of earth"
+		},
+		"duration": [{
+			"type": "instant"
+		}],
+		"entries": ["You raise a small disk of dirt or stone from the ground and send it flying at a target of your choice within range. Make a ranged spell attack against the target. On a hit, the target takes {@damage 2d8} bludgeoning damage and must succeed on a Strength saving throw or be knocked {@condition prone} if it is Medium or smaller."],
+		"entriesHigherLevel": [{
+			"name": "At Higher Levels",
+			"entries": ["When you cast this spell using a spell slot of 2nd level or higher, you create one additional disk for each slot level above 1st."]
+		}],
+		"damageInflict": ["bludgeoning"],
+		"conditionInflict": ["prone"],
+		"spellAttack": ["R"],
+		"savingThrow": ["strength"],
+		"areaTags": ["ST", "MT"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Druid",
+				"source": "PHB"
+			}, {
+				"name": "Ranger",
+				"source": "PHB"
+			}, {
+				"name": "Sorcerer",
+				"source": "PHB"
+			}, {
+				"name": "Wizard",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Eldritch Utterance",
+		"source": "Hergard",
+		"level": 0,
+		"school": "T",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 30
+			}
+		},
+		"components": {
+			"v": true
+		},
+		"duration": [{
+			"type": "timed",
+			"duration": {
+				"type": "minute",
+				"amount": 1
+			}
+		}],
+		"entries": ["You speak a mere fraction of an ancient being's true name, manifesting a sign of its power. You create one of the following magical effects within range:", {
+			"type": "list",
+			"items": ["You alter the size, shape and colour of your shadow, or the shadow of an object you can see within 30 feet of you, for 1 minute.", "Wispy fog swirls around you, leaving behind a trail when you move for 1 minute. This fog does not reach above 2 feet off the ground.", "When you speak, the voice of your patron speaks with you in tandem, just slightly out of sync, for 1 minute.", "You instantly chill or warm the air around you within 30 feet of you for 1 minute.", "You create a sound that originates from you, such as ominous whispers or whistling wind, that may persist for the duration of the spell. Coherent words cannot be created in this manner.", "You cause an object within range not being worn or carried to shake harmlessly.", "You give your form monstrous features resembling your patron, only for a split-second, before reverting back."]
+		}, "If you cast this spell multiple times, you can have up to three of its 1-minute effects active at a time, and you can dismiss such an effect as an action."],
+		"classes": {
+			"fromClassList": [{
+				"name": "Warlock",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Electric Field",
+		"source": "Hergard",
+		"level": 5,
+		"school": "V",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 60
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true,
+			"m": "a copper rod"
+		},
+		"duration": [{
+			"type": "timed",
+			"duration": {
+				"type": "minute",
+				"amount": 1
+			},
+			"concentration": true
+		}],
+		"entries": ["The air is filled with sparks and arcing electricity in a 15-foot square starting from a point within range. When a creature moves into the spell's area for the first time on a turn or starts its turn there, that creature must succeed on a Constitution saving throw or take {@damage 2d8} lightning damage and be {@condition stunned} until the start of its next turn.", "A creature resistant to lightning damage has advantage on the saving throw, and creatures immune to lightning damage automatically succeed."],
+		"entriesHigherLevel": [{
+			"name": "At Higher Levels",
+			"entries": ["When you cast this spell using a spell slot of 6th or higher level, the damage increases by {@dice 1d8} for each slot level above 5th."]
+		}],
+		"damageInflict": ["lightning"],
+		"conditionInflict": ["stunned"],
+		"areaTags": ["Q"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Wizard",
+				"source": "PHB"
+			}, {
+				"name": "Artificer",
+				"source": "TCE"
+			}]
+		}
+	}, {
+		"name": "Energy Eruption",
+		"source": "Hergard",
+		"level": 2,
+		"school": "V",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 60
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true
+		},
+		"duration": [{
+			"type": "instant"
+		}],
+		"entries": ["You flush the area around your companion with soul energy damaging any creature who dare stands too close.", "Any creature of your choice within 10 feet of your companion must make a Dexterity saving throw. A creature takes {@damage 3d10} force damage on a failed save, or half as much damage on a successful one."],
+		"entriesHigherLevel": [{
+			"name": "At Higher Levels",
+			"entries": ["When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@dice 1d10} for each slot level above 2nd."]
+		}],
+		"damageInflict": ["force"],
+		"savingThrow": ["dexterity"],
+		"areaTags": ["MT"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Soul Binder",
+				"source": "Hergard"
+			}]
+		}
+	}, {
+		"name": "Envenom",
+		"source": "Hergard",
+		"level": 4,
+		"school": "T",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "touch"
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true,
+			"m": "a wyvern's stinger"
+		},
+		"duration": [{
+			"type": "timed",
+			"duration": {
+				"type": "hour",
+				"amount": 1
+			},
+			"concentration": true
+		}],
+		"entries": ["You cause a weapon you touch to seep thick, black poison. Until the spell ends, the first time the wielder hits a creature with the weapon on each of their turns, it deals an additional {@damage 2d8} poison damage, and the target must succeed on a Constitution saving throw or be {@condition poisoned} until the end of their next turn."],
+		"damageInflict": ["poison"],
+		"conditionInflict": ["poisoned"],
+		"savingThrow": ["constitution"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Druid",
+				"source": "PHB"
+			}, {
+				"name": "Ranger",
+				"source": "PHB"
+			}, {
+				"name": "Warlock",
+				"source": "PHB"
+			}, {
+				"name": "Witch",
+				"source": "Hergard"
+			}, {
+				"name": "Wizard",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Etch",
+		"source": "Hergard",
+		"level": 0,
+		"school": "T",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "touch"
+			}
+		},
+		"components": {
+			"s": true,
+			"m": "a shard of crystallized bile"
+		},
+		"duration": [{
+			"type": "instant"
+		}],
+		"entries": ["This spell applies a small amount of acid to a nonmagical surface or object made of glass, metal, or stone that you touch, allowing you to produce one of the following effects of your choice:", {
+			"type": "list",
+			"items": ["You etch a design into the target, such as a sigil or a small message. The design can cover a 1 foot square of the surface.", "You corrode and deface the target, such as rusting iron, oxidizing copper, pockmarking stone, or clouding glass.", "You polish and refine the target, such as creating a mirrored metal surface, a smoothed stone, or crystal clear glass. This effect can also remove corrosion and defacement like rust and pockmarks, including those created by this spell."]
+		}, "The effects of this spell are merely superficial, and have no impact on the strength or other properties of the material."],
+		"classes": {
+			"fromClassList": [{
+				"name": "Wizard",
+				"source": "PHB"
+			}, {
+				"name": "Artificer",
+				"source": "TCE"
+			}, {
+				"name": "Soul Binder",
+				"source": "Hergard"
+			}, {
+				"name": "Witch",
+				"source": "Hergard"
+			}, {
+				"name": "Wizard",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Find Traps",
+		"source": "Hergard",
+		"level": 2,
+		"school": "D",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 120
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true
+		},
+		"duration": [{
+			"type": "timed",
+			"duration": {
+				"type": "minute",
+				"amount": 10
+			}
+		}],
+		"entries": ["You become aware of how many traps are present within range, and the general nature of the danger posed by the traps.", "A trap, for the purpose of this spell, includes anything that would inflict a sudden or unexpected effect you consider harmful or undesirable, which was specifically intended as such by its creator.", "Thus, the spell would sense an area affected by the {@spell alarm} spell, a {@spell glyph of warding}, or a mechanical pit trap, but it would not reveal a natural weakness in the floor, an unstable ceiling, or a hidden sinkhole.", "This magical sense goes through wood and softer materials, and it penetrates up to 5 feet of stone, 1 foot of metal, and 1 inch of lead.", "For the spell's duration, you have advantage on Intelligence (Investigation) and Wisdom (Perception) checks to locate traps."],
+		"abilityCheck": ["intelligence", "wisdom"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Cleric",
+				"source": "PHB"
+			}, {
+				"name": "Druid",
+				"source": "PHB"
+			}, {
+				"name": "Ranger",
+				"source": "PHB"
+			}],
+			"fromSubclass": [{
+				"class": {
+					"name": "Sorcerer",
+					"source": "PHB"
+				},
+				"subclass": {
+					"name": "Clockwork Soul (UA)",
+					"source": "UA2020SubclassesPt2"
+				}
+			}]
+		},
+		"races": [{
+			"name": "Half-Elf (Mark of Detection)",
+			"source": "ERLW",
+			"baseName": "Half-Elf",
+			"baseSource": "PHB"
+		}]
+	}, {
+		"name": "Flabbergast's Flurry of Flowers",
+		"source": "Hergard",
+		"level": 5,
+		"school": "C",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "self"
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true,
+			"m": "a melee weapon worth at least 1 sp"
+		},
+		"duration": [{
+			"type": "timed",
+			"duration": {
+				"type": "hour",
+				"amount": 1
+			},
+			"concentration": true
+		}],
+		"entries": ["A glowing five-petaled flower appears on your weapon, and a flurry of flower petals swirls around your space as your attacks become imbued with fey energy. For the duration, your melee weapon attacks deal an additional {@damage 1d8} slashing damage as razor sharp petals follow in their path.", "As a bonus action, you can expend one of the five glowing petals from the weapon to teleport in a flurry of petals up to 30 feet to a space you can see, within 5 feet of a hostile target. You can immediately make a weapon attack against that creature as part of the same bonus action.", "While flurry of flowers is active, if you kill a creature with a weapon attack, your weapon regains a petal, up to a maximum of five. The spell ends when all five petals have been expended or if you lose concentration."],
+		"entriesHigherLevel": [{
+			"name": "At Higher Levels",
+			"entries": ["When you cast this spell using a spell slot of 6th level or higher, the number of glowing petals on your weapon increases by one for each slot level above 5th."]
+		}],
+		"damageInflict": ["slashing"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Druid",
+				"source": "PHB"
+			}, {
+				"name": "Ranger",
+				"source": "PHB"
+			}, {
+				"name": "Warlock",
+				"source": "PHB"
+			}, {
+				"name": "Wizard",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Flame Blade",
+		"source": "Hergard",
+		"level": 2,
+		"school": "V",
+		"time": [{
+			"number": 1,
+			"unit": "bonus"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "self"
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true,
+			"m": "leaf of sumac"
+		},
+		"duration": [{
+			"type": "timed",
+			"duration": {
+				"type": "minute",
+				"amount": 10
+			}
+		}],
+		"entries": ["You evoke a fiery blade in your free hand. The blade is similar in size and shape to a scimitar, and it lasts for the duration. If you let go of the blade, it disappears, but you can evoke the blade again as a bonus action.", "You can use your action to make a melee spell attack with the fiery blade. On a hit, the target takes {@damage 3d6} fire damage.", "The flaming blade sheds bright light in a 10-foot radius and dim light for an additional 10 feet."],
+		"entriesHigherLevel": [{
+			"type": "entries",
+			"name": "At Higher Levels",
+			"entries": ["When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@scaledamage 3d6|2,4,6,8|1d6} for every two slot levels above 2nd."]
+		}],
+		"damageInflict": ["fire"],
+		"spellAttack": ["M"],
+		"areaTags": ["ST"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Druid",
+				"source": "PHB"
+			}],
+			"fromClassListVariant": [{
+				"name": "Sorcerer",
+				"source": "PHB",
+				"definedInSource": "UAClassFeatureVariants"
+			}, {
+				"name": "Sorcerer",
+				"source": "PHB",
+				"definedInSource": "TCE"
+			}]
+		},
+		"races": [{
+			"name": "Tiefling (Mephistopheles)",
+			"source": "MTF",
+			"baseName": "Tiefling",
+			"baseSource": "PHB"
+		}]
+	}, {
+		"name": "Focus Bolt",
+		"source": "Hergard",
+		"level": 0,
+		"school": "V",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 120
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true
+		},
+		"duration": [{
+			"type": "instant"
+		}],
+		"entries": ["You create a bolt of pure soul energy and fire it towards a creature within range. Make a ranged spell attack against the creature to mark it with your energy. On hit the target takes {@damage 1d6} force damage, and if your companion is within 30 feet of the creature, your companion can use it's reaction to move up to 15 feet towards that creature without provoking opportunity attacks.", "The spell's damage increases by one die when you reach 5th level {@dice 2d6}, 11th level {@dice 3d6}, and 17th level {@dice 4d6}."],
+		"damageInflict": ["force"],
+		"spellAttack": ["R"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Soul Binder",
+				"source": "Hergard"
+			}]
+		}
+	}, {
+		"name": "Galvanize",
+		"source": "Hergard",
+		"level": 1,
+		"school": "T",
+		"time": [{
+			"number": 1,
+			"unit": "minute"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "touch"
+			}
+		},
+		"components": {
+			"v": true,
+			"m": "a vial of acid worth at least 25gp"
+		},
+		"duration": [{
+			"type": "timed",
+			"duration": {
+				"type": "hour",
+				"amount": 8
+			}
+		}],
+		"entries": ["You touch an object, such as a suit of armor, a shield, or a weapon, and magically protect it from acid and corrosion. For the duration, the object is immune to the destructive effects of corrosive creatures such as rust monsters or oozes, and can't be destroyed by acid damage."],
+		"classes": {
+			"fromClassList": [{
+				"name": "Artificer",
+				"source": "TCE"
+			}, {
+				"name": "Wizard",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Geysers",
+		"source": "Hergard",
+		"level": 2,
+		"school": "C",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 30
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true,
+			"m": "a palm sized volcanic rock"
+		},
+		"duration": [{
+			"type": "timed",
+			"duration": {
+				"type": "minute",
+				"amount": 1
+			},
+			"concentration": true
+		}],
+		"entries": ["You cause a steaming geyser to momentarily spray from the ground from a point you can see within range. Each creature within 5 feet of the point must succeed on a Dexterity saving throw or take {@damage 2d6} fire damage and, if the creature is Large or smaller, be tossed 10 feet into the air by the geyser. Being underwater doesn't grant resistance against this damage.", "A tossed creature lands in an unoccupied space of your choice within 15 feet of the geyser, taking {@damage 1d6} bludgeoning damage from the fall. If a creature smacks into a ceiling or other object on their way up, they take {@damage 1d6} bludgeoning damage. On each of your turns until the spell ends, you can use your action to create a new geyser within range."],
+		"entriesHigherLevel": [{
+			"name": "At Higher Levels",
+			"entries": ["When you cast this spell using a spell slot of 3rd level or higher, the fire damage increases by {@dice 1d6} for each slot level above 2nd."]
+		}],
+		"damageInflict": ["bludgeoning", "fire"],
+		"savingThrow": ["dexterity"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Druid",
+				"source": "PHB"
+			}, {
+				"name": "Ranger",
+				"source": "PHB"
+			}, {
+				"name": "Sorcerer",
+				"source": "PHB"
+			}, {
+				"name": "Wizard",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Ghostfire",
+		"source": "Hergard",
+		"level": 3,
+		"school": "V",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "self"
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true,
+			"m": "a burnt match"
+		},
+		"duration": [{
+			"type": "instant"
+		}],
+		"entries": ["A ring of translucent blue flames briefly flares out from you in all directions. The ghostly flames spread around corners and trace the contours of the terrain. Creatures within 20 feet of you must each succeed on a Dexterity saving throw or take {@damage 4d6} fire damage and become outlined in a pale blue aura until the end of your next turn. On success a creature takes half as much damage and is not outlined.", "Any attack roll against an outlined creature has advantage if the attacker can see it, and the affected creature can't benefit from being {@condition invisible}."],
+		"entriesHigherLevel": [{
+			"name": "At Higher Levels",
+			"entries": ["When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@dice 1d6} for each slot level after 3rd."]
+		}],
+		"damageInflict": ["fire"],
+		"savingThrow": ["dexterity"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Sorcerer",
+				"source": "PHB"
+			}, {
+				"name": "Warlock",
+				"source": "PHB"
+			}, {
+				"name": "Witch",
+				"source": "Hergard"
+			}, {
+				"name": "Wizard",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Gleaming Arrow",
+		"source": "Hergard",
+		"level": 0,
+		"school": "V",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 120
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true
+		},
+		"duration": [{
+			"type": "instant"
+		}],
+		"entries": ["You launch an iridescent arrow from you hand, making a ranged spell attack against a creature within range. On a hit, the target takes {@damage 1d8} radiant damage and until the end of your next turn, you have advantage on saving throws against the target's spells and other magical effects.", "This spell's damage increases by {@dice 1d8} when you reach 5th level ({@dice 2d8}), 11th level ({@dice 3d8}), and 17th level ({@dice 4d8})."],
+		"damageInflict": ["radiant"],
+		"spellAttack": ["R"],
+		"areaTags": ["ST"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Warlock",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Halo",
+		"source": "Hergard",
+		"level": 5,
+		"school": "V",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "self"
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true
+		},
+		"duration": [{
+			"type": "timed",
+			"duration": {
+				"type": "minute",
+				"amount": 1
+			},
+			"concentration": true
+		}],
+		"entries": ["Radiant energy is expelled from you in a burst of intense light. Each creature within 10 feet of you must make a Strength saving throw. On a failed save, a creature takes {@damage 6d8} radiant damage and is pushed up to 10 feet away from you. On a successful save, a creature takes half as much damage and is not pushed.", "Then, the light settles into a 10-foot-radius ring centered on you, that moves with you for the duration. Whenever a creature willingly attempts to enter or leave the ring, you can attempt to block it from passing through the ring (no action required). That creature must make a Strength saving throw. On a failed save, it is unable to willingly pass through the ring until the start of its next turn. On a successful save, it is able to pass through the ring at-will until the start of its next turn.", "When a creature ends its turn within the ring, you can choose to deal {@damage 3d8} radiant damage to it.", "For the duration, you shed bright light in a 10-foot radius and dim light 10 feet beyond that."],
+		"entriesHigherLevel": [{
+			"name": "At Higher Levels",
+			"entries": ["When you cast this spell using a spell slot of 6th level or higher, both the initial damage and the damage dealt at the end of a creature's turn increases by {@dice 1d8} for each slot level above 5th."]
+		}],
+		"damageInflict": ["radiant"],
+		"savingThrow": ["strength"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Cleric",
+				"source": "PHB"
+			}, {
+				"name": "Paladin",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Hand of Heol",
+		"source": "Hergard",
+		"level": 1,
+		"school": "V",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "line",
+			"distance": {
+				"type": "feet",
+				"amount": 20
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true
+		},
+		"duration": [{
+			"type": "instant"
+		}],
+		"entries": ["You form radiant energy into a vaguely hand-shaped form that sweeps forward along a 5-foot-wide line that is up to 20 feet long. The line emanates from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes {@damage 2d6} radiant damage on a failed save, or half as much damage on a successful one.", "The furthest creature in the line must also make a Strength saving throw, as the hand attempts to grasp and throw, rather than merely passing through them. On a failed save, it takes {@damage 1d6} radiant damage and is thrown up to 15 feet in a horizontal direction of your choice."],
+		"entriesHigherLevel": [{
+			"name": "At Higher Levels",
+			"entries": ["When you cast this spell using a spell slot of 2nd level or higher, both the sweeping and the grasping hand's damage is increased by {@dice 1d6} for each slot level above 1st."]
+		}],
+		"damageInflict": ["radiant"],
+		"savingThrow": ["strength", "dexterity"],
+		"areaTags": ["L"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Sorcerer",
+				"source": "PHB"
+			}, {
+				"name": "Warlock",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Ice Cube",
+		"source": "Hergard",
+		"level": 3,
+		"school": "V",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "cube",
+			"distance": {
+				"type": "feet",
+				"amount": 30
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true,
+			"m": "a rectangular prism made of frozen water"
+		},
+		"duration": [{
+			"type": "instant"
+		}],
+		"entries": ["You call forth a wave of frigid air that fills a 30-foot cube originating from you, than momentarily freeze the entire area solid. Each creature in the area must make a Constitution saving throw. A creature takes {@damage 8d6} cold damage on a failed save, or half as much on a successful one.", "A creature killed by this spell becomes a frozen statue until it thaws."],
+		"entriesHigherLevel": [{
+			"name": "At Higher Levels",
+			"entries": ["When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@dice 1d6} for each slot level above 3rd."]
+		}],
+		"damageInflict": ["cold"],
+		"savingThrow": ["constitution"],
+		"areaTags": ["C"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Sorcerer",
+				"source": "PHB"
+			}, {
+				"name": "Wizard",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Ice Spear",
+		"source": "Hergard",
+		"level": 3,
+		"school": "C",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 30
+			}
+		},
+		"components": {
+			"s": true,
+			"m": "a drop of water or piece of ice"
+		},
+		"duration": [{
+			"type": "instant"
+		}],
+		"entries": ["You send a long, spear-like icicle hurtling at a target of your choice within range. Make a ranged spell attack against the target. On a hit, the target takes {@damage 3d8} cold damage and {@damage 3d8} piercing damage. Hit or miss, the spear then explodes into a cloud of frost. The target and each creature within 5 feet of it must succeed on a Constitution saving throw or have its speed reduced to 0 until the end of its next turn."],
+		"entriesHigherLevel": [{
+			"name": "At Higher Levels",
+			"entries": ["When you cast this spell using a spell slot of 4th level or higher, the cold and piercing damage each increase by {@dice 1d8} for each slot level above 3rd."]
+		}],
+		"damageInflict": ["cold", "piercing"],
+		"spellAttack": ["R"],
+		"savingThrow": ["constitution"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Druid",
+				"source": "PHB"
+			}, {
+				"name": "Sorcerer",
+				"source": "PHB"
+			}, {
+				"name": "Wizard",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Icicle Tempest",
+		"source": "Hergard",
+		"level": 8,
+		"school": "C",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 120
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true
+		},
+		"duration": [{
+			"type": "timed",
+			"duration": {
+				"type": "minute",
+				"amount": 1
+			}
+		}],
+		"entries": ["You bring forth a tumultuous storm from the Realm of Winter in a 60-foot radius, 300-foot high cylinder within range. A creature that starts its turn inside the storm must make a Dexterity saving throw or take {@damage 3d6} piercing damage and {@damage 3d6} cold damage as foot-long icicles plummet down upon them. As of the casting of this spell, you can determine creatures to be unaffected by it.", "A creature that ends its turn within the area of the spell must make a Constitution saving throw, taking 20 cold damage on a failed save or half as much on a successful one.", "After one round, the ground within the area of the storm becomes difficult terrain."],
+		"damageInflict": ["cold", "piercing"],
+		"savingThrow": ["dexterity", "constitution"],
+		"areaTags": ["Y"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Druid",
+				"source": "PHB"
+			}, {
+				"name": "Sorcerer",
+				"source": "PHB"
+			}, {
+				"name": "Wizard",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Ludmilla's Dream Shape",
+		"source": "Hergard",
+		"level": 0,
+		"school": "E",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 5
+			}
+		},
+		"components": {
+			"s": true,
+			"m": "a pinch of sand"
+		},
+		"duration": [{
+			"type": "timed",
+			"duration": {
+				"type": "hour",
+				"amount": 8
+			}
+		}],
+		"entries": ["With this spell you are able to alter the dreams of a creature of 3 intelligence or higher who is about to sleep or is currently sleeping. You are able to alter their dreams to make them generally pleasant or unpleasant. Dreams altered will not wake up the individual, and what constitutes pleasant/ unpleasant depends on the discretion of the targeted creature.", "At 5th level, you have greater control of the dreams you shape, thus you are able to make the target have lucid dreams and nightmares.", "At 11th level, you are able to dictate the subject of the dream (people, events, themes) but not the outcome.", "At 17th level, you can fully change the dreams of the subject and you may choose for the target of this spell to have advantage on resisting the effects of the {@spell dream} spell."],
+		"areaTags": ["ST"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Bard",
+				"source": "PHB"
+			}, {
+				"name": "Sorcerer",
+				"source": "PHB"
+			}, {
+				"name": "Warlock",
+				"source": "PHB"
+			}, {
+				"name": "Witch",
+				"source": "Hergard"
+			}, {
+				"name": "Wizard",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Mage Fist",
+		"source": "Hergard",
+		"level": 2,
+		"school": "T",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "self"
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true,
+			"m": "knuckles made of iron or silver"
+		},
+		"duration": [{
+			"type": "timed",
+			"duration": {
+				"type": "minute",
+				"amount": 1
+			},
+			"concentration": true
+		}],
+		"entries": ["You imbue your fists with arcane energy and strike. Choose one stance from the list below. When you cast the spell, and as an action on subsequent turns until the spell ends, you can make a melee spell attack against a target within reach, which deals {@damage 2d6} + your spellcasting ability modifier damage, the type of which is determined by the stance you chose. You can change your chosen stance using a bonus action.", "{@b {@i Electrifying Fist.}} The attack deals lightning damage. When you hit a creature with the attack, a bolt of lightning jumps to another target within 5 feet of the first, dealing lightning damage equal to your spellcasting ability modifier.", "{@b {@i Flaming Fist.}} The attack deals fire damage. When you hit a creature with the attack, it takes fire damage equal to your spellcasting ability modifier at the start of its next turn. Your fists shed bright light out to a distance of 5 feet, and dim light for another 5 feet.", "{@b {@i Forceful Fist.}} The attack deals force damage. When you hit a creature with the attack, it is pushed back 5 feet.", "{@b {@i Freezing Fist.}} The attack deals cold damage. When you hit a creature with the attack, its walking speed reduced by 15 feet until the end of its next turn.", "{@b {@i Negative Energy Fist.}} The attack deals necrotic damage. Whenever a creature you hit with the attack would regain hit points until the end of your next turn, it instead takes necrotic damage equal to your spellcasting ability modifier."],
+		"entriesHigherLevel": [{
+			"name": "At Higher Levels",
+			"entries": ["When you cast this spell using a spell slot of 3rd-level or higher, the damage of the attack increases by {@dice 1d6} for every two slot levels above 2nd."]
+		}],
+		"damageInflict": ["cold", "fire", "force", "lightning", "necrotic"],
+		"spellAttack": ["M"],
+		"areaTags": ["ST"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Sorcerer",
+				"source": "PHB"
+			}, {
+				"name": "Wizard",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Mass Tilt",
+		"source": "Hergard",
+		"level": 5,
+		"school": "I",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "cube",
+			"distance": {
+				"type": "feet",
+				"amount": 30
+			}
+		},
+		"components": {
+			"s": true,
+			"m": {
+				"text": "two copper coins, which are consumed if no creature fails their saving throw",
+				"consumed": true,
+				"cost": 2
+			}
+		},
+		"duration": [{
+			"type": "instant"
+		}],
+		"entries": ["A wave of vertigo erupts from your hands as the world bends, spins, and collapses in the minds of your enemies. Choose up to ten creatures within range. Target creatures must succeed on an Intelligence saving throw, or else fall {@condition prone} and slide 20 feet in a straight line in a direction of your choice. If the target would fall off a ledge as a result of this movement, it can make a Strength or Dexterity saving throw to prevent itself from falling and end the movement."],
+		"savingThrow": ["dexterity", "intelligence"],
+		"areaTags": ["MT"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Sorcerer",
+				"source": "PHB"
+			}, {
+				"name": "Warlock",
+				"source": "PHB"
+			}, {
+				"name": "Wizard",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Melting Kiss",
+		"source": "Hergard",
+		"level": 2,
+		"school": "V",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "touch"
+			}
+		},
+		"components": {
+			"v": true,
+			"m": "a vulture's stomach lined with emerald dust worth 30gp"
+		},
+		"duration": [{
+			"type": "timed",
+			"duration": {
+				"type": "minute",
+				"amount": 1
+			},
+			"concentration": true
+		}],
+		"entries": ["Using your pursed lips, you plant a caustic mark on a creature or object. Make a melee spell attack. On a hit, the target takes {@damage 1d4} acid damage at the start of each of its turns for the duration."],
+		"entriesHigherLevel": [{
+			"name": "At Higher Levels",
+			"entries": ["When you cast this spell using a spell slot of 5th level or higher, you can maintain your concentration on the spell for up to 10 minutes. When you use a spell slot of 9th level, you can maintain your concentration on the spell for up to 1 hour."]
+		}],
+		"damageInflict": ["acid"],
+		"spellAttack": ["M"],
+		"areaTags": ["ST"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Bard",
+				"source": "PHB"
+			}, {
+				"name": "Sorcerer",
+				"source": "PHB"
+			}, {
+				"name": "Witch",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Mordenkainen's Sword",
+		"source": "Hergard",
+		"level": 7,
+		"school": "V",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 60
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true,
+			"m": {
+				"text": "a miniature platinum sword with a grip and pommel of copper and zinc, worth 250 gp",
+				"cost": 25000
+			}
+		},
+		"duration": [{
+			"type": "timed",
+			"duration": {
+				"type": "minute",
+				"amount": 1
+			}
+		}],
+		"entries": ["You create a sword-shaped plane of force that hovers within range. It lasts for the duration.", "When the sword appears, you make a melee spell attack against a target of your choice within 5 feet of the sword. On a hit, the target takes {@damage 4d10} force damage. Until the spell ends, you can use a bonus action on each of your turns to move the sword up to 20 feet to a spot you can see and repeat this attack against the same target or a different one."],
+		"damageInflict": ["force"],
+		"spellAttack": ["M"],
+		"miscTags": ["SGT"],
+		"areaTags": ["ST"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Bard",
+				"source": "PHB"
+			}, {
+				"name": "Wizard",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Penance",
+		"source": "Hergard",
+		"level": 1,
+		"school": "V",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 30
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true
+		},
+		"duration": [{
+			"type": "instant"
+		}],
+		"entries": ["Choose a creature you can see within range that has damaged a friendly creature since the end of your last turn. The target must make a Wisdom saving throw. On a failed save, it takes {@damage 2d6} psychic damage, or half as much damage on a successful one.", "If the last friendly creature your target attacked is within 20 feet of the target, it regains hit points equal to half the psychic damage dealt."],
+		"entriesHigherLevel": [{
+			"name": "At Higher Levels",
+			"entries": ["When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@dice 1d6} for each slot level above 1st."]
+		}],
+		"damageInflict": ["psychic"],
+		"savingThrow": ["wisdom"],
+		"miscTags": ["HL"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Paladin",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Phantom Workshop",
+		"source": "Hergard",
+		"level": 3,
+		"school": "C",
+		"time": [{
+			"number": 10,
+			"unit": "minute"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "touch"
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true,
+			"m": "a blank sheet of parchment"
+		},
+		"duration": [{
+			"type": "timed",
+			"duration": {
+				"type": "hour",
+				"amount": 8
+			}
+		}],
+		"meta": {
+			"ritual": true
+		},
+		"entries": ["This spell creates a temporary quasi-real workshop in a 10-feet-by-10-feet area. Choose a type of artisan's tools. A workshop containing those tools and its associated gear appears. For example, choosing Smith's Tools would cause quasi-real hammers, tongs, pliers to appear along with an anvil, forge, fuel and bellows. A person who is proficient with the chosen tools can use this phantom workshop as effectively as a real workshop.", "Any of the equipment or materials created by the spell vanishes in a puff of smoke if it is carried outside the area or when the spell ends. Therefore, it's necessary to provide real raw materials to create anything that lasts after the spell ends."],
+		"classes": {
+			"fromClassList": [{
+				"name": "Artificer",
+				"source": "TCE"
+			}]
+		}
+	}, {
+		"name": "Poison Darts",
+		"source": "Hergard",
+		"level": 1,
+		"school": "T",
+		"time": [{
+			"number": 1,
+			"unit": "bonus"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "touch"
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true
+		},
+		"duration": [{
+			"type": "timed",
+			"duration": {
+				"type": "minute",
+				"amount": 1
+			}
+		}],
+		"entries": ["You touch one to three darts and imbue them with poison. You or someone else can make a ranged spell attack with one of the darts by throwing it or blowing it through a blowgun. If someone else attacks with the dart, they use your spellcasting ability modifier for the attack roll.", "On a hit, the target takes poison damage equal to {@dice 2d6} + your spellcasting ability modifier. Whether the attack hits or misses, the spell then ends on the dart."],
+		"damageInflict": ["poison"],
+		"spellAttack": ["R"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Artificer",
+				"source": "TCE"
+			}, {
+				"name": "Druid",
+				"source": "PHB"
+			}, {
+				"name": "Ranger",
+				"source": "PHB"
+			}, {
+				"name": "Wizard",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Purge",
+		"source": "Hergard",
+		"level": 0,
+		"school": "A",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 30
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true
+		},
+		"duration": [{
+			"type": "instant"
+		}],
+		"entries": ["Choose a humanoid that you can see within range. That creature can immediately make a saving throw against an effect that allows it to make saving throws on each of its turns. Alternatively, the creature can make a saving throw against a disease that is afflicting it. If they choose to make a saving throw against this disease, that creature is unaffected by further castings of this spell until they finish a long rest."],
+		"classes": {
+			"fromClassList": [{
+				"name": "Cleric",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Raw Magic Burst",
+		"source": "Hergard",
+		"level": 8,
+		"school": "C",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 120
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true,
+			"m": "an item associated with the plane of existence you channel the spell's power from, such as a feather from the Upper planes"
+		},
+		"duration": [{
+			"type": "timed",
+			"duration": {
+				"type": "minute",
+				"amount": 1
+			},
+			"concentration": true
+		}],
+		"entries": ["Raw magic pours from your form like water as you channel powerful magic from the very fabric of a plane of your choosing.", "Each creature in a 20-foot-radius sphere centered on that point must make a Dexterity saving throw. A creature takes {@damage 10d10} damage on a failed save, or half as much damage ona successful one. Additionally, the a creature injured by the spell suffers half of the damage it sustained again at the end of its next turn. The damage's type is determined by the plane from which the caster channels power from.", {
+			"type": "table",
+			"caption": "Raw Magic Burst",
+			"colLabels": ["Plane", "Damage Type"],
+			"colStyles": ["col-1", "col-1"],
+			"rows": [
+				["Prime Material", "Slashing"],
+				["Feywild", "Psychic"],
+				["Ethereal", "Force"],
+				["Shadow", "Necrotic"],
+				["Kingdom of Never", "Fire"],
+				["Abyss", "Lightning"],
+				["Pandemonium", "Thunder"],
+				["Kingdom of Always", "Radiant"]
+			]
+		}],
+		"damageInflict": ["fire", "force", "lightning", "necrotic", "psychic", "radiant", "slashing", "thunder"],
+		"savingThrow": ["dexterity"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Sorcerer",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Ray of Enfeeblement",
+		"source": "Hergard",
+		"level": 2,
+		"school": "N",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 60
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true
+		},
+		"duration": [{
+			"type": "timed",
+			"duration": {
+				"type": "minute",
+				"amount": 1
+			},
+			"concentration": true
+		}],
+		"entries": ["A black beam of enervating energy springs from your finger toward a creature within range. Make a ranged spell attack against the target. On a hit, the target deals only half damage with weapon attacks that use Strength or Dexterity until the spell ends.", "At the end of each of the target's turns, it can make a Constitution saving throw against the spell. On a success, the spell ends."],
+		"spellAttack": ["R"],
+		"savingThrow": ["constitution"],
+		"areaTags": ["ST"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Warlock",
+				"source": "PHB"
+			}, {
+				"name": "Wizard",
+				"source": "PHB"
+			}, {
+				"name": "Witch",
+				"source": "Hergard"
+			}],
+			"fromSubclass": [{
+				"class": {
+					"name": "Cleric",
+					"source": "PHB"
+				},
+				"subclass": {
+					"name": "Death",
+					"source": "DMG"
+				}
+			}, {
+				"class": {
+					"name": "Cleric",
+					"source": "PHB"
+				},
+				"subclass": {
+					"name": "Grave (UA)",
+					"source": "UAClericDivineDomains"
+				}
+			}, {
+				"class": {
+					"name": "Cleric",
+					"source": "PHB"
+				},
+				"subclass": {
+					"name": "Ambition (PSA)",
+					"source": "PSA"
+				}
+			}, {
+				"class": {
+					"name": "Cleric",
+					"source": "PHB"
+				},
+				"subclass": {
+					"name": "Grave",
+					"source": "XGE"
+				}
+			}, {
+				"class": {
+					"name": "Paladin",
+					"source": "PHB"
+				},
+				"subclass": {
+					"name": "Redemption (UA)",
+					"source": "UAATrioOfSubclasses"
+				}
+			}, {
+				"class": {
+					"name": "Druid",
+					"source": "PHB"
+				},
+				"subclass": {
+					"name": "Spores (UA)",
+					"source": "UAThreeSubclasses"
+				}
+			}]
+		},
+		"backgrounds": [{
+			"name": "Golgari Agent",
+			"source": "GGR"
+		}, {
+			"name": "Orzhov Representative",
+			"source": "GGR"
+		}]
+	}, {
+		"name": "Roam",
+		"source": "Hergard",
+		"level": 6,
+		"school": "C",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "self"
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true,
+			"m": "a twinkling mushroom"
+		},
+		"duration": [{
+			"type": "timed",
+			"duration": {
+				"type": "minute",
+				"amount": 10
+			},
+			"concentration": true
+		}],
+		"entries": ["You call upon the Feywilds and invite them to roam with you. Until the spell ends, the Feywilds pour into a 20-foot radius sphere around you, which remains centered on you. The Fey incites glowing mushrooms, pastel flowers, and twinkles to appear on natural surfaces within the sphere. Bright light and darkness within the area are turned into a sleepy dim light.", "On each of your turns until the spell ends, you can use your action to target another creature within the sphere and attempt to put it to sleep. The creature must succeed on a Wisdom saving throw or fall {@condition unconscious} until the spell ends, the sleeper takes damage, or someone uses an action to shake or slap the them awake. You can't target a creature again if it has succeeded on a saving throw against this casting of roam. Undead and creatures immune to being {@condition charmed} aren't affected by this spell.", "Additionally, if any creature attempts to travel to a different plane of existence other than the Feywilds from within the sphere, they must succeed on a Wisdom saving throw or instead appear at a random location within the Feywilds."],
+		"conditionInflict": ["unconscious"],
+		"savingThrow": ["wisdom"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Druid",
+				"source": "PHB"
+			}, {
+				"name": "Warlock",
+				"source": "PHB"
+			}, {
+				"name": "Witch",
+				"source": "Hergard"
+			}]
+		}
+	}, {
+		"name": "Rotting Gaze",
+		"source": "Hergard",
+		"level": 0,
+		"school": "N",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 30
+			}
+		},
+		"components": {
+			"s": true
+		},
+		"duration": [{
+			"type": "instant"
+		}],
+		"entries": ["You shoot a beam of necrotic energy from your eyes at a creature you can see within range. The target must succeed on a Constitution saving throw or take {@damage 1d10} necrotic damage. If the target is a plant or is suffering from a disease, it instead takes {@damage 1d12} necrotic damage.", "The spell's damage increases by one die when you reach 5th level ({@dice 2d10} or {@dice 2d12}), 11th level ({@dice 3d10} or {@dice 3d12}), and 17th level ({@dice 4d10} or {@dice 4d12})."],
+		"damageInflict": ["necrotic"],
+		"savingThrow": ["constitution"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Druid",
+				"source": "PHB"
+			}, {
+				"name": "Sorcerer",
+				"source": "PHB"
+			}, {
+				"name": "Warlock",
+				"source": "PHB"
+			}, {
+				"name": "Witch",
+				"source": "Hergard"
+			}]
+		}
+	}, {
+		"name": "Shadowgaze",
+		"source": "Hergard",
+		"level": 0,
+		"school": "D",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 120
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true
+		},
+		"duration": [{
+			"type": "instant"
+		}],
+		"entries": ["You attempt to pry into the psyche of a creature that you can see within range. The target must make a Wisdom saving throw. On a failure, the target takes {@damage 1d6} psychic damage and you have advantage on attack rolls made against the target until the end of your next turn.", "As a bonus action, you can make an Intelligence check to recall lore and information about the target until the end of your next turn.", "This spell's damage increases by {@dice 1d6} when you reach 5th level ({@dice 2d6}), 11th level ({@dice 3d6}), and 17th level ({@dice 4d6})."],
+		"damageInflict": ["psychic"],
+		"savingThrow": ["wisdom"],
+		"abilityCheck": ["intelligence"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Warlock",
+				"source": "PHB"
+			}, {
+				"name": "Witch",
+				"source": "Hergard"
+			}]
+		}
+	}, {
+		"name": "Snake Trap",
+		"source": "Hergard",
+		"level": 2,
+		"school": "I",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 5
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true,
+			"m": "the fang of a serpent"
+		},
+		"duration": [{
+			"type": "timed",
+			"duration": {
+				"type": "hour",
+				"amount": 1
+			}
+		}],
+		"entries": ["You place the image of a small, coiled snake in an unoccupied space within range, acting as a trap. The trap is nearly {@condition invisible}, requiring a successful Intelligence (Investigation) check against your spell save DC to be discerned.", "The trap triggers the first time a Small, Medium, or Large creature moves into the trap's space. The creature must make a Dexterity saving throw. On a failed save, they are suddenly bitten by the illusory snake, taking {@damage 1d12} poison damage and becoming {@condition poisoned} until the spell ends. On a successful save, they take half damage, are not {@condition poisoned} and the spell ends. At the end of each of its turns, a {@condition poisoned} target can make a Constitution saving throw. On a success, the spell ends."],
+		"damageInflict": ["poison"],
+		"savingThrow": ["dexterity", "constitution"],
+		"abilityCheck": ["intelligence"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Artificer",
+				"source": "TCE"
+			}, {
+				"name": "Druid",
+				"source": "PHB"
+			}, {
+				"name": "Ranger",
+				"source": "PHB"
+			}, {
+				"name": "Wizard",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Soul Punch",
+		"source": "Hergard",
+		"level": 1,
+		"school": "T",
+		"time": [{
+			"number": 1,
+			"unit": "reaction",
+			"condition": "which you take when your companion hits a creature with an attack within range"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 5
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true
+		},
+		"duration": [{
+			"type": "instant"
+		}],
+		"entries": ["After your companion attacks a creature, you are ready to follow through with an infused punch that the target will feel in their very soul. Make a melee spell attack against the creature your companion just hit. On a hit, the target takes {@damage 2d8} force damage."],
+		"entriesHigherLevel": [{
+			"name": "At Higher Levels",
+			"entries": ["When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@dice 1d8} for each slot level above 1st."]
+		}],
+		"damageInflict": ["force"],
+		"spellAttack": ["M"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Soul Binder",
+				"source": "ToB"
+			}]
+		}
+	}, {
+		"name": "Soul Switch",
+		"source": "Hergard",
+		"level": 1,
+		"school": "C",
+		"time": [{
+			"number": 1,
+			"unit": "bonus"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 30
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true
+		},
+		"duration": [{
+			"type": "instant"
+		}],
+		"entries": ["You and your companion switch positions as you step through the Ethereal plane. You appear in your companion's space and it appears in your previous location."],
+		"entriesHigherLevel": [{
+			"name": "At Higher Levels",
+			"entries": ["When you cast this spell using a spell slot of 2nd level or higher, the range of this spell increases by 30 feet for each slot level above 1st."]
+		}],
+		"miscTags": ["TP"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Soul Binder",
+				"source": "Hergard"
+			}]
+		}
+	}, {
+		"name": "Splash",
+		"source": "Hergard",
+		"level": 0,
+		"school": "C",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 15
+			}
+		},
+		"components": {
+			"s": true
+		},
+		"duration": [{
+			"type": "instant"
+		}],
+		"entries": ["You conjure a blast of water that buffets a Medium or smaller creature within range. The target must succeed on a Strength saving throw or take {@damage 1d8} bludgeoning damage and be pushed up to 5 feet away from your position in a straight line.", "The spell's damage increases by {@dice 1d8} when you reach 5th level ({@dice 2d8}), 11th level ({@dice 3d8}), and 17th level ({@dice 4d8})."],
+		"damageInflict": ["bludgeoning"],
+		"savingThrow": ["strength"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Druid",
+				"source": "PHB"
+			}, {
+				"name": "Sorcerer",
+				"source": "PHB"
+			}, {
+				"name": "Warlock",
+				"source": "PHB"
+			}, {
+				"name": "Wizard",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Sprout Plants",
+		"source": "Hergard",
+		"level": 2,
+		"school": "C",
+		"time": [{
+			"number": 1,
+			"unit": "minute"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 5
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true,
+			"m": "10 gp worth of enchanted seeds and water that must be buried in soil as part of the casting"
+		},
+		"duration": [{
+			"type": "timed",
+			"duration": {
+				"type": "hour",
+				"amount": 1
+			},
+			"concentration": true
+		}],
+		"entries": ["You cause plant creatures to sprout from the earth in unoccupied spaces that you can see within range. Choose one of the following options for what appears:", {
+			"type": "list",
+			"items": ["One plant of challenge rating 2 or lower", "Two plants of challenge rating 1 or lower", "Four plants of challenge rating 1/2 or lower", "Eight plants of challenge rating 1/4 or lower"]
+		}, "A plant summoned by this spell disappears when it drops to 0 hit points or when the spell ends.", "The plants created are friendly to you and your companions. Roll initiative for the plants as a group, which has its own turns. They obey any verbal commands that you issue to them (no action required by you). If you don't issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions.", "The DM has the creatures' statistics."],
+		"entriesHigherLevel": [{
+			"name": "At Higher Levels",
+			"entries": ["When you cast this spell using certain higher-level spell slots, you choose one of the growing options above, and more creatures appear: twice as many with a 5th-level slot and three times as many with an 7th-level slot."]
+		}],
+		"miscTags": ["SMN"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Druid",
+				"source": "PHB"
+			}, {
+				"name": "Ranger",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Stone Fist",
+		"source": "Hergard",
+		"level": 0,
+		"school": "V",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 5
+			}
+		},
+		"components": {
+			"s": true
+		},
+		"duration": [{
+			"type": "instant"
+		}],
+		"entries": ["Stone coalesces around your fist, as you smash it into a target within range. Make a melee spell attack against the target. On a hit, the target takes {@damage 1d6} bludgeoning damage. Additionally, if a target takes this damage and isn't larger than you, it must succeed on a Strength saving throw or be knocked {@condition prone}.", "The spell's damage increases by {@dice 1d6} when you reach 5th level ({@dice 2d6}), 11th level ({@dice 3d6}), and 17th level ({@dice 4d6})."],
+		"damageInflict": ["bludgeoning"],
+		"conditionInflict": ["prone"],
+		"spellAttack": ["M"],
+		"savingThrow": ["strength"],
+		"areaTags": ["ST"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Artificer",
+				"source": "TCE"
+			}, {
+				"name": "Druid",
+				"source": "PHB"
+			}, {
+				"name": "Sorcerer",
+				"source": "PHB"
+			}, {
+				"name": "Wizard",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Stone Sap",
+		"source": "Hergard",
+		"level": 2,
+		"school": "T",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "touch"
+			}
+		},
+		"components": {
+			"s": true,
+			"m": "a hammer and chisel"
+		},
+		"duration": [{
+			"type": "timed",
+			"duration": {
+				"type": "hour",
+				"amount": 1
+			}
+		}],
+		"entries": ["You touch a stone object of Large size or smaller or a section of stone no more than 10 feet in any dimension and disrupt its structural integrity. The object or section of stone has vulnerability to bludgeoning and piercing damage for the duration. If the target is reduced to 0 hit points or otherwise destroyed, the spell ends."],
+		"classes": {
+			"fromClassList": [{
+				"name": "Artificer",
+				"source": "TCE"
+			}, {
+				"name": "Ranger",
+				"source": "PHB"
+			}, {
+				"name": "Wizard",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Thrashing Tether",
+		"source": "Hergard",
+		"level": 1,
+		"school": "V",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 30
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true
+		},
+		"duration": [{
+			"type": "timed",
+			"duration": {
+				"type": "minute",
+				"amount": 1
+			},
+			"concentration": true
+		}],
+		"entries": ["You send a pulse of energy through the bond that links you and your companion, damaging any enemy that stands between you.", "Any creature caught in a 5 feet wide line leading from you to your companion, must make a Dexterity saving throw. A creature takes {@damage 1d12} force damage on a failed save, or half as much damage on a successful one.", "On subsequent turns, you can use an action to send another pulse though the tether, and repeat the effect from when the spell was cast.", "If you or your companion move more than 30 feet apart, the spell ends."],
+		"entriesHigherLevel": [{
+			"name": "At Higher Levels",
+			"entries": ["When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@dice 1d12} for each slot level above 1st."]
+		}],
+		"damageInflict": ["force"],
+		"savingThrow": ["dexterity"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Soul Binder",
+				"source": "Hergard"
+			}]
+		}
+	}, {
+		"name": "Tilt",
+		"source": "Hergard",
+		"level": 1,
+		"school": "I",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 30
+			}
+		},
+		"components": {
+			"s": true,
+			"m": "a small metal ball and spring"
+		},
+		"duration": [{
+			"type": "instant"
+		}],
+		"entries": ["You twist a creature's sense of balance and trick it into seeing the world shift beneath its feet. Choose a creature on a surface within range.", "The target must succeed on an Intelligence saving throw, or fall {@condition prone} and slide 20 feet in a straight line in a direction of your choice. If the target would fall off a ledge as a result of this movement, it can make a Strength or Dexterity saving throw to prevent itself from falling and end the movement."],
+		"entriesHigherLevel": [{
+			"name": "At Higher Levels",
+			"entries": ["When you cast this spell using a spell slot of 2nd level or higher, you can target an additional creature for each slot level above 1st."]
+		}],
+		"conditionInflict": ["prone"],
+		"savingThrow": ["intelligence"],
+		"areaTags": ["ST"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Sorcerer",
+				"source": "PHB"
+			}, {
+				"name": "Warlock",
+				"source": "PHB"
+			}, {
+				"name": "Wizard",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Totemic Quiver",
+		"source": "Hergard",
+		"level": 4,
+		"school": "E",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "touch"
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true,
+			"m": "a quiver"
+		},
+		"duration": [{
+			"type": "timed",
+			"duration": {
+				"type": "minute",
+				"amount": 1
+			},
+			"concentration": true
+		}],
+		"entries": ["You touch a quiver containing arrows or bolts, imbuing the ammunition with the spirit of a beast, plant, or fungus. For the duration, any creature hit by an arrow is subject to the spirit's associated effect (see below), in addition to the attack's normal effects. As a bonus action whilst the spell is active, the caster may change which spirit imbues the quiver.", "{@b {@i Cat.}} The target takes an additional {@damage 1d6} slashing damage and must make a Constitution saving throw. On a failed save, the creature takes {@damage 2d6} slashing damage at the start of its next turn, or half as much on a successful one.", "{@b {@i Elk.}} The target takes an additional {@damage 1d6} bludgeoning damage and must succeed on a Strength saving throw or be knocked {@condition prone}.", "{@b {@i Fungus.}} The target must succeed on a Wisdom saving throw or become confused as per the confusion spell until the end of your next turn.", "{@b {@i Hawk.}} The target must succeed on a Strength saving throw or become {@condition grappled} (escape DC equals the spell save DC) and lifted 10 feet into the air until the end of your next turn. If there isn't enough room to be lifted 10 feet, the creature is lifted to the maximum possible height.", "{@b {@i Hogweed.}} The target must succeed on a Constitution saving throw or become {@condition blinded} until the end of your next turn.", "{@b {@i Snake.}} The target must succeed on a Constitution saving throw or become {@condition poisoned}. It may repeat the saving throw at the end of each of its turns, recovering from the poison on a success.", "{@b {@i Spider.}} The target must succeed on a Dexterity saving throw or become {@condition restrained} until the end of your next turn."],
+		"entriesHigherLevel": [{
+			"name": "At Higher Levels",
+			"entries": ["When you cast this spell using a spell slot of 5th level or higher, the duration of this spell increases to: Concentration, up to 1 hour."]
+		}],
+		"damageInflict": ["bludgeoning", "radiant", "slashing"],
+		"conditionInflict": ["prone", "grappled", "blinded", "poisoned", "restrained"],
+		"savingThrow": ["strength", "dexterity", "constitution", "wisdom"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Ranger",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "True Shield",
+		"source": "Hergard",
+		"level": 5,
+		"school": "A",
+		"time": [{
+			"number": 1,
+			"unit": "reaction",
+			"condition": "which you take when you are hit by an attack or make a saving throw against a spell or effect and would take damage"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "self"
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true
+		},
+		"duration": [{
+			"type": "timed",
+			"duration": {
+				"type": "round",
+				"amount": 1
+			}
+		}],
+		"entries": ["A sphere of energy erupts from you, encasing and protecting you. Until the end of your next turn, the shield absorbs up to 50 damage that you would've taken, including the triggering attack, spell, or effect, leaving you unharmed. Line effects and spells, such as {@spell lightning bolt} and some dragon's breaths, stop completely at the sphere (if its damage is entirely absorbed). The shield reflects a {@spell magic missile} spell back to the caster instead of absorbing the damage."],
+		"entriesHigherLevel": [{
+			"name": "At Higher Levels",
+			"entries": ["When you cast this spell using a spell slot of 6th level or higher, the amount of damage the shield absorbs increases by 10 for each slot level above 5th."]
+		}],
+		"classes": {
+			"fromClassList": [{
+				"name": "Artificer",
+				"source": "TCE"
+			}, {
+				"name": "Sorcerer",
+				"source": "PHB"
+			}, {
+				"name": "Soul Binder",
+				"source": "Hergard"
+			}, {
+				"name": "Wizard",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Wall of Glass",
+		"source": "Hergard",
+		"level": 2,
+		"school": "V",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 60
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true,
+			"m": "a shard of glass or clear quartz"
+		},
+		"duration": [{
+			"type": "timed",
+			"duration": {
+				"type": "minute",
+				"amount": 10
+			},
+			"concentration": true
+		}],
+		"entries": ["You create a wall of glass on a solid surface at a point you choose within range. The wall appears in any orientation you choose, as a horizontal or vertical barrier or at an angle. You can form it into a hemispherical dome or a sphere with a radius of up to 5 feet, or you can shape a flat surface made up of ten 5-foot-by-5-foot panels. Each panel must be contiguous with another panel. In any form, the wall is 1 inch thick. It lasts for the duration. If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (your choice which side). The wall blocks movement, but not line of sight.", "The wall is an object that can be damaged and thus breached. It has an AC of 10 and 10 hit points per 5-foot-by-5-foot section. It is vulnerable to bludgeoning and thunder damage. Reducing a panel of the wall to 0 hit points destroys it and leaves behind glass shards on the ground in a 5 foot square. A creature moving through the broken glass for the first time on a turn must succeed on a Dexterity saving throw or take {@damage 3d4} piercing damage."],
+		"damageInflict": ["piercing"],
+		"savingThrow": ["dexterity"],
+		"areaTags": ["S", "H", "W"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Artificer",
+				"source": "TCE"
+			}, {
+				"name": "Sorcerer",
+				"source": "PHB"
+			}, {
+				"name": "Wizard",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Water Whip",
+		"source": "Hergard",
+		"level": 1,
+		"school": "V",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 30
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true,
+			"m": "a piece of dried kelp"
+		},
+		"duration": [{
+			"type": "instant"
+		}],
+		"entries": ["You wrap your hand in a whip of water and cast it out at a target within range. Make a melee spell attack against the target. If the attack hits, the creature takes {@damage 2d12} bludgeoning damage, and if the creature is Medium or smaller, you can choose to push or pull the creature up to 15 feet in a horizontal direction of your choice. If the target is pulled to within 5 feet of you, you can choose to immediately grapple it."],
+		"entriesHigherLevel": [{
+			"name": "At Higher Levels",
+			"entries": ["When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@dice 1d12}, and the distance the target is moved increases by 5 feet, for each slot level above 1st."]
+		}],
+		"damageInflict": ["bludgeoning"],
+		"spellAttack": ["M"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Druid",
+				"source": "PHB"
+			}, {
+				"name": "Ranger",
+				"source": "PHB"
+			}, {
+				"name": "Sorcerer",
+				"source": "PHB"
+			}, {
+				"name": "Wizard",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Weird",
+		"source": "Hergard",
+		"level": 9,
+		"school": "I",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 120
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true
+		},
+		"duration": [{
+			"type": "timed",
+			"duration": {
+				"type": "minute",
+				"amount": 1
+			},
+			"concentration": true
+		}],
+		"entries": ["Drawing on the deepest fears of a group of creatures, you create illusory creatures in their minds, visible only to them. Each creature in a 30-foot-radius sphere centered on a point of your choice within range must make a Wisdom saving throw. On a failed save, a creature drops whatever it is holding and becomes {@condition frightened} for the duration. While {@condition frightened} by this spell, a creature can only take the Dash or Dodge action on each of its turns.", "The illusion calls on the creature's deepest fears, manifesting its worst nightmares as an implacable threat. At the end of each of the {@condition frightened} creature's turns, it must succeed on a Wisdom saving throw or take {@damage 4d10} psychic damage. On a successful save, the spell ends for that creature."],
+		"damageInflict": ["psychic"],
+		"savingThrow": ["wisdom"],
+		"areaTags": ["S"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Wizard",
+				"source": "PHB"
+			}, {
+				"name": "Warlock",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Witch Bolt",
+		"source": "Hergard",
+		"level": 1,
+		"school": "V",
+		"time": [{
+			"number": 1,
+			"unit": "action"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 30
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true,
+			"m": "a twig from a tree that has been struck by lightning"
+		},
+		"duration": [{
+			"type": "timed",
+			"duration": {
+				"type": "minute",
+				"amount": 1
+			},
+			"concentration": true
+		}],
+		"entries": ["A beam of crackling, blue energy lances out toward a creature within range, forming a sustained arc of lightning between you and the target. Make a ranged spell attack against that creature. On a hit, the target takes {@damage 1d12} lightning damage, and on each of your turns for the duration, you can use your bonus action to deal {@damage 1d6} lightning damage to the target automatically. The spell ends if the target is ever outside the spell's range or if it has total cover from you."],
+		"entriesHigherLevel": [{
+			"name": "At Higher Levels",
+			"entries": ["When you cast this spell using a spell slot of 2nd level or higher, the initial damage increases by {@dice 1d12} and the automatic damage increases by {@dice 1d6} for each slot level above 1st."]
+		}],
+		"damageInflict": ["lightning"],
+		"spellAttack": ["R"],
+		"areaTags": ["ST"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Sorcerer",
+				"source": "PHB"
+			}, {
+				"name": "Warlock",
+				"source": "PHB"
+			}, {
+				"name": "Wizard",
+				"source": "PHB"
+			}]
+		}
+	}],
 	"race": [{
 		"name": "Lutrinian",
 		"source": "Hergard",
@@ -1597,6 +4718,208 @@
 						"When you are flying and dive at least 30 feet towards a target and hit it with a melee weapon, you can cause the attack to deal an additional 1d6 damage of the weapons type to the target."
 					]
 				}
+			]
+		}
+
+	],
+	"subclass": [{
+		"name": "Botanist",
+		"source": "HGH",
+		"className": "Artificer",
+		"classSource": "TCE",
+		"shortName": "Botanist",
+		"subclassFeatures": [
+			"Botanist|Artificer|TCE|Botanist|HGH|3",
+			"Deadly Bloom|Artificer|TCE|Botanist|HGH|5",
+			"Verdant Power|Artificer|TCE|Botanist|HGH|9",
+			"Awakened Forest|Artificer|TCE|Botanist|HGH|15"
+		]
+	}],
+	"subclassFeature": [{
+			"name": "Botanist",
+			"source": "HGH",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Botanist",
+			"subclassSource": "HGH",
+			"level": 3,
+			"entries": [
+				"Nature always strives for survival, flourishing in the harshest of environments and adapting to the changes made with each era. Botanists are artificers who have taken a liking to the great green and have made it their goal to study and improve its resilient attributes with their technology. They ensure that their innovations can take upon existing floral life and break through their deep-rooted capabilities. Through this mutual benefit, they entrust nature to defend them and in doing so, will provide what is necessary for them to grow and survive.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tool Proficiency|Artificer|TCE|Botanist|HGH|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Botanist Spells|Artificer|TCE|Botanist|HGH|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Green Thumb|Artificer|TCE|Botanist|HGH|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Wild Growth|Artificer|TCE|Botanist|HGH|3"
+				}
+			]
+		},
+		{
+			"name": "Tool Proficiency",
+			"source": "HGH",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Botanist",
+			"subclassSource": "HGH",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you adopt this specialization at 3rd level, you gain proficiency with {@item potter's tools|PHB}. If you already have this proficiency, you gain proficiency with one other type of {@item artisan's tools|PHB} of your choice."
+			]
+		},
+		{
+			"name": "Botanist Spells",
+			"source": "HGH",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Botanist",
+			"subclassSource": "HGH",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Botanist Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.",
+				{
+					"type": "table",
+					"caption": "Botanist Spells",
+					"colLabels": [
+						"Artificer Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell detect poison and disease}, {@spell entangle}"
+						],
+						[
+							"5th",
+							"{@spell spike growth}, {@spell sprout plants|hergard}"
+						],
+						[
+							"9th",
+							"{@spell plant growth}, {@spell speak with plants}"
+						],
+						[
+							"13th",
+							"{@spell grasping vine}, {@spell guardian of nature|xge}"
+						],
+						[
+							"17th",
+							"{@spell tree stride}, {@spell wrath of nature|xge}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Green Thumb",
+			"source": "HGH",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Botanist",
+			"subclassSource": "HGH",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you reach 3rd level, you can quickly familiarize yourself with many species of flora and learn their unique properties. You gain proficiency in the Nature skill, and you can use your Intelligence modifier instead of Wisdom modifier whenever you make an ability check to interact or identify them. You can also study plant life for a certain amount of time to gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"If you study the plant for at least 1 minute, you double your proficiency bonus on Nature checks towards the plant as well as advantage on the roll.",
+						"If you study the plant for at least 10 minutes, you learn the complete properties of the plant as well as its potential uses.",
+						"Your ability to analyze plant life extends even to the smallest of samples, such as a seed, leaf, fruit, or even a piece of bark, provided they occur naturally."
+					]
+				}
+			]
+		},
+		{
+			"name": "Wild Growth",
+			"source": "HGH",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Botanist",
+			"subclassSource": "HGH",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Also at 3rd level, you have prepared a couple of seeds within your pots that can grow at incredible speed when unleashed. While you have your potter's tools with you, you can use an action to throw a pot in an unoccupied space within 30 feet that you can see. The pot breaks upon impact, creating an Awakened Shrub that lasts for 1 hour or until it is reduced to 0 hit points, or you use a bonus action to dismiss it, causing it to root itself and become a normal shrub.",
+				"In combat, the Awakened Shrub shares your initiative count, but takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the defender can take any action of its choice, not just Dodge.",
+				"When you have more than one Awakened Shrub summoned this way, you can use your bonus action to command all of them at once, giving the same order or different order for each one.",
+				"The Awakened Shrub is friendly towards you and your companions and has the following modifications:",
+				{
+					"type": "list",
+					"items": [
+						"It has a number of hit point equal to 10 + your Intelligence modifier + twice your level in this class.",
+						"Its AC equals 10 + your Intelligence modifier.",
+						"You add your proficiency bonus to its ability scores.",
+						"You add your Intelligence modifier to its attack and damage rolls.",
+						"Attacks made by your Awakened Shrub deal an additional 1d4 poison damage."
+					]
+				},
+				"You can use this feature twice and regain all expended uses when finish a short or long rest. You gain an additional use of this feature when you reach 6th level (3 uses) and 15th level (4 uses)."
+			]
+		},
+		{
+			"name": "Deadly Bloom",
+			"source": "HGH",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Botanist",
+			"subclassSource": "HGH",
+			"level": 5,
+			"header": 2,
+			"entries": [
+				"Beginning at 5th level, you have a pocket full of seeds that you use in conjunction with your attacks, ready to germinate in order to deliver a poisonous payload. Whenever you roll for damage for an artificer cantrip or spell, the target takes poison damage equal to your Intelligence modifier (minimum of 1) at the start of their next turn. This damage can accumulate if you dealt more than one instance of damage to a creature before their turn.",
+				"Additionally, when your plant summoned by Wild Growth is dismissed or reduced to 0 hit points, it releases pollen in a 10-foot cube centered on itself, forcing all hostile creatures to succeed on a Constitution saving throw or become poisoned for 1 minute. A creature poisoned this way must make a Constitution saving throw at the end of each of its turns or take 1d4 poison damage. On a successful save, the effect ends.",
+				"Furthermore, all attacks made by plants summoned by Wild Growth now count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+			]
+		}, {
+			"name": "Verdant Power",
+			"source": "HGH",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Botanist",
+			"subclassSource": "HGH",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"Starting at 9th level, you are capable of growing the giants of flora, calling upon the heavy reinforcements of nature. You can now use your Wild Growth to create an Awakened Tree in the space you choose, growing rapidly at the start of your next turn. Your Awakened Tree acts the same as an Awakened Shrub in combat and has the following modifications:",
+				{
+					"type": "list",
+					"items": [
+						"It has a number of hit points equal to 40 + your Intelligence modifier + twice your level in this class.",
+						"You add your Intelligence modifier to its AC, as well as its attack and damage rolls.",
+						"When it is reduced to 0 hit points, the awakened tree collapses in a 15-foot cube in a direction of your choice. All creatures within the radius must make a Dexterity saving throw or take 6d6 bludgeoning damage or half as much on a successful save."
+					]
+				},
+				"You can only have one Awakened Tree at a time and it lasts for 1 hour or until it is reduced to 0 hit points, or you use a bonus action to dismiss it, causing it to root itself and become a normal tree."
+			]
+		},
+		{
+			"name": "Awakened Forest",
+			"source": "HGH",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Botanist",
+			"subclassSource": "HGH",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"At 15th level, you have reached the pinnacle of your profession as a botanist, being able to grow plants wherever you wish. You are no longer limited to one Awakened Tree.",
+				"Additionally, you can cast transport via plants once without expending a spell slot and you can use it to move between your Awakened Trees.",
+				"You can use this feature once, and you must finish a short or long rest to use it again."
 			]
 		}
 
