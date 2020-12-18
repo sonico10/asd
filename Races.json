@@ -4753,103 +4753,103 @@
 	],
 	"subclass": [{
 			"name": "Botanist",
-			"source": "HGH",
+			"source": "Hergard",
 			"className": "Artificer",
 			"classSource": "TCE",
 			"shortName": "Botanist",
 			"subclassFeatures": [
-				"Botanist|Artificer|TCE|Botanist|HGH|3",
-				"Deadly Bloom|Artificer|TCE|Botanist|HGH|5",
-				"Verdant Power|Artificer|TCE|Botanist|HGH|9",
-				"Awakened Forest|Artificer|TCE|Botanist|HGH|15"
+				"Botanist|Artificer|TCE|Botanist|Hergard|3",
+				"Deadly Bloom|Artificer|TCE|Botanist|Hergard|5",
+				"Verdant Power|Artificer|TCE|Botanist|Hergard|9",
+				"Awakened Forest|Artificer|TCE|Botanist|Hergard|15"
 			]
 		},
 		{
 			"name": "Lightslinger",
-			"source": "HGH",
+			"source": "Hergard",
 			"className": "Artificer",
 			"classSource": "TCE",
 			"shortName": "Lightslinger",
 			"subclassFeatures": [
-				"Lightslinger|Artificer|TCE|Lightslinger|HGH|3",
-				"Augmented Armaments|Artificer|TCE|Lightslinger|HGH|5",
-				"Aurum Bombs|Artificer|TCE|Lightslinger|HGH|9",
-				"Radiant Mastery|Artificer|TCE|Lightslinger|HGH|15"
+				"Lightslinger|Artificer|TCE|Lightslinger|Hergard|3",
+				"Augmented Armaments|Artificer|TCE|Lightslinger|Hergard|5",
+				"Aurum Bombs|Artificer|TCE|Lightslinger|Hergard|9",
+				"Radiant Mastery|Artificer|TCE|Lightslinger|Hergard|15"
 			]
 		},
 		{
 			"name": "Soulstitcher",
-			"source": "HGH",
+			"source": "Hergard",
 			"className": "Artificer",
 			"classSource": "TCE",
 			"shortName": "Soulstitcher",
 			"subclassFeatures": [
-				"Soulstitcher|Artificer|TCE|Soulstitcher|HGH|3",
-				"Necrotic Savant|Artificer|TCE|Soulstitcher|HGH|5",
-				"Explosive Undead|Artificer|TCE|Soulstitcher|HGH|9",
-				"Necrotic Mastery|Artificer|TCE|Soulstitcher|HGH|15"
+				"Soulstitcher|Artificer|TCE|Soulstitcher|Hergard|3",
+				"Necrotic Savant|Artificer|TCE|Soulstitcher|Hergard|5",
+				"Explosive Undead|Artificer|TCE|Soulstitcher|Hergard|9",
+				"Necrotic Mastery|Artificer|TCE|Soulstitcher|Hergard|15"
 			]
 		},
 		{
 			"name": "College of Ancients",
-			"source": "HGH",
+			"source": "Hergard",
 			"className": "Bard",
 			"classSource": "PHB",
 			"shortName": "Ancients",
 			"subclassFeatures": [
-				"College of Ancients|Bard|PHB|Ancients|HGH|3",
-				"Tongue of the Forest|Bard|PHB|Ancients|HGH|6",
-				"Mysteries of Nature|Bard|PHB|Ancients|HGH|14"
+				"College of Ancients|Bard|PHB|Ancients|Hergard|3",
+				"Tongue of the Forest|Bard|PHB|Ancients|Hergard|6",
+				"Mysteries of Nature|Bard|PHB|Ancients|Hergard|14"
 			]
 		},
 		{
 			"name": "College of Desire",
-			"source": "HGH",
-			"className": "Artificer",
+			"source": "Hergard",
+			"className": "Bard",
 			"classSource": "PHB",
 			"shortName": "Desire",
 			"subclassFeatures": [
-				"College of Desire|Bard|PHB|Desire|HGH|3",
-				"Cyclamen Haze|Bard|PHB|Desire|HGH|6",
-				"Amorous Atmosphere|Bard|PHB|Desire|HGH|14"
+				"College of Desire|Bard|PHB|Desire|Hergard|3",
+				"Cyclamen Haze|Bard|PHB|Desire|Hergard|6",
+				"Amorous Atmosphere|Bard|PHB|Desire|Hergard|14"
 			]
 		}
 	],
 	"subclassFeature": [{
 			"name": "Botanist",
-			"source": "HGH",
+			"source": "Hergard",
 			"className": "Artificer",
 			"classSource": "TCE",
 			"subclassShortName": "Botanist",
-			"subclassSource": "HGH",
+			"subclassSource": "Hergard",
 			"level": 3,
 			"entries": [
 				"Nature always strives for survival, flourishing in the harshest of environments and adapting to the changes made with each era. Botanists are artificers who have taken a liking to the great green and have made it their goal to study and improve its resilient attributes with their technology. They ensure that their innovations can take upon existing floral life and break through their deep-rooted capabilities. Through this mutual benefit, they entrust nature to defend them and in doing so, will provide what is necessary for them to grow and survive.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tool Proficiency|Artificer|TCE|Botanist|HGH|3"
+					"subclassFeature": "Tool Proficiency|Artificer|TCE|Botanist|Hergard|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Botanist Spells|Artificer|TCE|Botanist|HGH|3"
+					"subclassFeature": "Botanist Spells|Artificer|TCE|Botanist|Hergard|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Green Thumb|Artificer|TCE|Botanist|HGH|3"
+					"subclassFeature": "Green Thumb|Artificer|TCE|Botanist|Hergard|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Wild Growth|Artificer|TCE|Botanist|HGH|3"
+					"subclassFeature": "Wild Growth|Artificer|TCE|Botanist|Hergard|3"
 				}
 			]
 		},
 		{
 			"name": "Tool Proficiency",
-			"source": "HGH",
+			"source": "Hergard",
 			"className": "Artificer",
 			"classSource": "TCE",
 			"subclassShortName": "Botanist",
-			"subclassSource": "HGH",
+			"subclassSource": "Hergard",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -4858,11 +4858,11 @@
 		},
 		{
 			"name": "Botanist Spells",
-			"source": "HGH",
+			"source": "Hergard",
 			"className": "Artificer",
 			"classSource": "TCE",
 			"subclassShortName": "Botanist",
-			"subclassSource": "HGH",
+			"subclassSource": "Hergard",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -4905,11 +4905,11 @@
 		},
 		{
 			"name": "Green Thumb",
-			"source": "HGH",
+			"source": "Hergard",
 			"className": "Artificer",
 			"classSource": "TCE",
 			"subclassShortName": "Botanist",
-			"subclassSource": "HGH",
+			"subclassSource": "Hergard",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -4926,11 +4926,11 @@
 		},
 		{
 			"name": "Wild Growth",
-			"source": "HGH",
+			"source": "Hergard",
 			"className": "Artificer",
 			"classSource": "TCE",
 			"subclassShortName": "Botanist",
-			"subclassSource": "HGH",
+			"subclassSource": "Hergard",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -4953,11 +4953,11 @@
 		},
 		{
 			"name": "Deadly Bloom",
-			"source": "HGH",
+			"source": "Hergard",
 			"className": "Artificer",
 			"classSource": "TCE",
 			"subclassShortName": "Botanist",
-			"subclassSource": "HGH",
+			"subclassSource": "Hergard",
 			"level": 5,
 			"header": 2,
 			"entries": [
@@ -4967,11 +4967,11 @@
 			]
 		}, {
 			"name": "Verdant Power",
-			"source": "HGH",
+			"source": "Hergard",
 			"className": "Artificer",
 			"classSource": "TCE",
 			"subclassShortName": "Botanist",
-			"subclassSource": "HGH",
+			"subclassSource": "Hergard",
 			"level": 9,
 			"header": 2,
 			"entries": [
@@ -4989,11 +4989,11 @@
 		},
 		{
 			"name": "Awakened Forest",
-			"source": "HGH",
+			"source": "Hergard",
 			"className": "Artificer",
 			"classSource": "TCE",
 			"subclassShortName": "Botanist",
-			"subclassSource": "HGH",
+			"subclassSource": "Hergard",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -5004,40 +5004,40 @@
 		},
 		{
 			"name": "Lightslinger",
-			"source": "HGH",
+			"source": "Hergard",
 			"className": "Artificer",
 			"classSource": "TCE",
 			"subclassShortName": "Lightslinger",
-			"subclassSource": "HGH",
+			"subclassSource": "Hergard",
 			"level": 3,
 			"entries": [
 				"A Lightslinger learns how to harness magical, radiant energy and put it to use in their weaponry. These artificers create complex machines that channel and focus light, turning that energy into powerful beams that can sear their foes. These machines come in multiple varieties, each with a distinct purpose and common name. The aurum blaster is the generalist weapon, and also the most defensive option, considering its common pairing with a shield. The bolt shooter is a long range weapon, capable of outranging longbows and taking out targets with powerful, focused blasts. The lux cannon is a short ranged weapon, capable of hitting multiple foes at once.",
 				"Though lightslingers were relatively uncommon in the time of the Old War, those that did exist made versatile combatants that were an asset to any army. Capable both as front-line soldiers and back-line artillery, these artificers are well respected warriors.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tool Proficiency|Artificer|TCE|Lightslinger|HGH|3"
+					"subclassFeature": "Tool Proficiency|Artificer|TCE|Lightslinger|Hergard|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Lightslinger Spells|Artificer|TCE|Lightslinger|HGH|3"
+					"subclassFeature": "Lightslinger Spells|Artificer|TCE|Lightslinger|Hergard|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Lightsmith|Artificer|TCE|Lightslinger|HGH|3"
+					"subclassFeature": "Lightsmith|Artificer|TCE|Lightslinger|Hergard|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Empowered Ammunition|Artificer|TCE|Lightslinger|HGH|3"
+					"subclassFeature": "Empowered Ammunition|Artificer|TCE|Lightslinger|Hergard|3"
 				}
 			]
 		},
 		{
 			"name": "Tool Proficiency",
-			"source": "HGH",
+			"source": "Hergard",
 			"className": "Artificer",
 			"classSource": "TCE",
 			"subclassShortName": "Lightslinger",
-			"subclassSource": "HGH",
+			"subclassSource": "Hergard",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -5046,11 +5046,11 @@
 		},
 		{
 			"name": "Lightslinger Spells",
-			"source": "HGH",
+			"source": "Hergard",
 			"className": "Artificer",
 			"classSource": "TCE",
 			"subclassShortName": "Lightslinger",
-			"subclassSource": "HGH",
+			"subclassSource": "Hergard",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -5093,11 +5093,11 @@
 		},
 		{
 			"name": "Lightsmith",
-			"source": "HGH",
+			"source": "Hergard",
 			"className": "Artificer",
 			"classSource": "TCE",
 			"subclassShortName": "Lightslinger",
-			"subclassSource": "HGH",
+			"subclassSource": "Hergard",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -5153,11 +5153,11 @@
 		},
 		{
 			"name": "Empowered Ammunition",
-			"source": "HGH",
+			"source": "Hergard",
 			"className": "Artificer",
 			"classSource": "TCE",
 			"subclassShortName": "Lightslinger",
-			"subclassSource": "HGH",
+			"subclassSource": "Hergard",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -5187,11 +5187,11 @@
 		},
 		{
 			"name": "Augmented Armaments",
-			"source": "HGH",
+			"source": "Hergard",
 			"className": "Artificer",
 			"classSource": "TCE",
 			"subclassShortName": "Lightslinger",
-			"subclassSource": "HGH",
+			"subclassSource": "Hergard",
 			"level": 5,
 			"header": 2,
 			"entries": [
@@ -5220,11 +5220,11 @@
 			]
 		}, {
 			"name": "Aurum Bombs",
-			"source": "HGH",
+			"source": "Hergard",
 			"className": "Artificer",
 			"classSource": "TCE",
 			"subclassShortName": "Lightslinger",
-			"subclassSource": "HGH",
+			"subclassSource": "Hergard",
 			"level": 9,
 			"header": 2,
 			"entries": [
@@ -5235,11 +5235,11 @@
 		},
 		{
 			"name": "Radiant Mastery",
-			"source": "HGH",
+			"source": "Hergard",
 			"className": "Artificer",
 			"classSource": "TCE",
 			"subclassShortName": "Lightslinger",
-			"subclassSource": "HGH",
+			"subclassSource": "Hergard",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -5255,35 +5255,35 @@
 			]
 		}, {
 			"name": "Soulstitcher",
-			"source": "HGH",
+			"source": "Hergard",
 			"className": "Artificer",
 			"classSource": "TCE",
 			"subclassShortName": "Soulstitcher",
-			"subclassSource": "HGH",
+			"subclassSource": "Hergard",
 			"level": 3,
 			"entries": [
 				"Armies need soldiers, and when a greet need arises, a macabre solution comes to light. Soulstitchers take corpses and give them new purpose in their army of undead. Specializing in the science of anatomy and necromantic magic, these artificers prefer flesh to metal as raw material.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tool Proficiency|Artificer|TCE|Soulstitcher|HGH|3"
+					"subclassFeature": "Tool Proficiency|Artificer|TCE|Soulstitcher|Hergard|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Soulstitcher Spells|Artificer|TCE|Soulstitcher|HGH|3"
+					"subclassFeature": "Soulstitcher Spells|Artificer|TCE|Soulstitcher|Hergard|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Stitch Undead|Artificer|TCE|Soulstitcher|HGH|3"
+					"subclassFeature": "Stitch Undead|Artificer|TCE|Soulstitcher|Hergard|3"
 				}
 			]
 		},
 		{
 			"name": "Tool Proficiency",
-			"source": "HGH",
+			"source": "Hergard",
 			"className": "Artificer",
 			"classSource": "TCE",
 			"subclassShortName": "Soulstitcher",
-			"subclassSource": "HGH",
+			"subclassSource": "Hergard",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -5292,11 +5292,11 @@
 		},
 		{
 			"name": "Soulstitcher Spells",
-			"source": "HGH",
+			"source": "Hergard",
 			"className": "Artificer",
 			"classSource": "TCE",
 			"subclassShortName": "Soulstitcher",
-			"subclassSource": "HGH",
+			"subclassSource": "Hergard",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -5338,11 +5338,11 @@
 			]
 		}, {
 			"name": "Stitch Undead",
-			"source": "HGH",
+			"source": "Hergard",
 			"className": "Artificer",
 			"classSource": "TCE",
 			"subclassShortName": "Soulstitcher",
-			"subclassSource": "HGH",
+			"subclassSource": "Hergard",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -5354,11 +5354,11 @@
 		},
 		{
 			"name": "Necrotic Savant",
-			"source": "HGH",
+			"source": "Hergard",
 			"className": "Artificer",
 			"classSource": "TCE",
 			"subclassShortName": "Soulstitcher",
-			"subclassSource": "HGH",
+			"subclassSource": "Hergard",
 			"level": 5,
 			"header": 2,
 			"entries": [
@@ -5368,11 +5368,11 @@
 		},
 		{
 			"name": "Explosive Undead",
-			"source": "HGH",
+			"source": "Hergard",
 			"className": "Artificer",
 			"classSource": "TCE",
 			"subclassShortName": "Soulstitcher",
-			"subclassSource": "HGH",
+			"subclassSource": "Hergard",
 			"level": 9,
 			"header": 2,
 			"entries": [
@@ -5382,11 +5382,11 @@
 		},
 		{
 			"name": "Necrotic Mastery",
-			"source": "HGH",
+			"source": "Hergard",
 			"className": "Artificer",
 			"classSource": "TCE",
 			"subclassShortName": "Soulstitcher",
-			"subclassSource": "HGH",
+			"subclassSource": "Hergard",
 			"level": 15,
 			"header": 2,
 			"entries": [
@@ -5401,32 +5401,32 @@
 			]
 		}, {
 			"name": "College of Ancients",
-			"source": "HGH",
+			"source": "Hergard",
 			"className": "Bard",
 			"classSource": "PHB",
 			"subclassShortName": "Ancients",
-			"subclassSource": "HGH",
+			"subclassSource": "Hergard",
 			"level": 3,
 			"entries": [
 				"Bards of the College of Ancients have deep knowledge in the area of nature magic, and they often wander the wilderness, collecting knowledge on the music of the earth. They are most often wandering singers and skalds, traveling through ancient forests, to learn how nature weaves the sounds of its flora and fauna into a beautiful rhythm.",
 				"They wish, first and foremost, to protect and honor nature. They sing tales of great floods and good harvests and oftentimes perform a symphony of bird calls. They learn to be one with nature.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiencies|Bard|PHB|Ancients|HGH|3"
+					"subclassFeature": "Bonus Proficiencies|Bard|PHB|Ancients|Hergard|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Rootcaller|Bard|PHB|Ancients|HGH|3"
+					"subclassFeature": "Rootcaller|Bard|PHB|Ancients|Hergard|3"
 				}
 			]
 		},
 		{
 			"name": "Bonus Proficiencies",
-			"source": "HGH",
+			"source": "Hergard",
 			"className": "Bard",
 			"classSource": "PHB",
 			"subclassShortName": "Ancients",
-			"subclassSource": "HGH",
+			"subclassSource": "Hergard",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -5435,11 +5435,11 @@
 		},
 		{
 			"name": "Rootcaller",
-			"source": "HGH",
+			"source": "Hergard",
 			"className": "Bard",
 			"classSource": "PHB",
 			"subclassShortName": "Ancients",
-			"subclassSource": "HGH",
+			"subclassSource": "Hergard",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -5449,11 +5449,11 @@
 		},
 		{
 			"name": "Tongue of the Forest",
-			"source": "HGH",
+			"source": "Hergard",
 			"className": "Bard",
 			"classSource": "PHB",
 			"subclassShortName": "Ancients",
-			"subclassSource": "HGH",
+			"subclassSource": "Hergard",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -5463,11 +5463,11 @@
 			]
 		}, {
 			"name": "Mysteries of Nature",
-			"source": "HGH",
+			"source": "Hergard",
 			"className": "Bard",
 			"classSource": "PHB",
 			"subclassShortName": "Ancients",
-			"subclassSource": "HGH",
+			"subclassSource": "Hergard",
 			"level": 14,
 			"header": 2,
 			"entries": [
@@ -5476,45 +5476,45 @@
 			]
 		}, {
 			"name": "College of Desire",
-			"source": "HGH",
+			"source": "Hergard",
 			"className": "Bard",
 			"classSource": "PHB",
 			"subclassShortName": "Desire",
-			"subclassSource": "HGH",
+			"subclassSource": "Hergard",
 			"level": 3,
 			"entries": [
 				"Bards of the College of Desire are peerless in a particular art, and that art is infatuation. With a pluck of a string, they can cause the heart to stir and bubble with complex emotion, whether through music or with their enchanted arrows. While a benevolent member of the College of Desire would seek to lighten the load of a heavy heart if only for a moment, many of them take advantage of their ability to cause chaos. Nothing is easier to control than the heart, or so they say.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiencies|Bard|PHB|Desire|HGH|3"
+					"subclassFeature": "Bonus Proficiencies|Bard|PHB|Desire|Hergard|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Cherubic Arrow|Bard|PHB|Desire|HGH|3"
+					"subclassFeature": "Cherubic Arrow|Bard|PHB|Desire|Hergard|3"
 				}
 			]
 		},
 		{
 			"name": "Bonus Proficiencies",
-			"source": "HGH",
+			"source": "Hergard",
 			"className": "Bard",
 			"classSource": "PHB",
 			"subclassShortName": "Desire",
-			"subclassSource": "HGH",
+			"subclassSource": "Hergard",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you join the College of Desire at 3rd level, you gain proficiency with {@item heavy crossbow|PHB}, {@item longbows|PHB}, and the {@item lyre|PHB}.",
+				"When you join the College of Desire at 3rd level, you gain proficiency with {@item heavy crossbow|PHB}, {@item longbow|PHB}, and the {@item lyre|PHB}.",
 				"Additionally, you can use a bow or crossbow as a spellcasting focus for your bard spells."
 			]
 		},
 		{
 			"name": "Cherubic Arrow",
-			"source": "HGH",
+			"source": "Hergard",
 			"className": "Bard",
 			"classSource": "PHB",
 			"subclassShortName": "Desire",
-			"subclassSource": "HGH",
+			"subclassSource": "Hergard",
 			"level": 3,
 			"header": 1,
 			"entries": [
@@ -5523,11 +5523,11 @@
 		},
 		{
 			"name": "Cyclamen Haze",
-			"source": "HGH",
+			"source": "Hergard",
 			"className": "Bard",
 			"classSource": "PHB",
 			"subclassShortName": "Desire",
-			"subclassSource": "HGH",
+			"subclassSource": "Hergard",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -5535,11 +5535,11 @@
 			]
 		}, {
 			"name": "Amorous Atmosphere",
-			"source": "HGH",
+			"source": "Hergard",
 			"className": "Bard",
 			"classSource": "PHB",
 			"subclassShortName": "Desire",
-			"subclassSource": "HGH",
+			"subclassSource": "Hergard",
 			"level": 14,
 			"header": 2,
 			"entries": [
