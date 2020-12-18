@@ -3983,7 +3983,7 @@
 				{
 					"type": "list",
 					"items": [
-						"You learn the {@spell message} cantrip",
+						"You learn the {@spell message|PHB} cantrip",
 						"You learn the catapult and enhance ability spells and can cast them once without expending a spell slot. You regain the ability to cast them again when you finish a long rest. Intelligence is your spellcasting ability for these spells."
 					]
 				}
@@ -4027,7 +4027,7 @@
 					"type": "list",
 					"items": [
 						"Your Wisdom score increases by 1.",
-						"You learn the {@spell minor illusion} cantrip.",
+						"You learn the {@spell minor illusion|PHB} cantrip.",
 						"You learn the silent image spell and may cast it once at first level without expending a spell slot. You regain use of this ability after you finish a long rest. Wisdom is your spellcasting ability for these spells."
 					]
 				}
@@ -4074,7 +4074,7 @@
 				{
 					"type": "list",
 					"items": [
-						"You learn the {@spell guidance} and {@spell gust|xge} cantrips.",
+						"You learn the {@spell guidance|PHB} and {@spell gust|xge} cantrips.",
 						"You learn the augury or the find familiar spell. You can cast the spell you choose as a ritual. (If you choose the find familiar spell, unless you gain it from another source, you can only conjure a creature with a flying speed)."
 					]
 				}
@@ -4198,35 +4198,35 @@
 							"type": "entries",
 							"name": "Black.",
 							"entries": [
-								"You gain resistance to acid damage and learn the {@spell acid splash} cantrip."
+								"You gain resistance to acid damage and learn the {@spell acid splash|PHB} cantrip."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "Blue.",
 							"entries": [
-								"You gain resistance to lightning damage and learn the {@spell shocking grasp} cantrip."
+								"You gain resistance to lightning damage and learn the {@spell shocking grasp|PHB} cantrip."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "Green.",
 							"entries": [
-								"You gain resistance to poison damage and learn the {@spell poison spray} cantrip."
+								"You gain resistance to poison damage and learn the {@spell poison spray|PHB} cantrip."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "Red.",
 							"entries": [
-								"You gain resistance to fire damage and learn the {@spell produce flame} cantrip."
+								"You gain resistance to fire damage and learn the {@spell produce flame|PHB} cantrip."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "White.",
 							"entries": [
-								"You gain resistance to cold damage and learn the {@spell ray of frost} cantrip."
+								"You gain resistance to cold damage and learn the {@spell ray of frost|PHB} cantrip."
 							]
 						}
 					]
@@ -4289,7 +4289,7 @@
 					"items": [
 						"Your Charisma score increases by 1.",
 						"You can speak, read, and write Sylvan.",
-						"You learn the {@spell alter self} spell and can cast it once without expending a spell slot. You regain use of this feature once you complete a short or long rest. Charisma is your spellcasting ability for this spell."
+						"You learn the {@spell alter self|PHB} spell and can cast it once without expending a spell slot. You regain use of this feature once you complete a short or long rest. Charisma is your spellcasting ability for this spell."
 					]
 				}
 			]
@@ -4316,8 +4316,8 @@
 					"type": "list",
 					"items": [
 						"Your Wisdom or Charisma score increases by 1.",
-						"You learn the  {@spell guidance} or  {@spell sacred flame} cantrip.",
-						"You learn the  {@spell bless} or  {@spell guiding bolt} spell, and may cast it once at second level without using a spell slot. You regain use of this ability when you finish a long rest. Charisma is your spellcasting ability for these spells."
+						"You learn the  {@spell guidance|PHB} or  {@spell sacred flame|PHB} cantrip.",
+						"You learn the  {@spell bless|PHB} or  {@spell guiding bolt|PHB} spell, and may cast it once at second level without using a spell slot. You regain use of this ability when you finish a long rest. Charisma is your spellcasting ability for these spells."
 					]
 				}
 			]
@@ -4417,7 +4417,7 @@
 					"items": [
 						"Your Charisma score increases by 1.",
 						"You have advantage on Animal Handling checks made with feline creatures.",
-						"Once per long rest you may cast the  {@spell find familiar} spell as a ritual. Unless you gain this spell from another source, when you cast it this way you can only target a cat."
+						"Once per long rest you may cast the  {@spell find familiar|PHB} spell as a ritual. Unless you gain this spell from another source, when you cast it this way you can only target a cat."
 					]
 				}
 			]
@@ -4460,8 +4460,8 @@
 					"type": "list",
 					"items": [
 						"Your Wisdom score increases by 1.",
-						"You learn the  {@spell druidcraft} cantrip",
-						"You learn the {@spell pass without trace} spell, and may cast it once without expending a spell slot. You regain use of this ability after you finish a long rest."
+						"You learn the  {@spell druidcraft|PHB} cantrip",
+						"You learn the {@spell pass without trace|PHB} spell, and may cast it once without expending a spell slot. You regain use of this ability after you finish a long rest."
 					]
 				}
 			]
@@ -4482,7 +4482,7 @@
 					"type": "list",
 					"items": [
 						"Your Wisdom score increases by 1.",
-						"You gain proficiency with one of the following:  {@item woodcarver's tools}, {@item weaver's tools}, {@item herbalism kit}",
+						"You gain proficiency with one of the following:  {@item woodcarver's tools|PHB}, {@item weaver's tools|PHB}, {@item herbalism kit|PHB}",
 						"During a short or long rest, provided you have access to an appropriate crafting material (ie. wood, vines, etc) you can make one of the following: a fishing pole, a club, a net, a blow gun or 10 blowgun darts. To do this you require appropriate tools (ie. Woodcarvers) or a dagger."
 					]
 				}
@@ -4629,7 +4629,7 @@
 					"type": "list",
 					"items": [
 						"You learn the friends cantrip.",
-						"You learn the {@spell charm person} and {@spell detect thoughts} spells and can cast each spell once without expending a spell slot. You regain the use of this feature once you finish a long rest. Charisma is your spellcasting ability for these spells."
+						"You learn the {@spell charm person|PHB} and {@spell detect thoughts|PHB} spells and can cast each spell once without expending a spell slot. You regain the use of this feature once you finish a long rest. Charisma is your spellcasting ability for these spells."
 					]
 				}
 			]
@@ -4789,6 +4789,30 @@
 				"Explosive Undead|Artificer|TCE|Soulstitcher|HGH|9",
 				"Necrotic Mastery|Artificer|TCE|Soulstitcher|HGH|15"
 			]
+		},
+		{
+			"name": "College of Ancients",
+			"source": "HGH",
+			"className": "Bard",
+			"classSource": "PHB",
+			"shortName": "Ancients",
+			"subclassFeatures": [
+				"College of Ancients|Bard|PHB|Ancients|HGH|3",
+				"Tongue of the Forest|Bard|PHB|Ancients|HGH|6",
+				"Mysteries of Nature|Bard|PHB|Ancients|HGH|14"
+			]
+		},
+		{
+			"name": "College of Desire",
+			"source": "HGH",
+			"className": "Artificer",
+			"classSource": "PHB",
+			"shortName": "Desire",
+			"subclassFeatures": [
+				"College of Desire|Bard|PHB|Desire|HGH|3",
+				"Cyclamen Haze|Bard|PHB|Desire|HGH|6",
+				"Amorous Atmosphere|Bard|PHB|Desire|HGH|14"
+			]
 		}
 	],
 	"subclassFeature": [{
@@ -4857,23 +4881,23 @@
 					"rows": [
 						[
 							"3rd",
-							"{@spell detect poison and disease}, {@spell entangle}"
+							"{@spell detect poison and disease|PHB}, {@spell entangle|PHB}"
 						],
 						[
 							"5th",
-							"{@spell spike growth}, {@spell sprout plants|hergard}"
+							"{@spell spike growth|PHB}, {@spell sprout plants|hergard}"
 						],
 						[
 							"9th",
-							"{@spell plant growth}, {@spell speak with plants}"
+							"{@spell plant growth|PHB}, {@spell speak with plants|PHB}"
 						],
 						[
 							"13th",
-							"{@spell grasping vine}, {@spell guardian of nature|xge}"
+							"{@spell grasping vine|PHB}, {@spell guardian of nature|xge}"
 						],
 						[
 							"17th",
-							"{@spell tree stride}, {@spell wrath of nature|xge}"
+							"{@spell tree stride|PHB}, {@spell wrath of nature|xge}"
 						]
 					]
 				}
@@ -5045,19 +5069,19 @@
 					"rows": [
 						[
 							"3rd",
-							"{@spell faerie fire}, {@spell guiding bolt}"
+							"{@spell faerie fire|PHB}, {@spell guiding bolt|PHB}"
 						],
 						[
 							"5th",
-							"{@spell branding smite}, {@spell moonbeam}"
+							"{@spell branding smite|PHB}, {@spell moonbeam|PHB}"
 						],
 						[
 							"9th",
-							"{@spell crusader's mantle}, {@spell daylight}"
+							"{@spell crusader's mantle|PHB}, {@spell daylight|PHB}"
 						],
 						[
 							"13th",
-							"{@spell guardian of faith}, {@spell sickening radiance|xge}"
+							"{@spell guardian of faith|PHB}, {@spell sickening radiance|xge}"
 						],
 						[
 							"17th",
@@ -5291,19 +5315,19 @@
 					"rows": [
 						[
 							"3rd",
-							"{@spell cause fear|xge}, {@spell inflict wounds}"
+							"{@spell cause fear|xge}, {@spell inflict wounds|PHB}"
 						],
 						[
 							"5th",
-							"{@spell blindness/deafness}, {@spell ray of enfeeblement}"
+							"{@spell blindness/deafness|PHB}, {@spell ray of enfeeblement|PHB}"
 						],
 						[
 							"9th",
-							"{@spell animate dead}, {@spell vampiric touch}"
+							"{@spell animate dead|PHB}, {@spell vampiric touch|PHB}"
 						],
 						[
 							"13th",
-							"{@spell blight}, {@spell sickening radiance|xge}"
+							"{@spell blight|PHB}, {@spell sickening radiance|xge}"
 						],
 						[
 							"17th",
@@ -5374,6 +5398,153 @@
 						"When an enemy you can see dies within 60 feet of you, you can use your reaction to give your undead servant, if it is within 60 feet of you, temporary hit points equal to the enemy's number of Hit Dice. Once you use this feature, you can't do so again until the start of your next turn."
 					]
 				}
+			]
+		}, {
+			"name": "College of Ancients",
+			"source": "HGH",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Ancients",
+			"subclassSource": "HGH",
+			"level": 3,
+			"entries": [
+				"Bards of the College of Ancients have deep knowledge in the area of nature magic, and they often wander the wilderness, collecting knowledge on the music of the earth. They are most often wandering singers and skalds, traveling through ancient forests, to learn how nature weaves the sounds of its flora and fauna into a beautiful rhythm.",
+				"They wish, first and foremost, to protect and honor nature. They sing tales of great floods and good harvests and oftentimes perform a symphony of bird calls. They learn to be one with nature.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Proficiencies|Bard|PHB|Ancients|HGH|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Rootcaller|Bard|PHB|Ancients|HGH|3"
+				}
+			]
+		},
+		{
+			"name": "Bonus Proficiencies",
+			"source": "HGH",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Ancients",
+			"subclassSource": "HGH",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you join the College of the Ancients at 3rd level, you gain proficiency with {@item herbalism kit|PHB}, {@item shield|PHB} and you learn {@language druidic|PHB}. Bards of this college will not wear armor or use shields made of metal."
+			]
+		},
+		{
+			"name": "Rootcaller",
+			"source": "HGH",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Ancients",
+			"subclassSource": "HGH",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Also at 3rd level, you learn how to command plants to sprout up and grasp at the heels of your foes, impeding their movement.",
+				"When a creature that you can see within 60 feet of you begins moving, you can use your reaction to expend one of your uses of Bardic Inspiration, rolling a Bardic Inspiration die and reducing the creature's speed by a number of feet equal to five times the number rolled until the end of their turn. This effect cannot reduce a creature's speed below 5 feet."
+			]
+		},
+		{
+			"name": "Tongue of the Forest",
+			"source": "HGH",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Ancients",
+			"subclassSource": "HGH",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, you can cast {@spell speak with animals|PHB} at will.",
+				"Additionally, you gain the ability to mimic the sounds of natural fauna. To properly imitate the sounds of wildlife, you have to spend at least 1 hour in the area of which you want to mimic the voices of.",
+				"As a bonus action on your turn, you can attempt to enthrall a creature by throwing your voice to a location and creating the noise of a wild animal. Choose a point of origin within 60 feet of you. Creatures of your choice in a 15-foot-sphere centered on that point must make a Wisdom (Insight) check contested by your Charisma (Performance) check. On a failure the target is charmed by you. If a creature is immune to being charmed it automatically succeeds. When a creature is charmed in this way, it is compelled to use all of its movement to go towards the source of the sound on its next turn, after which it acts normally."
+			]
+		}, {
+			"name": "Mysteries of Nature",
+			"source": "HGH",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Ancients",
+			"subclassSource": "HGH",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"At 14th level, you have gained insight into the deep power of nature's magic. You learn two spells of 5th level or lower from the {@filter druid spell list|spells|class=Druid|level=5} and can cast them using this feature. You may cast each of these spells once with this feature without expending a spell slot and regain the ability to do so when you finish a long rest.",
+				"You can exchange your spells gained from this feature with others from the druid spell list when you finish a long rest."
+			]
+		}, {
+			"name": "College of Desire",
+			"source": "HGH",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Desire",
+			"subclassSource": "HGH",
+			"level": 3,
+			"entries": [
+				"Bards of the College of Desire are peerless in a particular art, and that art is infatuation. With a pluck of a string, they can cause the heart to stir and bubble with complex emotion, whether through music or with their enchanted arrows. While a benevolent member of the College of Desire would seek to lighten the load of a heavy heart if only for a moment, many of them take advantage of their ability to cause chaos. Nothing is easier to control than the heart, or so they say.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Proficiencies|Bard|PHB|Desire|HGH|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Cherubic Arrow|Bard|PHB|Desire|HGH|3"
+				}
+			]
+		},
+		{
+			"name": "Bonus Proficiencies",
+			"source": "HGH",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Desire",
+			"subclassSource": "HGH",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you join the College of Desire at 3rd level, you gain proficiency with {@item heavy crossbow|PHB}, {@item longbows|PHB}, and the {@item lyre|PHB}.",
+				"Additionally, you can use a bow or crossbow as a spellcasting focus for your bard spells."
+			]
+		},
+		{
+			"name": "Cherubic Arrow",
+			"source": "HGH",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Desire",
+			"subclassSource": "HGH",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"At 3rd level, you bolster a heart from a distance. While you're wielding a bow or crossbow, you can use a bonus action and expend one use of your Bardic Inspiration to choose a creature you can see other than yourself within range of your weapon. You shoot a harmless magical arrow at the creature, and it gains temporary hit points equal to the number you roll on the Bardic Inspiration die + your Charisma modifier (minimum of 1). If you shot a friendly creature, the next spell you cast before the end of the turn can ignore range if it doesn't have a range of self and targets only that creature."
+			]
+		},
+		{
+			"name": "Cyclamen Haze",
+			"source": "HGH",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Desire",
+			"subclassSource": "HGH",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, your enemies often forget they're your enemies. Once per turn, when you hit a creature with a ranged weapon attack using a bow or crossbow, you can attempt to charm it. It must succeed on a Wisdom saving throw against your spell save DC or be charmed by you until the end of your next turn. If the creature you hit isn't hostile to you, you can instead cause the attack to deal no damage and for the arrow to vanish on contact. If you do so, the creature must instead make a Wisdom saving throw with disadvantage against your spell save DC. On a failed save, the creature forgets that it was shot, is charmed by you for 1 hour or until you or your companions do anything harmful to it, and can't be charmed in this way again for 24 hours. While a creature is charmed by this feature, it is also charmed by any creature that has temporary hit points from your Cherubic Arrow."
+			]
+		}, {
+			"name": "Amorous Atmosphere",
+			"source": "HGH",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Desire",
+			"subclassSource": "HGH",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"At 14th level, each and every heart flutters at your presence. As an action, you can exude an aura of adoration within 30 feet of you. For 1 minute, when a creature enters the aura for the first time on a turn or starts its turn there, it must succeed on a Wisdom saving throw or be charmed by you until the start of its next turn. While a creature is charmed by this feature, it is also charmed by any creature that has temporary hit points from your Cherubic Arrow.",
+				"Once you use this feature, you can't use it again until you finish a long rest."
 			]
 		}
 
