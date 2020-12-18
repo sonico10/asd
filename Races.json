@@ -4776,6 +4776,19 @@
 				"Aurum Bombs|Artificer|TCE|Lightslinger|HGH|9",
 				"Radiant Mastery|Artificer|TCE|Lightslinger|HGH|15"
 			]
+		},
+		{
+			"name": "Soulstitcher",
+			"source": "HGH",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"shortName": "Soulstitcher",
+			"subclassFeatures": [
+				"Soulstitcher|Artificer|TCE|Soulstitcher|HGH|3",
+				"Necrotic Savant|Artificer|TCE|Soulstitcher|HGH|5",
+				"Explosive Undead|Artificer|TCE|Soulstitcher|HGH|9",
+				"Necrotic Mastery|Artificer|TCE|Soulstitcher|HGH|15"
+			]
 		}
 	],
 	"subclassFeature": [{
@@ -5213,6 +5226,152 @@
 						"The damage of your aurum bombs is increased to 4d10.",
 						"Each of your Lightsmith Weapons have an additional damage die, for a total of 2d8 for the Aurum Blaster and Lux Cannon and 2d12 for the Bolt Shooter.",
 						"Whenever you use your Empowered Ammunition feature, you can transform your Lightsmith weapon into another type immediately before recharging it."
+					]
+				}
+			]
+		}, {
+			"name": "Soulstitcher",
+			"source": "HGH",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Soulstitcher",
+			"subclassSource": "HGH",
+			"level": 3,
+			"entries": [
+				"Armies need soldiers, and when a greet need arises, a macabre solution comes to light. Soulstitchers take corpses and give them new purpose in their army of undead. Specializing in the science of anatomy and necromantic magic, these artificers prefer flesh to metal as raw material.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tool Proficiency|Artificer|TCE|Soulstitcher|HGH|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Soulstitcher Spells|Artificer|TCE|Soulstitcher|HGH|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Stitch Undead|Artificer|TCE|Soulstitcher|HGH|3"
+				}
+			]
+		},
+		{
+			"name": "Tool Proficiency",
+			"source": "HGH",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Soulstitcher",
+			"subclassSource": "HGH",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you adopt this specialization at 3rd level, you gain proficiency with {@item leatherworker's tools|PHB} or {@item weaver's tools|PHB}. If you already have these proficiencies, you gain proficiency with one other type of {@item artisan's tools|PHB} of your choice."
+			]
+		},
+		{
+			"name": "Soulstitcher Spells",
+			"source": "HGH",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Soulstitcher",
+			"subclassSource": "HGH",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Soulstitcher Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.",
+				{
+					"type": "table",
+					"caption": "Soulstitcher Spells",
+					"colLabels": [
+						"Artificer Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell cause fear|xge}, {@spell inflict wounds}"
+						],
+						[
+							"5th",
+							"{@spell blindness/deafness}, {@spell ray of enfeeblement}"
+						],
+						[
+							"9th",
+							"{@spell animate dead}, {@spell vampiric touch}"
+						],
+						[
+							"13th",
+							"{@spell blight}, {@spell sickening radiance|xge}"
+						],
+						[
+							"17th",
+							"{@spell danse macabre|xge}, {@spell negative energy flood|xge}"
+						]
+					]
+				}
+			]
+		}, {
+			"name": "Stitch Undead",
+			"source": "HGH",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Soulstitcher",
+			"subclassSource": "HGH",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"By 3rd level, you have mastered the art of forging an undead servant. Using your leatherworker's tools or weaver's tools, you can take an action to transform a corpse within 5 feet of you into an undead of your choice with a CR equal to 1/4th your level (rounded down). Your servant is friendly to you and your companions, and it obeys your commands. It gains temporary hit points equal to twice your artificer level.",
+				"In combat, your undead servant shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the defender can take any action of its choice, not just Dodge.",
+				"If your undead servant has died within the last hour and you are within 5 feet of it, you can use your leatherworker's tools or weaver's tools as an action to revive it, by expending a spell slot of a level equal to its CR or higher (minimum of 1st-level). Your undead servant returns to life at the start of your next turn with all its hit points restored.",
+				"Once you create an undead servant, you can't do so again until you finish a long rest or until you expend a spell slot of a level equal to its CR or higher. If you already have an undead servant from this feature, the first one immediately becomes hostile to you."
+			]
+		},
+		{
+			"name": "Necrotic Savant",
+			"source": "HGH",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Soulstitcher",
+			"subclassSource": "HGH",
+			"level": 5,
+			"header": 2,
+			"entries": [
+				"At 5th level, you develop a mastery in corrupting a creature's life force. Whenever you cast a spell using your leatherworker's tools or weaver's tools as the spellcasting focus, you can add an additional 1d4 + your Intelligence modifier (minimum of 1) necrotic damage to one of the spell's damage rolls.",
+				"Additionally, your undead servant's attacks now count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+			]
+		},
+		{
+			"name": "Explosive Undead",
+			"source": "HGH",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Soulstitcher",
+			"subclassSource": "HGH",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"Starting at 9th level, you forge an explosive failsafe into your undead servant:",
+				"As an action, you can force your undead servant to explode if you are within 60 feet of it. Doing so destroys the undead servant and forces each creature within 20 feet of it to make a Dexterity saving throw against your spell save DC, taking 3d8 necrotic damage on a failed save or half as much damage on a successful one."
+			]
+		},
+		{
+			"name": "Necrotic Mastery",
+			"source": "HGH",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Soulstitcher",
+			"subclassSource": "HGH",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"By 15th level, you have spent so much time dealing with undead and the forces that animate them that they pose little danger to you, and you can channel to vitality of a fallen foe into your undead servants:",
+				{
+					"type": "list",
+					"items": [
+						"You have resistance to necrotic damage, and your hit point maximum can't be reduced.",
+						"When an enemy you can see dies within 60 feet of you, you can use your reaction to give your undead servant, if it is within 60 feet of you, temporary hit points equal to the enemy's number of Hit Dice. Once you use this feature, you can't do so again until the start of your next turn."
 					]
 				}
 			]
