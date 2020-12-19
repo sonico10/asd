@@ -5665,7 +5665,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you join the College of Dirges at 3rd level, you have developed a morbid fascination with death. You learn one {@filter Necromancy cantrip|spells|school = necromancy|level = 0} from any spell list. This cantrip counts as a bard cantrip for you, but doesn't count against the number of cantrips you know.",
+				"When you join the College of Dirges at 3rd level, you have developed a morbid fascination with death. You learn one {@filter Necromancy cantrip|spells|school = N|level = 0} from any spell list. This cantrip counts as a bard cantrip for you, but doesn't count against the number of cantrips you know.",
 				"Additionally, when your Spellcasting feature lets you learn or replace a bard spell, you can choose the new spell from the list of necromancy spells or the bard spell list. You must otherwise obey all the restrictions for selecting the spell, and it becomes a bard spell for you."
 			]
 		},
