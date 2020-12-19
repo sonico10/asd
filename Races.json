@@ -4751,8 +4751,8 @@
 		}
 
 	],
-	"classFeatures":[
-	"Countercharm Variant|Bard||6|Hergard"
+	"classFeatures": [
+		"Countercharm Variant|Bard||6|Hergard"
 	],
 	"classFeature": [{
 		"name": "Countercharm Variant",
@@ -4760,8 +4760,8 @@
 		"className": "Bard",
 		"classSource": "PHB",
 		"level": 6,
-		"isClassFeatureVariant": true,
 		"entries": [
+			"{@i 6th-level bard {@variantrule optional class features|tce|optional feature}}",
 			"At 6th level, you gain the ability to use musical notes or words of power to disrupt mind-influencing effects. As an action, you can start a performance that lasts until the end of your next turn. On subsequent turns, you can use your bonus action to extend this effect. During that time, you and any friendly creatures within 30 feet of you have advantage on saving throws against being {@condition frightened} or {@condition charmed}. A creature must be able to hear you to gain this benefit. The performance ends early if you are {@condition incapacitated} or silenced or if you voluntarily end it (no action required)."
 		]
 	}],
@@ -4826,6 +4826,78 @@
 				"College of Desire|Bard|PHB|Desire|Hergard|3",
 				"Cyclamen Haze|Bard|PHB|Desire|Hergard|6",
 				"Amorous Atmosphere|Bard|PHB|Desire|Hergard|14"
+			]
+		},
+		{
+			"name": "College of Dirges",
+			"source": "Hergard",
+			"className": "Bard",
+			"classSource": "PHB",
+			"shortName": "Dirges",
+			"subclassFeatures": [
+				"College of Dirges|Bard|PHB|Dirges|Hergard|3",
+				"Don't Fear the Reaper|Bard|PHB|Dirges|Hergard|6",
+				"Symphony of the Damned|Bard|PHB|Dirges|Hergard|14"
+			]
+		},
+		{
+			"name": "College of Lore",
+			"source": "Hergard",
+			"className": "Bard",
+			"classSource": "PHB",
+			"shortName": "Lore",
+			"subclassFeatures": [
+				"College of Lore|Bard|PHB|Lore|Hergard|3",
+				"Additional Magical Secrets|Bard|PHB|Lore|Hergard|6",
+				"Peerless Skill|Bard|PHB|Lore|Hergard|14"
+			]
+		},
+		{
+			"name": "College of the Maestro",
+			"source": "Hergard",
+			"className": "Bard",
+			"classSource": "PHB",
+			"shortName": "Maestro",
+			"subclassFeatures": [
+				"College of the Maestro|Bard|PHB|Maestro|Hergard|3",
+				"Frenetic Crescendo|Bard|PHB|Maestro|Hergard|6",
+				"Virtuoso of Captivation|Bard|PHB|Maestro|Hergard|14"
+			]
+		},
+		{
+			"name": "College of Roaring Thunder",
+			"source": "Hergard",
+			"className": "Bard",
+			"classSource": "PHB",
+			"shortName": "Roaring Thunder",
+			"subclassFeatures": [
+				"College of Roaring Thunder|Bard|PHB|Roaring Thunder|Hergard|3",
+				"Echoing Storm|Bard|PHB|Roaring Thunder|Hergard|6",
+				"Drums of the Tempest|Bard|PHB|Roaring Thunder|Hergard|14"
+			]
+		},
+		{
+			"name": "College of Tales",
+			"source": "Hergard",
+			"className": "Bard",
+			"classSource": "PHB",
+			"shortName": "Tales",
+			"subclassFeatures": [
+				"College of Tales|Bard|PHB|Tales|Hergard|3",
+				"Mantle of Heroes|Bard|PHB|Tales|Hergard|6",
+				"Maker of Truths|Bard|PHB|Tales|Hergard|14"
+			]
+		},
+		{
+			"name": "College of Valor",
+			"source": "Hergard",
+			"className": "Bard",
+			"classSource": "PHB",
+			"shortName": "Valor",
+			"subclassFeatures": [
+				"College of Valor|Bard|PHB|Valor|Hergard|3",
+				"Extra Attack|Bard|PHB|Valor|Hergard|6",
+				"Battle Magic|Bard|PHB|Valor|Hergard|14"
 			]
 		}
 	],
@@ -5560,7 +5632,537 @@
 				"At 14th level, each and every heart flutters at your presence. As an action, you can exude an aura of adoration within 30 feet of you. For 1 minute, when a creature enters the aura for the first time on a turn or starts its turn there, it must succeed on a Wisdom saving throw or be charmed by you until the start of its next turn. While a creature is charmed by this feature, it is also charmed by any creature that has temporary hit points from your Cherubic Arrow.",
 				"Once you use this feature, you can't use it again until you finish a long rest."
 			]
-		}
+		},
+		{
+			"name": "College of Dirges",
+			"source": "Hergard",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Dirges",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"entries": [
+				"Dirgesingers voice melodies not of celebration and joy, but of sorrow and grief. They seek to spread this melancholic outlook far and wide, believing that only those who give in to their sadness can truly understand the world.",
+				"Dirgesingers hold high positions in death-obsessed cultures. Serving as members of a secret guild or as part of a hierarchy of death priests, they are entrusted with the serious responsibility of composing suitable laments for the dead. The more important the deceased, the more sorrowful and moving her lament is expected to be. No one will remember the dead queen in a few short generations, but a great lament might be sung a thousand years hence.",
+				"However, most dirgesingers do not belong to any special hierarchy or guild. Instead, they are rootless wanderers who travel from place to place, wrapped in inconsolable grief from some personal tragedy. These sad wanderers seek to express their grief through songs that teach the hearts of their listeners the meaning of true sorrow.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Anthology of Death|Bard|PHB|Dirges|Hergard|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Haunting Melody|Bard|PHB|Dirges|Hergard|3"
+				}
+			]
+		},
+		{
+			"name": "Anthology of Death",
+			"source": "Hergard",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Dirges",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you join the College of Dirges at 3rd level, you have developed a morbid fascination with death. You learn one {@filter Necromancy cantrip|spells|school = necromancy|level = 0} from any spell list. This cantrip counts as a bard cantrip for you, but doesn't count against the number of cantrips you know.",
+				"Additionally, when your Spellcasting feature lets you learn or replace a bard spell, you can choose the new spell from the list of necromancy spells or the bard spell list. You must otherwise obey all the restrictions for selecting the spell, and it becomes a bard spell for you."
+			]
+		},
+		{
+			"name": "Haunting Melody",
+			"source": "Hergard",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Dirges",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"By 3rd level, your music has been known to take a sombre and menacing tone. As an action, you may spend a Bardic Inspiration die and select a single creature within 60 feet that can hear you and start performing a haunting melody. When first activated, the creature takes an amount of psychic damage equal to the result you rolled on your Bardic Inspiration die. If a creature has to make a saving throw to maintain concentration because of this damage, it is made with disadvantage. You can choose to maintain this melody by using your bonus action on subsequent turns, repeating the effect.",
+				"A target can escape from your Haunting Melody by ending its turn in a place where it can't see nor hear you.",
+				"You can only have one Haunting Melody active at a single time. A single use of this ability can maximally last a number of rounds equal to 1 + your Charisma modifier."
+			]
+		},
+		{
+			"name": "Don't Fear the Reaper",
+			"source": "Hergard",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Dirges",
+			"subclassSource": "Hergard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"As you reach 6th level, you have developed a strange connection to the other side, seemingly growing stronger as your life force fades.",
+				"You gain resistance to necrotic damage and proficiency in death saving throws. Additionally, if a creature had a use of your Bardic Inspiration when it falls unconscious, it retains said Bardic Inspiration and may use it on the first death saving throw it makes."
+			]
+		}, {
+			"name": "Symphony of the Damned",
+			"source": "Hergard",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Dirges",
+			"subclassSource": "Hergard",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"By 14th level, you have learned to imbue your music with pure necromantic energy. When you use your Haunting Melody feature, you may choose for it to deal necrotic damage and may add your Charisma modifier to its damage.",
+				"Furthermore, you may choose to add one of the following effects when you start performing a Haunting Melody.",
+				{
+					"type": "entries",
+					"name": "One for Sorrow.",
+					"entries": [
+						"The target is stricken with grief and despair, unable to focus. The creature has a penalty to Wisdom saving throws equal to the number you roll on your Bardic Inspiration die when last activating your Haunting Melody. This effect persist as long as you continue performing your Haunting Melody."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "One for Dread.",
+					"entries": [
+						"The target sees the shadow of the Grim Reaper caressing your visage, filling it with dread. Any creature affected by your Haunting melody is immediately frightened by you."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "One for Solitude.",
+					"entries": [
+						"The target sickens at the mere thought of physical contact, trying to remain in seclusion. A creature under the effect of your Haunting Melody can't willingly end its turn within 10 feet of another creature."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "One for the Dead.",
+					"entries": [
+						"The target's very essence starts to decay, its cognitive shadow slowly slipping into oblivion. A creature under the effect of your Haunting Melody loses any resistance to necrotic damage it may have. Additionally, while this effect is in place, the target can't regain hit points nor gain temporary hit points of any kind."
+					]
+				}
+			]
+		},
+		{
+			"name": "College of Lore",
+			"source": "Hergard",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Lore",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"entries": [
+				"Bards of the College of Lore know something about most things, collecting bits of knowledge from sources as diverse as scholarly tomes and peasant tales. Whether singing folk ballads in taverns or elaborate compositions in royal courts, these bards use their gifts to hold audiences spellbound. When the applause dies down, the audience members might find themselves questioning everything they held to be true, from their faith in the priesthood of the local temple to their loyalty to the king.",
+				"The loyalty of these bards lies in the pursuit of beauty and truth, not in fealty to a monarch or following the tenets of a deity. A noble who keeps such a bard as a herald or advisor knows that the bard would rather be honest than politic.",
+				"The college’s members gather in libraries and sometimes in actual colleges, complete with classrooms and dormitories, to share their lore with one another. They also meet at festivals or affairs of state, where they can expose corruption, unravel lies, and poke fun at self-important figures of authority.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Proficiencies|Bard|PHB|Lore|Hergard|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Cutting Words|Bard|PHB|Lore|Hergard|3"
+				}
+			]
+		},
+		{
+			"name": "Bonus Proficiencies",
+			"source": "Hergard",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Lore",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you join the College of Lore at 3rd level, you gain proficiency with three skills of your choice."
+			]
+		},
+		{
+			"name": "Cutting Words",
+			"source": "Hergard",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Lore",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Also at 3rd level, you learn how to use your wit to distract, confuse, and otherwise sap the confidence and competence of others. When a creature that you can see within 60 feet of you makes an attack roll, an ability check, or a damage roll, you can use your reaction to expend one of your uses of Bardic Inspiration, rolling a Bardic Inspiration die and subtracting the number rolled from the creature’s roll. You can choose to use this feature after the creature makes its roll, but before the DM determines whether the attack roll or ability check succeeds or fails, or before the creature deals its damage. The creature is immune if it can’t hear you or if it’s immune to being charmed."
+			]
+		},
+		{
+			"name": "Additional Magical Secrets",
+			"source": "Hergard",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Lore",
+			"subclassSource": "Hergard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, you learn two spells of your choice from any class. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip. The chosen spells count as bard spells for you but don’t count against the number of bard spells you know."
+			]
+		}, {
+			"name": "Peerless Skill",
+			"source": "Hergard",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Lore",
+			"subclassSource": "Hergard",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Starting at 14th level, when you make an ability check, you can expend one use of Bardic Inspiration. Roll a Bardic Inspiration die and add the number rolled to your ability check. You can choose to do so after you roll the die for the ability check, but before the DM tells you whether you succeed or fail."
+			]
+		},
+		{
+			"name": "College of the Maestro",
+			"source": "Hergard",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Maestro",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"entries": [
+				"Music is a powerful thing. It can bolster a burning passion, inspire the meek to bravery, and sooth a cluttered mind. Wandering bards have mastered the art of creating music to shape and manipulate the thoughts and hearts of the world through song, words, and instrument. However, it is the Maestro who has learned to evoke music from the natural world around them and weave these notes with arcane skill into melodies of dynamic and potent magic.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Battle Muse|Bard|PHB|Maestro|Hergard|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Symphony of Conflict|Bard|PHB|Maestro|Hergard|3"
+				}
+			]
+		},
+		{
+			"name": "Battle Muse",
+			"source": "Hergard",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Maestro",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you join the College of the Maestro at 3rd level, you gain one additional use of your Bardic Inspiration.",
+				"This feature grants you additional uses of Bardic Inspiration at 6th level, and at 14th level."
+			]
+		},
+		{
+			"name": "Symphony of Conflict",
+			"source": "Hergard",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Maestro",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Also at 3rd level, you've been trained in the bardic art of magically manipulating the sounds of combat into a concert of powerful melodies that can alter the very battlefield around you.",
+				"You learn 2 conducting techniques of your choice, which are detailed under \"Conducting Techniques\" below. All techniques require at least one free hand, baton, or wand to utilize. For these techniques to function, you must be able to see your target, and they must be able to hear you.",
+				"You learn 1 additional conducting technique of your choice at 6th and 14th level. Each time you learn a new technique, you can also replace one technique you know with a different one."
+			]
+		},
+		{
+			"name": "Frenetic Crescendo",
+			"source": "Hergard",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Maestro",
+			"subclassSource": "Hergard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, you can harness the beat of battle, whipping it into a frenzy of drums, chants, and glory. You can use your action to expend any number of uses of your Bardic Inspiration feature. For each expended use, you can immediately grant a Bardic Inspiration die to a creature other than yourself within 60 feet that you can see. A creature can have only one Bardic Inspiration die at a time.",
+				"Once you use this feature, you must finish a long rest before you can use it again."
+			]
+		}, {
+			"name": "Virtuoso of Captivation",
+			"source": "Hergard",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Maestro",
+			"subclassSource": "Hergard",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Upon reaching 14th level, you can begin conducting a mystical symphony as an action, distracting and capturing the minds of of nearby creatures. For up to 10 minutes, any number of creatures you choose within 60 feet who can hear you have disadvantage on any saving throws against being charmed and against magical sleep.",
+				"In addition, affected targets have disadvantage on Wisdom (Perception) rolls that rely on sight or sound to detect targets other than you. In combat, you must spend your action each turn to continue the performance or the effect ends.",
+				"Once you use this feature, you must finish a short or long rest before you can use it again."
+			]
+		},
+		{
+			"name": "College of Roaring Thunder",
+			"source": "Hergard",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Roaring Thunder",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"entries": [
+				"College of the Roaring Thunder trains bards to enhance their voice with arcane magic through ancient traditions. Bards of this college call themselves voices of thunder. Properly trained voices of thunder gain access to an ancient weapon known as the Raijin Drums that can unleash destructive waves of force in the right hands. From the sound of music to the rumbling roll of thunder, a voice of thunder's range of talents is impressive and filled with deadly power, with even its echoes full of supernatural qualities.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Blood and Thunder|Bard|PHB|Roaring Thunder|Hergard|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Voice of the Stormlord|Bard|PHB|Roaring Thunder|Hergard|3"
+				}
+			]
+		},
+		{
+			"name": "Blood and Thunder",
+			"source": "Hergard",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Roaring Thunder",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"At 3rd level, when you hit a creature with a weapon attack, you may expend one use of your Bardic Inspiration to imbue the attack with thunderous power, dealing an extra 2d4 thunder damage to the target and forcing them to make a Strength saving throw or be pushed back 5 feet and get knocked prone.",
+				"The thunder damage and knockback distance increases when you reach certain levels in this class, increasing to 3d4 and 10 feet at 5th level, 5d4 and 15 feet at 10th level, and 8d4 and 20 feet at 15th level."
+			]
+		},
+		{
+			"name": "Voice of the Stormlord",
+			"source": "Hergard",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Roaring Thunder",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Also at 3rd level, as you speak, you can augment your voice with the power of thunder.",
 
+				"You gain proficiency in the Intimidation skill. If you are already proficient, your proficiency bonus is doubled for any ability check you make that uses this skill. While talking, you may choose to amplify your voice as per the thaumaturgy cantrip's first effect.",
+
+				"Additionally, you may use an action to cause fear with your booming voice within your enemies. You target a number of creatures equal to 2 + your Charisma modifier within hearing range of you. Each creature must succeed on a Wisdom saving throw or become frightened of you for 1 minute. A creature automatically succeeds on the saving throw if it is deaf or cannot hear you by any other means. Effected creatures can repeat the saving throw at the end of their turns.",
+
+				"You regain the use of the second part of this feature after you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Echoing Storm",
+			"source": "Hergard",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Roaring Thunder",
+			"subclassSource": "Hergard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, your enemies are met with the echoing consequences of facing you in battle. Whenever you cast a spell using your spell slots that deals thunder or lightning damage, you may roll one extra damage die.",
+
+				"Furthermore, when you cast a spell in this manner you may use your bonus action to cause effected enemies to become imbued with electric charge. At the start of their turn, said enemies have to make a Constitution saving throw. On a failed save they retake the damage you dealt to them with your spell last turn or half as much damage on a successful save.",
+
+				"You may use the second part of this feature a number of times equal to half your Charisma modifier rounded down (minimum of once). You regain all uses of this ability when you finish a long rest."
+			]
+		}, {
+			"name": "Drums of the Tempest",
+			"source": "Hergard",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Roaring Thunder",
+			"subclassSource": "Hergard",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"When reaching 14th level, you can conjure the legendary Raijin Drums, a destructive weapon only accessible to bards of this college. On your turn, you can use a bonus action to summon these four mighty drums. They float in your space in front of you harmlessly. On the next four turns you can use an action to play one of the drums, unleashing a wave of thunder and lightning in a 60 feet long, 10 feet wide line in front of you. All creatures caught in the radius must make a Constitution saving throw. On a failed save, they are struck by the wave of lightning emanating from the drums, taking 2d12 lightning and 2d12 thunder damage and becoming stunned and deafened until the end of their next turn. On a successful save, they take half damage and are not stunned.",
+
+				"You regain the use of this feature when you finish a long rest."
+			]
+		},
+		{
+			"name": "College of Tales",
+			"source": "Hergard",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Tales",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"entries": [
+				"Wanderers and storytellers, bards of the College of Tales can be found in every corner of the world, tirelessly seeking out ancient legends and new tales alike. Using their gift of magic, these bards bring their stories to life, conjuring monsters of legend and fantastical landscapes to augment their narration. To simply hear a story is one thing; to witness the performance of one of these bards is almost as good as being there yourself.",
+
+				"While many such bards begin their careers as collectors of tales or historians, they are seldom content to merely reproduce the words of others. By taking up the mantle of adventurer, they are able to acquire a repertoire of stories which are entirely their own, and which they can be confident in the retelling of.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Collector of Tales|Bard|PHB|Tales|Hergard|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Song of Triumph|Bard|PHB|Tales|Hergard|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Legend Made Real|Bard|PHB|Tales|Hergard|3"
+				}
+			]
+		},
+		{
+			"name": "Collector of Tales",
+			"source": "Hergard",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Tales",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"By the time you join the College of Tales at 3rd level, your knowledge of legends and lore is as deep as it is broad. You gain proficiency in the History skill. If already proficient, your proficiency bonus is doubled for checks you make using this skill."
+			]
+		},
+		{
+			"name": "Song of Triumph",
+			"source": "Hergard",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Tales",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Also at 3rd level, your tales of victory in the face of overwhelming odds inspire your allies and egg them on to ever greater heroics. Whenever a creature you can see within 60 feet of you scores a critical hit, you can use your reaction to celebrate their accomplishment, granting them one Bardic Inspiration die, which lasts until it is used or the end of the creature's next turn. This ability does not require you to expend a use of your Bardic Inspiration."
+			]
+		},
+		{
+			"name": "Legend Made Real",
+			"source": "Hergard",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Tales",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Your training as a bard of the College of Tales enables you to make stories and myths manifest through your magic. At certain levels you gain access to certain spells, reflecting the creatures and tales you have encountered in your travels. These spells count as bard spells for you but don't count against the number of bard spells you know.",
+				{
+					"type": "table",
+					"caption": "College of Tales Spells",
+					"colLabels": [
+						"Bard Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell find steed|PHB}, {@spell healing spirit|xge}"
+						],
+						[
+							"5th",
+							"{@spell conjure animals|PHB}, {@spell spirit guardians|PHB}"
+						],
+						[
+							"7th",
+							"{@spell conjure woodland beings|PHB}, {@spell find greater steed|xge}"
+						],
+						[
+							"9th",
+							"{@spell conjure elemental|PHB}, {@spell insect plague|PHB}"
+						]
+
+					]
+				}
+			]
+		}, {
+			"name": "Mantle of Heroes",
+			"source": "Hergard",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Tales",
+			"subclassSource": "Hergard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, your Bardic Inspiration magically imbues your allies with the aspect of heroes of old. When you grant a creature Bardic Inspiration, they gain temporary hit points equal to your bard level. While these temporary hit points remain, the creature may choose to take on the appearance of a legendary figure from the past, granting them advantage on Charisma (Intimidate) checks."
+			]
+		}, {
+			"name": "Maker of Truths",
+			"source": "Hergard",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Tales",
+			"subclassSource": "Hergard",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"At 14th level, any creature that you summon or create with a spell is automatically granted Bardic Inspiration."
+			]
+		},
+		{
+			"name": "College of Valor",
+			"source": "Hergard",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Valor",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"entries": [
+				"Bards of the College of Valor are daring skalds whose tales keep alive the memory of the great heroes of the past, and thereby inspire a new generation of heroes. These bards gather in mead halls or around great bonfires to sing the deeds of the mighty, both past and present. They travel the land to witness great events firsthand and to ensure that the memory of those events doesn’t pass from the world. With their songs, they inspire others to reach the same heights of accomplishment as the heroes of old.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Proficiencies|Bard|PHB|Valor|Hergard|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Combat Inspiration|Bard|PHB|Valor|Hergard|3"
+				}
+			]
+		},
+		{
+			"name": "Bonus Proficiencies",
+			"source": "Hergard",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Valor",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you join the College of Valor at 3rd level, you gain proficiency with medium armor, shields, and martial weapons."
+			]
+		},
+		{
+			"name": "Combat Inspiration",
+			"source": "Hergard",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Valor",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Also at 3rd level, you learn to inspire others in battle. A creature that has a Bardic Inspiration die from you can roll that die and add the number rolled to a weapon damage roll it just made. Alternatively, when an attack roll is made against the creature, it can use its reaction to roll the Bardic Inspiration die and add the number rolled to its AC against that attack, after seeing the roll but before knowing whether it hits or misses."
+			]
+		},
+		{
+			"name": "Extra Attack",
+			"source": "Hergard",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Valor",
+			"subclassSource": "Hergard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn."
+			]
+		}, {
+			"name": "Battle Magic",
+			"source": "Hergard",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Valor",
+			"subclassSource": "Hergard",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"At 14th level, you have mastered the art of weaving spellcasting and weapon use into a single harmonious act. When you use your action to cast a bard spell, you can make one weapon attack as a bonus action."
+			]
+		}
 	]
 }
