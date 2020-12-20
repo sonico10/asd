@@ -3820,7 +3820,7 @@
 			}],
 			"entries": [
 				"Your study of divination magic allows you to see just a glimpse into the future.",
-				"When you finish a long rest, roll one d20 and record the number. You can replace any attack roll, saving throw, or ability check made by you or a creature that you can see with this foretelling roll. You must choose to do so before the roll. This foretelling roll can only be used once. When you finish a long rest, you lose your unused foretelling roll."
+				"When you finish a long rest, roll one {@dice d20} and record the number. You can replace any attack roll, saving throw, or ability check made by you or a creature that you can see with this foretelling roll. You must choose to do so before the roll. This foretelling roll can only be used once. When you finish a long rest, you lose your unused foretelling roll."
 			]
 		},
 		{
@@ -3841,7 +3841,13 @@
 			"name": "Gambler",
 			"source": "Hergard",
 			"ability": [{
-				"dex": 1
+				"choose": {
+					"from": [
+						"cha",
+						"int"
+					],
+					"amount": 1
+				}
 			}],
 			"entries": [
 				"Playing with luck is your specialty, you gain the following benefits:",
@@ -3849,7 +3855,7 @@
 					"type": "list",
 					"items": [
 						"Increase your Charisma or Intelligence score by 1, to a maximum of 20.",
-						"You gain proficiency with two types of gaming sets of your choice.",
+						"You gain proficiency with two types of {@item gaming set} of your choice.",
 						"You have advantage on Deception (Charisma) checks to bluff opponents in games of chance and History (Intelligence) checks to count cards.",
 						"When an enemy targets you with a weapon attack but before it rolls to hit, you may use your reaction to lower your AC to 11 for the duration of the attack. If the attack misses you, you may make a weapon attack against the target if it is within range, dealing an additional amount of damage on a successful hit equal to the amount you reduced your AC."
 					]
@@ -3885,8 +3891,8 @@
 				{
 					"type": "list",
 					"items": [
-						"You learn 2 Conducting Techniques of your choice from among those available to the College of the Maestro in the bard class. If a technique you use requires your target to make a saving throw to resist the technique's effects, the saving throw DC equals 8 + proficiency bonus + your Charisma modifier.",
-						"If you already have Bardic Inspiration dice, you gain one more: otherwise, you have one Bardic Inspiration die which is a d6."
+						"You learn 2 {@filter Conducting Techniques|optionalfeatures|feature type=Conducting Techniques} of your choice from among those available to the College of the Maestro in the bard class. If a technique you use requires your target to make a saving throw to resist the technique's effects, the saving throw DC equals 8 + proficiency bonus + your Charisma modifier.",
+						"If you already have Bardic Inspiration dice, you gain one more: otherwise, you have one Bardic Inspiration die which is a {@dice d6}."
 					]
 				},
 				"This die can be given to others as a bonus action (as per the Bardic Inspiration bard feature), or can be used to fuel your techniques. A Bardic Inspiration die is expended when you use it. You regain this expended bardic inspiration die when you finish a short or long rest."
@@ -3900,7 +3906,7 @@
 				{
 					"type": "list",
 					"items": [
-						"When you deal a critical hit with a dagger or sickle, you roll 1d6 and add the result to the damage rolled for the attack.",
+						"When you deal a critical hit with a dagger or sickle, you roll {@dice 1d6} and add the result to the damage rolled for the attack.",
 						"You can use daggers to attempt to pick locks, adding your proficiency bonus to related checks.",
 						"You gain advantage on any Dexterity (Sleight of Hand) checks to conceal a dagger or sickle on your person."
 					]
@@ -3943,7 +3949,7 @@
 					"items": [
 						"Your Constitution score increases by 1, to a maximum of 20.",
 						"You have advantage on saving throws made to resist enchantment spells.",
-						"You are immune to being charmed."
+						"You are immune to being {@condition charmed}."
 					]
 				}
 			]
@@ -3984,7 +3990,7 @@
 					"type": "list",
 					"items": [
 						"You learn the {@spell message|PHB} cantrip",
-						"You learn the catapult and enhance ability spells and can cast them once without expending a spell slot. You regain the ability to cast them again when you finish a long rest. Intelligence is your spellcasting ability for these spells."
+						"You learn the {@spell catapult|xge} and {@spell enhance ability|phb} spells and can cast them once without expending a spell slot. You regain the ability to cast them again when you finish a long rest. Intelligence is your spellcasting ability for these spells."
 					]
 				}
 			]
@@ -4006,7 +4012,7 @@
 					"items": [
 						"Your Charisma modifier increases by 1.",
 						"You learn the {@spell shape water|xge} cantrip.",
-						"You learn the ice knife spell, and may cast it at second level once without expending a spell slot. You regain use of this ability after you finish a long rest. Charisma is your spellcasting ability for these spells."
+						"You learn the {@spell ice knife|xge} spell, and may cast it at second level once without expending a spell slot. You regain use of this ability after you finish a long rest. Charisma is your spellcasting ability for these spells."
 					]
 				}
 			]
@@ -4028,7 +4034,7 @@
 					"items": [
 						"Your Wisdom score increases by 1.",
 						"You learn the {@spell minor illusion|PHB} cantrip.",
-						"You learn the silent image spell and may cast it once at first level without expending a spell slot. You regain use of this ability after you finish a long rest. Wisdom is your spellcasting ability for these spells."
+						"You learn the {@spell silent image|PHB} spell and may cast it once at first level without expending a spell slot. You regain use of this ability after you finish a long rest. Wisdom is your spellcasting ability for these spells."
 					]
 				}
 			]
@@ -4075,7 +4081,7 @@
 					"type": "list",
 					"items": [
 						"You learn the {@spell guidance|PHB} and {@spell gust|xge} cantrips.",
-						"You learn the augury or the find familiar spell. You can cast the spell you choose as a ritual. (If you choose the find familiar spell, unless you gain it from another source, you can only conjure a creature with a flying speed)."
+						"You learn the {@spell augury|PHB} or the {@find familiar|PHB} spell. You can cast the spell you choose as a ritual. (If you choose the find familiar spell, unless you gain it from another source, you can only conjure a creature with a flying speed)."
 					]
 				}
 			]
@@ -4288,7 +4294,7 @@
 					"type": "list",
 					"items": [
 						"Your Charisma score increases by 1.",
-						"You can speak, read, and write Sylvan.",
+						"You can speak, read, and write {@language Sylvan}.",
 						"You learn the {@spell alter self|PHB} spell and can cast it once without expending a spell slot. You regain use of this feature once you complete a short or long rest. Charisma is your spellcasting ability for this spell."
 					]
 				}
@@ -4338,7 +4344,7 @@
 					"type": "list",
 					"items": [
 						"Your Strength score increases by 1.",
-						"As an action, you can strike the ground, causing soil and rocks to leap up around another creature within 30 feet. This creature must make a Strength saving through (DC 8 + your proficiency bonus + your Constitution modifier) or be take 1d6 bludgeoning damage and be restrained for 1 minute. If this creature is within range, you may use a bonus action to make a melee weapon attack against it. You regain use of this ability after you finish a long rest."
+						"As an action, you can strike the ground, causing soil and rocks to leap up around another creature within 30 feet. This creature must make a Strength saving through (DC 8 + your proficiency bonus + your Constitution modifier) or be take {@damage 1d6} bludgeoning damage and be {@condition restrained} for 1 minute. If this creature is within range, you may use a bonus action to make a melee weapon attack against it. You regain use of this ability after you finish a long rest."
 					]
 				}
 			]
@@ -4360,7 +4366,7 @@
 					"items": [
 						"Your Wisdom score increases by 1.",
 						"As an action, you give yourself a watery form that lasts for one round. While in this form, you can pass through another creature's space, however you cannot end your turn there. While in this form, you may also pass through gaps as small as 1 inch. You regain the use of this ability after you finish a short or long rest.",
-						"You can cast the speak with animals spell at will, however unless you gain it from another source you can only speak with creatures that can breathe water, as well as dolphins and whales."
+						"You can cast the {@spell speak with animals|PHB} spell at will, however unless you gain it from another source you can only speak with creatures that can breathe water, as well as dolphins and whales."
 					]
 				}
 			]
@@ -4550,7 +4556,7 @@
 					"items": [
 						"Your Constitution score increases by one.",
 						"You gain resistance to cold and poison damage.",
-						"You have advantage on saving throws against being poisoned."
+						"You have advantage on saving throws against being {@condition poisoned}."
 					]
 				}
 			]
@@ -4628,7 +4634,7 @@
 				{
 					"type": "list",
 					"items": [
-						"You learn the friends cantrip.",
+						"You learn the {@spell friends|PHB} cantrip.",
 						"You learn the {@spell charm person|PHB} and {@spell detect thoughts|PHB} spells and can cast each spell once without expending a spell slot. You regain the use of this feature once you finish a long rest. Charisma is your spellcasting ability for these spells."
 					]
 				}
@@ -4657,7 +4663,7 @@
 					"items": [
 						"Your Intelligence or Charisma score increases by 1.",
 						"You can use an action to polymorph into a Medium snake or back into your true form. Your statistics are the same in each form. Any equipment you are wearing or carrying isn't transformed. If you die, you stay in your current form.",
-						"While in snake form, you gain a bite attack as a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. When you hit with a bite attack, you can choose to deal 2d6 additional poison damage to the target. Once you deal this poison damage, you can't do so again until you finish a short or long rest."
+						"While in snake form, you gain a bite attack as a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to {@damage 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. When you hit with a bite attack, you can choose to deal {@damage 2d6} additional poison damage to the target. Once you deal this poison damage, you can't do so again until you finish a short or long rest."
 					]
 				}
 			]
@@ -4743,16 +4749,95 @@
 					"type": "list",
 					"items": [
 						"Your Dexterity score increases by one.",
-						"You gain proficiency with spears, javelins and nets.",
-						"When you are flying and dive at least 30 feet towards a target and hit it with a melee weapon, you can cause the attack to deal an additional 1d6 damage of the weapons type to the target."
+						"You gain proficiency with {@item spear}, {@item javelin} and {@item net}.",
+						"When you are flying and dive at least 30 feet towards a target and hit it with a melee weapon, you can cause the attack to deal an additional {@damage 1d6} damage of the weapons type to the target."
 					]
 				}
 			]
 		}
 
 	],
+	"optionalfeature": [
+		{
+			"name": "Aria of Suspense (Ansla)",
+			"source": "Hergard",
+			"featureType": "Conducting Techniques",
+			"entries": [
+				"You build an air of tension and paranoia with subtle, droning tones. As an action, you expend and roll a Bardic Inspiration die. For the next 10 minutes, any creatures of your choice within 60 feet cannot be surprised and gain a bonus to saving throws against traps and environmental hazards equal to your Bardic Inspiration die roll."
+			]
+		},
+		{
+			"name": "Crash (Marcato)",
+			"source": "Hergard",
+			"featureType": "Conducting Techniques",
+			"entries": [
+				"You learn how to harness and amplify the roar of a well-placed blow into a violent explosion of sound. When a creature other than yourself within 60 feet of you hits with an attack, you can use your reaction to expend and roll a Bardic Inspiration die. The target of the triggering attack must make a Strength saving throw against your Spell save DC or take thunder damage equal to half of the number rolled and be knocked prone."
+			]
+		},
+		{
+			"name": "Dirge of Dread (Finale)",
+			"source": "Hergard",
+			"featureType": "Conducting Techniques",
+			"entries": [
+				"You play a terrifying dirge to accompany a deathblow, striking fear into the hearts of your nearby enemies. When an ally brings a creature within 60 feet to 0 hitpoints, you can use your reaction to expend and roll a Bardic Inspiration die. Select a number of creatures within 15 feet of the triggering ally equal to half of the number rolled (minimum 1). Each target must make a Wisdom saving throw against your Spell save DC or becomed frightened of the triggering ally until the end of that ally's next turn. After the effect ends, or the save is successful, targeted creatures are immune to Dirge of Dread for the next 24 hours."
+			]
+		},
+		{
+			"name": "Dissonance (Discomfits)",
+			"source": "Hergard",
+			"featureType": "Conducting Techniques",
+			"entries": [
+				"Summoning a harsh, discordant tone. you muddle the mind of an opponent, lessening their defenses. When a creature within 60 feet is forced to make a saving throw, you can use your reaction to expend and roll a Bardic Inspiration die. You reduce their saving throw by half of the number rolled. You can use this feature after the creature makes its saving throw roll, but before the DM determines a success or failure."
+			]
+		},
+		{
+			"name": "Guiding Dane (Fermata)",
+			"source": "Hergard",
+			"featureType": "Conducting Techniques",
+			"entries": [
+				"You drag a sharp, powerful chord through the mind of a creature. forcing it to suddenly stumble in a direction you wish. As a bonus action, you expend and roll a of Bardic Inspiration die and select a creature other than yourself within 60 feet. The target must succeed on a Wisdom saving throw against your Spell save DC or take psychic damage equal to half of the number rolled and be pushed 10 feet in a direction you choose. A target can fail the saving throw voluntarily."
+			]
+		},
+		{
+			"name": "Hasten Tempo (Accelerando)",
+			"source": "Hergard",
+			"featureType": "Conducting Techniques",
+			"entries": [
+				"Your manipulation of tempo and song can inspire others to act more quickly. You can use a Bonus action on your turn to choose one creature other than yourself within 60 feet. Expend and roll a Bardic Inspiration die. adding the number rolled to the creature's initiative and moving them up the initiative order accordingly. If this would move them higher than you. they immediately take their turn after you this round. A creature cannot be affected by Hasten Tempo again until they've finished a short or long rest."
+			]
+		},
+		{
+			"name": "Hymn of Harmony (Armonia)",
+			"source": "Hergard",
+			"featureType": "Conducting Techniques",
+			"entries": [
+				"The melodies surrounding your allies promote rapid recovery. When a creature that has a Bardic Inspiration die from you regains any hitpoints, they can expend and roll their inspiration die to regain additional hitpoints equal to the number rolled."
+			]
+		},
+		{
+			"name": "Majestic Anthem (Maestoso)",
+			"source": "Hergard",
+			"featureType": "Conducting Techniques",
+			"entries": [
+				"Pulled from the chaos, you muster an uplifting melody that bolsters the resolve of your allies. You can expend and roll a Bardic Inspiration die as an action. You and all other creatures you choose within 60 feet, gain temporary hitpoints equal to the number rolled plus your Charisma modifier (minimum of 1). These temporary hitpoints last until the end of your next turn."
+			]
+		},
+		{
+			"name": "Resonance (Risonanza)",
+			"source": "Hergard",
+			"featureType": "Conducting Techniques",
+			"entries": [
+				"You shape the harmonic vibrations of a weapon's movements into a dangerous, sonic enhancement. Using a bonus action, you can expend and roll a Bardic Inspiration die, choosing one weapon within 60 feet of you. Until the end of your next turn, all attacks with that weapon deal additional thunder damage equal to half of number rolled (minimum of 1)."
+			]
+		}
+	],
+	"class": [
+		{
+			"name": "Bard",
+			"source": "Hergard"
+			}],
 	"classFeatures": [
-		"Countercharm Variant|Bard||6|Hergard"
+		"Countercharm Variant|Bard|PHB|6|Hergard"
 	],
 	"classFeature": [{
 		"name": "Countercharm Variant",
@@ -4760,8 +4845,8 @@
 		"className": "Bard",
 		"classSource": "PHB",
 		"level": 6,
+		"isClassFeatureVariant": true,
 		"entries": [
-			"{@i 6th-level bard {@variantrule optional class features|tce|optional feature}}",
 			"At 6th level, you gain the ability to use musical notes or words of power to disrupt mind-influencing effects. As an action, you can start a performance that lasts until the end of your next turn. On subsequent turns, you can use your bonus action to extend this effect. During that time, you and any friendly creatures within 30 feet of you have advantage on saving throws against being {@condition frightened} or {@condition charmed}. A creature must be able to hear you to gain this benefit. The performance ends early if you are {@condition incapacitated} or silenced or if you voluntarily end it (no action required)."
 		]
 	}],
@@ -5857,7 +5942,7 @@
 			"header": 1,
 			"entries": [
 				"Also at 3rd level, you've been trained in the bardic art of magically manipulating the sounds of combat into a concert of powerful melodies that can alter the very battlefield around you.",
-				"You learn 2 conducting techniques of your choice, which are detailed under \"Conducting Techniques\" below. All techniques require at least one free hand, baton, or wand to utilize. For these techniques to function, you must be able to see your target, and they must be able to hear you.",
+				"You learn 2 {@filter Conducting Techniques|optionalfeatures|feature type=Conducting Techniques} of your choice, which are detailed under \"Conducting Techniques\" below. All techniques require at least one free hand, baton, or wand to utilize. For these techniques to function, you must be able to see your target, and they must be able to hear you.",
 				"You learn 1 additional conducting technique of your choice at 6th and 14th level. Each time you learn a new technique, you can also replace one technique you know with a different one."
 			]
 		},
