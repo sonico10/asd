@@ -5055,7 +5055,7 @@
 		{
 			"name": "Arcane Archer",
 			"source": "Hergard",
-			"className": "Bard",
+			"className": "Fighter",
 			"classSource": "PHB",
 			"shortName": "Arcane Archer",
 			"subclassFeatures": [
