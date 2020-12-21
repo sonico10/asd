@@ -6372,11 +6372,20 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Also at 3rd level, you learn to unleash special magical effects with some of your shots. When you gain this feature, you learn two Arcane Shot options of your choice, detailed at the end of this archetype's description.",
+				"Also at 3rd level, you learn to unleash special magical effects with some of your shots. When you gain this feature, you learn two {@filter Arcane Shot|optionalfeatures|feature type=Arcane Shot} options of your choice, detailed at the end of this archetype's description.",
 
 				"Once per turn when you fire an arrow from a shortbow or longbow as part of the Attack action, you can apply one of your Arcane Shot options to that arrow. You decide to use the option when the arrow hits a creature, unless the option doesn't involve an attack roll. You have two uses of this ability, and you regain all expended uses of it when you finish a short or long rest. You gain an additional use of Arcane Shot at 7th level (3 uses), and again at 10th (4 uses), 15th (5 uses) and 18th level (6 uses).",
 
-				"You gain an additional Arcane Shot option of your choice when you reach certain levels in this class: 7th, 10th, 15th, and 18th level. Each option also improves when you become an 18th-level fighter."
+				"You gain an additional Arcane Shot option of your choice when you reach certain levels in this class: 7th, 10th, 15th, and 18th level. Each option also improves when you become an 18th-level fighter.",
+				
+				"If an option requires a saving throw, its DC is calculated as follows:",
+				{
+					"type": "entries",
+					"name": "Maneuver Save DC",
+					"entries": [
+						"= 8 + your proficiency bonus + your Intelligence modifier"
+					]
+				}
 			]
 		},
 		{
