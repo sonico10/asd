@@ -1,0 +1,354 @@
+{
+	"$schema": "../schema.json",
+	"_meta": {
+		"sources": [{
+			"json": "Hergard",
+			"full": "Herbalist's Guide to Her'gard",
+			"authors": [
+				"TheRedstom"
+			],
+			"abbreviation": "HGH",
+			"url": "https://tinyurl.com/hergard",
+			"version": "2018.01.13"
+		}],
+		"convertedBy": ["TheRedstom"],
+		"dateAdded": 1607875712,
+		"dateLastModified": 1607875712
+	},
+	"class": [{
+		"name": "Soul Binder",
+		"source": "Hergard",
+		"hd": {
+			"number": 1,
+			"faces": 6
+		},
+		"proficiency": [
+			"con",
+			"cha"
+		],
+		"classTableGroups": [{
+				"colLabels": [
+					"{@filter Cantrips Known|spells|level=0|class=artificer}"
+				],
+				"rows": [
+					[
+						2
+					],
+					[
+						2
+					],
+					[
+						2
+					],
+					[
+						2
+					],
+					[
+						2
+					],
+					[
+						2
+					],
+					[
+						2
+					],
+					[
+						2
+					],
+					[
+						2
+					],
+					[
+						3
+					],
+					[
+						3
+					],
+					[
+						3
+					],
+					[
+						3
+					],
+					[
+						4
+					],
+					[
+						4
+					],
+					[
+						4
+					],
+					[
+						4
+					],
+					[
+						4
+					],
+					[
+						4
+					],
+					[
+						4
+					]
+				]
+			},
+			{
+				"title": "Spell Slots per Spell Level",
+				"colLabels": [
+					"{@filter 1st|spells|level=1|class=Soul Binder}",
+					"{@filter 2nd|spells|level=2|class=Soul Binder}",
+					"{@filter 3rd|spells|level=3|class=Soul Binder}",
+					"{@filter 4th|spells|level=4|class=Soul Binder}",
+					"{@filter 5th|spells|level=5|class=Soul Binder}"
+				],
+				"rows": [
+					[
+						2,
+						0,
+						0,
+						0,
+						0
+					],
+					[
+						2,
+						0,
+						0,
+						0,
+						0
+					],
+					[
+						3,
+						0,
+						0,
+						0,
+						0
+					],
+					[
+						3,
+						0,
+						0,
+						0,
+						0
+					],
+					[
+						4,
+						2,
+						0,
+						0,
+						0
+					],
+					[
+						4,
+						2,
+						0,
+						0,
+						0
+					],
+					[
+						4,
+						3,
+						0,
+						0,
+						0
+					],
+					[
+						4,
+						3,
+						0,
+						0,
+						0
+					],
+					[
+						4,
+						3,
+						2,
+						0,
+						0
+					],
+					[
+						4,
+						3,
+						2,
+						0,
+						0
+					],
+					[
+						4,
+						3,
+						3,
+						0,
+						0
+					],
+					[
+						4,
+						3,
+						3,
+						0,
+						0
+					],
+					[
+						4,
+						3,
+						3,
+						1,
+						0
+					],
+					[
+						4,
+						3,
+						3,
+						1,
+						0
+					],
+					[
+						4,
+						3,
+						3,
+						2,
+						0
+					],
+					[
+						4,
+						3,
+						3,
+						2,
+						0
+					],
+					[
+						4,
+						3,
+						3,
+						3,
+						1
+					],
+					[
+						4,
+						3,
+						3,
+						3,
+						1
+					],
+					[
+						4,
+						3,
+						3,
+						3,
+						2
+					],
+					[
+						4,
+						3,
+						3,
+						3,
+						2
+					]
+				]
+			}
+		],
+		"spellcastingAbility": "int",
+		"casterProgression": "1/2",
+		"startingProficiencies": {
+			"armor": [
+				"Light"
+			],
+			"weapons": [
+				"Simple"
+			],
+			"tools": [{}],
+			"skills": [{
+				"choose": {
+					"from": [
+						"Animal Handling",
+						"History",
+						"Nature",
+						"Insight",
+						"Arcana",
+						"Persuasion",
+						"Intimidation"
+					],
+					"count": 2
+				}
+			}]
+		},
+		"startingEquipment": {
+			"additionalFromBackground": true,
+			"default": [
+				"(a) two daggers (b) any simple weapon or (c) any martial weapon (if proficient)",
+				"(a) a priest's pack or (b) a scholar's pack",
+				"(a) a set of leather armor or (b) a set of scale mail (if proficient)",
+				"(a) a set of tools of your choice"
+			],
+			"goldAlternative": "{@dice ||Starting Gold}"
+		},
+		"multiclassing": {
+			"requirements": {},
+			"proficienciesGained": {
+				"weapons": [],
+				"armor": [],
+				"tools": []
+			}
+		},
+		"classFeatures": [
+			"Soul Bond|Soul Binder|Hergard|1",
+			"Bonded Companion|Soul Binder|Hergard|1",
+			"Hidden Form|Soul Binder|Hergard|1"
+		],
+		"fluff": [{
+			"entries": [
+				"Placeholding 1",
+				{
+					"name": "hold 1",
+					"entries": [
+						"Placeholder text"
+					]
+				},
+				{
+					"name": "hold 2",
+					"entries": [
+						"Placeholder text"
+					]
+				},
+				{
+					"name": "hold 3",
+					"entries": [
+						"Placeholder text"
+					]
+				}
+			],
+			"name": "Soul Binder",
+			"type": "section"
+		}]
+	}],
+	"classFeature": [{
+		"name": "Soul Bond",
+		"source": "Hergard",
+		"className": "Soul Binder",
+		"classSource": "Hergard",
+		"level": 1,
+		"entries": [
+			"At 1st level, you have chosen to sacrifice a piece of your own soul to gain the aid of a creature stronger than you. You can choose one of several bonds detailed at the end of the class description. Your choice grants you additional features when you reach 3rd level and again at 7th, 11th and 15th levels."
+		]
+	},{
+		"name": "Bonded Companion",
+		"source": "Hergard",
+		"className": "Soul Binder",
+		"classSource": "Hergard",
+		"level": 1,
+		"entries": [
+			"At 1st level, you gain a companion that will serve and aid you in every way it possibly can. The companion gains bonuses from being linked to your essence. In combat, the companion moves and acts on your turn in initiative. You can command it verbally (no action needed) and if you are incapacitated, it will do its best to protect you and itself from harm.",
+			"You and your companion both become empowered from the bond you share, but only one of you can take full advantage of that power at first. If you take the Attack action or cast a spell with a casting time of one action, your companion can't take the Attack action on the same turn, and if your companion takes the Attack action, you can't take the Attack action or cast a spell with a casting time of one action on the same turn."
+		]
+	},{
+		"name": "Soul Bond",
+		"source": "Hergard",
+		"className": "Soul Binder",
+		"classSource": "Hergard",
+		"level": 1,
+		"entries": [
+			"At 1st level, you have chosen to sacrifice a piece of your own soul to gain the aid of a creature stronger than you. You can choose one of several bonds detailed at the end of the class description. Your choice grants you additional features when you reach 3rd level and again at 7th, 11th and 15th levels."
+		]
+	}
+	],
+	"subclassFeature": []
+}
