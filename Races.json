@@ -3748,12 +3748,13 @@
 					"You can use your venomous fangs in combat to inflict burning pain on your enemies. You can make melee attacks with your bite using Dexterity with a range of 5 feet, dealing 1d4 piercing damage. You are proficient in these attacks. If you hit with your bite, you can use your reaction to inject venom into your target, forcing them to make a Constitution saving throw. On a failed save, they take poison damage equal to a number of d6s equal to your proficiency bonus and become poisoned for the next minute. On a successful save they are not poisoned and take half as much damage. A poisoned enemy may repeat the save at the end of each of their turns. Once you inject venom, you can't do so again until you finish a short or long rest."
 				]
 			},
-			{
-				"name": "Bite Save DC",
-				"entries": [
-					"8 + your proficiency bonus + your Constitution modifier"
-				]
-			}
+				{
+					"type": "abilityDc",
+					"name": "Bite Save",
+					"attributes": [
+						"con"
+					]
+				}
 		],
 		"fluff": {
 			"name": "Veneris",
@@ -4901,6 +4902,192 @@
 				"You weave illusion magic into your arrow, causing it to occlude your foe's vision with shadows. The creature hit by the arrow takes an extra {@damage 2d6} psychic damage, and it must succeed on a Wisdom saving throw or be unable to see anything farther than 5 feet away until the start of your next turn.",
 				"The psychic damage increases to {@damage 4d6} when you reach 18th level in this class."
 			]
+		},
+		{
+			"name": "Ambush",
+			"source": "Hergard",
+			"featureType": "Maneuvers",
+			"entries": [
+				"When you make a Dexterity (Stealth) check or an initiative roll, you can expend one superiority die and add the die to the roll."
+			]
+		},
+		{
+			"name": "Brace",
+			"source": "Hergard",
+			"featureType": "Maneuvers",
+			"entries": [
+				"When an enemy you can see moves within 5 feet of you, you can use your reaction to expend one superiority die and make one weapon attack against that creature. If the attack hits, add the superiority die to the attack's damage roll."
+			]
+		},
+		{
+			"name": "Disarming Attack",
+			"source": "Hergard",
+			"featureType": "Maneuvers",
+			"entries": [
+				"When you hit a creature with a weapon attack, you can expend one superiority die to attempt to disarm the target, forcing it to drop one item of your choice that it's holding. You add the superiority die to the attack's damage roll, and the target must make a Strength saving throw. On a failed save, it drops the object you choose. The object lands at its feet."
+			]
+		},
+		{
+			"name": "Feinting Attack",
+			"source": "Hergard",
+			"featureType": "Maneuvers",
+			"entries": [
+				"You can expend one superiority die and use a bonus action on your turn to feint, choosing one creature within 5 feet of you as your target. You have advantage on your next attack roll against that creature this turn. If that attack hits, add the superiority die to the attack's damage roll."
+			]
+		},
+		{
+			"name": "Lunging Attack",
+			"source": "Hergard",
+			"featureType": "Maneuvers",
+			"entries": [
+				"When you make a melee weapon attack on your turn, you can expend one superiority die to increase your reach for that attack by 5 feet. If you hit, you add the superiority die to the attack's damage roll."
+			]
+		},
+		{
+			"name": "Parry",
+			"source": "Hergard",
+			"featureType": "Maneuvers",
+			"entries": [
+				"When another creature damages you with a melee attack, you can use your reaction and expend one superiority die to reduce the damage by the number you roll on your superiority die + your Strength or Dexterity modifier (your choice)."
+			]
+		},
+		{
+			"name": "Precision Attack",
+			"source": "Hergard",
+			"featureType": "Maneuvers",
+			"entries": [
+				"When you make a weapon attack roll against a creature, you can expend one superiority die to add it to the roll. You can use this maneuver before or after making the attack roll, but before any effects of the attack are applied."
+			]
+		},
+		{
+			"name": "Pushing Attack",
+			"source": "Hergard",
+			"featureType": "Maneuvers",
+			"entries": [
+				"When you hit a creature with a weapon attack, you can expend one superiority die to attempt to drive the target back. You add the superiority die to the attack's damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you push the target up to 15 feet away from you."
+			]
+		},
+		{
+			"name": "Riposte",
+			"source": "Hergard",
+			"featureType": "Maneuvers",
+			"entries": [
+				"When a creature misses you with a melee attack, you can use your reaction and expend one superiority die to make a melee weapon attack against the creature. If you hit, you add the superiority die to the attack's damage roll."
+			]
+		},
+		{
+			"name": "Snipe",
+			"source": "Hergard",
+			"featureType": "Maneuvers",
+			"entries": [
+				"As a bonus action, you can expend one superiority die and make a ranged weapon attack. You can draw a thrown weapon or load a single piece of ammunition into a crossbow or firearm as part of making this attack. If you hit, add the superiority die to the attack's damage roll."
+			]
+		},
+		{
+			"name": "Sweeping Attack",
+			"source": "Hergard",
+			"featureType": "Maneuvers",
+			"entries": [
+				"When you hit a creature with a melee weapon attack, you can expend one superiority die to attempt to damage another creature with the same attack. Choose another creature within 5 feet of the original target and within your reach. If the original attack roll would hit the second creature, it takes damage equal to the number you roll on your superiority die. The damage is of the same type dealt by the original attack."
+			]
+		},
+		{
+			"name": "Trip Attack",
+			"source": "Hergard",
+			"featureType": "Maneuvers",
+			"entries": [
+				"When you hit a creature with a weapon attack, you can expend one superiority die to attempt to knock the target down. You add the superiority die to the attack's damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you knock the target prone."
+			]
+		},
+		{
+			"name": "Bait and Switch",
+			"source": "Hergard",
+			"featureType": "Additional Maneuvers",
+			"entries": [
+				"When you're within 5 feet of an ally on your turn, you can expend one superiority die and switch places with that ally, provided you spend at least 5 feet of movement.",
+				"This movement doesn't provoke opportunity attacks.",
+				"Roll the superiority die. Until the start of your next turn, the ally gains a bonus to AC equal to the number rolled."
+			]
+		},
+		{
+			"name": "Commander's Strike",
+			"source": "Hergard",
+			"featureType": "Additional Maneuvers",
+			"entries": [
+				"When you take the Attack action on your turn, you can forgo one of your attacks and use a bonus action to direct one of your companions to strike. When you do so, choose a friendly creature who can see or hear you and expend one superiority die. That creature can immediately use its reaction to make one weapon attack, adding the superiority die to the attack's damage roll."
+			]
+		},
+		{
+			"name": "Distracting Strike",
+			"source": "Hergard",
+			"featureType": "Maneuvers",
+			"entries": [
+				"When you hit a creature with a weapon attack, you can expend one superiority die to distract the creature, giving your allies an opening. You add the superiority die to the attack's damage roll. The next attack roll against the target by an attacker other than you has advantage if the attack is made before the start of your next turn."
+			]
+		},
+		{
+			"name": "Evasive Footwork",
+			"source": "Hergard",
+			"featureType": "Additional Maneuvers",
+			"entries": [
+				"When you move, you can expend one superiority die, rolling the die and adding the number rolled to your AC until you stop moving."
+			]
+		},
+		{
+			"name": "Goading Attack",
+			"source": "Hergard",
+			"featureType": "Additional Maneuvers",
+			"entries": [
+				"When you hit a creature with a weapon attack, you can expend one superiority die to attempt to goad the target into attacking you. You add the superiority die to the attack's damage roll, and the target must make a Wisdom saving throw. On a failed save, the target has disadvantage on all attack rolls against targets other than you until the end of your next turn."
+			]
+		},
+		{
+			"name": "Maneuvering Attack",
+			"source": "Hergard",
+			"featureType": "Additional Maneuvers",
+			"entries": [
+				"When you hit a creature with a weapon attack, you can expend one superiority die to maneuver one of your comrades into a more advantageous position. You add the superiority die to the attack's damage roll, and you choose a friendly creature who can see or hear you. That creature can use its reaction to move up to half its speed without provoking opportunity attacks from the target of your attack."
+			]
+		},
+		{
+			"name": "Menacing Attack",
+			"source": "Hergard",
+			"featureType": "Additional Maneuvers",
+			"entries": [
+				"When you hit a creature with a weapon attack, you can expend one superiority die to attempt to frighten the target. You add the superiority die to the attack's damage roll, and the target must make a Wisdom saving throw. On a failed save, it is frightened of you until the end of your next turn."
+			]
+		},
+		{
+			"name": "Rally",
+			"source": "Hergard",
+			"featureType": "Additional Maneuvers",
+			"entries": [
+				"On your turn, you can use a bonus action and expend one superiority die to bolster the resolve of one of your companions. When you do so, choose a friendly creature who can see or hear you. That creature gains temporary hit points equal to the superiority die roll + your Charisma modifier."
+			]
+		},
+		{
+			"name": "Restraining Strike",
+			"source": "Hergard",
+			"featureType": "Additional Maneuvers",
+			"entries": [
+				"Immediately after you hit a creature with a melee weapon attack on your turn, you can expend one superiority die and use a bonus action to grapple the target. Add the superiority die to your Strength (Athletics) check. The target is also restrained while grappled in this way."
+			]
+		},
+		{
+			"name": "Silver Tongue",
+			"source": "Hergard",
+			"featureType": "Additional Maneuvers",
+			"entries": [
+				"When you make a Charisma (Deception) check or a Charisma (Persuasion) check, you can expend one superiority die, and add the superiority die to the ability check."
+			]
+		},
+		{
+			"name": "Studious Eye",
+			"source": "Hergard",
+			"featureType": "Additional Maneuvers",
+			"entries": [
+				"When you make a Wisdom (Insight) check or an Intelligence (Investigation) check, you can expend one superiority die, and add the superiority die to the ability check."
+			]
 		}
 	],
 	"classFeatures": [
@@ -5063,6 +5250,34 @@
 				"Magic Quiver|Fighter|PHB|Arcane Archer|Hergard|7",
 				"Elemental Arrows|Fighter|PHB|Arcane Archer|Hergard|10",
 				"Ever-Ready|Fighter|PHB|Arcane Archer|Hergard|15"
+			]
+		},
+		{
+			"name": "Battle Master",
+			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"shortName": "Battle Master",
+			"subclassFeatures": [
+				"Battle Master|Fighter|PHB|Battle Master|Hergard|3",
+				"Know Your Enemy|Fighter|PHB|Battle Master|Hergard|7",
+				"Improved Combat Superiority|Fighter|PHB|Battle Master|Hergard|10",
+				"Relentless|Fighter|PHB|Battle Master|Hergard|15",
+				"Battlefield Awareness|Fighter|PHB|Battle Master|Hergard|18"
+			]
+		},
+		{
+			"name": "Blademaker",
+			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"shortName": "Blademaker",
+			"subclassFeatures": [
+				"Blademaker|Fighter|PHB|Blademaker|Hergard|3",
+				"Maneuvering Barrage|Fighter|PHB|Blademaker|Hergard|7",
+				"Otherworldly Blades|Fighter|PHB|Blademaker|Hergard|10",
+				"Victorious Onslaught|Fighter|PHB|Blademaker|Hergard|15",
+				"Army of One|Fighter|PHB|Blademaker|Hergard|18"
 			]
 		}
 	],
@@ -6380,10 +6595,10 @@
 				
 				"If an option requires a saving throw, its DC is calculated as follows:",
 				{
-					"type": "entries",
-					"name": "Maneuver Save DC",
-					"entries": [
-						"= 8 + your proficiency bonus + your Intelligence modifier"
+					"type": "abilityDc",
+					"name": "Maneuver Save",
+					"attributes": [
+						"int"
 					]
 				}
 			]
@@ -6428,6 +6643,244 @@
 				"Beginning at 15th level, your magical archery is available whenever battle starts. If you roll initiative and have less than your maximum uses of Arcane Shot remaining, you regain one use of it.",
 
 				"Additionally, you learn how to direct an errant arrow toward a new target with deadly accuracy. When you make an attack roll with a magic arrow and miss, you can use a bonus action to reroll the attack roll with advantage against a different target within 60 feet of the original target."
+			]
+		},
+		{
+			"name": "Battle Master",
+			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Battle Master",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"entries": [
+				"To a Battle Master, combat is an academic field, sometimes including subjects beyond battle such as weaponsmithing and calligraphy. Not every fighter absorbs the lessons of history, theory, and artistry that are reflected in the Battle Master archetype, but those who do are well-rounded fighters of great skill and knowledge.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Combat Superiority|Fighter|PHB|Battle Master|Hergard|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Student of War|Fighter|PHB|Battle Master|Hergard|3"
+				}
+			]
+		},
+		{
+			"name": "Combat Superiority",
+			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Battle Master",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you choose this archetype at 3rd level, you are trained in new ways to perfect your martial capabilities.",
+				"You gain an expanded selection of maneuvers to adapt as part of your Superior Technique feature, detailed at the end of this archetype's description.",
+				"Additionally, when you gain this feature, you learn one additional maneuver of your choice and learn two additional maneuvers of your choice at 7th, 10th, and 15th level."
+			]
+		},
+		{
+			"name": "Student of War",
+			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Battle Master",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"At 3rd level, you gain proficiency with one type of artisan's tools of your choice."
+				]
+		},
+		{
+			"name": "Know Your Enemy",
+			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Battle Master",
+			"subclassSource": "Hergard",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Starting at 7th level, if you spend at least 1 minute observing or interacting with another creature outside combat, you can learn certain information about its capabilities compared to your own. The DM tells you if the creature is your equal, superior, or inferior in regard to two of the following characteristics of your choice:",
+				{
+					"type": "list",
+					"items": [
+						"Strength score",
+						"Dexterity score",
+						"Constitution score",
+						"Armor Class",
+						"Current hit points",
+						"Total class levels (if any)",
+						"Fighter class levels (if any)"
+					]
+				}
+			]
+		},
+		{
+			"name": "Improved Combat Superiority",
+			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Battle Master",
+			"subclassSource": "Hergard",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"At 10th level, your superiority dice improve to d10s. They improve to d12s at 18th level."
+			]
+		}, {
+			"name": "Relentless",
+			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Battle Master",
+			"subclassSource": "Hergard",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"Starting at 15th level, when you roll initiative and have less than your maximum amount of superiority dice remaining, you regain one superiority die."
+			]
+		},{
+			"name": "Battlefield Awareness",
+			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Battle Master",
+			"subclassSource": "Hergard",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"Beginning at 18th level, you can't be surprised.",
+				"Additionally, once per turn, if you've already taken your reaction, you may take an additional reaction. You can do so a number of times equal to your Intelligence modifier (minimum of 1).",
+				"You regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Blademaker",
+			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Blademaker",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"entries": [
+				"When you choose this archetype at 3rd level, , you can call forth weapons from nothing. Whenever you attack, you can blademake instead of attacking with a weapon. A melee weapon of your choice, that you are proficient with appears, floating within 20 feet of you. You launch the weapon to make a ranged attack, using the same ability modifier for that attack and damage roll that you would use for a melee attack with the weapon or Charisma (your choice). It has a range of 60 feet. If the weapon has a thrown range, that range is added on. For example, a spear would have a range of 80/120, while a greatsword would have a range of 60.",
+				"Additionally, when you make a ranged attack with a melee weapon, you don't have disadvantage on the attack roll if you are within 5 feet of a hostile creature who can see you and who isn't incapacitated.",
+				"When you blademake, you can also grasp the weapon yourself, instead of launching it. All blademade weapons disappear at the end of your next turn, unless that weapon is magical. You can only blademake magic weapons that you own. You must have hands available to summon a weapon you blademake, even if you do not wield it (for example, you must have two hands empty to blademake a greatsword, but one for a spear).",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Constant Assault|Fighter|PHB|Blademaker|Hergard|3"
+				}
+			]
+		},
+		{
+			"name": "Constant Assault",
+			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Blademaker",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Also at 3rd level, you can blademake once as a bonus action, but you do not add your ability modifier to the damage roll of the attack until you reach 10th level."
+			]
+		},
+		{
+			"name": "Maneuvering Barrage",
+			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Blademaker",
+			"subclassSource": "Hergard",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Beginning at 7th level, when you use your Action Surge feature, your blademake range is increased by 30 feet and you can jump up to your speed on that turn.",
+				"Additionally, any damage you deal with a weapon counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+			]
+		},
+		{
+			"name": "Otherworldly Blades",
+			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Blademaker",
+			"subclassSource": "Hergard",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"At 10th level, your blades become further attached with the plane of existence you are pulling them from. You gain one of the following benefits of your choice:",
+				{
+					"type": "entries",
+					"name": "Feywild.",
+					"entries": [
+						"Whenever you hit a creature with a blademade weapon attack, you may use your bonus action to cast misty step on the creature and move it to a location of your choice. The creature may make a Charisma saving throw to resist the effects and become immune to this feature until next dawn on a success."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shadow.",
+					"entries": [
+						"Whenever you hit a creature with a blademade weapon attack, you can use your bonus action to cast blindness/deafness on the creature choosing the effect of your choice. If the creature succeeds on the saving throw against this spell it is immune to its effects until next dawn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Kingdom of Never.",
+					"entries": [
+						"Whenever you hit a creature with a blademade weapon attack, you can use your bonus action to cast scorching ray but you can only target the creature hit."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Kingdom of Always.",
+					"entries": [
+						"Whenever you hit a creature with a blademade weapon attack, you can use your bonus action to cast moonbeam targeting the space where the creature stands and immediately activating its effects like you would at the start of a creature's turn. If the creature succeeds on the saving throw against this spell it is immune to its effects until next dawn."
+					]
+				},
+				"Your spellcasting ability is Charisma for these spells.",
+				{
+					"type": "abilityDc",
+					"name": "Spell Save",
+					"attributes": [
+						"cha"
+					]
+				},
+				{
+					"type": "abilityAttackMod",
+					"name": "Spell",
+					"attributes": [
+						"cha"
+					]
+				},
+				"You may use this feature a number of times equal to your proficiency bonus and regain all of its uses when you finish a long rest."		
+			]
+		}, {
+			"name": "Victorious Onslaught",
+			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Blademaker",
+			"subclassSource": "Hergard",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"At 15th level, your summoned weapons know no boundaries and are even deadlier in rapid succession. Your blademade weapons ignore half and three-quarters cover and when you use your Action Surge feature and score a critical hit, they use triple the damage dice instead of double."
+			]
+		}, {
+			"name": "Army of One",
+			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Blademaker",
+			"subclassSource": "Hergard",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"Starting at 18th level, you can choose to unleash an armory of weapons at the start of your turn. Until your turn ends, you don't add any ability modifiers to the attack or damage rolls you make but whenever you blademake, three weapons are called forth instead of one."
 			]
 		}
 	]
