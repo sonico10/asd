@@ -5279,6 +5279,34 @@
 				"Victorious Onslaught|Fighter|PHB|Blademaker|Hergard|15",
 				"Army of One|Fighter|PHB|Blademaker|Hergard|18"
 			]
+		},
+		{
+			"name": "Champion",
+			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"shortName": "Champion",
+			"subclassFeatures": [
+				"Champion|Fighter|PHB|Champion|Hergard|3",
+				"Remarkable Athlete|Fighter|PHB|Champion|Hergard|7",
+				"Everchanging Fighting Style|Fighter|PHB|Champion|Hergard|10",
+				"Deadly Skill|Fighter|PHB|Champion|Hergard|15",
+				"Survivor|Fighter|PHB|Champion|Hergard|18"
+			]
+		},
+		{
+			"name": "Combat Medic",
+			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"shortName": "Combat Medic",
+			"subclassFeatures": [
+				"Combat Medic|Fighter|PHB|Combat Medic|Hergard|3",
+				"Protect the Downed|Fighter|PHB|Combat Medic|Hergard|7",
+				"Vital Strike|Fighter|PHB|Combat Medic|Hergard|10",
+				"Quick Cure|Fighter|PHB|Combat Medic|Hergard|15",
+				"No Man Left Behind|Fighter|PHB|Combat Medic|Hergard|18"
+			]
 		}
 	],
 	"subclassFeature": [{
@@ -6881,6 +6909,106 @@
 			"header": 2,
 			"entries": [
 				"Starting at 18th level, you can choose to unleash an armory of weapons at the start of your turn. Until your turn ends, you don't add any ability modifiers to the attack or damage rolls you make but whenever you blademake, three weapons are called forth instead of one."
+			]
+		},
+		{
+			"name": "Champion",
+			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Champion",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"entries": [
+				"The archetypal Champion focuses on the development of raw physical power honed to deadly perfection. Those who model themselves on this archetype combine rigorous training with physical excellence to deal devastating blows.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Signature Weapon|Fighter|PHB|Champion|Hergard|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Improved Critical|Fighter|PHB|Champion|Hergard|3"
+				}
+			]
+		},
+		{
+			"name": "Signature Weapon",
+			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Champion",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you choose this archetype at 3rd level, whenever you finish a long rest, you can designate one of your weapons as your signature weapon. Whenever you make an attack with your signature weapon, you can choose to add half your proficiency bonus (rounded up) to the attack roll.",
+				"You may use this feature a number of times equal to your Strength modifier and regain all of its uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Improved Critical",
+			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Champion",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Also at 3rd level, your weapon attacks score a critical hit on a roll of 19 or 20."
+			]
+		},
+		{
+			"name": "Remarkable Athlete",
+			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Champion",
+			"subclassSource": "Hergard",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"At 7th level, you gain proficiency in the Athletics and Acrobatics skills if you don't already have it. Your proficiency bonus is doubled for any ability check you make that uses these proficiencies.",
+				"In addition, you count as one size larger when determining whom you can grapple or shove and when determining your carrying capacity and the weight you can push, drag, or lift."
+			]
+		},
+		{
+			"name": "Everchanging Fighting Style",
+			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Champion",
+			"subclassSource": "Hergard",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Beginning at 10th level, you can choose a second option from the Fighting Style class feature.",
+				"Additionally, you can replace one fighting style you know with a different one whenever you finish a long rest."
+			]
+		}, {
+			"name": "Deadly Skill",
+			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Champion",
+			"subclassSource": "Hergard",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"Starting at 15th level, whenever you use your Signature Weapon feature, you may choose to forgo the bonus to the attack roll and instead add your proficiency bonus to the damage roll of the attack.",
+				"Additionally, your weapon attacks score a critical hit on a roll of 18–20."
+			]
+		}, {
+			"name": "Survivor",
+			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Champion",
+			"subclassSource": "Hergard",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"At 18th level, you attain the pinnacle of resilience in battle. At the start of each of your turns, you regain hit points equal to 5 + your Constitution modifier if you have no more than half of your hit points left. You don't gain this benefit if you have 0 hit points."
 			]
 		}
 	]
