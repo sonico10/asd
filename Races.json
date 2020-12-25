@@ -5411,6 +5411,32 @@
 				"Unending Watch|Fighter|PHB|Spellbreaker|Hergard|15",
 				"High-Warden|Fighter|PHB|Spellbreaker|Hergard|18"
 			]
+		},
+		{
+			"name": "Path of the Burning",
+			"source": "Hergard",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"shortName": "Path of the Burning",
+			"subclassFeatures": [
+				"Path of the Burning|Barbarian|PHB|Path of the Burning|Hergard|3",
+				"Molten Armor|Barbarian|PHB|Path of the Burning|Hergard|6",
+				"Ashen Body|Barbarian|PHB|Path of the Burning|Hergard|10",
+				"Erupt|Barbarian|PHB|Path of the Burning|Hergard|14"
+			]
+		},
+		{
+			"name": "Path of the Jötnunkyn",
+			"source": "Hergard",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"shortName": "Path of the Jötnunkyn",
+			"subclassFeatures": [
+				"Path of the Jötnunkyn|Barbarian|PHB|Path of the Jötnunkyn|Hergard|3",
+				"Iron Grip|Barbarian|PHB|Path of the Jötnunkyn|Hergard|6",
+				"Seize the Momentum|Barbarian|PHB|Path of the Jötnunkyn|Hergard|10",
+				"Fury of the Giantkin|Barbarian|PHB|Path of the Jötnunkyn|Hergard|14"
+			]
 		}
 	],
 	"subclassFeature": [{
@@ -7760,6 +7786,190 @@
 				"The barrier is a 15-feet-wide 10-feet-high wall that is projected 5 feet in front of you and lasts for a number of rounds equal to your Intelligence modifier (minimum of 1). You concentrate on this feature as if it was a spell. Creatures may pass through the barrier without harm, but any magical piece of ammunition shot through is rendered non-magical. Any spell of 4th level or lower has no effect on a creature or object on the other side of the barrier, but can still target them.",
 				"As a bonus action on subsequent turns you may move the barrier to a space within 15 feet of its previous location.",
 				"You regain the use of this feature after you finish a long rest."
+			]
+		},	{
+			"name": "Path of the Burning",
+			"source": "Hergard",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Path of the Burning",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"entries": [
+				"Those whose rage causes fire typically are defined by a tragic experience with the element. Their homestead may have been burned, killing their family. Possibly they were badly burned as a child during a ritual. Or maybe they accidentally killed their own friend by pushing them into a firepit. No matter the source, fire is deeply ingrained in their soul. When they are overtaken by emotion and anger, this fire comes loose. The primordial element feeds off their rage like a fuel, channeling their anger in a blaze around them.",
+				"A barbarian whose rage brings forth flames is distinct from others who do the same. Perhaps the fire that caused their rage was so hot, it glowed blue and white. The barbarian's rage may mirror this, releasing blue fire in their rage. Or if the barbarian nearly suffocated in the fire's smoke, their own fire will release similar, thick, dark smoke.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Fiery Rage|Barbarian|PHB|Path of the Burning|Hergard|3"
+				}
+			]
+		},
+		{
+			"name": "Fiery Rage",
+			"source": "Hergard",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Path of the Burning",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Starting when you choose this path at 3rd level, you erupt into flames when you start your rage. You gain resistance to cold damage and fire damage, and at the end of each of your turns, each creature within 5 feet takes fire damage equal to your Rage bonus damage, as shown in the Rage Damage column of the Barbarian table."
+			]
+		},
+		{
+			"name": "Molten Armor",
+			"source": "Hergard",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Path of the Burning",
+			"subclassSource": "Hergard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, when you ignite yourself using Fiery Rage, a sheet of basalt covers your body, giving you temporary hit points equal to your barbarian level and advantage on Constitution saving throws."
+
+			]
+		},
+		{
+			"name": "Ashen Body",
+			"source": "Hergard",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Path of the Burning",
+			"subclassSource": "Hergard",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Starting at 10th level, whenever you take damage from a melee attack, you may use your reaction to turn the skin at the point of impact into ash. If you do, you have resistance to all damage from that attack.",
+				"You can use this feature a number of times equal to 1 + your Constitution modifier (minimum of once). You regain all expended charges after a long rest."
+			]
+		},	{
+			"name": "Erupt",
+			"source": "Hergard",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Path of the Burning",
+			"subclassSource": "Hergard",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Starting at 14th level, while you are ignited using Fiery Rage, you are immune to fire damage. Additionally, you may use your action to blow a gout of fire at your enemies from your mouth. Each creature in a 15-foot cone must make a Dext-erity saving throw (DC equal to 8 + your proficiency bonus + your Strength modifier) . A creature takes 6d10 fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren't being worn or carried. Using this feature ends your rage.",
+				"Once you use this feature, you can't use it again until after a long rest."
+			]
+		},{
+			"name": "Path of the Jötnunkyn",
+			"source": "Hergard",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Path of the Jötnunkyn",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"entries": [
+				"Some rare individuals have been born with a great aptitude to develop astonishing physical traits - standing a head taller in almost any crowd, their forearms the size of tree stumps or their strength unparalleled among their race.",
+				"Legend says that the rarest of them actually have the blood of giants coursing through their veins. These individuals are often called Jötnunkyn. Whether through a common lineage, giant blooded ancestors or some ancient and forgotten form of magic, you are a descendant of the Jotun and their traits are visible in your very physique.",
+				"While some may take these gifts for granted, barbarians who follow this path seek to embrace their inner power and often become great heroes that inspire folk tales and legends larger than life itself.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Restriction - Size matters|Barbarian|PHB|Path of the Jötnunkyn|Hergard|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Jotunous Crimson|Barbarian|PHB|Path of the Jötnunkyn|Hergard|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Colossal Might|Barbarian|PHB|Path of the Jötnunkyn|Hergard|3"
+				}
+			]
+		},
+		{
+			"name": "Restriction - Size matters",
+			"source": "Hergard",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Path of the Jötnunkyn",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"The blood of giants flows only through those innately strong enough to caress its full potential. This path can only be taken by characters whose race is of a medium size or larger."
+			]
+		},
+		{
+			"name": "Jotunous Crimson",
+			"source": "Hergard",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Path of the Jötnunkyn",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"You never quite fit in, both metaphorically and literally. As you start embracing your innate power these traits become even more pronounced.",
+				"Starting when you choose this path at 3rd level, your hit point maximum increases by 3, and it increases by 1 every time you gain a level in this class. You also gain proficiency with improvised weapons and can speak, read, and write Giant.",
+				"Additionally, you count as one size larger when determining whom you can grapple or shove as well as for determining your carrying capacity and the weight you can push, drag, or lift."
+			]
+		},
+		{
+			"name": "Colossal Might",
+			"source": "Hergard",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Path of the Jötnunkyn",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Your natural talents grow as does the confidence with which you utilize them.",
+				"Beginning at 3rd level, whenever you enter a rage you are immune to the frightened condition for the duration and if you are wielding a versatile weapon in one hand, you can use its two handed damage die.",
+				"Furthermore, your normal and long range for all weapons with the thrown property are doubled."
+			]
+		},
+		{
+			"name": "Iron Grip",
+			"source": "Hergard",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Path of the Jötnunkyn",
+			"subclassSource": "Hergard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"The mere strength of your grip is enough to shatter bones and wield weapons that are too heavy for ordinary men.",
+				"At 6th level, you gain proficiency in the Athletics skill if you don't already have it. Your proficiency bonus is doubled for any ability check you make that uses this proficiency.",
+				"Additionally, while you are raging, you can use two-weapon fighting even when the one-handed melee weapons you are wielding aren't light."
+
+			]
+		},
+		{
+			"name": "Seize the Momentum",
+			"source": "Hergard",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Path of the Jötnunkyn",
+			"subclassSource": "Hergard",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"You see every combat as game rather then an obstacle. The challenges set in front of you only give you a sense of vigor and excitement, each exchanged blow making the battle even sweeter.",
+				"Starting at 10th level, whenever you score a critical hit, you may choose to push the target 10 feet in a straight line away from you or knock it prone. Whenever you are struck by a critical hit, your next weapon attack deals additional damage equal to half your barbarian level.",
+				"Additionally, the area within 5 feet of you is considered difficult terrain at all times to creatures of your choice."
+			]
+		},	{
+			"name": "Fury of the Giantkin",
+			"source": "Hergard",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Path of the Jötnunkyn",
+			"subclassSource": "Hergard",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"You have fully embraced the blood of Jotun and fellow giants may even begrudgingly accept you as their kin.",
+				"Starting from 14th level, whenever you enter a rage, you may choose to grow in size as if affected by the enlarge option of the enlarge/reduce spell. While enlarged in this way, you deal double damage to objects and structures.",
+				"This effect is not considered as casting a spell, nor does it require concentration to maintain and it lasts until your rage ends or you decide to end it at will.",
+				"Additionally, if you successfully grapple a creature that is at least one size category smaller than you while enlarged in this way, it is restrained."
 			]
 		}
 	],
