@@ -5437,6 +5437,32 @@
 				"Seize the Momentum|Barbarian|PHB|Path of the Jötnunkyn|Hergard|10",
 				"Fury of the Giantkin|Barbarian|PHB|Path of the Jötnunkyn|Hergard|14"
 			]
+		},
+		{
+			"name": "Path of the Red Oak",
+			"source": "Hergard",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"shortName": "Path of the Red Oak",
+			"subclassFeatures": [
+				"Path of the Red Oak|Barbarian|PHB|Path of the Red Oak|Hergard|3",
+				"Natural Resilience|Barbarian|PHB|Path of the Red Oak|Hergard|6",
+				"Arboreal Bond|Barbarian|PHB|Path of the Red Oak|Hergard|10",
+				"Root and Branch|Barbarian|PHB|Path of the Red Oak|Hergard|14"
+			]
+		},
+		{
+			"name": "Path of the Rune Warrior",
+			"source": "Hergard",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"shortName": "Path of the Rune Warrior",
+			"subclassFeatures": [
+				"Path of the Rune Warrior|Barbarian|PHB|Path of the Rune Warrior|Hergard|3",
+				"Arcane Dynamo|Barbarian|PHB|Path of the Rune Warrior|Hergard|6",
+				"Furious Caster|Barbarian|PHB|Path of the Rune Warrior|Hergard|10",
+				"Rage Insignia|Barbarian|PHB|Path of the Rune Warrior|Hergard|14"
+			]
 		}
 	],
 	"subclassFeature": [{
@@ -7787,7 +7813,7 @@
 				"As a bonus action on subsequent turns you may move the barrier to a space within 15 feet of its previous location.",
 				"You regain the use of this feature after you finish a long rest."
 			]
-		},	{
+		}, {
 			"name": "Path of the Burning",
 			"source": "Hergard",
 			"className": "Barbarian",
@@ -7844,7 +7870,7 @@
 				"Starting at 10th level, whenever you take damage from a melee attack, you may use your reaction to turn the skin at the point of impact into ash. If you do, you have resistance to all damage from that attack.",
 				"You can use this feature a number of times equal to 1 + your Constitution modifier (minimum of once). You regain all expended charges after a long rest."
 			]
-		},	{
+		}, {
 			"name": "Erupt",
 			"source": "Hergard",
 			"className": "Barbarian",
@@ -7857,7 +7883,7 @@
 				"Starting at 14th level, while you are ignited using Fiery Rage, you are immune to fire damage. Additionally, you may use your action to blow a gout of fire at your enemies from your mouth. Each creature in a 15-foot cone must make a Dext-erity saving throw (DC equal to 8 + your proficiency bonus + your Strength modifier) . A creature takes 6d10 fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren't being worn or carried. Using this feature ends your rage.",
 				"Once you use this feature, you can't use it again until after a long rest."
 			]
-		},{
+		}, {
 			"name": "Path of the Jötnunkyn",
 			"source": "Hergard",
 			"className": "Barbarian",
@@ -7956,7 +7982,7 @@
 				"Starting at 10th level, whenever you score a critical hit, you may choose to push the target 10 feet in a straight line away from you or knock it prone. Whenever you are struck by a critical hit, your next weapon attack deals additional damage equal to half your barbarian level.",
 				"Additionally, the area within 5 feet of you is considered difficult terrain at all times to creatures of your choice."
 			]
-		},	{
+		}, {
 			"name": "Fury of the Giantkin",
 			"source": "Hergard",
 			"className": "Barbarian",
@@ -7970,6 +7996,318 @@
 				"Starting from 14th level, whenever you enter a rage, you may choose to grow in size as if affected by the enlarge option of the enlarge/reduce spell. While enlarged in this way, you deal double damage to objects and structures.",
 				"This effect is not considered as casting a spell, nor does it require concentration to maintain and it lasts until your rage ends or you decide to end it at will.",
 				"Additionally, if you successfully grapple a creature that is at least one size category smaller than you while enlarged in this way, it is restrained."
+			]
+		}, {
+			"name": "Path of the Red Oak",
+			"source": "Hergard",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Path of the Red Oak",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"entries": [
+				"The Red Oak are trees of mysterious origin. They seem to have been created at the time of the Split, but their true purpose is unknown. The Cobalt Soul claims they are representations of Élan's wrath towards her children, but records or evidence have not been unearthed proving such an idea. However one thing is known: A select few tribes – whose bloodline survived the Old War – guard the secret recipe to the Red Oak Elixir, a potion of immense power, unknown even to the Cobalt Soul.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Red Oak Elixir|Barbarian|PHB|Path of the Red Oak|Hergard|3"
+				}
+			]
+		},
+		{
+			"name": "Red Oak Elixir",
+			"source": "Hergard",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Path of the Red Oak",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Starting when you choose this path at 3rd level, you have been gifted with the ancient secret of the Red Oak Elixir, a potion designed to bring you into a state of heightened ferocity and increased strength. Your rage gains the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"On your turn, you can enter a rage as a bonus action by drinking a Red Oak Elixir. Consuming a Red Oak Elixir always activates your rage. If you do not have an elixir or any free hands (e.g. you are restrained), you cannot enter a rage.",
+						"While raging, you have advantage on Constitution checks and saving throws.",
+						"While raging, you are immune to poison damage and the poisoned condition.",
+						"While raging, your skin gains a rough, bark-like appearance, and your AC can't be less than 16, regardless of what kind of armor you are wearing."
+					]
+				},
+				"You can make a number of Red Oak Elixirs per long rest equal to your number of Rages as shown in the Rages column of the Barbarian table. A Red Oak Elixir loses its potency after 24 hours and is no longer effective. A Red Oak Elixir has no effect on creatures other than you."
+
+			]
+		},
+		{
+			"name": "Natural Resilience",
+			"source": "Hergard",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Path of the Red Oak",
+			"subclassSource": "Hergard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, you are able to alter your Red Oak Elixir to make you more durable. When you consume your Red Oak Elixir, you gain resistance to one of the following damage types of your choice for the duration of your rage: acid, cold, fire, lightning, or thunder.",
+				"You gain resistance to an additional damage type of your choice from the list at 10th and again at 14th level."
+			]
+		},
+		{
+			"name": "Arboreal Bond",
+			"source": "Hergard",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Path of the Red Oak",
+			"subclassSource": "Hergard",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"At 10th level, moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them, without taking damage from their thorns, spines, or any similar hazards. You have advantage on saving throws against plants that are magically created or manipulated to impede movement, such as those created by the entangle spell.",
+				"Additionally, by expanding one Red Oak Elixir, you can imbue a single tree within 30 feet of you with limited sentience and animation, giving it the ability to communicate with you and follow your simple commands for a limited time.",
+				"For the duration you can communicate with the tree in your known languages and can question it about events within the past day, gaining information about creatures that have passed, weather, and other circumstances.",
+				"The tree might be able to perform other tasks on your behalf, at the GM's discretion. This feature doesn't enable a tree to uproot itself and move about, but it can freely move its branches, roots, and leaves.",
+				"This effect lasts for a number of minutes equal to your proficiency bonus."
+			]
+		},
+		{
+			"name": "Root and Branch",
+			"source": "Hergard",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Path of the Red Oak",
+			"subclassSource": "Hergard",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"At 14th level, while raging, you are able to take on some of the aspects of the trees of the forest. Your rage gains the following additional effects:",
+				{
+					"type": "list",
+					"items": [
+						"Magic can't put you to sleep..",
+						"Whenever you suffer a critical hit, you can turn that hit into a normal hit.",
+						"You are vulnerable to fire damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Branch Slam.",
+					"entries": [
+						"As a bonus action, your arm elongates and becomes branch-like, allowing you to make a melee attack against a single opponent within 15 feet of you that deals 3d6 bludgeoning damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Entangling Vines.",
+					"entries": [
+						"As a bonus action, vines erupt from your body and entangle a single target within 30 feet. The target must succeed on a Strength saving throw or be restrained by the entangling vines until your rage ends or you choose to release them. A creature restrained by the vines can use its action to make a Strength check against DC 8 + your proficiency bonus + your Constitution modifier. On a success, it frees itself.",
+						"You may only have a single target restrained by entangling vines at any one time."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Earthen Roots.",
+					"entries": [
+						"As a reaction, you send roots deep into the earth. For the duration of your rage, you cannot be moved against your will or knocked prone by non-magical means. For any magical attempts to move you (such as from levitate or telekinesis), you have advantage on the save or ability check to resist the effect."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Briar Thorns.",
+					"entries": [
+						"As a reaction, your body sprouts hard spikes and thorns. Any creature grappling you, grappled by you, or in contact with your body suffers 2d4 piercing damage at the start of each of its turns."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sap Blood.",
+					"entries": [
+						"Any time you take a wound, as a reaction, you can create a number of drops of hardened sap equal to your proficiency bonus. These sap drops appear in your hand.",
+						"A creature can use a bonus action to eat one drop. Eating a drop restores 1d4 hit points. The sap loses its potency if it not consumed during your rage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tree Walker.",
+					"entries": [
+						"As a bonus action, you gain the ability to use trees as pathways of nature. You cast tree stride without expending material components. This effect doesn't require concentration and lasts for the duration of your rage."
+					]
+				}
+			]
+		}, {
+			"name": "Path of the Rune Warrior",
+			"source": "Hergard",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Path of the Rune Warrior",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"entries": [
+				"The rage state drives reason from the mind, preventing most barbarians from wielding magic. Barbarians of this path reject this limitation, using natural, magic-imbued tattoos to always have their spells at the ready, so their instincts can manage the execution.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Spellcasting|Barbarian|PHB|Path of the Rune Warrior|Hergard|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Runic Tattooer|Barbarian|PHB|Path of the Rune Warrior|Hergard|3"
+				}
+			]
+		},
+		{
+			"name": "Spellcasting",
+			"source": "Hergard",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Path of the Rune Warrior",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Starting when you choose this path at 3rd level, you augment your brute strength with the ability to cast spells.",
+				{
+					"type": "entries",
+					"name": "Cantrip Tattoos.",
+					"entries": [
+						"You learn two cantrips of your choice from the druid spell list, stored on your body as minor tattoos. You learn one additional druid cantrip at 10th level."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spell Tattoos.",
+					"entries": [
+						"You have numerous glyphs, symbols and sigils on your body that let you cast magic when you unseal their power. Each one of your tattoos hold a limited amount of natural magic, after which it becomes inept until you rest. The Rune Warrior Spellcasting table shows how many spell tattoos you have to cast your spells of 1st-level and higher. To cast one of these spells, you must expend one spell charge of the spell tattoo's level, much like a wizard might expend a spell slot. However each tattoo represents one single spell, allowing you to tattoo a spell at a higher level onto yourself. You regain all expended spell tattoo charges when you finish a long rest.",
+						"For example, if you know of the first level spell absorb elements, you may tattoo it on yourself as a second level spell thus you must use a second level spell charge every time you cast it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spell Tattoos of 1st-Level and Higher.",
+					"entries": [
+						"You have three first level druid spells of your choice tattooed on your body.",
+						"The Spell Tattoos column of the table shows when you gain additional druid spells of 1st-level or higher. Each of these spells must be tattooed on your body, stored permanently at the level you choose to cast it at, and must be of a level for which you have spell charges.",
+						"For instance when you reach 7th level in this class you may learn one new spell of 1st or 2nd level and have it tattooed onto yourself as a 2nd-level spell."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sacred Ritual.",
+					"entries": [
+						"Whenever you gain a level in this class, you can perform a series of rituals to replace one of the druid spells you know with another spell of your choice from the druid spell list. The new spell must be of a level which you have spell charges for. The rituals must take a cumulative 24 hours and cause you to lose access to the spell you are replacing for the duration."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Ability.",
+					"entries": [
+						"Constitution is your spellcasting ability for your druid spells , since you channel your natural magic through the unleashed power of your ritual tattoos. You use your Constitution whenever a spell refers to your spellcasting ability. In addition, you use your Constitution modifier when setting the saving throw DC for a druid spell you cast and when making an attack roll with one."
+					]
+				},
+				{
+					"type": "abilityDc",
+					"name": "Spell",
+					"attributes": [
+						"con"
+					]
+				},
+				{
+					"type": "abilityAttackMod",
+					"name": "Spell",
+					"attributes": [
+						"con"
+					]
+				},
+
+				{
+					"type": "table",
+					"caption": "Spell Slots per level",
+					"colLabels": [
+						"Barbarian Level",
+						"Cantrip Tattoos",
+						"Spell Tattoos",
+						"{@filter 1st|spells|level=1|class=Druid}",
+						"{@filter 2nd|spells|level=2|class=Druid}",
+						"{@filter 3rd|spells|level=3|class=Druid}",
+						"{@filter 4th|spells|level=4|class=Druid}"
+					],
+					"rows": [
+						["3rd","2","3","3","0","0","0"],
+						["4th","2","4","4","0","0","0"],
+						["5th","2","4","4","0","0","0"],
+						["6th","2","4","4","0","0","0"],
+						["7th","2","5","4","1","0","0"],
+						["8th","2","6","4","2","0","0"],
+						["9th","2","6","4","2","0","0"],
+						["10th","3","7","4","3","0","0"],
+						["11th","3","8","5","3","0","0"],
+						["12th","3","8","5","3","0","0"],
+						["13th","3","9","5","3","1","0"],
+						["14th","3","10","5","3","2","0"],
+						["15th","3","10","5","3","2","0"],
+						["16th","3","11","5","3","3","0"],
+						["17th","3","11","5","3","3","0"],
+						["18th","3","11","5","3","3","0"],
+						["19th","3","12","5","3","3","1"],
+						["20th","3","13","5","3","3","2"]
+					]
+				}
+			]
+		},
+		{
+			"name": "Runic Tattooer",
+			"source": "Hergard",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Path of the Rune Warrior",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Also at 3rd level, you gain proficiency with a special set of tools, the Tattooer's tools. This is a special set of tools containing a prepared and sharpened reed, natural permanent ink and a special toxin that makes the skin insensitive. These tools are used to create tattoos through a secret ritual perfected over centuries.",
+				"Additionally, your mind is accustomed to casting while in a state of rage. When you rage, you may cast non-concentration spells as normal if you have tattooed the specific spell on yourself. The tattoos count as material components for any spell that requires, but does not consume them and you continue to rage when you cast a spell since your last turn. When you use your Reckless Attack feature, you can choose for it to take effect on your melee spell attack rolls."
+
+			]
+		},
+		{
+			"name": "Arcane Dynamo",
+			"source": "Hergard",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Path of the Rune Warrior",
+			"subclassSource": "Hergard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Beginning at 6th level, when you are hit by a spell, you absorb a small amount of magical power, reinvigorating your tattoos. Whenever you suffer damage from a spell, you may use your reaction to absorb some of its magical power and regain an expended spell charge of equal level to the spell. If you are hit by a spell of 6th-level or higher, you regain a 5th-level spell charge.",
+				"You regain the use of this ability after you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Furious Caster",
+			"source": "Hergard",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Path of the Rune Warrior",
+			"subclassSource": "Hergard",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"At 10th level, when you cast a spell while raging, you may add your Strength modifier to its attack and damage rolls.",
+				"Additionally, you learn 3 spells of 3rd level or lower, with the Ritual tag from any spell list. You may cast these spells as rituals, without providing material components. If you are raging while casting these spells as rituals, the time it takes to cast them is halved. You may cast these spells a combined number of times equal to your Constitution modifier and can't do so again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Rage Insignia",
+			"source": "Hergard",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Path of the Rune Warrior",
+			"subclassSource": "Hergard",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Starting at 14th level, you can transfer the energy from your tattoos onto another creature or object temporarily marking it with a shimmering copy of your tattoo. As a bonus action, you may cast one of your spells that doesn't have the range of self and touch a creature or object.",
+				"If it is a creature, it must make a Constitution saving throw; a creature can choose to fail this saving throw if it wishes. On a success, your spell fades and the spell charge is lost. On a failed save, they become marked by your spell. If the spell requires you to choose from multiple effects, you make your choice when creating the mark. If the spell's range is touch and your mark is on an object, it gains a range of 5 feet. The mark lasts for 1 hour.",
+				"Once a creature or object is marked, you may spend an action to activate the spell as though it was cast from the object or creature's location. If the spell requires a target, the target becomes the nearest creature within the spell's range. If the spell requires multiple targets, they are selected in order of how far they are from the glyph.",
+				"You may have a total number of glyphs cast at a time equal to your Constitution modifier, but you can only activate one at a time. You regain all uses of this feature when you finish a long rest."
 			]
 		}
 	],
