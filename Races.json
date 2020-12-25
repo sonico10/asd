@@ -3748,13 +3748,13 @@
 					"You can use your venomous fangs in combat to inflict burning pain on your enemies. You can make melee attacks with your bite using Dexterity with a range of 5 feet, dealing 1d4 piercing damage. You are proficient in these attacks. If you hit with your bite, you can use your reaction to inject venom into your target, forcing them to make a Constitution saving throw. On a failed save, they take poison damage equal to a number of d6s equal to your proficiency bonus and become poisoned for the next minute. On a successful save they are not poisoned and take half as much damage. A poisoned enemy may repeat the save at the end of each of their turns. Once you inject venom, you can't do so again until you finish a short or long rest."
 				]
 			},
-				{
-					"type": "abilityDc",
-					"name": "Bite Save",
-					"attributes": [
-						"con"
-					]
-				}
+			{
+				"type": "abilityDc",
+				"name": "Bite Save",
+				"attributes": [
+					"con"
+				]
+			}
 		],
 		"fluff": {
 			"name": "Veneris",
@@ -4758,8 +4758,7 @@
 		}
 
 	],
-	"optionalfeature": [
-		{
+	"optionalfeature": [{
 			"name": "Aria of Suspense (Ansla)",
 			"source": "Hergard",
 			"featureType": "Conducting Techniques",
@@ -5383,6 +5382,34 @@
 				"Lightning Reload|Fighter|PHB|Gunslinger|Hergard|15",
 				"Vicious Intent|Fighter|PHB|Gunslinger|Hergard|18",
 				"Hemorrhaging Critical|Fighter|PHB|Gunslinger|Hergard|18"
+			]
+		},
+		{
+			"name": "Purple Dragon Knight",
+			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"shortName": "Purple Dragon Knight",
+			"subclassFeatures": [
+				"Purple Dragon Knight|Fighter|PHB|Purple Dragon Knight|Hergard|3",
+				"Royal Envoy|Fighter|PHB|Purple Dragon Knight|Hergard|7",
+				"Inspiring Surge|Fighter|PHB|Purple Dragon Knight|Hergard|10",
+				"Lead the Charge|Fighter|PHB|Purple Dragon Knight|Hergard|10",
+				"Bulwark|Fighter|PHB|Purple Dragon Knight|Hergard|15"
+			]
+		},
+		{
+			"name": "Spellbreaker",
+			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"shortName": "Spellbreaker",
+			"subclassFeatures": [
+				"Spellbreaker|Fighter|PHB|Spellbreaker|Hergard|3",
+				"Magical Lore|Fighter|PHB|Spellbreaker|Hergard|7",
+				"Warding Sigil|Fighter|PHB|Spellbreaker|Hergard|10",
+				"Unending Watch|Fighter|PHB|Spellbreaker|Hergard|15",
+				"High-Warden|Fighter|PHB|Spellbreaker|Hergard|18"
 			]
 		}
 	],
@@ -6697,7 +6724,7 @@
 				"Once per turn when you fire an arrow from a shortbow or longbow as part of the Attack action, you can apply one of your Arcane Shot options to that arrow. You decide to use the option when the arrow hits a creature, unless the option doesn't involve an attack roll. You have two uses of this ability, and you regain all expended uses of it when you finish a short or long rest. You gain an additional use of Arcane Shot at 7th level (3 uses), and again at 10th (4 uses), 15th (5 uses) and 18th level (6 uses).",
 
 				"You gain an additional Arcane Shot option of your choice when you reach certain levels in this class: 7th, 10th, 15th, and 18th level. Each option also improves when you become an 18th-level fighter.",
-				
+
 				"If an option requires a saving throw, its DC is calculated as follows:",
 				{
 					"type": "abilityDc",
@@ -6796,7 +6823,7 @@
 			"header": 1,
 			"entries": [
 				"At 3rd level, you gain proficiency with one type of artisan's tools of your choice."
-				]
+			]
 		},
 		{
 			"name": "Know Your Enemy",
@@ -6847,7 +6874,7 @@
 			"entries": [
 				"Starting at 15th level, when you roll initiative and have less than your maximum amount of superiority dice remaining, you regain one superiority die."
 			]
-		},{
+		}, {
 			"name": "Battlefield Awareness",
 			"source": "Hergard",
 			"className": "Fighter",
@@ -6961,7 +6988,7 @@
 						"cha"
 					]
 				},
-				"You may use this feature a number of times equal to your proficiency bonus and regain all of its uses when you finish a long rest."		
+				"You may use this feature a number of times equal to your proficiency bonus and regain all of its uses when you finish a long rest."
 			]
 		}, {
 			"name": "Victorious Onslaught",
@@ -7338,7 +7365,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Starting when you choose this archetype at 3rd level, you gain proficiency with firearms, allowing you to add your proficiency bonus to attacks made with firearms."
+				"Starting when you choose this archetype at 3rd level, you gain proficiency with {@table Firearms|Hergard}, allowing you to add your proficiency bonus to attacks made with firearms."
 			]
 		},
 		{
@@ -7352,9 +7379,9 @@
 			"header": 2,
 			"entries": [
 				"Upon choosing this archetype at 3rd level, you gain proficiency with Tinker's Tools. You may use them to craft ammunition at half the cost, repair damaged firearms, or even draft and create new ones (DM's discretion). Some extremely experimental and intricate firearms are only available through crafting."
-				
+
 			]
-		},{
+		}, {
 			"name": "Adept Marksman",
 			"source": "Hergard",
 			"className": "Fighter",
@@ -7365,7 +7392,7 @@
 			"header": 2,
 			"entries": [
 				"When you choose this archetype at 3rd level, you learn to perform powerful trick shots to disable or damage your opponents using your firearms.",
-				{					
+				{
 					"type": "entries",
 					"name": "Trick Shots.",
 					"entries": [
@@ -7457,85 +7484,574 @@
 			"entries": [
 				"Upon reaching 18th level, whenever you score a critical hit on an attack with a firearm, the target additionally suffers half of the damage from the attack at the end of its next turn."
 			]
-		}
-	],
-	"baseitem": [
+		},
 		{
-			"name": "Palm Pistol",
+			"name": "Purple Dragon Knight",
 			"source": "Hergard",
-			"type": "R",
-			"rarity": "none",
-			"weight": 1,
-			"property": [
-				"L",
-				"Re",
-				"Misf"
-			],
-			"range": "40/160",
-			"reload": 1,
-			"dmg1": "1d8",
-			"dmgType": "P",
-			"firearm": true,
-			"weapon": true,
-			"ammoType": "Bryne crystal"
-		}
-	],
-		"itemProperty": [
-		{
-			"abbreviation": "Amm",
-			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Purple Dragon Knight",
+			"subclassSource": "Hergard",
+			"level": 3,
 			"entries": [
+				"Purple Dragon knights are warriors who pledged to protect the crown, as they take the fight against evil beyond their kingdom's borders. They are tasked with wandering the land as knights errant, relying on their judgment, bravery, and fidelity to the code of chivalry to guide them in defeating evildoers.",
+				"A Purple Dragon knight inspires greatness in others by committing brave deeds in battle. The mere presence of a knight in a hamlet is enough to cause some orcs and bandits to seek easier prey. A lone knight is a skilled warrior, but a knight leading a band of allies can transform even the most poorly equipped militia into a ferocious war band as the knight's actions can awaken reserves of courage and conviction in allies that they never suspected they had.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Knight Training|Fighter|PHB|Purple Dragon Knight|Hergard|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Banner|Fighter|PHB|Purple Dragon Knight|Hergard|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Rallying Cry|Fighter|PHB|Purple Dragon Knight|Hergard|3"
+				}
+			]
+		},
+		{
+			"name": "Knight Training",
+			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Purple Dragon Knight",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you choose this archetype at 3rd level, you gain proficiency in one of the following skills of your choice: Animal Handling, Insight, Intimidation or Performance. Alternatively, you learn one language of your choice."
+			]
+		},
+		{
+			"name": "Banner",
+			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Purple Dragon Knight",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"At 3rd level, you can craft a banner, or use an existing one, to represent your order. It can be held in one hand and weighs 6 pounds. Furling or unfurling the banner requires an action. While your banner is unfurled and you are not incapacitated, you and all allies within 10 feet of you gain a +1 bonus on Intelligence, Wisdom, and Charisma saving throws, provided they can see your banner.",
+				"If your banner is lost or destroyed, you can make a new one using 50 gp in raw materials over the course of an hour or a short rest.",
+				"The banner's unfurled bonus increases by 1 and its range increases by 5 feet at 7th, 15th and 18th level."
+
+			]
+		}, {
+			"name": "Rallying Cry",
+			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Purple Dragon Knight",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Also at 3rd level, you learn how to inspire your allies to fight on past their injuries. When you use your Second Wind feature, you can choose a number of non-hostile creatures up to your Charisma modifier (minimum of 1) within 30 feet of you that can see or hear you. Each one regains hit points equal to your fighter level, provided that the creature can see or hear you.",
+				"If your banner is unfurled while using this ability and you aren't incapacitated, each one of those allies within the banner's range gains additional temporary hit points equal to your fighter level."
+			]
+		},
+		{
+			"name": "Royal Envoy",
+			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Purple Dragon Knight",
+			"subclassSource": "Hergard",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Starting at 7th level, your discipline and knightly character is a shining example of the crown. A Purple Dragon knight serves as an envoy of the crown. Knights of high standing are expected to conduct themselves with grace. You gain proficiency in the Persuasion skill and your proficiency bonus is doubled for any ability check you make that uses it.",
+				"Additionally, you learn two languages of your choice."
+			]
+		},
+		{
+			"name": "Inspiring Surge",
+			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Purple Dragon Knight",
+			"subclassSource": "Hergard",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Starting at 10th level, when you use your Action Surge feature, you can choose three creatures within 60 feet of you to inspire with martial prowess. Chosen creatures can use their reaction to make one melee or ranged weapon attack, provided that they can see or hear you.",
+				"At 18th level, you can choose six allies within 60 feet of you, rather than three."
+			]
+		}, {
+			"name": "Lead the Charge",
+			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Purple Dragon Knight",
+			"subclassSource": "Hergard",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Beginning at 10th level, if your banner is unfurled, you and all allies within the banner's range gain a bonus to initiative rolls equal to your banner's unfurled bonus."
+			]
+		}, {
+			"name": "Bulwark",
+			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Purple Dragon Knight",
+			"subclassSource": "Hergard",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"At 15th level, you can extend the benefit of your Indomitable feature to allies in need. When an ally within 60 feet of you fails a saving throw, you can use your reaction to allow them to reroll that saving throw with a bonus equal to your Charisma modifier (minimum of 1).",
+				"At 18th level, if your banner is unfurled, you can expend one use of this ability to give creatures of your choice within its range advantage on their next saving throw.",
+				"You can use this feature a number of times equal to your Charisma modifier (minimum of 1), and regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Spellbreaker",
+			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Spellbreaker",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"entries": [
+				"In the times when the knowledge of divine and arcane magic is ever-growing someone must step up to the task to protect the innocent from the forces of evil magic users. Through runic rituals these individuals learn to shield themselves and their allies from arcane and divine powers.",
+				"They call themselves: Spellbreakers.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Spellbreaker's Runes|Fighter|PHB|Spellbreaker|Hergard|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Sigils of Disruption|Fighter|PHB|Spellbreaker|Hergard|3"
+				}
+			]
+		},
+		{
+			"name": "Spellbreaker's Runes",
+			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Spellbreaker",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Beginning when you choose this archetype at 3rd level, while you are not wearing any armor, your AC equals 10 + your Dexterity modifier + your Intelligence modifier. This comes from a process of creating runes that are applied to your body. Some Spellbreakers use magical inks to tattoo their skin, some scar their bodies to create these warding symbols upon themselves."
+			]
+		},
+		{
+			"name": "Sigils of Disruption",
+			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Spellbreaker",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Also at 3rd level, you are able to harness the power of the runes on your body and use their innate power to perform a number of anti-magic abilities. You gain the following maneuver options. They don't count against your number of maneuvers known.",
 				{
 					"type": "entries",
-					"name": "Ammunition",
+					"name": "Purge.",
 					"entries": [
-						"All firearms require ammunition to make an attack, and due to their rare nature, ammunition may be near impossible to find or purchase. However, if materials are gathered, you can craft ammunition yourself using your Tinker's Tools at half the cost. Each firearm uses its own unique ammunition and is generally sold or crafted in batches listed below next to the price."
+						"As an action, you can expend one superiority die and attempt to dispel an ongoing magical effect within 30 feet of you. Make an Intelligence check against a DC of 10 + the level of the spell that you are trying to dispel. On a success, the spell is dispelled. If the spell has a permanent duration, the spell's effects are instead suppressed for 1 minute."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Negate.",
+					"entries": [
+						"When you see an enemy within 30 feet of you casting a spell, you can expend one superiority die and use your reaction to attempt to prevent them from casting. Make an Intelligence check against a DC of 10 + the spell's level. On a success, the spell fails to materialize, but the caster retains their spell slot."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sabotage.",
+					"entries": [
+						"As a reaction, you may expend one superiority die to cast shield on yourself without somatic components."
 					]
 				}
+
+			]
+		},
+		{
+			"name": "Magical Lore",
+			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Spellbreaker",
+			"subclassSource": "Hergard",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Starting at 7th level, your knowledge of magical items allows you to cast identify and detect magic as rituals. If you cast one of the listed spells with this feature, they do not require the material components."
+			]
+		},
+		{
+			"name": "Warding Sigil",
+			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Spellbreaker",
+			"subclassSource": "Hergard",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Beginning at 10th level, your understanding of the arcane allows you to move enchantments from an item to your Spellbreaker's Runes. You can spend one hour a day to conduct a sacred ritual in which you move the enchantment from a set of magical armor to your skin. This hour can be part of a short or long rest. The number of days this task requires is determined by the rarity of the item, detailed in the Ritual Period table below. If you attempt to move the enchantment of a sentient item or an artifact, you immediately gain three levels of exhaustion from the strain on your body and mind and the ritual fails.",
+				{
+					"type": "table",
+					"caption": "Ritual Period",
+					"colLabels": [
+						"Item Rarity",
+						"Days"
+					],
+					"colStyles": [
+						"col-7 text-center",
+						"col-2 text-center"
+					],
+					"rows": [
+						[
+							"Common, Uncommon",
+							"2"
+						],
+						[
+							"Rare",
+							"3"
+						],
+						[
+							"Very Rare",
+							"5"
+						],
+						[
+							"Legendary",
+							"7"
+						]
+
+					]
+				},
+				"After you move the enchantment to your body, the original set of armor is rendered non-magical but still functional.",
+				"You may only have one enchantment gained from this feature on you at a time. If you attempt to move another enchantment to your Spellbreaker's Runes, the previous enchantment fades."
+			]
+		}, {
+			"name": "Unending Watch",
+			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Spellbreaker",
+			"subclassSource": "Hergard",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"Starting at 15th level, if you roll initiative and have no Runes of Disruption left, you regain 1 use of the feature.",
+				"Additionally, you gain a bonus to your initiative rolls equal to your Intelligence modifier (minimum of 1)."
+			]
+		}, {
+			"name": "High-Warden",
+			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Spellbreaker",
+			"subclassSource": "Hergard",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"From 18th level, you gain the ability to focus your runes in an unyieldingly honed way, harnessing the powers of abjuration to negate harmful magic towards you and your allies. As an action you can summon a translucent barrier of anti-magic, made of warding glyphs and sigils.",
+				"The barrier is a 15-feet-wide 10-feet-high wall that is projected 5 feet in front of you and lasts for a number of rounds equal to your Intelligence modifier (minimum of 1). You concentrate on this feature as if it was a spell. Creatures may pass through the barrier without harm, but any magical piece of ammunition shot through is rendered non-magical. Any spell of 4th level or lower has no effect on a creature or object on the other side of the barrier, but can still target them.",
+				"As a bonus action on subsequent turns you may move the barrier to a space within 15 feet of its previous location.",
+				"You regain the use of this feature after you finish a long rest."
+			]
+		}
+	],
+	"table": [{
+		"name": "Firearms",
+		"source": "Hergard",
+		"caption": "Firearms",
+		"colLabels": [
+			"Name",
+			"Cost",
+			"Ammo",
+			"Damage",
+			"Weight",
+			"Range",
+			"Properties"
+		],
+		"colStyles": [],
+		"rows": [
+			[
+				"{@item Palm Pistol|Hergard}",
+				"50g",
+				"2g (20)",
+				"{@damage 1d8} piercing",
+				"1 lbs",
+				"(40/160)",
+				"Light, reload 1, misfire 1"
 			],
-			"template": "{{prop_name}} ({{item.range}} ft.)"
+			[
+				"{@item Pistol|Hergard}",
+				"150g",
+				"4g (20)",
+				"{@damage 1d10} piercing",
+				"3 lbs",
+				"(60/240)",
+				"Reload 4, misfire 1"
+			],
+			[
+				"{@item Musket|Hergard}",
+				"300g",
+				"5g (20)",
+				"{@damage 1d12} piercing",
+				"10 lbs",
+				"(120/480)",
+				"Two-handed, reload 1, misfire 2"
+			],
+			[
+				"{@item Pepperbox|Hergard}",
+				"250g",
+				"4g (20)",
+				"{@damage 1d10} piercing",
+				"5 lbs",
+				"(80/320)",
+				"Reload 6, misfire 2"
+			],
+			[
+				"{@item Blunderbuss|Hergard}",
+				"300g",
+				"5g (5)",
+				"{@damage 2d8} piercing",
+				"10 lbs",
+				"(15/60)",
+				"Reload 1, misfire 2"
+			],
+			[
+				"{@item Bad News|Hergard}",
+				"Crafted",
+				"10g (5)",
+				"{@damage 2d12} piercing",
+				"25 lbs",
+				"(200/800)",
+				"Heavy, two-handed, reload 1, misfire 3"
+			],
+			[
+				"{@item Hand Mortar|Hergard}",
+				"Crafted",
+				"10g (1)",
+				"{@damage 2d8} fire",
+				"10 lbs",
+				"(30/60)",
+				"Heavy, reload 1, misfire 3, explosive"
+			]
+
+		]
+	}],
+	"baseitem": [{
+		"name": "Palm Pistol",
+		"source": "Hergard",
+		"type": "R",
+		"rarity": "none",
+		"weight": 1,
+		"property": [
+			"L",
+			"Re",
+			"Misf",
+			"Amm"
+		],
+		"range": "40/160",
+		"reload": 1,
+		"missfire": 1,
+		"dmg1": "1d8",
+		"dmgType": "P",
+		"value": 5000,
+		"firearm": true,
+		"weapon": true,
+		"ammoType": "Bryne crystal",
+		"ammoCost": 2,
+		"ammoAmmount": 20
+	}, {
+		"name": "Pistol",
+		"source": "Hergard",
+		"type": "R",
+		"rarity": "none",
+		"weight": 3,
+		"property": [
+			"Re",
+			"Misf",
+			"Amm"
+		],
+		"range": "60/260",
+		"reload": 4,
+		"missfire": 1,
+		"dmg1": "1d10",
+		"dmgType": "P",
+		"value": 15000,
+		"firearm": true,
+		"weapon": true,
+		"ammoType": "Bryne crystal",
+		"ammoCost": 4,
+		"ammoAmmount": 20
+	}, {
+		"name": "Musket",
+		"source": "Hergard",
+		"type": "R",
+		"rarity": "none",
+		"weight": 10,
+		"property": [
+			"2H",
+			"Re",
+			"Misf",
+			"Amm"
+		],
+		"range": "120/480",
+		"reload": 1,
+		"missfire": 2,
+		"dmg1": "1d12",
+		"dmgType": "P",
+		"value": 30000,
+		"firearm": true,
+		"weapon": true,
+		"ammoType": "Bryne crystal",
+		"ammoCost": 5,
+		"ammoAmmount": 20
+	}, {
+		"name": "Pepperbox",
+		"source": "Hergard",
+		"type": "R",
+		"rarity": "none",
+		"weight": 5,
+		"property": [
+			"Re",
+			"Misf",
+			"Amm"
+		],
+		"range": "80/320",
+		"reload": 6,
+		"missfire": 2,
+		"dmg1": "1d10",
+		"dmgType": "P",
+		"value": 25000,
+		"firearm": true,
+		"weapon": true,
+		"ammoType": "Bryne crystal",
+		"ammoCost": 4,
+		"ammoAmmount": 20
+	}, {
+		"name": "Blunderbuss",
+		"source": "Hergard",
+		"type": "R",
+		"rarity": "none",
+		"weight": 10,
+		"property": [
+			"Re",
+			"Misf",
+			"Amm"
+		],
+		"range": "15/60",
+		"reload": 1,
+		"missfire": 2,
+		"dmg1": "2d8",
+		"dmgType": "P",
+		"value": 30000,
+		"firearm": true,
+		"weapon": true,
+		"ammoType": "Bryne crystal",
+		"ammoCost": 5,
+		"ammoAmmount": 5
+	}, {
+		"name": "Bad News",
+		"source": "Hergard",
+		"type": "R",
+		"rarity": "none",
+		"weight": 25,
+		"property": [
+			"H",
+			"2H",
+			"Re",
+			"Misf",
+			"Amm"
+		],
+		"range": "200/800",
+		"reload": 1,
+		"missfire": 3,
+		"dmg1": "2d12",
+		"dmgType": "P",
+		"value": "Crafted",
+		"firearm": true,
+		"weapon": true,
+		"ammoType": "Bryne crystal",
+		"ammoCost": 10,
+		"ammoAmmount": 5
+	}, {
+		"name": "Hand Mortar",
+		"source": "Hergard",
+		"type": "R",
+		"rarity": "none",
+		"weight": 10,
+		"property": [
+			"H",
+			"Re",
+			"Misf",
+			"Amm",
+			"Explo"
+		],
+		"range": "30/60",
+		"reload": 1,
+		"missfire": 3,
+		"dmg1": "2d8",
+		"dmgType": "F",
+		"value": "Crafted",
+		"firearm": true,
+		"weapon": true,
+		"ammoType": "Bryne crystal",
+		"ammoCost": 10,
+		"ammoAmmount": 1
+	}],
+	"itemProperty": [{
+			"abbreviation": "Amm",
+			"source": "Hergard",
+			"entries": [{
+				"type": "entries",
+				"name": "Ammunition",
+				"entries": [
+					"All firearms require ammunition to make an attack, and due to their rare nature, ammunition may be near impossible to find or purchase. However, if materials are gathered, you can craft ammunition yourself using your Tinker's Tools at half the cost. Each firearm uses its own unique ammunition and is generally sold or crafted in batches listed below next to the price."
+				]
+			}],
+			"template": "{{prop_name}} {{item.ammoCost}}g ({{item.ammoAmmount}})"
 		},
 		{
 			"abbreviation": "Re",
 			"source": "Hergard",
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Reload",
-					"entries": [
-						"The weapon can be fired a number of times equal to its Reload score before you must spend 1 attack or 1 action to reload. You must have one free hand to reload a firearm."
-					]
-				}
-			],
-			"template": "{{prop_name}} ({{item.range}} ft.)"
+			"entries": [{
+				"type": "entries",
+				"name": "Reload",
+				"entries": [
+					"The weapon can be fired a number of times equal to its Reload score before you must spend 1 attack or 1 action to reload. You must have one free hand to reload a firearm."
+				]
+			}],
+			"template": "{{prop_name}} {{item.reload}}"
 		},
 		{
 			"abbreviation": "Misf",
 			"source": "Hergard",
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Misfire",
-					"entries": [
-						"Whenever you make an attack roll with a firearm, and the dice roll is equal to or lower than the weapon's Misfire score, the weapon misfires. The attack misses, and the weapon cannot be used again until you spend an action to try and repair it. To repair your firearm, you must make a successful Tinker's Tools check (DC equal to 8 + misfire score). If your check fails, the weapon is broken and must be mended out of combat at a quarter of the cost of the firearm. Creatures who use a firearm without being proficient increase the weapon's misfire score by 1."
-					]
-				}
-			],
-			"template": "{{prop_name}} ({{item.range}} ft.)"
+			"entries": [{
+				"type": "entries",
+				"name": "Misfire",
+				"entries": [
+					"Whenever you make an attack roll with a firearm, and the dice roll is equal to or lower than the weapon's Misfire score, the weapon misfires. The attack misses, and the weapon cannot be used again until you spend an action to try and repair it. To repair your firearm, you must make a successful Tinker's Tools check (DC equal to 8 + misfire score). If your check fails, the weapon is broken and must be mended out of combat at a quarter of the cost of the firearm. Creatures who use a firearm without being proficient increase the weapon's misfire score by 1."
+				]
+			}],
+			"template": "{{prop_name}} {{item.missfire}}"
 		},
 		{
 			"abbreviation": "Explo",
 			"source": "Hergard",
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Explosive",
-					"entries": [
-						"Upon a hit, everything within 5 ft of the target must make a Dexterity saving throw (DC equal to 8 + your proficiency bonus + your Dexterity modifier) or suffer 1d8 fire damage. If the weapon misses, the ammunition fails to detonate, or bounces away harmlessly before doing so."
-					]
-				}
-			],
-			"template": "{{prop_name}} ({{item.range}} ft.)"
+			"entries": [{
+				"type": "entries",
+				"name": "Explosive",
+				"entries": [
+					"Upon a hit, everything within 5 ft of the target must make a Dexterity saving throw (DC equal to 8 + your proficiency bonus + your Dexterity modifier) or suffer 1d8 fire damage. If the weapon misses, the ammunition fails to detonate, or bounces away harmlessly before doing so."
+				]
+			}],
+			"template": "{{prop_name}}"
 		}
 	]
 }
