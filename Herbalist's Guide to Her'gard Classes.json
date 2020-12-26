@@ -8768,6 +8768,20 @@
 				"Furious Caster|Barbarian|PHB|Path of the Rune Warrior|Hergard|10",
 				"Rage Insignia|Barbarian|PHB|Path of the Rune Warrior|Hergard|14"
 			]
+		},
+		{
+			"name": "Death Domain",
+			"source": "Hergard",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"shortName": "Death Domain",
+			"subclassFeatures": [
+				"Death Domain|Cleric|PHB|Death Domain|Hergard|1",
+				"Channel Divinity: Touch of Death|Cleric|PHB|Death Domain|Hergard|2",
+				"Soul Ward|Cleric|PHB|Death Domain|Hergard|6",
+				"Divine Strike|Cleric|PHB|Death Domain|Hergard|8",
+				"Avatar of Death|Cleric|PHB|Death Domain|Hergard|17"
+			]
 		}
 	],
 	"subclassFeature": [{
@@ -17054,6 +17068,162 @@
 				"If it is a creature, it must make a Constitution saving throw; a creature can choose to fail this saving throw if it wishes. On a success, your spell fades and the spell charge is lost. On a failed save, they become marked by your spell. If the spell requires you to choose from multiple effects, you make your choice when creating the mark. If the spell's range is touch and your mark is on an object, it gains a range of 5 feet. The mark lasts for 1 hour.",
 				"Once a creature or object is marked, you may spend an action to activate the spell as though it was cast from the object or creature's location. If the spell requires a target, the target becomes the nearest creature within the spell's range. If the spell requires multiple targets, they are selected in order of how far they are from the glyph.",
 				"You may have a total number of glyphs cast at a time equal to your Constitution modifier, but you can only activate one at a time. You regain all uses of this feature when you finish a long rest."
+			]
+		},
+{
+			"name": "Death Domain",
+			"source": "Hergard",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Death Domain",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"entries": [
+				"The Death domain is concerned with the forces of death, as well as the negative energy that gives rise to undead creatures. Gods of the Death domain embody murder like Guerro, pain like Harkonar, disease or poison like Hegna, and the underworld like Hel. The suffering of mortal life is temporary, undeath is forever.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Death Domain Spells|Cleric|PHB|Death Domain|Hergard|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Proficiencies|Cleric|PHB|Death Domain|Hergard|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Fear the Inevitable|Cleric|PHB|Death Domain|Hergard|1"
+				}
+			]
+		},
+		{
+			"name": "Death Domain Spells",
+			"source": "Hergard",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Death Domain",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"You gain domain spells at the cleric levels listed in the Death Domain Spells table. See the Divine Domain class feature for how domain spells work.",
+				{
+					"type": "table",
+					"caption": "Death Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell false life|PHB}, {@spell ray of sickness|PHB}"
+						],
+						[
+							"3rd",
+							"{@spell blindness/deafness|PHB}, {@spell ray of enfeeblement|hergard}"
+						],
+						[
+							"5th",
+							"{@spell animate dead|PHB}, {@spell fear|PHB}"
+						],
+						[
+							"7th",
+							"{@spell blight|PHB}, {@spell shadow of moil|xge}"
+						],
+						[
+							"9th",
+							"{@spell antilife shell|PHB}, {@spell enervation|xge}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Bonus Proficiencies",
+			"source": "Hergard",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Death Domain",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"At 1st level, you gain proficiency with martial weapons and heavy armor."
+			]
+		},
+		{
+			"name": "Fear the Inevitable",
+			"source": "Hergard",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Death Domain",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"At 1st level, you can use your action to instill fear in a creature. Choose a creature within 30 feet that you can see, the creature must make a Wisdom saving throw against your cleric spell save DC. On a failed save, the target is frightened of you and its speed is halved until the end of your next turn.",
+				"You can use this ability a number of times equal to your Wisdom modifier (a minimum of once) and regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Channel Divinity: Touch of Death",
+			"source": "Hergard",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Death Domain",
+			"subclassSource": "Hergard",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"Starting at 2nd level, you can use your Channel Divinity to destroy another creature's life force by touch.",
+				"When you hit a creature with a melee attack, you can use Channel Divinity to deal extra necrotic damage to the target. The damage equals 5 + twice your cleric level."
+			]
+		},
+		{
+			"name": "Soul Ward",
+			"source": "Hergard",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Death Domain",
+			"subclassSource": "Hergard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, you can store life energy within yourself to later protect you. In its stored form, this energy is called a Soul charge.",
+				"You can store a maximum number of soul charges equal to your Wisdom modifier (minimum of one). Whenever you finish a long rest, your number of soul charges resets to one. Whenever you reduce a hostile creature to 0 hit points, you gain one soul charge. If you end a short rest with no soul charges, you gain one soul charge.",
+				"Once per round when you make a saving throw, you can expend a soul charge to add 1d6 to the result."
+			]
+		},
+		{
+			"name": "Divine Strike",
+			"source": "Hergard",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Death Domain",
+			"subclassSource": "Hergard",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 necrotic damage. When you reach 14th level, the extra damage increases to 2d8."
+			]
+		},
+		{
+			"name": "Avatar of Death",
+			"source": "Hergard",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Death Domain",
+			"subclassSource": "Hergard",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"Starting at 17th level, you can invoke an avatar of death to claim the soul of a creature. As an action, you can mark a creature within 60 feet of you for death.",
+				"A shadowy reaper appears before the marked creature, sharing its space and hovering a foot above them. The reaper shares your statistics, but has hit points equal to three times your cleric level and AC equal to 10 + your Wisdom modifier, and it cannot take actions. It lasts for one minute, or until either it or its mark is slain.",
+				"At the start of each of the marked creatures turns, the reaper swings its scythe downwards. The creature must succeed on a Wisdom saving throw or take necrotic damage equal to twice your cleric level.",
+				"Once you use this feature, you can't use it again until you finish a long rest."
 			]
 		}
 	],
