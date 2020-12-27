@@ -5135,6 +5135,81 @@
 			"entries": [
 				"When you make a firearm attack against a creature, you can expend one or more grit points to enhance the volatility of the attack. For each grit point expended, the attack gains a +2 to the firearm's misfire score. If the attack hits, you can roll one additional weapon damage die per grit point spent when determining the damage."
 			]
+		},
+		{
+			"name": "The Bear",
+			"source": "Hergard",
+			"featureType": "Constellation Forms",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"If your Strength score is less than your Wisdom score, your Strength score raises to become equal.",
+						"When you cast a spell of 1st level or higher while in this form, your next melee weapon attack while in The Bear form deals an additional 1d6 radiant damage per level of spell slot expended, up to a maximum of 4d6. The bonus damage does not stack, if you cast a spell while you already have the bonus, you must choose which bonus damage to keep."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ascendance.",
+					"entries": [
+						"For 1 minute, your melee attacks deal an additional 2d4 radiant damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "The Crab",
+			"source": "Hergard",
+			"featureType": "Constellation Forms",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"Your AC is increased by your proficiency bonus.",
+						"You gain advantage on Strength (Athletics) checks when attempting a grapple.",
+						"You may add your proficiency bonus to Constitution saving throws."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ascendance.",
+					"entries": [
+						"For 1 minute, when you are hit by a creature within 5 feet of you, they take 2d6 radiant damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "The Fish",
+			"source": "Hergard",
+			"featureType": "Constellation Forms",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 4,
+						"class": {
+							"name": "Druid"
+						}
+					}
+				}
+			],
+			"entries": [
+				"You and creatures of your choice within 20 feet of you gain the following features:",
+				{
+					"type": "list",
+					"items": [
+						"You have a swim speed equal to twice your walking speed.",
+						"You can breathe underwater."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ascendance.",
+					"entries": [
+						"For 1 minute, you create a 15-foot-radius whirlpool centered on a point you can see within 30 feet. This area is difficult terrain for any creatures other than you and any creature other than you that starts its turn in the area must make a Strength saving throw or be pulled under the water, taking 2d8 bludgeoning damage and being knocked prone. On a successful save, they take half damage and are not knocked prone."
+					]
+				}
+			]
 		}
 	],
 	"class": [{
@@ -8722,7 +8797,7 @@
 			"source": "Hergard",
 			"className": "Barbarian",
 			"classSource": "PHB",
-			"shortName": "Path of the Burning",
+			"shortName": "Burning",
 			"subclassFeatures": [
 				"Path of the Burning|Barbarian|PHB|Path of the Burning|Hergard|3",
 				"Molten Armor|Barbarian|PHB|Path of the Burning|Hergard|6",
@@ -8735,7 +8810,7 @@
 			"source": "Hergard",
 			"className": "Barbarian",
 			"classSource": "PHB",
-			"shortName": "Path of the Jötnunkyn",
+			"shortName": "Jötnunkyn",
 			"subclassFeatures": [
 				"Path of the Jötnunkyn|Barbarian|PHB|Path of the Jötnunkyn|Hergard|3",
 				"Iron Grip|Barbarian|PHB|Path of the Jötnunkyn|Hergard|6",
@@ -8748,7 +8823,7 @@
 			"source": "Hergard",
 			"className": "Barbarian",
 			"classSource": "PHB",
-			"shortName": "Path of the Red Oak",
+			"shortName": "Red Oak",
 			"subclassFeatures": [
 				"Path of the Red Oak|Barbarian|PHB|Path of the Red Oak|Hergard|3",
 				"Natural Resilience|Barbarian|PHB|Path of the Red Oak|Hergard|6",
@@ -8761,7 +8836,7 @@
 			"source": "Hergard",
 			"className": "Barbarian",
 			"classSource": "PHB",
-			"shortName": "Path of the Rune Warrior",
+			"shortName": "Rune Warrior",
 			"subclassFeatures": [
 				"Path of the Rune Warrior|Barbarian|PHB|Path of the Rune Warrior|Hergard|3",
 				"Arcane Dynamo|Barbarian|PHB|Path of the Rune Warrior|Hergard|6",
@@ -8774,7 +8849,7 @@
 			"source": "Hergard",
 			"className": "Cleric",
 			"classSource": "PHB",
-			"shortName": "Death Domain",
+			"shortName": "Death",
 			"subclassFeatures": [
 				"Death Domain|Cleric|PHB|Death Domain|Hergard|1",
 				"Channel Divinity: Touch of Death|Cleric|PHB|Death Domain|Hergard|2",
@@ -8802,13 +8877,41 @@
 			"source": "Hergard",
 			"className": "Cleric",
 			"classSource": "PHB",
-			"shortName": "Love Domain",
+			"shortName": "Love",
 			"subclassFeatures": [
 				"Love Domain|Cleric|PHB|Love Domain|Hergard|1",
 				"Channel Divinity: Heart's Embrace|Cleric|PHB|Love Domain|Hergard|2",
 				"Channel Divinity: Overwhelming Infatuation|Cleric|PHB|Love Domain|Hergard|6",
 				"Potent Spellcasting|Cleric|PHB|Love Domain|Hergard|8",
 				"Charismatic Caster|Cleric|PHB|Love Domain|Hergard|17"
+			]
+		},
+		{
+			"name": "Secrecy Domain",
+			"source": "Hergard",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"shortName": "Secrecy",
+			"subclassFeatures": [
+				"Secrecy Domain|Cleric|PHB|Secrecy Domain|Hergard|1",
+				"Channel Divinity: Mask of the Unknown|Cleric|PHB|Secrecy Domain|Hergard|2",
+				"Mire the Mind of the Wicked|Cleric|PHB|Secrecy Domain|Hergard|6",
+				"Divine Strike|Cleric|PHB|Secrecy Domain|Hergard|8",
+				"Avatar of Sacred Knowledge|Cleric|PHB|Secrecy Domain|Hergard|17"
+			]
+		},
+		{
+			"name": "Wind Domain",
+			"source": "Hergard",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"shortName": "Wind",
+			"subclassFeatures": [
+				"Wind Domain|Cleric|PHB|Wind Domain|Hergard|1",
+				"Channel Divinity: Arm of the Bracing Breeze|Cleric|PHB|Wind Domain|Hergard|2",
+				"Grasp of the Carefree Cyclone|Cleric|PHB|Wind Domain|Hergard|6",
+				"Potent Spellcasting|Cleric|PHB|Wind Domain|Hergard|8",
+				"Wrath of the Terrifying Tornado|Cleric|PHB|Wind Domain|Hergard|17"
 			]
 		}
 	],
@@ -17555,6 +17658,314 @@
 			"header": 2,
 			"entries": [
 				"Starting at 17th level, when you cast an enchantment spell of 3rd level or lower, you may target an additional number of creatures equal to half your Charisma modifier rounded up."
+			]
+		},
+{
+			"name": "Secrecy Domain",
+			"source": "Hergard",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Secrecy Domain",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"entries": [
+				"Not all knowledge should be found. There are some places, some eldritch whispers, that should be forgotten. These untellable truths about the world will be hunted. The clerics who devote themselves to Titok, goddess of secrets, safeguard this knowledge from falling into the hands of the unjust. Secrecy clerics are often unreadable and deceiving to their enemies, but greatly faithful and loyal to their allies.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Secrecy Domain Spells|Cleric|PHB|Secrecy Domain|Hergard|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Proficiency|Cleric|PHB|Secrecy Domain|Hergard|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Divine Secrets|Cleric|PHB|Secrecy Domain|Hergard|1"
+				}
+			]
+		},
+		{
+			"name": "Secrecy Domain Spells",
+			"source": "Hergard",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Secrecy Domain",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"You gain domain spells at the cleric levels listed in the Secrecy Domain Spells table. See the Divine Domain class feature for how domain spells work.",
+				{
+					"type": "table",
+					"caption": "Secrecy Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell silent image|PHB}, {@spell illusory script|PHB}"
+						],
+						[
+							"3rd",
+							"{@spell nystul's magic aura|PHB}, {@spell pass without trace|PHB}"
+						],
+						[
+							"5th",
+							"{@spell clairvoyance|PHB}, {@spell nondetection|PHB}"
+						],
+						[
+							"7th",
+							"{@spell leomund's secret chest|PHB}, {@spell mordenkainen's private sanctum|PHB}"
+						],
+						[
+							"9th",
+							"{@spell modify memory|PHB}, {@spell seeming|PHB}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Bonus Proficiency",
+			"source": "Hergard",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Secrecy Domain",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"At 1st level, you gain proficiency with martial weapons and the disguise kit."
+			]
+		},
+		{
+			"name": "Divine Secrets",
+			"source": "Hergard",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Secrecy Domain",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"Starting at 1st level, you gain the ability to communicate telepathically with any number of creatures that you can see within 30 feet. The creature must be able to speak at least one language, but you do not have to share a language with it. A creature may resist your mental communication by succeeding on a Wisdom saving throw."
+			]
+		},
+		{
+			"name": "Channel Divinity: Mask of the Unknown",
+			"source": "Hergard",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Secrecy Domain",
+			"subclassSource": "Hergard",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"At 2nd level, you can use your Channel Divinity to cast the spell disguise self (no concentration required), through the connection of your god. You are able to cast this spell on other creatures by touching them as an action. A creature under the effects of the spell gains advantage on Charisma (Decep­tion) checks for the duration and can end the spell on itself at will."
+			]
+		},
+		{
+			"name": "Mire the Mind of the Wicked",
+			"source": "Hergard",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Secrecy Domain",
+			"subclassSource": "Hergard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, as a reaction, you can cause any creature that succeeds on a Wisdom or Intelligence saving throw to make the save again, forcing them to use the new result. You can do this a number of times equal to half your Wisdom modifier rounded up. You regain all expended uses of this feature when you finish a long rest."
+			]
+		},
+		{
+			"name": "Divine Strike",
+			"source": "Hergard",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Secrecy Domain",
+			"subclassSource": "Hergard",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"At 8th level, you gain the ability to cut directly into the mind of your attackers. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 psychic damage to the target. When you reach 14th level, the extra damage increases to 2d8."
+			]
+		},
+		{
+			"name": "Avatar of Sacred Knowledge",
+			"source": "Hergard",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Secrecy Domain",
+			"subclassSource": "Hergard",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"Beginning at 17th level, your ability to gain and preserve secret lore is taken further in service of your deity. You are able to cast the spells alter self and invisibility (self only) a number of times equal to half your Wisdom modifier (minimum of once) at will. Additionally, you gain blindsight with a range of 30 feet and can see through magical darkness. Furthermore, you can double your proficiency bonus for Intelligence (Arcana), Intelligence (History) or Intelligence (Religion) checks in any matter that relates to obscure knowledge."
+			]
+		},
+{
+			"name": "Wind Domain",
+			"source": "Hergard",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Wind Domain",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"entries": [
+				"The gods of the wind —including Agrodal, Ilxia, The Wanderess and Xild— value less attachment to places and people, and emphasize wanderlust and the following of one's own heart and life. “I go where the wind takes me” is an oft said phrase by adventurers, but none embody this as much as clerics of the wind domain. They seek to be truly free, casting off worries and downtrodden ties, embracing the beauty of following the wind.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Wind Domain Spells|Cleric|PHB|Wind Domain|Hergard|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Hand of the Wild Wind|Cleric|PHB|Wind Domain|Hergard|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Protection of the Great Gale|Cleric|PHB|Wind Domain|Hergard|1"
+				}
+			]
+		},
+		{
+			"name": "Wind Domain Spells",
+			"source": "Hergard",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Wind Domain",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"You gain domain spells at the cleric levels listed in the Wind Domain Spells table. See the Divine Domain class feature for how domain spells work.",
+				{
+					"type": "table",
+					"caption": "Wind Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell longstrider|PHB}, {@spell zephyr strike|xge}"
+						],
+						[
+							"3rd",
+							"{@spell gust of wind|PHB}, {@spell warding wind|xge}"
+						],
+						[
+							"5th",
+							"{@spell fly|PHB}, {@spell wind wall|PHB}"
+						],
+						[
+							"7th",
+							"{@spell dimension door|PHB}, {@spell find greater steed|xge}"
+						],
+						[
+							"9th",
+							"{@spell control winds|xge}, {@spell steel wind strike|xge}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Hand of the Wild Wind",
+			"source": "Hergard",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Wind Domain",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"At 1st level, you gain the gust cantrip. The spell has a number of changes for you when you cast it:",
+				{
+					"type": "list",
+					"items": [
+						"It has a range of 60 feet.",
+						"You can choose Large or smaller creatures.",
+						"If a creature fails the Strength saving throw against being pushed, you can also magically deal 1d8 bludgeoning damage. This damage increases to 2d8 at 5th level, 3d8 at 11th, and 4d8 at 17th.",
+						"Instead of pushing a creature away when you deal damage, you can let the wild wind guide it. The creature moves 5 feet in a direction decided by the first d8 you roll for damage, instead of pushing it away from you. You can add your proficiency bonus to the result."
+					]
+				}
+			]
+		},
+		{
+			"name": "Protection of the Great Gale",
+			"source": "Hergard",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Wind Domain",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"Also at 1st level, the wind swirls around you in protection. While you are not wearing armor, your AC equals 10 + your Dexterity modifier + your Wisdom modifier."
+			]
+		},
+		{
+			"name": "Channel Divinity: Arm of the Bracing Breeze",
+			"source": "Hergard",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Wind Domain",
+			"subclassSource": "Hergard",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"Starting at 2nd level, you can use your Channel Divinity to bring down a torrent of wind, forcing foes back or forwards with a mighty barrage of air.",
+				"As an action, you present your holy symbol and choose a circle with a radius of 15 feet within 30 feet of you. Any fire not created by a magical effect is extinguished, be it burning a creature or an object. Additionally, each Huge or smaller hostile creature in the circle must make a Strength saving throw. A creature is pushed or pulled (your choice when you use this feature) 10 feet towards or away from the center of the circle and knocked prone on a failed saving throw, or 5 feet on a successful one."
+			]
+		},
+		{
+			"name": "Grasp of the Carefree Cyclone",
+			"source": "Hergard",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Wind Domain",
+			"subclassSource": "Hergard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Beginning at 6th level, you can cast feather fall at will, without expending a spell slot. Additionally, you may cast the spell as a reaction to being thrown at a solid object horizontally."
+			]
+		},
+		{
+			"name": "Potent Spellcasting",
+			"source": "Hergard",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Wind Domain",
+			"subclassSource": "Hergard",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip."
+			]
+		},
+		{
+			"name": "Wrath of the Terrifying Tornado",
+			"source": "Hergard",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Wind Domain",
+			"subclassSource": "Hergard",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"At 17th level, you can cast investiture of wind as a bonus action. When you have its benefits, your flying speed is increased to 90 feet, you can cast gust as a bonus action, and you have advantage on Strength and Dexterity saving throws."
 			]
 		}
 	],
