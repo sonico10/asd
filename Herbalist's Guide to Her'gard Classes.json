@@ -8782,6 +8782,34 @@
 				"Divine Strike|Cleric|PHB|Death Domain|Hergard|8",
 				"Avatar of Death|Cleric|PHB|Death Domain|Hergard|17"
 			]
+		},
+		{
+			"name": "Fate Domain",
+			"source": "Hergard",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"shortName": "Fate Domain",
+			"subclassFeatures": [
+				"Fate Domain|Cleric|PHB|Fate Domain|Hergard|1",
+				"Channel Divinity: Severed Threads|Cleric|PHB|Fate Domain|Hergard|2",
+				"Discarded Tatters|Cleric|PHB|Fate Domain|Hergard|6",
+				"Potent Spellcasting|Cleric|PHB|Fate Domain|Hergard|8",
+				"Prophetic Glimpse|Cleric|PHB|Fate Domain|Hergard|17"
+			]
+		},
+		{
+			"name": "Love Domain",
+			"source": "Hergard",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"shortName": "Love Domain",
+			"subclassFeatures": [
+				"Love Domain|Cleric|PHB|Love Domain|Hergard|1",
+				"Channel Divinity: Heart's Embrace|Cleric|PHB|Love Domain|Hergard|2",
+				"Channel Divinity: Overwhelming Infatuation|Cleric|PHB|Love Domain|Hergard|6",
+				"Potent Spellcasting|Cleric|PHB|Love Domain|Hergard|8",
+				"Charismatic Caster|Cleric|PHB|Love Domain|Hergard|17"
+			]
 		}
 	],
 	"subclassFeature": [{
@@ -17224,6 +17252,309 @@
 				"A shadowy reaper appears before the marked creature, sharing its space and hovering a foot above them. The reaper shares your statistics, but has hit points equal to three times your cleric level and AC equal to 10 + your Wisdom modifier, and it cannot take actions. It lasts for one minute, or until either it or its mark is slain.",
 				"At the start of each of the marked creatures turns, the reaper swings its scythe downwards. The creature must succeed on a Wisdom saving throw or take necrotic damage equal to twice your cleric level.",
 				"Once you use this feature, you can't use it again until you finish a long rest."
+			]
+		},
+{
+			"name": "Fate Domain",
+			"source": "Hergard",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Fate Domain",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"entries": [
+				"Diviners and wizards often attempt to peer at the threads that bind the lives of mortals, but gods are the ones who weave those threads with every new birth and death. Parash, Mergoda, Lugor, Hegna, Fortuna, Mallorie, Singulor, Chrona and other deities of life, death, glory, time, judgement, luck, and prophecy call upon their clerics to act as oracles and seers of fate and future - and to intervene when the time is right. Those who follow benevolent gods often guide heroes to their destinies, while evil oracles may lead them astray or attempt to meddle with the future to bring prophecies of ruin, destruction and chaos to fruition.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Fate Domain Spells|Cleric|PHB|Fate Domain|Hergard|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Aid the Misguided|Cleric|PHB|Fate Domain|Hergard|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Eye of the Oracle|Cleric|PHB|Fate Domain|Hergard|1"
+				}
+			]
+		},
+		{
+			"name": "Fate Domain Spells",
+			"source": "Hergard",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Fate Domain",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"You gain domain spells at the cleric levels listed in the Fate Domain Spells table. See the Divine Domain class feature for how domain spells work.",
+				{
+					"type": "table",
+					"caption": "Fate Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell guiding bolt|PHB}, {@spell heroism|PHB}"
+						],
+						[
+							"3rd",
+							"{@spell augury|PHB}, {@spell blur|PHB}"
+						],
+						[
+							"5th",
+							"{@spell bestow curse|PHB}, {@spell clairvoyance|PHB}"
+						],
+						[
+							"7th",
+							"{@spell death ward|PHB}, {@spell divination|PHB}"
+						],
+						[
+							"9th",
+							"{@spell commune|PHB}, {@spell dream|PHB}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Aid the Misguided",
+			"source": "Hergard",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Fate Domain",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"When you choose this domain at first level, you gain the guidance and resistance cantrips. You may choose to cast them as a bonus action, a combined number of times equal to your proficiency bonus. You regain all expended uses of this feature after you finish a long rest."
+			]
+		},
+		{
+			"name": "Eye of the Oracle",
+			"source": "Hergard",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Fate Domain",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"Also at 1st level, your god bestows a mark upon you that signifies your attunement to the threads of fate, such as a third eye, runic tattoo, or halo of mist, which you can conceal at will. While your mark is revealed, you can use your action to gaze into the future of another humanoid within 60 feet of you. The creature must succeed on a Wisdom saving throw or you gain truesight against them until the end of your next turn and their surface thoughts and intentions become known to you. If a creature succeeds on their save, they are immune to the effects of this feature for the next 24 hours."
+			]
+		},
+		{
+			"name": "Channel Divinity: Severed Threads",
+			"source": "Hergard",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Fate Domain",
+			"subclassSource": "Hergard",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"At 2nd level, your god grants you the ability to manipulate fate directly. Whenever you deal damage to a creature, you can use a bonus action and your Channel Divinity feature to attempt to cut its ties to mortality. The target must make a Charisma saving throw. On a failure, their fate is disrupted, gaining disadvantage on the next three attack rolls or saving throws they make."
+			]
+		},
+		{
+			"name": "Discarded Tatters",
+			"source": "Hergard",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Fate Domain",
+			"subclassSource": "Hergard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, you collect the scattered threads of fate for a new tapestry of your own devising. Whenever you are hit by a weapon attack, you can use your reaction to weave an ethereal cloak around yourself made from the destiny of your attacker. The attacker must make a Charisma saving throw. On a failure they take force damage equal to the amount of damage they inflict on you, or half as much on a success.",
+				"You may use this feature a number of times equal to half your Wisdom modifier rounded up. You regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Potent Spellcasting",
+			"source": "Hergard",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Fate Domain",
+			"subclassSource": "Hergard",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip."
+			]
+		},
+		{
+			"name": "Prophetic Glimpse",
+			"source": "Hergard",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Fate Domain",
+			"subclassSource": "Hergard",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"At 17th level, your god grants you the ability to see brief yet perfectly accurate visions of the future. Whenever you or a creature of your choice within 30 feet of you is hit by an attack, you may use your reaction to change the outcome. Make a Spell Attack roll with advantage, contested by the attack roll made against the target. If you roll equal to or higher than the attack roll, it misses completely.",
+				"You may use this feature twice. You regain all expended uses of this feature when you finish a short or long rest."
+			]
+		},
+{
+			"name": "Love Domain",
+			"source": "Hergard",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Love Domain",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"entries": [
+				"Clerics of the Love Domain follow the clergy of gods of love, passion and desire. Make no mistake, gods like Helegor, Aeris and even Mergoda don't limit their domains to romantic love, they enjoy brotherly love between siblings, the love between a child and their parents and even love between a group of friends. Their clerics seek to spread love, happiness and peace between all things. They perform marriages, assist in childbirth, and always encourage kindness. But most of all, they provide a sense of strength and camaraderie in any group that they happen to find themselves a part of.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Love Domain Spells|Cleric|PHB|Love Domain|Hergard|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Cantrip|Cleric|PHB|Love Domain|Hergard|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Brotherly Love|Cleric|PHB|Love Domain|Hergard|1"
+				}
+			]
+		},
+		{
+			"name": "Love Domain Spells",
+			"source": "Hergard",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Love Domain",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"You gain domain spells at the cleric levels listed in the Love Domain Spells table. See the Divine Domain class feature for how domain spells work.",
+				{
+					"type": "table",
+					"caption": "Love Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell ceremony|xge}, {@spell charm person|PHB}"
+						],
+						[
+							"3rd",
+							"{@spell enthrall|PHB}, {@spell suggestion|PHB}"
+						],
+						[
+							"5th",
+							"{@spell aura of vitality|PHB}, {@spell beacon of hope|PHB}"
+						],
+						[
+							"7th",
+							"{@spell charm monster|xge}, {@spell compulsion|PHB}"
+						],
+						[
+							"9th",
+							"{@spell creation|PHB}, {@spell dominate person|PHB}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Bonus Cantrip",
+			"source": "Hergard",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Love Domain",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"When you choose this domain at first level, you gain the friends cantrip."
+			]
+		},
+		{
+			"name": "Brotherly Love",
+			"source": "Hergard",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Love Domain",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"Also at 1st level, your jovial disposition leaves those you interact with cheerful and happy. When you cast friends or charm person on a creature, you may mask the usage of magic. After the spell ends, the target doesn't know you used magic on them, and they feel a slight sense of love and camaraderie towards you instead of hostility. The creature's feelings end if it or any of its companions are attacked by you or your companions, or the next time is sees you after 1 minute has elapsed. You may use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Channel Divinity: Heart's Embrace",
+			"source": "Hergard",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Love Domain",
+			"subclassSource": "Hergard",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"Starting at 2nd level, you can use your Channel Divinity to buoy up your allies with your boundless adoration, turning away blows and strengthening their resolve.",
+				"As an action, you may choose a number of allies you can see within 30 feet of you equal to your Wisdom modifier. They get a bonus to their AC and saving throws for the duration. This bonus equals half your Charisma modifier rounded up. They also gain temporary HP equal to your Charisma modifier at the start of each of their turns. This effect lasts for one minute, or until they end their turn 30 feet or more away from you."
+			]
+		},
+		{
+			"name": "Channel Divinity: Overwhelming Infatuation",
+			"source": "Hergard",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Love Domain",
+			"subclassSource": "Hergard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, you can use your Channel Divinity to cause a creature to become enamored with another, pursuing the subject of its affection and hindering its movement.",
+				"As an action, you may cause a creature within 60 feet of you to make a Wisdom saving throw. On a failure, they are charmed and will use their action to run towards and show affection to another creature of your choosing within 30 feet of the target. The affected creature will not do anything overtly suicidal such as diving off a cliff or running into lava to get to the object of their desire. At the start of each of the object of desire's turns, if the target is within 5 feet of them, they must make a contested grapple check or be restrained until the start of their next turn, or until the target is no longer charmed.",
+				"The charmed effect lasts for 1 minute, but the target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Creatures that are immune to being charmed automatically succeed on the saving throw."
+			]
+		},
+		{
+			"name": "Potent Spellcasting",
+			"source": "Hergard",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Love Domain",
+			"subclassSource": "Hergard",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip."
+			]
+		},
+		{
+			"name": "Charismatic Caster",
+			"source": "Hergard",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Love Domain",
+			"subclassSource": "Hergard",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"Starting at 17th level, when you cast an enchantment spell of 3rd level or lower, you may target an additional number of creatures equal to half your Charisma modifier rounded up."
 			]
 		}
 	],
