@@ -5210,6 +5210,217 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "The Lion",
+			"source": "Hergard",
+			"featureType": "Constellation Forms",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You can attack an additional time when you take the Attack action.",
+						"You can add your proficiency bonus to any Dexterity (Acrobatics) checks.",
+						"Your jumping distance is doubled."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ascendance.",
+					"entries": [
+						"You leap to a target up to 30 feet away and immediately make a melee weapon attack."
+					]
+				}
+			]
+		},
+		{
+			"name": "The Owl",
+			"source": "Hergard",
+			"featureType": "Constellation Forms",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 8,
+						"class": {
+							"name": "Druid"
+						}
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You gain a flying speed of 60 feet.",
+						"You may add your proficiency bonus to any Wisdom (Perception) checks.",
+						"You can use your bonus action to mark an enemy giving them disadvantage on attacks made against you, until you leave The Owl form. You can only have one enemy marked at a time."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ascendance.",
+					"entries": [
+						"Your marked target must succeed on a Wisdom saving throw or be stunned until the start of your next turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "The Scales",
+			"source": "Hergard",
+			"featureType": "Constellation Forms",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Druid"
+						}
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You gain an Aura of Balance with a radius of 20 feet. All enemies that enter this area for the first time, or start their turn within it, take radiant damage equal to your Wisdom modifier. When an enemy is hurt by this aura, you add all the damage done to a special Pool of Balance.",
+						"As an action, you can spend points from your Pool of Balance to restore an equal amount of hit points divided as you choose amongst any number of creatures that you can see within your aura. When you leave The Scales form all unspent hit points are lost."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ascendance.",
+					"entries": [
+						"You unleash a burst of energy, forcing all enemies in your Aura of Balance to succeed a Dexterity saving throw or lose their balance and fall prone."
+					]
+				}
+			]
+		},
+		{
+			"name": "The Scorpion",
+			"source": "Hergard",
+			"featureType": "Constellation Forms",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 8,
+						"class": {
+							"name": "Druid"
+						}
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"Your speed increases by 10 feet.",
+						"You can move through difficult terrain normally.",
+						"You can use your action to sting a target within 10 feet of you. The target must succeed on a Constitution saving throw or become paralyzed for one minute. The target can repeat the save at the start of each of its turns. On a successful save, the target is immune to this effect for 24 hours. Once you leave The Scorpion form, this condition ends."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ascendance.",
+					"entries": [
+						"You can impose disadvantage on the next saving throw a creature makes against your paralysis."
+					]
+				}
+			]
+		},
+		{
+			"name": "The Serpent",
+			"source": "Hergard",
+			"featureType": "Constellation Forms",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Druid"
+						}
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You may add your proficiency bonus to any Charisma (Deception) checks.",
+						"A number of targets of your choice equal to your proficiency bonus cannot see this Constellation Form and won't know you are using it.",
+						"When you hit a creature with a melee attack in this form, you can use your bonus action to force the target to make a Constitution saving throw. On a failed save, the target it poisoned and on a successful save the target is immune to this effect for the next minute. The poisoned creature can repeat the save at the start of each of its turns. Once you leave The Snake form, this condition ends."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ascendance.",
+					"entries": [
+						"As part of this bonus action and for 1 minute, you can use the Hide action as a bonus action, even if you are only lightly obscured."
+					]
+				}
+			]
+		},
+		{
+			"name": "The Steed",
+			"source": "Hergard",
+			"featureType": "Constellation Forms",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 4,
+						"class": {
+							"name": "Druid"
+						}
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"Your walking speed is doubled.",
+						"You can take the Dash action as a bonus action.",
+						"If you move at least 30 feet straight toward a target and then hit it with an attack on the same turn, you can roll one additional weapon damage die."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ascendance.",
+					"entries": [
+						"For 1 minute, you can walk on water and walls, but must end your turn on solid ground."
+					]
+				}
+			]
+		},
+		{
+			"name": "The Twins",
+			"source": "Hergard",
+			"featureType": "Constellation Forms",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Druid"
+						}
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"When you activate this form you immediately cast mirror image, ignoring verbal and somatic components. When you leave The Twins form, the spell ends."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ascendance.",
+					"entries": [
+						"For 1 minute, both you and your clones are under the effects of blur."
+					]
+				}
+			]
 		}
 	],
 	"class": [{
@@ -8912,6 +9123,19 @@
 				"Grasp of the Carefree Cyclone|Cleric|PHB|Wind Domain|Hergard|6",
 				"Potent Spellcasting|Cleric|PHB|Wind Domain|Hergard|8",
 				"Wrath of the Terrifying Tornado|Cleric|PHB|Wind Domain|Hergard|17"
+			]
+		},
+		{
+			"name": "Circle of the Astral",
+			"source": "Hergard",
+			"className": "Druid",
+			"classSource": "PHB",
+			"shortName": "Astral",
+			"subclassFeatures": [
+				"Circle of the Astral|Druid|PHB|Circle of the Astral|Hergard|2",
+				"Star Reader|Druid|PHB|Circle of the Astral|Hergard|6",
+				"Elysian Insight|Druid|PHB|Circle of the Astral|Hergard|10",
+				"Stellar Ascendance|Druid|PHB|Circle of the Astral|Hergard|14"
 			]
 		}
 	],
@@ -17966,6 +18190,110 @@
 			"header": 2,
 			"entries": [
 				"At 17th level, you can cast investiture of wind as a bonus action. When you have its benefits, your flying speed is increased to 90 feet, you can cast gust as a bonus action, and you have advantage on Strength and Dexterity saving throws."
+			]
+		},
+{
+			"name": "Circle of the Astral",
+			"source": "Hergard",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Circle of the Astral",
+			"subclassSource": "Hergard",
+			"level": 2,
+			"entries": [
+				"Seers and fortune tellers have been reading the stars to predict the future for centuries, but the druids of the Astral Circle have a much deeper connection to the night sky. They study the stars to unlock their secrets, becoming capable of much more than mere fortune telling.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Constellation Form|Druid|PHB|Circle of the Astral|Hergard|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Celestial Tongue|Druid|PHB|Circle of the Astral|Hergard|2"
+				}
+			]
+		},
+		{
+			"name": "Constellation Form",
+			"source": "Hergard",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Circle of the Astral",
+			"subclassSource": "Hergard",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"At 1st level, you gain the gust cantrip. The spell has a number of changes for you when you cast it:",
+				{
+					"type": "list",
+					"items": [
+						"At 2nd level, when you choose this circle, whenever you use Wild Shape, you can instead take on a {@filter Constellation Form|optionalfeatures|feature type=Constellation Forms}. When you take on such a form, small stars form around your body showing the shape of the chosen constellation around you, an astral silhouette may appear over you, or the constellation appears as a mark on your body. While in a Constellation Form you gain its benefits, listed at the end of the circle's description, and can cast spells as you normally could outside of it.",
+						"Additionally, whenever you enter a Constellation Form, you gain 3 temporary hit points for each level you have in this class. The number of temporary hit points increases to 4 for each level at 10th level.",
+						"These benefits last for 10 minutes, until you lose all these temporary hit points, or until you use your Wild Shape again."
+					]
+				}
+			]
+		},
+		{
+			"name": "Celestial Tongue",
+			"source": "Hergard",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Circle of the Astral",
+			"subclassSource": "Hergard",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"Also at 2nd level, you learn to speak, read, and write Celestial."
+			]
+		},
+		{
+			"name": "Star Reader",
+			"source": "Hergard",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Circle of the Astral",
+			"subclassSource": "Hergard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, you can read the stars for an omen of what's to come. You can cast augury, divination and commune as rituals. They can only be cast this way once per long rest each, and can only be used if you have clear view of the stars.",
+				"In addition, you cannot get lost by nonmagical means, as long as you have a clear view of the stars."
+			]
+		},
+		{
+			"name": "Elysian Insight",
+			"source": "Hergard",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Circle of the Astral",
+			"subclassSource": "Hergard",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"When you reach 10th level, the stars can shine upon an enemy revealing its weaknesses and secrets. As an action, a creature of your choice that you can see within a 60 feet radius must make a Wisdom saving throw. On a failure, you learn the creature's name, creature type and one of the following attributes of your choosing:",
+				{
+					"type": "list",
+					"items": [
+						"damage resistances",
+						"damage vulnerabilities",
+						"damage immunities",
+						"condition immunities"
+					]
+				},
+				"On a successful save the creature is immune to this feature for 24 hours and becomes aware of your influence. When you reach 14th level in this class, you learn one additional attribute when using this feature. Once you use this feature you must finish a short or long rest before you can use it again."
+			]
+		},
+		{
+			"name": "Stellar Ascendance",
+			"source": "Hergard",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Circle of the Astral",
+			"subclassSource": "Hergard",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"At 14th level, you have gained a greater hold of mastery over your Constellation Forms. When you are in a Constellation Form, you can use a bonus action to activate an additional ability listed after the form's description. If these abilities have a duration, they will last their full duration even if you leave the form granting it, but if you use this feature again it cancels the current Ascendance power. You can use this feature a number of times equal to your Wisdom modifier. You regain all expended uses when you finish a long rest."
 			]
 		}
 	],
