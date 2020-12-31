@@ -9202,6 +9202,19 @@
 				"Dangerous Conditions|Druid|PHB|Circle of Storms|Hergard|10",
 				"Eye of the Storm|Druid|PHB|Circle of Storms|Hergard|14"
 			]
+		},
+		{
+			"name": "Way of the Ancient Oak",
+			"source": "Hergard",
+			"className": "Monk",
+			"classSource": "PHB",
+			"shortName": "Ancient Oak",
+			"subclassFeatures": [
+				"Way of the Ancient Oak|Monk|PHB|Way of the Ancient Oak|Hergard|3",
+				"Tranquil as a Forest|Monk|PHB|Way of the Ancient Oak|Hergard|6",
+				"The Undergrowth's Curriculum|Monk|PHB|Way of the Ancient Oak|Hergard|11",
+				"Gift of the Forest|Monk|PHB|Way of the Ancient Oak|Hergard|17"
+			]
 		}
 	],
 	"subclassFeature": [{
@@ -18897,6 +18910,114 @@
 				"By 14th level, you have mastered the manipulation of the air around you, allowing you to ride the wind and have it hinder your foes. You can cast the warding wind spell without expending a spell slot. While the spell is active, you gain a flying speed of 60 feet. You regain the use of this ability once you finish a short or long rest.",
 				"Also, when you fly away from a creature, it cannot get an attack of opportunity on you.",
 				"When you reach 18th level, warding wind no longer requires concentration when cast using this feature."
+			]
+		},
+		{
+			"name": "Way of the Ancient Oak",
+			"source": "Hergard",
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Way of the Ancient Oak",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"entries": [
+				"Monks of the Way of the Ancient Oak are known to be incredibly wise and compassionate people. They only anger when provoked, and prefer non-lethal solutions to problems when possible. Those who are experienced in the ways of the forest can call upon it for gifts - even at times, the gift of life.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bamboo's Retort|Monk|PHB|Way of the Ancient Oak|Hergard|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Ancient Oak's Acumen|Monk|PHB|Way of the Ancient Oak|Hergard|3"
+				}
+			]
+		},
+		{
+			"name": "Bamboo's Retort",
+			"source": "Hergard",
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Way of the Ancient Oak",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"At 3rd level when you choose this tradition, whenever you take the Dodge action, you root your body to the ground until the start of your next turn, allowing you to absorb the force of blows and use it against a creature to great effect. If you are hit by a melee attack while you are in your stance, you can make an unarmed strike at the attacking creature (no action required) immediately at the start of your next turn. You cannot use any other monk features on said attack. You can react in this way to a number of creatures' attacks equal to half your proficiency bonus.",
+				"When you reach 6th level you can instead make two unarmed strikes at the start of your turn."
+			]
+		},
+		{
+			"name": "Ancient Oak's Acumen",
+			"source": "Hergard",
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Way of the Ancient Oak",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Also at 3rd level, your meditations in the forest have taught you to recognize the flow of ki through all creatures, regardless of origin. You can direct your attacks towards an enemy's ki points which are imperceivable to other beings and most other monks. You can use Wisdom instead of Dexterity for the attack and damage rolls of your unarmed strikes which do psychic damage."
+			]
+		},
+		{
+			"name": "Tranquil as a Forest",
+			"source": "Hergard",
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Way of the Ancient Oak",
+			"subclassSource": "Hergard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, whenever a creature fails their save against your Stunning Strike feature, you can spend one ki to have that creature also be subject to the effects of the sleepspell."
+			]
+		},
+		{
+			"name": "The Undergrowth's Curriculum",
+			"source": "Hergard",
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Way of the Ancient Oak",
+			"subclassSource": "Hergard",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"At 11th level, you gain the following benefits:",
+				{
+					"type": "entries",
+					"name": "Teachings of the Tick.",
+					"entries": [
+						"Your body weight drops to 1/4 its normal value, and if you end your turn on a vertical surface, you don't fall as long as that surface can support your weight."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Grasshopper's Guidance.",
+					"entries": [
+						"You can make a standing long jump or high jump up to 10 feet away."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ladybug's Lesson.",
+					"entries": [
+						"As an action, you may spend 1 ki point to cast the spell plant growth without providing material components. When you choose the immediate benefit, you can also create light foliage easily capable of supporting 1/4 your normal weight up to 60 feet high. When you choose the long term benefit, you can magically rid the area of disease, infestation, or corruption."
+					]
+				}
+			]
+		},
+		{
+			"name": "Gift of the Forest",
+			"source": "Hergard",
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Way of the Ancient Oak",
+			"subclassSource": "Hergard",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"Beginning at 17th level, when you fall in battle your kindness to the forest is returned through their gift to you. As a reaction to being reduced to 0 hit points you may spend 5 ki points to let go your earthly tethers freeing your soul from your body. If your body still exists, its crumbles into dust.",
+				"A body forms from bark up to 30 feet away from where you fell, and your soul returns to it, reviving you at 20 hitpoints and with 3 points of exhaustion. You can choose to delay your return for up to one minute. When all of your exhaustion fades, your body returns to normal. You cannot use this feature for 14 days after you have been revived."
 			]
 		}
 	],
