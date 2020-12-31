@@ -3,17 +3,14 @@
 	"_meta": {
 		"sources": [{
 			"json": "Hergard",
-			"full": "Herbalist's Guide to Her'gard",
-			"authors": [
-				"TheRedstom"
-			],
 			"abbreviation": "HGH",
+			"full": "Herbalist's Guide to Her'gard",
 			"url": "https://tinyurl.com/hergard",
-			"version": "2018.01.13"
+			"authors": ["TheRedstom"],
+			"convertedBy": ["TheRedstom"]
 		}],
-		"convertedBy": ["TheRedstom"],
-		"dateAdded": 1607875712,
-		"dateLastModified": 1607875712
+		"dateAdded": 1609341349,
+		"dateLastModified": 1609341349
 	},
 	"spell": [{
 		"name": "Acid Rain",
@@ -3132,6 +3129,45 @@
 				"source": "PHB"
 			}, {
 				"name": "Wizard",
+				"source": "PHB"
+			}]
+		}
+	}, {
+		"name": "Freezing Smite",
+		"source": "Hergard",
+		"level": 2,
+		"school": "V",
+		"time": [{
+			"number": 1,
+			"unit": "bonus"
+		}],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "self"
+			}
+		},
+		"components": {
+			"v": true
+		},
+		"duration": [{
+			"type": "timed",
+			"duration": {
+				"type": "minute",
+				"amount": 1
+			},
+			"concentration": true
+		}],
+		"entries": ["The next time you hit a creature with a melee weapon attack during the spell’s duration, your weapon's blade becomes encrusted with ice shards, and the attack deals an extra {@damage 2d6} cold damage to the target and causes ice to crawl across them. The target must succeed on a Constitution saving throw or become unable to take reactions until the spell ends.", "A creature affected by this spell makes another Constitution saving throw at the end of each of its turns. On a successful save, it is no longer frozen."],
+		"entriesHigherLevel": [{
+			"name": "At Higher Levels",
+			"entries": ["When you cast this spell using a spell slot of 3rd level or higher, the extra damage increases by {@dice 1d6} for each slot level above 2nd."]
+		}],
+		"damageInflict": ["cold"],
+		"savingThrow": ["constitution"],
+		"classes": {
+			"fromClassList": [{
+				"name": "Paladin",
 				"source": "PHB"
 			}]
 		}
