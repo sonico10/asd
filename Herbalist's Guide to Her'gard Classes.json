@@ -5140,8 +5140,7 @@
 			"name": "The Bear",
 			"source": "Hergard",
 			"featureType": "Constellation Forms",
-			"entries": [
-				{
+			"entries": [{
 					"type": "list",
 					"items": [
 						"If your Strength score is less than your Wisdom score, your Strength score raises to become equal.",
@@ -5161,8 +5160,7 @@
 			"name": "The Crab",
 			"source": "Hergard",
 			"featureType": "Constellation Forms",
-			"entries": [
-				{
+			"entries": [{
 					"type": "list",
 					"items": [
 						"Your AC is increased by your proficiency bonus.",
@@ -5183,16 +5181,14 @@
 			"name": "The Fish",
 			"source": "Hergard",
 			"featureType": "Constellation Forms",
-			"prerequisite": [
-				{
-					"level": {
-						"level": 4,
-						"class": {
-							"name": "Druid"
-						}
+			"prerequisite": [{
+				"level": {
+					"level": 4,
+					"class": {
+						"name": "Druid"
 					}
 				}
-			],
+			}],
 			"entries": [
 				"You and creatures of your choice within 20 feet of you gain the following features:",
 				{
@@ -5215,8 +5211,7 @@
 			"name": "The Lion",
 			"source": "Hergard",
 			"featureType": "Constellation Forms",
-			"entries": [
-				{
+			"entries": [{
 					"type": "list",
 					"items": [
 						"You can attack an additional time when you take the Attack action.",
@@ -5237,18 +5232,15 @@
 			"name": "The Owl",
 			"source": "Hergard",
 			"featureType": "Constellation Forms",
-			"prerequisite": [
-				{
-					"level": {
-						"level": 8,
-						"class": {
-							"name": "Druid"
-						}
+			"prerequisite": [{
+				"level": {
+					"level": 8,
+					"class": {
+						"name": "Druid"
 					}
 				}
-			],
-			"entries": [
-				{
+			}],
+			"entries": [{
 					"type": "list",
 					"items": [
 						"You gain a flying speed of 60 feet.",
@@ -5269,18 +5261,15 @@
 			"name": "The Scales",
 			"source": "Hergard",
 			"featureType": "Constellation Forms",
-			"prerequisite": [
-				{
-					"level": {
-						"level": 5,
-						"class": {
-							"name": "Druid"
-						}
+			"prerequisite": [{
+				"level": {
+					"level": 5,
+					"class": {
+						"name": "Druid"
 					}
 				}
-			],
-			"entries": [
-				{
+			}],
+			"entries": [{
 					"type": "list",
 					"items": [
 						"You gain an Aura of Balance with a radius of 20 feet. All enemies that enter this area for the first time, or start their turn within it, take radiant damage equal to your Wisdom modifier. When an enemy is hurt by this aura, you add all the damage done to a special Pool of Balance.",
@@ -5300,18 +5289,15 @@
 			"name": "The Scorpion",
 			"source": "Hergard",
 			"featureType": "Constellation Forms",
-			"prerequisite": [
-				{
-					"level": {
-						"level": 8,
-						"class": {
-							"name": "Druid"
-						}
+			"prerequisite": [{
+				"level": {
+					"level": 8,
+					"class": {
+						"name": "Druid"
 					}
 				}
-			],
-			"entries": [
-				{
+			}],
+			"entries": [{
 					"type": "list",
 					"items": [
 						"Your speed increases by 10 feet.",
@@ -5332,18 +5318,15 @@
 			"name": "The Serpent",
 			"source": "Hergard",
 			"featureType": "Constellation Forms",
-			"prerequisite": [
-				{
-					"level": {
-						"level": 5,
-						"class": {
-							"name": "Druid"
-						}
+			"prerequisite": [{
+				"level": {
+					"level": 5,
+					"class": {
+						"name": "Druid"
 					}
 				}
-			],
-			"entries": [
-				{
+			}],
+			"entries": [{
 					"type": "list",
 					"items": [
 						"You may add your proficiency bonus to any Charisma (Deception) checks.",
@@ -5364,18 +5347,15 @@
 			"name": "The Steed",
 			"source": "Hergard",
 			"featureType": "Constellation Forms",
-			"prerequisite": [
-				{
-					"level": {
-						"level": 4,
-						"class": {
-							"name": "Druid"
-						}
+			"prerequisite": [{
+				"level": {
+					"level": 4,
+					"class": {
+						"name": "Druid"
 					}
 				}
-			],
-			"entries": [
-				{
+			}],
+			"entries": [{
 					"type": "list",
 					"items": [
 						"Your walking speed is doubled.",
@@ -5396,18 +5376,15 @@
 			"name": "The Twins",
 			"source": "Hergard",
 			"featureType": "Constellation Forms",
-			"prerequisite": [
-				{
-					"level": {
-						"level": 5,
-						"class": {
-							"name": "Druid"
-						}
+			"prerequisite": [{
+				"level": {
+					"level": 5,
+					"class": {
+						"name": "Druid"
 					}
 				}
-			],
-			"entries": [
-				{
+			}],
+			"entries": [{
 					"type": "list",
 					"items": [
 						"When you activate this form you immediately cast mirror image, ignoring verbal and somatic components. When you leave The Twins form, the spell ends."
@@ -7265,132 +7242,132 @@
 						"Runic Juggernaut|Fighter||Rune Knight|TCE|18"
 					]
 				},
-		{
-			"name": "Arcane Archer",
-			"source": "Hergard",
-			"className": "Fighter",
-			"classSource": "PHB",
-			"shortName": "Arcane Archer",
-			"subclassFeatures": [
-				"Arcane Archer|Fighter|PHB|Arcane Archer|Hergard|3",
-				"Magic Quiver|Fighter|PHB|Arcane Archer|Hergard|7",
-				"Elemental Arrows|Fighter|PHB|Arcane Archer|Hergard|10",
-				"Ever-Ready|Fighter|PHB|Arcane Archer|Hergard|15"
-			]
-		},
-		{
-			"name": "Battle Master",
-			"source": "Hergard",
-			"className": "Fighter",
-			"classSource": "PHB",
-			"shortName": "Battle Master",
-			"subclassFeatures": [
-				"Battle Master|Fighter|PHB|Battle Master|Hergard|3",
-				"Know Your Enemy|Fighter|PHB|Battle Master|Hergard|7",
-				"Improved Combat Superiority|Fighter|PHB|Battle Master|Hergard|10",
-				"Relentless|Fighter|PHB|Battle Master|Hergard|15",
-				"Battlefield Awareness|Fighter|PHB|Battle Master|Hergard|18"
-			]
-		},
-		{
-			"name": "Blademaker",
-			"source": "Hergard",
-			"className": "Fighter",
-			"classSource": "PHB",
-			"shortName": "Blademaker",
-			"subclassFeatures": [
-				"Blademaker|Fighter|PHB|Blademaker|Hergard|3",
-				"Maneuvering Barrage|Fighter|PHB|Blademaker|Hergard|7",
-				"Otherworldly Blades|Fighter|PHB|Blademaker|Hergard|10",
-				"Victorious Onslaught|Fighter|PHB|Blademaker|Hergard|15",
-				"Army of One|Fighter|PHB|Blademaker|Hergard|18"
-			]
-		},
-		{
-			"name": "Champion",
-			"source": "Hergard",
-			"className": "Fighter",
-			"classSource": "PHB",
-			"shortName": "Champion",
-			"subclassFeatures": [
-				"Champion|Fighter|PHB|Champion|Hergard|3",
-				"Remarkable Athlete|Fighter|PHB|Champion|Hergard|7",
-				"Everchanging Fighting Style|Fighter|PHB|Champion|Hergard|10",
-				"Deadly Skill|Fighter|PHB|Champion|Hergard|15",
-				"Survivor|Fighter|PHB|Champion|Hergard|18"
-			]
-		},
-		{
-			"name": "Combat Medic",
-			"source": "Hergard",
-			"className": "Fighter",
-			"classSource": "PHB",
-			"shortName": "Combat Medic",
-			"subclassFeatures": [
-				"Combat Medic|Fighter|PHB|Combat Medic|Hergard|3",
-				"Protect the Downed|Fighter|PHB|Combat Medic|Hergard|7",
-				"Vital Strike|Fighter|PHB|Combat Medic|Hergard|10",
-				"Quick Cure|Fighter|PHB|Combat Medic|Hergard|15",
-				"No Man Left Behind|Fighter|PHB|Combat Medic|Hergard|18"
-			]
-		},
-		{
-			"name": "Conqueror",
-			"source": "Hergard",
-			"className": "Fighter",
-			"classSource": "PHB",
-			"shortName": "Conqueror",
-			"subclassFeatures": [
-				"Conqueror|Fighter|PHB|Conqueror|Hergard|3",
-				"Rise to War|Fighter|PHB|Conqueror|Hergard|7",
-				"Conqueror's Reach|Fighter|PHB|Conqueror|Hergard|10",
-				"Rank and File|Fighter|PHB|Conqueror|Hergard|15",
-				"Unyielding Advance|Fighter|PHB|Conqueror|Hergard|18"
-			]
-		},
-		{
-			"name": "Gunslinger",
-			"source": "Hergard",
-			"className": "Fighter",
-			"classSource": "PHB",
-			"shortName": "Gunslinger",
-			"subclassFeatures": [
-				"Gunslinger|Fighter|PHB|Gunslinger|Hergard|3",
-				"Quickdraw|Fighter|PHB|Gunslinger|Hergard|7",
-				"Rapid Repair|Fighter|PHB|Gunslinger|Hergard|10",
-				"Lightning Reload|Fighter|PHB|Gunslinger|Hergard|15",
-				"Vicious Intent|Fighter|PHB|Gunslinger|Hergard|18",
-				"Hemorrhaging Critical|Fighter|PHB|Gunslinger|Hergard|18"
-			]
-		},
-		{
-			"name": "Purple Dragon Knight",
-			"source": "Hergard",
-			"className": "Fighter",
-			"classSource": "PHB",
-			"shortName": "Purple Dragon Knight",
-			"subclassFeatures": [
-				"Purple Dragon Knight|Fighter|PHB|Purple Dragon Knight|Hergard|3",
-				"Royal Envoy|Fighter|PHB|Purple Dragon Knight|Hergard|7",
-				"Inspiring Surge|Fighter|PHB|Purple Dragon Knight|Hergard|10",
-				"Lead the Charge|Fighter|PHB|Purple Dragon Knight|Hergard|10",
-				"Bulwark|Fighter|PHB|Purple Dragon Knight|Hergard|15"
-			]
-		},
-		{
-			"name": "Spellbreaker",
-			"source": "Hergard",
-			"className": "Fighter",
-			"classSource": "PHB",
-			"shortName": "Spellbreaker",
-			"subclassFeatures": [
-				"Spellbreaker|Fighter|PHB|Spellbreaker|Hergard|3",
-				"Magical Lore|Fighter|PHB|Spellbreaker|Hergard|7",
-				"Warding Sigil|Fighter|PHB|Spellbreaker|Hergard|10",
-				"Unending Watch|Fighter|PHB|Spellbreaker|Hergard|15",
-				"High-Warden|Fighter|PHB|Spellbreaker|Hergard|18"
-			]
-		}
+				{
+					"name": "Arcane Archer",
+					"source": "Hergard",
+					"className": "Fighter",
+					"classSource": "PHB",
+					"shortName": "Arcane Archer",
+					"subclassFeatures": [
+						"Arcane Archer|Fighter|PHB|Arcane Archer|Hergard|3",
+						"Magic Quiver|Fighter|PHB|Arcane Archer|Hergard|7",
+						"Elemental Arrows|Fighter|PHB|Arcane Archer|Hergard|10",
+						"Ever-Ready|Fighter|PHB|Arcane Archer|Hergard|15"
+					]
+				},
+				{
+					"name": "Battle Master",
+					"source": "Hergard",
+					"className": "Fighter",
+					"classSource": "PHB",
+					"shortName": "Battle Master",
+					"subclassFeatures": [
+						"Battle Master|Fighter|PHB|Battle Master|Hergard|3",
+						"Know Your Enemy|Fighter|PHB|Battle Master|Hergard|7",
+						"Improved Combat Superiority|Fighter|PHB|Battle Master|Hergard|10",
+						"Relentless|Fighter|PHB|Battle Master|Hergard|15",
+						"Battlefield Awareness|Fighter|PHB|Battle Master|Hergard|18"
+					]
+				},
+				{
+					"name": "Blademaker",
+					"source": "Hergard",
+					"className": "Fighter",
+					"classSource": "PHB",
+					"shortName": "Blademaker",
+					"subclassFeatures": [
+						"Blademaker|Fighter|PHB|Blademaker|Hergard|3",
+						"Maneuvering Barrage|Fighter|PHB|Blademaker|Hergard|7",
+						"Otherworldly Blades|Fighter|PHB|Blademaker|Hergard|10",
+						"Victorious Onslaught|Fighter|PHB|Blademaker|Hergard|15",
+						"Army of One|Fighter|PHB|Blademaker|Hergard|18"
+					]
+				},
+				{
+					"name": "Champion",
+					"source": "Hergard",
+					"className": "Fighter",
+					"classSource": "PHB",
+					"shortName": "Champion",
+					"subclassFeatures": [
+						"Champion|Fighter|PHB|Champion|Hergard|3",
+						"Remarkable Athlete|Fighter|PHB|Champion|Hergard|7",
+						"Everchanging Fighting Style|Fighter|PHB|Champion|Hergard|10",
+						"Deadly Skill|Fighter|PHB|Champion|Hergard|15",
+						"Survivor|Fighter|PHB|Champion|Hergard|18"
+					]
+				},
+				{
+					"name": "Combat Medic",
+					"source": "Hergard",
+					"className": "Fighter",
+					"classSource": "PHB",
+					"shortName": "Combat Medic",
+					"subclassFeatures": [
+						"Combat Medic|Fighter|PHB|Combat Medic|Hergard|3",
+						"Protect the Downed|Fighter|PHB|Combat Medic|Hergard|7",
+						"Vital Strike|Fighter|PHB|Combat Medic|Hergard|10",
+						"Quick Cure|Fighter|PHB|Combat Medic|Hergard|15",
+						"No Man Left Behind|Fighter|PHB|Combat Medic|Hergard|18"
+					]
+				},
+				{
+					"name": "Conqueror",
+					"source": "Hergard",
+					"className": "Fighter",
+					"classSource": "PHB",
+					"shortName": "Conqueror",
+					"subclassFeatures": [
+						"Conqueror|Fighter|PHB|Conqueror|Hergard|3",
+						"Rise to War|Fighter|PHB|Conqueror|Hergard|7",
+						"Conqueror's Reach|Fighter|PHB|Conqueror|Hergard|10",
+						"Rank and File|Fighter|PHB|Conqueror|Hergard|15",
+						"Unyielding Advance|Fighter|PHB|Conqueror|Hergard|18"
+					]
+				},
+				{
+					"name": "Gunslinger",
+					"source": "Hergard",
+					"className": "Fighter",
+					"classSource": "PHB",
+					"shortName": "Gunslinger",
+					"subclassFeatures": [
+						"Gunslinger|Fighter|PHB|Gunslinger|Hergard|3",
+						"Quickdraw|Fighter|PHB|Gunslinger|Hergard|7",
+						"Rapid Repair|Fighter|PHB|Gunslinger|Hergard|10",
+						"Lightning Reload|Fighter|PHB|Gunslinger|Hergard|15",
+						"Vicious Intent|Fighter|PHB|Gunslinger|Hergard|18",
+						"Hemorrhaging Critical|Fighter|PHB|Gunslinger|Hergard|18"
+					]
+				},
+				{
+					"name": "Purple Dragon Knight",
+					"source": "Hergard",
+					"className": "Fighter",
+					"classSource": "PHB",
+					"shortName": "Purple Dragon Knight",
+					"subclassFeatures": [
+						"Purple Dragon Knight|Fighter|PHB|Purple Dragon Knight|Hergard|3",
+						"Royal Envoy|Fighter|PHB|Purple Dragon Knight|Hergard|7",
+						"Inspiring Surge|Fighter|PHB|Purple Dragon Knight|Hergard|10",
+						"Lead the Charge|Fighter|PHB|Purple Dragon Knight|Hergard|10",
+						"Bulwark|Fighter|PHB|Purple Dragon Knight|Hergard|15"
+					]
+				},
+				{
+					"name": "Spellbreaker",
+					"source": "Hergard",
+					"className": "Fighter",
+					"classSource": "PHB",
+					"shortName": "Spellbreaker",
+					"subclassFeatures": [
+						"Spellbreaker|Fighter|PHB|Spellbreaker|Hergard|3",
+						"Magical Lore|Fighter|PHB|Spellbreaker|Hergard|7",
+						"Warding Sigil|Fighter|PHB|Spellbreaker|Hergard|10",
+						"Unending Watch|Fighter|PHB|Spellbreaker|Hergard|15",
+						"High-Warden|Fighter|PHB|Spellbreaker|Hergard|18"
+					]
+				}
 			],
 			"fluff": [{
 					"name": "Fighter",
@@ -9136,6 +9113,58 @@
 				"Star Reader|Druid|PHB|Circle of the Astral|Hergard|6",
 				"Elysian Insight|Druid|PHB|Circle of the Astral|Hergard|10",
 				"Stellar Ascendance|Druid|PHB|Circle of the Astral|Hergard|14"
+			]
+		},
+		{
+			"name": "Circle of the Silver Sands",
+			"source": "Hergard",
+			"className": "Druid",
+			"classSource": "PHB",
+			"shortName": "Silver Sands",
+			"subclassFeatures": [
+				"Circle of the Silver Sands|Druid|PHB|Circle of the Silver Sands|Hergard|2",
+				"Empowered Sands|Druid|PHB|Circle of the Silver Sands|Hergard|6",
+				"Granular Transport|Druid|PHB|Circle of the Silver Sands|Hergard|10",
+				"Hallowed Tempest|Druid|PHB|Circle of the Silver Sands|Hergard|14"
+			]
+		},
+		{
+			"name": "Circle of Spores",
+			"source": "Hergard",
+			"className": "Druid",
+			"classSource": "PHB",
+			"shortName": "Spores",
+			"subclassFeatures": [
+				"Circle of Spores|Druid|PHB|Circle of Spores|Hergard|2",
+				"Fungal Infestation|Druid|PHB|Circle of Spores|Hergard|6",
+				"Spreading Spores|Druid|PHB|Circle of Spores|Hergard|10",
+				"Fungal Body|Druid|PHB|Circle of Spores|Hergard|14"
+			]
+		},
+		{
+			"name": "Circle of the Sun",
+			"source": "Hergard",
+			"className": "Druid",
+			"classSource": "PHB",
+			"shortName": "Sun",
+			"subclassFeatures": [
+				"Circle of the Sun|Druid|PHB|Circle of the Sun|Hergard|2",
+				"Radiant Embrace|Druid|PHB|Circle of the Sun|Hergard|6",
+				"Herald of the Dawn|Druid|PHB|Circle of the Sun|Hergard|10",
+				"Synthesis|Druid|PHB|Circle of the Sun|Hergard|14"
+			]
+		},
+		{
+			"name": "Circle of Storms",
+			"source": "Hergard",
+			"className": "Druid",
+			"classSource": "PHB",
+			"shortName": "Storms",
+			"subclassFeatures": [
+				"Circle of Storms|Druid|PHB|Circle of Storms|Hergard|2",
+				"Storm Deflection|Druid|PHB|Circle of Storms|Hergard|6",
+				"Dangerous Conditions|Druid|PHB|Circle of Storms|Hergard|10",
+				"Eye of the Storm|Druid|PHB|Circle of Storms|Hergard|14"
 			]
 		}
 	],
@@ -17425,7 +17454,7 @@
 				"You may have a total number of glyphs cast at a time equal to your Constitution modifier, but you can only activate one at a time. You regain all uses of this feature when you finish a long rest."
 			]
 		},
-{
+		{
 			"name": "Death Domain",
 			"source": "Hergard",
 			"className": "Cleric",
@@ -17581,7 +17610,7 @@
 				"Once you use this feature, you can't use it again until you finish a long rest."
 			]
 		},
-{
+		{
 			"name": "Fate Domain",
 			"source": "Hergard",
 			"className": "Cleric",
@@ -17732,7 +17761,7 @@
 				"You may use this feature twice. You regain all expended uses of this feature when you finish a short or long rest."
 			]
 		},
-{
+		{
 			"name": "Love Domain",
 			"source": "Hergard",
 			"className": "Cleric",
@@ -17884,7 +17913,7 @@
 				"Starting at 17th level, when you cast an enchantment spell of 3rd level or lower, you may target an additional number of creatures equal to half your Charisma modifier rounded up."
 			]
 		},
-{
+		{
 			"name": "Secrecy Domain",
 			"source": "Hergard",
 			"className": "Cleric",
@@ -18033,7 +18062,7 @@
 				"Beginning at 17th level, your ability to gain and preserve secret lore is taken further in service of your deity. You are able to cast the spells alter self and invisibility (self only) a number of times equal to half your Wisdom modifier (minimum of once) at will. Additionally, you gain blindsight with a range of 30 feet and can see through magical darkness. Furthermore, you can double your proficiency bonus for Intelligence (Arcana), Intelligence (History) or Intelligence (Religion) checks in any matter that relates to obscure knowledge."
 			]
 		},
-{
+		{
 			"name": "Wind Domain",
 			"source": "Hergard",
 			"className": "Cleric",
@@ -18192,7 +18221,7 @@
 				"At 17th level, you can cast investiture of wind as a bonus action. When you have its benefits, your flying speed is increased to 90 feet, you can cast gust as a bonus action, and you have advantage on Strength and Dexterity saving throws."
 			]
 		},
-{
+		{
 			"name": "Circle of the Astral",
 			"source": "Hergard",
 			"className": "Druid",
@@ -18294,6 +18323,544 @@
 			"header": 2,
 			"entries": [
 				"At 14th level, you have gained a greater hold of mastery over your Constellation Forms. When you are in a Constellation Form, you can use a bonus action to activate an additional ability listed after the form's description. If these abilities have a duration, they will last their full duration even if you leave the form granting it, but if you use this feature again it cancels the current Ascendance power. You can use this feature a number of times equal to your Wisdom modifier. You regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Circle of the Silver Sands",
+			"source": "Hergard",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Circle of the Silver Sands",
+			"subclassSource": "Hergard",
+			"level": 2,
+			"entries": [
+				"It is said that only the luckiest of druids come across the silver sands in the beaches and deserts across the world. They never appear in the same place twice and some believe they hold the intelligence to choose those they wish to bond with and bestow their power upon. None know this for sure, but what is certain is that those who utilize the sands weild great and reverent power that is to be both feared and admired.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Circle Spells|Druid|PHB|Circle of the Silver Sands|Hergard|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Mystic Bond|Druid|PHB|Circle of the Silver Sands|Hergard|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Sanctified Terrain|Druid|PHB|Circle of the Silver Sands|Hergard|2"
+				}
+			]
+		},
+		{
+			"name": "Circle Spells",
+			"source": "Hergard",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Circle of the Silver Sands",
+			"subclassSource": "Hergard",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"The esoteric powers of the sands imbue you with the ability to cast certain spells.",
+				"At 3rd, 5th, 7th, and 9th level you gain access to a number of circle spells, listed below in the silver sands table.",
+				"Once you gain access to a circle spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.",
+				{
+					"type": "table",
+					"caption": "Circle of the Silver Sands Spells",
+					"colLabels": [
+						"Druid Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell bless|PHB}, {@spell sleep|PHB}"
+						],
+						[
+							"5th",
+							"{@spell aid|PHB}, {@spell dust devil|xge}"
+						],
+						[
+							"7th",
+							"{@spell revivify|PHB}, {@spell wall of sand|xge}"
+						],
+						[
+							"9th",
+							"{@spell death ward|PHB}, {@spell stone shape|PHB}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Mystic Bond",
+			"source": "Hergard",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Circle of the Silver Sands",
+			"subclassSource": "Hergard",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"Starting at 2nd level, you always have a small stream of silver sand whirling around you that you can freely manipulate and control as an action. You must be able to see the sand to do so and it must be within 10 feet of you. If you ever lose your sand, it mysteriously appears back to you within 5 feet after 24 hours. Additionally, you may use the sands as a weapon. You are considered proficient with them and use your Wisdom as the attack and damage modifier. The sands have an attack range of 5 feet and deal 1d8 slashing damage."
+			]
+		},
+		{
+			"name": "Sanctified Terrain",
+			"source": "Hergard",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Circle of the Silver Sands",
+			"subclassSource": "Hergard",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"Also at 2nd level, you may expend a use of your Wild Shape feature to scatter some of your sand around in a 30 foot radius centered on you that moves with you. This aura lasts for 1 minute and all hostile fey, fiends, celestials, undead, and elementals consider the area to be difficult terrain, take radiant damage equal to your Wisdom modifier at the start of their turn while within it, and are revealed to you if they are invisible or hidden in the area."
+			]
+		},
+		{
+			"name": "Empowered Sands",
+			"source": "Hergard",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Circle of the Silver Sands",
+			"subclassSource": "Hergard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Upon reaching 6th level, the bond you have with your sand has grown stronger. Your silver sand gains the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"When you attack with your sands they count as magical for the purpose of overcoming resistances and immunities.",
+						"Your sand's attack range increases to 10 feet and the damage die becomes a d10.",
+						"You can now control your sands out to a maximum range of 20 feet."
+					]
+				}
+			]
+		},
+		{
+			"name": "Granular Transport",
+			"source": "Hergard",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Circle of the Silver Sands",
+			"subclassSource": "Hergard",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"At 10th level, you can control your silver sands to rapidly whirl around you in order to provide you with elevated movement. As a bonus action, your movement speed increases by 30 feet and you gain a fly speed of 30 feet until the start of your next turn. You may use this feature a number of times equal to your Wisdom modifier and regain all uses after a short or long rest."
+			]
+		},
+		{
+			"name": "Hallowed Tempest",
+			"source": "Hergard",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Circle of the Silver Sands",
+			"subclassSource": "Hergard",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Beginning at 14th level, as an action you create a magical sandstorm that stretches out around you by 30 feet and that follows you as you move for 1 minute. All friendly creatures within the storm gain temporary hit points equal to your Druid level at the start of each of their turns and have their movement speed increased by 10 feet for the duration of the storm. All hostile creatures that enter the storm or start their turn within it for the first time must make a Constitution saving throw against your Spell Save DC. On a failed save, while they're within the storm, they are blinded and gain vulnerability to slashing damage if they are not resistant or immune to it. If they are resistant, they lose their resistance and if they are immune, they are instead only resistant. Fey, fiends, celestials, undead, and elementals have disadvantage on this save.",
+				"Once you use this feature you may not do so again until your finish a long rest."
+			]
+		},
+		{
+			"name": "Circle of Spores",
+			"source": "Hergard",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Circle of Spores",
+			"subclassSource": "Hergard",
+			"level": 2,
+			"entries": [
+				"Druids of the Circle of Spores find beauty in decay. They see within mold and other fungi the ability to transform lifeless material into abundant, albeit somewhat strange, life.",
+				"These druids believe that life and death are parts of a grand cycle, with one leading to the other and then back again. Death isn't the end of life, but instead a change of state that sees life shift into a new form.",
+				"Druids of this circle have a complex relationship with the undead. Unlike most other druids, they see nothing inherently wrong with undeath, which they consider to be a companion to life and death. But these druids believe that the natural cycle is healthiest when each segment of it is vibrant and changing. Undead that seek to replace all life with undeath, or that try to avoid passing to a final rest, violate the cycle and must be thwarted.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Circle Spells|Druid|PHB|Circle of Spores|Hergard|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Halo of Spores|Druid|PHB|Circle of Spores|Hergard|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Symbiotic Entity|Druid|PHB|Circle of Spores|Hergard|2"
+				}
+			]
+		},
+		{
+			"name": "Circle Spells",
+			"source": "Hergard",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Circle of Spores",
+			"subclassSource": "Hergard",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"Your symbiotic link to fungus and your ability to tap into the cycle of life and death grants you access to certain spells.",
+				"At 2nd level, you learn the chill touch cantrip. At 3rd, 5th, 7th, and 9th level you gain access to the spells listed for that level in the Circle of Spores Spells table.",
+				"Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.",
+				{
+					"type": "table",
+					"caption": "Circle of Spores Spells",
+					"colLabels": [
+						"Druid Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell blindness/deafness|PHB}, {@spell gentle repose|PHB}"
+						],
+						[
+							"5th",
+							"{@spell animate dead|PHB}, {@spell gaseous form|PHB}"
+						],
+						[
+							"7th",
+							"{@spell blight|PHB}, {@spell shadow of moil|xge}"
+						],
+						[
+							"9th",
+							"{@spell cloudkill|PHB}, {@spell contagion|PHB}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Halo of Spores",
+			"source": "Hergard",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Circle of Spores",
+			"subclassSource": "Hergard",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"Starting at 2nd level, you are surrounded by invisible necrotic spores that are harmless until you unleash them on a creature nearby. When a creature you can see moves into a space within 10 feet of you or starts its turn there, you can use your reaction to deal 1d4 necrotic damage to that creature unless it succeeds on a Constitution saving throw against your spell save DC, taking half damage on a successful save.",
+				"The necrotic damage increases to 1d6 at 6th level, 1d8 at 10th level, and 1d10 at 14th level."
+			]
+		},
+		{
+			"name": "Symbiotic Entity",
+			"source": "Hergard",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Circle of Spores",
+			"subclassSource": "Hergard",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"At 2nd level, you gain the ability to channel magic into your spores. When you hit an enemy with a melee attack, you can expend a use of your Wild Shape feature to awaken those spores, rather than transforming into a beast form.",
+				"You gain 4 temporary hit points for each level you  have in this class. While this feature is active, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"When you deal your Halo of Spores damage, roll the damage die a second time and add it to the total.",
+						"Your melee attacks deal an extra 1d6 necrotic damage to any target they hit. This includes the attack triggering Symbiotic Entity."
+					]
+				},
+				"These benefits last for 10 minutes, until you lose all these temporary hit points, or until you use your Wild Shape again."
+			]
+		},
+		{
+			"name": "Fungal Infestation",
+			"source": "Hergard",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Circle of Spores",
+			"subclassSource": "Hergard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, your spores gain the ability to infest a corpse and animate it. If a beast or a humanoid that is Small or Medium dies within 10 feet of you, you can use your reaction to animate it, causing it to stand up immediately with 1 hit point. If the creature died as a result of your Halo of Spores damage, you do not need to use your reaction to trigger this effect. The creature uses the zombie stat block in the Monster Manual. It remains animate for 1 hour, after which time it collapses and dies.",
+				"In combat, the zombie's turn comes immediately after yours. It obeys your mental commands, and the only action it can take is the Attack action, making one melee attack.",
+				"You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses of it when you finish a long rest.",
+				"Additionally, you have resistance to necrotic and poison damage."
+
+			]
+		},
+		{
+			"name": "Spreading Spores",
+			"source": "Hergard",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Circle of Spores",
+			"subclassSource": "Hergard",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"At 10th level, you gain the ability to seed an area with deadly spores. As a bonus action while your Symbiotic Entity feature is active, you can hurl spores up to 30 feet away. where they swirl in a 10-foot cube for 1 minute. The spores disappear early if you use this feature again, if you dismiss them as a bonus action, or if your Symbiotic Entity feature is no longer active.",
+				"Whenever a creature moves into the cube or starts its turn there, that creature takes your Halo of Spores damage, unless the creature succeeds on a Constitution saving throw against your spell save DC. A creature can take this damage no more than once per turn.",
+				"While the cube of spores persists, you can't use your Halo of Spores reaction."
+			]
+		},
+		{
+			"name": "Fungal Body",
+			"source": "Hergard",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Circle of Spores",
+			"subclassSource": "Hergard",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"At 14th level, the fungal spores in your body alter you: you can't be blinded, deafened, frightened, or poisoned, you gain immunity to necrotic damage and any critical hit against you counts as a normal hit instead, unless you're incapacitated."
+			]
+		},
+		{
+			"name": "Circle of the Sun",
+			"source": "Hergard",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Circle of the Sun",
+			"subclassSource": "Hergard",
+			"level": 2,
+			"entries": [
+				"Druids of the Circle of the Sun, like their counterparts of the Circle of the Moon, are fierce guardians of nature. However, unlike the latter, they establish their villages in much more open and accessible areas so that they may bask in that which is the namesake of their circle. As a result, they are much less isolated and are considered to be among the most sociable of the druids.",
+				"In addition to the obvious partiality to fire and light, druids of the Circle of the Sun also have some affinity for plants, which likewise thrive under the sun's light. This affinity allows them to assume plant forms—an ability that truly sets them apart from their brethren.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Circle Spells|Druid|PHB|Circle of the Sun|Hergard|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Botanic Forms|Druid|PHB|Circle of the Sun|Hergard|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Glareproof|Druid|PHB|Circle of the Sun|Hergard|2"
+				}
+			]
+		},
+		{
+			"name": "Circle Spells",
+			"source": "Hergard",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Circle of the Sun",
+			"subclassSource": "Hergard",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"Your innate understanding of the radiant light, warmth and the sun itself grants you access to certain spells.",
+				"At 2nd level, you learn the light cantrip. At 3rd, 5th, 7th, and 9th level you gain access to the spells listed for that level in the Circle of the Sun Spells table.",
+				"Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.",
+				{
+					"type": "table",
+					"caption": "Circle of the Sun Spells",
+					"colLabels": [
+						"Druid Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell branding smite|PHB}, {@spell scorching ray|PHB}"
+						],
+						[
+							"5th",
+							"{@spell daylight|PHB}, {@spell fireball|PHB}"
+						],
+						[
+							"7th",
+							"{@spell fire shield|PHB}, {@spell guardian of nature|xge}"
+						],
+						[
+							"9th",
+							"{@spell flame strike|PHB}, {@spell wall of light|xge}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Botanic Forms",
+			"source": "Hergard",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Circle of the Sun",
+			"subclassSource": "Hergard",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"When you choose this circle at 2nd level, you gain the ability to use Wild Shape to magically assume the form of a plant. This transformation must abide by the limitations shown in the Beast Shapes table."
+			]
+		},
+		{
+			"name": "Glareproof",
+			"source": "Hergard",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Circle of the Sun",
+			"subclassSource": "Hergard",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"Also at 2nd level, as one who glimpses the sun in veneration, your eyes become resistant to effects that could diminish their acuity in any way. If you have the Sunlight Sensitivity trait, you lose it. You also have advantage on saving throws against being blinded.",
+				"At 10th level, you become immune to being blinded."
+			]
+		},
+		{
+			"name": "Radiant Embrace",
+			"source": "Hergard",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Circle of the Sun",
+			"subclassSource": "Hergard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, when you fail a saving throw while in bright light, you can reroll it and take the second result.",
+				"Once you use this feature, you can't use it again until you finish a long rest."
+
+			]
+		},
+		{
+			"name": "Herald of the Dawn",
+			"source": "Hergard",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Circle of the Sun",
+			"subclassSource": "Hergard",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Beginning at 10th level, you can cast dawn without expending a spell slot or material components.",
+				"Once you cast dawn in this way, you can't do so again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Synthesis",
+			"source": "Hergard",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Circle of the Sun",
+			"subclassSource": "Hergard",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Starting at 14th level, as plants are nourished by the sun's light and warmth, so does your body use the same energies to heal yourself. When you expend a spell slot to cast a spell that includes a fire or radiant damage roll, you regain hit points equal to 2 + the slot's level.",
+				"Additionally, basking in sunlight for 10 minutes provides you enough nourishment to sustain you for one day."
+			]
+		},
+		{
+			"name": "Circle of Storms",
+			"source": "Hergard",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Circle of Storms",
+			"subclassSource": "Hergard",
+			"level": 2,
+			"entries": [
+				"Druids that are a part of the Circle of Storms emulate the strength and violence of a storm's natural wrath. They use their connection to strong weather to defend what they deem to be their sacred lands. Members of this circle are few, only meeting other circle members on special occasions. As such, it is not uncommon for these druids to join a local militia and help them protect the area from those who would harm it. Wherever these druids go, turmoil is sure to follow.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Stormcaller|Druid|PHB|Circle of Storms|Hergard|2"
+				}
+			]
+		},
+		{
+			"name": "Stormcaller",
+			"source": "Hergard",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Circle of Storms",
+			"subclassSource": "Hergard",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"At 2nd level, you can call storm clouds to your aid. You can summon a number of clouds equal to your Wisdom modifier (minimum of 1) within 60 feet of you as an action. Each cloud creates a storm that affects a 10-foot-radius, 30-foot-high cylinder around the chosen point. When a creature enters or starts its turn in the storm's area of effect, it must make a saving throw or be affected by the storm. All saving throws are made against your Druid spell save DC. These affected areas are also heavily obscured.",
+				"These clouds can be dispersed by a strong wind (at least 30 miles per hour) and last for 1 minute or until you dispel them as a bonus action. Once you use this feature, you can not use it again until you finish a short or long rest.",
+				"The effect the clouds have on an area depends on the type of storm cloud you summon from the options below.",
+				{
+					"type": "entries",
+					"name": "Thunderstorm.",
+					"entries": [
+						"Creatures exposed to your thunderstorms must make a Dexterity saving throw. On a failed save a creature takes 2d8 lightning damage, or half as much on a success. If the affected creature remains in the thunderstorm for another round, it must succeed a Constitution saving throw or be deafened by the following thunder for 1 minute, in addition to the lightning damage taken. Deafened creatures can repeat the saving throw at the start of each of its turns, ending the effect on a success. You can use this storm to increase the damage dealt by the call lightning spell."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Blizzard.",
+					"entries": [
+						"Creatures exposed to your blizzards must make a Constitution saving throw. On a failed save, the creature takes 2d6 cold damage, or half as much on a success, and its speed is reduced to 10 feet. The creature must repeat the saving throw if it remains in the blizzard's area."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tornado.",
+					"entries": [
+						"Creatures exposed to your tornadoes must succeed on a Strength saving throw or be knocked prone and pushed 10 feet in a random direction."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sandstorm.",
+					"entries": [
+						"Creatures exposed to your sandstorms must make a Constitution saving throw. On a failure, the creature is blinded for 1 minute. Blinded creatures can repeat the saving throw at the start of each of its turns, ending the effect on a success. If the affected creature remains in the sandstorm for another round, it must succeed another Constitution saving throw or begin to suffocate."
+					]
+				}
+			]
+		},
+		{
+			"name": "Storm Deflection",
+			"source": "Hergard",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Circle of Storms",
+			"subclassSource": "Hergard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting 6th level, you have learned to bend the elements of a thunderstorm. When you take lightning or thunder damage, you can use your reaction to halve the damage taken and redirect the additional damage to another creature within 30 feet of you.",
+				"The targeted creature must make a Dexterity saving throw against your Druid spell save DC. On a success, the creature takes no damage."
+
+			]
+		},
+		{
+			"name": "Dangerous Conditions",
+			"source": "Hergard",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Circle of Storms",
+			"subclassSource": "Hergard",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"At 10th level, your summoned storms can become more deadly to those that face them. When you first summon your storms, you can combine two storm clouds to increase a storm's area to a 20-foot-radius, 50-foot-high cylinder around the chosen point. All creatures that enter these storms have disadvantage on all saving throws to avoid the cloud's effects and if the cloud deals damage, the number of damage die rolled is doubled.",
+				"Also, the area inside the storm is considered magical difficult terrain."
+			]
+		},
+		{
+			"name": "Eye of the Storm",
+			"source": "Hergard",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Circle of Storms",
+			"subclassSource": "Hergard",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"By 14th level, you have mastered the manipulation of the air around you, allowing you to ride the wind and have it hinder your foes. You can cast the warding wind spell without expending a spell slot. While the spell is active, you gain a flying speed of 60 feet. You regain the use of this ability once you finish a short or long rest.",
+				"Also, when you fly away from a creature, it cannot get an attack of opportunity on you.",
+				"When you reach 18th level, warding wind no longer requires concentration when cast using this feature."
 			]
 		}
 	],
