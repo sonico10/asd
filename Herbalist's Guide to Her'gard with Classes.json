@@ -20769,10 +20769,6 @@
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Channel Divinity|Paladin|PHB|Oath of the Tempest|Hergard|3"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Lightning Strike|Paladin|PHB|Oath of the Tempest|Hergard|3"
 				}
 			]
 		},
@@ -20892,19 +20888,6 @@
 			]
 		},
 		{
-			"name": "Lightning Strike",
-			"source": "Hergard",
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Oath of the Tempest",
-			"subclassSource": "Hergard",
-			"level": 3,
-			"header": 1,
-			"entries": [
-				"When you take this oath at 3rd level, whenever you deal radiant damage to a creature, you can choose to deal lightning or thunder damage instead."
-			]
-		},
-		{
 			"name": "Aura of the Storm",
 			"source": "Hergard",
 			"className": "Paladin",
@@ -20983,10 +20966,6 @@
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Channel Divinity|Paladin|PHB|Oath of Traditions|Hergard|3"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Archivist|Paladin|PHB|Oath of Traditions|Hergard|3"
 				}
 			]
 		},
@@ -21105,19 +21084,6 @@
 						"Alternatively, you can touch one creature as an action and grant it advantage on Intelligence (History) checks for the next 10 minutes."
 					]
 				}
-			]
-		},
-		{
-			"name": "Archivist",
-			"source": "Hergard",
-			"className": "Paladin",
-			"classSource": "PHB",
-			"subclassShortName": "Oath of Traditions",
-			"subclassSource": "Hergard",
-			"level": 3,
-			"header": 1,
-			"entries": [
-				"By 3rd level, you understand that records can connect the past to the present. You gain proficiency in calligrapher's supplies if you don't already have it and you may add double your proficiency bonus to checks using them."
 			]
 		},
 		{
