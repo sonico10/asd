@@ -10074,6 +10074,45 @@
 				"Dreamer's Insight|Monk|PHB|Way of the Morvanna|Hergard|11",
 				"Waking Dream|Monk|PHB|Way of the Morvanna|Hergard|17"
 			]
+		},
+		{
+			"name": "Oath of the Tempest",
+			"source": "Hergard",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"shortName": "Tempest",
+			"subclassFeatures": [
+				"Oath of the Tempest|Paladin|PHB|Oath of the Tempest|Hergard|3",
+				"Aura of the Storm|Paladin|PHB|Oath of the Tempest|Hergard|7",
+				"Improved Aura of the Storm|Paladin|PHB|Oath of the Tempest|Hergard|15",
+				"Avatar of the Tempest|Paladin|PHB|Oath of the Tempest|Hergard|20"
+			]
+		},
+		{
+			"name": "Oath of Traditions",
+			"source": "Hergard",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"shortName": "Traditions",
+			"subclassFeatures": [
+				"Oath of Traditions|Paladin|PHB|Oath of Traditions|Hergard|3",
+				"Aura of Reverence|Paladin|PHB|Oath of Traditions|Hergard|7",
+				"The Old Ways|Paladin|PHB|Oath of Traditions|Hergard|15",
+				"Bridge to the Past|Paladin|PHB|Oath of Traditions|Hergard|20"
+			]
+		},
+		{
+			"name": "Oath of Radiance",
+			"source": "Hergard",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"shortName": "Radiance",
+			"subclassFeatures": [
+				"Oath of Radiance|Paladin|PHB|Oath of Radiance|Hergard|3",
+				"Aura of Light|Paladin|PHB|Oath of Radiance|Hergard|7",
+				"All-Seeing|Paladin|PHB|Oath of Radiance|Hergard|15",
+				"Radiant Champion|Paladin|PHB|Oath of Radiance|Hergard|20"
+			]
 		}
 	],
 	"subclassFeature": [{
@@ -20707,6 +20746,617 @@
 				"At 17th level, you have spent so much time within the Dreaming that it and the real world blur together, altering your mind beyond mortal recognition.",
 				"You are immune to psychic damage and the charmed and frightened conditions, and can always perceive illusions for what they are.",
 				"Additionally, if a creature attempts to charm you, frighten you, or read your thoughts, they must make an Intelligence saving throw, or take psychic damage equal to twice your martial arts die."
+			]
+		},
+		{
+			"name": "Oath of the Tempest",
+			"source": "Hergard",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Oath of the Tempest",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"entries": [
+				"The Oath of the Storm is as ancient as the storm gods themselves. Paladins who swear this oath are sometimes known as Storm Lords, Thunder Riders, or Tempest Knights. In the eternal struggle between law and chaos, good and evil, paladins of the storm channel the chaos of the raw, untamed power that throbs in the skies above, and understand that life can flourish even out of great destruction. Their armor is often adorned with lightning bolts and thunderclouds.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tenets of the Tempest|Paladin|PHB|Oath of the Tempest|Hergard|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Oath Spells|Paladin|PHB|Oath of the Tempest|Hergard|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Channel Divinity|Paladin|PHB|Oath of the Tempest|Hergard|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Lightning Strike|Paladin|PHB|Oath of the Tempest|Hergard|3"
+				}
+			]
+		},
+		{
+			"name": "Tenets of the Tempest",
+			"source": "Hergard",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Oath of the Tempest",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"The chaotic nature of the Tempest makes some question the necessity or legitimacy of these tenets, but nevertheless these are the words that have been passed down for countless generations by warriors who have lived and died by them.",
+				{
+					"type": "entries",
+					"name": "Gale.",
+					"entries": [
+						"It is not your place to remain in one area for long. There are many battles to be won on the next horizon."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Thunder.",
+					"entries": [
+						"Be the voice for the voiceless. Speak for the downtrodden and the oppressed. Be the fury to those who would subjugate the innocent."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lightning.",
+					"entries": [
+						"Life is short and fleeting. When in doubt, know that now is the time to leave your mark on to world."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Downpour.",
+					"entries": [
+						"Be a cleansing and restorative force, ensure that the world you live in today will be a better place tomorrow, and all days to come."
+					]
+				}
+			]
+		},
+		{
+			"name": "Oath Spells",
+			"source": "Hergard",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Oath of the Tempest",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"You gain oath spells at the paladin levels listed.",
+				{
+					"type": "table",
+					"caption": "Oath of the Tempest Spells",
+					"colLabels": [
+						"Paladin Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell fog cloud|PHB}, {@spell thunderwave|PHB}"
+						],
+						[
+							"5th",
+							"{@spell gust of wind|PHB}, {@spell misty step|PHB}"
+						],
+						[
+							"9th",
+							"{@spell call lightning|PHB}, {@spell wind wall|PHB}"
+						],
+						[
+							"13th",
+							"{@spell ice storm|PHB}, {@spell storm sphere|xge}"
+						],
+						[
+							"17th",
+							"{@spell cone of cold|PHB}, {@spell steel wind strike|xge}"
+						]
+					]
+				}				
+			]
+		},
+		{
+			"name": "Channel Divinity",
+			"source": "Hergard",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Oath of the Tempest",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you take this oath at 3rd level, you gain the following two Channel Divinity options.",
+				{
+					"type": "entries",
+					"name": "Eye of the Storm.",
+					"entries": [
+						"Your oath gives you the ability to temper the power of storms. As an action, you present your holy symbol and speak words of warding. Any natural storm does not affect the area around you in a 10 foot radius for one hour. Magical storms cannot be affected with this Channel Divinity. The radius expands to 30 feet when you reach 18th level."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Thunderous Rebuff.",
+					"entries": [
+						"When you take damage from a creature within 5 feet of you, you can use your reaction to halve the damage. Condensed sound erupts out from your body, and the creature who damaged you must make a Constitution saving throw. A creature takes thunder damage equal to 2d8 + your paladin level on a failed save, or half as much damage on a successful one."
+					]
+				}
+			]
+		},
+		{
+			"name": "Lightning Strike",
+			"source": "Hergard",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Oath of the Tempest",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you take this oath at 3rd level, whenever you deal radiant damage to a creature, you can choose to deal lightning or thunder damage instead."
+			]
+		},
+		{
+			"name": "Aura of the Storm",
+			"source": "Hergard",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Oath of the Tempest",
+			"subclassSource": "Hergard",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Starting at 7th level, you and friendly creatures within 10 feet of you gain resistance to lightning and thunder damage. In addition, as a bonus action, you can cause a strong wind to whirl around you until you dismiss it (no action required), causing the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"Unprotected flames, torch-sized or smaller, are extinguished.",
+						"The area counts as difficult terrain. You can choose any number of creatures to be immune to this effect.",
+						"It hedges out vapor, gas, and fog that can be dispersed by strong wind."
+					]
+				},
+				"At 18th level, the radius of this aura extends to 30 feet."
+			]
+		},
+		{
+			"name": "Improved Aura of the Storm",
+			"source": "Hergard",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Oath of the Tempest",
+			"subclassSource": "Hergard",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"Starting at 15th level, whenever a hostile creature within your aura makes an attack against you and you are not incapacitated, it takes lightning damage equal to your Charisma modifier."
+			]
+		},
+		{
+			"name": "Avatar of the Tempest",
+			"source": "Hergard",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Oath of the Tempest",
+			"subclassSource": "Hergard",
+			"level": 20,
+			"header": 2,
+			"entries": [
+				"At 20th level, as an action, you can mantle the powers of a tempest deity. For 1 minute, your body crackles with thunder and lightning, and your eyes glow blue, revealing the raging storm within. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You are immune to lightning and thunder damage.",
+						"You have a fly speed of 60 feet. If you move 20 feet or more straight toward a creature right before hitting it with a melee attack, the attack deals an extra 1d10 thunder damage to the target. Additionally, if the target is a creature, it must succeed on a Strength saving throw or be pushed 10 feet away from you and knocked prone.",
+						"Lightning and thunder damage you deal bypasses resistance, and immunity only halves the damage. Creatures cannot benefit from the Lightning Absorption trait from damage you deal."
+					]
+				},
+				"Once you use this feature, you can't use it again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Oath of Traditions",
+			"source": "Hergard",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Oath of Traditions",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"entries": [
+				"Those whom swear the Oath of Traditions recognize the value of history, of lore, of the past. Called knight-chroniclers or yoreguards by some, these paladins are protectors of traditional institutions as well as keepers of those stories that would otherwise be forgotten, be it the grand epic of a dead empire, recorded on but one surviving manuscript, or the joyful memories of an elder recollecting the first harvest festival of a village no longer so young.",
+				"These paladins can be found in service to gods of home and civilization, such as Parash or Eudico, under the authority of grand archives and keepers of history, or in temples and shrines dedicated to the remembrance and veneration of deceased ancestry. Many can be found questing through the world in search for stories that would otherwise be forgotten. Others travel in order to stand in opposition to forces that threaten to destroy what came before.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tenets of Traditions|Paladin|PHB|Oath of Traditions|Hergard|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Oath Spells|Paladin|PHB|Oath of Traditions|Hergard|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Channel Divinity|Paladin|PHB|Oath of Traditions|Hergard|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Archivist|Paladin|PHB|Oath of Traditions|Hergard|3"
+				}
+			]
+		},
+		{
+			"name": "Tenets of Traditions",
+			"source": "Hergard",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Oath of Traditions",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"The chaotic nature of Traditions makes some question the necessity or legitimacy of these tenets, but nevertheless these are the words that have been passed down for countless generations by warriors who have lived and died by them.",
+				{
+					"type": "entries",
+					"name": "Heritage.",
+					"entries": [
+						"Carry on the old traditions, yesterday's way of life, connecting the past to the present and enlivening both."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Remembrance.",
+					"entries": [
+						"Write the stories of people and cultures and places upon both crude matter and upon your mind. By remembering these tales, that which is gone yet lives."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Joy.",
+					"entries": [
+						"Celebrate successful preservation, revel in surviving legends, and savor traditions still observed. When heritage is respected, all become part of something more."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sorrow.",
+					"entries": [
+						"When history is lost, when stories are forgotten, when cultures die, and when traditions are trampled, weep. Mourn ancient beauty and horror alike, for it mattered."
+					]
+				}
+			]
+		},
+		{
+			"name": "Oath Spells",
+			"source": "Hergard",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Oath of Traditions",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"You gain oath spells at the paladin levels listed.",
+				{
+					"type": "table",
+					"caption": "Oath of Traditions Spells",
+					"colLabels": [
+						"Paladin Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell ceremony|xge}, {@spell identify|PHB}"
+						],
+						[
+							"5th",
+							"{@spell gentle repose|PHB}, {@spell zone of truth|PHB}"
+						],
+						[
+							"9th",
+							"{@spell speak with dead|PHB}, {@spell spirit guardians|PHB}"
+						],
+						[
+							"13th",
+							"{@spell divination|PHB}, {@spell guardian of faith|PHB}"
+						],
+						[
+							"17th",
+							"{@spell commune|PHB}, {@spell legend lore|PHB}"
+						]
+					]
+				}				
+			]
+		},
+		{
+			"name": "Channel Divinity",
+			"source": "Hergard",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Oath of Traditions",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you take this oath at 3rd level, you gain the following two Channel Divinity options.",
+				{
+					"type": "entries",
+					"name": "Turn Machination.",
+					"entries": [
+						"As an action, you use your Channel Divinity to abjure fabricated locomotion. Each construct or undead that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes damage.",
+						"A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Invoke Legacy.",
+					"entries": [
+						"You call upon the spirits of those who have passed, using your Channel Divinity. As an action, choose a number of creatures up to your Charisma modifier (minimum of one creature) that you can see within 60 feet of you. Each creature gains advantage on the next ability check or attack roll it makes within 1 minute.",
+						"Alternatively, you can touch one creature as an action and grant it advantage on Intelligence (History) checks for the next 10 minutes."
+					]
+				}
+			]
+		},
+		{
+			"name": "Archivist",
+			"source": "Hergard",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Oath of Traditions",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"By 3rd level, you understand that records can connect the past to the present. You gain proficiency in calligrapher's supplies if you don't already have it and you may add double your proficiency bonus to checks using them."
+			]
+		},
+		{
+			"name": "Aura of Reverence",
+			"source": "Hergard",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Oath of Traditions",
+			"subclassSource": "Hergard",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Beginning at 7th level, your presence wards against desecration and decay. Dead creatures within 10 feet of you cannot be reanimated as undead, and written material cannot be destroyed unless you permit it. Additionally, whenever you or a friendly creature within 10 feet of you takes necrotic damage, you can use your reaction to grant that creature resistance to that instance of damage.",
+				"At 18th level, the range of this aura increases to 30 feet."
+			]
+		},
+		{
+			"name": "The Old Ways",
+			"source": "Hergard",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Oath of Traditions",
+			"subclassSource": "Hergard",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"At 15th level, your connection to the past deepens, making your frame as firm as the earth. You gain proficiency in Constitution saving throws. You also can read all writing and can perfectly recall any creature's name that you learn."
+			]
+		},
+		{
+			"name": "Bridge to the Past",
+			"source": "Hergard",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Oath of Traditions",
+			"subclassSource": "Hergard",
+			"level": 20,
+			"header": 2,
+			"entries": [
+				"Beginning at 20th level, you can use your action to channel the legacy of history. For 1 minute, you are surrounded by spirit beings who confer the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You can touch and make melee attacks against creatures within 30 feet of you.",
+						"You can make a single weapon attack as a bonus action.",
+						"You gain the benefit of three-quarters cover against all ranged attacks targeting you.",
+						"Spaces within 30 feet of you are considered difficult terrain for creatures of your choosing."
+					]
+				},
+				"After using this feature, you must finish a long rest before you can use it again."
+			]
+		},
+		{
+			"name": "Oath of Radiance",
+			"source": "Hergard",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Oath of Radiance",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"entries": [
+				"The Oath of Radiance is almost as old as the sun that it follows, and has remained a steady force of good over the ages. Often called sun warriors or shining knights, paladins that take this oath seek to bring light and knowledge to even the darkest areas of the world. Some of them adorn their armor with dazzling inlaid glass and brilliantly bright metals, so that they can reflect the sun's glory and become physical beacons on the battlefield. They also might wear images of the sun or stars — the holy lights that bring life and knowledge to this world, and reveal all that is hidden by shadows and darkness. Like a star in the night, a paladin of the Oath of Radiance seeks to be a light of truth in the dark.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tenets of Radiance|Paladin|PHB|Oath of Radiance|Hergard|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Oath Spells|Paladin|PHB|Oath of Radiance|Hergard|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Channel Divinity|Paladin|PHB|Oath of Radiance|Hergard|3"
+				}
+			]
+		},
+		{
+			"name": "Tenets of Radiance",
+			"source": "Hergard",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Oath of Radiance",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"The chaotic nature of Radiance makes some question the necessity or legitimacy of these tenets, but nevertheless these are the words that have been passed down for countless generations by warriors who have lived and died by them.",
+				{
+					"type": "entries",
+					"name": "Truth.",
+					"entries": [
+						"Like a light in the dark, you must reveal the truth when it is shrouded in mystery."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Leadership.",
+					"entries": [
+						"You must become a beacon of light that everyone else follows, and lead others along the right path."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Preservation.",
+					"entries": [
+						"Where the light glows strongest, you must be ready to stand in its defense."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Knowledge.",
+					"entries": [
+						"Those that are ignorant to the truth must be shown the light. Spread your knowledge to all those that would accept it."
+					]
+				}
+			]
+		},
+		{
+			"name": "Oath Spells",
+			"source": "Hergard",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Oath of Radiance",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"You gain oath spells at the paladin levels listed.",
+				{
+					"type": "table",
+					"caption": "Oath of Radiance Spells",
+					"colLabels": [
+						"Paladin Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell color spray|phb}, {@spell faerie fire|PHB}"
+						],
+						[
+							"5th",
+							"{@spell moonbeam|PHB}, {@spell see invisibility|PHB}"
+						],
+						[
+							"9th",
+							"{@spell daylight|PHB}, {@spell spirit guardians|PHB}"
+						],
+						[
+							"13th",
+							"{@spell arcane eye|PHB}, {@spell guardian of faith|PHB}"
+						],
+						[
+							"17th",
+							"{@spell dawn|xge}, {@spell holy weapon|xge}"
+						]
+					]
+				}				
+			]
+		},
+		{
+			"name": "Channel Divinity",
+			"source": "Hergard",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Oath of Radiance",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you take this oath at 3rd level, you gain the following two Channel Divinity options.",
+				{
+					"type": "entries",
+					"name": "Blinding Intervention.",
+					"entries": [
+						"As an action, you can use your Channel Divinity to teleport to an unoccupied location within 5 feet of a creature you can see within 30 feet of you. That creature must succeed on a Constitution saving throw or become blinded for up to 1 minute. The creature can repeat this save at the end of each of its turns, ending the effect on a success. Additionally, other creatures of your choice within 5 feet of you after you teleport must also make Constitution saving throws. On a failed save, a creature has disadvantage on attack rolls until the start of your next turn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Divine Sunlight.",
+					"entries": [
+						"You can use your Channel Divinity to exude an aura of light. As an action, you can cause your body to emit bright light in a 10-foot radius and dim light 10 feet beyond that for 1 minute. This light is sunlight, and reveals the true form of shapechangers and creatures altered through magic.",
+						"Fey, fiends, and undead within the bright light have disadvantage on attack rolls against creatures other than you. Additionally, magical darkness does not function within the area of bright light.",
+						"Once you reach 7th level, the radius of the bright light increases to 20 feet, with dim light extending 20 feet beyond that."
+					]
+				}
+			]
+		},
+		{
+			"name": "Aura of Light",
+			"source": "Hergard",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Oath of Radiance",
+			"subclassSource": "Hergard",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Starting at 7th level, you can choose to emit an aura of light while you're not incapacitated. The aura extends 10 feet from you in every direction, but not through total cover, and its area is bright light. Dim light extends 10 feet beyond this, but the dim light is not considered part of the aura. You and friendly creatures within the aura have resistance to radiant and necrotic damage, and advantage on death saving throws.",
+				"You can activate and deactivate this aura as a bonus action. Starting at 18th level, you can also use your bonus action to increase this aura's range to 30 feet, or reduce it back to 10 feet. The dim light also changes by the same amount."
+			]
+		},
+		{
+			"name": "All-Seeing",
+			"source": "Hergard",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Oath of Radiance",
+			"subclassSource": "Hergard",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"Beginning at 15th level, you are always under the effects of a see invisibility spell. Additionally, for you see invisibility now has a range of 30 feet, rather than self, allowing you to grant its effects to another creature within range when you cast it."
+			]
+		},
+		{
+			"name": "Radiant Champion",
+			"source": "Hergard",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Oath of Radiance",
+			"subclassSource": "Hergard",
+			"level": 20,
+			"header": 2,
+			"entries": [
+				"At 20th level, you gain the ability to harness radiant energy and become a paragon of light. Using your action, you undergo a transformation. For 1 minute, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"On your turn, you can spend your movement to teleport a distance equal to twice the movement you spend. You must teleport to an unoccupied location that you can see.",
+						"When you hit a creature with an attack, it takes an additional 1d8 radiant damage and is basked in radiant energy until the start of your next turn. For the duration, the creature can't benefit from being invisible, attacks made against it are made with advantage, and it emits dim light out to a range of 10 feet."
+					]
+				},
+				"Once you use this feature, you can't use it again until you finish a long rest."
 			]
 		}
 	],
