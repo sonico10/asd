@@ -6227,6 +6227,294 @@
 			"entries": [
 				"The ground shakes and emits a low rumble as a wall of stone erupts up into being. You can spend 5 ki points to cast wall of stone."
 			]
+		},
+		{
+			"name": "Pact of the Brand",
+			"source": "Hergard",
+			"featureType": "PB",
+			"entries": [
+				"Your patron marks your body with a symbol or feature indicative of their influence, called a Pact Mark, a vestige of their influence used to store and channel arcane power. Your mark is a symbol, like a tattoo or a blemish, or a physical feature, such as a unique eye or a wound, and cannot be removed unless the body part it is on is also removed. Your mark, and by extension your body, counts as an arcane focus for your warlock spells.",
+				"Whenever you expend a warlock spell slot, your mark gains a charge, to a maximum amount equal to your warlock spell slot level. You can use your mark to cast a spell you know, expending a number of charges equal to the level you cast the spell at. Your mark loses any charges when you complete a long rest, and you cannot gain more charges than half your warlock level (rounded up) per long rest.",
+				"If you lose your mark, you can perform a 1-hour ritual to entreat your patron to give you another in a new location. This ritual can be performed during a short or long rest, and it destroys the previous mark."
+			]
+		},
+		{
+			"name": "Pact of the Cards",
+			"source": "Hergard",
+			"featureType": "PB",
+			"entries": [
+				"Your patron grants you a simple box made of wood or iron, engraved with your name at the bottom. Upon inspection, the box appears empty. While the box is on your person, you are proficient with all gaming sets.",
+				"Additionally, you can use your action to draw a card from the box which magically appears in your hand as you reach into it. If you do so, roll on the Fate Cards table to determine the card's effect. Spells cast as part of this action don't require components. Once you have drawn a card and its magic has taken effect, it crumbles to dust. You can only draw one card at a time.",
+				"Once you have drawn a number of cards equal to your Charisma modifier, you must finish a long rest before you can draw additional cards.",
+				"If you lose the box, you can perform a 1-hour ritual to receive a replacement from the Fateful. The ritual can be performed during a short or long rest, and it destroys the previous box."
+			]
+		},
+		{
+			"name": "Pact of the Cowl",
+			"source": "Hergard",
+			"featureType": "PB",
+			"entries": [
+				"You are granted a mystical cowl made of otherworldly material from your warlock patron. While wearing this cowl and no other armor, you gain an AC of 12 + your Charisma modifier, as well as proficiency in the Stealth skill if you do not already have it. When performing a Stealth check while wearing the cowl, you may substitute your Charisma modifier for Dexterity.",
+				"The cowl is psychically bonded to you, and you can equip it as a bonus action and dismiss it without any action required. If you lose the cowl, you can perform a 1-hour ceremony to receive a replacement from your patron. The cowl disappears if it is more than 5 feet away from you for one minute or more, or if you die."
+			]
+		},
+		{
+			"name": "Pact of the Key",
+			"source": "Hergard",
+			"featureType": "PB",
+			"entries": [
+				"Your patron grants you the power to open new paths for yourself... in a curious way. You obtain a small key that magically adjusts to any lock you attempt to fit it into.",
+				"When you insert your pact key into a lock, make a spellcasting ability check contested by the door's DC (determined by your DM). On a success, the key successfully opens the lock and disarms or disables any traps associated with it. Once you attempt to open a lock this way, the key's form towards that lock remains unchanged until next dawn.",
+				"If you lose your pact key, you can perform a 1-hour ritual to receive a replacement key. This ritual can be performed during a short or long rest, and it destroys the previous key."
+			]
+		},
+		{
+			"name": "Pact of the Lamp",
+			"source": "Hergard",
+			"featureType": "PB",
+			"prerequisite": [
+				{
+					"patron": "The Noble Genie"
+				}
+				],
+			"entries": [
+				"The Noble Genie grants you a Genie Lamp, an ornate oil lamp decorated with nine jewels from its lavish palace. While unattended, the lamp has an AC of 10 and 10 hit points. While you are holding the lamp, you can use your action to teleport yourself to an extradimensional space located inside the lamp. The space is the size of a 15-foot radius, 20 foot high cylinder, and it is furnished and decorated as you choose.",
+				"Any creature inside the extradimensional space perceives sound as though it occupied the space of the Genie Lamp, in addition to its normal senses.",
+				"While you are holding the Genie Lamp or you are inside its extradimensional space, you can use your action to expel any creature inside the space to the nearest unoccupied space it can occupy. If the lamp is destroyed, all creatures and objects inside the space are expelled to the nearest unoccupied space they can occupy. Furnishings and other objects created by this feature dissipate into smoke if removed from the lamp.",
+				"If you lose your Genie Lamp, you can perform a 1-hour ceremony to receive a replacement from your patron. The ceremony can be performed during a short or long rest, and it destroys the previous lamp. The lamp disintegrates into a trace of elemental energy akin to your patron when you die."
+			]
+		},
+		{
+			"name": "Acidic Thorns",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"patron": "The World Tree"
+				}
+				],
+			"entries": [
+				"You add half your warlock level to the damage of your thorn whip as additional acid damage."
+			]
+		},
+		{
+			"name": "Acid Wave",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"spell": ["acid splash#c"]
+				}
+				],
+			"entries": [
+				"When you cast acid splash, you can target a number of additional creatures equal to your Charisma modifier (minimum of one). Each target of the spell must be within 5 feet of another target."
+			]
+		},
+		{
+			"name": "Avatar of Viryn",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"spell": ["dancing lights#c"]
+				}
+				],
+			"entries": [
+				"You can cast spells as though you were in the space of the glowing humanoid form created by dancing lights, but you must use your own senses."
+			]
+		},
+		{
+			"name": "Baalzebul's Folly",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"spell": ["vicious mockery#c"]
+				}
+				],
+			"entries": [
+				"If a creature fails its saving throw against vicious mockery, it falls prone if it moves more than half of its speed before the end of your next turn."
+			]
+		},
+		{
+			"name": "Blackland Wanderer",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"spell": ["shillelagh#c"]
+				}
+				],
+			"entries": [
+				"You can use your action to make a melee attack with a weapon under the effect of shillelagh against a creature within reach. On a hit, the target takes additional force damage equal to your warlock level."
+			]
+		},
+		{
+			"name": "Candy Coating",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"patron": "The Sweetstress",
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Warlock"
+						}
+					}
+				}
+				],
+			"entries": [
+				"You can cast barkskin without expending a spell slot once per short or long rest. However, casting it in this way you can only target yourself."
+			]
+		},
+		{
+			"name": "Cape of Icarus",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 7,
+						"class": {
+							"name": "Warlock"
+						}
+					},
+					"pact": "Pact of the Cowl"
+				}
+				],
+			"entries": [
+				"Once per long rest, you can take an action to transform you cowl into a pair of wings and launch into the air. Your flying speed is 30 for up to 5 minutes, or until you lose concentration. When the duration ends, you fall if you are still in the air."
+			]
+		},
+		{
+			"name": "Card Dealer",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"pact": "Pact of the Cards"
+				}
+				],
+			"entries": [
+				"Other willing creatures can use their action to draw a card from your box as if they used the Pact of the Cards feature. Cards drawn by other creatures count against the number of cards you can draw between long rests."
+			]
+		},
+		{
+			"name": "Celestial Blessing",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"spell": ["guidance#c","resistance#c"]
+				}
+				],
+			"entries": [
+				"When you cast guidance or resistance, you can target additional creatures in range with the same spell, up to a number equal to your Charisma modifier (minimum of one)."
+			]
+		},
+		{
+			"name": "Cloak of Concealment",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Warlock"
+						}
+					},
+					"pact": "Pact of the Cowl"
+				}
+				],
+			"entries": [
+				"While you are wearing your cowl, you may cast the nondetection spell on yourself at will, without expending a spell slot or material components."
+			]
+		},
+		{
+			"name": "Contingent Reserve",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"pact": "Pact of the Brand"
+				}
+				],
+			"entries": [
+				"You can cast a spell of 1st-level or higher into your pact mark, expending the spell slot accordingly. The spell has no effect, and you can set a trigger for the spell, such as when a creature hits you with a weapon attack. When the trigger is met, you can use your reaction to cast the spell without expending a spell slot. This spell is lost when you complete a long rest, removing it from your mark."
+			]
+		},
+		{
+			"name": "Covenant of the Pact Keeper",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 7,
+						"class": {
+							"name": "Warlock"
+						}
+					},
+					"pact": "Pact of the Brand"
+				}
+				],
+			"entries": [
+				"Your pact mark's magic improves, granting you the power of a single magical item. Your mark now acts as a magic item that requires attunement and gains the effects of one of the following magical items: Amulet of Proof against Detection and Location, Brooch of Shielding, Cloak of Elvenkind or Gloves of Missile Snaring. While attuned to the mark, you gain the benefits of the chosen item."
+			]
+		},
+		{
+			"name": "Disappearing Act",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 15,
+						"class": {
+							"name": "Warlock"
+						}
+					},
+					"pact": "Pact of the Cowl"
+				}
+				],
+			"entries": [
+				"While you are wearing your cowl, you can cast misty step at will, without expending a spell slot."
+			]
+		},
+		{
+			"name": "Door to Destiny",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 12,
+						"class": {
+							"name": "Warlock"
+						}
+					},
+					"pact": "Pact of the Cards"
+				}
+				],
+			"entries": [
+				"You always know the location of the box granted to you by the Pact of the Cards feature while both of you are on the same plane of existence.",
+				"While the box is within 500 feet of you, you can cast dimension door without expending a spell slot, targeting a space within 10 feet of the box. You regain the ability to do so when you finish a long rest."
+			]
+		},
+		{
+			"name": "Dreams of the Summer Court",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"spell": ["minor illusion#c"]
+				}
+				],
+			"entries": [
+				"When you cast minor illusion, its range is 300 feet, and you can choose the illusion to be imperceptible to any number of creatures you have seen in the past minute."
+			]
 		}
 	],
 	"class": [{
