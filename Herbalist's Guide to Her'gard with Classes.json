@@ -10911,6 +10911,32 @@
 				"All-Seeing|Paladin|PHB|Oath of Radiance|Hergard|15",
 				"Radiant Champion|Paladin|PHB|Oath of Radiance|Hergard|20"
 			]
+		},
+		{
+			"name": "Blood Mage",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"shortName": "Blood Mage",
+			"subclassFeatures": [
+				"Blood Mage|Sorcerer|PHB|Blood Mage|Hergard|1",
+				"Black Arts|Sorcerer|PHB|Blood Mage|Hergard|6",
+				"Stained Grave|Sorcerer|PHB|Blood Mage|Hergard|14",
+				"Shift of Ichor|Sorcerer|PHB|Blood Mage|Hergard|18"
+			]
+		},
+		{
+			"name": "Dreamwalker",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"shortName": "Dreamwalker",
+			"subclassFeatures": [
+				"Dreamwalker|Sorcerer|PHB|Dreamwalker|Hergard|1",
+				"Lucid Dreamer|Sorcerer|PHB|Dreamwalker|Hergard|6",
+				"Slumbering Nightmare|Sorcerer|PHB|Dreamwalker|Hergard|14",
+				"The Awoken Dream|Sorcerer|PHB|Dreamwalker|Hergard|18"
+			]
 		}
 	],
 	"subclassFeature": [{
@@ -22121,6 +22147,274 @@
 					]
 				},
 				"Once you use this feature, you can't use it again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Blood Mage",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Blood Mage",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"entries": [
+				"Your blood contains a potent cocktail of magical energies which you draw upon to create incredible effects. Those born under a blood moon are particularly likely to be gifted with this power. For that reason some consider it an ill omen to be born on such nights, while others strive for it.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Imbrued Blood|Sorcerer|PHB|Blood Mage|Hergard|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Arcane Crimson|Sorcerer|PHB|Blood Mage|Hergard|1"
+				}
+			]
+		},
+		{
+			"name": "Imbrued Blood",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Blood Mage",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"When you choose this origin at 1st level, your hit point maximum increases by 1, and it increases by 1 again whenever you gain a level in this class.",
+				"Additionally, you gain an additional amount of hit dice equal to your Charisma modifier."
+			]
+		},
+		{
+			"name": "Arcane Crimson",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Blood Mage",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"Also at 1st level, you gain the ability to spend hit dice as an action on your turn, rolling the hit dice up to a number equal to your proficiency bonus, and regaining health as though you had finished a short rest.",
+				"Additionally, you can use your own blood as a spellcasting focus."
+			]
+		},
+		{
+			"name": "Black Arts",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Blood Mage",
+			"subclassSource": "Hergard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, you can enter a sacrificial state called the \"dreering\" as a bonus action. The dreering lasts for 1 minute or until you end it as a bonus action. While dreering you may cast spells of 1st-level or higher using your arcane blood instead of spell slots. You are only able to cast spells in this way of a level up to half the highest level of spell slot you have.",
+				"For example if you are a 13th level sorcerer, you can cast spells using your crimson that are of 3rd level or lower. Whenever you cast a spell using this feature and you roll damage for a spell you cast, you can reroll any roll of 1 on the damage dice, but you must use the new roll, even if it is another 1 and you reduce your current and maximum hit points by a number of d8s equal to the spell's level. The reduction of your maximum hit points lasts until the next dawn.",
+				"If you become unconscious while dreering, the effects of this feature cease to work until you finish a long rest."
+			]
+		},
+		{
+			"name": "Stained Grave",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Blood Mage",
+			"subclassSource": "Hergard",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"At 14th level, you are immune to disease and poison and become harder to destroy due to your arcane blood. When you are reduced to 0 hit points but not killed outright, you may spend a sorcery point as a reaction and spend a Hit Die, adding your Constitution modifier to the roll. If the total is above 5, you are brought to 1 hit point instead and regain twice the rolled amount of hit points.",
+				"You regain the use of this ability when you finish a long rest."
+			]
+		},
+		{
+			"name": "Shift of Ichor",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Blood Mage",
+			"subclassSource": "Hergard",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"Starting at 18th level, you can syphon the blood from creatures around you, creating a temporary shield around your body. As an action you may pull the crimson out of creatures within a 20-foot-sphere around you. You may choose a number of creatures equal to 2 + your Charisma modifier. Each selected creature must make a Constitution saving throw. On a failure a creature takes 3d12 necrotic damage and you gain 2d10 temporary hit points. On a success the creature takes half damage but you don't gain temporary hit points.",
+				"You regain the use of this ability when you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Dreamwalker",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Dreamwalker",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"entries": [
+				"You have had vivid dreams ever since you were a small child -- dreams that are indistinguishable from reality and can even influence it. As you grew older you gained knowledge of the place you visit every time you slumber. A realm between realms and a world between worlds called the Dreaming.",
+				"It is a place of pure magic where the dreams of mortals and immortals alike become reality. A beautiful garden dreamt by an herbalist physically manifests in this realm but with this comes a grave danger. When a creature dreams of a nightmare, it enters the Dreaming and runs loose until the individual wakes up.",
+				"To stop these rampages, there lives a race of beings called the Novori, not quite material but not quite spirit beings. They safeguard the Dreaming (as they call it), and when the threat of a Nightmare is not imminent, they sweeten the dreams of good-hearted individuals.",
+				"There are times however, when the Novori have to send ambassadors to the physical realms to stop a frightening event from happening, before it can infest the dreams of mortals. These ambassadors however, tainted by the energies of the Plane they were sent to, cannot return to the Dreaming and must become accustomed to living as a physical being.",
+				"These Novori form a rare bloodline among mortals, whose offspring sometimes gain the power to enter the Dreaming in their sleep. You are one of these select few.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Sorcery of the Dreaming|Sorcerer|PHB|Dreamwalker|Hergard|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Radical Dreamer|Sorcerer|PHB|Dreamwalker|Hergard|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bedside Whisperer|Sorcerer|PHB|Dreamwalker|Hergard|1"
+				}
+			]
+		},
+		{
+			"name": "Sorcery of the Dreaming",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Dreamwalker",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"As you delve into and examine the dreams of yours and others, you gradually gain more and more influence over the Dreaming, allowing you to harness its magical energy.",
+				"Starting at 1st level, you learn additional spells when you reach certain levels in this class, as shown in the table below. These spells count as sorcerer spells for you, but don't count against the number of sorcerer spells you know.",
+				"Additionally, you learn the ludmilla's dream shape cantrip.",
+{
+					"type": "table",
+					"caption": "Dreamwalker Bloodline Spells",
+					"colLabels": [
+						"Sorcerer Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell sleep|phb}"
+						],
+						[
+							"3rd",
+							"{@spell phantasmal force|phb}"
+						],
+						[
+							"5th",
+							"{@spell catnap|xge}"
+						],
+						[
+							"7th",
+							"{@spell hallucinatory terrain|PHB}"
+						],
+						[
+							"9th",
+							"{@spell dream|PHB}"
+						],
+						[
+							"11th",
+							"{@spell mental prison|xge}"
+						]
+					]
+				}		
+			]
+		},
+		{
+			"name": "Radical Dreamer",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Dreamwalker",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"When you choose this origin at 1st level, your immense experience within the realm of dreams allows you to more easily coax those of the waking world into sleep. Whenever you cast the sleep spell, you may ignore the verbal and somatic components of the spell and its die size is increased from a d8 to a d10. At 14th level, this increases to a d12. You can also choose to maintain concentration on the magical sleep to increase its duration to up to 1 hour.",
+				"Whenever you cast a 5th-level spell or higher that renders someone unconscious, magical immunity no longer provides immunity against that spell."
+			]
+		},
+		{
+			"name": "Bedside Whisperer",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Dreamwalker",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"Also at 1st level, you can open your mind to those who are unconscious and can influence the decisions they may make while awake.",
+				"You may communicate with and have advantage on Charisma checks against unconscious individuals as if they were awake, without risk of waking them up. When they do wake, they will remember your words clearly.",
+				"Additionally, you can cast detect thoughts on an unconscious individual once per long rest. When cast in this way, the target is unaware."
+			]
+		},
+		{
+			"name": "Lucid Dreamer",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Dreamwalker",
+			"subclassSource": "Hergard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, you have mastered the ability to bolster yourself within your lucid dreams. You have also learned to help the willing into a state of slumber, should it not come easily to them.",
+				"Whenever you finish a long rest, choose one of the dream options below. This is how you spent your lucid dream. Until you finish another long rest, you gain the benefits listed that correspond with the dream you chose:",
+				{
+					"type": "entries",
+					"name": "Worldly.",
+					"entries": [
+						"You have spent your lucid dream traveling to potential realities, learning about various cultures that could possibly exist, and interacting with far off places and strange realities. You have learned much and feel inspired to take on the day. You are proficient in Intelligence saving throws and gain proficiency in two different skills that use Intelligence, and you are not already proficient in."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Reactive.",
+					"entries": [
+						"You have spent your dream in the throes of combat. When you wake, you have an acute sense of how your body works and a greater ability to avoid taking unnecessary damage. You are proficient with Dexterity saving throws and gain proficiency with Dexterity (Sleight of Hand) if you don't already have it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Pensive.",
+					"entries": [
+						"You have spent your lucid dream in deep reflection and contemplation about the nature of the world, magic, and your place in it. You are proficient in Wisdom saving throws and gain proficiency in Wisdom (Insight) if you do not already have it."
+					]
+				},
+				"Additionally, when you attempt to cast any spell that results in the target falling unconscious, and the target is a willing participant, you no longer need to expend a spell slot to cast the spell."
+			]
+		},
+		{
+			"name": "Slumbering Nightmare",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Dreamwalker",
+			"subclassSource": "Hergard",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Starting at 14th level, you have attuned yourself to the will of the nightmares who sometimes visit your dreams and can rally them to your side to harm dreamers nearby.",
+				"As an action, you may cause any creature within 60 feet of you that you can see to make a Wisdom saving throw. On a failed save, all targets fall unconscious. Creatures who fall unconscious from this ability wake up after 1 hour or immediately if they suffer damage from any source. Once you use this ability you must finish a long rest before you can do so again.",
+				"Whenever an unconscious creature you can see would be dealt damage, you may expend up to 5 sorcery points. If you do, increase the damage dealt by 1d6 per sorcery point spent."
+			]
+		},
+		{
+			"name": "The Awoken Dream",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Dreamwalker",
+			"subclassSource": "Hergard",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"At 18th level, you have become a being of waking dreams, fully embracing your Novori heritage, and never truly awake or asleep. You no longer need to sleep to gain the benefits of a long rest.",
+				"You may also choose to change the bolstering effect granted to you by your Lucid Dreamer feature at any time by spending 2 sorcery points and ten minutes in meditation.",
+				"Additionally, you know the imprisonment spell, though you may only cast it using its Slumber effect. You can have up to five simultaneous instances of the Slumber effect of imprisonment active at a time. If you cast the spell on a new target while you have five instances in effect, the oldest spell ends. This spell is a sorcerer spell for you and doesn't count against your number of spells known.",
+				"Furthermore, whenever you expend a spell slot to cast a spell that could make someone fall unconscious and the targets for whatever reason resist falling unconscious, that target immediately suffers 2d6 psychic damage."
 			]
 		}
 	],
