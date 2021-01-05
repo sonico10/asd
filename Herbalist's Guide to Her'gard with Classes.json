@@ -10937,6 +10937,19 @@
 				"Slumbering Nightmare|Sorcerer|PHB|Dreamwalker|Hergard|14",
 				"The Awoken Dream|Sorcerer|PHB|Dreamwalker|Hergard|18"
 			]
+		},
+		{
+			"name": "Fey-Touched",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"shortName": "Fey-Touched",
+			"subclassFeatures": [
+				"Fey-Touched|Sorcerer|PHB|Fey-Touched|Hergard|1",
+				"Illusory Movement|Sorcerer|PHB|Fey-Touched|Hergard|6",
+				"Knowledge of the Courts|Sorcerer|PHB|Fey-Touched|Hergard|14",
+				"Bridge to the Fey|Sorcerer|PHB|Fey-Touched|Hergard|18"
+			]
 		}
 	],
 	"subclassFeature": [{
@@ -22415,6 +22428,331 @@
 				"You may also choose to change the bolstering effect granted to you by your Lucid Dreamer feature at any time by spending 2 sorcery points and ten minutes in meditation.",
 				"Additionally, you know the imprisonment spell, though you may only cast it using its Slumber effect. You can have up to five simultaneous instances of the Slumber effect of imprisonment active at a time. If you cast the spell on a new target while you have five instances in effect, the oldest spell ends. This spell is a sorcerer spell for you and doesn't count against your number of spells known.",
 				"Furthermore, whenever you expend a spell slot to cast a spell that could make someone fall unconscious and the targets for whatever reason resist falling unconscious, that target immediately suffers 2d6 psychic damage."
+			]
+		},
+		{
+			"name": "Fey-Touched",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Fey-Touched",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"entries": [
+				"The innate magic you possess comes from some mingling of Feywild magic into your bloodline. Your ancestors may have bargained with powerful fey, or spent too long living in the Feywild. A trickster fey may even have taken you as a child and placed a spell upon you. Whatever the case, you have been given a variety of faerie magic to wield as your own.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Faerie Court|Sorcerer|PHB|Fey-Touched|Hergard|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Court Magic|Sorcerer|PHB|Fey-Touched|Hergard|1"
+				}
+			]
+		},
+		{
+			"name": "Faerie Court",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Fey-Touched",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"Your magical abilities originate with one of the Feywild's faerie courts: Summer, Spring, Autumn, or Winter, each representing different personalities, philosophies, and appearances based on the state of the world during their respective seasons. At 1st level, you learn to speak, read and write Sylvan and you choose which court you are aligned with, gaining one of the following proficiencies depending on your court:",
+				{
+					"type": "table",
+					"colLabels": [
+						"Court",
+						"Proficency"
+					],
+					"colStyles": [
+						"col-2",
+						"col-3"
+					],
+					"rows": [
+						[
+							"Autumn","Persuasion"
+						],
+						[
+							"Spring","Performance"
+						],
+						[
+							"Summer","Deception"
+						],
+						[
+							"Winter","Intimidation"
+						]
+					]
+				}		
+			]
+		},
+		{
+			"name": "Court Magic",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Fey-Touched",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"Your magic originates from your court, granting you knowledge of certain spells. At 1st level, you learn the minor illusion cantrip. It does not count against your total number of cantrips known. You also gain access to a number of special spells linked to that court, detailed in their respective Spell List tables. These spells are added to your sorcerer spell list for you.",
+				{	
+					"type": "table",
+					"caption": "Autumn Court Spell List",
+					"colLabels": [
+						"Sorcerer Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell goodberry|PHB}, {@spell purify food and drink|PHB}"
+						],
+						[
+							"3rd",
+							"{@spell healing spirit|xge}, {@spell lesser restoration|PHB}"
+						],
+						[
+							"5th",
+							"{@spell create food and water|PHB}, {@spell spirit guardians|PHB}"
+						],
+						[
+							"7th",
+							"{@spell aura of life|PHB}, {@spell aura of purity|PHB}"
+						],
+						[
+							"9th",
+							"{@spell awaken|PHB}, {@spell circle of power|PHB}"
+						]
+					]
+				},
+				{	
+					"type": "table",
+					"caption": "Spring Court Spell List",
+					"colLabels": [
+						"Sorcerer Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell cause fear|xge}, {@spell faerie fire|PHB}"
+						],
+						[
+							"3rd",
+							"{@spell calm emotions|PHB}, {@spell enthrall|PHB}"
+						],
+						[
+							"5th",
+							"{@spell conjure animals|PHB}, {@spell phantom steed|PHB}"
+						],
+						[
+							"7th",
+							"{@spell compulsion|PHB}, {@spell hallucinatory terrain|PHB}"
+						],
+						[
+							"9th",
+							"{@spell modify memory|PHB}, {@spell mislead|PHB}"
+						]
+					]
+				},
+				{	
+					"type": "table",
+					"caption": "Summer Court Spell List",
+					"colLabels": [
+						"Sorcerer Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell hellish rebuke|PHB}, {@spell searing smite|PHB}"
+						],
+						[
+							"3rd",
+							"{@spell flame blade|Hergard}, {@spell pyrotechnics|xge}"
+						],
+						[
+							"5th",
+							"{@spell beacon of hope|PHB}, {@spell crusader's mantle|PHB}"
+						],
+						[
+							"7th",
+							"{@spell fire shield|PHB}, {@spell freedom of movement|PHB}"
+						],
+						[
+							"9th",
+							"{@spell dawn|xge}, {@spell flame strike|PHB}"
+						]
+					]
+				},
+				{	
+					"type": "table",
+					"caption": "Winter Court Spell List",
+					"colLabels": [
+						"Sorcerer Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell dissonant whispers|PHB}, {@spell hex|PHB}"
+						],
+						[
+							"3rd",
+							"{@spell moonbeam|PHB}, {@spell ray of enfeeblement|Hergard}"
+						],
+						[
+							"5th",
+							"{@spell bestow curse|PHB}, {@spell hunger of hadar|PHB}"
+						],
+						[
+							"7th",
+							"{@spell elemental bane|xge}, {@spell mordenkainen's faithful hound|PHB}"
+						],
+						[
+							"9th",
+							"{@spell destructive wave|PHB}, {@spell negative energy flood|xge}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Illusory Movement",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Fey-Touched",
+			"subclassSource": "Hergard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, your innate talent for illusion magic begins to blossom. If you cast a spell of 2nd level or higher on your turn, you can use your bonus action to become invisible until the beginning of your next turn.",
+				"Once you use this feature, you can't use it again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Knowledge of the Courts",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Fey-Touched",
+			"subclassSource": "Hergard",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"At 14th level, you undergo significant growth within your court, gaining knowledge of your own innate magic. You gain one of the following abilities depending on your court:",
+				{
+					"type": "entries",
+					"name": "Autumn's Bounty.",
+					"entries": [
+						"You can conjure a small feast of food and drink as an action on your turn. The magical feast appears as normal food and is enough for up to four small or medium creatures. When a creature that is not hostile to you consumes any of the food or drink, they must succeed on a Wisdom saving throw or become charmed by you for up to 1 hour. This effect ends if the creature is attacked by you or your allies. Once you use this feature, you can't use it again until you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spring's Love.",
+					"entries": [
+						"When you charm a creature, you can choose to spend 3 sorcery points to empower that charm. A creature under an empowered charm follows your telepathic commands perfectly as long as it is within 120 feet of you. It believes it is taking all of its actions of its own free will. When an empowered charm ends, you can choose whether the target knows that it was charmed or not. An empowered charm does not change the duration or saving throws of the charm effect. Once you use this feature, you can't use it again until you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Summer's Warmth.",
+					"entries": [
+						"You harbor a fierce spirit within you, and you can embolden it when the need arises. As a bonus action on your turn you can grant yourself the following benefits for up to 1 hour:",
+						{
+							"type": "list",
+							"items": [
+								"You gain resistance to fire damage.",
+								"Your speed increases by 10 feet.",
+								"You shed bright light from your body in all directions for 30 feet and dim light for an additional 30 feet.",
+								"Allied creatures visible to you within 30 feet are immune to the effects of extreme cold and gain advantage on saving throws made to resist charm effects."
+							]
+						},
+						"Once you use this feature, you can't use it again until you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Winter's Grasp.",
+					"entries": [
+						"As an action on your turn you can spend 3 sorcery points to chill a creature you can see within 90 feet until the beginning of your next turn. A chilled creature has disadvantage on Dexterity saving throws and must succeed on a Constitution saving throw against your spell save DC or be forced to use all of its movement to seek warmth on its turn. If the creature is immersed in water or soaking wet as if they had recently been immersed in water, it instead becomes frozen on a failed save and is paralyzed until the beginning of your next turn. Once you use this feature, you can't use it again until you finish a long rest."
+					]
+				}
+			]
+		},
+		{
+			"name": "Bridge to the Fey",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Fey-Touched",
+			"subclassSource": "Hergard",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"By 18th level, your fey magic has manifested fully, and your powerful magic allows you to create bridges between the material plane and the Feywild.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Minor Bridge|Sorcerer|PHB|Fey-Touched|Hergard|18"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Major Bridge|Sorcerer|PHB|Fey-Touched|Hergard|18"
+				}
+			]
+		},
+		{
+			"name": "Minor Bridge",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Fey-Touched",
+			"subclassSource": "Hergard",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"As an action on your turn you can call fey creatures to your aid, summoning 1d4 pixies, 1d4 sprites, or 1d2 quicklings from a small planar portal within 15 feet of you. They understand Sylvan and will obey your first command to the best of their abilities. Any commands after the first will require a successful DC 14 Charisma (persuasion) check. On a failed check the fey will act of their own accord, returning to the Feywild, causing havoc on the material, or continuing to listen to you as they see fit. The fey will inevitably get bored and begin to defy you after 10 minutes and will attempt to escape your company, even after they have been given a command.",
+				"Once you use this feature you must finish a long rest before you can use it again."
+			]
+		},
+		{
+			"name": "Major Bridge",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Fey-Touched",
+			"subclassSource": "Hergard",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"You can choose to use this interplanar magic along with a powerful ritual to cover a larger area. If you are within a forest, you can spend 4 hours conducting a ritual to bridge that forest to the Feywild. All forested area within 1 mile of the ritual are linked to the Feywild for 24 hours. You can repeat this ritual once each day for three months in the same place to make effect last permanently, or until it is dispelled by a 9th level dispel magic, or wish spell.",
+				"The appearance of the forest changes to suit your court. A Winter Court Sorcerer could create a forest that reflects the Feywild's dark and cold corners, while one of the Autumn would be colorful and filled with a bounty of fruit and plants.",
+				"The magic of this forest flows freely, making it hard to navigate. All creatures other than you who attempt to travel through this forest must succeed on a Wisdom saving throw against your spell save DC or become magically lost. If you are within the forest, you know the location of any foreign creatures within it. If a creature fails its saving throw and becomes magically lost, you can choose to alter illusory paths and guide it to any location within the forest as long as it continues to travel. You can do this from anywhere within the forest.",
+				"Additionally, all spells of the enchantment and illusion schools cast while within this forest are empowered; saves made to resist their effects are always made at disadvantage.",
+				"Fey creatures flock to this new and different location, assisting you at your call. Once each day as an action, you can summon 1d12 sprites, 1d12 pixies, or 1d10 quicklings, each of which will obey your every command for 24 hours. These fey can leave the forest, but will always return after 24 hours.",
+				"You can only have one forest affected in this way at any given time."
 			]
 		}
 	],
