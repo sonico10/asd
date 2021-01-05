@@ -4869,7 +4869,7 @@
 		{
 			"name": "Banishing Arrow",
 			"source": "Hergard",
-			"featureType": "Arcane Shot",
+			"featureType": "AS",
 			"entries": [
 				"You use abjuration magic to try to temporarily banish your target to a harmless location in the Feywild. The creature hit by the arrow must also succeed on a Charisma saving throw or be banished. While banished in this way, the target's speed is 0, and it is {@condition incapacitated}. At the end of its next turn, the target reappears in the space it vacated or in the nearest unoccupied space if that space is occupied.",
 				"After you reach 18th level in this class, a target also takes {@damage 2d6} force damage when the arrow hits it."
@@ -4878,7 +4878,7 @@
 		{
 			"name": "Beguiling Arrow",
 			"source": "Hergard",
-			"featureType": "Arcane Shot",
+			"featureType": "AS",
 			"entries": [
 				"Your enchantment magic causes this arrow to temporarily beguile its target. The creature hit by the arrow takes an extra {@damage 2d6} psychic damage, and choose one of your allies within 30 feet of the target. The target must succeed on a Wisdom saving throw, or it is {@condition charmed} by the chosen ally until the start of your next turn. This effect ends early if the chosen ally attacks the charmed target, deals damage to it, or forces it to make a saving throw.",
 				"The psychic damage increases to {@damage 4d6} when you reach 18th level in this class."
@@ -4887,7 +4887,7 @@
 		{
 			"name": "Bursting Arrow",
 			"source": "Hergard",
-			"featureType": "Arcane Shot",
+			"featureType": "AS",
 			"entries": [
 				"You imbue your arrow with force energy drawn from the school of evocation. The energy detonates after your attack. Immediately after the arrow hits the creature, the target and all other creatures within 10 feet of it take {@damage 2d6} force damage each.",
 				"The force damage increases to {@damage 4d6} when you reach 18th level in this class."
@@ -4896,7 +4896,7 @@
 		{
 			"name": "Enfeebling Arrow",
 			"source": "Hergard",
-			"featureType": "Arcane Shot",
+			"featureType": "AS",
 			"entries": [
 				"You weave necromantic magic into your arrow. The creature hit by the arrow takes an extra {@damage 2d6} necrotic damage. The target must also succeed on a Constitution saving throw, or the damage dealt by its weapon attacks is halved until the start of your next turn.",
 				"The necrotic damage increases to {@damage 4d6} when you reach 18th level in this class."
@@ -4905,7 +4905,7 @@
 		{
 			"name": "Grasping Arrow",
 			"source": "Hergard",
-			"featureType": "Arcane Shot",
+			"featureType": "AS",
 			"entries": [
 				"When this arrow strikes its target, conjuration magic creates grasping, poisonous brambles, which wrap around the target. The creature hit by the arrow takes an extra {@damage 2d6} poison damage, its speed is reduced by 10 feet, and it takes {@damage 2d6} slashing damage the first time on each turn it moves 1 foot or more without teleporting. The target or any creature that can reach it can use its action to remove the brambles with a successful Strength (Athletics) check against your Arcane Shot save DC. Otherwise, the brambles last for 1 minute or until you use this option again.",
 				"The poison damage and slashing damage both increase to {@damage 4d6} when you reach 18th level in this class."
@@ -4914,7 +4914,7 @@
 		{
 			"name": "Piercing Arrow",
 			"source": "Hergard",
-			"featureType": "Arcane Shot",
+			"featureType": "AS",
 			"entries": [
 				"You use transmutation magic to give your arrow an ethereal quality. When you use this option, you don't make an attack roll for the attack. Instead, the arrow shoots forward in a line, which is 1 foot wide and 30 feet long, before disappearing. The arrow passes harmlessly through objects, ignoring cover. Each creature in that line must make a Dexterity saving throw. On a failed save, a creature takes damage as if it were hit by the arrow, plus an extra {@damage 1d6} piercing damage. On a successful save, a target takes half as much damage.",
 				"The piercing damage increases to {@damage 2d6} when you reach 18th level in this class."
@@ -4923,7 +4923,7 @@
 		{
 			"name": "Seeking Arrow",
 			"source": "Hergard",
-			"featureType": "Arcane Shot",
+			"featureType": "AS",
 			"entries": [
 				"Using divination magic, you grant your arrow the ability to seek out a target. When you use this option, you don't make an attack roll for the attack. Instead, choose one creature you have seen in the past minute. The arrow flies toward that creature, moving around corners if necessary and ignoring three-quarters cover and half cover. If the target is within the weapon's range and there is a path large enough for the arrow to travel to the target, the target must make a Dexterity saving throw. Otherwise, the arrow disappears after traveling as far as it can. On a failed save, the target takes damage as if it were hit by the arrow, plus an extra {@damage 1d6} force damage, and you learn the target's current location. On a successful save, the target takes half as much damage, and you don't learn its location.",
 				"The force damage increases to {@damage 2d6} when you reach 18th level in this class."
@@ -4932,7 +4932,7 @@
 		{
 			"name": "Shadow Arrow",
 			"source": "Hergard",
-			"featureType": "Arcane Shot",
+			"featureType": "AS",
 			"entries": [
 				"You weave illusion magic into your arrow, causing it to occlude your foe's vision with shadows. The creature hit by the arrow takes an extra {@damage 2d6} psychic damage, and it must succeed on a Wisdom saving throw or be unable to see anything farther than 5 feet away until the start of your next turn.",
 				"The psychic damage increases to {@damage 4d6} when you reach 18th level in this class."
@@ -5438,7 +5438,7 @@
 		{
 			"name": "Become the Teapot",
 			"source": "Hergard",
-			"featureType": "Elemental Disciplines",
+			"featureType": "ED",
 			"prerequisite": [{
 				"level": {
 					"level": 3,
@@ -5454,7 +5454,7 @@
 		{
 			"name": "Effortless Step",
 			"source": "Hergard",
-			"featureType": "Elemental Disciplines",
+			"featureType": "ED",
 			"prerequisite": [{
 				"level": {
 					"level": 3,
@@ -5470,7 +5470,7 @@
 		{
 			"name": "Enduring Mountain Stance",
 			"source": "Hergard",
-			"featureType": "Elemental Disciplines",
+			"featureType": "ED",
 			"prerequisite": [{
 				"level": {
 					"level": 3,
@@ -5486,7 +5486,7 @@
 		{
 			"name": "Fangs of the Fire Snake",
 			"source": "Hergard",
-			"featureType": "Elemental Disciplines",
+			"featureType": "ED",
 			"prerequisite": [{
 				"level": {
 					"level": 3,
@@ -5502,7 +5502,7 @@
 		{
 			"name": "Fang of the Frost Wolf",
 			"source": "Hergard",
-			"featureType": "Elemental Disciplines",
+			"featureType": "ED",
 			"prerequisite": [{
 				"level": {
 					"level": 3,
@@ -5518,7 +5518,7 @@
 		{
 			"name": "Fist of Four Thunders",
 			"source": "Hergard",
-			"featureType": "Elemental Disciplines",
+			"featureType": "ED",
 			"prerequisite": [{
 				"level": {
 					"level": 3,
@@ -5534,7 +5534,7 @@
 		{
 			"name": "Fist of Unbroken Air",
 			"source": "Hergard",
-			"featureType": "Elemental Disciplines",
+			"featureType": "ED",
 			"prerequisite": [{
 				"level": {
 					"level": 3,
@@ -5550,7 +5550,7 @@
 		{
 			"name": "Golden Snake's Icy Path",
 			"source": "Hergard",
-			"featureType": "Elemental Disciplines",
+			"featureType": "ED",
 			"prerequisite": [{
 				"level": {
 					"level": 3,
@@ -5566,7 +5566,7 @@
 		{
 			"name": "Rumbling Badger",
 			"source": "Hergard",
-			"featureType": "Elemental Disciplines",
+			"featureType": "ED",
 			"prerequisite": [{
 				"level": {
 					"level": 3,
@@ -5582,7 +5582,7 @@
 		{
 			"name": "Rush of the Gale Spirits",
 			"source": "Hergard",
-			"featureType": "Elemental Disciplines",
+			"featureType": "ED",
 			"prerequisite": [{
 				"level": {
 					"level": 3,
@@ -5598,7 +5598,7 @@
 		{
 			"name": "Shape the Raincloud",
 			"source": "Hergard",
-			"featureType": "Elemental Disciplines",
+			"featureType": "ED",
 			"prerequisite": [{
 				"level": {
 					"level": 3,
@@ -5614,7 +5614,7 @@
 		{
 			"name": "Sweeping Cinder Strike",
 			"source": "Hergard",
-			"featureType": "Elemental Disciplines",
+			"featureType": "ED",
 			"prerequisite": [{
 				"level": {
 					"level": 3,
@@ -5630,7 +5630,7 @@
 		{
 			"name": "Water Whip",
 			"source": "Hergard",
-			"featureType": "Elemental Disciplines",
+			"featureType": "ED",
 			"prerequisite": [{
 				"level": {
 					"level": 3,
@@ -5646,7 +5646,7 @@
 		{
 			"name": "A Leaf on the Wind",
 			"source": "Hergard",
-			"featureType": "Elemental Disciplines",
+			"featureType": "ED",
 			"prerequisite": [{
 				"level": {
 					"level": 6,
@@ -5662,7 +5662,7 @@
 		{
 			"name": "Burning Ember Flourish",
 			"source": "Hergard",
-			"featureType": "Elemental Disciplines",
+			"featureType": "ED",
 			"prerequisite": [{
 				"level": {
 					"level": 6,
@@ -5678,7 +5678,7 @@
 		{
 			"name": "Crushing Hand of the Mountain",
 			"source": "Hergard",
-			"featureType": "Elemental Disciplines",
+			"featureType": "ED",
 			"prerequisite": [{
 				"level": {
 					"level": 6,
@@ -5694,7 +5694,7 @@
 		{
 			"name": "Curtain of Unyielding Wind",
 			"source": "Hergard",
-			"featureType": "Elemental Disciplines",
+			"featureType": "ED",
 			"prerequisite": [{
 				"level": {
 					"level": 6,
@@ -5710,7 +5710,7 @@
 		{
 			"name": "Gong of the Summit",
 			"source": "Hergard",
-			"featureType": "Elemental Disciplines",
+			"featureType": "ED",
 			"prerequisite": [{
 				"level": {
 					"level": 6,
@@ -5726,7 +5726,7 @@
 		{
 			"name": "Hatchling's Flame",
 			"source": "Hergard",
-			"featureType": "Elemental Disciplines",
+			"featureType": "ED",
 			"prerequisite": [{
 				"level": {
 					"level": 6,
@@ -5742,7 +5742,7 @@
 		{
 			"name": "Impenetrable Iron Tortoise Shell",
 			"source": "Hergard",
-			"featureType": "Elemental Disciplines",
+			"featureType": "ED",
 			"prerequisite": [{
 				"level": {
 					"level": 6,
@@ -5758,7 +5758,7 @@
 		{
 			"name": "Mote of the Sun",
 			"source": "Hergard",
-			"featureType": "Elemental Disciplines",
+			"featureType": "ED",
 			"prerequisite": [{
 				"level": {
 					"level": 6,
@@ -5774,7 +5774,7 @@
 		{
 			"name": "Patient Badger Listens",
 			"source": "Hergard",
-			"featureType": "Elemental Disciplines",
+			"featureType": "ED",
 			"prerequisite": [{
 				"level": {
 					"level": 6,
@@ -5790,7 +5790,7 @@
 		{
 			"name": "Red Dragon's Claws",
 			"source": "Hergard",
-			"featureType": "Elemental Disciplines",
+			"featureType": "ED",
 			"prerequisite": [{
 				"level": {
 					"level": 6,
@@ -5806,7 +5806,7 @@
 		{
 			"name": "Swarming Ice Rabbit",
 			"source": "Hergard",
-			"featureType": "Elemental Disciplines",
+			"featureType": "ED",
 			"prerequisite": [{
 				"level": {
 					"level": 6,
@@ -5822,7 +5822,7 @@
 		{
 			"name": "Water Jet",
 			"source": "Hergard",
-			"featureType": "Elemental Disciplines",
+			"featureType": "ED",
 			"prerequisite": [{
 				"level": {
 					"level": 6,
@@ -5838,7 +5838,7 @@
 		{
 			"name": "Dance of Three Ways",
 			"source": "Hergard",
-			"featureType": "Elemental Disciplines",
+			"featureType": "ED",
 			"prerequisite": [{
 				"level": {
 					"level": 11,
@@ -5854,7 +5854,7 @@
 		{
 			"name": "Earth Reaches for Sky",
 			"source": "Hergard",
-			"featureType": "Elemental Disciplines",
+			"featureType": "ED",
 			"prerequisite": [{
 				"level": {
 					"level": 11,
@@ -5870,7 +5870,7 @@
 		{
 			"name": "Eternal Mountain Defense",
 			"source": "Hergard",
-			"featureType": "Elemental Disciplines",
+			"featureType": "ED",
 			"prerequisite": [{
 				"level": {
 					"level": 11,
@@ -5886,7 +5886,7 @@
 		{
 			"name": "Flames of the Phoenix",
 			"source": "Hergard",
-			"featureType": "Elemental Disciplines",
+			"featureType": "ED",
 			"prerequisite": [{
 				"level": {
 					"level": 11,
@@ -5902,7 +5902,7 @@
 		{
 			"name": "Fist of the Elements",
 			"source": "Hergard",
-			"featureType": "Elemental Disciplines",
+			"featureType": "ED",
 			"prerequisite": [{
 				"level": {
 					"level": 11,
@@ -5918,7 +5918,7 @@
 		{
 			"name": "Hua's Water Prison",
 			"source": "Hergard",
-			"featureType": "Elemental Disciplines",
+			"featureType": "ED",
 			"prerequisite": [{
 				"level": {
 					"level": 11,
@@ -5934,7 +5934,7 @@
 		{
 			"name": "Mist Stance",
 			"source": "Hergard",
-			"featureType": "Elemental Disciplines",
+			"featureType": "ED",
 			"prerequisite": [{
 				"level": {
 					"level": 11,
@@ -5950,7 +5950,7 @@
 		{
 			"name": "One with the Tides",
 			"source": "Hergard",
-			"featureType": "Elemental Disciplines",
+			"featureType": "ED",
 			"prerequisite": [{
 				"level": {
 					"level": 11,
@@ -5966,7 +5966,7 @@
 		{
 			"name": "Rain of the Frigid Glacier",
 			"source": "Hergard",
-			"featureType": "Elemental Disciplines",
+			"featureType": "ED",
 			"prerequisite": [{
 				"level": {
 					"level": 11,
@@ -5982,7 +5982,7 @@
 		{
 			"name": "Raise the Troubled Earth",
 			"source": "Hergard",
-			"featureType": "Elemental Disciplines",
+			"featureType": "ED",
 			"prerequisite": [{
 				"level": {
 					"level": 11,
@@ -5998,7 +5998,7 @@
 		{
 			"name": "Raise the Still Waters",
 			"source": "Hergard",
-			"featureType": "Elemental Disciplines",
+			"featureType": "ED",
 			"prerequisite": [{
 				"level": {
 					"level": 11,
@@ -6014,7 +6014,7 @@
 		{
 			"name": "Ride the Wind",
 			"source": "Hergard",
-			"featureType": "Elemental Disciplines",
+			"featureType": "ED",
 			"prerequisite": [{
 				"level": {
 					"level": 11,
@@ -6030,7 +6030,7 @@
 		{
 			"name": "River of Hungry Flame",
 			"source": "Hergard",
-			"featureType": "Elemental Disciplines",
+			"featureType": "ED",
 			"prerequisite": [{
 				"level": {
 					"level": 11,
@@ -6046,7 +6046,7 @@
 		{
 			"name": "Sea's Fury",
 			"source": "Hergard",
-			"featureType": "Elemental Disciplines",
+			"featureType": "ED",
 			"prerequisite": [{
 				"level": {
 					"level": 11,
@@ -6062,7 +6062,7 @@
 		{
 			"name": "Shape of the Flowing River",
 			"source": "Hergard",
-			"featureType": "Elemental Disciplines",
+			"featureType": "ED",
 			"prerequisite": [{
 				"level": {
 					"level": 11,
@@ -6078,7 +6078,7 @@
 		{
 			"name": "Spellfist Stance",
 			"source": "Hergard",
-			"featureType": "Elemental Disciplines",
+			"featureType": "ED",
 			"prerequisite": [{
 				"level": {
 					"level": 11,
@@ -6094,7 +6094,7 @@
 		{
 			"name": "Sweeping Crosswind",
 			"source": "Hergard",
-			"featureType": "Elemental Disciplines",
+			"featureType": "ED",
 			"prerequisite": [{
 				"level": {
 					"level": 11,
@@ -6110,7 +6110,7 @@
 		{
 			"name": "Avatar of the Elements",
 			"source": "Hergard",
-			"featureType": "Elemental Disciplines",
+			"featureType": "ED",
 			"prerequisite": [{
 				"level": {
 					"level": 17,
@@ -6135,7 +6135,7 @@
 		{
 			"name": "Breath of Winter",
 			"source": "Hergard",
-			"featureType": "Elemental Disciplines",
+			"featureType": "ED",
 			"prerequisite": [{
 				"level": {
 					"level": 17,
@@ -6151,7 +6151,7 @@
 		{
 			"name": "Eyes of Fire",
 			"source": "Hergard",
-			"featureType": "Elemental Disciplines",
+			"featureType": "ED",
 			"prerequisite": [{
 				"level": {
 					"level": 17,
@@ -6167,7 +6167,7 @@
 		{
 			"name": "Eye of the Hurricane",
 			"source": "Hergard",
-			"featureType": "Elemental Disciplines",
+			"featureType": "ED",
 			"prerequisite": [{
 				"level": {
 					"level": 17,
@@ -6183,7 +6183,7 @@
 		{
 			"name": "Mold the Mountain",
 			"source": "Hergard",
-			"featureType": "Elemental Disciplines",
+			"featureType": "ED",
 			"prerequisite": [{
 				"level": {
 					"level": 17,
@@ -6199,7 +6199,7 @@
 		{
 			"name": "Swirling Crab's Revenge",
 			"source": "Hergard",
-			"featureType": "Elemental Disciplines",
+			"featureType": "ED",
 			"prerequisite": [{
 				"level": {
 					"level": 17,
@@ -6215,7 +6215,7 @@
 		{
 			"name": "Wave of Rolling Earth",
 			"source": "Hergard",
-			"featureType": "Elemental Disciplines",
+			"featureType": "ED",
 			"prerequisite": [{
 				"level": {
 					"level": 17,
@@ -6514,6 +6514,516 @@
 				],
 			"entries": [
 				"When you cast minor illusion, its range is 300 feet, and you can choose the illusion to be imperceptible to any number of creatures you have seen in the past minute."
+			]
+		},
+		{
+			"name": "Emissary of the Tides",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 14,
+						"class": {
+							"name": "Warlock"
+						}
+					},
+					"patron": "The Quiet One"
+				}
+				],
+			"entries": [
+				"Whenever you use your Wrath of the Sea feature, you are considered to be under the effects of sanctuary for the next minute. The spell still breaks as per the spell's description but you regain its effects at the end of your next turn."
+			]
+		},
+		{
+			"name": "Empyrean Light",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"spell": ["light#c"]
+				}
+				],
+			"entries": [
+				"Non-hostile creatures within the bright light created by the light spell can reroll any 1 on a die rolled to restore hit points, but they must use the new roll."
+			]
+		},
+		{
+			"name": "Extended Vines",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"patron": "The World Tree"
+				}
+				],
+			"entries": [
+				"The range of your thorn whip doubles, and so does the distance it can pull a creature. Additionally, you can push a creature away from you, instead of pulling it toward you."
+			]
+		},
+		{
+			"name": "Extraplanar Awareness",
+			"source": "Hergard",
+			"featureType": "EI",
+			"entries": [
+				"When you roll for Initiative, you can treat the d20 roll of 8 or lower as a number equal to 8 + your Charisma modifier."
+			]
+		},
+		{
+			"name": "Frost Lance",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"spell": ["ray of frost#c"]
+				}
+				],
+			"entries": [
+				"When you cast ray of frost, each creature in a 1 foot wide line between you and the target must make a Constitution saving throw. On a failed save, a creature takes cold damage equal to half your warlock level."
+			]
+		},
+		{
+			"name": "Gaze into Mortal Hearts",
+			"source": "Hergard",
+			"featureType": "EI",
+			"entries": [
+				"You can spend an action to learn the nature of a humanoid creature you can see within 120 feet of you, that has an Intelligence of 6 or higher. You learn its alignment and its most prevalent moral or behavioral tendency (violent, altruistic, aloof, etc.).",
+				"For 1 minute after doing this, treat any d20 roll for a Wisdom (Insight) check against the creature that is 11 or lower, as a 12. After the minute ends, the target is immune to this effect for 24 hours.",
+				"You can use this feature a number of times equal to your Charisma modifier, and regain all uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Gift of Three Crowns",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"spell": ["druidcraft#c", "prestidigitation#c","thaumaturgy#c"]
+				}
+				],
+			"entries": [
+				"If you know the druidcraft, prestidigitation, or thaumaturgy cantrip, you also know the other two cantrips from that list. They don't count against your number of cantrips known."
+			]
+		},
+		{
+			"name": "Gingerbread Familiar",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"pact": "Chain",
+					"level": {
+						"level": 7,
+						"class": {
+							"name": "Warlock"
+						}
+					},
+					"patron": "The Sweetstress"
+				}
+				],
+			"entries": [
+				"When your familiar eats a candy created by your Sweet Tooth feature, it regains all of its missing hit points."
+			]
+		},
+		{
+			"name": "Grasp of the Storm Lord",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"spell": ["shocking grasp#c"]
+				}
+				],
+			"entries": [
+				"When you cast shocking grasp, you can expend a warlock spell slot to amplify the attack. You gain a bonus to the attack roll equal to the level of the spell slot. If the attack hits, the target takes an extra 1d8 lightning damage per level of the spell slot and it must succeed on a Constitution saving throw or it is paralyzed until the start of your next turn."
+			]
+		},
+		{
+			"name": "Green Tongue",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 12,
+						"class": {
+							"name": "Warlock"
+						}
+					},
+					"patron": "The World Tree"
+				}
+				],
+			"entries": [
+				"You can cast speak with plants at-will."
+			]
+		},
+		{
+			"name": "Hallowed Flame",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"spell": ["sacred flame#c"]
+				}
+				],
+			"entries": [
+				"When you deal damage to a fiend or undead with sacred flame, you can deal maximum damage, instead of rolling."
+			]
+		},
+		{
+			"name": "Hand of Chains",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"spell": ["mage hand#c"]
+				}
+				],
+			"entries": [
+				"As an action, you can command your mage hand to grapple a Medium or smaller creature within 5 feet of it. The hand's Strength score equals your Charisma score, which you use to resolve the grapple."
+			]
+		},
+		{
+			"name": "Healing Splash",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"spell": ["eldritch blast#c"],
+					"patron": "The Quiet One"
+				}
+				],
+			"entries": [
+				"You gain the ability to target a friendly creature with eldritch blast and reinvigorate them in the midst of battle. Instead of suffering damage, the target gains temporary hit points equal to half the damage they would take.",
+				"You regain the use of this feature when you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Hidden Palace",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 12,
+						"class": {
+							"name": "Warlock"
+						}
+					},
+					"pact": "Pact of the Lamp"
+				}
+				],
+			"entries": [
+				"The extradimensional space located inside your Genie Lamp is now the size of a 30-foot radius, 60 foot high cylinder. While you are holding the lamp, you can use your action to teleport a willing creature you can see within 10 feet of you to the extradimensional space."
+			]
+		},
+		{
+			"name": "Improved Pact Mark",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 7,
+						"class": {
+							"name": "Warlock"
+						}
+					},
+					"pact": "Pact of the Brand"
+				}
+				],
+			"entries": [
+				"Your pact mark grants a +1 bonus to your spell save DC and spell attack rolls for warlock spells you cast."
+			]
+		},
+		{
+			"name": "Lamp of Greed",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"pact": "Pact of the Lamp"
+				}
+				],
+			"entries": [
+				"While you are holding your Genie Lamp, you know the exact location of any electrum, gold, and platinum piece within 30 feet of you."
+			]
+		},
+		{
+			"name": "Lamp of Opulence",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"pact": "Pact of the Lamp"
+				}
+				],
+			"entries": [
+				"When a creature casts a spell that has a material component worth more than 1 gp while holding your Genie Lamp, it can remove gems from the lamp to reduce the required value of the component for this casting of the spell. The required value is reduced by 50 gp for every gem removed this way. Once removed, a gem dissipates into smoke.",
+				"Whenever you finish a long rest, a new gem appears on your Genie Lamp (to a maximum of nine). When you receive a replacement for your lamp, the new lamp is decorated with the same number of gems as the previous lamp."
+			]
+		},
+		{
+			"name": "Mephistopheles' Regards",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"spell": ["produce flame#c"]
+				}
+				],
+			"entries": [
+				"When you attack a creature with the flame created by produce flame, you can expend a warlock spell slot to unleash a fiery explosion at the target's location. The target and each creature within 10 feet of it must make a Dexterity saving throw. On a failed save, a creature takes 3d4 fire damage per level of the spell slot. On a successful save, it takes half as much damage."
+			]
+		},
+		{
+			"name": "Mystical Manipulator",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"spell": ["friends#c"]
+				}
+				],
+			"entries": [
+				"When the friends spell ends, the target of the spell must succeed on a Wisdom saving throw, or it is unaware that is has been affected by magic."
+			]
+		},
+		{
+			"name": "Parachute",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"pact": "Pact of the Cowl"
+				}
+				],
+			"entries": [
+				"While you are wearing your cowl, you may cast feather fallon yourself at will, without expending a spell slot."
+			]
+		},
+		{
+			"name": "Planar Sync",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 7,
+						"class": {
+							"name": "Warlock"
+						}
+					}
+				}
+				],
+			"entries": [
+				"You can maintain a sense of magnetic north and the passage of time, even across planes such as the Ethereal Plane, the Feywild and the Shadow."
+			]
+		},
+		{
+			"name": "Plentiful Sweets",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"pact": "Tome",
+					"patron": "The Sweetstress"
+				}
+				],
+			"entries": [
+				"As an action, you can expend a warlock spell slot to create a number of candies from your Sweet Tooth feature equal to the level of the spell slot expended. These candies do not count towards your limit that can be created using the Sweet Tooth ability, and there is no limit on how many you can create of a specific type; however, they do still disappear when you take a long rest."
+			]
+		},
+		{
+			"name": "Sacrifice",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Warlock"
+						}
+					},
+					"patron": "The Celestial"
+				}
+				],
+			"entries": [
+				"You can cast life transference once without expending a spell slot. You may choose to cast the spell using this feature of a level equal to or lower than the current level of your spell slots gained from your Pact Magic warlock feature. You regain the ability to do so when you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Safe Passage",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"patron": "The World Tree"
+				}
+				],
+			"entries": [
+				"You can target and pull a willing ally using your thorn whipwithout damaging them. This movement does not provoke attacks of opportunity."
+			]
+		},
+		{
+			"name": "Shared Arcana",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Warlock"
+						}
+					},
+					"pact": "Pact of the Brand"
+				}
+				],
+			"entries": [
+				"A creature that touches your pact mark when casting a spell can choose for it to be stored within the pact mark, provided it is on the sorcerer, warlock or wizard spell list. The spell has no effect and the slot is still consumed. Until you or the creature completes a long rest, you can expend charges from the mark to cast the spell as if it were a warlock spell."
+			]
+		},
+		{
+			"name": "Shortcut of the Earthmother",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 15,
+						"class": {
+							"name": "Warlock"
+						}
+					},
+					"patron": "The World Tree"
+				}
+				],
+			"entries": [
+				"You can cast transport via plants once without expending a spell slot, and regain the ability to do so when you finish a long rest."
+			]
+		},
+		{
+			"name": "Shuffled Spell",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Warlock"
+						}
+					},
+					"pact": "Pact of the Cards"
+				}
+				],
+			"entries": [
+				"Whenever you finish a long rest, you can choose one of the warlock spells you know and replace it with another spell from the warlock spell list, which must be of a level for which you have spell slots."
+			]
+		},
+		{
+			"name": "Spell Stealer",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Warlock"
+						}
+					},
+					"pact": "Pact of the Brand"
+				}
+				],
+			"entries": [
+				"When a creature you can see within 60 feet of you casts a spell, you can use your reaction to consume any leftover magical energy, gaining charges equal to half the spell's level (rounded up). If you cast counterspell, you can use this feature with the same reaction. You can use this feature once, and regain the ability to do so when you complete a short or long rest."
+			]
+		},
+		{
+			"name": "Sugary Strikes",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"patron": "The Sweetstress",
+					"pact": "Blade"
+				}
+				],
+			"entries": [
+				"When you critically strike with your pact weapon, you gain the effects of your Sugar Rush feature."
+			]
+		},
+		{
+			"name": "Touch of Renewal",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"spell": ["mending#c"]
+				}
+				],
+			"entries": [
+				"You can use mending to reattach a creature's severed body parts such as fingers, legs, tails, and so on."
+			]
+		},
+		{
+			"name": "Touch of the Grave",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"spell": ["chill touch#c"]
+				}
+				],
+			"entries": [
+				"A humanoid killed by chill touch rises up as a zombie at the start of your next turn. The zombie pursues whatever creature it can see that is closest to it. It remains animated for a number of rounds equal to your Charisma modifier (minimum of 1), after which time the zombie becomes inanimate once more."
+			]
+		},
+		{
+			"name": "Water's Care",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"patron": "The Quiet One"
+				}
+				],
+			"entries": [
+				"You can cast aid once without expending a spell slot once per long rest. You cast the spell of a level equal to the current level of spell slots gained from your Pact Magic warlock feature."
+			]
+		},
+		{
+			"name": "Waters of Minauros",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"spell": ["poison spray#c"]
+				}
+				],
+			"entries": [
+				"When a creature fails its saving throw against poison spray, it is poisoned until the end of your next turn."
+			]
+		},
+		{
+			"name": "Witchwood Step",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Warlock"
+						}
+					}
+				}
+				],
+			"entries": [
+				"You can cast expeditious retreat at will, without expending a spell slot. When you take the Dash action on your turn while under the effect of the expeditious retreat spell, you can move across liquids until you stop moving."
 			]
 		}
 	],
