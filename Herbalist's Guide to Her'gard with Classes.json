@@ -10950,6 +10950,46 @@
 				"Knowledge of the Courts|Sorcerer|PHB|Fey-Touched|Hergard|14",
 				"Bridge to the Fey|Sorcerer|PHB|Fey-Touched|Hergard|18"
 			]
+		},
+		{
+			"name": "Orchard Origin",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"shortName": "Orchard",
+			"subclassFeatures": [
+				"Orchard Origin|Sorcerer|PHB|Orchard|Hergard|1",
+				"Swirl of Petals|Sorcerer|PHB|Orchard|Hergard|6",
+				"Exhilarating Bloom|Sorcerer|PHB|Orchard|Hergard|14",
+				"Reverberating Bloom|Sorcerer|PHB|Orchard|Hergard|18"
+			]
+		},
+		{
+			"name": "Flametouched",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"shortName": "Flametouched",
+			"subclassFeatures": [
+				"Flametouched|Sorcerer|PHB|Flametouched|Hergard|1",
+				"Fleeting Flames|Sorcerer|PHB|Flametouched|Hergard|6",
+				"Ashen Inferno|Sorcerer|PHB|Flametouched|Hergard|6",
+				"Enkindled Body|Sorcerer|PHB|Flametouched|Hergard|14",
+				"Ascendant Flame|Sorcerer|PHB|Flametouched|Hergard|18"
+			]
+		},
+		{
+			"name": "Oracle Bloodline",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"shortName": "Oracle",
+			"subclassFeatures": [
+				"Oracle Bloodline|Sorcerer|PHB|Oracle|Hergard|1",
+				"Foresight|Sorcerer|PHB|Oracle|Hergard|6",
+				"Trained mind|Sorcerer|PHB|Oracle|Hergard|14",
+				"Divinium Arcana|Sorcerer|PHB|Oracle|Hergard|18"
+			]
 		}
 	],
 	"subclassFeature": [{
@@ -22753,6 +22793,455 @@
 				"Additionally, all spells of the enchantment and illusion schools cast while within this forest are empowered; saves made to resist their effects are always made at disadvantage.",
 				"Fey creatures flock to this new and different location, assisting you at your call. Once each day as an action, you can summon 1d12 sprites, 1d12 pixies, or 1d10 quicklings, each of which will obey your every command for 24 hours. These fey can leave the forest, but will always return after 24 hours.",
 				"You can only have one forest affected in this way at any given time."
+			]
+		},
+		{
+			"name": "Flametouched",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Flametouched",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"entries": [
+				"Your magic stems from the primordial energy of elemental fire. Many sorcerers with this power can trace their ancestry to the creatures of the Plane of Elemental fire, particularly the Efreeti. This origin is not always ancestral, however. Your powers might have manifested after a near-death experience with a creature of fire, like the legendary phoenix, or simply through constant exposure to fire. In rare cases, those that live near volcanoes can spontaneously gain these powers, especially if they've lived near one since childhood. Regardless of how this magic manifested, it causes flames to permeate your soul and define your magic.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Fire Within|Sorcerer|PHB|Flametouched|Hergard|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Ember Magic|Sorcerer|PHB|Flametouched|Hergard|1"
+				}
+			]
+		},
+		{
+			"name": "Fire Within",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Flametouched",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"Your inner flame grants you aptitude in all forms of pyromancy. When your Spellcasting feature lets you learn or replace a sorcerer spell, you can choose the new spell from any spell list if the chosen spell deals fire damage. You must otherwise obey all the restrictions for selecting the spell, and it becomes a sorcerer spell for you."
+			]
+		},
+		{
+			"name": "Ember Magic",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Flametouched",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"Starting at 1st level, you can cause your fire magic to leave behind magical embers in its wake. Whenever you cast a spell of 1st level or higher that deals fire damage, you can conjure a cloud of embers that fills a 10-foot radius extending out from your body. Alternatively, if the spell you cast has an area of effect (such as burning hands or fireball), you can choose to have the cloud cover the area of the spell, rather than manifest around you. Either way, the cloud remains in the place it was conjured, and lasts for 1 minute or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it. The area of the cloud is lightly obscured, and you gain the following benefits while you are within a cloud conjured by this feature:",
+				{
+					"type": "list",
+					"items": [
+						"As a bonus action, you can teleport up to 15 feet to a point you can see within a cloud. You cannot use this action if your speed is 0, and you cannot cast a spell during the same turn unless that spell is a cantrip with a casting time of 1 action.",
+						"Opportunity attacks made by other creatures within the cloud have disadvantage against you.",
+						"You can attempt to hide even when you are only lightly obscured by the cloud."
+
+					]
+				}
+			]
+		},
+		{
+			"name": "Fleeting Flames",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Flametouched",
+			"subclassSource": "Hergard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, your magic begins to rekindle your spirit. When you cast a spell of 1st level or higher, your speed increases by 10 feet until the end of the turn. This speed bonus is increased to 20 feet at 14th level, and 30 feet at 18th level."
+			]
+		},
+		{
+			"name": "Ashen Inferno",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Flametouched",
+			"subclassSource": "Hergard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Also at 6th level, you learn how to reignite your conjured embers to burn your foes. Whenever you cast a spell of 1st level or higher that deals fire damage and has an area of effect that intersects with one or more of the clouds of embers conjured with your Ember Magic feature, you can spend 1 sorcery point to cause the spell's effect to spread throughout the connected clouds, allowing it to affect more creatures.",
+				"Creatures of your choice within the connected clouds are affected by the spell as if they were within the spell's normal area. Also, any creature within the area of intersection between the spelland the clouds takes additional damage equal to the spell's level. You cannot use your Ember Magic feature on the same turn you use Ashen Inferno.",
+				"The sorcery point cost is increased to 2 if you use this feature on a spell of 3rd or 4th level, 3 for a spell of 5th or 6th level, and 4 for a spell of 7th level or higher."
+			]
+		},
+		{
+			"name": "Enkindled Body",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Flametouched",
+			"subclassSource": "Hergard",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"At 14th level, you become one with your inner flame. You gain resistance to fire damage, and your Ember Magic feature is improved. When you activate that feature, you can create two clouds at once: one that extends out from you, and one that covers the spell's area of effect. If the spell you cast doesn't have an area of effect, you create one cloud that fills a 20-foot radius extending out from your body, rather than the normal 10-foot radius cloud. Additionally, the distance you can teleport within these clouds is increased to 60 feet. This teleportation also no longer restricts your spellcasting, and can be used when your speed is 0."
+			]
+		},
+		{
+			"name": "Ascendant Flame",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Flametouched",
+			"subclassSource": "Hergard",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"Starting at 18th level, you can use your bonus action to transform yourself into a fiery form until you lose your concentration (as if you were concentrating on a spell). While this feature lasts, you are immune to fire damage, have a flying speed equal to your walking speed, and any creature that touches you or hits you with a melee weapon attack while within 5 feet of you takes fire damage equal to half your sorcerer level."
+			]
+		},
+		{
+			"name": "Orchard Origin",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Orchard",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"entries": [
+				"Your magic is tied to the beauty and elegance of nature. Perhaps you obtained your magic from a mystical dryad, or instead stumbled across an ancient forest ritual. No matter how you obtained it, you're able to reflect this beauty in the flowers you create to protect your allies.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "One with Nature|Sorcerer|PHB|Orchard|Hergard|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Inspiring Bloom|Sorcerer|PHB|Orchard|Hergard|1"
+				}
+			]
+		},
+		{
+			"name": "One with Nature",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Orchard",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"Your link to mother nature allows you to learn spells normally associated with the Druid class. When your Spellcasting feature lets you learn a sorcerer cantrip or a sorcerer spell of 1st level or higher, you can choose the new spell from the druid spell list or the sorcerer spell list. You must otherwise obey all the restrictions for selecting the spell, and it becomes a sorcerer spell for you.",
+				"In addition, choose a biome of nature your powers are most associate with: forest, grassland, swamp, jungle or the fey. You learn an additional spell based on that association, as shown below. It is a sorcerer spell for you, but it doesn't count against your number of sorcerer spells known. If you later replace this spell, you must replace it with a spell from the druid spell list.",
+				{	
+					"type": "table",
+					"caption": "Autumn Court Spell List",
+					"colLabels": [
+						"Biome",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"Forest",
+							"{@spell goodberry|PHB}"
+						],
+						[
+							"Grassland",
+							"{@spell longstrider|phb}"
+						],
+						[
+							"Swamp",
+							"{@spell absorb elements|xge}"
+						],
+						[
+							"Jungle",
+							"{@spell entangle|PHB}"
+						],
+						[
+							"Fey",
+							"{@spell faerie fire|PHB}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Inspiring Bloom",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Orchard",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"Starting when you choose this origin at 1st level, your spells call forth the vibrant natural energy of flowers. You learn the druidcraft cantrip, which doesn't count against your number of sorcerer cantrips known. It is considered a sorcerer spell for you.",
+				"Whenever you cast a spell of 1st level or higher, you can summon a cluster of magical flowers that bloom across your own armour or clothing or that of a creature within 30 feet of you that you can see. You select which type of flowers bloom, with the chosen type of flowers granting their listed benefit to the creature:",
+				{
+					"type": "entries",
+					"name": "Chamomile.",
+					"entries": [
+						"These small white flowers embody speed. The creature can add 1d4 to its Dexterity checks, and its movement speed increases by 5 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dandelion.",
+					"entries": [
+						"These small yellow flowers stand for hope. The creature has advantage on death saving throws."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lavender.",
+					"entries": [
+						"These lavender flowers symbolize power. The creature's weapon attacks count as magical for the purpose of overcoming resistances."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lily.",
+					"entries": [
+						"These flowers, often white or pink, personify honor. The creature has advantage on saving throws against being frightened."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sunflower.",
+					"entries": [
+						"These bright yellow flowers reflect the sun, and inspire vitality. The creature has advantage on saving throws against poison and disease."
+					]
+				},
+				"The flowers last for 1 minute, and a creature can only benefit from one type of flower growing on it at a time; if a new type of flower is grown on a creature, the previous flowers wither and die."
+			]
+		},
+		{
+			"name": "Swirl of Petals",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Orchard",
+			"subclassSource": "Hergard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, you can twist your natural magics to better protect your allies. As a bonus action on your turn, you can cause petals to swirl up and around a creature you can see within 60 feet of you. Until the start of your next turn, attack rolls against that creature have disadvantage.",
+				"Once you use this feature, you must finish a short or long rest before you can do so again."
+			]
+		},
+		{
+			"name": "Exhilarating Bloom",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Orchard",
+			"subclassSource": "Hergard",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Starting at 14th level, you've unlocked the capabilities to summon new and powerful flowers. Whenever you summon flowers on a creature, you can choose to instead spend 2 sorcery points to select one of the following flower types to summon:",
+				{
+					"type": "entries",
+					"name": "Camellia.",
+					"entries": [
+						"These large pink flowers represent resilience. When you grow these flowers on a creature, they can choose one of the following damage types: cold, fire, or lightning. When the creature take damage of that type, they can reduce the damage they take by an amount equal to your Charisma modifier."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Gerbera.",
+					"entries": [
+						"These brightly coloured flowers express strength. When the creature rolls damage and rolls a 1 or 2 on any of the dice, it can choose to reroll one of them. The creature must use the new result."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Marigold.",
+					"entries": [
+						"These golden flowers typify cruelty. Whenever the creature reduces another creature to 0 hit points, it gains a number of temporary hit points equal to 1d6 + your Charisma modifier."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Pansy.",
+					"entries": [
+						"These flowers, often purple or yellow, express loyalty. The creature, and all friendly creatures within 5 feet of them, have advantage on saving throws against being frightened or charmed."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Stephanotis.",
+					"entries": [
+						"These small white flowers inspire luck. When the creature rolls a 1 on an attack roll, ability check, or saving throw, it can reroll the die and must use the new roll."
+					]
+				}
+			]
+		},
+		{
+			"name": "Reverberating Bloom",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Orchard",
+			"subclassSource": "Hergard",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"Starting at 18th level, when your flowers bloom, they do so abundantly. When you grow flowers on a creature, you can spend 3 sorcery points to grow the same type of flowers on any number of creatures of your choice within 30 feet of the first creature.",
+				"Additionally, when you grow a flower on yourself using either your Inspiring Bloom or your Exhilarating Bloom, any previous flowers do not immediately wither and die, but instead last for their full duration."
+			]
+		},
+		{
+			"name": "Oracle Bloodline",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Oracle",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"entries": [
+				"You hail from a long line of oracles, once gifted with the spark of magic to help guide the living and the dead of the world who lost their path. Though able to do magic of all kind, your ancestors perfected their powers to see the future in ways a commoner couldn't even dream of. Through con¬cen¬tra¬tion you can see all parallel timelines and every possibility of an individual's every move, aiding you in combat and in society.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Diviner's Sorcery|Sorcerer|PHB|Oracle|Hergard|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Clairvoyant Combatant|Sorcerer|PHB|Oracle|Hergard|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Rituals of the Diviner|Sorcerer|PHB|Oracle|Hergard|1"
+				}
+			]
+		},
+		{
+			"name": "Diviner's Sorcery",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Oracle",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"The very magic in your bloodline grants you access to an expanded list of spells. Any spell that might require a god or otherworldly being, you contact the spirits of the Ethereal realm instead. They answer normally as an entity would, though their knowledge might be more limited than a god's (at the DM's discretion). The following spells are added to the sorcerer spell list for you:",
+				{	
+					"type": "table",
+					"caption": "Oracle Bloodline Spell List",
+					"colLabels": [
+						"Sorcerer Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell detect evil and good|PHB}, {@spell identify|PHB}"
+						],
+						[
+							"3rd",
+							"{@spell augury|phb}, {@spell locate object|PHB}"
+						],
+						[
+							"5th",
+							"{@spell nondetection|PHB}, {@spell speak with dead|PHB}"
+						],
+						[
+							"7th",
+							"{@spell divination|PHB}, {@spell locate creature|PHB}"
+						],
+						[
+							"9th",
+							"{@spell legend lore|PHB}, {@spell scrying|PHB}"
+						]
+					]
+				}	
+			]
+		},
+		{
+			"name": "Clairvoyant Combatant",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Oracle",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"Starting at 1st level, you gain insight into your enemy's next move.",
+				"If a hostile creature makes a weapon attack against you, you may use your reaction to roll 1d4 and subtract it from the total attack roll. If the attack misses you, the attacker can't make opportunity attacks against you until the start of your next turn. At 14th level, the rolled die changes to 2d4.",
+				"You may use this feature a number of times equal to your Charisma modifier. You regain all uses of this feature when you finish a short or long rest."
+				
+			]
+		},
+		{
+			"name": "Rituals of the Diviner",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Oracle",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"Also at 1st level, you can cast any sorcerer spell you know as a ritual if that spell has the ritual tag.",
+				"Additionally, you may learn one first level spell that has the ritual tag. It is a sorcerer spell for you, but it doesn't count against your number of sorcerer spells known. If you later replace this spell, you must replace it with a spell that has the ritual tag."
+				
+			]
+		},
+		{
+			"name": "Foresight",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Oracle",
+			"subclassSource": "Hergard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, your foreseeing powers aid you in dire situations.",
+				"Whenever you fail a Dexterity saving throw by 5 or less, you may glance into your own future to foresee and avoid the danger, instead succeeding on the save. Once you use this feature, you can't use it again until you finish a short or long rest.",
+				"Additionally, if you are surprised at the beginning of combat and aren't incapacitated, you can act normally on your first turn."
+			]
+		},
+		{
+			"name": "Trained mind",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Oracle",
+			"subclassSource": "Hergard",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Beginning at 14th level, your long past of using your mind to see into other timelines has trained it to better concentrate on magic.",
+				"If you are already concentrating on a spell, you may spend 4 sorcery points before casting a different spell that requires concentration. In doing so, you may hold both concentration spells for up to half their normal duration, but you cannot cast any other spells for the time. While concentrating on both spells you have disadvantage on concentration checks. You may end con¬cen¬tration on either one of these spells at will and cast spells as normal, but the already changed duration doesn't revert."
+			]
+		},
+		{
+			"name": "Divinium Arcana",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Oracle",
+			"subclassSource": "Hergard",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"Starting at 18th level, you can warn your allies of an incoming magical danger, moments before they happen.",
+				"Whenever a hostile creature casts a spell targeting an ally of yours within 60 feet of you, you may use your reaction to alert your com¬pan¬ion to said hazard. In doing so you impose disadvantage on the spell attack made against the creature, or advantage on the save the creature has to make against the spell.",
+				"You may use this feature a number of times equal to 1 + your Charisma modifier. You regain all uses of this feature when you finish a long rest."
 			]
 		}
 	],
