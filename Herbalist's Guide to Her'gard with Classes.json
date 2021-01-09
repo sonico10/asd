@@ -23445,19 +23445,19 @@
 							"{@spell detect evil and good|PHB}, {@spell identify|PHB}"
 						],
 						[
-							"3rd",
+							"2nd",
 							"{@spell enlarge/reduce|phb}, {@spell locate object|PHB}"
 						],
 						[
-							"5th",
+							"3rd",
 							"{@spell create food and water|PHB}, {@spell lightning bolt|PHB}"
 						],
 						[
-							"7th",
+							"4th",
 							"{@spell wall of fire|PHB}, {@spell watery sphere|xge}"
 						],
 						[
-							"9th",
+							"5th",
 							"{@spell creation|PHB}, {@spell wall of stone|PHB}"
 						]
 					]
@@ -23636,19 +23636,19 @@
 							"{@spell cure wounds|PHB}, {@spell create or destroy water|PHB}"
 						],
 						[
-							"3rd",
+							"2nd",
 							"{@spell augury|phb}, {@spell lesser restoration|PHB}"
 						],
 						[
-							"5th",
+							"3rd",
 							"{@spell tidal wave|xge}, {@spell wall of water|xge}"
 						],
 						[
-							"7th",
+							"4th",
 							"{@spell control water|PHB}, {@spell watery sphere|xge}"
 						],
 						[
-							"9th",
+							"5th",
 							"{@spell greater restoration|PHB}, {@spell maelstrom|xge}"
 						]
 					]
@@ -23776,19 +23776,19 @@
 							"{@spell color spray|PHB}, {@spell faerie fire|PHB}"
 						],
 						[
-							"3rd",
+							"2nd",
 							"{@spell aid|phb}, {@spell calm emotions|PHB}"
 						],
 						[
-							"5th",
+							"3rd",
 							"{@spell create food and water|phb}, {@spell tiny servant|xge}"
 						],
 						[
-							"7th",
+							"4th",
 							"{@spell aura of life|PHB}, {@spell otiluke's resilient sphere|phb}"
 						],
 						[
-							"9th",
+							"5th",
 							"{@spell mass cure wounds|PHB}, {@spell greater restoration|phb}"
 						]
 					]
@@ -23965,19 +23965,19 @@
 							"{@spell bane|PHB}, {@spell ray of sickness|PHB}"
 						],
 						[
-							"3rd",
+							"2nd",
 							"{@spell alter self|phb}, {@spell Melf's acid arrow|PHB}"
 						],
 						[
-							"5th",
+							"3re",
 							"{@spell Leomund's tiny hut|phb}, {@spell tiny servant|xge}"
 						],
 						[
-							"7th",
+							"4th",
 							"{@spell arcane eye|PHB}, {@spell Evard's black tentacles|phb}"
 						],
 						[
-							"9th",
+							"5th",
 							"{@spell contagion|PHB}, {@spell dominate person|phb}"
 						]
 					]
@@ -24108,19 +24108,19 @@
 							"{@spell ensnaring strike|PHB}, {@spell entangle|PHB}"
 						],
 						[
-							"3rd",
+							"2nd",
 							"{@spell barkskin|Hergard}, {@spell spike growth|PHB}"
 						],
 						[
-							"5th",
+							"3rd",
 							"{@spell conjure animals|phb}, {@spell plant growth|phb}"
 						],
 						[
-							"7th",
+							"4th",
 							"{@spell grasping vine|PHB}, {@spell guardian of nature|Hergard}"
 						],
 						[
-							"9th",
+							"5th",
 							"{@spell tree stride|PHB}, {@spell wrath of nature|xge}"
 						]
 					]
