@@ -1628,7 +1628,94 @@
 				"source": "PHB"
 			}]
 		}
-	}, {
+	},
+	{
+			"name": "Guardian of Nature",
+			"source": "Hergard",
+			"level": 4,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"A nature spirit answers your call and transforms you into a powerful guardian. The transformation lasts until the spell ends. You choose one of the following forms to assume: Primal Beast or Great Tree.",
+				{
+					"type": "entries",
+					"name": "Primal Beast",
+					"entries": [
+						"Bestial fur covers your body, your facial features become feral, and you gain the following benefits:"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"Your walking speed increases by 10 feet.",
+						"You gain {@sense darkvision} with a range of 120 feet.",
+						"You make Strength-based attack rolls with advantage.",
+						"Your melee weapon attacks deal an extra {@damage 1d6} force damage on a hit."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Great Tree",
+					"entries": [
+						"Your skin appears barky, leaves sprout from your hair, and you gain the following benefits:"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"You gain 10 temporary hit points.",
+						"You make Constitution saving throws with advantage.",
+						"You make Dexterity- and Spellcasting Ability-based attack rolls with advantage.",
+						"While you are on the ground, the ground within 15 feet of you is difficult terrain for your enemies."
+					]
+				}
+			],
+			"damageInflict": [
+				"force"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"THP"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			}
+		},	{
 		"name": "Halo",
 		"source": "Hergard",
 		"level": 5,
@@ -10990,6 +11077,71 @@
 				"Trained mind|Sorcerer|PHB|Oracle|Hergard|14",
 				"Divinium Arcana|Sorcerer|PHB|Oracle|Hergard|18"
 			]
+		},
+		{
+			"name": "The Noble Genie",
+			"source": "Hergard",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"shortName": "Noble Genie",
+			"subclassFeatures": [
+				"The Noble Genie|Warlock|PHB|Noble Genie|Hergard|1",
+				"Elemental Ascent|Warlock|PHB|Noble Genie|Hergard|6",
+				"Eternal Ascent|Warlock|PHB|Noble Genie|Hergard|10",
+				"Wishful Debt|Warlock|PHB|Noble Genie|Hergard|14"
+			]
+		},
+		{
+			"name": "The Quiet One",
+			"source": "Hergard",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"shortName": "Quiet One",
+			"subclassFeatures": [
+				"The Quiet One|Warlock|PHB|Quiet One|Hergard|1",
+				"Blessing of the Waves|Warlock|PHB|Quiet One|Hergard|6",
+				"Ebb and Flow|Warlock|PHB|Quiet One|Hergard|10",
+				"Wrath of the Sea|Warlock|PHB|Quiet One|Hergard|14"
+			]
+		},
+		{
+			"name": "The Sweetstress",
+			"source": "Hergard",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"shortName": "Sweetstress",
+			"subclassFeatures": [
+				"The Sweetstress|Warlock|PHB|Sweetstress|Hergard|1",
+				"Sweet Tooth|Warlock|PHB|Sweetstress|Hergard|6",
+				"Shared Enthusiasm|Warlock|PHB|Sweetstress|Hergard|10",
+				"Bittersweet|Warlock|PHB|Sweetstress|Hergard|14"
+			]
+		},
+		{
+			"name": "The Wicked Crone",
+			"source": "Hergard",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"shortName": "Wicked Crone",
+			"subclassFeatures": [
+				"The Wicked Crone|Warlock|PHB|Wicked Crone|Hergard|1",
+				"Respect Your Elders|Warlock|PHB|Wicked Crone|Hergard|6",
+				"Bad Taste|Warlock|PHB|Wicked Crone|Hergard|10",
+				"Grandma's Recipe|Warlock|PHB|Wicked Crone|Hergard|14"
+			]
+		},
+		{
+			"name": "The World Tree",
+			"source": "Hergard",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"shortName": "World Tree",
+			"subclassFeatures": [
+				"The World Tree|Warlock|PHB|World Tree|Hergard|1",
+				"Nature's Ward|Warlock|PHB|World Tree|Hergard|6",
+				"Sympathetic Photosynthetic|Warlock|PHB|World Tree|Hergard|10",
+				"Wrath of the Ancients|Warlock|PHB|World Tree|Hergard|14"
+			]
 		}
 	],
 	"subclassFeature": [{
@@ -11070,7 +11222,7 @@
 						],
 						[
 							"13th",
-							"{@spell grasping vine|PHB}, {@spell guardian of nature|xge}"
+							"{@spell grasping vine|PHB}, {@spell guardian of nature|Hergard}"
 						],
 						[
 							"17th",
@@ -20504,7 +20656,7 @@
 						],
 						[
 							"7th",
-							"{@spell fire shield|PHB}, {@spell guardian of nature|xge}"
+							"{@spell fire shield|PHB}, {@spell guardian of nature|Hergard}"
 						],
 						[
 							"9th",
@@ -23242,6 +23394,814 @@
 				"Starting at 18th level, you can warn your allies of an incoming magical danger, moments before they happen.",
 				"Whenever a hostile creature casts a spell targeting an ally of yours within 60 feet of you, you may use your reaction to alert your com¬pan¬ion to said hazard. In doing so you impose disadvantage on the spell attack made against the creature, or advantage on the save the creature has to make against the spell.",
 				"You may use this feature a number of times equal to 1 + your Charisma modifier. You regain all uses of this feature when you finish a long rest."
+			]
+		},
+		{
+			"name": "The Noble Genie",
+			"source": "Hergard",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Noble Genie",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"entries": [
+				"Emerging out of a fusion between a mortal soul and pure elemental energy, genies are creatures of legend and wonder. The most powerful among them are the noble genies, rivaled in their power only by gods, unrivaled in their arrogance and decadence.",
+				"You have made a pact with one such entity, dao, djinni, efreeti, or marid. Perhaps you were one of their former slaves turned agent of their will, or your pact is a result of a genie wish gone awry. A noble genie often employs the service of a warlock to expand their influence beyond their domain on one of the elemental planes, to attain what even their reality-bending powers fail to achieve.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Expanded Spell List|Warlock|PHB|Noble Genie|Hergard|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Primordial Essence|Warlock|PHB|Noble Genie|Hergard|1"
+				}
+			]
+		},
+		{
+			"name": "Expanded Spell List",
+			"source": "Hergard",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Noble Genie",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"The Noble Genie lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+				{	
+					"type": "table",
+					"caption": "Noble Genie Expanded Spells",
+					"colLabels": [
+						"Warlock Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell detect evil and good|PHB}, {@spell identify|PHB}"
+						],
+						[
+							"3rd",
+							"{@spell enlarge/reduce|phb}, {@spell locate object|PHB}"
+						],
+						[
+							"5th",
+							"{@spell create food and water|PHB}, {@spell lightning bolt|PHB}"
+						],
+						[
+							"7th",
+							"{@spell wall of fire|PHB}, {@spell watery sphere|xge}"
+						],
+						[
+							"9th",
+							"{@spell creation|PHB}, {@spell wall of stone|PHB}"
+						]
+					]
+				}	
+			]
+		},
+		{
+			"name": "Primordial Essence",
+			"source": "Hergard",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Noble Genie",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"At 1st level, your patron imbues you with the elemental essence of its home plane. Select one of the genie types from the Elemental Essence table. You learn the Primordial dialect and spells associated with your choice, as shown in the table. These spells count as warlock spells for you, but they don't count against your number of warlock spells known.",
+				{	
+					"type": "table",
+					"colLabels": [
+						"Genie Type","Dialect","Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"Dao",
+							"Terran",
+							"{@spell earth tremor|xge}, {@spell mold earth|xge}"
+						],
+						[
+							"Djinni",
+							"Auran",
+							"{@spell gust|xge}, {@spell thunderwave|PHB}"
+						],
+						[
+							"Efreeti",
+							"Ignan",
+							"{@spell burning hands|PHB}, {@spell lightning bolt|PHB}"
+						],
+						[
+							"Marid",
+							"Aquan",
+							"{@spell fog cloud|PHB}, {@spell shape water|xge}"
+						]
+					]
+				},
+				"When you cast a spell granted by this feature using a warlock spell slot, the spell slot you expend counts as a spell slot of one level higher.",
+				"This number increases when you reach certain levels in this class, increasing to two levels at 6th level, three levels at 10th level, and four levels at 14th level."
+			]
+		},
+		{
+			"name": "Elemental Ascent",
+			"source": "Hergard",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Noble Genie",
+			"subclassSource": "Hergard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, you can use a bonus action on your turn to transform your lower body into a whirling cloud of elemental energy. You gain a flying speed equal to your walking speed until the end of your next turn. During this time, you also gain a benefit associated with the genie type you chose with your Primordial Essence feature.",
+				"Once you use this feature, you can't use it again until you finish a short or long rest.",
+				{
+					"type": "entries",
+					"name": "Dao.",
+					"entries": [
+						"Your lower body becomes a column of swirling sand. You gain resistance to bludgeoning, piercing, and slashing damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Djinni.",
+					"entries": [
+						"Your lower body becomes a column of swirling air. Your flying speed increases by 10 feet, and your movement doesn't provoke opportunity attacks."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Efreeti.",
+					"entries": [
+						"Your lower body becomes a column of smoke and embers. Each creature that starts its turn within 10 feet of you or enters the same area for the first time on a turn takes fire damage equal to half your warlock level."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Marid.",
+					"entries": [
+						"Your lower body becomes a column of foamy water. You gain a swimming speed equal to your walking speed and you can move through the space of other creatures. Once on each of your turns, you can knock a Large or smaller creature prone when you move through its space."
+					]
+				}
+			]
+		},
+		{
+			"name": "Eternal Ascent",
+			"source": "Hergard",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Noble Genie",
+			"subclassSource": "Hergard",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Starting at 10th level, you regain the use of your Elemental Ascent feature whenever you cast one of your Primordial Essence spells using a warlock spell slot."
+			]
+		},
+		{
+			"name": "Wishful Debt",
+			"source": "Hergard",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Noble Genie",
+			"subclassSource": "Hergard",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Starting at 14th level, your patron allows you to call in favors from other genies indebted to it. As an action, you can summon a Dao, Djinni, Efreeti, or Marid (your DM's choice), which appears in an unoccupied space you can see within 30 feet of you.",
+				"The genie is indifferent towards you and your companions. Roll initiative for the genie, which has its own turns. You can use an action to request a course of activity from the genie. The genie uses its action on its next turn to follow the request in the most literal terms possible. If you don't issue any requests to the genie, it defends itself from hostile creatures but otherwise takes no actions. You can issue up to three requests from the genie this way.",
+				"The genie disappears after 10 minutes, when it drops to 0 hit points, or after it has attempted to follow your third request.",
+				"Once you use this feature, you can't use it again until you finish a long rest."
+			]
+		},
+		{
+			"name": "The Quiet One",
+			"source": "Hergard",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Quiet One",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"entries": [
+				"You have made a pact with a pacifist water entity. This crea¬ture lent you their power to protect the ones in need and help people see the peaceful side of the tides by controlling the very lifeblood of the realms: water.",
+				"The peace-loving nature of your patron has an influence on your emotions too. You become more careful not to hurt your foes unnecessarily, leading you on a path to aid and protect, rather than harm.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Expanded Spell List|Warlock|PHB|Quiet One|Hergard|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Cantrips|Warlock|PHB|Quiet One|Hergard|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Calming Presence|Warlock|PHB|Quiet One|Hergard|1"
+				}
+			]
+		},
+		{
+			"name": "Expanded Spell List",
+			"source": "Hergard",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Quiet One",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"The Quiet One lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+				{	
+					"type": "table",
+					"caption": "Quiet One Expanded Spells",
+					"colLabels": [
+						"Warlock Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell cure wounds|PHB}, {@spell create or destroy water|PHB}"
+						],
+						[
+							"3rd",
+							"{@spell augury|phb}, {@spell lesser restoration|PHB}"
+						],
+						[
+							"5th",
+							"{@spell tidal wave|xge}, {@spell wall of water|xge}"
+						],
+						[
+							"7th",
+							"{@spell control water|PHB}, {@spell watery sphere|xge}"
+						],
+						[
+							"9th",
+							"{@spell greater restoration|PHB}, {@spell maelstrom|xge}"
+						]
+					]
+				}	
+			]
+		},
+		{
+			"name": "Bonus Cantrips",
+			"source": "Hergard",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Quiet One",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"At 1st level, you learn the shape water and mending cantrips. They count as warlock cantrips for you, but they don't count against your number of cantrips known."
+			]
+		},
+		{
+			"name": "Calming Presence",
+			"source": "Hergard",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Quiet One",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"Also at 1st level, due to your peaceful nature, you gain proficiency in the Persuasion skill. If you are already proficient, your proficiency bonus is doubled for any ability check you make that uses this skill.",
+				"Additionally, you may cast calm emotions a number of times equal to your Charisma modifier (minimum of 1) without expending a spell slot and only requiring verbal components, and regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Blessing of the Waves",
+			"source": "Hergard",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Quiet One",
+			"subclassSource": "Hergard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, your patron aids you in battle. You gain resistance to fire damage and magical damage from water based spells.",
+				"Additionally, whenever you or a creature within 15 feet of you is dealt damage, you may use your reaction to grant them resistance to the triggering damage type until the start of your next turn. You may use this feature a number of times equal to your Charisma modifier (minimum of 1), and regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Ebb and Flow",
+			"source": "Hergard",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Quiet One",
+			"subclassSource": "Hergard",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"At 10th level, as an action, you may present your spellcasting focus, evoking the powers of the changing waves. A surge of spiritual water bursts out from your focus, healing those in need and harming those who seek to hurt you.",
+				"You may choose a number of creatures to be effected by the waves, equal to your warlock level in a 15-foot-radius sphere centered on you.",
+				"Revitalizing waters aid friendly creatures' injuries. You divide hitpoints equal to twice your warlock level between the chosen creatures to be healed by.",
+				"Raging tide crashes down upon your enemies. Chosen targets must make a Strength saving throw. On a failed save, they are pushed to the edge of the 15-foot-radius around you. On a successful save, the creature is only pushed back 5 feet.",
+				"You regain the use of this feature after finishing a long rest or by expending a warlock spell slot."
+			]
+		},
+		{
+			"name": "Wrath of the Sea",
+			"source": "Hergard",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Quiet One",
+			"subclassSource": "Hergard",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"At 14th level, you reach the peak of your aquatic powers, letting loose your protective water magic. As an action, you conjure spheres of water that spin around you harmlessly that last for 1 minute. The number of spheres is equal to 2 + your Charisma modifier (minimum of 1).",
+				"Whenever a hostile creature makes a melee weapon attack against one of your allies within 30 feet that you can see, you can use your reaction to hurl one of the orbs against them, expending it. As your watery fury slams into them, they must succeed on a Strength saving throw or their attack is wasted and they are pushed back 15 feet.",
+				"If there is a natural body of water within 30 feet of you, the waves empower your orbs, giving any enemy that doesn't have a swimming speed disadvantage on the saving throw. You regain the use of this feature when you finish a long rest."
+			]
+		},
+		{
+			"name": "The Sweetstress",
+			"source": "Hergard",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Sweetstress",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"entries": [
+				"You have forged a pact with a Sweetstress, ancient, kind beings that dedicated their existence to sweetening the lives of others. They often appear to people in the guise of a sweet elderly woman, and those who take their patronage forge a contract to spread joy to everyone they meet.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Expanded Spell List|Warlock|PHB|Sweetstress|Hergard|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Sugar Rush|Warlock|PHB|Sweetstress|Hergard|1"
+				}
+			]
+		},
+		{
+			"name": "Expanded Spell List",
+			"source": "Hergard",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Sweetstress",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"The Sweetstress lets you choose from an expanded list of spells when you learn a warlock spell. The following spells count as warlock spells for you.",
+				{	
+					"type": "table",
+					"caption": "Sweetstress Expanded Spells",
+					"colLabels": [
+						"Warlock Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell color spray|PHB}, {@spell faerie fire|PHB}"
+						],
+						[
+							"3rd",
+							"{@spell aid|phb}, {@spell calm emotions|PHB}"
+						],
+						[
+							"5th",
+							"{@spell create food and water|phb}, {@spell tiny servant|xge}"
+						],
+						[
+							"7th",
+							"{@spell aura of life|PHB}, {@spell otiluke's resilient sphere|phb}"
+						],
+						[
+							"9th",
+							"{@spell mass cure wounds|PHB}, {@spell greater restoration|phb}"
+						]
+					]
+				}	
+			]
+		},
+		{
+			"name": "Sugar Rush",
+			"source": "Hergard",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Sweetstress",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"Starting at 1st level, when you expend a spell slot of 1st level or higher, you gain a sudden burst of energy. Until the start of your next turn, your movement speed is doubled, and you gain an extra action this turn, which you can use to take any action other than Attack or Cast a Spell."
+			]
+		},
+		{
+			"name": "Sweet Tooth",
+			"source": "Hergard",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Sweetstress",
+			"subclassSource": "Hergard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"From 6th level, you learn how to magically create sweets that can bolster those who consume them. As an action, you can create a magical candy that manifests in your hand, a gift from The Sweetstress herself. This candy can be consumed by a creature as a bonus action. When you create this candy, choose one of the following types to create:",
+				{
+					"type": "entries",
+					"name": "Brighteye Bean.",
+					"entries": [
+						"A small, black jelly bean with cobalt blue speckles. Consuming this candy grants you advantage on Investigation and Perception checks for the next minute."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Charming Chocolate.",
+					"entries": [
+						"A large, deep brown disc of chocolate that seems to emit a faint golden glow. Consuming this candy grants you advantage on Persuasion and Performance checks for the next minute."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Muscle Mint.",
+					"entries": [
+						"A small, green and white swirled ball of mint with a print of a curled bicep on it. Consuming this candy grants you advantage on Athletics and Acrobatics checks for the next minute."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sly Sour.",
+					"entries": [
+						"A long, orange-red roll of sugar-coated sour lolly that makes no sound as you chew it. Consuming this candy grants you advantage on Stealth and Sleight of Hand checks for the next minute."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Knowing Nougat.",
+					"entries": [
+						". A large, pale brown slab of candy with bright silver nuts scattered throughout. Consuming this candy grants you advantage on Insight and History checks for the next minute."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Magic Marshmallow.",
+					"entries": [
+						"A deep blue marshmallow with star-like white dots covering it. Consuming this candy grants you advantage on Arcana and Religion checks for the next minute."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Grove Gumball.",
+					"entries": [
+						"A verdant green gumball candy with the design of a leaf printed on it. Consuming this candy grants you advantage on Nature and Animal Handling checks for the next minute."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Wild Warhead.",
+					"entries": [
+						"A compact, green and brown coloured hard candy with an incredibly sour taste. Consuming this candy grants you advantage on Survival and Medicine checks for the next minute."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Faker's Fudge.",
+					"entries": [
+						"A pale white fudge with the golden sigil of a devil's tongue on the top. Consuming this candy grants you advantage on Deception and Intimidation checks for the next minute."
+					]
+				},
+				"When you finish a long rest, any uneaten candies you created disappear.",
+				"You can use this ability a number of times equal to your Charisma modifier. You regain all expended uses of this ability when you complete a long rest."
+			]
+		},
+		{
+			"name": "Shared Enthusiasm",
+			"source": "Hergard",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Sweetstress",
+			"subclassSource": "Hergard",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"From 10th level, your childlike energy is contagious, and others near you share in its intensity. When you use the Sugar Rush feature, you can also grant its benefits to another creature of your choice within 30 feet of you."
+			]
+		},
+		{
+			"name": "Bittersweet",
+			"source": "Hergard",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Sweetstress",
+			"subclassSource": "Hergard",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"At 14th level, your patron grants you the power to hamper those who would harm your allies with spolied sweets. When you deal damage with a Warlock spell, the target(s) must make a Constitution saving throw against your Spell Save DC or become poisoned for 1 minute, taking 1d8 poison damage at the start of each of their turns while poisoned in this way. The target can re-attempt this saving throw at the end of each of their turns, ending the effect on a success.",
+				"Once you use this ability, you can't use it again until you complete a long rest."
+			]
+		},
+		{
+			"name": "The Wicked Crone",
+			"source": "Hergard",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Wicked Crone",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"entries": [
+				"You made a deal with a powerful hag in order to get magical powers, perhaps an auntie, a grandmother or a legendary hag like Baba Yaga. Maybe she tricked you into accepting, maybe you did it voluntarily, but one thing is certain: she will expect payment in return, whatever it is. Until then, you get to exercise some of her powers and innate abilities, including bargaining skills, mysterious black magic and a weird charming prowess.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Expanded Spell List|Warlock|PHB|Wicked Crone|Hergard|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Ritual casting|Warlock|PHB|Wicked Crone|Hergard|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Sinister Sneer|Warlock|PHB|Wicked Crone|Hergard|1"
+				}
+			]
+		},
+		{
+			"name": "Expanded Spell List",
+			"source": "Hergard",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Wicked Crone",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"The Wicked Crone lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+				{	
+					"type": "table",
+					"caption": "Wicked Crone Expanded Spells",
+					"colLabels": [
+						"Warlock Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell bane|PHB}, {@spell ray of sickness|PHB}"
+						],
+						[
+							"3rd",
+							"{@spell alter self|phb}, {@spell Melf's acid arrow|PHB}"
+						],
+						[
+							"5th",
+							"{@spell Leomund's tiny hut|phb}, {@spell tiny servant|xge}"
+						],
+						[
+							"7th",
+							"{@spell arcane eye|PHB}, {@spell Evard's black tentacles|phb}"
+						],
+						[
+							"9th",
+							"{@spell contagion|PHB}, {@spell dominate person|phb}"
+						]
+					]
+				}	
+			]
+		},
+		{
+			"name": "Ritual casting",
+			"source": "Hergard",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Wicked Crone",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"At 1st level, you learn how to cast certain spells as rituals. You can cast a warlock spell you know as a ritual as long as the spell has the ritual tag."
+			]
+		},
+		{
+			"name": "Sinister Sneer",
+			"source": "Hergard",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Wicked Crone",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"At 1st level, you learn tricks that your patron uses to deceive mortals and to instill fear and doubt in its enemies.",
+				"You gain proficiency in the Deception skill and double your proficiency bonus for it. This bonus does not stack with bonuses from similar features, like Expertise.",
+				"Additionally, whenever you cast a spell of 1st level or higher that targets an hostile creature, you can use a bonus action to force the target to make a Wisdom saving throw. If it fails, it has disadvantage on attack rolls against you until the start of your next turn. A creature immediately succeeds on the saving throw if it is immune to the charmed condition."
+			]
+		},
+		{
+			"name": "Respect Your Elders",
+			"source": "Hergard",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Wicked Crone",
+			"subclassSource": "Hergard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, you can blur the eyes and confuse the minds of your enemies, making them attack their own friends.",
+				"When you are targeted by an attack or spell, you can choose a hostile creature you can see within the range of the attack and then use your reaction to force the attacker to make a Wisdom saving throw. If it fails, the chosen creature becomes the new target of the attack. If the attacker has disadvantage to the attack against you because of Sinister Sneer, it automatically fails the saving throw, while if it is immune to the charmed condition, it automatically succeeds.",
+				"You can use this feature a number of times equal to your Charisma modifier (minimum 1), and you regain all expended charges after a long rest."
+			]
+		},
+		{
+			"name": "Bad Taste",
+			"source": "Hergard",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Wicked Crone",
+			"subclassSource": "Hergard",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Starting at 10th level, you develop an unusual curiosity for weird and unique objects and charms.",
+				"You add identify to the list of spells you know and it counts as a warlock spell for you. Also, you can spend one hour during a long rest to create an object infused with a warlock spell you know with a cast duration of one action. If you use an action to destroy the item, you can cast the spell infused within without expending a spell slot. You can only have a number of items created this way equal to half your Charisma modifier, rounded down (minimum 1). If an item is not used within the same day it is created, it loses its magical properties."
+			]
+		},
+		{
+			"name": "Grandma's Recipe",
+			"source": "Hergard",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Wicked Crone",
+			"subclassSource": "Hergard",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Starting at 14th level, your patron decides to share a powerful secret with you. You learn how to submit to your will those foolish enough to accept to make a deal with you.",
+				"You can create a special potion with your Bad Taste feature. If any creature drinks it, you can force it to make a Wisdom saving throw. On a fail, it suffers the effect of a true polymorph spell, but it retains the ability to speak and its mental ability scores. If the creature is unconscious when it drinks the potion, it automatically fails the saving throw. The creature is under your control as if under the effect of a dominate beast, dominate person or dominate monster spell, accordingly to its type, and you don't need to maintain concentration to control it. The effect lasts until you dismiss the servant or until you die. You can have only one creature under your control at any given time.",
+				"Once a creature succeeds the saving throw or is dismissed, it can't be affected again by the effects of the potion for a month, unless it chooses to do so willingly."
+			]
+		},
+		{
+			"name": "The World Tree",
+			"source": "Hergard",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "World Tree",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"entries": [
+				"Your patron is a tree of a size and age beyond comprehension, whose roots reach across the planes, space and even time itself. As an agent of this ancient force, your charge is to preserve life and foster the never-ending balance of life and death, bolstering the meek who need a chance to thrive, and patiently eroding the structures of power in the world that stifle growth.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Expanded Spell List|Warlock|PHB|World Tree|Hergard|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "In Tune with Nature|Warlock|PHB|World Tree|Hergard|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Mother's Embrace|Warlock|PHB|World Tree|Hergard|1"
+				}
+			]
+		},
+		{
+			"name": "Expanded Spell List",
+			"source": "Hergard",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "World Tree",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"The World Tree lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+				{	
+					"type": "table",
+					"caption": "World Tree Expanded Spells",
+					"colLabels": [
+						"Warlock Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell ensnaring strike|PHB}, {@spell entangle|PHB}"
+						],
+						[
+							"3rd",
+							"{@spell barkskin|Hergard}, {@spell spike growth|PHB}"
+						],
+						[
+							"5th",
+							"{@spell conjure animals|phb}, {@spell plant growth|phb}"
+						],
+						[
+							"7th",
+							"{@spell grasping vine|PHB}, {@spell guardian of nature|Hergard}"
+						],
+						[
+							"9th",
+							"{@spell tree stride|PHB}, {@spell wrath of nature|xge}"
+						]
+					]
+				}	
+			]
+		},
+		{
+			"name": "In Tune with Nature",
+			"source": "Hergard",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "World Tree",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"At 1st level, you become proficient in the Nature skill, the Druidic language, and you learn the thorn whip cantrip if you do not already know it.",
+				"When you hit a creature with your thorn whip, you can elect to reduce its movement speed by half until the end of its next turn instead of pulling it toward you."
+			]
+		},
+		{
+			"name": "Mother's Embrace",
+			"source": "Hergard",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "World Tree",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"At 1st level, you can call your patron to embrace and restore you. As a reaction to taking damage, you can sink into the ground so that you are fully submerged. While underground, you have total cover and are blinded, deafened, and can't breathe. At the start of your next turn, you regain hit points equal to 1d8 + your warlock level, and reappear in the space you previously occupied. If that space isn't empty, you appear in the closest empty space.",
+				"Once you use this feature, you can't do so again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Nature's Ward",
+			"source": "Hergard",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "World Tree",
+			"subclassSource": "Hergard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, your patron gives you the ability to command the environment around you, allowing you to harness it for your allies' protection. As a reaction to an ally within 30 feet of you that you can see being targeted by an attack or effect causing it to make a Dexterity saving throw, you can summon wood, bramble and plants from the earth to momentarily protect them, granting them half cover from the effect, then crumbling back to nothing. You can make this reaction after the ally has been targeted but before the attack roll or saving throw is made."
+			]
+		},
+		{
+			"name": "Sympathetic Photosynthetic",
+			"source": "Hergard",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "World Tree",
+			"subclassSource": "Hergard",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Starting at 10th level, if you spend at least 1 hour in the sunlight, have access to potable water and your skin has touched fertile soil in the past 24 hours, you do not need to eat to survive. Additionally, you become proficient in Constitution saving throws and gain resistance to poison."
+			]
+		},
+		{
+			"name": "Wrath of the Ancients",
+			"source": "Hergard",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "World Tree",
+			"subclassSource": "Hergard",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Starting at 14th level, you can use your bonus action to become assume your true form as a nature spirit for 1 minute. For the duration, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain the effects of both the enlarge/reduce and barkskin spells, without the need to concentrate on either one.",
+						"The first time you take fatal damage for the duration of this feature, the effects of Mother's Embrace immediately trigger. Instead of the normal value, you regain hit points equal to half your maximum hit points.",
+						"When you hit a creature with your thorn whip, you can expend a warlock spell slot to deal 6d8 additional acid damage to the target.",
+						"When you hit a creature with your thorn whip, you can use your bonus action to entangle the target. The creature must succeed on a Strength saving throw, becoming restrained on a failure. A restrained creature can repeat the save using its action, being freed on a success. You can restrain multiple creatures at once in this manner, up to an amount equal to your Charisma modifier."
+					]
+				},
+				"Once you use this feature, you can't use it again until you finish a long rest."
 			]
 		}
 	],
