@@ -11142,6 +11142,59 @@
 				"Sympathetic Photosynthetic|Warlock|PHB|World Tree|Hergard|10",
 				"Wrath of the Ancients|Warlock|PHB|World Tree|Hergard|14"
 			]
+		},
+		{
+			"name": "Hedge Magic",
+			"source": "Hergard",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"shortName": "Hedge Magic",
+			"subclassFeatures": [
+				"Hedge Magic|Wizard|PHB|Hedge Magic|Hergard|2",
+				"On the Fly|Wizard|PHB|Hedge Magic|Hergard|6",
+				"Hardy Magic|Wizard|PHB|Hedge Magic|Hergard|10",
+				"Arcane Conservation|Wizard|PHB|Hedge Magic|Hergard|14"
+			]
+		},
+		{
+			"name": "Martial Arcana",
+			"source": "Hergard",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"shortName": "Martial Arcana",
+			"subclassFeatures": [
+				"Martial Arcana|Wizard|PHB|Martial Arcana|Hergard|2",
+				"Infused Strikes|Wizard|PHB|Martial Arcana|Hergard|6",
+				"Deflect Arcana|Wizard|PHB|Martial Arcana|Hergard|10",
+				"Ideal Technique|Wizard|PHB|Martial Arcana|Hergard|14"
+			]
+		},
+		{
+			"name": "School of Chromatics",
+			"source": "Hergard",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"shortName": "Chromatics",
+			"subclassFeatures": [
+				"School of Chromatics|Wizard|PHB|Chromatics|Hergard|2",
+				"Pigment of Gebleoth|Wizard|PHB|Chromatics|Hergard|6",
+				"Eyes of the Rainbow|Wizard|PHB|Chromatics|Hergard|10",
+				"Arcane Paint|Wizard|PHB|Chromatics|Hergard|10",
+				"Gaudy Explosion|Wizard|PHB|Chromatics|Hergard|14"
+			]
+		},
+		{
+			"name": "School of Herbology",
+			"source": "Hergard",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"shortName": "Herbology",
+			"subclassFeatures": [
+				"School of Herbology|Wizard|PHB|Herbology|Hergard|2",
+				"Tangletrap|Wizard|PHB|Herbology|Hergard|6",
+				"Exposure Therapy|Wizard|PHB|Herbology|Hergard|10",
+				"Growth|Wizard|PHB|Herbology|Hergard|14"
+			]
 		}
 	],
 	"subclassFeature": [{
@@ -24203,6 +24256,635 @@
 				},
 				"Once you use this feature, you can't use it again until you finish a long rest."
 			]
+		},
+		{
+			"name": "Hedge Magic",
+			"source": "Hergard",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Hedge Magic",
+			"subclassSource": "Hergard",
+			"level": 2,
+			"entries": [
+				"While almost all wizards study in formal schools, or under the tutelage of a wise master, some wizards reject traditional arcane schooling and strike out into the world to learn by doing. These rare wizards who hone their craft out in the wilds are referred to as hedge wizards.",
+				"As a hedge wizard, rather then pursue the great heights of arcane magic, you focus on mastering the fundamentals; basic cantrips and low level spells. Though their methods are frowned upon by formal wizard schools, any archmage worthy of his station will reluctantly recognize that hedge wizards are the true masters of low level magic.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Cantrip Savant|Wizard|PHB|Hedge Magic|Hergard|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Self-Taught|Wizard|PHB|Hedge Magic|Hergard|2"
+				}
+			]
+		},
+		{
+			"name": "Cantrip Savant",
+			"source": "Hergard",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Hedge Magic",
+			"subclassSource": "Hergard",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"Beginning at 2nd level when you adopt this tradition you learn some fundamental magic not ususally associated with wizards. Choose a cantrip from any class's spell list. You learn that cantrip, and it doesn't count against your number of cantrips known. If it doesn't appear on the wizard spell list, it is nonetheless a wizard spell for you. You gain an additional cantrip from this feature at 6th, 10th, and 14th levels."
+			]
+		},
+		{
+			"name": "Self-Taught",
+			"source": "Hergard",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Hedge Magic",
+			"subclassSource": "Hergard",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"While formally trained wizards have spent their time mastering one school of magic, you have gained a passing familiarity with all types of magic. Starting at 2nd level, the time you must spend to copy any spell into your Spellbook is halved, and the cost is reduced by 50 gold."
+			]
+		},
+		{
+			"name": "On the Fly",
+			"source": "Hergard",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Hedge Magic",
+			"subclassSource": "Hergard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, your skill with basic magic is second to none. As an action, you can cast a spell from your spellbook of 2nd level or lower that you did not prepare. This ability increases to include 3rd level spells at 10th level, 4th level spells at 14th level, and finally 5th level spells at 18th level.",
+				"You may use this ability a number of times equal to your Intelligence modifier. You regain all uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Hardy Magic",
+			"source": "Hergard",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Hedge Magic",
+			"subclassSource": "Hergard",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"By 10th level, your time spent learning on the road, rather than in a traditional school, has made you hardier than most wizards. When you are forced to make a Constitution saving throw to maintain concentration on a spell, you may add your Intelligence modifier to the roll."
+			]
+		},
+		{
+			"name": "Arcane Conservation",
+			"source": "Hergard",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Hedge Magic",
+			"subclassSource": "Hergard",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Starting at 14th level, when you cast a spell of 4th level or lower, and the spell misses it's target or fails, you regain one expended spell slot. The slot you regain must be of a level lower than the spell slot used to cast the initial spell. This ability applies to all spells of 4th level or lower, even if they are cast with a higher level spell slot.",
+				"At 18th level, this ability can be used with any spell of 5th level or lower."
+			]
+		},
+		{
+			"name": "Martial Arcana",
+			"source": "Hergard",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Martial Arcana",
+			"subclassSource": "Hergard",
+			"level": 2,
+			"entries": [
+				"Some schools of arcane thinking focus on training wizards for war, while others train wizards to embrace a particular school of magic. Other wizards' schools elect to teach wizards to use their time and magic to turn their bodies into weapons.",
+				"Some wizards choose to adapt their extensive education to specialize in alternative uses of Transmutation, Evocation and Abjuration magics, combining them with their physical prowess to further strengthen themselves, with a nearly monastic dedication.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Arcane Martial Training|Wizard|PHB|Martial Arcana|Hergard|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Arcane Unarmed Strikes|Wizard|PHB|Martial Arcana|Hergard|2"
+				}
+			]
+		},
+		{
+			"name": "Arcane Martial Training",
+			"source": "Hergard",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Martial Arcana",
+			"subclassSource": "Hergard",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"Starting when you choose this tradition at 2nd level, you use a constant magic to shield your body. While you do not wear armor or use a shield, your AC becomes 10 + your Dexterity modifier + your Intelligence modifier. If you are incapacitated or if you are within an antimagic field, this effect is suspended.",
+				"Additionally, your fists count as a martial melee weapon worth 1gp for determining the material components of spells that require a weapon, and you can make an unarmed strike if a spell would require you to make an attack with a melee weapon."
+			]
+		},
+		{
+			"name": "Arcane Unarmed Strikes",
+			"source": "Hergard",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Martial Arcana",
+			"subclassSource": "Hergard",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"Also at 2nd level, you can use your magic to guide and strengthen your attacks. You can choose to use Intelligence for attack and damage rolls with unarmed strikes. When you do so, the damage die becomes a d4, and the attack deals force damage. If you take the Attack action on your turn and make an unarmed strike, you can use a bonus action to make another.",
+				"The damage for your arcane unarmed strikes increases when you reach higher wizard levels. At 5th level, the damage of the attack increases by 1d4 (2d4), and again at 11th level (3d4) and 17th level (4d4)."
+			]
+		},
+		{
+			"name": "Infused Strikes",
+			"source": "Hergard",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Martial Arcana",
+			"subclassSource": "Hergard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, you can imbue your fists with one wizard spell that you can cast, then make a single unarmed strike. If the attack hits, the spell attack roll for the imbued spell, or the first one if there are several (subsequent ranged spell attacks are not made at disadvantage), hits the target automatically and is considered to be part of the unarmed attack. The target suffers the attack's normal effects, and is subject to the effects of the spell, expending a spell slot accordingly. If the attack has advantage, the target's initial saving throw against the spell, if there is one, has disadvantage. If the attack misses, the spell has no effect but the spell slot is expended. Area of effect spells originate from the target's space.",
+				"The spell you cast with this feature must have a casting time of 1 action, or require an action to activate if you are already concentrating on it (such as witch bolt), have a range other than self, and be cast using a spell slot between 1st- and 5th-level. Once you use this feature, you cannot use it again until the end of your next turn."
+			]
+		},
+		{
+			"name": "Deflect Arcana",
+			"source": "Hergard",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Martial Arcana",
+			"subclassSource": "Hergard",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"When you reach 10th level, you know how to ward yourself against hostile spells. When you are hit with a spell attack roll, you can use your reaction to reduce the damage by 1d10 + your Intelligence modifier + your Wizard level. If you reduce the damage to 0, you can expend a spell slot of equal level (unless the spell was a cantrip) to cast the spell yourself.",
+				"Alternatively, if you reduce a spell's damage to 0 in this way, you can choose to regain a spell slot equal to the level of the spell you use this feature on. If the spell is of 6th level or higher, you only regain a 5th-level spell slot. You can only absorb a spell in this way once, regaining the ability to do so when you complete a short or long rest."
+			]
+		},
+		{
+			"name": "Ideal Technique",
+			"source": "Hergard",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Martial Arcana",
+			"subclassSource": "Hergard",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"By 14th level, you know how to exceed your limits when you need to. When you use your action to cast a spell, or to use your Infused Strikes feature, you can use a bonus action to make an unarmed strike.",
+				"Additionally, when you use your action to cast a spell of 1st- level or higher, you can use your bonus action to make a number of unarmed strikes equal to the half the level of the spell (rounded up). You can do this once, and regain the ability to do so when you complete a long rest."
+			]
+		},
+		{
+			"name": "School of Chromatics",
+			"source": "Hergard",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Chromatics",
+			"subclassSource": "Hergard",
+			"level": 2,
+			"entries": [
+				"Chromatic wizards see the world as their ever-changing color palette. Emotions are just manifestations of a creature's soul changing color and portals to other dimensions are just the smears between two paintings to them. They yearn to study our world through the color spectrum, using a special school of the arcane known only to them: Chromamancy.",
+				"Some chromatics grow to be world renowned artists who cherish in their success, but some turn to mischief, becoming tricksters who mess with the emotions and feelings of others.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Lore of Colors|Wizard|PHB|Chromatics|Hergard|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Marvelous Paintbrush|Wizard|PHB|Chromatics|Hergard|2"
+				}
+			]
+		},
+		{
+			"name": "Lore of Colors",
+			"source": "Hergard",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Chromatics",
+			"subclassSource": "Hergard",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"Starting at 2nd level, when you reach certain levels in the class, your experiments with the chromatic side of the arcane help you understand your spells better.",
+				"When you find a spell that deals cold, fire, lightning or poison damage, those spells count as spells from the school of Chromamancy. You may write down your Chromamancy spells into your spellbook taking half the material cost as it normally would. These spells count as wizard spells for you."
+			]
+		},
+		{
+			"name": "Marvelous Paintbrush",
+			"source": "Hergard",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Chromatics",
+			"subclassSource": "Hergard",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"Additionally, at 2nd level you conjure a magical paintbrush that helps you shape the world as you please.",
+				"You gain the ability to transform any object's color and pattern as you wish. For each 10 minutes you spend shifting its coloration, you can transform up to 1 square foot of material. Your handiwork slowly fades on non-living material after a day and on living material after an hour has passed.",
+				"A creature can ascertain that the target has been altered with a successful Intelligence (Investigation) check against your Spell Save DC.",
+				"Additionally, you may use this brush to copy Chromamancy spells into your spellbook, thus taking only 10 minutes to copy each.",
+				"You may use this paintbrush as your spellcasting focus.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Artist at work|Wizard|PHB|Chromatics|Hergard|2"
+				}
+			]
+		},
+		{
+			"name": "Artist at work",
+			"source": "Hergard",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Chromatics",
+			"subclassSource": "Hergard",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"Your DM may rule that you need to succeed on a Charisma (Performance) check with a varying DC to complete your arcane work. While painting your party member pink may not require a skill check, camouflaging one might cause more of a a challenge.",
+				"If you are just painting a pretty picture on the city wall, that may not require a check, but if you are trying to hide the entrance of a cave your party is staying in, you are more likely to be asked for a check."
+			]
+		},
+		{
+			"name": "Pigment of Gebleoth",
+			"source": "Hergard",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Chromatics",
+			"subclassSource": "Hergard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, you discover that you can transform the arcane based on its colors. With this knowledge you can alter the color of your spells, thus changing their element.",
+				"When you cast a Chromamancy spell with a spell slot you can substitute the damage type with one other from the list of damage types detailed in Lore of Colors.",
+				"You may use this feature a number of times equal to your Intelligence modifier (minimum of 1). You regain all uses of this feature after you finish a long rest."
+			]
+		},
+		{
+			"name": "Eyes of the Rainbow",
+			"source": "Hergard",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Chromatics",
+			"subclassSource": "Hergard",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"By 10th level your eyes become imbued with the magic of the color spectrum. You take in the colors of everything around you, even in pitch black conditions.",
+				"You gain a special kind of darkvision out to a range of 60 feet. When in dim light you see everything in its original color, and in darkness you see everything in muted, grayish tone.",
+				"If you already have darkvision from your race, its range increases by 30 feet and gains the effect mentioned above."
+			]
+		},
+		{
+			"name": "Arcane Paint",
+			"source": "Hergard",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Chromatics",
+			"subclassSource": "Hergard",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"At 10th level you also gain the ability to splash a group of enemies with arcane paint, hindering their sight.",
+				"As a bonus action on your turn you may summon and splatter arcane paint at targets within a 15-foot cone in front of you. The number of targets equals your Intelligence modifier (minimum of 1). Doused enemies must succeed on a Dexterity saving throw or be blinded until the end of their turn.",
+				"You regain the use of this ability after you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Gaudy Explosion",
+			"source": "Hergard",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Chromatics",
+			"subclassSource": "Hergard",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"When you reach 14th level, you master the elements of color.",
+				"As an action on your turn, you can force the color out of your physical form. Roll 3 times on the Chromatic Spectrum table shown below, rerolling any duplicates. All enemies within a 20-foot-radius sphere centered on you, must make a Dexterity saving throw. On a failed save, each creature takes full damage or half as much on a successful one.",
+				"Additionally, you may spend one use of Pigment of Gebleoth to Saturate one of the unleashed colors, giving it an extra effect. Enemies who succeed on the initial saving throw are not affected by the Saturated effect of the explosion. You must declare which explosion you want to Saturate before rolling for the color.",
+				"Once you use this feature, you can't use it again until you finish a long rest.",
+				{	
+					"type": "table",
+					"caption": "Chromatic Spectrum",
+					"colLabels": [
+						"{@dice d8}",
+						"Effect",
+						""
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-6",
+						"col-6"
+					],
+					"rows": [
+						[
+							"1",
+							"You release the wrath of the color red. Every enemy in range is scorched by flames, suffering 2d6 fire damage.",
+							{
+								"type": "entries",
+								"name": "Saturated.",
+								"entries": [
+									"Burned enemies have disadvantage on their Constitution saving throws until the end of their next turn."
+								]
+							}
+
+						],
+						[
+							"2",
+							"You unleash the freezing power of the color white. Every enemy in range is engulfed in frost crystals, suffering 2d6 cold damage.",
+							{
+								"type": "entries",
+								"name": "Saturated.",
+								"entries": [
+									"Every enemy's legs freeze, taking a 15 feet reduction to their speed until the end of their next turn."
+								]
+							}
+						],
+						[
+							"3",
+							"You let loose a wave of toxic energy with the help of the color green. The veins of every enemy in range are filled with toxins, suffering 2d6 poison damage.",
+							{
+								"type": "entries",
+								"name": "Saturated.",
+								"entries": [
+									"The poison seeps into affected enemies, making them poisoned until the end of their next turn."
+								]
+							}
+						],
+						[
+							"4",
+							"You discharge a voltaic wave of blue color. Every enemy in range is electrocuted, suffering 2d6 lightning damage. ",
+							{
+								"type": "entries",
+								"name": "Saturated.",
+								"entries": [
+									"Foes hit by the lightning damage are electrocuted, stunning them until the end of their next turn."
+								]
+							}
+						],
+						[
+							"5",
+							"You unchain the grim energy of the color black. Every enemy in range is stripped of a part of their life essence, suffering 2d6 necrotic damage.",
+							{
+								"type": "entries",
+								"name": "Saturated.",
+								"entries": [
+									"Enemies feel immense pain, gaining disadvantage on any Dexterity saving throws until the end of their next turn."
+								]
+							}
+						],
+						[
+							"6",
+							"You set free a divine flash of yellow color. Every enemy in range is enveloped in holy light, suffering 2d6 radiant damage. ",
+							{
+								"type": "entries",
+								"name": "Saturated.",
+								"entries": [
+									"Allies that the wizard can see within 60 feet gain temporary hit points equal to the radiant damage dealt by this feature."
+								]
+							}
+						],
+						[
+							"7",
+							"You emit an acidic wave of orange color. Every enemy in range is hit by acrid rays, suffering 2d6 acid damage. ",
+							{
+								"type": "entries",
+								"name": "Saturated.",
+								"entries": [
+									"The acid eats through the enemies' armor, reducing their AC by 2 until the end of their next turn."
+								]
+							}
+						],
+						[
+							"8",
+							"The chromatic explosion's effect echoes through to your next use of the arcane. You gain an extra use of Pigment of Gebleoth that you must use within the next minute. ",
+							{
+								"type": "entries",
+								"name": "Saturated.",
+								"entries": [
+									"Chromatic power envelops you, gaining resistance to all damage until the end of your next turn."
+								]
+							}
+						]
+					]
+				}	
+			]
+		},
+		{
+			"name": "School of Herbology",
+			"source": "Hergard",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Herbology",
+			"subclassSource": "Hergard",
+			"level": 2,
+			"entries": [
+				"The School of Herbology specializes in the conjuration, transformation, and cultivation of plants and fungi, especially those of a magical variety. While you harbor no special connection to the natural world, as a member of this school, you study to unlock the secrets of its magic. Through experimentation and exposure, you learn to control plant life, brew herbal medicines, and even create dangerous floral creatures to attack your enemies.",
+				"In many ways the wizarding equivalent to botany, this arcane tradition is by far the most practically demanding of its kind. Indeed, to encounter a diverse range of plant life, many of its followers double as explorers, apothecaries, gardeners, farmers, or educators seeking specimens from forests, tundras, swamps, and deserts.",
+				"The resurfacing interest in exploring the Witchingwood urged many herbologists to pack up, leave their homes and go out to explore the magical bramble and its vast number of plants and fungi. Some speak of a colorful and chaotic land beyond the woods that could be home to the most magical fauna mankind has ever seen.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Herbology Savant|Wizard|PHB|Herbology|Hergard|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Magic Mushrooms|Wizard|PHB|Herbology|Hergard|2"
+				}
+			]
+		},
+		{
+			"name": "Herbology Savant",
+			"source": "Hergard",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Herbology",
+			"subclassSource": "Hergard",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"Beginning when you choose this school at 2nd level, you gain proficiency in the Nature skill and with a Herbalism Kit.",
+				"In addition, the entangle, locate animals or plants, plant growth, and awaken spells are added to the wizard spell list for you."
+			]
+		},
+		{
+			"name": "Magic Mushrooms",
+			"source": "Hergard",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Herbology",
+			"subclassSource": "Hergard",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"Also at 2nd level, you learn how to weave magic that can grow a troop of tiny mushrooms. Using an action, you can cause magical fungi to sprout in a 5-foot patch on a surface within 30 feet of you that you can see. The fungi can have one of four properties:",
+				{
+					"type": "list",
+					"items": [
+						"The fungi are sensitive to the movements of strangers. If a creature comes within 10 feet of the patch, the fungi continuously emit a piercing squeal until the creature moves out of range. This noise is audible within a 150-foot radius, and wakes up any sleeping creatures in this area. You may choose any amount of creatures to be excluded from this effect.",
+						"The fungi intoxicate others. Creatures within 10 feet of the patch have disadvantage on their saving throws against being charmed or frightened.",
+						"The fungi are covered in luminescent spores. The patch emits bright light in a 10-foot radius. In addition, creatures that move across the patch will be outlined in a bright light that illuminates a 5-foot radius until the end of their next turn.",
+						"The fungi emit spores that aid allies. If a creature of your choice moves within 10 feet of the patch, the fungi emit a cloud of spores that cure the poisoned condition on the creature."
+					]
+				},
+				"The fungi wilt after 1 hour, if they are damaged by fire, or if you use this feature again."
+			]
+		},
+		{
+			"name": "Tangletrap",
+			"source": "Hergard",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Herbology",
+			"subclassSource": "Hergard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, you can conjure a mass of strangling plants to trap those around you. Whenever a creature moves within 20 feet of you, you can use your reaction to force all creatures other than you in a 20-foot radius around you to make a Strength saving throw.",
+				"Targets that fail this save are seized by thick vines, weeds or roots, becoming restrained and unable to breathe or speak until the end of your next turn. A restrained creature can repeat this saving throw as an action, freeing itself on a success.",
+				"Once you use this feature, you can't use it again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Exposure Therapy",
+			"source": "Hergard",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Herbology",
+			"subclassSource": "Hergard",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"By 10th level, your study of the plant world has inured you to many of its hazards. You gain resistance to poison damage, and you have advantage on your saving throws against being poisoned. In addition, you are no longer slowed or damaged by plant-based difficult terrain, and you have advantage on your saving throws against spells which involve creating plants, such as the entangle spell."
+			]
+		},
+		{
+			"name": "Growth",
+			"source": "Hergard",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Herbology",
+			"subclassSource": "Hergard",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"After reaching 14th level, the wrath of nature spell is added to your spellbook if it wasn't already. You may cast this spell once without expending a spell slot. When you cast the spell in this way you also conjure a plant monstrosity called the {@creature Surculus|Hergard}. The surculus cannot leave the area created by wrath of nature and it disappears when the spell ends. Once you cast the spell in this way, you can't do so again until you finish a long rest."
+			]
+		}
+
+	],
+	"monster":[{
+		"name": "Surculus",
+		"size": "L",
+		"type": "plant",
+		"source": "Hergard",
+		"alignment": [
+			"U"
+		],
+		"ac": [
+			{
+				"ac": 17,
+				"from": [
+					"Natural Armor"
+				]
+			}
+		],
+		"hp": {
+			"formula": "13d10 + 39",
+			"average": 110
+		},
+		"speed": {
+			"walk": 40
+		},
+		"str": 18,
+		"dex": 15,
+		"con": 18,
+		"int": 8,
+		"wis": 10,
+		"cha": 3,
+		"passive": 10,
+		"page": 0,
+		"languages": [
+			"understands the languages you speak",
+			"but can't speak"
+		],
+		"languageTags": [
+			"CS"
+		],
+		"senses": [
+			"blindsight 120 ft"
+		],
+		"senseTags": [
+			"B"
+		],
+		"vulnerable": [
+			"acid",
+			"fire"
+		],
+		"resist": [
+			"bludgeoning",
+			"piercing",
+			"thunder"
+		],
+		"immune": [
+			"poison"
+		],
+		"conditionImmune": [
+			"blinded",
+			"charmed",
+			"deafened",
+			"exhaustion",
+			"frightened",
+			"poisoned",
+			"prone"
+		],
+		"trait": [
+			{
+				"name": "False Appearance",
+				"entries": [
+					"While the surculus hides its stinger and stays motionless, it is indistinguishable from a large, decorative plant."
+				]
+			},
+			{
+				"name": "Venomous",
+				"entries": [
+					"The surculus's attacks ignore resistance to poison damage, and treat immunity to poison damage as resistance to poison damage."
+				]
+			}
+		],
+		"traitTags": [
+			"False Appearance"
+		],
+		"action": [
+			{
+				"name": "Multiattack",
+				"entries": [
+					"The surculus makes two sting attacks."
+				]
+			},
+			{
+				"name": "Sting",
+				"entries": [
+					"{@atk mw} {@hit 7} to hit, reach 20 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage plus 13 ({@damage 2d12 }) poison damage and the target must succeed on a {@dc 14} Constitution saving throw or become {@condition poisoned} for 1 minute. If the creature fails its saving throw by 5 or more, it is {@condition stunned} instead. The target can repeat the saving throw at the end of each of its turns, ending the poison and stun on itself on a success."
+				]
+			}
+		],
+		"actionTags": [
+			"Multiattack"
+		],
+		"damageTags": [
+			"P",
+			"I"
+		],
+		"miscTags": [
+			"MW",
+			"RCH"
+		],
+		"conditionInflict": [
+			"stunned",
+			"poisoned"
+		]
 		}
 	],
 	"table": [{
