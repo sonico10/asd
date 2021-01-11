@@ -3310,18 +3310,18 @@
 			{
 				"name": "Charming",
 				"entries": [
-					"Your natural charm gives you proficiency in the Persuasion skill."
+					"Your natural charm gives you proficiency in the {@skill Persuasion} skill."
 				]
 			},
 			{
 				"name": "Lutrinian Combat Training",
 				"entries": [
-					"You have proficiency with spears, slings and tridents."
+					"You have proficiency with {@item spear|phb}, {@item sling|phb} and {@item trident|phb}."
 				]
 			}, {
 				"name": "Tool Proficiencies",
 				"entries": [
-					"You gain proficiency with one of the following tool kits: Carpenter's tools, Tinker's tools, Navigator's tools or Thieves' tools."
+					"You gain proficiency with one of the following tool kits: {@item Carpenter's tools|phb}, {@item Tinker's tools|phb} , {@item Navigator's tools|phb} or {@item Thieves' tools|phb}."
 				]
 			}, {
 				"name": "Languages",
@@ -3495,7 +3495,7 @@
 			{
 				"name": "Call of the Forest",
 				"entries": [
-					" You know the druidcraft cantrip. Once you reach 3rd level, you can cast the entangle spell once. Once you reach 5th level, you can also cast the plant growth spell once. You regain the ability to cast them this way when you finish a long rest. Wisdom is your spellcasting ability for these spells."
+					" You know the {@spell druidcraft|phb} cantrip. Once you reach 3rd level, you can cast the {@spell entangle|phb} spell once. Once you reach 5th level, you can also cast the {@spell plant growth|phb} spell once. You regain the ability to cast them this way when you finish a long rest. Wisdom is your spellcasting ability for these spells."
 				]
 			},
 			{
@@ -3622,7 +3622,7 @@
 					{
 						"name": "Fey Ancestry",
 						"entries": [
-							"You have advantage on saving throws against being charmed, and magic can't put you to sleep."
+							"You have advantage on saving throws against being {@condition charmed}, and magic can't put you to sleep."
 						]
 					}
 				]
@@ -3730,7 +3730,7 @@
 			{
 				"name": "Widowmaker",
 				"entries": [
-					"Some fiends enjoy manipulating their prey, while others prefer to seduce them into an early grave. You have proficiency in either the Persuasion or the Deception skill."
+					"Some fiends enjoy manipulating their prey, while others prefer to seduce them into an early grave. You have proficiency in either the {@skill Persuasion} or the {@skill Deception} skill."
 				]
 			},
 			{
@@ -3845,7 +3845,7 @@
 			{
 				"name": "Toxic Resilience",
 				"entries": [
-					"You gain resistance to poison damage and have advantage on saving throws against being poisoned."
+					"You gain resistance to poison damage and have advantage on saving throws against being {@condition poisoned}."
 				]
 			},
 			{
@@ -3857,7 +3857,7 @@
 			{
 				"name": "Survivalist",
 				"entries": [
-					"You are proficient with scimitars, longbows and daggers."
+					"You are proficient with {@item scimitar|phb}, {@item longbow|phb} and {@item dagger|phb}."
 				]
 			},
 			{
