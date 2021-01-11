@@ -660,7 +660,8 @@
 				"amount": 1
 			}
 		}],
-		"entries": ["A retaliatory bulwark cascades around you in the form of a smoldering veil of cinders. For the duration, when a creature hits you with a melee attack, reduce the damage of the attack by {@dice 1d6}. The attacker takes the same amount of fire damage.", "After three melee attacks are mitigated, the spell ends.", "At the end of each of its turns, the {@condition frightened} target can make another Wisdom saving throw, with disadvantage if it can see you. On a success, the spell ends on the target."],
+		"entries": ["A retaliatory bulwark cascades around you in the form of a smoldering veil of cinders. For the duration, when a creature hits you with a melee attack, reduce the damage of the attack by {@dice 1d6}. The attacker takes the same amount of fire damage.",
+		"After three melee attacks are mitigated, the spell ends."],
 		"entriesHigherLevel": [{
 			"name": "At Higher Levels",
 			"entries": ["When you cast this spell using a spell slot of 3rd or 4th level, the spell can mitigate up to five attacks before ending. When you use a spell slot of 5th level or higher, the reduction and damage also increases by {@dice 1d6}."]
