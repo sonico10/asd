@@ -4895,7 +4895,7 @@
 			"source": "Hergard",
 			"featureType": "Conducting Techniques",
 			"entries": [
-				"You learn how to harness and amplify the roar of a well-placed blow into a violent explosion of sound. When a creature other than yourself within 60 feet of you hits with an attack, you can use your reaction to expend and roll a Bardic Inspiration die. The target of the triggering attack must make a Strength saving throw against your Spell save DC or take thunder damage equal to half of the number rolled and be knocked prone."
+				"You learn how to harness and amplify the roar of a well-placed blow into a violent explosion of sound. When a creature other than yourself within 60 feet of you hits with an attack, you can use your reaction to expend and roll a Bardic Inspiration die. The target of the triggering attack must make a Strength saving throw against your Spell save DC or take thunder damage equal to half of the number rolled and be knocked {@condition prone}."
 			]
 		},
 		{
@@ -4903,7 +4903,7 @@
 			"source": "Hergard",
 			"featureType": "Conducting Techniques",
 			"entries": [
-				"You play a terrifying dirge to accompany a deathblow, striking fear into the hearts of your nearby enemies. When an ally brings a creature within 60 feet to 0 hitpoints, you can use your reaction to expend and roll a Bardic Inspiration die. Select a number of creatures within 15 feet of the triggering ally equal to half of the number rolled (minimum 1). Each target must make a Wisdom saving throw against your Spell save DC or becomed frightened of the triggering ally until the end of that ally's next turn. After the effect ends, or the save is successful, targeted creatures are immune to Dirge of Dread for the next 24 hours."
+				"You play a terrifying dirge to accompany a deathblow, striking fear into the hearts of your nearby enemies. When an ally brings a creature within 60 feet to 0 hitpoints, you can use your reaction to expend and roll a Bardic Inspiration die. Select a number of creatures within 15 feet of the triggering ally equal to half of the number rolled (minimum 1). Each target must make a Wisdom saving throw against your Spell save DC or becomed {@ condition frightened} of the triggering ally until the end of that ally's next turn. After the effect ends, or the save is successful, targeted creatures are immune to Dirge of Dread for the next 24 hours."
 			]
 		},
 		{
@@ -5119,7 +5119,7 @@
 			"source": "Hergard",
 			"featureType": "Maneuvers",
 			"entries": [
-				"When you hit a creature with a weapon attack, you can expend one superiority die to attempt to knock the target down. You add the superiority die to the attack's damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you knock the target prone."
+				"When you hit a creature with a weapon attack, you can expend one superiority die to attempt to knock the target down. You add the superiority die to the attack's damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you knock the target {@condition prone}."
 			]
 		},
 		{
@@ -5177,7 +5177,7 @@
 			"source": "Hergard",
 			"featureType": "Additional Maneuvers",
 			"entries": [
-				"When you hit a creature with a weapon attack, you can expend one superiority die to attempt to frighten the target. You add the superiority die to the attack's damage roll, and the target must make a Wisdom saving throw. On a failed save, it is frightened of you until the end of your next turn."
+				"When you hit a creature with a weapon attack, you can expend one superiority die to attempt to frighten the target. You add the superiority die to the attack's damage roll, and the target must make a Wisdom saving throw. On a failed save, it is {@condition frightened} of you until the end of your next turn."
 			]
 		},
 		{
@@ -5193,7 +5193,7 @@
 			"source": "Hergard",
 			"featureType": "Additional Maneuvers",
 			"entries": [
-				"Immediately after you hit a creature with a melee weapon attack on your turn, you can expend one superiority die and use a bonus action to grapple the target. Add the superiority die to your Strength (Athletics) check. The target is also restrained while grappled in this way."
+				"Immediately after you hit a creature with a melee weapon attack on your turn, you can expend one superiority die and use a bonus action to grapple the target. Add the superiority die to your Strength (Athletics) check. The target is also {@condition restrained} while grappled in this way."
 			]
 		},
 		{
@@ -5249,7 +5249,7 @@
 			"source": "Hergard",
 			"featureType": "Trick Shots",
 			"entries": [
-				"When you make a firearm attack against a creature, you can expend one grit point to attempt to topple a moving target. On a hit, the creature suffers normal damage and must make a Strength saving throw or be knocked prone."
+				"When you make a firearm attack against a creature, you can expend one grit point to attempt to topple a moving target. On a hit, the creature suffers normal damage and must make a Strength saving throw or be knocked {@condition prone}."
 			]
 		},
 		{
@@ -5268,14 +5268,14 @@
 					"type": "list",
 					"items": [
 						"If your Strength score is less than your Wisdom score, your Strength score raises to become equal.",
-						"When you cast a spell of 1st level or higher while in this form, your next melee weapon attack while in The Bear form deals an additional 1d6 radiant damage per level of spell slot expended, up to a maximum of 4d6. The bonus damage does not stack, if you cast a spell while you already have the bonus, you must choose which bonus damage to keep."
+						"When you cast a spell of 1st level or higher while in this form, your next melee weapon attack while in The Bear form deals an additional {@dice 1d6} radiant damage per level of spell slot expended, up to a maximum of {@dice 4d6}. The bonus damage does not stack, if you cast a spell while you already have the bonus, you must choose which bonus damage to keep."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Ascendance.",
 					"entries": [
-						"For 1 minute, your melee attacks deal an additional 2d4 radiant damage."
+						"For 1 minute, your melee attacks deal an additional {@dice 2d4} radiant damage."
 					]
 				}
 			]
@@ -5296,7 +5296,7 @@
 					"type": "entries",
 					"name": "Ascendance.",
 					"entries": [
-						"For 1 minute, when you are hit by a creature within 5 feet of you, they take 2d6 radiant damage."
+						"For 1 minute, when you are hit by a creature within 5 feet of you, they take {@dice 2d6} radiant damage."
 					]
 				}
 			]
@@ -5326,7 +5326,7 @@
 					"type": "entries",
 					"name": "Ascendance.",
 					"entries": [
-						"For 1 minute, you create a 15-foot-radius whirlpool centered on a point you can see within 30 feet. This area is difficult terrain for any creatures other than you and any creature other than you that starts its turn in the area must make a Strength saving throw or be pulled under the water, taking 2d8 bludgeoning damage and being knocked prone. On a successful save, they take half damage and are not knocked prone."
+						"For 1 minute, you create a 15-foot-radius whirlpool centered on a point you can see within 30 feet. This area is difficult terrain for any creatures other than you and any creature other than you that starts its turn in the area must make a Strength saving throw or be pulled under the water, taking {@dice 2d8} bludgeoning damage and being knocked {@condition prone}. On a successful save, they take half damage and are not knocked {@condition prone}."
 					]
 				}
 			]
@@ -5426,7 +5426,7 @@
 					"items": [
 						"Your speed increases by 10 feet.",
 						"You can move through difficult terrain normally.",
-						"You can use your action to sting a target within 10 feet of you. The target must succeed on a Constitution saving throw or become paralyzed for one minute. The target can repeat the save at the start of each of its turns. On a successful save, the target is immune to this effect for 24 hours. Once you leave The Scorpion form, this condition ends."
+						"You can use your action to sting a target within 10 feet of you. The target must succeed on a Constitution saving throw or become {@condition paralyzed} for one minute. The target can repeat the save at the start of each of its turns. On a successful save, the target is immune to this effect for 24 hours. Once you leave The Scorpion form, this condition ends."
 					]
 				},
 				{
@@ -5455,7 +5455,7 @@
 					"items": [
 						"You may add your proficiency bonus to any Charisma (Deception) checks.",
 						"A number of targets of your choice equal to your proficiency bonus cannot see this Constellation Form and won't know you are using it.",
-						"When you hit a creature with a melee attack in this form, you can use your bonus action to force the target to make a Constitution saving throw. On a failed save, the target it poisoned and on a successful save the target is immune to this effect for the next minute. The poisoned creature can repeat the save at the start of each of its turns. Once you leave The Snake form, this condition ends."
+						"When you hit a creature with a melee attack in this form, you can use your bonus action to force the target to make a Constitution saving throw. On a failed save, the target it {@condition poisoned} and on a successful save the target is immune to this effect for the next minute. The poisoned creature can repeat the save at the start of each of its turns. Once you leave The Snake form, this condition ends."
 					]
 				},
 				{
