@@ -25079,7 +25079,7 @@
 		"range": "40/160",
 		"reload": 1,
 		"missfire": 1,
-		"dmg1": "1d8",
+		"dmg1": "{@dice 1d8}",
 		"dmgType": "P",
 		"value": 5000,
 		"firearm": true,
