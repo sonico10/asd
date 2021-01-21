@@ -25064,7 +25064,7 @@
 			["00","King of Spades","Your Intelligence score is increased by 1d10 for 24 hours."]
 		]
 	}],
-	"baseitem": [{
+	"item": [{
 		"name": "Palm Pistol",
 		"source": "Hergard",
 		"type": "R",
