@@ -10888,7 +10888,7 @@
 			"shortName": "Dreamwalker",
 			"subclassFeatures": [
 				"Dreamwalker|Sorcerer|PHB|Dreamwalker|Hergard|1",
-				"Lucid Dreamer|Sorcerer|PHB|Dreamwalker|Hergard|6",
+				"Lucid Dreams|Sorcerer|PHB|Dreamwalker|Hergard|6",
 				"Slumbering Nightmare|Sorcerer|PHB|Dreamwalker|Hergard|14",
 				"The Awoken Dream|Sorcerer|PHB|Dreamwalker|Hergard|18"
 			]
@@ -21437,7 +21437,7 @@
 			"entries": [
 				"As you hone your abilities, you learn how to channel ki to manifest different forms of light.",
 				"You learn the dancing lights cantrip and can cast it without material components. As you gain levels in this class, you gain the ability to cast certain spells shown in the table below, by spending a number of ki points equal to their level. Your spellcasting ability for these spells is Wisdom. When cast in this way, these spells don't require material components.",
-{
+				{
 					"type": "table",
 					"caption": "Solar Manifestations",
 					"colLabels": [
@@ -21495,7 +21495,7 @@
 			"entries": [
 				"At 6th level, you gain the ability to channel your ki into a searing wave of energy.",
 				"Immediately after you take the Attack action on your turn, you can spend 2 ki points to make one special attack as a bonus action. This special attack is in the shape of a radiant arc, represented by a 15-foot-wide, 5-foot-long line in front of you.",
-				"Each creature in the area must make a Dexterity saving throw. A creature takes radiant damage equal to three rolls of your martial arts die on a failed save, or half as much damage on a successful one.","You can spend additional ki points to increase the damage dealt by this attack. Each additional ki point you spend increases the amount of martial arts dice rolled by 1. The maximum number of ki points (2 plus any additional points) that you can spend in order to increase this damage is equal to your proficiency bonus."
+				"Each creature in the area must make a Dexterity saving throw. A creature takes radiant damage equal to three rolls of your martial arts die on a failed save, or half as much damage on a successful one.", "You can spend additional ki points to increase the damage dealt by this attack. Each additional ki point you spend increases the amount of martial arts dice rolled by 1. The maximum number of ki points (2 plus any additional points) that you can spend in order to increase this damage is equal to your proficiency bonus."
 			]
 		},
 		{
@@ -22165,27 +22165,27 @@
 					"rows": [
 						[
 							"1st",
-							"{@spell sleep|phb}"
+							"{@spell command|phb},{@spell inflict wounds|phb},{@spell celkilor's syphon|Hergard}"
 						],
 						[
 							"3rd",
-							"{@spell phantasmal force|phb}"
+							"{@spell protection from poison|phb},{@spell warding bond|phb}"
 						],
 						[
 							"5th",
-							"{@spell catnap|xge}"
+							"{@spell life transference|xge},{@spell vampiric touch|phb}"
 						],
 						[
 							"7th",
-							"{@spell hallucinatory terrain|PHB}"
+							"{@spell blight|PHB},{@spell compulsion|phb}"
 						],
 						[
 							"9th",
-							"{@spell dream|PHB}"
+							"{@spell contagion|PHB},{@spell scrying|phb}"
 						],
 						[
 							"11th",
-							"{@spell mental prison|xge}"
+							"{@spell dark rune of garamar|Hergard},{@spell harm|phb}"
 						]
 					]
 				}
@@ -22202,7 +22202,7 @@
 			"header": 1,
 			"entries": [
 				"When you choose this origin at 1st level, your hit point maximum increases by 1, and it increases by 1 again whenever you gain a level in this class.",
-				"Additionally, you gain an additional amount of hit dice equal to your Charisma modifier."
+				"Additionally, you gain an additional amount of hit dice equal to your Constitution modifier."
 			]
 		},
 		{
@@ -22230,7 +22230,9 @@
 			"header": 2,
 			"entries": [
 				"At 6th level, you can enter a sacrificial state called the \"dreering\" as a bonus action. The dreering lasts for 1 minute or until you end it as a bonus action. While dreering you may cast spells of 1st-level or higher using your arcane blood instead of spell slots. You are only able to cast spells in this way of a level up to half the highest level of spell slot you have.",
-				"For example if you are a 13th level sorcerer, you can cast spells using your crimson that are of 3rd level or lower. Whenever you cast a spell using this feature and you roll damage for a spell you cast, you can reroll any roll of 1 on the damage dice, but you must use the new roll, even if it is another 1 and you reduce your current and maximum hit points by a number of d8s equal to the spell's level. The reduction of your maximum hit points lasts until the next dawn.",
+				"For example if you are a 13th level sorcerer, you can cast spells using your crimson that are of 3rd level or lower.",
+				"Every time you cast a spell in this way, roll a number of d8s equal to the spell's level. Add the dice together and reduce your current and maximum hit points by the result. The reduction of your maximum hit points lasts until the next dawn.",
+				"Whenever you cast a spell using this feature and you roll damage for the spell, you can reroll any roll of 1 on the damage dice, but you must use the new roll.",
 				"If you become unconscious while dreering, the effects of this feature cease to work until you finish a long rest."
 			]
 		},
@@ -22244,7 +22246,7 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"At 14th level, you are immune to disease and poison and become harder to destroy due to your arcane blood. When you are reduced to 0 hit points but not killed outright, you may spend a sorcery point as a reaction and spend a Hit Die, adding your Constitution modifier to the roll. If the total is above 5, you are brought to 1 hit point instead and regain twice the rolled amount of hit points.",
+				"At 14th level, you are immune to disease and poison and become harder to destroy due to your arcane blood. When you are reduced to 0 hit points but not killed outright, you can use your reaction to spend a hit die, rolling it. If the result is above a 3, you are brought to 1 hit point instead and regain hit points equal to twice the number rolled plus your Constitution modifier.",
 				"You regain the use of this ability when you finish a long rest."
 			]
 		},
@@ -22258,8 +22260,8 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"Starting at 18th level, you can syphon the blood from creatures around you, creating a temporary shield around your body. As an action you may pull the crimson out of creatures within a 20-foot-sphere around you. You may choose a number of creatures equal to 2 + your Charisma modifier. Each selected creature must make a Constitution saving throw. On a failure a creature takes 3d12 necrotic damage and you gain 2d10 temporary hit points. On a success the creature takes half damage but you don't gain temporary hit points.",
-				"You regain the use of this ability when you finish a short or long rest."
+				"Starting at 18th level, you can syphon the blood from creatures around you, creating a temporary shield around your body. As an action you may pull the crimson out of creatures within a 20-foot-sphere around you. You may choose a number of creatures equal to 2 + your Charisma modifier. Each selected creature must make a Constitution saving throw. On a failure a creature takes 3d12 necrotic damage, or half as much on a successful one.",
+				"For each creature that failed the saving throw you gain 1d10 temporary hit points.", "You regain the use of this ability when you finish a long rest."
 			]
 		},
 		{
@@ -22282,11 +22284,7 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Radical Dreamer|Sorcerer|PHB|Dreamwalker|Hergard|1"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Bedside Whisperer|Sorcerer|PHB|Dreamwalker|Hergard|1"
+					"subclassFeature": "Dream Voyager|Sorcerer|PHB|Dreamwalker|Hergard|1"
 				}
 			]
 		},
@@ -22301,11 +22299,11 @@
 			"header": 1,
 			"entries": [
 				"As you delve into and examine the dreams of yours and others, you gradually gain more and more influence over the Dreaming, allowing you to harness its magical energy.",
-				"Starting at 1st level, you learn additional spells when you reach certain levels in this class, as shown in the table below. These spells count as sorcerer spells for you, but don't count against the number of sorcerer spells you know.",
-				"Additionally, you learn the ludmilla's dream shape cantrip.",
+				"You learn additional spells when you reach certain levels in this class, as shown on the Dreaming Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know.",
+				"Whenever you gain a sorcerer level, you can replace one spell you gained from this feature with another spell of the same level. The new spell must be a conjuration or a divination spell from the sorcerer, warlock, or wizard spell list.",
 				{
 					"type": "table",
-					"caption": "Dreamwalker Bloodline Spells",
+					"caption": "Dreaming Spells",
 					"colLabels": [
 						"Sorcerer Level",
 						"Spell"
@@ -22317,34 +22315,34 @@
 					"rows": [
 						[
 							"1st",
-							"{@spell sleep|phb}"
+							"{@spell identify|phb},{@spell sleep|phb},{@spell ludmilla's dream shape|Hergard}"
 						],
 						[
 							"3rd",
-							"{@spell phantasmal force|phb}"
+							"{@spell nystul's magic aura|phb},{@spell phantasmal force|phb}"
 						],
 						[
 							"5th",
-							"{@spell catnap|xge}"
+							"{@spell catnap|xge},{@spell wall of sand|xge}"
 						],
 						[
 							"7th",
-							"{@spell hallucinatory terrain|PHB}"
+							"{@spell hallucinatory terrain|PHB},{@spell phantasmal killer|phb}"
 						],
 						[
 							"9th",
-							"{@spell dream|PHB}"
+							"{@spell dream|PHB},{@spell legend lore|phb}"
 						],
 						[
 							"11th",
-							"{@spell mental prison|xge}"
+							"{@spell heroes' feast|phb},{@spell mental prison|xge}"
 						]
 					]
 				}
 			]
 		},
 		{
-			"name": "Radical Dreamer",
+			"name": "Dream Voyager",
 			"source": "Hergard",
 			"className": "Sorcerer",
 			"classSource": "PHB",
@@ -22354,36 +22352,21 @@
 			"header": 1,
 			"entries": [
 				"When you choose this origin at 1st level, your immense experience within the realm of dreams allows you to more easily coax those of the waking world into sleep. Whenever you cast the sleep spell, you may ignore the verbal and somatic components of the spell and its die size is increased from a d8 to a d10. At 14th level, this increases to a d12. You can also choose to maintain concentration on the magical sleep to increase its duration to up to 1 hour.",
-				"Whenever you cast a 5th-level spell or higher that renders someone unconscious, magical immunity no longer provides immunity against that spell."
+				"Additionally, you can cast detect thoughts once per long rest without expending a spell slot. When cast it in this way, the target must be an unconscious individual, but they will be unaware of the spell's effects."
 			]
 		},
 		{
-			"name": "Bedside Whisperer",
-			"source": "Hergard",
-			"className": "Sorcerer",
-			"classSource": "PHB",
-			"subclassShortName": "Dreamwalker",
-			"subclassSource": "Hergard",
-			"level": 1,
-			"header": 1,
-			"entries": [
-				"Also at 1st level, you can open your mind to those who are unconscious and can influence the decisions they may make while awake.",
-				"You may communicate with and have advantage on Charisma checks against unconscious individuals as if they were awake, without risk of waking them up. When they do wake, they will remember your words clearly.",
-				"Additionally, you can cast detect thoughts on an unconscious individual once per long rest. When cast in this way, the target is unaware."
-			]
-		},
-		{
-			"name": "Lucid Dreamer",
+			"name": "Lucid Dreams",
 			"source": "Hergard",
 			"className": "Sorcerer",
 			"classSource": "PHB",
 			"subclassShortName": "Dreamwalker",
 			"subclassSource": "Hergard",
 			"level": 6,
-			"header": 2,
+			"header": 1,
 			"entries": [
 				"At 6th level, you have mastered the ability to bolster yourself within your lucid dreams. You have also learned to help the willing into a state of slumber, should it not come easily to them.",
-				"Whenever you finish a long rest, choose one of the dream options below. This is how you spent your lucid dream. Until you finish another long rest, you gain the benefits listed that correspond with the dream you chose:",
+				"Whenever you finish a long rest, choose one of the dream options below. Your choice reflects the topic and effects of the lucid dream you experienced while asleep. Until you finish another long rest, you gain the benefits listed that correspond with the dream you chose:",
 				{
 					"type": "entries",
 					"name": "Worldly.",
@@ -22404,8 +22387,7 @@
 					"entries": [
 						"You have spent your lucid dream in deep reflection and contemplation about the nature of the world, magic, and your place in it. You are proficient in Wisdom saving throws and gain proficiency in Wisdom (Insight) if you do not already have it."
 					]
-				},
-				"Additionally, when you attempt to cast any spell that results in the target falling unconscious, and the target is a willing participant, you no longer need to expend a spell slot to cast the spell."
+				}
 			]
 		},
 		{
@@ -22420,7 +22402,7 @@
 			"entries": [
 				"Starting at 14th level, you have attuned yourself to the will of the nightmares who sometimes visit your dreams and can rally them to your side to harm dreamers nearby.",
 				"As an action, you may cause any creature within 60 feet of you that you can see to make a Wisdom saving throw. On a failed save, all targets fall unconscious. Creatures who fall unconscious from this ability wake up after 1 hour or immediately if they suffer damage from any source. Once you use this ability you must finish a long rest before you can do so again.",
-				"Whenever an unconscious creature you can see would be dealt damage, you may expend up to 5 sorcery points. If you do, increase the damage dealt by 1d6 per sorcery point spent."
+				"Additionally, whenever an unconscious creature you can see would be dealt damage, you may use your reaction to expend up to 5 sorcery points. For each sorcery point spent, the target suffers an additional 1d8 psychic damage as it is tormented by horrible nightmares."
 			]
 		},
 		{
@@ -22433,10 +22415,17 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"At 18th level, you have become a being of waking dreams, fully embracing your Novori heritage, and never truly awake or asleep. You no longer need to sleep to gain the benefits of a long rest.",
-				"You may also choose to change the bolstering effect granted to you by your Lucid Dreamer feature at any time by spending 2 sorcery points and ten minutes in meditation.",
-				"Additionally, you know the imprisonment spell, though you may only cast it using its Slumber effect. You can have up to five simultaneous instances of the Slumber effect of imprisonment active at a time. If you cast the spell on a new target while you have five instances in effect, the oldest spell ends. This spell is a sorcerer spell for you and doesn't count against your number of spells known.",
-				"Furthermore, whenever you expend a spell slot to cast a spell that could make someone fall unconscious and the targets for whatever reason resist falling unconscious, that target immediately suffers 2d6 psychic damage."
+				"At 18th level, you have become a being of waking dreams, fully embracing your Novori heritage, and never truly awake or asleep. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You no longer need to sleep to gain the benefits of a long rest.",
+						"You may choose to change the bolstering effect granted to you by your Lucid Dreams feature at any time by spending 2 sorcery points and one minute in meditation.",
+						"You know the imprisonment spell, though you may only cast it using its Slumber effect. It is a sorcerer spell for you and doesn't count against your number of spells known. You can have up to five simultaneous instances of the Slumber effect of imprisonment active at a time. If you cast the spell on a new target while you have five instances in effect, the oldest spell ends."
+
+					]
+				}
+				
 			]
 		},
 		{
@@ -22469,7 +22458,7 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Your magical abilities originate with one of the Feywild's faerie courts: Summer, Spring, Autumn, or Winter, each representing different personalities, philosophies, and appearances based on the state of the world during their respective seasons. At 1st level, you learn to speak, read and write Sylvan and you choose which court you are aligned with, gaining one of the following proficiencies depending on your court:",
+				"Your magical abilities originate with one of the Feywild's faerie courts: Autumn, Spring, Summer, or Winter, each representing different personalities, philosophies, and appearances based on the state of the world during their respective seasons. At 1st level, you learn to speak, read and write Sylvan and you choose which court you are aligned with, gaining one of the following proficiencies depending on your court:",
 				{
 					"type": "table",
 					"colLabels": [
@@ -22482,7 +22471,7 @@
 					],
 					"rows": [
 						[
-							"Autumn", "Persuasion"
+							"Autumn", "Intimidation"
 						],
 						[
 							"Spring", "Performance"
@@ -22491,7 +22480,7 @@
 							"Summer", "Deception"
 						],
 						[
-							"Winter", "Intimidation"
+							"Winter", "Persuasion"
 						]
 					]
 				}
@@ -22507,10 +22496,11 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Your magic originates from your court, granting you knowledge of certain spells. At 1st level, you learn the minor illusion cantrip. It does not count against your total number of cantrips known. You also gain access to a number of special spells linked to that court, detailed in their respective Spell List tables. These spells are added to your sorcerer spell list for you.",
+				"Your magic originates from your court, granting you knowledge of certain spells. You learn additional spells linked to that court when you reach certain levels in this class, as shown in their respective Court Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know.",
+				"Whenever you gain a sorcerer level, you can replace one spell you gained from this feature with another spell of the same level. The new spell must be an enchantment or an illusion spell from the bard, druid or sorcerer spell list.",
 				{
 					"type": "table",
-					"caption": "Autumn Court Spell List",
+					"caption": "Autumn Court Spells",
 					"colLabels": [
 						"Sorcerer Level",
 						"Spell"
@@ -22522,113 +22512,11 @@
 					"rows": [
 						[
 							"1st",
-							"{@spell goodberry|PHB}, {@spell purify food and drink|PHB}"
+							"{@spell hex|PHB}, {@spell ray of sickness|PHB},{@spell rotting gaze|Hergard}"
 						],
 						[
 							"3rd",
-							"{@spell healing spirit|xge}, {@spell lesser restoration|PHB}"
-						],
-						[
-							"5th",
-							"{@spell create food and water|PHB}, {@spell spirit guardians|PHB}"
-						],
-						[
-							"7th",
-							"{@spell aura of life|PHB}, {@spell aura of purity|PHB}"
-						],
-						[
-							"9th",
-							"{@spell awaken|PHB}, {@spell circle of power|PHB}"
-						]
-					]
-				},
-				{
-					"type": "table",
-					"caption": "Spring Court Spell List",
-					"colLabels": [
-						"Sorcerer Level",
-						"Spell"
-					],
-					"colStyles": [
-						"col-2 text-center",
-						"col-10"
-					],
-					"rows": [
-						[
-							"1st",
-							"{@spell cause fear|xge}, {@spell faerie fire|PHB}"
-						],
-						[
-							"3rd",
-							"{@spell calm emotions|PHB}, {@spell enthrall|PHB}"
-						],
-						[
-							"5th",
-							"{@spell conjure animals|PHB}, {@spell phantom steed|PHB}"
-						],
-						[
-							"7th",
-							"{@spell compulsion|PHB}, {@spell hallucinatory terrain|PHB}"
-						],
-						[
-							"9th",
-							"{@spell modify memory|PHB}, {@spell mislead|PHB}"
-						]
-					]
-				},
-				{
-					"type": "table",
-					"caption": "Summer Court Spell List",
-					"colLabels": [
-						"Sorcerer Level",
-						"Spell"
-					],
-					"colStyles": [
-						"col-2 text-center",
-						"col-10"
-					],
-					"rows": [
-						[
-							"1st",
-							"{@spell hellish rebuke|PHB}, {@spell searing smite|PHB}"
-						],
-						[
-							"3rd",
-							"{@spell flame blade|Hergard}, {@spell pyrotechnics|xge}"
-						],
-						[
-							"5th",
-							"{@spell beacon of hope|PHB}, {@spell crusader's mantle|PHB}"
-						],
-						[
-							"7th",
-							"{@spell fire shield|PHB}, {@spell freedom of movement|PHB}"
-						],
-						[
-							"9th",
-							"{@spell dawn|xge}, {@spell flame strike|PHB}"
-						]
-					]
-				},
-				{
-					"type": "table",
-					"caption": "Winter Court Spell List",
-					"colLabels": [
-						"Sorcerer Level",
-						"Spell"
-					],
-					"colStyles": [
-						"col-2 text-center",
-						"col-10"
-					],
-					"rows": [
-						[
-							"1st",
-							"{@spell dissonant whispers|PHB}, {@spell hex|PHB}"
-						],
-						[
-							"3rd",
-							"{@spell moonbeam|PHB}, {@spell ray of enfeeblement|Hergard}"
+							"{@spell ray of enfeeblement|Hergard}, {@spell spike growth|PHB}"
 						],
 						[
 							"5th",
@@ -22636,11 +22524,129 @@
 						],
 						[
 							"7th",
-							"{@spell elemental bane|xge}, {@spell mordenkainen's faithful hound|PHB}"
+							"{@spell blight|PHB}, {@spell shadow of moil|xge}"
 						],
 						[
 							"9th",
-							"{@spell destructive wave|PHB}, {@spell negative energy flood|xge}"
+							"{@spell contagion|PHB}, {@spell insect plague|PHB}"
+						],
+						[
+							"11th",
+							"{@spell eyebite|PHB}, {@spell wall of thorns|PHB}"
+						]
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Spring Court Spells",
+					"colLabels": [
+						"Sorcerer Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell cure wounds|phb}, {@spell goodberry|PHB},{@spell spare the dying|PHB}"
+						],
+						[
+							"3rd",
+							"{@spell lesser restoration|PHB}, {@spell sprout plants|Hergard}"
+						],
+						[
+							"5th",
+							"{@spell beacon of hope|PHB}, {@spell revivify|PHB}"
+						],
+						[
+							"7th",
+							"{@spell aura of life|PHB}, {@spell conjure woodland beings|PHB}"
+						],
+						[
+							"9th",
+							"{@spell mass cure wounds|PHB}, {@spell tree stride|PHB}"
+						],
+						[
+							"11th",
+							"{@spell heal|PHB}, {@spell transport via plants|PHB}"
+						]
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Summer Court Spells",
+					"colLabels": [
+						"Sorcerer Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell faerie fire|PHB}, {@spell hellish rebuke|PHB},{@spell gleaming arrow|Hergard}"
+						],
+						[
+							"3rd",
+							"{@spell geysers|Hergard}, {@spell heat metal|phb}"
+						],
+						[
+							"5th",
+							"{@spell conjure animals|PHB}, {@spell crusader's mantle|PHB}"
+						],
+						[
+							"7th",
+							"{@spell fire shield|PHB}, {@spell freedom of movement|PHB}"
+						],
+						[
+							"9th",
+							"{@spell dawn|xge}, {@spell wrath of nature|xge}"
+						],
+						[
+							"11th",
+							"{@spell roam|Hergard}, {@spell sunbeam|PHB}"
+						]
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Winter Court Spells",
+					"colLabels": [
+						"Sorcerer Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell protection from evil and good|PHB}, {@spell sanctuary|PHB},{@spell purge|Hergard}"
+						],
+						[
+							"3rd",
+							"{@spell calm emotions|PHB}, {@spell gentle repose|PHB}"
+						],
+						[
+							"5th",
+							"{@spell Leomund's tiny hut|PHB}, {@spell magic circle|PHB}"
+						],
+						[
+							"7th",
+							"{@spell aura of purity|phb}, {@spell Otiluke's resilient sphere|PHB}"
+						],
+						[
+							"9th",
+							"{@spell circle of power|PHB}, {@spell dispel evil and good|PHB}"
+						],
+						[
+							"11th",
+							"{@spell contingency|PHB}, {@spell primordial ward|xge}"
 						]
 					]
 				}
@@ -22656,8 +22662,8 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, your innate talent for illusion magic begins to blossom. If you cast a spell of 2nd level or higher on your turn, you can use your bonus action to become invisible until the beginning of your next turn.",
-				"Once you use this feature, you can't use it again until you finish a short or long rest."
+				"At 6th level, your innate talent for illusion magic begins to blossom. When you cast a spell of 1st level or higher on your turn, you can use your bonus action to become invisible until the beginning of your next turn.",
+				"Once you use this feature a number of times equal to your proficiency bonus, you can't use it again until you finish a long rest."
 			]
 		},
 		{
@@ -22673,40 +22679,39 @@
 				"At 14th level, you undergo significant growth within your court, gaining knowledge of your own innate magic. You gain one of the following abilities depending on your court:",
 				{
 					"type": "entries",
-					"name": "Autumn's Bounty.",
+					"name": "Autumn's Rot.",
 					"entries": [
-						"You can conjure a small feast of food and drink as an action on your turn. The magical feast appears as normal food and is enough for up to four small or medium creatures. When a creature that is not hostile to you consumes any of the food or drink, they must succeed on a Wisdom saving throw or become charmed by you for up to 1 hour. This effect ends if the creature is attacked by you or your allies. Once you use this feature, you can't use it again until you finish a long rest."
+						"Your mere presence fills your surroundings with death and decay, and your magic makes your influence more powerful. As an action on your turn, you can spend 4 sorcery points to conjure a garden of rot around you. The garden manifests as a 20-foot radius around you for 1 minute. Any nonmagical plant in the area that isn't a creature, such as a tree or shrub, withers and dies. When you cast a spell that deals necrotic or poison damage while in the area, and you roll a 1 on any damage die, you can reroll the die and must use the new roll, even if the new roll is a 1. When the creature enters the area for the first time on a turn or starts its turn there, it must succeed on a Constitution saving throw or take 3d6 necrotic damage and suffer one level of exhaustion. Any levels of exhaustion caused by the garden fade when the garden disappears."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Spring's Love.",
+					"name": "Spring's Bounty.",
 					"entries": [
-						"When you charm a creature, you can choose to spend 3 sorcery points to empower that charm. A creature under an empowered charm follows your telepathic commands perfectly as long as it is within 120 feet of you. It believes it is taking all of its actions of its own free will. When an empowered charm ends, you can choose whether the target knows that it was charmed or not. An empowered charm does not change the duration or saving throws of the charm effect. Once you use this feature, you can't use it again until you finish a long rest."
+						"You can conjure a lush feast of food and drink akin to celebrations of the fey. As an action on your turn, you can spend 4 sorcery points to cast heroes' feast without material components. When you cast this spell, you can designate a number of creatures equal to your sorcerer level to be exempt from its positive effects and instead if they eat or drink from the feast be forced to succeed on a Wisdom saving throw against your sorcerer Spell save DC or be charmed by you for 1 hour. This effect ends if the creature is harmed by you or your allies."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Summer's Warmth.",
 					"entries": [
-						"You harbor a fierce spirit within you, and you can embolden it when the need arises. As a bonus action on your turn you can grant yourself the following benefits for up to 1 hour:",
+						"You harbor a fierce spirit within you, and you can embolden it when the need arises. As a bonus action on your turn, you can spend 4 sorcery points to grant yourself the following benefits for up to 1 hour:",
 						{
 							"type": "list",
 							"items": [
-								"You gain resistance to fire damage.",
-								"Your speed increases by 10 feet.",
-								"You shed bright light from your body in all directions for 30 feet and dim light for an additional 30 feet.",
-								"Allied creatures visible to you within 30 feet are immune to the effects of extreme cold and gain advantage on saving throws made to resist charm effects."
+								"You gain resistance to cold damage and immunity to fire damage",
+								"Your speed increases by 10 feet",
+								"You shed bright light in a 30-foot radius and dim light for an additional 30 feet",
+								"Allied creatures visible to you within 30 feet are immune to the effects of extreme cold and gain advantage on saving throws made to resist charm and fear effects"
 							]
-						},
-						"Once you use this feature, you can't use it again until you finish a long rest."
+						}
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Winter's Grasp.",
+					"name": "Winter's Serenity.",
 					"entries": [
-						"As an action on your turn you can spend 3 sorcery points to chill a creature you can see within 90 feet until the beginning of your next turn. A chilled creature has disadvantage on Dexterity saving throws and must succeed on a Constitution saving throw against your spell save DC or be forced to use all of its movement to seek warmth on its turn. If the creature is immersed in water or soaking wet as if they had recently been immersed in water, it instead becomes frozen on a failed save and is paralyzed until the beginning of your next turn. Once you use this feature, you can't use it again until you finish a long rest."
+						"You exude a serene aura that you can empower with your magic. As an action on your turn you can spend 4 sorcery points to send out a pacifying wave of fey magic in a 60-foot radius. Each creature of your choice in that area that you can see, must succeed on a Wisdom saving throw against your sorcerer Spell save DC, or drop any weapons it is holding, end its concentration on any spells or other effects, and become charmed by you for 1 minute. The charmed creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, it makes saves against this feature with advantage until next dawn."
 					]
 				}
 			]
@@ -22721,7 +22726,7 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"By 18th level, your fey magic has manifested fully, and your powerful magic allows you to create bridges between the material plane and the Feywild.",
+				"At 18th level, your fey powers manifested fully, and your powerful magic allows you to create bridges between the material plane and the Feywild.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Minor Bridge|Sorcerer|PHB|Fey-Touched|Hergard|18"
@@ -22742,7 +22747,9 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"As an action on your turn you can call fey creatures to your aid, summoning 1d4 pixies, 1d4 sprites, or 1d2 quicklings from a small planar portal within 15 feet of you. They understand Sylvan and will obey your first command to the best of their abilities. Any commands after the first will require a successful DC 14 Charisma (persuasion) check. On a failed check the fey will act of their own accord, returning to the Feywild, causing havoc on the material, or continuing to listen to you as they see fit. The fey will inevitably get bored and begin to defy you after 10 minutes and will attempt to escape your company, even after they have been given a command.",
+				"As an action on your turn you can call fey creatures to your aid. You summon a fey creature of a challenge rating equal to half your sorcerer level (rounded down) or lower. It appears in an unoccupied space that you can see within 90 feet. The fey creature disappears when it drops to 0 hit points.",
+				"The fey creature is friendly to you and your companions for 1 hour. Roll initiative for the creature, which has its own turns. It obeys any verbal commands that you issue to it or defends itself from hostile creatures but otherwise takes no actions if none are issued. After 1 hour, the fey creature disappears.",
+				"If the creature isn't aligned with your court or your commands violate its alignment, it can attempt to make a Charisma saving throw against your sorcerer Spell save DC with disadvantage at the end of each of its turns. On a success, you lose control of the creature.",
 				"Once you use this feature you must finish a long rest before you can use it again."
 			]
 		},
@@ -22756,12 +22763,18 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"You can choose to use this interplanar magic along with a powerful ritual to cover a larger area. If you are within a forest, you can spend 4 hours conducting a ritual to bridge that forest to the Feywild. All forested area within 1 mile of the ritual are linked to the Feywild for 24 hours. You can repeat this ritual once each day for three months in the same place to make effect last permanently, or until it is dispelled by a 9th level dispel magic, or wish spell.",
-				"The appearance of the forest changes to suit your court. A Winter Court Sorcerer could create a forest that reflects the Feywild's dark and cold corners, while one of the Autumn would be colorful and filled with a bounty of fruit and plants.",
-				"The magic of this forest flows freely, making it hard to navigate. All creatures other than you who attempt to travel through this forest must succeed on a Wisdom saving throw against your spell save DC or become magically lost. If you are within the forest, you know the location of any foreign creatures within it. If a creature fails its saving throw and becomes magically lost, you can choose to alter illusory paths and guide it to any location within the forest as long as it continues to travel. You can do this from anywhere within the forest.",
-				"Additionally, all spells of the enchantment and illusion schools cast while within this forest are empowered; saves made to resist their effects are always made at disadvantage.",
-				"Fey creatures flock to this new and different location, assisting you at your call. Once each day as an action, you can summon 1d12 sprites, 1d12 pixies, or 1d10 quicklings, each of which will obey your every command for 24 hours. These fey can leave the forest, but will always return after 24 hours.",
-				"You can only have one forest affected in this way at any given time."
+				"You can use interplanar magic along with a powerful ritual to link the area around you to the realm of the fey. If you are within a forest, you can spend 4 hours conducting a ritual to bridge that forest to the Feywild. All forested area within 1 mile of the ritual are linked to the Feywild for 24 hours. If you conduct this ritual in the same area every day for three months, its effect last permanently, or until it is dispelled by a 9th level dispel magic, or wish spell.",
+				{
+					"type": "list",
+					"items": [
+						"The appearance of the forest changes to suit your court. An Autumn Court Sorcerer could create a forest that reflects the Feywild's dark and cold corners, while one of the Spring Court would be colorful and filled with a bounty of fruit and plants.",
+						"The magic of this forest flows freely, making it hard to navigate. Creatures who attempt to travel through this forest must succeed on a Wisdom saving throw against your Spell save DC or become magically lost. If you are within the forest, you know the location of any foreign creatures within it. If a creature becomes magically lost, you can choose to alter illusory paths and guide it to any location within the forest as long as it continues to travel. You can do this from anywhere within the forest. When conducting the ritual and any time afterwards, you can choose any number of creatures to be exempt from this effect.",
+						"All spells of the enchantment and illusion schools cast while within this forest are empowered. Saves made to resist their effects are always made with disadvantage.",
+						"Lesser fey creatures flock to this new and different location, assisting you at your call. Once each day as an action, you can summon 1d12 sprites, 1d12 pixies, 1d10 darklings or 1d8 quicklings, each of which will obey your every command for 24 hours. These fey can leave the forest, but will always return after 24 hours."
+
+					]
+				},
+				"You can only have one forest affected in this way at any given time."	
 			]
 		},
 		{
@@ -22903,11 +22916,10 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Your link to mother nature allows you to learn spells normally associated with the Druid class. When your Spellcasting feature lets you learn a sorcerer cantrip or a sorcerer spell of 1st level or higher, you can choose the new spell from the druid spell list or the sorcerer spell list. You must otherwise obey all the restrictions for selecting the spell, and it becomes a sorcerer spell for you.",
+				"Your link to mother nature allows you to learn spells normally associated with the druid class. When your Spellcasting feature lets you learn or replace a sorcerer cantrip or a sorcerer spell of 1st level or higher, you can choose the new spell from the druid spell list or the sorcerer spell list. You must otherwise obey all the restrictions for selecting the spell, and it becomes a sorcerer spell for you.",
 				"In addition, choose a biome of nature your powers are most associate with: forest, grassland, swamp, jungle or the fey. You learn an additional spell based on that association, as shown below. It is a sorcerer spell for you, but it doesn't count against your number of sorcerer spells known. If you later replace this spell, you must replace it with a spell from the druid spell list.",
 				{
 					"type": "table",
-					"caption": "Autumn Court Spell List",
 					"colLabels": [
 						"Biome",
 						"Spell"
@@ -23101,10 +23113,12 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"The very magic in your bloodline grants you access to an expanded list of spells. Any spell that might require a god or otherworldly being, you contact the spirits of the Ethereal realm instead. They answer normally as an entity would, though their knowledge might be more limited than a god's (at the DM's discretion). The following spells are added to the sorcerer spell list for you:",
+				"You learn additional spells when you reach certain levels in this class, as shown on the Prophetic Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know.",
+				"Whenever you gain a sorcerer level, you can replace one spell you gained from this feature with another spell of the same level. The new spell must be an abjuration or a divination spell from the sorcerer, warlock, or wizard spell list.",
+				"Any spell that might require a god or otherworldly being, you contact the spirits of the Ethereal realm instead. They answer normally as an entity would, though their knowledge might be more limited than a god's (at the DM's discretion).",
 				{
 					"type": "table",
-					"caption": "Oracle Bloodline Spell List",
+					"caption": "Prophetic Spells",
 					"colLabels": [
 						"Sorcerer Level",
 						"Spell"
@@ -23116,7 +23130,7 @@
 					"rows": [
 						[
 							"1st",
-							"{@spell detect evil and good|PHB}, {@spell identify|PHB}"
+							"{@spell detect evil and good|PHB}, {@spell identify|PHB},{@spell guidance|PHB}"
 						],
 						[
 							"3rd",
@@ -23124,7 +23138,7 @@
 						],
 						[
 							"5th",
-							"{@spell nondetection|PHB}, {@spell speak with dead|PHB}"
+							"{@spell clairvoyance|PHB}, {@spell speak with dead|PHB}"
 						],
 						[
 							"7th",
@@ -23133,6 +23147,10 @@
 						[
 							"9th",
 							"{@spell legend lore|PHB}, {@spell scrying|PHB}"
+						],
+						[
+							"11th",
+							"{@spell contingency|PHB}, {@spell true seeing|PHB}"
 						]
 					]
 				}
@@ -23149,9 +23167,8 @@
 			"header": 1,
 			"entries": [
 				"Starting at 1st level, you gain insight into your enemy's next move.",
-				"If a hostile creature makes a weapon attack against you, you may use your reaction to roll 1d4 and subtract it from the total attack roll. If the attack misses you, the attacker can't make opportunity attacks against you until the start of your next turn. At 14th level, the rolled die changes to 2d4.",
-				"You may use this feature a number of times equal to your Charisma modifier. You regain all uses of this feature when you finish a short or long rest."
-
+				"If a hostile creature makes a weapon attack against you, you may use your reaction to roll 1d4 and subtract it from the attack roll. If the attack misses you, the attacker can't make opportunity attacks against you until the start of your next turn. At 14th level, the rolled die improves to 2d4.",
+				"You may use this feature a number of times equal to your proficiency bonus. You regain all uses of this feature when you finish a short or long rest."
 			]
 		},
 		{
@@ -23164,7 +23181,7 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Also at 1st level, you can cast any sorcerer spell you know as a ritual if that spell has the ritual tag.",
+				"At 1st level, you can cast any sorcerer spell you know as a ritual if that spell has the ritual tag.",
 				"Additionally, you may learn one first level spell that has the ritual tag. It is a sorcerer spell for you, but it doesn't count against your number of sorcerer spells known. If you later replace this spell, you must replace it with a spell that has the ritual tag."
 
 			]
@@ -23180,8 +23197,8 @@
 			"header": 2,
 			"entries": [
 				"At 6th level, your foreseeing powers aid you in dire situations.",
-				"Whenever you fail a Dexterity saving throw by 5 or less, you may glance into your own future to foresee and avoid the danger, instead succeeding on the save. Once you use this feature, you can't use it again until you finish a short or long rest.",
-				"Additionally, if you are surprised at the beginning of combat and aren't incapacitated, you can act normally on your first turn."
+				"Whenever you fail a saving throw by a number equal or less than your proficiency bonus, you may glance into your own future to foresee and avoid the danger, instead succeeding on the save. Once you use this feature, you can't use it again until you finish a short or long rest.",
+				"Additionally, if you are surprised at the beginning of combat and aren't incapacitated, you can act normally on "
 			]
 		},
 		{
@@ -23208,9 +23225,9 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"Starting at 18th level, you can warn your allies of an incoming magical danger, moments before they happen.",
-				"Whenever a hostile creature casts a spell targeting an ally of yours within 60 feet of you, you may use your reaction to alert your companion to said hazard. In doing so you impose disadvantage on the spell attack made against the creature, or advantage on the save the creature has to make against the spell.",
-				"You may use this feature a number of times equal to 1 + your Charisma modifier. You regain all uses of this feature when you finish a long rest."
+				"Starting at 18th level, your divining powers fully manifest, simultaneously seeing into multiple creatures' futures.",
+				"Whenever a creature within 30 feet of you is targeted by an attack or is forced to make a saving throw, you can use your reaction to aid them in avoiding danger. If the creature was targeted by an attack, you force the attacking creature to reroll the attack, using a d12 instead of a d20 for the attack roll. If the creature was forced to make a saving throw, it can add a d12 to its saving throw. If the creature was subjected to an effect that allows them to make a saving throw to take only half damage, they instead take no damage if they succeed on the save.",
+				"You may use this feature a number of times equal to your Charisma modifier. You regain all uses of this feature when you finish a long rest."
 			]
 		},
 		{
@@ -24030,8 +24047,7 @@
 			"subclassSource": "Hergard",
 			"level": 2,
 			"entries": [
-				"While almost all wizards study in formal schools, or under the tutelage of a wise master, some wizards reject traditional arcane schooling and strike out into the world to learn by doing. These rare wizards who hone their craft out in the wilds are referred to as hedge wizards.",
-				"As a hedge wizard, rather then pursue the great heights of arcane magic, you focus on mastering the fundamentals; basic cantrips and low level spells. Though their methods are frowned upon by formal wizard schools, any archmage worthy of his station will reluctantly recognize that hedge wizards are the true masters of low level magic.",
+				"While almost all wizards study in formal schools, or under the tutelage of a wise master, some wizards reject traditional arcane schooling and strike out into the world to learn by doing. These rare few who hone their craft out in the wilds are referred to as hedge wizards. Though their methods are frowned upon by formal wizard schools, any archmage worthy of his station will reluctantly recognize that hedge wizards are the true masters of low level magic.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Cantrip Savant|Wizard|PHB|Hedge Magic|Hergard|2"
@@ -24052,7 +24068,8 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"Beginning at 2nd level when you adopt this tradition you learn some fundamental magic not ususally associated with wizards. Choose a cantrip from any class's spell list. You learn that cantrip, and it doesn't count against your number of cantrips known. If it doesn't appear on the wizard spell list, it is nonetheless a wizard spell for you. You gain an additional cantrip from this feature at 6th, 10th, and 14th levels."
+				"When you adopt this tradition at 2nd level, your unorthodox relationship with arcane magic allows you to you learn fundamental magic not traditionally associated with wizards. You learn one cantrip of your choice from the spell list of any class. It counts as a wizard spell for you, but does not count against your total number of Cantrips Known.",
+				"You learn an additional cantrip of your choice from any spell list when you reach 6th, 10th, and 14th level."
 			]
 		},
 		{
@@ -24065,7 +24082,7 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"While formally trained wizards have spent their time mastering one school of magic, you have gained a passing familiarity with all types of magic. Starting at 2nd level, the time you must spend to copy any spell into your Spellbook is halved, and the cost is reduced by 50 gold."
+				"Starting at 2nd level, your passing familiarity with all schools of magic, and your unique spellbook shorthand allow you to copy spells into your spellbook at a discount. The time you must spend to copy any spell into your spellbook is halved, and the cost of the materials is reduced by 50 gold."
 			]
 		},
 		{
@@ -24078,8 +24095,9 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, your skill with basic magic is second to none. As an action, you can cast a spell from your spellbook of 2nd level or lower that you did not prepare. This ability increases to include 3rd level spells at 10th level, 4th level spells at 14th level, and finally 5th level spells at 18th level.",
-				"You may use this ability a number of times equal to your Intelligence modifier. You regain all uses when you finish a long rest."
+				"At 6th level, your skill with basic magic is second to none, and you have gained the ability to spontaneously cast spells that you haven't prepared. As an action, you can cast any spell from your spellbook of 2nd-level or lower, even if you did not have that spell prepared, expending a spell slot as normal. The spell must have a casting time of one action.",
+				"You may use this ability a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a long rest.",
+				"You can use this ability to cast higher level spells when you reach certain levels in this class: 3rd-level spells at 10th level, 4th-level spells at 14th level, and 5th-level spells at 18th level."
 			]
 		},
 		{
@@ -24092,7 +24110,7 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"By 10th level, your time spent learning on the road, rather than in a traditional school, has made you hardier than most wizards. When you are forced to make a Constitution saving throw to maintain concentration on a spell, you may add your Intelligence modifier to the roll."
+				"At 10th level, learning your magic out in the wild, instead of the controlled environment of a formal school, has made you hardier than most wizards. When you are forced to make a Constitution saving throw to maintain concentration on a spell, you can use your reaction to add your Intelligence modifier (minimum of 1) to the result of the roll."
 			]
 		},
 		{
@@ -24105,8 +24123,8 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Starting at 14th level, when you cast a spell of 4th level or lower, and the spell misses it's target or fails, you regain one expended spell slot. The slot you regain must be of a level lower than the spell slot used to cast the initial spell. This ability applies to all spells of 4th level or lower, even if they are cast with a higher level spell slot.",
-				"At 18th level, this ability can be used with any spell of 5th level or lower."
+				"Starting at 14th level, your deep understanding of fundamentals of low-level magic allows you to recycle arcane energy from failed spells. When you cast a spell of 4th-level or lower and the spell misses it's target or fails, you regain one of your expended spell slots. The spell slot you regain must be of a level lower than the spell slot used to cast the initial spell. This effect applies to all spells of 4th-level or lower, even if they are cast with a higher level spell slot.",
+				"When you reach 18th level in this class, this feature effects any spells of 5th-level or lower."
 			]
 		},
 		{
@@ -24140,7 +24158,7 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"Starting when you choose this tradition at 2nd level, you use a constant magic to shield your body. While you do not wear armor or use a shield, your AC becomes 10 + your Dexterity modifier + your Intelligence modifier. If you are incapacitated or if you are within an antimagic field, this effect is suspended.",
+				"When you adopt this tradition at 2nd level, you use a constant magic to shield your body. While you do not wear armor or use a shield, your AC becomes 10 + your Dexterity modifier + your Intelligence modifier. If you are incapacitated or if you are within an antimagic field, this effect is suspended.",
 				"Additionally, your fists count as a martial melee weapon worth 1gp for determining the material components of spells that require a weapon, and you can make an unarmed strike if a spell would require you to make an attack with a melee weapon."
 			]
 		},
@@ -24231,7 +24249,7 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"Starting at 2nd level, when you reach certain levels in the class, your experiments with the chromatic side of the arcane help you understand your spells better.",
+				"When you adopt this tradition at 2nd level, when you reach certain levels in the class, your experiments with the chromatic side of the arcane help you understand your spells better.",
 				"When you find a spell that deals cold, fire, lightning or poison damage, those spells count as spells from the school of Chromamancy. You may write down your Chromamancy spells into your spellbook taking half the material cost as it normally would. These spells count as wizard spells for you."
 			]
 		},
@@ -24468,8 +24486,8 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"Beginning when you choose this school at 2nd level, you gain proficiency in the Nature skill and with a Herbalism Kit.",
-				"In addition, the entangle, locate animals or plants, plant growth, and awaken spells are added to the wizard spell list for you."
+				"When you adopt this tradition at 2nd level, you gain proficiency in the Nature skill and with a Herbalism Kit.",
+				"In addition, the entangle, locate animals or plants, plant growth, and awaken spells are added to your spellbook."
 			]
 		},
 		{
