@@ -1466,7 +1466,118 @@
 					"source": "Hergard"
 				}]
 			}
-		}, {
+		},
+		{
+			"name": "Friends",
+			"source": "Hergard",
+			"level": 0,
+			"school": "E",
+			"time": [{
+				"number": 1,
+				"unit": "action"
+			}],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [{
+				"type": "timed",
+				"duration": {
+					"type": "minute",
+					"amount": 1
+				},
+				"concentration": true
+			}],
+			"entries": [
+				"For the duration, you have advantage on all Charisma ability checks. Any creature that observes you can attempt a Wisdom (Insight) check against your Spell save DC. On a success, a creature becomes aware that you are using magic to influence it. The consequences of this are at the DM's discretion, but most creatures do not take kindly to such magical trickery, and whatever benefit you might have gained from your successful Charisma checks is reversed."
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [{
+						"name": "Bard",
+						"source": "Hergard"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [{
+						"class": {
+							"name": "Wizard",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Psionics (UA)",
+							"source": "UAFighterRogueWizard"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Love",
+							"source": "Hergard"
+						}
+					}
+				]
+			},
+			"races": [{
+					"name": "Elf (Eladrin)",
+					"source": "UAEladrinAndGith",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Siren",
+					"source": "PSX"
+				},
+				{
+					"name": "Tiefling (Fierna)",
+					"source": "UAFiendishOptions",
+					"baseName": "Tiefling",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Tiefling (Fierna)",
+					"source": "MTF",
+					"baseName": "Tiefling",
+					"baseSource": "PHB"
+				}
+			],
+			"backgrounds": [{
+					"name": "Azorius Functionary",
+					"source": "GGR"
+				},
+				{
+					"name": "Orzhov Representative",
+					"source": "GGR"
+				},
+				{
+					"name": "Selesnya Initiate",
+					"source": "GGR"
+				}
+			]
+		},
+		{
 			"name": "Galvanize",
 			"source": "Hergard",
 			"level": 1,
@@ -22424,7 +22535,7 @@
 
 					]
 				}
-				
+
 			]
 		},
 		{
@@ -22773,7 +22884,7 @@
 
 					]
 				},
-				"You can only have one forest affected in this way at any given time."	
+				"You can only have one forest affected in this way at any given time."
 			]
 		},
 		{
