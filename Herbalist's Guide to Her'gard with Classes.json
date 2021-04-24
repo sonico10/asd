@@ -5462,7 +5462,7 @@
 					"type": "entries",
 					"name": "Ascendance.",
 					"entries": [
-						"As part of this bonus action and for 1 minute, you can use the Hide action as a bonus action, even if you are only lightly obscured."
+						"As part of this bonus action and for 1 minute, you can use the {@action Hide} action as a bonus action, even if you are only lightly obscured."
 					]
 				}
 			]
@@ -5483,7 +5483,7 @@
 					"type": "list",
 					"items": [
 						"Your walking speed is doubled.",
-						"You can take the Dash action as a bonus action.",
+						"You can take the {@action Dash} action as a bonus action.",
 						"If you move at least 30 feet straight toward a target and then hit it with an attack on the same turn, you can roll one additional weapon damage die."
 					]
 				},
@@ -5511,14 +5511,14 @@
 			"entries": [{
 					"type": "list",
 					"items": [
-						"When you activate this form you immediately cast mirror image, ignoring verbal and somatic components. When you leave The Twins form, the spell ends."
+						"When you activate this form you immediately cast {@spell mirror image|PHB}, ignoring verbal and somatic components. When you leave The Twins form, the spell ends."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Ascendance.",
 					"entries": [
-						"For 1 minute, both you and your clones are under the effects of blur."
+						"For 1 minute, both you and your clones are under the effects of {@spell blur|phb}."
 					]
 				}
 			]
@@ -5536,7 +5536,7 @@
 				}
 			}],
 			"entries": [
-				"You roll with the incoming energy, attuning to the element, becoming it. You can spend 1 ki point to cast absorb elements."
+				"You roll with the incoming energy, attuning to the element, becoming it. You can spend 1 ki point to cast {@spell absorb elements|xge}."
 			]
 		},
 		{
@@ -5568,7 +5568,7 @@
 				}
 			}],
 			"entries": [
-				"Your body and mind become as rigid and unyielding as the ground below you. Your ki roots your feet into the ground and you become immovable. When you use the Dodge action, you cannot be moved, pushed, grappled, frightened, or knocked prone against your will until the start of your next turn, even if magically compelled to do so. You must be standing on the ground to use this ability."
+				"Your body and mind become as rigid and unyielding as the ground below you. Your ki roots your feet into the ground and you become immovable. When you use the {@action Dodge} action, you cannot be moved, pushed, grappled, frightened, or knocked prone against your will until the start of your next turn, even if magically compelled to do so. You must be standing on the ground to use this ability."
 			]
 		},
 		{
@@ -5584,7 +5584,7 @@
 				}
 			}],
 			"entries": [
-				"Your arms and legs become enveloped in roaring gouts of flame. When you make an unarmed attack on your turn, you can choose to strike out tendrils of flames which stretch out beyond your normal reach. Your reach increases by 5 feet for that attack, and it deals fire damage instead of bludgeoning damage. If the attack hits, you can spend 1 ki point to deal an extra 1d10 fire damage."
+				"Your arms and legs become enveloped in roaring gouts of flame. When you make an unarmed attack on your turn, you can choose to strike out tendrils of flames which stretch out beyond your normal reach. Your reach increases by 5 feet for that attack, and it deals fire damage instead of bludgeoning damage. If the attack hits, you can spend 1 ki point to deal an extra {@damage 1d10} fire damage."
 			]
 		},
 		{
@@ -5600,7 +5600,7 @@
 				}
 			}],
 			"entries": [
-				"You summon a shard of razor-sharp ice and fling it at your foe. You can spend 1 ki point to cast ice knife."
+				"You summon a shard of razor-sharp ice and fling it at your foe. You can spend 1 ki point to cast {@spell ice knife|xge}."
 			]
 		},
 		{
@@ -5616,7 +5616,7 @@
 				}
 			}],
 			"entries": [
-				"You slam your fists together in front of you, causing a thunderous boom that blows away everything around you. You can spend 1 ki point to cast thunderwave."
+				"You slam your fists together in front of you, causing a thunderous boom that blows away everything around you. You can spend 1 ki point to cast {@spell thunderwave|phb}."
 			]
 		},
 		{
@@ -5648,7 +5648,7 @@
 				}
 			}],
 			"entries": [
-				"Whenever you take the Dash action, until the end of your turn for any movement you make along a surface you can leave a trail of slippery ice. This ice counts as difficult terrain and lasts until the start of your next turn. Enemies that move at least 10 feet on the ice must succeed on a Dexterity saving throw or be knocked prone."
+				"Whenever you take the {@action Dash} action, until the end of your turn for any movement you make along a surface you can leave a trail of slippery ice. This ice counts as difficult terrain and lasts until the start of your next turn. Enemies that move at least 10 feet on the ice must succeed on a Dexterity saving throw or be knocked prone."
 			]
 		},
 		{
@@ -5664,7 +5664,7 @@
 				}
 			}],
 			"entries": [
-				"You shake the ground, causing a tremor that knocks over your foes. You can spend 1 ki point to cast earth tremor."
+				"You shake the ground, causing a tremor that knocks over your foes. You can spend 1 ki point to cast {@spell earth tremor|xge}."
 			]
 		},
 		{
@@ -5680,7 +5680,7 @@
 				}
 			}],
 			"entries": [
-				"You send a blast of air outward with a thrust of your open palm. You can spend 2 ki points to cast gust of wind."
+				"You send a blast of air outward with a thrust of your open palm. You can spend 2 ki points to cast {@spell gust of wind|phb}."
 			]
 		},
 		{
@@ -5696,7 +5696,7 @@
 				}
 			}],
 			"entries": [
-				"You can spend 1 ki point to cast create or destroy water."
+				"You can spend 1 ki point to cast {@spell create or destroy water|phb}."
 			]
 		},
 		{
@@ -5712,7 +5712,7 @@
 				}
 			}],
 			"entries": [
-				"With a wide sweeping gesture, you summon forth a barrage of hot cinders. You can spend 1 ki point to cast burning hands."
+				"With a wide sweeping gesture, you summon forth a barrage of hot cinders. You can spend 1 ki point to cast {@spell burning hands|phb}."
 			]
 		},
 		{
@@ -5728,7 +5728,7 @@
 				}
 			}],
 			"entries": [
-				"You summon a long, rubbery whip of pure water that you grip by one end. You can spend 1 ki point as a bonus action to create a whip of water that shoves and pulls a creature to unbalance it. A creature that you can see that is within 30 feet of you must make a Dexterity saving throw. On a failed save, the creature takes bludgeoning damage equal to your Martial Arts die + your Wisdom modifier, plus an extra 1d10 bludgeoning damage for each additional ki point you spend, and you can either knock it prone or pull it up to 25 feet closer to you. On a successful save, the creature takes half as much damage, and you do not pull it or knock it prone. You can't use Water Whip and cast a spell during the same turn."
+				"You summon a long, rubbery whip of pure water that you grip by one end. You can spend 1 ki point as a bonus action to create a whip of water that shoves and pulls a creature to unbalance it. A creature that you can see that is within 30 feet of you must make a Dexterity saving throw. On a failed save, the creature takes bludgeoning damage equal to your Martial Arts die + your Wisdom modifier, plus an extra {@dice 1d10} bludgeoning damage for each additional ki point you spend, and you can either knock it prone or pull it up to 25 feet closer to you. On a successful save, the creature takes half as much damage, and you do not pull it or knock it prone. You can't use Water Whip and cast a spell during the same turn."
 			]
 		},
 		{
@@ -5760,7 +5760,7 @@
 				}
 			}],
 			"entries": [
-				"You reach out with your ki to snuff out a source of fire, causing it to go out with a bang or to sputter black smoke. You can spend 2 ki points to cast pyrotechnics."
+				"You reach out with your ki to snuff out a source of fire, causing it to go out with a bang or to sputter black smoke. You can spend 2 ki points to cast {@spell pyrotechnics|xge}."
 			]
 		},
 		{
