@@ -1178,6 +1178,75 @@
 				}]
 			}
 		}, {
+			"name": "Entomb",
+			"level": 2,
+			"school": "V",
+			"time": [{
+				"number": 1,
+				"unit": "action"
+			}],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"duration": [{
+				"type": "timed",
+				"duration": {
+					"type": "minute",
+					"amount": 1,
+					"upTo": true
+				},
+				"concentration": true
+			}],
+			"classes": {
+				"fromClassList": [{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [{
+					"class": {
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Conclave of the Frostwarden",
+						"source": "Hergard",
+						"subSubclass": "Conclave of the Frostwarden"
+					}
+				}]
+			},
+			"entries": [
+				"You attempt to encase a Medium or smaller creature that you can see within ice. The creature must make a Constitution saving throw or become encased in ice for the duration. While encased the creature is {@condition incapacitated}, has total cover against attacks and other effects outside the ice and at the end of each of its turns, the target takes {@damage 2d8} cold damage. A creature can repeat the save at the end of each of its turns. On success, the spell ends.",
+				"Dealing 10 or more fire or bludgeoning damage to the ice breaks it, and the target is freed, ending the spell."
+			],
+			"source": "Hergard",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": true
+			},
+			"conditionInflict": [
+				"incapacitated"
+			],
+			"entriesHigherLevel": [{
+				"name": "At Higher Levels",
+				"entries": [
+					"When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@dice 1d8} and the damage requirement to break the ice increases by 5 for each slot level above 1st."
+				]
+			}]
+		}, {
 			"name": "Envenom",
 			"source": "Hergard",
 			"level": 4,
@@ -3844,7 +3913,7 @@
 			{
 				"name": "Devil's Shapechange",
 				"entries": [
-					"You walk amongst everyday folk like you are one of them. You can cast a fiendishly altered version of disguise self at will without expanding a spell slot. Instead of its normal duration, it lasts until you are able to concentrate on it as if it was a spell or until you dismiss the illusion.",
+					"You walk amongst everyday folk like you are one of them. You can cast a fiendishly altered version of disguise self at will, without expending a spell slot. Instead of its normal duration, it lasts until you are able to concentrate on it as if it was a spell or until you dismiss the illusion. While concentrating on this feature all other rules of concentration apply, except you can still concentrate on spells or other features requiring you to do so.",
 					"A creature can recognize your disguise by making a successful Wisdom (Insight) check against your Fiend save DC."
 				]
 			},
@@ -10687,6 +10756,19 @@
 			]
 		},
 		{
+			"name": "Path of the Mistwalker",
+			"source": "Hergard",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"shortName": "Mistwalker",
+			"subclassFeatures": [
+				"Path of the Mistwalker|Barbarian|PHB|Path of the Mistwalker|Hergard|3",
+				"Rain's Boon|Barbarian|PHB|Path of the Mistwalker|Hergard|6",
+				"Lurking Fury|Barbarian|PHB|Path of the Mistwalker|Hergard|10",
+				"Master of the Fog|Barbarian|PHB|Path of the Mistwalker|Hergard|14"
+			]
+		},
+		{
 			"name": "Path of the Red Oak",
 			"source": "Hergard",
 			"className": "Barbarian",
@@ -11158,7 +11240,7 @@
 				"School of Chromatics|Wizard|PHB|Chromatics|Hergard|2",
 				"Pigment of Gebleoth|Wizard|PHB|Chromatics|Hergard|6",
 				"Eyes of the Rainbow|Wizard|PHB|Chromatics|Hergard|10",
-				"Arcane Paint|Wizard|PHB|Chromatics|Hergard|10",
+				"Syphon Chroma|Wizard|PHB|Chromatics|Hergard|10",
 				"Gaudy Explosion|Wizard|PHB|Chromatics|Hergard|14"
 			]
 		},
@@ -11534,7 +11616,7 @@
 					"type": "entries",
 					"name": "Bolt Shooter.",
 					"entries": [
-						"Attacks made with the weapon explode in a burst of light. Hit or miss, the target and each creature within 5 feet of must succeed on a Dexterity saving throw against your artificer spell save DC or take 2d4 radiant damage for a 1st level slot, plus 1d4 for each spell level higher than 1st."
+						"Attacks made with the weapon explode in a burst of light. Hit or miss, the target and each creature within 5 feet of it must succeed on a Dexterity saving throw against your artificer Spell save DC or take 2d4 radiant damage for a 1st level slot, plus 1d4 for each spell level higher than 1st."
 					]
 				},
 				{
@@ -18716,7 +18798,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Starting at 6th level, when you ignite yourself using Fiery Rage, a sheet of basalt covers your body, giving you temporary hit points equal to your barbarian level and advantage on Constitution saving throws."
+				"Starting at 6th level, when you ignite yourself using Fiery Rage, a sheet of basalt covers your body. You gain temporary hit points equal to your barbarian level and you have advantage on Constitution saving throws while you are raging."
 
 			]
 		},
@@ -18731,7 +18813,7 @@
 			"header": 2,
 			"entries": [
 				"Starting at 10th level, whenever you take damage from a melee attack, you may use your reaction to turn the skin at the point of impact into ash. If you do, you have resistance to all damage from that attack.",
-				"You can use this feature a number of times equal to 1 + your Constitution modifier (minimum of once). You regain all expended charges after a long rest."
+				"You can use this feature a number of times equal to your proficiency bonus, and regain all expended uses when you finish a long rest."
 			]
 		}, {
 			"name": "Erupt",
@@ -18743,8 +18825,9 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Starting at 14th level, while you are ignited using Fiery Rage, you are immune to fire damage. Additionally, you may use your action to blow a gout of fire at your enemies from your mouth. Each creature in a 15-foot cone must make a Dext-erity saving throw (DC equal to 8 + your proficiency bonus + your Strength modifier) . A creature takes 6d10 fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren't being worn or carried. Using this feature ends your rage.",
-				"Once you use this feature, you can't use it again until after a long rest."
+				"Starting at 14th level, you can use your action to blow a gout of fire at your enemies from your mouth. Each creature in a 15-foot cone must make a Dexterity saving throw (DC equal to 8 + your proficiency bonus + your Strength modifier). A creature takes 6d10 fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren't being worn or carried.",
+				"Once you use this feature, you can't use it again until you finish a short or long rest.",
+				"Additionally, while you are ignited using Fiery Rage, you are immune to fire damage."
 			]
 		}, {
 			"name": "Path of the Jötunnkyn",
@@ -18860,7 +18943,109 @@
 				"This effect is not considered as casting a spell, nor does it require concentration to maintain and it lasts until your rage ends or you decide to end it at will.",
 				"Additionally, if you successfully grapple a creature that is at least one size category smaller than you while enlarged in this way, it is restrained."
 			]
+		}, 
+		
+		{
+			"name": "Path of the Mistwalker",
+			"source": "Hergard",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Path of the Mistwalker",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"entries": [
+				"The air grows chill as darkness falls across the water, a cold mist rising from the depths of a dark lake. Suddenly the chill is interrupted by the sound of steal, and moments later the deadly dance has come to an end; the watch cut down before they could so much as scream.",
+				"Not all barbarians allow their rage to control them, and so it is with the Mistwalkers. Silently they stalk their prey, letting fear consume them before striking from the mists.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Mistweaver|Barbarian|PHB|Path of the Mistwalker|Hergard|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Dewstride|Barbarian|PHB|Path of the Mistwalker|Hergard|3"
+				}
+			]
+		},
+		{
+			"name": "Mistweaver",
+			"source": "Hergard",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Path of the Mistwalker",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Starting at 3rd level, whenever you enter your rage you can choose to summon a 30-foot diameter sphere of mist originating from you. This mist wraps around corners but does not extend through solid objects, and its area is lightly obscured. While you are in this mist you can forgo any amount of your movement and cause your mist to move that distance instead. Your mist vanishes if you leave its area or your rage ends.",
+				"In addition, creatures of your choice in the mist can attempt to hide even if the mist is the only thing obscuring them from the creature they are attempting to hide from."
+			]
+		},
+		{
+			"name": "Dewstride",
+			"source": "Hergard",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Path of the Mistwalker",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Also at 3rd level, you learn to move through your mist as if you were one. When you begin your rage and as a bonus action on subsequent turns while you rage you can teleport to any location you can see within your mist. You can use this bonus action only if you haven't moved during that turn, and after you use the bonus action, your speed is 0 until the end of the current turn. After teleporting in this way, if you hit a creature with your next attack on the same turn, that creature becomes frightened of you until the end of your next turn. Once you frighten a creature in this way you can't do so again until you rage again."
+			]
+		},
+		{
+			"name": "Rain's Boon",
+			"source": "Hergard",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Path of the Mistwalker",
+			"subclassSource": "Hergard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, your link to the mists grants you special gifts. You learn the create or destroy water, pass without trace, and water walk spells and can cast each of them once without expending a spell slot or material components.",
+				"You regain the ability to do so when you finish a long rest."
+
+			]
+		},
+		{
+			"name": "Lurking Fury",
+			"source": "Hergard",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Path of the Mistwalker",
+			"subclassSource": "Hergard",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Starting at 10th level, your connection to the mists grow, granting you one of the following benefits of your choice:",
+				{
+					"type": "list",
+					"items": [
+						"You can take the Hide action as a bonus action on your turn. This can be the same bonus action you take to enter your rage.",
+						"Creatures of your choice treat your mists area as difficult terrain.",
+						"You score a critical hit against creatures frightened by you on a roll of 18-20."
+
+					]
+				},
+				"Whenever you finish a long rest you can change which effect you benefit from."
+			]
 		}, {
+			"name": "Master of the Fog",
+			"source": "Hergard",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Path of the Mistwalker",
+			"subclassSource": "Hergard",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Starting at 14th level, as an action on your turn while you are raging, you may force a number of creatures of your choice within your mist equal to your proficiency bonus to succeed on a Wisdom saving throw or be frightened of the mist until your rage ends. A creature frightened in this way may repeat their saving throw at the end of each of their turns, ending it on a success. Once you do so you can’t do so again until you rage again. Using your action in this way counts as attacking a hostile creature in terms of maintaining your rage.",
+				"You can use this ability only once per rage.",
+				"Additionally, while you are in your mist you can see anything within its area as if you had blindsight, and can see into the ethereal plane within the same area."
+			]
+		},		
+		{
 			"name": "Path of the Red Oak",
 			"source": "Hergard",
 			"className": "Barbarian",
@@ -24337,7 +24522,7 @@
 			"subclassSource": "Hergard",
 			"level": 2,
 			"entries": [
-				"Chromatic wizards see the world as their ever-changing color palette. Emotions are just manifestations of a creature's soul changing color and portals to other dimensions are just the smears between two paintings to them. They yearn to study our world through the color spectrum, using a special school of the arcane known only to them: Chromamancy.",
+				"Chromatic wizards see the world as their ever-changing color palette. Emotions are just manifestations of a creature's soul changing color and portals to other dimensions are just the smears between two paintings to them. They yearn to study our world through the color spectrum, using a special school of the arcane known only to them: Chromatomancy.",
 				"Some chromatics grow to be world renowned artists who cherish in their success, but some turn to mischief, becoming tricksters who mess with the emotions and feelings of others.",
 				{
 					"type": "refSubclassFeature",
@@ -24360,7 +24545,7 @@
 			"header": 1,
 			"entries": [
 				"When you adopt this tradition at 2nd level, when you reach certain levels in the class, your experiments with the chromatic side of the arcane help you understand your spells better.",
-				"When you find a spell that deals cold, fire, lightning or poison damage, those spells count as spells from the school of Chromamancy. You may write down your Chromamancy spells into your spellbook taking half the material cost as it normally would. These spells count as wizard spells for you."
+				"When you find a spell that deals cold, fire, lightning or poison damage, those spells count as spells from the school of Chromatomancy. You may write down your Chromatomancy spells into your spellbook taking half the material cost as it normally would. These spells count as wizard spells for you."
 			]
 		},
 		{
@@ -24376,7 +24561,7 @@
 				"Additionally, at 2nd level you conjure a magical paintbrush that helps you shape the world as you please.",
 				"You gain the ability to transform any object's color and pattern as you wish. For each 10 minutes you spend shifting its coloration, you can transform up to 1 square foot of material. Your handiwork slowly fades on non-living material after a day and on living material after an hour has passed.",
 				"A creature can ascertain that the target has been altered with a successful Intelligence (Investigation) check against your Spell Save DC.",
-				"Additionally, you may use this brush to copy Chromamancy spells into your spellbook, thus taking only 10 minutes to copy each.",
+				"Additionally, you may use this brush to copy Chromatomancy spells into your spellbook, thus taking only 10 minutes to copy each.",
 				"You may use this paintbrush as your spellcasting focus.",
 				{
 					"type": "refSubclassFeature",
@@ -24409,7 +24594,7 @@
 			"header": 2,
 			"entries": [
 				"At 6th level, you discover that you can transform the arcane based on its colors. With this knowledge you can alter the color of your spells, thus changing their element.",
-				"When you cast a Chromamancy spell with a spell slot you can substitute the damage type with one other from the list of damage types detailed in Lore of Colors.",
+				"When you cast a Chromatomancy spell with a spell slot you can substitute the damage type with one other from the list of damage types detailed in Lore of Colors.",
 				"You may use this feature a number of times equal to your Intelligence modifier (minimum of 1). You regain all uses of this feature after you finish a long rest."
 			]
 		},
@@ -24429,7 +24614,7 @@
 			]
 		},
 		{
-			"name": "Arcane Paint",
+			"name": "Syphon Chroma",
 			"source": "Hergard",
 			"className": "Wizard",
 			"classSource": "PHB",
@@ -24438,9 +24623,9 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"At 10th level you also gain the ability to splash a group of enemies with arcane paint, hindering their sight.",
-				"As a bonus action on your turn you may summon and splatter arcane paint at targets within a 15-foot cone in front of you. The number of targets equals your Intelligence modifier (minimum of 1). Doused enemies must succeed on a Dexterity saving throw or be blinded until the end of their turn.",
-				"You regain the use of this ability after you finish a short or long rest."
+				"At 10th level, you can syphon the color out of an area to fuel your arcane powers.",
+				"As an action on your turn you can drain the color out of a 15-foot cone in front of you. All nonmagical objects in the area are drained of their color becoming monochromatic or shades of grey. Enemies in the area must succeed on a Constitution saving throw or be blinded. A blinded creature can repeat the save at the end of each of their turns.",
+				"You regain spell slots of a combined level equal to the number of creatures that failed the save."
 			]
 		},
 		{
@@ -24454,7 +24639,7 @@
 			"header": 2,
 			"entries": [
 				"When you reach 14th level, you master the elements of color.",
-				"As an action on your turn, you can force the color out of your physical form. Roll 3 times on the Chromatic Spectrum table shown below, rerolling any duplicates. All enemies within a 20-foot-radius sphere centered on you, must make a Dexterity saving throw. On a failed save, each creature takes full damage or half as much on a successful one.",
+				"As an action on your turn, you can force the color out of your physical form, creating a brilliant explosion of chromatic effects. Roll {@dice 1d6} times on the Chromatic Spectrum table shown below, rerolling any duplicates. All enemies within a 20-foot-radius sphere centered on you, must make a Dexterity saving throw. On a failed save, each creature takes full damage or half as much on a successful one.",
 				"Additionally, you may spend one use of Pigment of Gebleoth to Saturate one of the unleashed colors, giving it an extra effect. Enemies who succeed on the initial saving throw are not affected by the Saturated effect of the explosion. You must declare which explosion you want to Saturate before rolling for the color.",
 				"Once you use this feature, you can't use it again until you finish a long rest.",
 				{
@@ -24661,7 +24846,9 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"After reaching 14th level, the wrath of nature spell is added to your spellbook if it wasn't already. You may cast this spell once without expending a spell slot. When you cast the spell in this way you also conjure a plant monstrosity called the {@creature Surculus|Hergard}. The surculus cannot leave the area created by wrath of nature and it disappears when the spell ends. Once you cast the spell in this way, you can't do so again until you finish a long rest."
+				"After reaching 14th level, the wrath of nature spell is added to your spellbook if it wasn't already. You may cast this spell once without expending a spell slot. When you cast the spell in this way you also conjure a plant monstrosity called the {@creature Surculus|Hergard}. The surculus cannot leave the area created by wrath of nature and it disappears when the spell ends.",
+				"The surculus shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the defender can take any action of its choice, not just Dodge.",
+				"Once you cast the spell in this way, you can't do so again until you finish a long rest."
 			]
 		}
 
