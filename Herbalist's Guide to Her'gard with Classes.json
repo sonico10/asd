@@ -1218,12 +1218,11 @@
 				"fromSubclass": [{
 					"class": {
 						"name": "Ranger",
-						"source": "PHB"
+						"source": "Hergard"
 					},
 					"subclass": {
-						"name": "Conclave of the Frostwarden",
-						"source": "Hergard",
-						"subSubclass": "Conclave of the Frostwarden"
+						"name": "Frostwarden",
+						"source": "Hergard"
 					}
 				}]
 			},
@@ -2283,7 +2282,8 @@
 					"source": "PHB"
 				}]
 			}
-		}, {
+		},
+		{
 			"name": "Mordenkainen's Sword",
 			"source": "Hergard",
 			"level": 7,
@@ -2327,6 +2327,42 @@
 					"name": "Wizard",
 					"source": "PHB"
 				}]
+			}
+		},
+		{
+			"name": "Multishot",
+			"level": 1,
+			"school": "T",
+			"time": [{
+				"number": 1,
+				"unit": "bonus"
+			}],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"duration": [{
+				"type": "timed",
+				"duration": {
+					"type": "round",
+					"amount": 1
+				}
+			}],
+			"classes": {
+				"fromClassList": [{
+					"name": "Ranger",
+					"source": "PHB"
+				}]
+			},
+			"entries": [
+				"You touch a piece of ammunition or weapon with the thrown property. A magical duplicate appears superimposed over it for the duration. The first time you make a ranged weapon attack with the empowered item, choose a second target within range of the weapon. Make a separate ranged attack roll for the magically duplicated projectile against the target creature. On a hit, the target takes {@damage 2d8} force damage or half as much damage on a miss, instead of the weapon's normal damage. Once an attack has been made with the piece of ammunition or weapon, the spell ends."
+			],
+			"source": "Hergard",
+			"components": {
+				"v": true,
+				"s": true
 			}
 		}, {
 			"name": "Penance",
@@ -2476,7 +2512,80 @@
 					"source": "PHB"
 				}]
 			}
-		}, {
+		},
+		{
+			"name": "Rain",
+			"level": 1,
+			"school": "C",
+			"time": [{
+				"number": 1,
+				"unit": "action"
+			}],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"duration": [{
+				"type": "timed",
+				"duration": {
+					"type": "minute",
+					"amount": 10,
+					"upTo": true
+				},
+				"concentration": true
+			}],
+			"classes": {
+				"fromClassList": [{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Witch",
+						"source": "Hergard"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [{
+					"class": {
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Quiet One",
+						"source": "Hergard"
+					}
+				}]
+			},
+			"entries": [
+				"Heavy rain falls in a 30-foot-radius, 40-foot-high cylinder centered on a point within range. Until the spell ends, the area is lightly obscured and exposed nonmagical flames in the area are doused. If a creature in the area takes cold damage, its speed is reduced by 10 feet until the end of its next turn."
+			],
+			"source": "Hergard",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"entriesHigherLevel": [{
+				"name": "At Higher Levels",
+				"entries": [
+					"When you cast this spell using a spell slot of 2nd level or higher, the radius of the rain increases by 10 feet for each slot level above 1st."
+				]
+			}]
+		},
+		{
 			"name": "Raw Magic Burst",
 			"source": "Hergard",
 			"level": 8,
@@ -3143,8 +3252,7 @@
 			},
 			"components": {
 				"v": true,
-				"s": true,
-				"m": "a quiver"
+				"s": true
 			},
 			"duration": [{
 				"type": "timed",
@@ -6556,7 +6664,7 @@
 				"patron": "The World Tree"
 			}],
 			"entries": [
-				"You add half your warlock level to the damage of your thorn whip as additional acid damage."
+				"You add half your warlock level to the damage of your {@spell thorn whip|phb} as additional acid damage."
 			]
 		},
 		{
@@ -6786,7 +6894,7 @@
 				"patron": "The World Tree"
 			}],
 			"entries": [
-				"The range of your thorn whip doubles, and so does the distance it can pull a creature. Additionally, you can push a creature away from you, instead of pulling it toward you."
+				"The range of your {@spell thorn whip|phb} doubles, and so does the distance it can pull a creature. Additionally, you can push a creature away from you, instead of pulling it toward you."
 			]
 		},
 		{
@@ -7053,7 +7161,7 @@
 				"patron": "The World Tree"
 			}],
 			"entries": [
-				"You can target and pull a willing ally using your thorn whipwithout damaging them. This movement does not provoke attacks of opportunity."
+				"You can target and pull a willing ally using your {@spell thorn whip|phb} without damaging them. This movement does not provoke attacks of opportunity."
 			]
 		},
 		{
@@ -7203,10 +7311,70 @@
 			"entries": [
 				"You gain a +2 bonus to attack rolls you make with ranged weapons."
 			]
+		},
+		{
+			"name": "Basilisk's Gaze",
+			"source": "Hergard",
+			"featureType": "Magical Trap",
+			"entries": [
+				"If a creature triggers this trap, it must make a Constitution saving throw. On a failed save, the creature takes 2d8 force damage and its speed is 0 until the end of its next turn. It takes half damage on a successful save and its speed isn't reduced.",
+				"At 7th level, regardless of the creature's abilities or magic items, it can't make more than one melee or ranged attack during its turn.",
+				"At 11th level, the trap's damage increases to 4d8 and on a failed save the creature is instead stunned until the end of your next turn."
+			]
+		},
+		{
+			"name": "Cupus' Bite",
+			"source": "Hergard",
+			"featureType": "Magical Trap",
+			"entries": [
+				"If a creature triggers this trap, it must make a Dexterity saving throw. On a failed save, the creature takes 2d8 radiant damage and becomes outlined in light for a number of rounds equal to your Wisdom modifier.",
+				"It takes half damage and isn't outlined on a successful save. While outlined this way, the creature sheds dim light in a 20-foot radius and attack rolls against it gain a bonus equal to your proficiency bonus. An outlined target can repeat their save at the end of each of its turns.",
+				"At 7th level, the outlined creature can't benefit from being invisible.",
+				"At 11th level, the trap's damage increases to 4d8 and the outlined creature can't benefit from cover of any kind."
+			]
+		},
+		{
+			"name": "Eagle Eye",
+			"source": "Hergard",
+			"featureType": "Magical Trap",
+			"entries": [
+				"If a creature triggers this trap, for 1 minute, when you hit it with a weapon attack, the creature takes an extra 1d8 damage of the weapon's type. You can deal this extra damage only once per turn. If a creature triggers this trap on the same turn it is placed, you can make an attack against it as a bonus action.",
+				"At 7th level, your attacks against the target become magical for the purposes of overcoming resistance and immunity.",
+				"At 11th level, your attacks deal 2d8 bonus damage instead."
+			]
+		},
+		{
+			"name": "Harpy Song",
+			"source": "Hergard",
+			"featureType": "Magical Trap",
+			"entries": [
+				"If a creature triggers this trap, it must make a Wisdom saving throw. On a failed save, the creature takes 2d8 psychic damage and becomes charmed by you for a number of rounds equal to your Wisdom modifier. It takes half damage and isn't charmed on a successful save. While charmed in this manner, the creature believes you to be its ally and does you no intentional harm. A charmed target can repeat their save when they are damaged and at the end of each of its turns. When this effect ends, the creature knows it was charmed by you.",
+				"At 7th level, the charmed creature tries to protect you from damage and attacks creatures that try to harm you.",
+				"At 11th level, the trap's damage increases to 4d8 and the charmed creature follows all of your verbal commands unless they would result in their death directly."
+			]
+		},
+		{
+			"name": "Timor Bug's Gas",
+			"source": "Hergard",
+			"featureType": "Magical Trap",
+			"entries": [
+				"If a creature triggers this trap, it must make an Intelligence saving throw. On a failed save, the creature takes 2d8 psychic damage and they are frightened of you for a number of rounds equal to your Wisdom modifier. It takes half damage and isn't frightened on a successful save. A creature frightened in this way is unable to focus on and thus see anything farther than 5 feet away from it. A frightened target can repeat their save at the end of each of its turns.",
+				"At 7th level, the frightened creature must use its movement on each of its turns to move as far as possible from you.",
+				"At 11th level, the trap's damage increases to 4d8 and the frightened creature makes attacks at any creature within 5 feet of it other than you while it is moving away from you."
+			]
+		},
+		{
+			"name": "Viper's Venom",
+			"source": "Hergard",
+			"featureType": "Magical Trap",
+			"entries": [
+				"If a creature triggers this trap, it must make a Constitution saving throw. On a failed save, the creature takes 2d8 poison damage and becomes poisoned for a number of rounds equal to your Wisdom modifier. It takes half damage and isn't poisoned on a successful save.",
+				"At 7th level, the creature takes an additional 1d4 poison damage on each of its turns it is poisoned. The initial and the over time damage of this trap isn't reduced by resistance or immunity to poison damage anymore.",
+				"At 11th level, the trap's damage increases to 4d8 and if a creature fails their save against this trap's poison by 5 or more, it is paralyzed until the end of its next turn."
+			]
 		}
 	],
-	"class": [
-	{
+	"class": [{
 			"name": "Bard",
 			"source": "Hergard",
 			"page": 51,
@@ -10215,8 +10383,52 @@
 						"Storm of Claws and Fangs|Ranger|Hergard|Conclave of the Beastmasters|Hergard|11",
 						"Kin|Ranger|Hergard|Conclave of the Beastmasters|Hergard|15"
 					]
+				},
+				{
+					"name": "Conclave of the Frostwarden",
+					"source": "Hergard",
+					"shortName": "Frostwarden",
+					"subclassFeatures": [
+						"Conclave of the Frostwarden|Ranger|Hergard|Conclave of the Frostwarden|Hergard|3",
+						"Frozen Ward|Ranger|Hergard|Conclave of the Frostwarden|Hergard|7",
+						"Wolf of the Blizzard|Ranger|Hergard|Conclave of the Frostwarden|Hergard|11",
+						"Heart of the Snowstorm|Ranger|Hergard|Conclave of the Frostwarden|Hergard|15"
+					]
+				},
+				{
+					"name": "Conclave of the Hunters",
+					"source": "Hergard",
+					"shortName": "Hunters",
+					"subclassFeatures": [
+						"Conclave of the Hunters|Ranger|Hergard|Conclave of the Hunters|Hergard|3",
+						"Adaptation|Ranger|Hergard|Conclave of the Hunters|Hergard|7",
+						"Flurry|Ranger|Hergard|Conclave of the Hunters|Hergard|11",
+						"Ultimate Hunter|Ranger|Hergard|Conclave of the Hunters|Hergard|15"
+					]
+				},
+				{
+					"name": "Conclave of the Solwatch",
+					"source": "Hergard",
+					"shortName": "Solwatch",
+					"subclassFeatures": [
+						"Conclave of the Solwatch|Ranger|Hergard|Conclave of the Solwatch|Hergard|3",
+						"Luminous Protector|Ranger|Hergard|Conclave of the Solwatch|Hergard|7",
+						"Bane of the Scorched|Ranger|Hergard|Conclave of the Solwatch|Hergard|11",
+						"World on Fire|Ranger|Hergard|Conclave of the Solwatch|Hergard|15"
+					]
+				},
+				{
+					"name": "Conclave of the Starfinders",
+					"source": "Hergard",
+					"shortName": "Starfinders",
+					"subclassFeatures": [
+						"Conclave of the Starfinders|Ranger|Hergard|Conclave of the Starfinders|Hergard|3",
+						"Blinding Brilliance|Ranger|Hergard|Conclave of the Starfinders|Hergard|7",
+						"Crescent Volley|Ranger|Hergard|Conclave of the Starfinders|Hergard|11",
+						"Through the Dark|Ranger|Hergard|Conclave of the Starfinders|Hergard|15"
+					]
 				}
-				
+
 			],
 			"fluff": [{
 					"name": "Ranger",
@@ -11576,8 +11788,8 @@
 			"entries": [
 				"You are an unsurpassed explorer and survivor, both in the wilderness and in dealing with others on your travels. You gain the following benefits below when you reach their respective levels in this class.",
 				{
-							"type": "refClassFeature",
-							"classFeature": "Canny|Ranger|Hergard|1|Hergard"
+					"type": "refClassFeature",
+					"classFeature": "Canny|Ranger|Hergard|1|Hergard"
 				}
 			]
 		},
@@ -11621,12 +11833,12 @@
 			"entries": [
 				"Beginning at 1st level, you have significant experience studying, tracking, hunting, and even talking to a certain type of enemy commonly encountered in the wilds.",
 				{
-							"type": "refClassFeature",
-							"classFeature": "Favored Enemy|Ranger|Hergard|1|Hergard"
+					"type": "refClassFeature",
+					"classFeature": "Favored Enemy|Ranger|Hergard|1|Hergard"
 				},
 				{
-							"type": "refClassFeature",
-							"classFeature": "Ranger's Focus|Ranger|Hergard|1|Hergard"
+					"type": "refClassFeature",
+					"classFeature": "Ranger's Focus|Ranger|Hergard|1|Hergard"
 				}
 			]
 		},
@@ -11662,8 +11874,7 @@
 				{
 					"type": "options",
 					"count": 1,
-					"entries": [
-						{
+					"entries": [{
 							"type": "refOptionalfeature",
 							"optionalfeature": "Defense"
 						},
@@ -11704,12 +11915,12 @@
 			"entries": [
 				"Beginning at 3rd level, your mastery of ranger lore allows you to establish a powerful link to beasts and to the land around you.",
 				{
-							"type": "refClassFeature",
-							"classFeature": "Beast Sympathy|Ranger|Hergard|3|Hergard"
+					"type": "refClassFeature",
+					"classFeature": "Beast Sympathy|Ranger|Hergard|3|Hergard"
 				},
 				{
-							"type": "refClassFeature",
-							"classFeature": "Primal Sense|Ranger|Hergard|3|Hergard"
+					"type": "refClassFeature",
+					"classFeature": "Primal Sense|Ranger|Hergard|3|Hergard"
 				}
 			]
 		},
@@ -11806,8 +12017,8 @@
 			"entries": [
 				"You gain the following benefits:",
 				{
-							"type": "refClassFeature",
-							"classFeature": "Roving|Ranger|Hergard|6|Hergard"
+					"type": "refClassFeature",
+					"classFeature": "Roving|Ranger|Hergard|6|Hergard"
 				}
 			]
 		},
@@ -11840,8 +12051,8 @@
 			"entries": [
 				"You gain the following benefits:",
 				{
-							"type": "refClassFeature",
-							"classFeature": "Tireless|Ranger|Hergard|10|Hergard"
+					"type": "refClassFeature",
+					"classFeature": "Tireless|Ranger|Hergard|10|Hergard"
 				}
 			]
 		},
@@ -11860,7 +12071,7 @@
 			"source": "Hergard",
 			"className": "Ranger",
 			"classSource": "Hergard",
-			"level":10,
+			"level": 10,
 			"entries": [
 				"Starting at 10th level, you can draw on the powers of nature to hide yourself from view briefly. As a bonus action, you can mag­ically become invisible, along with any equipment you are wearing or carrying, until the start of your next turn.",
 				"You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
@@ -11871,7 +12082,7 @@
 			"source": "Hergard",
 			"className": "Ranger",
 			"classSource": "Hergard",
-			"level":14,
+			"level": 14,
 			"entries": [
 				"Starting at 14th level, you can use the Hide action as a bonus action on your turn. Also, you can't be tracked by nonmagical means, unless you choose to leave a trail."
 			]
@@ -11881,7 +12092,7 @@
 			"source": "Hergard",
 			"className": "Ranger",
 			"classSource": "Hergard",
-			"level":18,
+			"level": 18,
 			"entries": [
 				"At 18th level, you gain preternatural senses that help you fight creatures you can't see. When you attack a creature you can't see, your inability to see it doesn't impose disadvantage on your attack rolls against it.",
 				"You are also aware of the location of any invisible creature within 30 feet of you, provided that the creature isn't behind cover and you aren't blinded or deafened."
@@ -11892,15 +12103,15 @@
 			"source": "Hergard",
 			"className": "Ranger",
 			"classSource": "Hergard",
-			"level":20,
+			"level": 20,
 			"entries": [
 				"At 20th level, you become an unparalleled hunter. You can add your Wisdom modifier to any attack and damage roll you make. You can choose to use this feature before or after the roll, but before any effects of the roll are applied.",
 				"Additionally, you can use your Ranger's Focus an unlimited number of times and your attacks against creatures marked by your hunter's mark can't suffer disadvantage."
 			]
 		}
-		
-		
-		
+
+
+
 	],
 	"subclass": [{
 			"name": "Botanist",
@@ -19098,7 +19309,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"When you choose this archetype at 3rd level, you learn magical theory or some of the secrets of nature — typical for practitioners of this elven martial tradition. You choose to gain proficiency in either the Arcana or the Nature skill, and you choose to learn either the prestidigitation or the druidcraft cantrip."
+				"When you choose this archetype at 3rd level, you learn magical theory or some of the secrets of nature — typical for practitioners of this elven martial tradition. You choose to gain proficiency in either the Arcana or the Nature skill, and you choose to learn either the {@spell prestidigitation|PHB} or the {@spell druidcraft|PHB} cantrip."
 			]
 		},
 		{
@@ -23851,7 +24062,7 @@
 			"header": 1,
 			"entries": [
 				"At 3rd level, you create a powerful bond with a spirit of the natural world.",
-				"You call forth an animal spirit who takes physical form as your companion. This special type of beast's lineage stretches back to the beginnings of the world: a primal beast known as a Beast of the Land, Beast of the Sea, or Beast of the Sky. Such a spirit seeks out the type of companionship that a Beastmaster offers, ready for the two of them to battle the imbalances in the natural world. Stories describe primal beasts that mystically change form to align with the spirit of their companion.",
+				"You call forth an animal spirit who takes physical form as your companion. This special type of beast's lineage stretches back to the beginnings of the world: a primal beast known as a {@creature Beast of the Land|Hergard}, {@creature Beast of the Sea|Hergard}, or {@creature Beast of the Sky|Hergard}. Such a spirit seeks out the type of companionship that a Beastmaster offers, ready for the two of them to battle the imbalances in the natural world. Stories describe primal beasts that mystically change form to align with the spirit of their companion.",
 				"When you summon your companion, you decide whether it is a Beast of the Land, Sea or Sky, and determine its appearance. The beast appears in an unoccupied space within 5 feet of you. It is friendly to you and your other companions and obeys your commands. See these creatures' game statistics in their respective stat blocks below.",
 				"If the beast has died within the last hour, you can use your action to touch it and expend a spell slot of 1st level or higher. The beast returns to life after 1 minute with all its hit points restored.",
 				"When you finish a long rest, you can summon a different primal beast. If you already have a beast from this feature, it vanishes when the new beast appears. The beast also vanishes if you die."
@@ -23933,6 +24144,547 @@
 						"When you cast a spell targeting yourself, you can also affect your beast with the spell if the beast is within 30 feet of you."
 					]
 				}
+			]
+		}, {
+			"name": "Conclave of the Frostwarden",
+			"source": "Hergard",
+			"className": "Ranger",
+			"classSource": "Hergard",
+			"subclassShortName": "Conclave of the Frostwarden",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"entries": [
+				"Many rangers are more at home in the wilds than in civilization, to the point where animals consider them kin. Rangers of the Conclave of Frostwarden develop a close bond with a beast, then further strengthen that bond through the use of magic, training and kinship.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Frostwarden Magic|Ranger|Hergard|Conclave of the Frostwarden|Hergard|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Glacial Strikes|Ranger|Hergard|Conclave of the Frostwarden|Hergard|3"
+				}
+			]
+		},
+		{
+			"name": "Frostwarden Magic",
+			"source": "Hergard",
+			"className": "Ranger",
+			"classSource": "Hergard",
+			"subclassShortName": "Conclave of the Frostwarden",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Frostwarden Spells table. The spell counts as a ranger spell for you, but it doesn't count against the number of ranger spells you know.",
+				{
+					"type": "table",
+					"caption": "Frostwarden Spells",
+					"colLabels": [
+						"Ranger Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell ice knife|xge}"
+						],
+						[
+							"5th",
+							"{@spell entomb|Hergard}"
+						],
+						[
+							"9th",
+							"{@spell sleet storm|PHB}"
+						],
+						[
+							"13th",
+							"{@spell ice storm|PHB}"
+						],
+						[
+							"17th",
+							"{@spell cone of cold|PHB}"
+						]
+					]
+				}
+
+			]
+		},
+		{
+			"name": "Glacial Strikes",
+			"source": "Hergard",
+			"className": "Ranger",
+			"classSource": "Hergard",
+			"subclassShortName": "Conclave of the Frostwarden",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"At 3rd level you gain the ability to imbue your weapons and ammunition with true ice. The first time you hit a creature with a weapon attack on your turn, the attack deals an additional 1d6 cold damage. At 11th level, this bonus increases to 2d6.",
+				"Additionally, when you deal cold damage with an attack, you can attempt to engulf a creature in rime. The creature must succeed on a Constitution saving throw against your ranger Spell save DC, or its speed is reduced by 15 feet and it has disadvantage on Dexterity saving throws until the end of its next turn. At 11th level, if a creature fails their save, their speed is 0.",
+				"You can use this feature a number of times equal to your Wisdom modifier (minimum of once) and regain all uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Frozen Ward",
+			"source": "Hergard",
+			"className": "Ranger",
+			"classSource": "Hergard",
+			"subclassShortName": "Conclave of the Frostwarden",
+			"subclassSource": "Hergard",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Beginning at 7th level you use the nearby air to create a frozen shell around your body.",
+				"As a bonus action on your turn, you may encase your armor in a layer of ice. For the next minute, you gain a bonus to your AC equal to your proficiency bonus and you have advantage on checks to escape a grapple until the end of your next turn. You may use this feature a number of times equal to your proficiency bonus, and regain all expended uses after you finish a short or long rest.",
+				"Additionally, you gain resistance to cold damage."
+			]
+		},
+		{
+			"name": "Wolf of the Blizzard",
+			"source": "Hergard",
+			"className": "Ranger",
+			"classSource": "Hergard",
+			"subclassShortName": "Conclave of the Frostwarden",
+			"subclassSource": "Hergard",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"At 11th level, you summon the spirit of the {@creature Vetrulfr|Hergard} as your trusty companion to fight alongside you.",
+				"The wolf always stays by your side, obeys your commands and rolls for initiative like any other creature, but you determine its actions and decisions.",
+				"If you are incapacitated or it drops to 0 hit points, your companion disappears in a cloud of cold mist. You may resummon its essence after you finish a long rest.",
+				"The companion uses the {@creature Vetrulfr|Hergard} statblock and your proficiency bonus (PB) rather than its own. In addition to the areas where it normally uses its proficiency bonus, it also adds its proficiency bonus to its AC and to its damage rolls. You can add your proficiency bonus to any ability check or saving throw that the spirit makes. All of the spirit's attacks count as magical for the purpose of overcoming resistances."
+			]
+		},
+		{
+			"name": "Heart of the Snowstorm",
+			"source": "Hergard",
+			"className": "Ranger",
+			"classSource": "Hergard",
+			"subclassShortName": "Conclave of the Frostwarden",
+			"subclassSource": "Hergard",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"By 15th level, your abilities to manipulate the cold become stronger than ever, mastering the ancient power of winter. This expertise gives you the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You and the {@creature Vetrulfr|Hergard} gain immunity to cold damage.",
+						"Enemies who fail their save against Glacial Strike now freeze in place, becoming stunned until the end of their next turn.",
+						"The {@creature Vetrulfr|Hergard} gains resistance to bludgeoning, piercing, and slashing damage.",
+						"When a creature other than you within 30 feet of you is hit by an attack, you can expend one use of your Frozen Ward feature to give them a bonus to their AC equal to your proficiency bonus."
+					]
+				}
+			]
+		}, {
+			"name": "Conclave of the Hunters",
+			"source": "Hergard",
+			"className": "Ranger",
+			"classSource": "Hergard",
+			"subclassShortName": "Conclave of the Hunters",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"entries": [
+				"Some rangers seek to master survival in the wilds to ambush terrors of the wilderness that seek to harm civilization. Members of the Conclave of the Hunters learn lower forms of magic to further their magical abilities on the fly and specialized fighting techniques for use against the most dire threats, from rampaging ogres and hordes of orcs to towering giants and terrifying dragons.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Huntsman's Magic|Ranger|Hergard|Conclave of the Hunters|Hergard|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Magical Trap|Ranger|Hergard|Conclave of the Hunters|Hergard|3"
+				}
+			]
+		},
+		{
+			"name": "Huntsman's Magic",
+			"source": "Hergard",
+			"className": "Ranger",
+			"classSource": "Hergard",
+			"subclassShortName": "Conclave of the Hunters",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Starting at 3rd level, you learn basic spells to help you survive in the wild alone. You know two cantrips of your choice from the druid spell list. You learn an additional druid cantrip of your choice at 10th and 14th level.",
+				"When you gain a level in this class, you can replace one of the druid cantrips you know with another cantrip from the druid spell list."
+			]
+		},
+		{
+			"name": "Magical Trap",
+			"source": "Hergard",
+			"className": "Ranger",
+			"classSource": "Hergard",
+			"subclassShortName": "Conclave of the Hunters",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Also at 3rd level, you learn how to lay traps of arcane nature for your foes to fall victim to. When you gain this feature, you learn two {@filter Magical Trap|optionalfeatures|feature type=Magical Trap} options of your choice detailed at the end of this conclave's description.",
+				"As an action, you can lay one magical trap of your choice, on an unoccupied solid surface within 15 feet of you, taking effect in a 5-foot-cube area. After it is laid, the trap becomes invisible, blending into its surrounding terrain. If a creature witnesses the trap being set, it can make an Intelligence (Investigation) check contested by your Spell save DC to discern its location. Upon laying the trap you may designate any number of creatures of your choice to be unaffected by it.",
+				"Whenever a Large or smaller creature moves into the trap's space, it triggers, vanishing in the process. A creature can only be under the effects of one of your traps at a time.",
+				"Additionally, if a creature is marked by your hunter's mark when it triggers one of your traps, it takes an additional 1d6 damage from the trap.",
+				"You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a long rest.",
+				"You gain an additional Magical Trap option of your choice when you reach certain levels in this class: 7th, 11th and 15th level."
+			]
+		},
+		{
+			"name": "Adaptation",
+			"source": "Hergard",
+			"className": "Ranger",
+			"classSource": "Hergard",
+			"subclassShortName": "Conclave of the Hunters",
+			"subclassSource": "Hergard",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"By 7th level, you have specialized in defending yourself against a certain type of attack. You gain one of the following features of your choice. Whenever you finish a long rest you can exchange one feature for another from the list below. This change reflects your physical and mental preparation for the day ahead.",
+				{
+					"type": "entries",
+					"name": "Escape the Horde.",
+					"entries": [
+						"Opportunity attacks against you are made with disadvantage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Evasion.",
+					"entries": [
+						"When you are subjected to an effect, such as a red dragon's fiery breath or a lightning bolt spell, that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on a saving throw, and only half damage if you fail."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Multiattack Defense.",
+					"entries": [
+						"When a creature hits you with an attack, you gain a +4 bonus to AC against all subsequent attacks made by that creature for the rest of the turn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Steel Will.",
+					"entries": [
+						"You have advantage on saving throws against being charmed or frightened, and magic can't put you to sleep."
+					]
+				}
+			]
+		},
+		{
+			"name": "Flurry",
+			"source": "Hergard",
+			"className": "Ranger",
+			"classSource": "Hergard",
+			"subclassShortName": "Conclave of the Hunters",
+			"subclassSource": "Hergard",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"At 11th level, your heightened martial capabilities allow you to unleash a hoard of attacks against your enemies. On your turn, you may use one of the following special actions.",
+				{
+					"type": "entries",
+					"name": "Volley.",
+					"entries": [
+						"You can use your action to make a ranged attack against any number of creatures within 10 feet of a point you can see within your weapon's range. You must have ammunition for each target, as normal, and you make a separate attack roll for each target."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Whirlwind Attack.",
+					"entries": [
+						"You can use your action to make melee attacks against any number of creatures within 5 feet of you, with a separate attack roll for each target."
+					]
+				}
+			]
+		},
+		{
+			"name": "Ultimate Hunter",
+			"source": "Hergard",
+			"className": "Ranger",
+			"classSource": "Hergard",
+			"subclassShortName": "Conclave of the Hunters",
+			"subclassSource": "Hergard",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"When you reach 15th level, you are ready to become the apex hunter. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain advantage on attack rolls against creatures who triggered or were damaged by one of your traps within the same round.",
+						"Creatures of any size trigger your traps.",
+						"Your favored enemies make their saving throws against your traps with disadvantage.",
+						"One feature of your choice from Adaptation becomes permanent for you."
+					]
+				}
+			]
+		}, {
+			"name": "Conclave of the Solwatch",
+			"source": "Hergard",
+			"className": "Ranger",
+			"classSource": "Hergard",
+			"subclassShortName": "Conclave of the Solwatch",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"entries": [
+				"Most commonly guardians of the deserts, Solwatch only appear in the woodlands at summertime. They protect the peoples of the golden fields from incoming dark powers and scout the forests only when the sun shines brightest. Keeping a watchful eye upon the caravans of the deserts and protecting the towns near forests in the summertime, Solwatch vow to guard their people. With their bright flaming magic and their mighty weapon the Merecandel, Solwatch take down the forces of evil with searing vengeance.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Ignition|Ranger|Hergard|Conclave of the Solwatch|Hergard|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Watchful|Ranger|Hergard|Conclave of the Solwatch|Hergard|3"
+				}
+			]
+		},
+		{
+			"name": "Ignition",
+			"source": "Hergard",
+			"className": "Ranger",
+			"classSource": "Hergard",
+			"subclassShortName": "Conclave of the Solwatch",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"At 3rd level, you gain the ability to light your weapons and ammunition aflame with your natural magic.",
+				"The first time you hit a creature with a weapon attack on your turn, your attack deals an additional 2d4 fire damage. At 11th level this bonus increases to 4d4 damage."
+			]
+		},
+		{
+			"name": "Watchful",
+			"source": "Hergard",
+			"className": "Ranger",
+			"classSource": "Hergard",
+			"subclassShortName": "Conclave of the Solwatch",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Also at 3rd level, as the sun shines, nothing passes by your watchful eye.",
+				"You gain proficiency in the Perception skill. When in daylight, your proficiency bonus is doubled for any ability check you make that uses this skill and you can't become lost even by magical means.",
+				"Furthermore, you ignore any form of Sunlight Sensitivity."
+			]
+		},
+		{
+			"name": "Luminous Protector",
+			"source": "Hergard",
+			"className": "Ranger",
+			"classSource": "Hergard",
+			"subclassShortName": "Conclave of the Solwatch",
+			"subclassSource": "Hergard",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Beginning at 7th level, your person is imbued with the power of the sun, granting you an edge in battle:",
+
+				"You have resistance to fire damage and whenever you are hit by a melee weapon attack, you may use your reaction to light your armor on fire to the bane of those who stand too close.",
+
+				"While you are aflame in this way, any creature who hits you with a melee weapon attack (including the triggering attack) is blasted with flames, and must make a Constitution saving throw. On a failed save, they take 2d10 fire damage, or half as much on a successful one. This effect lasts until the start of your next turn.",
+
+				"You may use this feature a number of times equal to your proficiency bonus. You regain all uses of this feature after you finish a short or long rest.",
+
+				"At 15th level, your attunement to fire improves. You gain immunity to fire damage."
+			]
+		},
+		{
+			"name": "Bane of the Scorched",
+			"source": "Hergard",
+			"className": "Ranger",
+			"classSource": "Hergard",
+			"subclassShortName": "Conclave of the Solwatch",
+			"subclassSource": "Hergard",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"At 11th level, nothing under the sun can conceal your enemies from your sight.",
+				"When you hit a creature with an attack lit aflame by your Ignition feature, you gain truesight against them for the next minute.",
+				"Additionally, if a creature takes damage from your Ignition feature, the next time you hit that creature on that turn with a weapon attack, all damage dealt by the attack becomes radiant damage."
+			]
+		},
+		{
+			"name": "World on Fire",
+			"source": "Hergard",
+			"className": "Ranger",
+			"classSource": "Hergard",
+			"subclassShortName": "Conclave of the Solwatch",
+			"subclassSource": "Hergard",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"By 15th level, your burning powers become greater than ever before, gaining the ability to evoke the power of Merecandel. The Merecandel is a mighty whip shining with the power of the sun, that can transform into a blazing bow. As a bonus action you can summon this radiant weapon for the next minute in one of the following two stances:",
+				{
+					"type": "entries",
+					"name": "Whip Stance.",
+					"entries": [
+						"The weapon acts as a whip that deals 1d8 slashing damage and its reach is 15 feet instead of 10."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bow Stance.",
+					"entries": [
+						"The weapon acts as a longbow, dealing 1d10 piercing damage. Shots with the weapon don't consume arrows."
+					]
+				},
+				"The weapon gains the following benefits, whichever form it is in:",
+				{
+					"type": "list",
+					"items": [
+						"You may change its stance as a bonus action on each of your turns.",
+						"Each attack you make with this weapon is effected by your Ignition feature.",
+						"While wielding the Merecandel the damage of Ignition is maximized.",
+						"Attacks made with this weapon are considered magical for the purpose of overcoming resistances and immunities, including the damage dealt by Ignition."
+					]
+				},
+				"If you drop or stop grasping the weapon for any reason, it crumbles into ashes.",
+				"You regain the use of this feature after you finish a long rest."
+			]
+		}, {
+			"name": "Conclave of the Starfinders",
+			"source": "Hergard",
+			"className": "Ranger",
+			"classSource": "Hergard",
+			"subclassShortName": "Conclave of the Starfinders",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"entries": [
+				"Rangers who choose this conclave find home in the night sky. They are wayfarers, sailors, and guides, mapping the roads they've traveled and the experiences they've had within the stars. A starfinder's celestial connection allows them to see the night for its true vulnerable and gentle self. What terror lays in the darkest corners of the night are the starfinder's quarry, for the night should provide solace and calmness, not fear.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Starfinder Magic|Ranger|Hergard|Conclave of the Starfinders|Hergard|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Nocturnal Sentinel|Ranger|Hergard|Conclave of the Starfinders|Hergard|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Shooting Star|Ranger|Hergard|Conclave of the Starfinders|Hergard|3"
+				}
+			]
+		},
+		{
+			"name": "Starfinder Magic",
+			"source": "Hergard",
+			"className": "Ranger",
+			"classSource": "Hergard",
+			"subclassShortName": "Conclave of the Starfinders",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Starting at 3rd level, you learn additional spells when you reach certain levels in this class, as shown in the Starfinder Spells table. The spells count as ranger spells for you, and they don't count against the number of ranger spells you know.",
+				{
+					"type": "table",
+					"caption": "Starfinder Spells",
+					"colLabels": [
+						"Ranger Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell guiding bolt|PHB}"
+						],
+						[
+							"5th",
+							"{@spell moonbeam|PHB}"
+						],
+						[
+							"9th",
+							"{@spell spirit guardians|PHB}"
+						],
+						[
+							"13th",
+							"{@spell freedom of movement|PHB}"
+						],
+						[
+							"17th",
+							"{@spell wall of light|xge}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Nocturnal Sentinel",
+			"source": "Hergard",
+			"className": "Ranger",
+			"classSource": "Hergard",
+			"subclassShortName": "Conclave of the Starfinders",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"At 3rd level, the night skies grant you the boon in the form of a ghostly owl that helps in your explorations. The owl is immaterial and shines dim light within 5 feet of it, and it uses the statistics of the owl from the Monster Manual but cannot take the Attack action.",
+				"As an action, you can see through its eyes and hear what it hears until the start of your next turn. During this time, you are deaf and blind with regard to your own senses. As long as it remains within 5 feet of you, you obtain darkvision out to 60 feet and can see through magical darkness. If you already have darkvision, its range increases by 30 feet.",
+				"Additionally, you have become accustomed to the night's embrace. While under the night sky, you always know which way is north and can't become lost, magically or otherwise."
+			]
+		},
+		{
+			"name": "Shooting Star",
+			"source": "Hergard",
+			"className": "Ranger",
+			"classSource": "Hergard",
+			"subclassShortName": "Conclave of the Starfinders",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Beginning 3rd level, you learn to harness the glow of the night sky. As a bonus action, choose one creature you can see within 60 feet of you. The next time you hit that creature on that turn with a weapon attack, it takes an extra 1d8 radiant damage from the attack. When you reach 11th level in this class, the extra damage increases to 2d8.",
+				"Whenever a creature takes radiant damage from this feature, it is illuminated in starlight, and has disadvantage on Dexterity (Stealth) checks until the start of your next turn."
+			]
+		},
+		{
+			"name": "Blinding Brilliance",
+			"source": "Hergard",
+			"className": "Ranger",
+			"classSource": "Hergard",
+			"subclassShortName": "Conclave of the Starfinders",
+			"subclassSource": "Hergard",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"At 7th level, you can call upon the dormant starlight that rests within you to stave off danger. As a reaction when a creature within 60 feet of you targets you with an attack, you can force the attacking creature to make a Constitution saving throw or become blinded until the start of your next turn.",
+				"After you use this feature, you shed bright light in a 30 feet radius, and dim light for an additional 30 feet. This light lasts for 1 minute or until you dismiss it.",
+				"You can use this feature a number of times equal to your Wisdom modifier (minimum of once) and regain expended uses after you complete a long rest."
+			]
+		},
+		{
+			"name": "Crescent Volley",
+			"source": "Hergard",
+			"className": "Ranger",
+			"classSource": "Hergard",
+			"subclassShortName": "Conclave of the Starfinders",
+			"subclassSource": "Hergard",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"Starting at 11th level, your attacks are imbued with divine magic from the moon, bending and curving to seek out your prey with great celerity. Once during each of your turns, you gain advantage on an attack roll against a creature that is illuminated by your Shooting Star feature.",
+				"Additionally, your ranged attacks ignore half cover, three-quarters cover, and total cover. When making a ranged attack against a creature that has total cover, there must be an entryway for the attack to travel and you must be aware of the creature's position"
+			]
+		},
+		{
+			"name": "Through the Dark",
+			"source": "Hergard",
+			"className": "Ranger",
+			"classSource": "Hergard",
+			"subclassShortName": "Conclave of the Starfinders",
+			"subclassSource": "Hergard",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"At 15th level, you are the night's embrace and the shine of the stars, guiding lost souls through the haunting dark. As a bonus action you can tether yourself to willing creatures up to a number equal to your proficiency bonus within 60 feet of you for the next minute. While tethered, at the start of your turns, all creatures tethered to you gain temporary hit points equal to half your ranger level. Additionally, when creatures you are tethered to deal damage, they can deal additional radiant damage equal to your Wisdom modifier (minimum of 1). The tether breaks if a creature is incapacitated, isn't on the same plane as you or moves to a space further than 60 feet away from you.",
+				"You regain the use of this ability when you finish a short or long rest."
 			]
 		},
 		{
@@ -24782,7 +25534,7 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"Starting when you choose this origin at 1st level, your spells call forth the vibrant natural energy of flowers. You learn the druidcraft cantrip, which doesn't count against your number of sorcerer cantrips known. It is considered a sorcerer spell for you.",
+				"Starting when you choose this origin at 1st level, your spells call forth the vibrant natural energy of flowers. You learn the {@spell druidcraft|PHB} cantrip, which doesn't count against your number of sorcerer cantrips known. It is considered a sorcerer spell for you.",
 				"Whenever you cast a spell of 1st level or higher, you can summon a cluster of magical flowers that bloom across your own armour or clothing or that of a creature within 30 feet of you that you can see. You select which type of flowers bloom, with the chosen type of flowers granting their listed benefit to the creature:",
 				{
 					"type": "entries",
@@ -25286,7 +26038,7 @@
 					"rows": [
 						[
 							"1st",
-							"{@spell cure wounds|PHB}, {@spell create or destroy water|PHB}"
+							"{@spell cure wounds|PHB}, {@spell rain|Hergard}"
 						],
 						[
 							"2nd",
@@ -25790,8 +26542,8 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"At 1st level, you become proficient in the Nature skill, the Druidic language, and you learn the thorn whip cantrip if you do not already know it.",
-				"When you hit a creature with your thorn whip, you can elect to reduce its movement speed by half until the end of its next turn instead of pulling it toward you."
+				"At 1st level, you become proficient in the Nature skill, the Druidic language, and you learn the {@spell thorn whip|phb} cantrip if you do not already know it.",
+				"When you hit a creature with your {@spell thorn whip|phb}, you can elect to reduce its movement speed by half until the end of its next turn instead of pulling it toward you."
 			]
 		},
 		{
@@ -25850,8 +26602,8 @@
 					"items": [
 						"You gain the effects of both the enlarge/reduce and barkskin spells, without the need to concentrate on either one.",
 						"The first time you take fatal damage for the duration of this feature, the effects of Mother's Embrace immediately trigger. Instead of the normal value, you regain hit points equal to half your maximum hit points.",
-						"When you hit a creature with your thorn whip, you can expend a warlock spell slot to deal 6d8 additional acid damage to the target.",
-						"When you hit a creature with your thorn whip, you can use your bonus action to entangle the target. The creature must succeed on a Strength saving throw, becoming restrained on a failure. A restrained creature can repeat the save using its action, being freed on a success. You can restrain multiple creatures at once in this manner, up to an amount equal to your Charisma modifier."
+						"When you hit a creature with your {@spell thorn whip|phb}, you can expend a warlock spell slot to deal 6d8 additional acid damage to the target.",
+						"When you hit a creature with your {@spell thorn whip|phb}, you can use your bonus action to entangle the target. The creature must succeed on a Strength saving throw, becoming restrained on a failure. A restrained creature can repeat the save using its action, being freed on a success. You can restrain multiple creatures at once in this manner, up to an amount equal to your Charisma modifier."
 					]
 				},
 				"Once you use this feature, you can't use it again until you finish a long rest."
@@ -26378,113 +27130,371 @@
 
 	],
 	"monster": [{
-		"name": "Surculus",
-		"size": "L",
-		"type": "plant",
-		"source": "Hergard",
-		"alignment": [
-			"U"
-		],
-		"ac": [{
-			"ac": 17,
-			"from": [
-				"Natural Armor"
+			"name": "Surculus",
+			"size": "L",
+			"type": "plant",
+			"source": "Hergard",
+			"alignment": [
+				"U"
+			],
+			"ac": [{
+				"ac": 17,
+				"from": [
+					"Natural Armor"
+				]
+			}],
+			"hp": {
+				"formula": "13d10 + 39",
+				"average": 110
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 18,
+			"dex": 15,
+			"con": 18,
+			"int": 8,
+			"wis": 10,
+			"cha": 3,
+			"passive": 10,
+			"page": 0,
+			"languages": [
+				"understands the languages you speak",
+				"but can't speak"
+			],
+			"languageTags": [
+				"CS"
+			],
+			"senses": [
+				"blindsight 120 ft"
+			],
+			"senseTags": [
+				"B"
+			],
+			"vulnerable": [
+				"acid",
+				"fire"
+			],
+			"resist": [
+				"bludgeoning",
+				"piercing",
+				"thunder"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"poisoned",
+				"prone"
+			],
+			"trait": [{
+					"name": "False Appearance",
+					"entries": [
+						"While the surculus hides its stinger and stays motionless, it is indistinguishable from a large, decorative plant."
+					]
+				},
+				{
+					"name": "Venomous",
+					"entries": [
+						"The surculus's attacks ignore resistance to poison damage, and treat immunity to poison damage as resistance to poison damage."
+					]
+				}
+			],
+			"traitTags": [
+				"False Appearance"
+			],
+			"action": [{
+					"name": "Multiattack",
+					"entries": [
+						"The surculus makes two sting attacks."
+					]
+				},
+				{
+					"name": "Sting",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 20 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage plus 13 ({@damage 2d12 }) poison damage and the target must succeed on a {@dc 14} Constitution saving throw or become {@condition poisoned} for 1 minute. If the creature fails its saving throw by 5 or more, it is {@condition stunned} instead. The target can repeat the saving throw at the end of each of its turns, ending the poison and stun on itself on a success."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P",
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"stunned",
+				"poisoned"
 			]
-		}],
-		"hp": {
-			"formula": "13d10 + 39",
-			"average": 110
 		},
-		"speed": {
-			"walk": 40
+		{
+			"name": "Vetrulfr",
+			"source": "Hergard",
+			"size": "M",
+			"type": "elemental",
+			"alignment": null,
+			"ac": [{
+				"special": "13 + PB (natural armor)"
+			}],
+			"hp": {
+				"special": " 5 + five times your ranger level (the beast has a number of Hit Dice [d8s] equal to your ranger level)"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 16,
+			"dex": 14,
+			"con": 15,
+			"int": 10,
+			"wis": 12,
+			"cha": 8,
+			"passive": 11,
+
+			"languages": [
+				"Common",
+				"Primordial"
+			],
+			"trait": [{
+				"name": "Keen Hearing and Smell.",
+				"entries": [
+					"The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+				]
+			}, {
+				"name": "Proficiency Bonus (PB).",
+				"entries": [
+					"Equals your bonus"
+				]
+			}],
+			"damageTags": [
+				"P",
+				"C"
+			],
+			"languageTags": [
+				"C",
+				"P"
+			],
+			"resist": [
+				"cold"
+			],
+			"traitTags": [
+				"Keen Senses"
+			],
+			"action": [{
+					"name": "Multiattack.",
+					"entries": [
+						"The Vetrulfr makes two bite attacks."
+					]
+				},
+				{
+					"name": "Bite.",
+					"entries": [
+						"{@atk mw} your spell attack modifier to hit, reach 5 ft., one target. {@h} ({@damage 1d6 + 6}) piercing damage damage plus {@damage 1d6} cold damage. If the target is a creature, it must succeed on a {@dc 12} + PB Constitution saving throw or be engulfed in rime as per your Glacial Strikes feature."
+					]
+				}
+			],
+			"miscTags": [
+				"MW"
+			]
 		},
-		"str": 18,
-		"dex": 15,
-		"con": 18,
-		"int": 8,
-		"wis": 10,
-		"cha": 3,
-		"passive": 10,
-		"page": 0,
-		"languages": [
-			"understands the languages you speak",
-			"but can't speak"
-		],
-		"languageTags": [
-			"CS"
-		],
-		"senses": [
-			"blindsight 120 ft"
-		],
-		"senseTags": [
-			"B"
-		],
-		"vulnerable": [
-			"acid",
-			"fire"
-		],
-		"resist": [
-			"bludgeoning",
-			"piercing",
-			"thunder"
-		],
-		"immune": [
-			"poison"
-		],
-		"conditionImmune": [
-			"blinded",
-			"charmed",
-			"deafened",
-			"exhaustion",
-			"frightened",
-			"poisoned",
-			"prone"
-		],
-		"trait": [{
-				"name": "False Appearance",
-				"entries": [
-					"While the surculus hides its stinger and stays motionless, it is indistinguishable from a large, decorative plant."
-				]
+		{
+			"name": "Beast of the Land",
+			"source": "Hergard",
+			"size": "M",
+			"type": "beast",
+			"alignment": null,
+			"ac": [{
+				"special": "13 + PB (natural armor)"
+			}],
+			"hp": {
+				"special": "5 + five times your ranger level (the beast has a number of Hit Dice [d8s] equal to your ranger level)"
 			},
-			{
-				"name": "Venomous",
-				"entries": [
-					"The surculus's attacks ignore resistance to poison damage, and treat immunity to poison damage as resistance to poison damage."
-				]
-			}
-		],
-		"traitTags": [
-			"False Appearance"
-		],
-		"action": [{
-				"name": "Multiattack",
-				"entries": [
-					"The surculus makes two sting attacks."
-				]
+			"speed": {
+				"walk": 40,
+				"climb": 40
 			},
-			{
-				"name": "Sting",
+			"str": 14,
+			"dex": 14,
+			"con": 15,
+			"int": 8,
+			"wis": 14,
+			"cha": 11,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"languages": [
+				"understands the languages you speak"
+			],
+			"trait": [{
+					"name": "Charge",
+					"entries": [
+						"If the beast moves at least 20 feet straight toward a target and then hits it with a maul attack on the same turn, the target takes an extra {@damage 1d6} slashing damage. If the target is a creature, it must succeed on a Strength saving throw against your spell save DC or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Proficiency Bonus (PB)",
+					"entries": [
+						"Equals your bonus"
+					]
+				}
+			],
+			"action": [{
+				"name": "Maul",
 				"entries": [
-					"{@atk mw} {@hit 7} to hit, reach 20 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage plus 13 ({@damage 2d12 }) poison damage and the target must succeed on a {@dc 14} Constitution saving throw or become {@condition poisoned} for 1 minute. If the creature fails its saving throw by 5 or more, it is {@condition stunned} instead. The target can repeat the saving throw at the end of each of its turns, ending the poison and stun on itself on a success."
+					"{@atk mw} {@hitYourSpellAttack} to hit, reach 5 ft., one target. {@h}{@damage 1d8 + 2 + PB} slashing damage."
 				]
-			}
-		],
-		"actionTags": [
-			"Multiattack"
-		],
-		"damageTags": [
-			"P",
-			"I"
-		],
-		"miscTags": [
-			"MW",
-			"RCH"
-		],
-		"conditionInflict": [
-			"stunned",
-			"poisoned"
-		]
-	}],
+			}],
+			"traitTags": [
+				"Charge"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			]
+		}, {
+			"name": "Beast of the Sea",
+			"source": "Hergard",
+			"size": "M",
+			"type": "beast",
+			"alignment": null,
+			"ac": [{
+				"special": "13 + PB (natural armor)"
+			}],
+			"hp": {
+				"special": "5 + five times your ranger level (the beast has a number of Hit Dice [d8s] equal to your ranger level)"
+			},
+			"speed": {
+				"walk": 5,
+				"swim": 60
+			},
+			"str": 14,
+			"dex": 14,
+			"con": 15,
+			"int": 8,
+			"wis": 14,
+			"cha": 11,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"languages": [
+				"understands the languages you speak"
+			],
+			"trait": [{
+					"name": "Amphibious",
+					"entries": [
+						"The beast can breathe both air and water."
+					]
+				},
+				{
+					"name": "Proficiency Bonus (PB)",
+					"entries": [
+						"Equals your bonus"
+					]
+				}
+			],
+			"action": [{
+				"name": "Binding Strike",
+				"entries": [
+					"{@atk mw} {@hitYourSpellAttack} to hit, reach 5 ft., one target. {@h}{@damage 1d6 + 2 + PB} piercing damage or {@damage 1d6 + 2 + PB} bludgeoning damage (your choice), and the target is {@condition grappled} (escape DC equal to your spellcasting save DC). Until this grapple ends, the beast can't use this attack on another target."
+				]
+			}],
+			"traitTags": [
+				"Amphibious"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"P",
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"grappled"
+			]
+		}, {
+			"name": "Beast of the Sky",
+			"source": "Hergard",
+			"size": "S",
+			"type": "beast",
+			"alignment": null,
+			"ac": [{
+				"special": "13 + PB (natural armor)"
+			}],
+			"hp": {
+				"special": "4 + four times your ranger level (the beast has a number of Hit Dice [d6s] equal to your ranger level)"
+			},
+			"speed": {
+				"walk": 10,
+				"fly": 60
+			},
+			"str": 6,
+			"dex": 16,
+			"con": 13,
+			"int": 8,
+			"wis": 14,
+			"cha": 11,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"languages": [
+				"understands the languages you speak"
+			],
+			"trait": [{
+					"name": "Flyby",
+					"entries": [
+						"The beast doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+					]
+				},
+				{
+					"name": "Proficiency Bonus (PB)",
+					"entries": [
+						"Equals your bonus"
+					]
+				}
+			],
+			"action": [{
+				"name": "Shred",
+				"entries": [
+					"{@atk mw} {@hitYourSpellAttack} to hit, reach 5 ft., one target. {@h}{@damage 1d4 + 3 + PB} slashing damage"
+				]
+			}],
+			"traitTags": [
+				"Flyby"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			]
+		}
+	],
 	"table": [{
 			"name": "Firearms",
 			"source": "Hergard",
