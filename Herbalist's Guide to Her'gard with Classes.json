@@ -7884,264 +7884,6 @@
 				"Words of Creation|Bard||20|Hergard"
 			],
 			"subclassTitle": "Bard College",
-			"subclasses": [{
-					"name": "College of Lore",
-					"shortName": "Lore",
-					"source": "PHB",
-					"page": 54,
-					"srd": true,
-					"subclassFeatures": [
-						"College of Lore|Bard||Lore||3",
-						"Additional Magical Secrets|Bard||Lore||6",
-						"Peerless Skill|Bard||Lore||14"
-					]
-				},
-				{
-					"name": "College of Valor",
-					"shortName": "Valor",
-					"source": "PHB",
-					"page": 55,
-					"subclassFeatures": [
-						"College of Valor|Bard||Valor||3",
-						"Extra Attack|Bard||Valor||6",
-						"Battle Magic|Bard||Valor||14"
-					]
-				},
-				{
-					"name": "College of Satire (UA)",
-					"shortName": "Satire (UA)",
-					"source": "UAKitsOfOld",
-					"page": 2,
-					"subclassFeatures": [
-						"College of Satire|Bard||Satire (UA)|UAKitsOfOld|3",
-						"Fool's Insight|Bard||Satire (UA)|UAKitsOfOld|6",
-						"Fool's Luck|Bard||Satire (UA)|UAKitsOfOld|14"
-					]
-				},
-				{
-					"name": "College of Swords (UA)",
-					"shortName": "Swords (UA)",
-					"source": "UAKitsOfOld",
-					"page": 1,
-					"isReprinted": true,
-					"subclassFeatures": [
-						"College of Swords|Bard||Swords (UA)|UAKitsOfOld|3",
-						"Extra Attack|Bard||Swords (UA)|UAKitsOfOld|6",
-						"Battle Magic|Bard||Swords (UA)|UAKitsOfOld|14"
-					]
-				},
-				{
-					"name": "College of Glamour (UA)",
-					"shortName": "Glamour (UA)",
-					"source": "UABardBardColleges",
-					"page": 1,
-					"isReprinted": true,
-					"subclassFeatures": [
-						"College of Glamour|Bard||Glamour (UA)|UABardBardColleges|3",
-						"Mantle of Majesty|Bard||Glamour (UA)|UABardBardColleges|6",
-						"Mantle of Majesty|Bard||Glamour (UA)|UABardBardColleges|14"
-					]
-				},
-				{
-					"name": "College of Whispers (UA)",
-					"shortName": "Whispers (UA)",
-					"source": "UABardBardColleges",
-					"page": 2,
-					"isReprinted": true,
-					"subclassFeatures": [
-						"College of Whispers|Bard||Whispers (UA)|UABardBardColleges|3",
-						"Mantle of Whispers|Bard||Whispers (UA)|UABardBardColleges|6",
-						"Shadow Lore|Bard||Whispers (UA)|UABardBardColleges|14"
-					]
-				},
-				{
-					"name": "College of Swords v2 (UA)",
-					"shortName": "Swords v2 (UA)",
-					"source": "UARevisedSubclasses",
-					"page": 1,
-					"isReprinted": true,
-					"subclassFeatures": [
-						"College of Swords v2|Bard||Swords v2 (UA)|UARevisedSubclasses|3",
-						"Cunning Flourish|Bard||Swords v2 (UA)|UARevisedSubclasses|6",
-						"Master's Flourish|Bard||Swords v2 (UA)|UARevisedSubclasses|14"
-					]
-				},
-				{
-					"name": "College of Glamour",
-					"shortName": "Glamour",
-					"source": "XGE",
-					"page": 14,
-					"additionalSpells": [{
-						"innate": {
-							"6": [
-								"command"
-							]
-						}
-					}],
-					"subclassFeatures": [
-						"College of Glamour|Bard||Glamour|XGE|3",
-						"Mantle of Majesty|Bard||Glamour|XGE|6",
-						"Unbreakable Majesty|Bard||Glamour|XGE|14"
-					]
-				},
-				{
-					"name": "College of Swords",
-					"shortName": "Swords",
-					"source": "XGE",
-					"page": 15,
-					"subclassFeatures": [
-						"College of Swords|Bard||Swords|XGE|3",
-						"Extra Attack|Bard||Swords|XGE|6",
-						"Master's Flourish|Bard||Swords|XGE|14"
-					]
-				},
-				{
-					"name": "College of Whispers",
-					"shortName": "Whispers",
-					"source": "XGE",
-					"page": 16,
-					"subclassFeatures": [
-						"College of Whispers|Bard||Whispers|XGE|3",
-						"Mantle of Whispers|Bard||Whispers|XGE|6",
-						"Shadow Lore|Bard||Whispers|XGE|14"
-					]
-				},
-				{
-					"name": "College of Eloquence (UA)",
-					"shortName": "Eloquence (UA)",
-					"source": "UABardAndPaladin",
-					"page": 1,
-					"isReprinted": true,
-					"subclassFeatures": [
-						"College of Eloquence|Bard||Eloquence (UA)|UABardAndPaladin|3",
-						"Undeniable Logic|Bard||Eloquence (UA)|UABardAndPaladin|6",
-						"Infectious Inspiration|Bard||Eloquence (UA)|UABardAndPaladin|14"
-					]
-				},
-				{
-					"name": "College of Creation (UA)",
-					"shortName": "Creation (UA)",
-					"source": "UA2020SubclassesPt2",
-					"page": 1,
-					"isReprinted": true,
-					"subclassFeatures": [
-						"College of Creation|Bard||Creation (UA)|UA2020SubclassesPt2|3",
-						"Animating Performance|Bard||Creation (UA)|UA2020SubclassesPt2|6",
-						"Performance of Creation|Bard||Creation (UA)|UA2020SubclassesPt2|14"
-					]
-				},
-				{
-					"name": "College of Spirits (UA)",
-					"shortName": "Spirits (UA)",
-					"source": "UA2020SubclassesPt4",
-					"page": 1,
-					"subclassFeatures": [
-						"College of Spirits|Bard||Spirits (UA)|UA2020SubclassesPt4|3",
-						"Spirit Session|Bard||Spirits (UA)|UA2020SubclassesPt4|6",
-						"Spiritual Focus|Bard||Spirits (UA)|UA2020SubclassesPt4|6",
-						"Mystical Connection|Bard||Spirits (UA)|UA2020SubclassesPt4|14"
-					]
-				},
-				{
-					"name": "College of Creation",
-					"shortName": "Creation",
-					"source": "TCE",
-					"page": 28,
-					"subclassFeatures": [
-						"College of Creation|Bard||College of Creation|TCE|3",
-						"Animating Performance|Bard||College of Creation|TCE|6",
-						"Creative Crescendo|Bard||College of Creation|TCE|14"
-					]
-				},
-				{
-					"name": "College of Eloquence",
-					"shortName": "Eloquence",
-					"source": "TCE",
-					"page": 29,
-					"otherSources": [{
-						"source": "MOT",
-						"page": 28
-					}],
-					"subclassFeatures": [
-						"College of Eloquence|Bard||Eloquence|TCE|3",
-						"Unfailing Inspiration|Bard||Eloquence|TCE|6",
-						"Universal Speech|Bard||Eloquence|TCE|6",
-						"Infectious Inspiration|Bard||Eloquence|TCE|14"
-					]
-				},
-				{
-					"name": "College of Ancients",
-					"source": "Hergard",
-					"className": "Bard",
-					"classSource": "PHB",
-					"shortName": "Ancients",
-					"subclassFeatures": [
-						"College of Ancients|Bard|PHB|Ancients|Hergard|3",
-						"Tongue of the Forest|Bard|PHB|Ancients|Hergard|6",
-						"Mysteries of Nature|Bard|PHB|Ancients|Hergard|14"
-					]
-				},
-				{
-					"name": "College of Desire",
-					"source": "Hergard",
-					"className": "Bard",
-					"classSource": "PHB",
-					"shortName": "Desire",
-					"subclassFeatures": [
-						"College of Desire|Bard|PHB|Desire|Hergard|3",
-						"Cyclamen Haze|Bard|PHB|Desire|Hergard|6",
-						"Amorous Atmosphere|Bard|PHB|Desire|Hergard|14"
-					]
-				},
-				{
-					"name": "College of Dirges",
-					"source": "Hergard",
-					"className": "Bard",
-					"classSource": "PHB",
-					"shortName": "Dirges",
-					"subclassFeatures": [
-						"College of Dirges|Bard|PHB|Dirges|Hergard|3",
-						"Don't Fear the Reaper|Bard|PHB|Dirges|Hergard|6",
-						"Symphony of the Damned|Bard|PHB|Dirges|Hergard|14"
-					]
-				},
-				{
-					"name": "College of the Maestro",
-					"source": "Hergard",
-					"className": "Bard",
-					"classSource": "PHB",
-					"shortName": "Maestro",
-					"subclassFeatures": [
-						"College of the Maestro|Bard|PHB|Maestro|Hergard|3",
-						"Frenetic Crescendo|Bard|PHB|Maestro|Hergard|6",
-						"Virtuoso of Captivation|Bard|PHB|Maestro|Hergard|14"
-					]
-				},
-				{
-					"name": "College of Roaring Thunder",
-					"source": "Hergard",
-					"className": "Bard",
-					"classSource": "PHB",
-					"shortName": "Roaring Thunder",
-					"subclassFeatures": [
-						"College of Roaring Thunder|Bard|PHB|Roaring Thunder|Hergard|3",
-						"Echoing Storm|Bard|PHB|Roaring Thunder|Hergard|6",
-						"Drums of the Tempest|Bard|PHB|Roaring Thunder|Hergard|14"
-					]
-				},
-				{
-					"name": "College of Tales",
-					"source": "Hergard",
-					"className": "Bard",
-					"classSource": "PHB",
-					"shortName": "Tales",
-					"subclassFeatures": [
-						"College of Tales|Bard|PHB|Tales|Hergard|3",
-						"Mantle of Heroes|Bard|PHB|Tales|Hergard|6",
-						"Maker of Truths|Bard|PHB|Tales|Hergard|14"
-					]
-				}
-			],
 			"fluff": [{
 					"name": "Bard",
 					"type": "section",
@@ -8638,687 +8380,6 @@
 				"Extra Attack (3)|Fighter||20"
 			],
 			"subclassTitle": "Martial Archetype",
-			"subclasses": [{
-					"name": "Battle Master",
-					"shortName": "Battle Master",
-					"source": "PHB",
-					"page": 73,
-					"subclassFeatures": [
-						"Battle Master|Fighter||Battle Master||3",
-						"Additional Maneuvers|Fighter||Battle Master||7",
-						"Additional Superiority Die|Fighter||Battle Master||7",
-						"Know Your Enemy|Fighter||Battle Master||7",
-						"Additional Maneuvers|Fighter||Battle Master||10",
-						"Improved Combat Superiority (d10)|Fighter||Battle Master||10",
-						"Additional Maneuvers|Fighter||Battle Master||15",
-						"Additional Superiority Die|Fighter||Battle Master||15",
-						"Relentless|Fighter||Battle Master||15",
-						"Improved Combat Superiority (d12)|Fighter||Battle Master||18"
-					]
-				},
-				{
-					"name": "Champion",
-					"shortName": "Champion",
-					"source": "PHB",
-					"page": 72,
-					"srd": true,
-					"subclassFeatures": [
-						"Champion|Fighter||Champion||3",
-						"Remarkable Athlete|Fighter||Champion||7",
-						"Additional Fighting Style|Fighter||Champion||10",
-						"Superior Critical|Fighter||Champion||15",
-						"Survivor|Fighter||Champion||18"
-					]
-				},
-				{
-					"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB",
-					"page": 74,
-					"spellcastingAbility": "int",
-					"casterProgression": "1/3",
-					"subclassTableGroups": [{
-							"subclasses": [{
-								"name": "Eldritch Knight",
-								"source": "PHB"
-							}],
-							"colLabels": [
-								"{@filter Cantrips Known|spells|level=0|subclass=Fighter: Eldritch Knight}",
-								"{@filter Spells Known|spells|subclass=Fighter: Eldritch Knight}"
-							],
-							"rows": [
-								[
-									0,
-									0
-								],
-								[
-									0,
-									0
-								],
-								[
-									2,
-									3
-								],
-								[
-									2,
-									4
-								],
-								[
-									2,
-									4
-								],
-								[
-									2,
-									4
-								],
-								[
-									2,
-									5
-								],
-								[
-									2,
-									6
-								],
-								[
-									2,
-									6
-								],
-								[
-									3,
-									7
-								],
-								[
-									3,
-									8
-								],
-								[
-									3,
-									8
-								],
-								[
-									3,
-									9
-								],
-								[
-									3,
-									10
-								],
-								[
-									3,
-									10
-								],
-								[
-									3,
-									11
-								],
-								[
-									3,
-									11
-								],
-								[
-									3,
-									11
-								],
-								[
-									3,
-									12
-								],
-								[
-									3,
-									13
-								]
-							]
-						},
-						{
-							"title": "Spell Slots per Spell Level",
-							"subclasses": [{
-								"name": "Eldritch Knight",
-								"source": "PHB"
-							}],
-							"colLabels": [
-								"{@filter 1st|spells|level=1|subclass=Fighter: Eldritch Knight}",
-								"{@filter 2nd|spells|level=2|subclass=Fighter: Eldritch Knight}",
-								"{@filter 3rd|spells|level=3|subclass=Fighter: Eldritch Knight}",
-								"{@filter 4th|spells|level=4|subclass=Fighter: Eldritch Knight}"
-							],
-							"rows": [
-								[
-									0,
-									0,
-									0,
-									0
-								],
-								[
-									0,
-									0,
-									0,
-									0
-								],
-								[
-									2,
-									0,
-									0,
-									0
-								],
-								[
-									3,
-									0,
-									0,
-									0
-								],
-								[
-									3,
-									0,
-									0,
-									0
-								],
-								[
-									3,
-									0,
-									0,
-									0
-								],
-								[
-									4,
-									2,
-									0,
-									0
-								],
-								[
-									4,
-									2,
-									0,
-									0
-								],
-								[
-									4,
-									2,
-									0,
-									0
-								],
-								[
-									4,
-									3,
-									0,
-									0
-								],
-								[
-									4,
-									3,
-									0,
-									0
-								],
-								[
-									4,
-									3,
-									0,
-									0
-								],
-								[
-									4,
-									3,
-									2,
-									0
-								],
-								[
-									4,
-									3,
-									2,
-									0
-								],
-								[
-									4,
-									3,
-									2,
-									0
-								],
-								[
-									4,
-									3,
-									3,
-									0
-								],
-								[
-									4,
-									3,
-									3,
-									0
-								],
-								[
-									4,
-									3,
-									3,
-									0
-								],
-								[
-									4,
-									3,
-									3,
-									1
-								],
-								[
-									4,
-									3,
-									3,
-									1
-								]
-							]
-						}
-					],
-					"subclassFeatures": [
-						"Eldritch Knight|Fighter||Eldritch Knight||3",
-						"War Magic|Fighter||Eldritch Knight||7",
-						"Eldritch Strike|Fighter||Eldritch Knight||10",
-						"Arcane Charge|Fighter||Eldritch Knight||15",
-						"Improved War Magic|Fighter||Eldritch Knight||18"
-					]
-				},
-				{
-					"name": "Purple Dragon Knight (Banneret)",
-					"shortName": "Purple Dragon Knight (Banneret)",
-					"source": "SCAG",
-					"page": 128,
-					"subclassFeatures": [
-						"Purple Dragon Knight (Banneret)|Fighter||Purple Dragon Knight (Banneret)|SCAG|3",
-						"Royal Envoy|Fighter||Purple Dragon Knight (Banneret)|SCAG|7",
-						"Inspiring Surge|Fighter||Purple Dragon Knight (Banneret)|SCAG|10",
-						"Bulwark|Fighter||Purple Dragon Knight (Banneret)|SCAG|15",
-						"Inspiring Surge|Fighter||Purple Dragon Knight (Banneret)|SCAG|18"
-					]
-				},
-				{
-					"name": "Cavalier (UA)",
-					"shortName": "Cavalier (UA)",
-					"source": "UAKitsOfOld",
-					"page": 3,
-					"isReprinted": true,
-					"subclassFeatures": [
-						"Cavalier|Fighter||Cavalier (UA)|UAKitsOfOld|3",
-						"Ferocious Charger|Fighter||Cavalier (UA)|UAKitsOfOld|7",
-						"Improved Combat Superiority|Fighter||Cavalier (UA)|UAKitsOfOld|10",
-						"Relentless|Fighter||Cavalier (UA)|UAKitsOfOld|15",
-						"Improved Combat Superiority|Fighter||Cavalier (UA)|UAKitsOfOld|18"
-					]
-				},
-				{
-					"name": "Scout (UA)",
-					"shortName": "Scout (UA)",
-					"source": "UAKitsOfOld",
-					"page": 4,
-					"subclassFeatures": [
-						"Scout|Fighter||Scout (UA)|UAKitsOfOld|3",
-						"Additional Superiority Die|Fighter||Scout (UA)|UAKitsOfOld|7",
-						"Improved Combat Superiority|Fighter||Scout (UA)|UAKitsOfOld|10",
-						"Relentless|Fighter||Scout (UA)|UAKitsOfOld|15",
-						"Additional Superiority Die|Fighter||Scout (UA)|UAKitsOfOld|15",
-						"Improved Combat Superiority|Fighter||Scout (UA)|UAKitsOfOld|18"
-					]
-				},
-				{
-					"name": "Monster Hunter (UA)",
-					"shortName": "Monster Hunter (UA)",
-					"source": "UAGothicHeroes",
-					"page": 2,
-					"spellcastingAbility": "wis",
-					"subclassFeatures": [
-						"Monster Hunter|Fighter||Monster Hunter (UA)|UAGothicHeroes|3",
-						"Monster Slayer|Fighter||Monster Hunter (UA)|UAGothicHeroes|7",
-						"Improved Combat Superiority|Fighter||Monster Hunter (UA)|UAGothicHeroes|10",
-						"Relentless|Fighter||Monster Hunter (UA)|UAGothicHeroes|15",
-						"Improved Combat Superiority|Fighter||Monster Hunter (UA)|UAGothicHeroes|18"
-					]
-				},
-				{
-					"name": "Arcane Archer (UA)",
-					"shortName": "Arcane Archer (UA)",
-					"source": "UAFighter",
-					"page": 1,
-					"isReprinted": true,
-					"subclassFeatures": [
-						"Arcane Archer|Fighter||Arcane Archer (UA)|UAFighter|3",
-						"Conjure Arrows|Fighter||Arcane Archer (UA)|UAFighter|7",
-						"Extra Arcane Shot|Fighter||Arcane Archer (UA)|UAFighter|7",
-						"Extra Arcane Shot|Fighter||Arcane Archer (UA)|UAFighter|10",
-						"Ever-Ready Arrow|Fighter||Arcane Archer (UA)|UAFighter|15",
-						"Extra Arcane Shot|Fighter||Arcane Archer (UA)|UAFighter|15",
-						"Deadly Arrow|Fighter||Arcane Archer (UA)|UAFighter|18",
-						"Extra Arcane Shot|Fighter||Arcane Archer (UA)|UAFighter|18"
-					]
-				},
-				{
-					"name": "Knight (UA)",
-					"shortName": "Knight (UA)",
-					"source": "UAFighter",
-					"page": 2,
-					"subclassFeatures": [
-						"Knight|Fighter||Knight (UA)|UAFighter|3",
-						"Noble Cavalry|Fighter||Knight (UA)|UAFighter|7",
-						"Hold the Line|Fighter||Knight (UA)|UAFighter|10",
-						"Rapid Strike|Fighter||Knight (UA)|UAFighter|15",
-						"Defender's Blade|Fighter||Knight (UA)|UAFighter|18"
-					]
-				},
-				{
-					"name": "Samurai (UA)",
-					"shortName": "Samurai (UA)",
-					"source": "UAFighter",
-					"page": 3,
-					"isReprinted": true,
-					"subclassFeatures": [
-						"Samurai|Fighter||Samurai (UA)|UAFighter|3",
-						"Elegant Courtier|Fighter||Samurai (UA)|UAFighter|7",
-						"Unbreakable Will|Fighter||Samurai (UA)|UAFighter|10",
-						"Rapid Strike|Fighter||Samurai (UA)|UAFighter|15",
-						"Strength Before Death|Fighter||Samurai (UA)|UAFighter|18"
-					]
-				},
-				{
-					"name": "Sharpshooter (UA)",
-					"shortName": "Sharpshooter (UA)",
-					"source": "UAFighter",
-					"page": 3,
-					"subclassFeatures": [
-						"Sharpshooter|Fighter||Sharpshooter (UA)|UAFighter|3",
-						"Careful Eyes|Fighter||Sharpshooter (UA)|UAFighter|7",
-						"Close-Quarters Shooting|Fighter||Sharpshooter (UA)|UAFighter|10",
-						"Rapid Strike|Fighter||Sharpshooter (UA)|UAFighter|15",
-						"Snap Shot|Fighter||Sharpshooter (UA)|UAFighter|18"
-					]
-				},
-				{
-					"name": "Arcane Archer v2 (UA)",
-					"shortName": "Arcane Archer v2 (UA)",
-					"source": "UARevisedSubclasses",
-					"page": 2,
-					"isReprinted": true,
-					"subclassFeatures": [
-						"Arcane Archer v2|Fighter||Arcane Archer v2 (UA)|UARevisedSubclasses|3",
-						"Curving Shot|Fighter||Arcane Archer v2 (UA)|UARevisedSubclasses|7",
-						"Extra Arcane Shot|Fighter||Arcane Archer v2 (UA)|UARevisedSubclasses|7",
-						"Extra Arcane Shot|Fighter||Arcane Archer v2 (UA)|UARevisedSubclasses|10",
-						"Ever-Ready Shot|Fighter||Arcane Archer v2 (UA)|UARevisedSubclasses|15",
-						"Extra Arcane Shot|Fighter||Arcane Archer v2 (UA)|UARevisedSubclasses|15",
-						"Extra Arcane Shot|Fighter||Arcane Archer v2 (UA)|UARevisedSubclasses|18"
-					]
-				},
-				{
-					"name": "Cavalier v2 (UA)",
-					"shortName": "Cavalier v2 (UA)",
-					"source": "UARevisedClassOptions",
-					"page": 2,
-					"isReprinted": true,
-					"subclassFeatures": [
-						"Cavalier v2|Fighter||Cavalier v2 (UA)|UARevisedClassOptions|3",
-						"Ferocious Charger|Fighter||Cavalier v2 (UA)|UARevisedClassOptions|7",
-						"Improved Combat Superiority|Fighter||Cavalier v2 (UA)|UARevisedClassOptions|10",
-						"Relentless|Fighter||Cavalier v2 (UA)|UARevisedClassOptions|15",
-						"Improved Combat Superiority|Fighter||Cavalier v2 (UA)|UARevisedClassOptions|18"
-					]
-				},
-				{
-					"name": "Arcane Archer",
-					"shortName": "Arcane Archer",
-					"source": "XGE",
-					"page": 28,
-					"subclassFeatures": [
-						"Arcane Archer|Fighter||Arcane Archer|XGE|3",
-						"Magic Arrow|Fighter||Arcane Archer|XGE|7",
-						"Curving Shot|Fighter||Arcane Archer|XGE|7",
-						"Additional Arcane Shot Option|Fighter||Arcane Archer|XGE|7",
-						"Additional Arcane Shot Option|Fighter||Arcane Archer|XGE|10",
-						"Ever-Ready Shot|Fighter||Arcane Archer|XGE|15",
-						"Additional Arcane Shot Option|Fighter||Arcane Archer|XGE|15",
-						"Additional Arcane Shot Option|Fighter||Arcane Archer|XGE|18"
-					]
-				},
-				{
-					"name": "Cavalier",
-					"shortName": "Cavalier",
-					"source": "XGE",
-					"page": 30,
-					"subclassFeatures": [
-						"Cavalier|Fighter||Cavalier|XGE|3",
-						"Warding Maneuver|Fighter||Cavalier|XGE|7",
-						"Hold the Line|Fighter||Cavalier|XGE|10",
-						"Ferocious Charger|Fighter||Cavalier|XGE|15",
-						"Vigilant Defender|Fighter||Cavalier|XGE|18"
-					]
-				},
-				{
-					"name": "Samurai",
-					"shortName": "Samurai",
-					"source": "XGE",
-					"page": 31,
-					"subclassFeatures": [
-						"Samurai|Fighter||Samurai|XGE|3",
-						"Elegant Courtier|Fighter||Samurai|XGE|7",
-						"Tireless Spirit|Fighter||Samurai|XGE|10",
-						"Rapid Strike|Fighter||Samurai|XGE|15",
-						"Strength before Death|Fighter||Samurai|XGE|18"
-					]
-				},
-				{
-					"name": "Brute (UA)",
-					"shortName": "Brute (UA)",
-					"source": "UAThreeSubclasses",
-					"page": 2,
-					"subclassFeatures": [
-						"Brute|Fighter||Brute (UA)|UAThreeSubclasses|3",
-						"Brutish Durability|Fighter||Brute (UA)|UAThreeSubclasses|7",
-						"Additional Fighting Style|Fighter||Brute (UA)|UAThreeSubclasses|10",
-						"Devastating Critical|Fighter||Brute (UA)|UAThreeSubclasses|15",
-						"Survivor|Fighter||Brute (UA)|UAThreeSubclasses|18"
-					]
-				},
-				{
-					"name": "Rune Knight (UA)",
-					"shortName": "Rune Knight (UA)",
-					"source": "UAFighterRangerRogue",
-					"page": 1,
-					"isReprinted": true,
-					"subclassFeatures": [
-						"Rune Knight|Fighter||Rune Knight (UA)|UAFighterRangerRogue|3",
-						"Defensive Runes|Fighter||Rune Knight (UA)|UAFighterRangerRogue|7",
-						"Great Stature|Fighter||Rune Knight (UA)|UAFighterRangerRogue|10",
-						"Rune Magic Mastery|Fighter||Rune Knight (UA)|UAFighterRangerRogue|15",
-						"Blessing of the All Father|Fighter||Rune Knight (UA)|UAFighterRangerRogue|18"
-					]
-				},
-				{
-					"name": "Psychic Warrior (UA)",
-					"shortName": "Psychic Warrior (UA)",
-					"source": "UAFighterRogueWizard",
-					"page": 1,
-					"isReprinted": true,
-					"subclassFeatures": [
-						"Psychic Warrior|Fighter||Psychic Warrior (UA)|UAFighterRogueWizard|3",
-						"Strength of Mind|Fighter||Psychic Warrior (UA)|UAFighterRogueWizard|7",
-						"Telekinetic Bulwark|Fighter||Psychic Warrior (UA)|UAFighterRogueWizard|10",
-						"Psionic Armament Improvement|Fighter||Psychic Warrior (UA)|UAFighterRogueWizard|10",
-						"Agonizing Strikes|Fighter||Psychic Warrior (UA)|UAFighterRogueWizard|15",
-						"Psychic Dreadnaught|Fighter||Psychic Warrior (UA)|UAFighterRogueWizard|18"
-					]
-				},
-				{
-					"name": "Echo Knight",
-					"shortName": "Echo Knight",
-					"source": "EGW",
-					"page": 183,
-					"subclassFeatures": [
-						"Echo Knight|Fighter||Echo Knight|EGW|3",
-						"Echo Avatar|Fighter||Echo Knight|EGW|7",
-						"Shadow Martyr|Fighter||Echo Knight|EGW|10",
-						"Reclaim Potential|Fighter||Echo Knight|EGW|15",
-						"Legion of One|Fighter||Echo Knight|EGW|18"
-					]
-				},
-				{
-					"name": "Psi Knight (UA)",
-					"shortName": "Psi Knight (UA)",
-					"source": "UA2020PsionicOptionsRevisited",
-					"page": 2,
-					"isReprinted": true,
-					"subclassFeatures": [
-						"Psi Knight|Fighter||Psi Knight (UA)|UA2020PsionicOptionsRevisited|3",
-						"Telekinetic Adept|Fighter||Psi Knight (UA)|UA2020PsionicOptionsRevisited|7",
-						"Psi-Enhanced Metabolism|Fighter||Psi Knight (UA)|UA2020PsionicOptionsRevisited|10",
-						"Bulwark of Force|Fighter||Psi Knight (UA)|UA2020PsionicOptionsRevisited|15",
-						"Telekinetic Master|Fighter||Psi Knight (UA)|UA2020PsionicOptionsRevisited|18"
-					]
-				},
-				{
-					"name": "Psi Warrior",
-					"shortName": "Psi Warrior",
-					"source": "TCE",
-					"page": 42,
-					"subclassFeatures": [
-						"Psi Warrior|Fighter||Psi Warrior|TCE|3",
-						"Telekinetic Adept|Fighter||Psi Warrior|TCE|7",
-						"Guarded Mind|Fighter||Psi Warrior|TCE|10",
-						"Bulwark of Force|Fighter||Psi Warrior|TCE|15",
-						"Telekinetic Master|Fighter||Psi Warrior|TCE|18"
-					]
-				},
-				{
-					"name": "Rune Knight",
-					"shortName": "Rune Knight",
-					"source": "TCE",
-					"page": 44,
-					"subclassFeatures": [
-						"Rune Knight|Fighter||Rune Knight|TCE|3",
-						"Runic Shield|Fighter||Rune Knight|TCE|7",
-						"Great Stature|Fighter||Rune Knight|TCE|10",
-						"Master of Runes|Fighter||Rune Knight|TCE|15",
-						"Runic Juggernaut|Fighter||Rune Knight|TCE|18"
-					]
-				},
-				{
-					"name": "Arcane Archer",
-					"source": "Hergard",
-					"className": "Fighter",
-					"classSource": "PHB",
-					"shortName": "Arcane Archer",
-					"subclassFeatures": [
-						"Arcane Archer|Fighter|PHB|Arcane Archer|Hergard|3",
-						"Magic Quiver|Fighter|PHB|Arcane Archer|Hergard|7",
-						"Elemental Arrows|Fighter|PHB|Arcane Archer|Hergard|10",
-						"Ever-Ready|Fighter|PHB|Arcane Archer|Hergard|15"
-					]
-				},
-				{
-					"name": "Battle Master",
-					"source": "Hergard",
-					"className": "Fighter",
-					"classSource": "PHB",
-					"shortName": "Battle Master",
-					"subclassFeatures": [
-						"Battle Master|Fighter|PHB|Battle Master|Hergard|3",
-						"Know Your Enemy|Fighter|PHB|Battle Master|Hergard|7",
-						"Improved Combat Superiority|Fighter|PHB|Battle Master|Hergard|10",
-						"Relentless|Fighter|PHB|Battle Master|Hergard|15",
-						"Battlefield Awareness|Fighter|PHB|Battle Master|Hergard|18"
-					]
-				},
-				{
-					"name": "Blademaker",
-					"source": "Hergard",
-					"className": "Fighter",
-					"classSource": "PHB",
-					"shortName": "Blademaker",
-					"subclassFeatures": [
-						"Blademaker|Fighter|PHB|Blademaker|Hergard|3",
-						"Maneuvering Barrage|Fighter|PHB|Blademaker|Hergard|7",
-						"Otherworldly Blades|Fighter|PHB|Blademaker|Hergard|10",
-						"Victorious Onslaught|Fighter|PHB|Blademaker|Hergard|15",
-						"Army of One|Fighter|PHB|Blademaker|Hergard|18"
-					]
-				},
-				{
-					"name": "Champion",
-					"source": "Hergard",
-					"className": "Fighter",
-					"classSource": "PHB",
-					"shortName": "Champion",
-					"subclassFeatures": [
-						"Champion|Fighter|PHB|Champion|Hergard|3",
-						"Remarkable Athlete|Fighter|PHB|Champion|Hergard|7",
-						"Everchanging Fighting Style|Fighter|PHB|Champion|Hergard|10",
-						"Deadly Skill|Fighter|PHB|Champion|Hergard|15",
-						"Survivor|Fighter|PHB|Champion|Hergard|18"
-					]
-				},
-				{
-					"name": "Combat Medic",
-					"source": "Hergard",
-					"className": "Fighter",
-					"classSource": "PHB",
-					"shortName": "Combat Medic",
-					"subclassFeatures": [
-						"Combat Medic|Fighter|PHB|Combat Medic|Hergard|3",
-						"Protect the Downed|Fighter|PHB|Combat Medic|Hergard|7",
-						"Vital Strike|Fighter|PHB|Combat Medic|Hergard|10",
-						"Quick Cure|Fighter|PHB|Combat Medic|Hergard|15",
-						"No Man Left Behind|Fighter|PHB|Combat Medic|Hergard|18"
-					]
-				},
-				{
-					"name": "Conqueror",
-					"source": "Hergard",
-					"className": "Fighter",
-					"classSource": "PHB",
-					"shortName": "Conqueror",
-					"subclassFeatures": [
-						"Conqueror|Fighter|PHB|Conqueror|Hergard|3",
-						"Rise to War|Fighter|PHB|Conqueror|Hergard|7",
-						"Conqueror's Reach|Fighter|PHB|Conqueror|Hergard|10",
-						"Rank and File|Fighter|PHB|Conqueror|Hergard|15",
-						"Unyielding Advance|Fighter|PHB|Conqueror|Hergard|18"
-					]
-				},
-				{
-					"name": "Gunslinger",
-					"source": "Hergard",
-					"className": "Fighter",
-					"classSource": "PHB",
-					"shortName": "Gunslinger",
-					"subclassFeatures": [
-						"Gunslinger|Fighter|PHB|Gunslinger|Hergard|3",
-						"Quickdraw|Fighter|PHB|Gunslinger|Hergard|7",
-						"Rapid Repair|Fighter|PHB|Gunslinger|Hergard|10",
-						"Lightning Reload|Fighter|PHB|Gunslinger|Hergard|15",
-						"Vicious Intent|Fighter|PHB|Gunslinger|Hergard|18",
-						"Hemorrhaging Critical|Fighter|PHB|Gunslinger|Hergard|18"
-					]
-				},
-				{
-					"name": "Purple Dragon Knight",
-					"source": "Hergard",
-					"className": "Fighter",
-					"classSource": "PHB",
-					"shortName": "Purple Dragon Knight",
-					"subclassFeatures": [
-						"Purple Dragon Knight|Fighter|PHB|Purple Dragon Knight|Hergard|3",
-						"Royal Envoy|Fighter|PHB|Purple Dragon Knight|Hergard|7",
-						"Inspiring Surge|Fighter|PHB|Purple Dragon Knight|Hergard|10",
-						"Lead the Charge|Fighter|PHB|Purple Dragon Knight|Hergard|10",
-						"Bulwark|Fighter|PHB|Purple Dragon Knight|Hergard|15"
-					]
-				},
-				{
-					"name": "Spellbreaker",
-					"source": "Hergard",
-					"className": "Fighter",
-					"classSource": "PHB",
-					"shortName": "Spellbreaker",
-					"subclassFeatures": [
-						"Spellbreaker|Fighter|PHB|Spellbreaker|Hergard|3",
-						"Magical Lore|Fighter|PHB|Spellbreaker|Hergard|7",
-						"Warding Sigil|Fighter|PHB|Spellbreaker|Hergard|10",
-						"Unending Watch|Fighter|PHB|Spellbreaker|Hergard|15",
-						"High-Warden|Fighter|PHB|Spellbreaker|Hergard|18"
-					]
-				}
-			],
 			"fluff": [{
 					"name": "Fighter",
 					"type": "section",
@@ -9988,448 +9049,6 @@
 				"Foe Slayer|Ranger|Hergard|20"
 			],
 			"subclassTitle": "Ranger Archetype",
-			"subclasses": [{
-					"name": "Beast Master",
-					"shortName": "Beast Master",
-					"source": "PHB",
-					"page": 93,
-					"subclassFeatures": [
-						"Beast Master|Ranger||Beast Master||3",
-						"Exceptional Training|Ranger||Beast Master||7",
-						"Bestial Fury|Ranger||Beast Master||11",
-						"Share Spells|Ranger||Beast Master||15"
-					]
-				},
-				{
-					"name": "Hunter",
-					"shortName": "Hunter",
-					"source": "PHB",
-					"page": 93,
-					"srd": true,
-					"subclassFeatures": [
-						"Hunter|Ranger||Hunter||3",
-						"Defensive Tactics|Ranger||Hunter||7",
-						"Multiattack|Ranger||Hunter||11",
-						"Superior Hunter's Defense|Ranger||Hunter||15"
-					]
-				},
-				{
-					"name": "Deep Stalker (UA)",
-					"shortName": "Deep Stalker (UA)",
-					"source": "UALightDarkUnderdark",
-					"page": 1,
-					"isReprinted": true,
-					"additionalSpells": [{
-						"prepared": {
-							"3": [
-								"disguise self"
-							],
-							"5": [
-								"rope trick"
-							],
-							"9": [
-								"glyph of warding"
-							],
-							"13": [
-								"greater invisibility"
-							],
-							"17": [
-								"seeming"
-							]
-						}
-					}],
-					"subclassFeatures": [
-						"Deep Stalker|Ranger||Deep Stalker (UA)|UALightDarkUnderdark|3",
-						"Iron Mind|Ranger||Deep Stalker (UA)|UALightDarkUnderdark|7",
-						"Stalker's Flurry|Ranger||Deep Stalker (UA)|UALightDarkUnderdark|11",
-						"Stalker's Dodge|Ranger||Deep Stalker (UA)|UALightDarkUnderdark|15"
-					]
-				},
-				{
-					"name": "Horizon Walker (UA)",
-					"shortName": "Horizon Walker (UA)",
-					"source": "UARangerAndRogue",
-					"page": 1,
-					"isReprinted": true,
-					"additionalSpells": [{
-						"prepared": {
-							"3": [
-								"protection from evil and good"
-							],
-							"5": [
-								"alter self"
-							],
-							"9": [
-								"protection from energy"
-							],
-							"13": [
-								"banishment"
-							],
-							"17": [
-								"teleportation circle"
-							]
-						}
-					}],
-					"subclassFeatures": [
-						"Horizon Walker|Ranger||Horizon Walker (UA)|UARangerAndRogue|3",
-						"Ethereal Step|Ranger||Horizon Walker (UA)|UARangerAndRogue|7",
-						"Distant Strike|Ranger||Horizon Walker (UA)|UARangerAndRogue|11",
-						"Spectral Defense|Ranger||Horizon Walker (UA)|UARangerAndRogue|15"
-					]
-				},
-				{
-					"name": "Primeval Guardian (UA)",
-					"shortName": "Primeval Guardian (UA)",
-					"source": "UARangerAndRogue",
-					"page": 2,
-					"additionalSpells": [{
-						"prepared": {
-							"3": [
-								"entangle"
-							],
-							"5": [
-								"enhance ability"
-							],
-							"9": [
-								"conjure animals"
-							],
-							"13": [
-								"giant insect"
-							],
-							"17": [
-								"insect plague"
-							]
-						}
-					}],
-					"subclassFeatures": [
-						"Primeval Guardian|Ranger||Primeval Guardian (UA)|UARangerAndRogue|3",
-						"Ancient Fortitude|Ranger||Primeval Guardian (UA)|UARangerAndRogue|7",
-						"Rooted Defense|Ranger||Primeval Guardian (UA)|UARangerAndRogue|11",
-						"Guardian Aura|Ranger||Primeval Guardian (UA)|UARangerAndRogue|15"
-					]
-				},
-				{
-					"name": "Monster Slayer (UA)",
-					"shortName": "Monster Slayer (UA)",
-					"source": "UAATrioOfSubclasses",
-					"page": 3,
-					"isReprinted": true,
-					"additionalSpells": [{
-						"prepared": {
-							"3": [
-								"protection from evil and good"
-							],
-							"5": [
-								"zone of truth"
-							],
-							"9": [
-								"magic circle"
-							],
-							"13": [
-								"banishment"
-							],
-							"17": [
-								"planar binding"
-							]
-						}
-					}],
-					"subclassFeatures": [
-						"Monster Slayer|Ranger||Monster Slayer (UA)|UAATrioOfSubclasses|3",
-						"Supernatural Defense|Ranger||Monster Slayer (UA)|UAATrioOfSubclasses|7",
-						"Relentless Slayer|Ranger||Monster Slayer (UA)|UAATrioOfSubclasses|11",
-						"Slayer's Counter|Ranger||Monster Slayer (UA)|UAATrioOfSubclasses|15"
-					]
-				},
-				{
-					"name": "Gloom Stalker",
-					"shortName": "Gloom Stalker",
-					"source": "XGE",
-					"page": 41,
-					"additionalSpells": [{
-						"prepared": {
-							"3": [
-								"disguise self"
-							],
-							"5": [
-								"rope trick"
-							],
-							"9": [
-								"fear"
-							],
-							"13": [
-								"greater invisibility"
-							],
-							"17": [
-								"seeming"
-							]
-						}
-					}],
-					"subclassFeatures": [
-						"Gloom Stalker|Ranger||Gloom Stalker|XGE|3",
-						"Iron Mind|Ranger||Gloom Stalker|XGE|7",
-						"Stalker's Flurry|Ranger||Gloom Stalker|XGE|11",
-						"Shadowy Dodge|Ranger||Gloom Stalker|XGE|15"
-					]
-				},
-				{
-					"name": "Horizon Walker",
-					"shortName": "Horizon Walker",
-					"source": "XGE",
-					"page": 42,
-					"additionalSpells": [{
-						"prepared": {
-							"3": [
-								"protection from evil and good"
-							],
-							"5": [
-								"misty step"
-							],
-							"9": [
-								"haste"
-							],
-							"13": [
-								"banishment"
-							],
-							"17": [
-								"teleportation circle"
-							]
-						}
-					}],
-					"subclassFeatures": [
-						"Horizon Walker|Ranger||Horizon Walker|XGE|3",
-						"Ethereal Step|Ranger||Horizon Walker|XGE|7",
-						"Distant Strike|Ranger||Horizon Walker|XGE|11",
-						"Spectral Defense|Ranger||Horizon Walker|XGE|15"
-					]
-				},
-				{
-					"name": "Monster Slayer",
-					"shortName": "Monster Slayer",
-					"source": "XGE",
-					"page": 43,
-					"additionalSpells": [{
-						"prepared": {
-							"3": [
-								"protection from evil and good"
-							],
-							"5": [
-								"zone of truth"
-							],
-							"9": [
-								"magic circle"
-							],
-							"13": [
-								"banishment"
-							],
-							"17": [
-								"hold monster"
-							]
-						}
-					}],
-					"subclassFeatures": [
-						"Monster Slayer|Ranger||Monster Slayer|XGE|3",
-						"Supernatural Defense|Ranger||Monster Slayer|XGE|7",
-						"Magic-User's Nemesis|Ranger||Monster Slayer|XGE|11",
-						"Slayer's Counter|Ranger||Monster Slayer|XGE|15"
-					]
-				},
-				{
-					"name": "Swarmkeeper (UA)",
-					"shortName": "Swarmkeeper (UA)",
-					"source": "UAFighterRangerRogue",
-					"page": 3,
-					"isReprinted": true,
-					"additionalSpells": [{
-						"prepared": {
-							"3": [
-								"faerie fire"
-							],
-							"5": [
-								"web"
-							],
-							"9": [
-								"gaseous form"
-							],
-							"13": [
-								"giant insect"
-							],
-							"17": [
-								"insect plague"
-							]
-						}
-					}],
-					"subclassFeatures": [
-						"Swarmkeeper|Ranger||Swarmkeeper (UA)|UAFighterRangerRogue|3",
-						"Writhing Tide|Ranger||Swarmkeeper (UA)|UAFighterRangerRogue|7",
-						"Scuttling Eyes|Ranger||Swarmkeeper (UA)|UAFighterRangerRogue|11",
-						"Gathered Swarm Improvement|Ranger||Swarmkeeper (UA)|UAFighterRangerRogue|11",
-						"Storm of Minions|Ranger||Swarmkeeper (UA)|UAFighterRangerRogue|15"
-					]
-				},
-				{
-					"name": "Fey Wanderer (UA)",
-					"shortName": "Fey Wanderer (UA)",
-					"source": "UA2020SubclassesPt3",
-					"page": 5,
-					"isReprinted": true,
-					"additionalSpells": [{
-						"prepared": {
-							"3": [
-								"charm person"
-							],
-							"5": [
-								"misty step"
-							],
-							"9": [
-								"dispel magic"
-							],
-							"13": [
-								"banishment"
-							],
-							"17": [
-								"mislead"
-							]
-						}
-					}],
-					"subclassFeatures": [
-						"Fey Wanderer|Ranger||Fey Wanderer (UA)|UA2020SubclassesPt3|3",
-						"Blessings of the Courts|Ranger||Fey Wanderer (UA)|UA2020SubclassesPt3|7",
-						"Beguiling Twist|Ranger||Fey Wanderer (UA)|UA2020SubclassesPt3|11",
-						"Misty Presence|Ranger||Fey Wanderer (UA)|UA2020SubclassesPt3|15"
-					]
-				},
-				{
-					"name": "Drakewarden (UA)",
-					"shortName": "Drakewarden (UA)",
-					"source": "UA2020SubclassesPt5",
-					"page": 2,
-					"subclassFeatures": [
-						"Drakewarden|Ranger||Drakewarden (UA)|UA2020SubclassesPt5|3",
-						"Bond of Fang and Scale|Ranger||Drakewarden (UA)|UA2020SubclassesPt5|7",
-						"Drake's Breath|Ranger||Drakewarden (UA)|UA2020SubclassesPt5|11",
-						"Perfected Bond|Ranger||Drakewarden (UA)|UA2020SubclassesPt5|15"
-					]
-				},
-				{
-					"name": "Fey Wanderer",
-					"shortName": "Fey Wanderer",
-					"source": "TCE",
-					"page": 58,
-					"additionalSpells": [{
-						"prepared": {
-							"3": [
-								"charm person"
-							],
-							"5": [
-								"misty step"
-							],
-							"9": [
-								"dispel magic"
-							],
-							"13": [
-								"dimension door"
-							],
-							"17": [
-								"mislead"
-							]
-						}
-					}],
-					"subclassFeatures": [
-						"Fey Wanderer|Ranger||Fey Wanderer|TCE|3",
-						"Beguiling Twist|Ranger||Fey Wanderer|TCE|7",
-						"Fey Reinforcements|Ranger||Fey Wanderer|TCE|11",
-						"Misty Wanderer|Ranger||Fey Wanderer|TCE|15"
-					]
-				},
-				{
-					"name": "Swarmkeeper",
-					"shortName": "Swarmkeeper",
-					"source": "TCE",
-					"page": 59,
-					"additionalSpells": [{
-						"prepared": {
-							"3": [
-								"mage hand",
-								"faerie fire"
-							],
-							"5": [
-								"web"
-							],
-							"9": [
-								"gaseous form"
-							],
-							"13": [
-								"arcane eye"
-							],
-							"17": [
-								"insect plague"
-							]
-						}
-					}],
-					"subclassFeatures": [
-						"Swarmkeeper|Ranger||Swarmkeeper|TCE|3",
-						"Writhing Tide|Ranger||Swarmkeeper|TCE|7",
-						"Mighty Swarm|Ranger||Swarmkeeper|TCE|11",
-						"Swarming Dispersal|Ranger||Swarmkeeper|TCE|15"
-					]
-				},
-				{
-					"name": "Conclave of the Beastmasters",
-					"source": "Hergard",
-					"shortName": "Beastmasters",
-					"subclassFeatures": [
-						"Conclave of the Beastmasters|Ranger|Hergard|Conclave of the Beastmasters|Hergard|3",
-						"Ferocity|Ranger|Hergard|Conclave of the Beastmasters|Hergard|7",
-						"Storm of Claws and Fangs|Ranger|Hergard|Conclave of the Beastmasters|Hergard|11",
-						"Kin|Ranger|Hergard|Conclave of the Beastmasters|Hergard|15"
-					]
-				},
-				{
-					"name": "Conclave of the Frostwarden",
-					"source": "Hergard",
-					"shortName": "Frostwarden",
-					"subclassFeatures": [
-						"Conclave of the Frostwarden|Ranger|Hergard|Conclave of the Frostwarden|Hergard|3",
-						"Frozen Ward|Ranger|Hergard|Conclave of the Frostwarden|Hergard|7",
-						"Wolf of the Blizzard|Ranger|Hergard|Conclave of the Frostwarden|Hergard|11",
-						"Heart of the Snowstorm|Ranger|Hergard|Conclave of the Frostwarden|Hergard|15"
-					]
-				},
-				{
-					"name": "Conclave of the Hunters",
-					"source": "Hergard",
-					"shortName": "Hunters",
-					"subclassFeatures": [
-						"Conclave of the Hunters|Ranger|Hergard|Conclave of the Hunters|Hergard|3",
-						"Adaptation|Ranger|Hergard|Conclave of the Hunters|Hergard|7",
-						"Flurry|Ranger|Hergard|Conclave of the Hunters|Hergard|11",
-						"Ultimate Hunter|Ranger|Hergard|Conclave of the Hunters|Hergard|15"
-					]
-				},
-				{
-					"name": "Conclave of the Solwatch",
-					"source": "Hergard",
-					"shortName": "Solwatch",
-					"subclassFeatures": [
-						"Conclave of the Solwatch|Ranger|Hergard|Conclave of the Solwatch|Hergard|3",
-						"Luminous Protector|Ranger|Hergard|Conclave of the Solwatch|Hergard|7",
-						"Bane of the Scorched|Ranger|Hergard|Conclave of the Solwatch|Hergard|11",
-						"World on Fire|Ranger|Hergard|Conclave of the Solwatch|Hergard|15"
-					]
-				},
-				{
-					"name": "Conclave of the Starfinders",
-					"source": "Hergard",
-					"shortName": "Starfinders",
-					"subclassFeatures": [
-						"Conclave of the Starfinders|Ranger|Hergard|Conclave of the Starfinders|Hergard|3",
-						"Blinding Brilliance|Ranger|Hergard|Conclave of the Starfinders|Hergard|7",
-						"Crescent Volley|Ranger|Hergard|Conclave of the Starfinders|Hergard|11",
-						"Through the Dark|Ranger|Hergard|Conclave of the Starfinders|Hergard|15"
-					]
-				}
-
-			],
 			"fluff": [{
 					"name": "Ranger",
 					"type": "section",
@@ -12225,6 +10844,293 @@
 			]
 		},
 		{
+			"name": "College of Lore",
+			"shortName": "Lore",
+			"source": "PHB",
+			"page": 54,
+			"srd": true,
+			"subclassFeatures": [
+				"College of Lore|Bard||Lore||3",
+				"Additional Magical Secrets|Bard||Lore||6",
+				"Peerless Skill|Bard||Lore||14"
+			],
+			"className": "Bard",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "College of Valor",
+			"shortName": "Valor",
+			"source": "PHB",
+			"page": 55,
+			"subclassFeatures": [
+				"College of Valor|Bard||Valor||3",
+				"Extra Attack|Bard||Valor||6",
+				"Battle Magic|Bard||Valor||14"
+			],
+			"className": "Bard",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "College of Satire (UA)",
+			"shortName": "Satire (UA)",
+			"source": "UAKitsOfOld",
+			"page": 2,
+			"subclassFeatures": [
+				"College of Satire|Bard||Satire (UA)|UAKitsOfOld|3",
+				"Fool's Insight|Bard||Satire (UA)|UAKitsOfOld|6",
+				"Fool's Luck|Bard||Satire (UA)|UAKitsOfOld|14"
+			],
+			"className": "Bard",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "College of Swords (UA)",
+			"shortName": "Swords (UA)",
+			"source": "UAKitsOfOld",
+			"page": 1,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"College of Swords|Bard||Swords (UA)|UAKitsOfOld|3",
+				"Extra Attack|Bard||Swords (UA)|UAKitsOfOld|6",
+				"Battle Magic|Bard||Swords (UA)|UAKitsOfOld|14"
+			],
+			"className": "Bard",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "College of Glamour (UA)",
+			"shortName": "Glamour (UA)",
+			"source": "UABardBardColleges",
+			"page": 1,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"College of Glamour|Bard||Glamour (UA)|UABardBardColleges|3",
+				"Mantle of Majesty|Bard||Glamour (UA)|UABardBardColleges|6",
+				"Mantle of Majesty|Bard||Glamour (UA)|UABardBardColleges|14"
+			],
+			"className": "Bard",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "College of Whispers (UA)",
+			"shortName": "Whispers (UA)",
+			"source": "UABardBardColleges",
+			"page": 2,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"College of Whispers|Bard||Whispers (UA)|UABardBardColleges|3",
+				"Mantle of Whispers|Bard||Whispers (UA)|UABardBardColleges|6",
+				"Shadow Lore|Bard||Whispers (UA)|UABardBardColleges|14"
+			],
+			"className": "Bard",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "College of Swords v2 (UA)",
+			"shortName": "Swords v2 (UA)",
+			"source": "UARevisedSubclasses",
+			"page": 1,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"College of Swords v2|Bard||Swords v2 (UA)|UARevisedSubclasses|3",
+				"Cunning Flourish|Bard||Swords v2 (UA)|UARevisedSubclasses|6",
+				"Master's Flourish|Bard||Swords v2 (UA)|UARevisedSubclasses|14"
+			],
+			"className": "Bard",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "College of Glamour",
+			"shortName": "Glamour",
+			"source": "XGE",
+			"page": 14,
+			"additionalSpells": [{
+				"innate": {
+					"6": [
+						"command"
+					]
+				}
+			}],
+			"subclassFeatures": [
+				"College of Glamour|Bard||Glamour|XGE|3",
+				"Mantle of Majesty|Bard||Glamour|XGE|6",
+				"Unbreakable Majesty|Bard||Glamour|XGE|14"
+			],
+			"className": "Bard",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "College of Swords",
+			"shortName": "Swords",
+			"source": "XGE",
+			"page": 15,
+			"subclassFeatures": [
+				"College of Swords|Bard||Swords|XGE|3",
+				"Extra Attack|Bard||Swords|XGE|6",
+				"Master's Flourish|Bard||Swords|XGE|14"
+			],
+			"className": "Bard",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "College of Whispers",
+			"shortName": "Whispers",
+			"source": "XGE",
+			"page": 16,
+			"subclassFeatures": [
+				"College of Whispers|Bard||Whispers|XGE|3",
+				"Mantle of Whispers|Bard||Whispers|XGE|6",
+				"Shadow Lore|Bard||Whispers|XGE|14"
+			],
+			"className": "Bard",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "College of Eloquence (UA)",
+			"shortName": "Eloquence (UA)",
+			"source": "UABardAndPaladin",
+			"page": 1,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"College of Eloquence|Bard||Eloquence (UA)|UABardAndPaladin|3",
+				"Undeniable Logic|Bard||Eloquence (UA)|UABardAndPaladin|6",
+				"Infectious Inspiration|Bard||Eloquence (UA)|UABardAndPaladin|14"
+			],
+			"className": "Bard",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "College of Creation (UA)",
+			"shortName": "Creation (UA)",
+			"source": "UA2020SubclassesPt2",
+			"page": 1,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"College of Creation|Bard||Creation (UA)|UA2020SubclassesPt2|3",
+				"Animating Performance|Bard||Creation (UA)|UA2020SubclassesPt2|6",
+				"Performance of Creation|Bard||Creation (UA)|UA2020SubclassesPt2|14"
+			],
+			"className": "Bard",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "College of Spirits (UA)",
+			"shortName": "Spirits (UA)",
+			"source": "UA2020SubclassesPt4",
+			"page": 1,
+			"subclassFeatures": [
+				"College of Spirits|Bard||Spirits (UA)|UA2020SubclassesPt4|3",
+				"Spirit Session|Bard||Spirits (UA)|UA2020SubclassesPt4|6",
+				"Spiritual Focus|Bard||Spirits (UA)|UA2020SubclassesPt4|6",
+				"Mystical Connection|Bard||Spirits (UA)|UA2020SubclassesPt4|14"
+			],
+			"className": "Bard",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "College of Creation",
+			"shortName": "Creation",
+			"source": "TCE",
+			"page": 28,
+			"subclassFeatures": [
+				"College of Creation|Bard||College of Creation|TCE|3",
+				"Animating Performance|Bard||College of Creation|TCE|6",
+				"Creative Crescendo|Bard||College of Creation|TCE|14"
+			],
+			"className": "Bard",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "College of Eloquence",
+			"shortName": "Eloquence",
+			"source": "TCE",
+			"page": 29,
+			"otherSources": [{
+				"source": "MOT",
+				"page": 28
+			}],
+			"subclassFeatures": [
+				"College of Eloquence|Bard||Eloquence|TCE|3",
+				"Unfailing Inspiration|Bard||Eloquence|TCE|6",
+				"Universal Speech|Bard||Eloquence|TCE|6",
+				"Infectious Inspiration|Bard||Eloquence|TCE|14"
+			],
+			"className": "Bard",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "College of Ancients",
+			"source": "Hergard",
+			"className": "Bard",
+			"classSource": "PHB",
+			"shortName": "Ancients",
+			"subclassFeatures": [
+				"College of Ancients|Bard|PHB|Ancients|Hergard|3",
+				"Tongue of the Forest|Bard|PHB|Ancients|Hergard|6",
+				"Mysteries of Nature|Bard|PHB|Ancients|Hergard|14"
+			]
+		},
+		{
+			"name": "College of Desire",
+			"source": "Hergard",
+			"className": "Bard",
+			"classSource": "PHB",
+			"shortName": "Desire",
+			"subclassFeatures": [
+				"College of Desire|Bard|PHB|Desire|Hergard|3",
+				"Cyclamen Haze|Bard|PHB|Desire|Hergard|6",
+				"Amorous Atmosphere|Bard|PHB|Desire|Hergard|14"
+			]
+		},
+		{
+			"name": "College of Dirges",
+			"source": "Hergard",
+			"className": "Bard",
+			"classSource": "PHB",
+			"shortName": "Dirges",
+			"subclassFeatures": [
+				"College of Dirges|Bard|PHB|Dirges|Hergard|3",
+				"Don't Fear the Reaper|Bard|PHB|Dirges|Hergard|6",
+				"Symphony of the Damned|Bard|PHB|Dirges|Hergard|14"
+			]
+		},
+		{
+			"name": "College of the Maestro",
+			"source": "Hergard",
+			"className": "Bard",
+			"classSource": "PHB",
+			"shortName": "Maestro",
+			"subclassFeatures": [
+				"College of the Maestro|Bard|PHB|Maestro|Hergard|3",
+				"Frenetic Crescendo|Bard|PHB|Maestro|Hergard|6",
+				"Virtuoso of Captivation|Bard|PHB|Maestro|Hergard|14"
+			]
+		},
+		{
+			"name": "College of Roaring Thunder",
+			"source": "Hergard",
+			"className": "Bard",
+			"classSource": "PHB",
+			"shortName": "Roaring Thunder",
+			"subclassFeatures": [
+				"College of Roaring Thunder|Bard|PHB|Roaring Thunder|Hergard|3",
+				"Echoing Storm|Bard|PHB|Roaring Thunder|Hergard|6",
+				"Drums of the Tempest|Bard|PHB|Roaring Thunder|Hergard|14"
+			]
+		},
+		{
+			"name": "College of Tales",
+			"source": "Hergard",
+			"className": "Bard",
+			"classSource": "PHB",
+			"shortName": "Tales",
+			"subclassFeatures": [
+				"College of Tales|Bard|PHB|Tales|Hergard|3",
+				"Mantle of Heroes|Bard|PHB|Tales|Hergard|6",
+				"Maker of Truths|Bard|PHB|Tales|Hergard|14"
+			]
+		},
+		{
 			"name": "Arcane Archer",
 			"source": "Hergard",
 			"className": "Fighter",
@@ -12349,6 +11255,1209 @@
 				"Unending Watch|Fighter|PHB|Spellbreaker|Hergard|15",
 				"High-Warden|Fighter|PHB|Spellbreaker|Hergard|18"
 			]
+		}, {
+			"name": "Battle Master",
+			"shortName": "Battle Master",
+			"source": "PHB",
+			"page": 73,
+			"subclassFeatures": [
+				"Battle Master|Fighter||Battle Master||3",
+				"Additional Maneuvers|Fighter||Battle Master||7",
+				"Additional Superiority Die|Fighter||Battle Master||7",
+				"Know Your Enemy|Fighter||Battle Master||7",
+				"Additional Maneuvers|Fighter||Battle Master||10",
+				"Improved Combat Superiority (d10)|Fighter||Battle Master||10",
+				"Additional Maneuvers|Fighter||Battle Master||15",
+				"Additional Superiority Die|Fighter||Battle Master||15",
+				"Relentless|Fighter||Battle Master||15",
+				"Improved Combat Superiority (d12)|Fighter||Battle Master||18"
+			],
+			"className": "Fighter",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Champion",
+			"shortName": "Champion",
+			"source": "PHB",
+			"page": 72,
+			"srd": true,
+			"subclassFeatures": [
+				"Champion|Fighter||Champion||3",
+				"Remarkable Athlete|Fighter||Champion||7",
+				"Additional Fighting Style|Fighter||Champion||10",
+				"Superior Critical|Fighter||Champion||15",
+				"Survivor|Fighter||Champion||18"
+			],
+			"className": "Fighter",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Eldritch Knight",
+			"shortName": "Eldritch Knight",
+			"source": "PHB",
+			"page": 74,
+			"spellcastingAbility": "int",
+			"casterProgression": "1/3",
+			"subclassTableGroups": [{
+					"subclasses": [{
+						"name": "Eldritch Knight",
+						"source": "PHB"
+					}],
+					"colLabels": [
+						"{@filter Cantrips Known|spells|level=0|subclass=Fighter: Eldritch Knight}",
+						"{@filter Spells Known|spells|subclass=Fighter: Eldritch Knight}"
+					],
+					"rows": [
+						[
+							0,
+							0
+						],
+						[
+							0,
+							0
+						],
+						[
+							2,
+							3
+						],
+						[
+							2,
+							4
+						],
+						[
+							2,
+							4
+						],
+						[
+							2,
+							4
+						],
+						[
+							2,
+							5
+						],
+						[
+							2,
+							6
+						],
+						[
+							2,
+							6
+						],
+						[
+							3,
+							7
+						],
+						[
+							3,
+							8
+						],
+						[
+							3,
+							8
+						],
+						[
+							3,
+							9
+						],
+						[
+							3,
+							10
+						],
+						[
+							3,
+							10
+						],
+						[
+							3,
+							11
+						],
+						[
+							3,
+							11
+						],
+						[
+							3,
+							11
+						],
+						[
+							3,
+							12
+						],
+						[
+							3,
+							13
+						]
+					]
+				},
+				{
+					"title": "Spell Slots per Spell Level",
+					"subclasses": [{
+						"name": "Eldritch Knight",
+						"source": "PHB"
+					}],
+					"colLabels": [
+						"{@filter 1st|spells|level=1|subclass=Fighter: Eldritch Knight}",
+						"{@filter 2nd|spells|level=2|subclass=Fighter: Eldritch Knight}",
+						"{@filter 3rd|spells|level=3|subclass=Fighter: Eldritch Knight}",
+						"{@filter 4th|spells|level=4|subclass=Fighter: Eldritch Knight}"
+					],
+					"rows": [
+						[
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							2,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							1
+						]
+					]
+				}
+			],
+			"subclassFeatures": [
+				"Eldritch Knight|Fighter||Eldritch Knight||3",
+				"War Magic|Fighter||Eldritch Knight||7",
+				"Eldritch Strike|Fighter||Eldritch Knight||10",
+				"Arcane Charge|Fighter||Eldritch Knight||15",
+				"Improved War Magic|Fighter||Eldritch Knight||18"
+			],
+			"className": "Fighter",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Purple Dragon Knight (Banneret)",
+			"shortName": "Purple Dragon Knight (Banneret)",
+			"source": "SCAG",
+			"page": 128,
+			"subclassFeatures": [
+				"Purple Dragon Knight (Banneret)|Fighter||Purple Dragon Knight (Banneret)|SCAG|3",
+				"Royal Envoy|Fighter||Purple Dragon Knight (Banneret)|SCAG|7",
+				"Inspiring Surge|Fighter||Purple Dragon Knight (Banneret)|SCAG|10",
+				"Bulwark|Fighter||Purple Dragon Knight (Banneret)|SCAG|15",
+				"Inspiring Surge|Fighter||Purple Dragon Knight (Banneret)|SCAG|18"
+			],
+			"className": "Fighter",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Cavalier (UA)",
+			"shortName": "Cavalier (UA)",
+			"source": "UAKitsOfOld",
+			"page": 3,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"Cavalier|Fighter||Cavalier (UA)|UAKitsOfOld|3",
+				"Ferocious Charger|Fighter||Cavalier (UA)|UAKitsOfOld|7",
+				"Improved Combat Superiority|Fighter||Cavalier (UA)|UAKitsOfOld|10",
+				"Relentless|Fighter||Cavalier (UA)|UAKitsOfOld|15",
+				"Improved Combat Superiority|Fighter||Cavalier (UA)|UAKitsOfOld|18"
+			],
+			"className": "Fighter",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Scout (UA)",
+			"shortName": "Scout (UA)",
+			"source": "UAKitsOfOld",
+			"page": 4,
+			"subclassFeatures": [
+				"Scout|Fighter||Scout (UA)|UAKitsOfOld|3",
+				"Additional Superiority Die|Fighter||Scout (UA)|UAKitsOfOld|7",
+				"Improved Combat Superiority|Fighter||Scout (UA)|UAKitsOfOld|10",
+				"Relentless|Fighter||Scout (UA)|UAKitsOfOld|15",
+				"Additional Superiority Die|Fighter||Scout (UA)|UAKitsOfOld|15",
+				"Improved Combat Superiority|Fighter||Scout (UA)|UAKitsOfOld|18"
+			],
+			"className": "Fighter",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Monster Hunter (UA)",
+			"shortName": "Monster Hunter (UA)",
+			"source": "UAGothicHeroes",
+			"page": 2,
+			"spellcastingAbility": "wis",
+			"subclassFeatures": [
+				"Monster Hunter|Fighter||Monster Hunter (UA)|UAGothicHeroes|3",
+				"Monster Slayer|Fighter||Monster Hunter (UA)|UAGothicHeroes|7",
+				"Improved Combat Superiority|Fighter||Monster Hunter (UA)|UAGothicHeroes|10",
+				"Relentless|Fighter||Monster Hunter (UA)|UAGothicHeroes|15",
+				"Improved Combat Superiority|Fighter||Monster Hunter (UA)|UAGothicHeroes|18"
+			],
+			"className": "Fighter",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Arcane Archer (UA)",
+			"shortName": "Arcane Archer (UA)",
+			"source": "UAFighter",
+			"page": 1,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"Arcane Archer|Fighter||Arcane Archer (UA)|UAFighter|3",
+				"Conjure Arrows|Fighter||Arcane Archer (UA)|UAFighter|7",
+				"Extra Arcane Shot|Fighter||Arcane Archer (UA)|UAFighter|7",
+				"Extra Arcane Shot|Fighter||Arcane Archer (UA)|UAFighter|10",
+				"Ever-Ready Arrow|Fighter||Arcane Archer (UA)|UAFighter|15",
+				"Extra Arcane Shot|Fighter||Arcane Archer (UA)|UAFighter|15",
+				"Deadly Arrow|Fighter||Arcane Archer (UA)|UAFighter|18",
+				"Extra Arcane Shot|Fighter||Arcane Archer (UA)|UAFighter|18"
+			],
+			"className": "Fighter",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Knight (UA)",
+			"shortName": "Knight (UA)",
+			"source": "UAFighter",
+			"page": 2,
+			"subclassFeatures": [
+				"Knight|Fighter||Knight (UA)|UAFighter|3",
+				"Noble Cavalry|Fighter||Knight (UA)|UAFighter|7",
+				"Hold the Line|Fighter||Knight (UA)|UAFighter|10",
+				"Rapid Strike|Fighter||Knight (UA)|UAFighter|15",
+				"Defender's Blade|Fighter||Knight (UA)|UAFighter|18"
+			],
+			"className": "Fighter",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Samurai (UA)",
+			"shortName": "Samurai (UA)",
+			"source": "UAFighter",
+			"page": 3,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"Samurai|Fighter||Samurai (UA)|UAFighter|3",
+				"Elegant Courtier|Fighter||Samurai (UA)|UAFighter|7",
+				"Unbreakable Will|Fighter||Samurai (UA)|UAFighter|10",
+				"Rapid Strike|Fighter||Samurai (UA)|UAFighter|15",
+				"Strength Before Death|Fighter||Samurai (UA)|UAFighter|18"
+			],
+			"className": "Fighter",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Sharpshooter (UA)",
+			"shortName": "Sharpshooter (UA)",
+			"source": "UAFighter",
+			"page": 3,
+			"subclassFeatures": [
+				"Sharpshooter|Fighter||Sharpshooter (UA)|UAFighter|3",
+				"Careful Eyes|Fighter||Sharpshooter (UA)|UAFighter|7",
+				"Close-Quarters Shooting|Fighter||Sharpshooter (UA)|UAFighter|10",
+				"Rapid Strike|Fighter||Sharpshooter (UA)|UAFighter|15",
+				"Snap Shot|Fighter||Sharpshooter (UA)|UAFighter|18"
+			],
+			"className": "Fighter",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Arcane Archer v2 (UA)",
+			"shortName": "Arcane Archer v2 (UA)",
+			"source": "UARevisedSubclasses",
+			"page": 2,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"Arcane Archer v2|Fighter||Arcane Archer v2 (UA)|UARevisedSubclasses|3",
+				"Curving Shot|Fighter||Arcane Archer v2 (UA)|UARevisedSubclasses|7",
+				"Extra Arcane Shot|Fighter||Arcane Archer v2 (UA)|UARevisedSubclasses|7",
+				"Extra Arcane Shot|Fighter||Arcane Archer v2 (UA)|UARevisedSubclasses|10",
+				"Ever-Ready Shot|Fighter||Arcane Archer v2 (UA)|UARevisedSubclasses|15",
+				"Extra Arcane Shot|Fighter||Arcane Archer v2 (UA)|UARevisedSubclasses|15",
+				"Extra Arcane Shot|Fighter||Arcane Archer v2 (UA)|UARevisedSubclasses|18"
+			],
+			"className": "Fighter",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Cavalier v2 (UA)",
+			"shortName": "Cavalier v2 (UA)",
+			"source": "UARevisedClassOptions",
+			"page": 2,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"Cavalier v2|Fighter||Cavalier v2 (UA)|UARevisedClassOptions|3",
+				"Ferocious Charger|Fighter||Cavalier v2 (UA)|UARevisedClassOptions|7",
+				"Improved Combat Superiority|Fighter||Cavalier v2 (UA)|UARevisedClassOptions|10",
+				"Relentless|Fighter||Cavalier v2 (UA)|UARevisedClassOptions|15",
+				"Improved Combat Superiority|Fighter||Cavalier v2 (UA)|UARevisedClassOptions|18"
+			],
+			"className": "Fighter",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Arcane Archer",
+			"shortName": "Arcane Archer",
+			"source": "XGE",
+			"page": 28,
+			"subclassFeatures": [
+				"Arcane Archer|Fighter||Arcane Archer|XGE|3",
+				"Magic Arrow|Fighter||Arcane Archer|XGE|7",
+				"Curving Shot|Fighter||Arcane Archer|XGE|7",
+				"Additional Arcane Shot Option|Fighter||Arcane Archer|XGE|7",
+				"Additional Arcane Shot Option|Fighter||Arcane Archer|XGE|10",
+				"Ever-Ready Shot|Fighter||Arcane Archer|XGE|15",
+				"Additional Arcane Shot Option|Fighter||Arcane Archer|XGE|15",
+				"Additional Arcane Shot Option|Fighter||Arcane Archer|XGE|18"
+			],
+			"className": "Fighter",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Cavalier",
+			"shortName": "Cavalier",
+			"source": "XGE",
+			"page": 30,
+			"subclassFeatures": [
+				"Cavalier|Fighter||Cavalier|XGE|3",
+				"Warding Maneuver|Fighter||Cavalier|XGE|7",
+				"Hold the Line|Fighter||Cavalier|XGE|10",
+				"Ferocious Charger|Fighter||Cavalier|XGE|15",
+				"Vigilant Defender|Fighter||Cavalier|XGE|18"
+			],
+			"className": "Fighter",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Samurai",
+			"shortName": "Samurai",
+			"source": "XGE",
+			"page": 31,
+			"subclassFeatures": [
+				"Samurai|Fighter||Samurai|XGE|3",
+				"Elegant Courtier|Fighter||Samurai|XGE|7",
+				"Tireless Spirit|Fighter||Samurai|XGE|10",
+				"Rapid Strike|Fighter||Samurai|XGE|15",
+				"Strength before Death|Fighter||Samurai|XGE|18"
+			],
+			"className": "Fighter",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Brute (UA)",
+			"shortName": "Brute (UA)",
+			"source": "UAThreeSubclasses",
+			"page": 2,
+			"subclassFeatures": [
+				"Brute|Fighter||Brute (UA)|UAThreeSubclasses|3",
+				"Brutish Durability|Fighter||Brute (UA)|UAThreeSubclasses|7",
+				"Additional Fighting Style|Fighter||Brute (UA)|UAThreeSubclasses|10",
+				"Devastating Critical|Fighter||Brute (UA)|UAThreeSubclasses|15",
+				"Survivor|Fighter||Brute (UA)|UAThreeSubclasses|18"
+			],
+			"className": "Fighter",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Rune Knight (UA)",
+			"shortName": "Rune Knight (UA)",
+			"source": "UAFighterRangerRogue",
+			"page": 1,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"Rune Knight|Fighter||Rune Knight (UA)|UAFighterRangerRogue|3",
+				"Defensive Runes|Fighter||Rune Knight (UA)|UAFighterRangerRogue|7",
+				"Great Stature|Fighter||Rune Knight (UA)|UAFighterRangerRogue|10",
+				"Rune Magic Mastery|Fighter||Rune Knight (UA)|UAFighterRangerRogue|15",
+				"Blessing of the All Father|Fighter||Rune Knight (UA)|UAFighterRangerRogue|18"
+			],
+			"className": "Fighter",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Psychic Warrior (UA)",
+			"shortName": "Psychic Warrior (UA)",
+			"source": "UAFighterRogueWizard",
+			"page": 1,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"Psychic Warrior|Fighter||Psychic Warrior (UA)|UAFighterRogueWizard|3",
+				"Strength of Mind|Fighter||Psychic Warrior (UA)|UAFighterRogueWizard|7",
+				"Telekinetic Bulwark|Fighter||Psychic Warrior (UA)|UAFighterRogueWizard|10",
+				"Psionic Armament Improvement|Fighter||Psychic Warrior (UA)|UAFighterRogueWizard|10",
+				"Agonizing Strikes|Fighter||Psychic Warrior (UA)|UAFighterRogueWizard|15",
+				"Psychic Dreadnaught|Fighter||Psychic Warrior (UA)|UAFighterRogueWizard|18"
+			],
+			"className": "Fighter",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Echo Knight",
+			"shortName": "Echo Knight",
+			"source": "EGW",
+			"page": 183,
+			"subclassFeatures": [
+				"Echo Knight|Fighter||Echo Knight|EGW|3",
+				"Echo Avatar|Fighter||Echo Knight|EGW|7",
+				"Shadow Martyr|Fighter||Echo Knight|EGW|10",
+				"Reclaim Potential|Fighter||Echo Knight|EGW|15",
+				"Legion of One|Fighter||Echo Knight|EGW|18"
+			],
+			"className": "Fighter",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Psi Knight (UA)",
+			"shortName": "Psi Knight (UA)",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 2,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"Psi Knight|Fighter||Psi Knight (UA)|UA2020PsionicOptionsRevisited|3",
+				"Telekinetic Adept|Fighter||Psi Knight (UA)|UA2020PsionicOptionsRevisited|7",
+				"Psi-Enhanced Metabolism|Fighter||Psi Knight (UA)|UA2020PsionicOptionsRevisited|10",
+				"Bulwark of Force|Fighter||Psi Knight (UA)|UA2020PsionicOptionsRevisited|15",
+				"Telekinetic Master|Fighter||Psi Knight (UA)|UA2020PsionicOptionsRevisited|18"
+			],
+			"className": "Fighter",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Psi Warrior",
+			"shortName": "Psi Warrior",
+			"source": "TCE",
+			"page": 42,
+			"subclassFeatures": [
+				"Psi Warrior|Fighter||Psi Warrior|TCE|3",
+				"Telekinetic Adept|Fighter||Psi Warrior|TCE|7",
+				"Guarded Mind|Fighter||Psi Warrior|TCE|10",
+				"Bulwark of Force|Fighter||Psi Warrior|TCE|15",
+				"Telekinetic Master|Fighter||Psi Warrior|TCE|18"
+			],
+			"className": "Fighter",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Rune Knight",
+			"shortName": "Rune Knight",
+			"source": "TCE",
+			"page": 44,
+			"subclassFeatures": [
+				"Rune Knight|Fighter||Rune Knight|TCE|3",
+				"Runic Shield|Fighter||Rune Knight|TCE|7",
+				"Great Stature|Fighter||Rune Knight|TCE|10",
+				"Master of Runes|Fighter||Rune Knight|TCE|15",
+				"Runic Juggernaut|Fighter||Rune Knight|TCE|18"
+			],
+			"className": "Fighter",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Arcane Archer",
+			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"shortName": "Arcane Archer",
+			"subclassFeatures": [
+				"Arcane Archer|Fighter|PHB|Arcane Archer|Hergard|3",
+				"Magic Quiver|Fighter|PHB|Arcane Archer|Hergard|7",
+				"Elemental Arrows|Fighter|PHB|Arcane Archer|Hergard|10",
+				"Ever-Ready|Fighter|PHB|Arcane Archer|Hergard|15"
+			]
+		},
+		{
+			"name": "Battle Master",
+			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"shortName": "Battle Master",
+			"subclassFeatures": [
+				"Battle Master|Fighter|PHB|Battle Master|Hergard|3",
+				"Know Your Enemy|Fighter|PHB|Battle Master|Hergard|7",
+				"Improved Combat Superiority|Fighter|PHB|Battle Master|Hergard|10",
+				"Relentless|Fighter|PHB|Battle Master|Hergard|15",
+				"Battlefield Awareness|Fighter|PHB|Battle Master|Hergard|18"
+			]
+		},
+		{
+			"name": "Blademaker",
+			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"shortName": "Blademaker",
+			"subclassFeatures": [
+				"Blademaker|Fighter|PHB|Blademaker|Hergard|3",
+				"Maneuvering Barrage|Fighter|PHB|Blademaker|Hergard|7",
+				"Otherworldly Blades|Fighter|PHB|Blademaker|Hergard|10",
+				"Victorious Onslaught|Fighter|PHB|Blademaker|Hergard|15",
+				"Army of One|Fighter|PHB|Blademaker|Hergard|18"
+			]
+		},
+		{
+			"name": "Champion",
+			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"shortName": "Champion",
+			"subclassFeatures": [
+				"Champion|Fighter|PHB|Champion|Hergard|3",
+				"Remarkable Athlete|Fighter|PHB|Champion|Hergard|7",
+				"Everchanging Fighting Style|Fighter|PHB|Champion|Hergard|10",
+				"Deadly Skill|Fighter|PHB|Champion|Hergard|15",
+				"Survivor|Fighter|PHB|Champion|Hergard|18"
+			]
+		},
+		{
+			"name": "Combat Medic",
+			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"shortName": "Combat Medic",
+			"subclassFeatures": [
+				"Combat Medic|Fighter|PHB|Combat Medic|Hergard|3",
+				"Protect the Downed|Fighter|PHB|Combat Medic|Hergard|7",
+				"Vital Strike|Fighter|PHB|Combat Medic|Hergard|10",
+				"Quick Cure|Fighter|PHB|Combat Medic|Hergard|15",
+				"No Man Left Behind|Fighter|PHB|Combat Medic|Hergard|18"
+			]
+		},
+		{
+			"name": "Conqueror",
+			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"shortName": "Conqueror",
+			"subclassFeatures": [
+				"Conqueror|Fighter|PHB|Conqueror|Hergard|3",
+				"Rise to War|Fighter|PHB|Conqueror|Hergard|7",
+				"Conqueror's Reach|Fighter|PHB|Conqueror|Hergard|10",
+				"Rank and File|Fighter|PHB|Conqueror|Hergard|15",
+				"Unyielding Advance|Fighter|PHB|Conqueror|Hergard|18"
+			]
+		},
+		{
+			"name": "Gunslinger",
+			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"shortName": "Gunslinger",
+			"subclassFeatures": [
+				"Gunslinger|Fighter|PHB|Gunslinger|Hergard|3",
+				"Quickdraw|Fighter|PHB|Gunslinger|Hergard|7",
+				"Rapid Repair|Fighter|PHB|Gunslinger|Hergard|10",
+				"Lightning Reload|Fighter|PHB|Gunslinger|Hergard|15",
+				"Vicious Intent|Fighter|PHB|Gunslinger|Hergard|18",
+				"Hemorrhaging Critical|Fighter|PHB|Gunslinger|Hergard|18"
+			]
+		},
+		{
+			"name": "Purple Dragon Knight",
+			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"shortName": "Purple Dragon Knight",
+			"subclassFeatures": [
+				"Purple Dragon Knight|Fighter|PHB|Purple Dragon Knight|Hergard|3",
+				"Royal Envoy|Fighter|PHB|Purple Dragon Knight|Hergard|7",
+				"Inspiring Surge|Fighter|PHB|Purple Dragon Knight|Hergard|10",
+				"Lead the Charge|Fighter|PHB|Purple Dragon Knight|Hergard|10",
+				"Bulwark|Fighter|PHB|Purple Dragon Knight|Hergard|15"
+			]
+		},
+		{
+			"name": "Spellbreaker",
+			"source": "Hergard",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"shortName": "Spellbreaker",
+			"subclassFeatures": [
+				"Spellbreaker|Fighter|PHB|Spellbreaker|Hergard|3",
+				"Magical Lore|Fighter|PHB|Spellbreaker|Hergard|7",
+				"Warding Sigil|Fighter|PHB|Spellbreaker|Hergard|10",
+				"Unending Watch|Fighter|PHB|Spellbreaker|Hergard|15",
+				"High-Warden|Fighter|PHB|Spellbreaker|Hergard|18"
+			]
+		},
+		{
+			"name": "Beast Master",
+			"shortName": "Beast Master",
+			"source": "PHB",
+			"page": 93,
+			"subclassFeatures": [
+				"Beast Master|Ranger||Beast Master||3",
+				"Exceptional Training|Ranger||Beast Master||7",
+				"Bestial Fury|Ranger||Beast Master||11",
+				"Share Spells|Ranger||Beast Master||15"
+			],
+			"className": "Ranger",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Hunter",
+			"shortName": "Hunter",
+			"source": "PHB",
+			"page": 93,
+			"srd": true,
+			"subclassFeatures": [
+				"Hunter|Ranger||Hunter||3",
+				"Defensive Tactics|Ranger||Hunter||7",
+				"Multiattack|Ranger||Hunter||11",
+				"Superior Hunter's Defense|Ranger||Hunter||15"
+			],
+			"className": "Ranger",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Deep Stalker (UA)",
+			"shortName": "Deep Stalker (UA)",
+			"source": "UALightDarkUnderdark",
+			"page": 1,
+			"isReprinted": true,
+			"additionalSpells": [{
+				"prepared": {
+					"3": [
+						"disguise self"
+					],
+					"5": [
+						"rope trick"
+					],
+					"9": [
+						"glyph of warding"
+					],
+					"13": [
+						"greater invisibility"
+					],
+					"17": [
+						"seeming"
+					]
+				}
+			}],
+			"subclassFeatures": [
+				"Deep Stalker|Ranger||Deep Stalker (UA)|UALightDarkUnderdark|3",
+				"Iron Mind|Ranger||Deep Stalker (UA)|UALightDarkUnderdark|7",
+				"Stalker's Flurry|Ranger||Deep Stalker (UA)|UALightDarkUnderdark|11",
+				"Stalker's Dodge|Ranger||Deep Stalker (UA)|UALightDarkUnderdark|15"
+			],
+			"className": "Ranger",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Horizon Walker (UA)",
+			"shortName": "Horizon Walker (UA)",
+			"source": "UARangerAndRogue",
+			"page": 1,
+			"isReprinted": true,
+			"additionalSpells": [{
+				"prepared": {
+					"3": [
+						"protection from evil and good"
+					],
+					"5": [
+						"alter self"
+					],
+					"9": [
+						"protection from energy"
+					],
+					"13": [
+						"banishment"
+					],
+					"17": [
+						"teleportation circle"
+					]
+				}
+			}],
+			"subclassFeatures": [
+				"Horizon Walker|Ranger||Horizon Walker (UA)|UARangerAndRogue|3",
+				"Ethereal Step|Ranger||Horizon Walker (UA)|UARangerAndRogue|7",
+				"Distant Strike|Ranger||Horizon Walker (UA)|UARangerAndRogue|11",
+				"Spectral Defense|Ranger||Horizon Walker (UA)|UARangerAndRogue|15"
+			],
+			"className": "Ranger",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Primeval Guardian (UA)",
+			"shortName": "Primeval Guardian (UA)",
+			"source": "UARangerAndRogue",
+			"page": 2,
+			"additionalSpells": [{
+				"prepared": {
+					"3": [
+						"entangle"
+					],
+					"5": [
+						"enhance ability"
+					],
+					"9": [
+						"conjure animals"
+					],
+					"13": [
+						"giant insect"
+					],
+					"17": [
+						"insect plague"
+					]
+				}
+			}],
+			"subclassFeatures": [
+				"Primeval Guardian|Ranger||Primeval Guardian (UA)|UARangerAndRogue|3",
+				"Ancient Fortitude|Ranger||Primeval Guardian (UA)|UARangerAndRogue|7",
+				"Rooted Defense|Ranger||Primeval Guardian (UA)|UARangerAndRogue|11",
+				"Guardian Aura|Ranger||Primeval Guardian (UA)|UARangerAndRogue|15"
+			],
+			"className": "Ranger",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Monster Slayer (UA)",
+			"shortName": "Monster Slayer (UA)",
+			"source": "UAATrioOfSubclasses",
+			"page": 3,
+			"isReprinted": true,
+			"additionalSpells": [{
+				"prepared": {
+					"3": [
+						"protection from evil and good"
+					],
+					"5": [
+						"zone of truth"
+					],
+					"9": [
+						"magic circle"
+					],
+					"13": [
+						"banishment"
+					],
+					"17": [
+						"planar binding"
+					]
+				}
+			}],
+			"subclassFeatures": [
+				"Monster Slayer|Ranger||Monster Slayer (UA)|UAATrioOfSubclasses|3",
+				"Supernatural Defense|Ranger||Monster Slayer (UA)|UAATrioOfSubclasses|7",
+				"Relentless Slayer|Ranger||Monster Slayer (UA)|UAATrioOfSubclasses|11",
+				"Slayer's Counter|Ranger||Monster Slayer (UA)|UAATrioOfSubclasses|15"
+			],
+			"className": "Ranger",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Gloom Stalker",
+			"shortName": "Gloom Stalker",
+			"source": "XGE",
+			"page": 41,
+			"additionalSpells": [{
+				"prepared": {
+					"3": [
+						"disguise self"
+					],
+					"5": [
+						"rope trick"
+					],
+					"9": [
+						"fear"
+					],
+					"13": [
+						"greater invisibility"
+					],
+					"17": [
+						"seeming"
+					]
+				}
+			}],
+			"subclassFeatures": [
+				"Gloom Stalker|Ranger||Gloom Stalker|XGE|3",
+				"Iron Mind|Ranger||Gloom Stalker|XGE|7",
+				"Stalker's Flurry|Ranger||Gloom Stalker|XGE|11",
+				"Shadowy Dodge|Ranger||Gloom Stalker|XGE|15"
+			],
+			"className": "Ranger",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Horizon Walker",
+			"shortName": "Horizon Walker",
+			"source": "XGE",
+			"page": 42,
+			"additionalSpells": [{
+				"prepared": {
+					"3": [
+						"protection from evil and good"
+					],
+					"5": [
+						"misty step"
+					],
+					"9": [
+						"haste"
+					],
+					"13": [
+						"banishment"
+					],
+					"17": [
+						"teleportation circle"
+					]
+				}
+			}],
+			"subclassFeatures": [
+				"Horizon Walker|Ranger||Horizon Walker|XGE|3",
+				"Ethereal Step|Ranger||Horizon Walker|XGE|7",
+				"Distant Strike|Ranger||Horizon Walker|XGE|11",
+				"Spectral Defense|Ranger||Horizon Walker|XGE|15"
+			],
+			"className": "Ranger",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Monster Slayer",
+			"shortName": "Monster Slayer",
+			"source": "XGE",
+			"page": 43,
+			"additionalSpells": [{
+				"prepared": {
+					"3": [
+						"protection from evil and good"
+					],
+					"5": [
+						"zone of truth"
+					],
+					"9": [
+						"magic circle"
+					],
+					"13": [
+						"banishment"
+					],
+					"17": [
+						"hold monster"
+					]
+				}
+			}],
+			"subclassFeatures": [
+				"Monster Slayer|Ranger||Monster Slayer|XGE|3",
+				"Supernatural Defense|Ranger||Monster Slayer|XGE|7",
+				"Magic-User's Nemesis|Ranger||Monster Slayer|XGE|11",
+				"Slayer's Counter|Ranger||Monster Slayer|XGE|15"
+			],
+			"className": "Ranger",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Swarmkeeper (UA)",
+			"shortName": "Swarmkeeper (UA)",
+			"source": "UAFighterRangerRogue",
+			"page": 3,
+			"isReprinted": true,
+			"additionalSpells": [{
+				"prepared": {
+					"3": [
+						"faerie fire"
+					],
+					"5": [
+						"web"
+					],
+					"9": [
+						"gaseous form"
+					],
+					"13": [
+						"giant insect"
+					],
+					"17": [
+						"insect plague"
+					]
+				}
+			}],
+			"subclassFeatures": [
+				"Swarmkeeper|Ranger||Swarmkeeper (UA)|UAFighterRangerRogue|3",
+				"Writhing Tide|Ranger||Swarmkeeper (UA)|UAFighterRangerRogue|7",
+				"Scuttling Eyes|Ranger||Swarmkeeper (UA)|UAFighterRangerRogue|11",
+				"Gathered Swarm Improvement|Ranger||Swarmkeeper (UA)|UAFighterRangerRogue|11",
+				"Storm of Minions|Ranger||Swarmkeeper (UA)|UAFighterRangerRogue|15"
+			],
+			"className": "Ranger",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Fey Wanderer (UA)",
+			"shortName": "Fey Wanderer (UA)",
+			"source": "UA2020SubclassesPt3",
+			"page": 5,
+			"isReprinted": true,
+			"additionalSpells": [{
+				"prepared": {
+					"3": [
+						"charm person"
+					],
+					"5": [
+						"misty step"
+					],
+					"9": [
+						"dispel magic"
+					],
+					"13": [
+						"banishment"
+					],
+					"17": [
+						"mislead"
+					]
+				}
+			}],
+			"subclassFeatures": [
+				"Fey Wanderer|Ranger||Fey Wanderer (UA)|UA2020SubclassesPt3|3",
+				"Blessings of the Courts|Ranger||Fey Wanderer (UA)|UA2020SubclassesPt3|7",
+				"Beguiling Twist|Ranger||Fey Wanderer (UA)|UA2020SubclassesPt3|11",
+				"Misty Presence|Ranger||Fey Wanderer (UA)|UA2020SubclassesPt3|15"
+			],
+			"className": "Ranger",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Drakewarden (UA)",
+			"shortName": "Drakewarden (UA)",
+			"source": "UA2020SubclassesPt5",
+			"page": 2,
+			"subclassFeatures": [
+				"Drakewarden|Ranger||Drakewarden (UA)|UA2020SubclassesPt5|3",
+				"Bond of Fang and Scale|Ranger||Drakewarden (UA)|UA2020SubclassesPt5|7",
+				"Drake's Breath|Ranger||Drakewarden (UA)|UA2020SubclassesPt5|11",
+				"Perfected Bond|Ranger||Drakewarden (UA)|UA2020SubclassesPt5|15"
+			],
+			"className": "Ranger",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Fey Wanderer",
+			"shortName": "Fey Wanderer",
+			"source": "TCE",
+			"page": 58,
+			"additionalSpells": [{
+				"prepared": {
+					"3": [
+						"charm person"
+					],
+					"5": [
+						"misty step"
+					],
+					"9": [
+						"dispel magic"
+					],
+					"13": [
+						"dimension door"
+					],
+					"17": [
+						"mislead"
+					]
+				}
+			}],
+			"subclassFeatures": [
+				"Fey Wanderer|Ranger||Fey Wanderer|TCE|3",
+				"Beguiling Twist|Ranger||Fey Wanderer|TCE|7",
+				"Fey Reinforcements|Ranger||Fey Wanderer|TCE|11",
+				"Misty Wanderer|Ranger||Fey Wanderer|TCE|15"
+			],
+			"className": "Ranger",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Swarmkeeper",
+			"shortName": "Swarmkeeper",
+			"source": "TCE",
+			"page": 59,
+			"additionalSpells": [{
+				"prepared": {
+					"3": [
+						"mage hand",
+						"faerie fire"
+					],
+					"5": [
+						"web"
+					],
+					"9": [
+						"gaseous form"
+					],
+					"13": [
+						"arcane eye"
+					],
+					"17": [
+						"insect plague"
+					]
+				}
+			}],
+			"subclassFeatures": [
+				"Swarmkeeper|Ranger||Swarmkeeper|TCE|3",
+				"Writhing Tide|Ranger||Swarmkeeper|TCE|7",
+				"Mighty Swarm|Ranger||Swarmkeeper|TCE|11",
+				"Swarming Dispersal|Ranger||Swarmkeeper|TCE|15"
+			],
+			"className": "Ranger",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Conclave of the Beastmasters",
+			"source": "Hergard",
+			"shortName": "Beastmasters",
+			"subclassFeatures": [
+				"Conclave of the Beastmasters|Ranger|Hergard|Conclave of the Beastmasters|Hergard|3",
+				"Ferocity|Ranger|Hergard|Conclave of the Beastmasters|Hergard|7",
+				"Storm of Claws and Fangs|Ranger|Hergard|Conclave of the Beastmasters|Hergard|11",
+				"Kin|Ranger|Hergard|Conclave of the Beastmasters|Hergard|15"
+			],
+			"className": "Ranger",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Conclave of the Frostwarden",
+			"source": "Hergard",
+			"shortName": "Frostwarden",
+			"subclassFeatures": [
+				"Conclave of the Frostwarden|Ranger|Hergard|Conclave of the Frostwarden|Hergard|3",
+				"Frozen Ward|Ranger|Hergard|Conclave of the Frostwarden|Hergard|7",
+				"Wolf of the Blizzard|Ranger|Hergard|Conclave of the Frostwarden|Hergard|11",
+				"Heart of the Snowstorm|Ranger|Hergard|Conclave of the Frostwarden|Hergard|15"
+			],
+			"className": "Ranger",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Conclave of the Hunters",
+			"source": "Hergard",
+			"shortName": "Hunters",
+			"subclassFeatures": [
+				"Conclave of the Hunters|Ranger|Hergard|Conclave of the Hunters|Hergard|3",
+				"Adaptation|Ranger|Hergard|Conclave of the Hunters|Hergard|7",
+				"Flurry|Ranger|Hergard|Conclave of the Hunters|Hergard|11",
+				"Ultimate Hunter|Ranger|Hergard|Conclave of the Hunters|Hergard|15"
+			],
+			"className": "Ranger",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Conclave of the Solwatch",
+			"source": "Hergard",
+			"shortName": "Solwatch",
+			"subclassFeatures": [
+				"Conclave of the Solwatch|Ranger|Hergard|Conclave of the Solwatch|Hergard|3",
+				"Luminous Protector|Ranger|Hergard|Conclave of the Solwatch|Hergard|7",
+				"Bane of the Scorched|Ranger|Hergard|Conclave of the Solwatch|Hergard|11",
+				"World on Fire|Ranger|Hergard|Conclave of the Solwatch|Hergard|15"
+			],
+			"className": "Ranger",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Conclave of the Starfinders",
+			"source": "Hergard",
+			"shortName": "Starfinders",
+			"subclassFeatures": [
+				"Conclave of the Starfinders|Ranger|Hergard|Conclave of the Starfinders|Hergard|3",
+				"Blinding Brilliance|Ranger|Hergard|Conclave of the Starfinders|Hergard|7",
+				"Crescent Volley|Ranger|Hergard|Conclave of the Starfinders|Hergard|11",
+				"Through the Dark|Ranger|Hergard|Conclave of the Starfinders|Hergard|15"
+			],
+			"className": "Ranger",
+			"classSource": "Hergard"
 		},
 		{
 			"name": "Path of the Burning",
