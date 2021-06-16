@@ -14369,6 +14369,73 @@
 			"name": "Draconic Bloodline",
 			"source": "Hergard",
 			"className": "Sorcerer",
+			"classSource": "PHB",
+			"shortName": "Draconic Bloodline",
+			"subclassFeatures": [
+				"Draconic Bloodline|Sorcerer|PHB|Draconic Bloodline|Hergard|1",
+				"Elemental Affinity|Sorcerer|PHB|Draconic Bloodline|Hergard|6",
+				"Dragon Wings|Sorcerer|PHB|Draconic Bloodline|Hergard|14",
+				"Draconic Presence|Sorcerer|PHB|Draconic Bloodline|Hergard|18"
+			]
+		},
+		{
+			"name": "Shadow Magic",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"shortName": "Shadow",
+			"subclassFeatures": [
+				"Shadow Magic|Sorcerer|PHB|Shadow Magic|Hergard|1",
+				"Hound of Ill Omen|Sorcerer|PHB|Shadow Magic|Hergard|6",
+				"Shadow Walk|Sorcerer|PHB|Shadow Magic|Hergard|14",
+				"Umbral Form|Sorcerer|PHB|Shadow Magic|Hergard|18"
+			]
+		},
+		{
+			"name": "Wild Magic",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"shortName": "Wild ",
+			"subclassFeatures": [
+				"Wild Magic|Sorcerer|PHB|Wild Magic|Hergard|1",
+				"Bend Luck|Sorcerer|PHB|Wild Magic|Hergard|6",
+				"Wild Magic Surge|Sorcerer|PHB|Wild Magic|Hergard|6",
+				"Controlled Chaos|Sorcerer|PHB|Wild Magic|Hergard|14",
+				"Chaosmage|Sorcerer|PHB|Wild Magic|Hergard|18"
+			]
+		},
+		{
+			"name": "Shadow Magic",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "Hergard",
+			"shortName": "Shadow",
+			"subclassFeatures": [
+				"Shadow Magic|Sorcerer|PHB|Shadow Magic|Hergard|1",
+				"Hound of Ill Omen|Sorcerer|PHB|Shadow Magic|Hergard|6",
+				"Shadow Walk|Sorcerer|PHB|Shadow Magic|Hergard|14",
+				"Umbral Form|Sorcerer|PHB|Shadow Magic|Hergard|18"
+			]
+		},
+		{
+			"name": "Wild Magic",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "Hergard",
+			"shortName": "Wild",
+			"subclassFeatures": [
+				"Wild Magic|Sorcerer|PHB|Wild Magic|Hergard|1",
+				"Bend Luck|Sorcerer|PHB|Wild Magic|Hergard|6",
+				"Wild Magic Surge|Sorcerer|PHB|Wild Magic|Hergard|6",
+				"Controlled Chaos|Sorcerer|PHB|Wild Magic|Hergard|14",
+				"Chaosmage|Sorcerer|PHB|Wild Magic|Hergard|18"
+			]
+		},
+		{
+			"name": "Draconic Bloodline",
+			"source": "Hergard",
+			"className": "Sorcerer",
 			"classSource": "Hergard",
 			"shortName": "Draconic Bloodline",
 			"subclassFeatures": [
@@ -27237,7 +27304,8 @@
 							"{@spell heroes' feast|phb},{@spell mental prison|xge}"
 						]
 					]
-				}
+				},
+				"Whenever you cast sleep, you can enhance its effect by spending 1 sorcery point. If you do so, you may ignore the verbal and somatic components of the spell. At 6th level, when cast in this way, the spell's die size is increased from a d8 to a d10. At 14th level, this increases to a d12."
 			]
 		},
 		{
@@ -27250,8 +27318,7 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"When you choose this origin at 1st level, your immense experience within the realm of dreams allows you to more easily coax those of the waking world into sleep. Whenever you cast the sleep spell, you may ignore the verbal and somatic components of the spell and its die size is increased from a d8 to a d10. At 14th level, this increases to a d12. You can also choose to maintain concentration on the magical sleep to increase its duration to up to 1 hour.",
-				"Additionally, you can cast detect thoughts once per long rest without expending a spell slot. When cast it in this way, the target must be an unconscious individual, but they will be unaware of the spell's effects."
+				"When you choose this origin at 1st level, you have learned how to peer into the dreams of creatures to better understand them. By concentrating for 1 minute, you can delve into the pleasant dreams, or nightmares of an unconscious creature within 20 feet of you. You immediately learn the surface thoughts of the creature, and something that looms large in its mind (such as something it worries over, loves, or hates). For the next day, you have advantage on all Charisma checks against the creature, when you attempt to leverage this knowledge against them."
 			]
 		},
 		{
@@ -27382,7 +27449,8 @@
 							"Winter", "Persuasion"
 						]
 					]
-				}
+				},
+				"Your proficiency bonus is doubled for any ability check you make that uses your proficiency gained from your court."
 			]
 		},
 		{
@@ -27995,10 +28063,6 @@
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Clairvoyant Combatant|Sorcerer|PHB|Oracle|Hergard|1"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Rituals of the Diviner|Sorcerer|PHB|Oracle|Hergard|1"
 				}
 			]
 		},
@@ -28052,7 +28116,9 @@
 							"{@spell contingency|PHB}, {@spell true seeing|PHB}"
 						]
 					]
-				}
+				},
+				"You can cast any sorcerer spell you know as a ritual if that spell has the ritual tag.",
+				"Additionally, you may learn one first level spell that has the ritual tag. It is a sorcerer spell for you, but it doesn't count against your number of sorcerer spells known. If you later replace this spell, you must replace it with a spell that has the ritual tag."
 			]
 		},
 		{
@@ -28068,21 +28134,6 @@
 				"Starting at 1st level, you gain insight into your enemy's next move.",
 				"If a hostile creature makes a weapon attack against you, you may use your reaction to roll 1d4 and subtract it from the attack roll. If the attack misses you, the attacker can't make opportunity attacks against you until the start of your next turn. At 14th level, the rolled die improves to 2d4.",
 				"You may use this feature a number of times equal to your proficiency bonus. You regain all uses of this feature when you finish a short or long rest."
-			]
-		},
-		{
-			"name": "Rituals of the Diviner",
-			"source": "Hergard",
-			"className": "Sorcerer",
-			"classSource": "PHB",
-			"subclassShortName": "Oracle",
-			"subclassSource": "Hergard",
-			"level": 1,
-			"header": 1,
-			"entries": [
-				"At 1st level, you can cast any sorcerer spell you know as a ritual if that spell has the ritual tag.",
-				"Additionally, you may learn one first level spell that has the ritual tag. It is a sorcerer spell for you, but it doesn't count against your number of sorcerer spells known. If you later replace this spell, you must replace it with a spell that has the ritual tag."
-
 			]
 		},
 		{
@@ -28127,6 +28178,306 @@
 				"Starting at 18th level, your divining powers fully manifest, simultaneously seeing into multiple creatures' futures.",
 				"Whenever a creature within 30 feet of you is targeted by an attack or is forced to make a saving throw, you can use your reaction to aid them in avoiding danger. If the creature was targeted by an attack, you force the attacking creature to reroll the attack, using a d12 instead of a d20 for the attack roll. If the creature was forced to make a saving throw, it can add a d12 to its saving throw. If the creature was subjected to an effect that allows them to make a saving throw to take only half damage, they instead take no damage if they succeed on the save.",
 				"You may use this feature a number of times equal to your Charisma modifier. You regain all uses of this feature when you finish a long rest."
+			]
+		},
+		{
+			"name": "Shadow Magic",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Shadow Magic",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"entries": [
+				"You are a creature of shadow, for your innate magic comes from the Shadowfell itself. You might trace your lineage to an entity from that place, or perhaps you were exposed to its fell energy and transformed by it.",
+				"The power of shadow magic casts a strange pall over your physical presence. The spark of life that sustains you is muffled, as if it struggles to remain viable against the dark energy that imbues your soul.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Shadow Sorcery|Sorcerer|PHB|Shadow Magic|Hergard|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Shadowborn|Sorcerer|PHB|Shadow Magic|Hergard|1"
+				}
+			]
+		},
+		{
+			"name": "Shadow Sorcery",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Shadow Magic",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"You learn additional spells when you reach certain levels in this class, as shown on the Shadow Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know.",
+				"Whenever you gain a sorcerer level, you can replace one spell you gained from this feature with another spell of the same level. The new spell must be an enchantment or an evocation spell from the sorcerer, warlock, or wizard spell list.",
+				{
+					"type": "table",
+					"caption": "Shadow Spells",
+					"colLabels": [
+						"Sorcerer Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell arms of hadar|PHB}, {@spell cause fear|xge},{@spell shadowgaze|Hergard}"
+						],
+						[
+							"3rd",
+							"{@spell darkness|phb}, {@spell pass without trace|PHB}"
+						],
+						[
+							"5th",
+							"{@spell blinding smite|PHB}, {@spell summon shadowspawn|TCE}"
+						],
+						[
+							"7th",
+							"{@spell greater invisibility|PHB}, {@spell shadow of moil|xge}"
+						],
+						[
+							"9th",
+							"{@spell enervation|xge}, {@spell mislead|PHB}"
+						],
+						[
+							"11th",
+							"{@spell circle of death|PHB}, {@spell eyebite|PHB}"
+						]
+					]
+				},
+				"When you reach 3rd level in this class, you can cast darkness by spending 2 sorcery points or by expending a spell slot. If you cast it with sorcery points, you can see through the darkness created by the spell."
+			]
+		},
+		{
+			"name": "Shadowborn",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Shadow Magic",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"Starting at 1st level, you have darkvision with a range of 120 feet.",
+				"Your existence in a twilight state between life and death makes you difficult to defeat. When damage reduces you to 0 hit points, you can make a Charisma saving throw (DC equal to the damage taken). On a success, you instead drop to 1 hit point. You can't use this feature if you are reduced to 0 hit points by radiant damage or by a critical hit.",
+				"After you succeed on a number of saving throws equal to your proficiency bonus, you can't use this feature again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Hound of Ill Omen",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Shadow Magic",
+			"subclassSource": "Hergard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, you gain the ability to call forth a howling creature of darkness to harass your foes. As a bonus action, you can spend 3 sorcery points to magically summon a hound of ill omen to target one creature you can see within 120 feet of you. The hound uses the dire wolf's statistics, with the following changes:",
+				{
+					"type": "list",
+					"items": [
+						"The hound is size Medium, and it counts as a monstrosity, not a beast.",
+						"It appears with a number of temporary hit points equal to your sorcerer level.",
+						"It can move through other creatures and objects as if they were difficult terrain. The hound takes 5 force damage if it ends its turn inside an object.",
+						"At the start of its turn, the hound automatically knows its target's location. If the target was hidden, it is no longer hidden from the hound."
+					]
+				},
+				"The hound appears in an unoccupied space of your choice within 30 feet of the target. The hound shares your initiative count, but it takes its turn immediately after yours. On its turn, it can move only toward its target by the most direct route, and it can use its action only to attack its target. The hound can make opportunity attacks, but only against its target. Additionally, while the hound is within 5 feet of the target, the target has disadvantage on saving throws against any spell you cast. The hound disappears if it is reduced to 0 hit points, if its target is reduced to 0 hit points, or after 5 minutes."
+				
+			]
+		},
+		{
+			"name": "Shadow Walk",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Shadow Magic",
+			"subclassSource": "Hergard",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"At 14th level, you gain the ability to step from one shadow into another. When you are in dim light or darkness, as a bonus action, you can magically teleport up to 120 feet to an unoccupied space you can see that is also in dim light or darkness."
+			]
+		},
+		{
+			"name": "Umbral Form",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Shadow Magic",
+			"subclassSource": "Hergard",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"Starting at 18th level, you can spend 6 sorcery points as a bonus action to magically transform yourself into a shadowy form. In this form, you have resistance to all damage except radiant damage, and you can move through other creatures and objects as if they were difficult terrain. You take 5 force damage if you end your turn inside an object.",
+				"You remain in this form for 1 minute. It ends early if you are incapacitated, if you die, or if you dismiss it as a bonus action."
+			]
+		},
+		{
+			"name": "Wild Magic",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Wild Magic",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"entries": [
+				"Your innate magic comes from the wild forces of chaos that underlie the order of creation. You might have endured exposure to some form of raw magic, perhaps through a planar portal leading to Limbo, the Elemental Planes, or the mysterious Far Realm. Perhaps you were blessed by a powerful fey creature or marked by a demon. Or your magic could be a fluke of your birth, with no apparent cause or reason. However it came to be, this chaotic magic churns within you, waiting for any outlet.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Chaos Magic|Sorcerer|PHB|Wild Magic|Hergard|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Wild Bombardment|Sorcerer|PHB|Wild Magic|Hergard|1"
+				}
+			]
+		},
+		{
+			"name": "Chaos Magic",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Wild Magic",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"You learn additional spells when you reach certain levels in this class, as shown on the Chaos Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know.",
+				"Whenever you gain a sorcerer level, you can replace one spell you gained from this feature with another spell of the same level. The new spell must be an evocation or a transmutation spell from the sorcerer, warlock, or wizard spell list.",
+				{
+					"type": "table",
+					"caption": "Chaos Spells",
+					"colLabels": [
+						"Sorcerer Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell chaos bolt|xge}, {@spell faerie fire|phb},{@spell prestidigitation|phb}"
+						],
+						[
+							"3rd",
+							"{@spell alter self|phb}, {@spell blur|PHB}"
+						],
+						[
+							"5th",
+							"{@spell blink|PHB}, {@spell chaotic burst|Hergard}"
+						],
+						[
+							"7th",
+							"{@spell confusion|PHB}, {@spell hallucinatory terrain|phb}"
+						],
+						[
+							"9th",
+							"{@spell animate objects|phb}, {@spell mass tilt|Hergard}"
+						],
+						[
+							"11th",
+							"{@spell roam|Hergard}, {@spell scatter|xge}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Wild Bombardment",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Wild Magic",
+			"subclassSource": "Hergard",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"Starting when you choose this origin at 1st level, your spellcasting can unleash surges of magical power. Whenever you cast a sorcerer spell that deals damage, for every damage die that results in the maximum roll on that dice, roll another die of the same type and add it to the total damage.",
+				"Additionally, immediately after you cast a spell of 1st level or higher, roll a d20. If you roll a 1, roll on the {@table Lesser Surge|Hergard} table to create a random magical effect. If a Lesser Surge effect is a spell, it's too wild to be affected by Metamagic. If it normally requires concentration, it doesn't require concentration in this case; the spell lasts for its full duration."
+			]
+		},
+		{
+			"name": "Bend Luck",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Wild Magic",
+			"subclassSource": "Hergard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, you have the ability to twist fate using your wild magic. When another creature you can see makes an attack roll, an ability check, or a saving throw, you can grant advantage or impose disadvantage on the roll.",
+				"You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+				
+			]
+		},
+		{
+			"name": "Wild Magic Surge",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Wild Magic",
+			"subclassSource": "Hergard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Your wild magic begins to tear at reality. You gain a score, referred to as your \"Surge Threshold\". Anytime you use your Bend Luck feature, your Surge Threshold increases by 1 and you must roll a d100. If the number rolled on the d100 is lower than your Surge Threshold, you experience a Wild Magic Surge, detailed at the end of this bloodline's description.",
+				"Whenever a Wild Magic Surge happens, the following events take place:",
+				{
+					"type": "list",
+					"items": [
+						"An immense blast of magical energy radiates outwards from you. Each creature within a 120-foot-radius sphere must make a Charisma saving throw against your Spell save DC, taking 1d10 force damage for each level you have in this class on a failed save, or half as much on a successful one. For every 10 feet away from you the damage they take is reduced by 10.",
+						"Any antimagic field or similar effect is dispelled within the range of the surge.",
+						"After the blast has happened, the sorcerer experiences an event, as determined by the DM. This could include, but is not limited to: being shifted forwards in time to a possible future, being affected by the reincarnate spell, or being subject to the effects of feeblemind for a number of days."
+					]
+				}
+				
+				
+			]
+		},
+		{
+			"name": "Controlled Chaos",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Wild Magic",
+			"subclassSource": "Hergard",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Starting at 14th level, you gain a modicum of control over the surges of your wild magic. Whenever you complete a long rest, your Surge Threshold is reduced by 1.",
+				"Additionally, each time before you roll on the Lesser Surge table, you can spend up to 5 sorcery points to influence the surge's effects. For each sorcery point spent roll a d4 and decide whether you want to add or subtract the total from the d100 roll. If this reduces the result of the d100 roll below 0 or increases it beyond 100, roll twice on the Lesser Surge table with both effects manifesting at the same time."
+			]
+		},
+		{
+			"name": "Chaosmage",
+			"source": "Hergard",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Wild Magic",
+			"subclassSource": "Hergard",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"Starting at 18th level, you can spend 10 sorcery points as an action to unleash your erratic powers, manifesting chaotic effects. You gain the following benefits for 1 minute:",
+				{
+					"type": "list",
+					"items": [
+						"You are immune to the damage from your Wild Magic Surge",
+						"If an effect targets you when rolling on the Lesser Surge table, you can spend 1 sorcery point and choose another creature that you can see to be the new target of the effect",
+						"At the start of each of your turns, you can choose to manifest different magical abilities. You can use another Sorcerous Origin's features until the start of your next turn. You can only choose a Sorcerous Origin once per use of this feature."
+					]
+				}
 			]
 		},
 		{
@@ -29997,6 +30348,71 @@
 				["98", "Knight of Spades", "You suffer one level of exhaustion."],
 				["99", "Queen of Spades", "You have truesight until the end of your turn."],
 				["00", "King of Spades", "Your Intelligence score is increased by 1d10 for 24 hours."]
+			]
+		},
+		{
+			"name": "Lesser Surge",
+			"source": "Hergard",
+			"caption": "Lesser Surge",
+			"colLabels": [
+				"{@dice d100}",
+				"Effect"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-12"
+			],
+			"rows": [
+				["01-02","Roll on this table at the start of each of your turns for the next minute, ignoring this result on subsequent rolls."],
+				["03-04","For the next minute, you can see any invisible creature if you have line of sight to it."],
+				["05-06","A modron chosen and controlled by the DM appears in an unoccupied space within 5 feet of you, then disappears 1 minute later."],
+				["07-08","You cast fireball as a 3rd-level spell centered on yourself."],
+				["09-10","You cast magic missile as a 5th-level spell."],
+				["11-12","Roll a d10. Your height changes by a number of inches equal to the roll. If the roll is odd, you shrink. If the roll is even, you grow."],
+				["13-14","You cast confusion centered on yourself."],
+				["15-16","For the next minute, you regain 5 hit points at the start of each of your turns."],
+				["17-18","You grow a long beard made of feathers that remains until you sneeze, at which point the feathers explode out from your face."],
+				["19-20","You cast grease centered on yourself."],
+				["21-22","Creatures have disadvantage on saving throws against the next spell you cast in the next minute that involves a saving throw."],
+				["23-24","Your skin turns a vibrant shade of blue. A remove curse spell can end this effect."],
+				["25-26","An eye appears on your forehead for the next minute. During that time, you have advantage on Wisdom (Perception) checks that rely on sight."],
+				["27-28","For the next minute, all your spells with a casting time of 1 action have a casting time of 1 bonus action."],
+				["29-30","You teleport up to 60 feet to an unoccupied space of your choice that you can see."],
+				["31-32","You are transported to the Astral Plane until the end of your next turn, after which time you return to the space you previously occupied or the nearest unoccupied space if that space is occupied."],
+				["33-34","Maximize the damage of the next damaging spell you cast within the next minute."],
+				["35-36","Roll a d10. Your age changes by a number of years equal to the roll. If the roll is odd, you get younger (minimum 1 year old). If the roll is even, you get older."],
+				["37-38","1d6 flumphs controlled by the DM appear in unoccupied spaces within 60 feet of you and are frightened of you. They vanish after 1 minute."],
+				["39-40","You regain 2d10 hit points."],
+				["41-42","You turn into a potted plant until the start of your next turn. While a plant, you are incapacitated and have vulnerability to all damage. If you drop to 0 hit points, your pot breaks, and your form reverts."],
+				["43-44","For the next minute, you can teleport up to 20 feet as a bonus action on each of your turns."],
+				["45-46","You cast levitate on yourself."],
+				["47-48","A unicorn controlled by the DM appears in a space within 5 feet of you, then disappears 1 minute later."],
+				["49-50","You can't speak for the next minute. Whenever you try, pink bubbles float out of your mouth."],
+				["51-52","A spectral shield hovers near you for the next minute, granting you a +2 bonus to AC and immunity to magic missile."],
+				["53-54","You are immune to being intoxicated by alcohol for the next 5d6 days."],
+				["55-56","Your hair falls out but grows back within 24 hours."],
+				["57-58","For the next minute, any flammable object you touch that isn't being worn or carried by another creature bursts into flame."],
+				["59-60","You regain your lowest-level expended spell slot."],
+				["61-62","For the next minute, you must shout when you speak."],
+				["63-64","You cast fog cloud centered on yourself."],
+				["65-66","Up to three creatures you choose within 30 feet of you take 4d10 lightning damage."],
+				["67-68","You are frightened by the nearest creature until the end of your next turn."],
+				["69-70","Each creature within 30 feet of you becomes invisible for the next minute. The invisibility ends on a creature when it attacks or casts a spell."],
+				["71-72","You gain resistance to all damage for the next minute."],
+				["73-74","A random creature within 60 feet of you becomes poisoned for 1d4 hours."],
+				["75-76","You glow with bright light in a 30-foot radius for the next minute. Any creature that ends its turn within 5 feet of you is blinded until the end of its next turn."],
+				["77-78","You cast polymorph on yourself. If you fail the saving throw, you turn into a sheep for the spell's duration."],
+				["79-80","Illusory butterflies and flower petals flutter in the air within 10 feet of you for the next minute."],
+				["81-82","You can take one additional action immediately."],
+				["83-84","Each creature within 30 feet of you takes 1d10 necrotic damage. You regain hit points equal to the sum of the necrotic damage dealt."],
+				["85-86","You cast mirror image."],
+				["87-88","You cast fly on a random creature within 60 feet of you."],
+				["89-90","You become invisible for the next minute. During that time, other creatures can't hear you. The invisibility ends if you attack or cast a spell."],
+				["91-92","If you die within the next minute, you immediately come back to life as if by the reincarnate spell."],
+				["93-94","Your size increases by one size category for the next minute."],
+				["95-96","You and all creatures within 30 feet of you gain vulnerability to piercing damage for the next minute."],
+				["97-98","You are surrounded by faint, ethereal music for the next minute."],
+				["99-00","You regain all expended sorcery points."]
 			]
 		}
 	],
