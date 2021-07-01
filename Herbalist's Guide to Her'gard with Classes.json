@@ -12542,6 +12542,62 @@
 			"classSource": "Hergard"
 		},
 		{
+			"name": "College of Spirits",
+			"shortName": "Spirits",
+			"source": "VRGR",
+			"className": "Bard",
+			"classSource": "Hergard",
+			"page": 28,
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": [
+							"guidance"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"College of Spirits|Bard||Spirits|VRGR|3",
+				"Spirit Session|Bard||Spirits|VRGR|6",
+				"Mystical Connection|Bard||Spirits|VRGR|14"
+			]
+		},
+		{
+			"name": "Mage of Lorehold (UA)",
+			"shortName": "Lorehold (UA)",
+			"source": "UA2021MagesOfStrixhaven",
+			"className": "Bard",
+			"classSource": "Hergard",
+			"_copy": {
+				"name": "Mage of Lorehold (UA)",
+				"shortName": "Lorehold (UA)",
+				"source": "UA2021MagesOfStrixhaven",
+				"className": "Generic",
+				"classSource": "Generic",
+				"_preserve": {
+					"page": true
+				}
+			}
+		},
+		{
+			"name": "Mage of Silverquill (UA)",
+			"shortName": "Silverquill (UA)",
+			"source": "UA2021MagesOfStrixhaven",
+			"className": "Bard",
+			"classSource": "Hergard",
+			"_copy": {
+				"name": "Mage of Silverquill (UA)",
+				"shortName": "Silverquill (UA)",
+				"source": "UA2021MagesOfStrixhaven",
+				"className": "Generic",
+				"classSource": "Generic",
+				"_preserve": {
+					"page": true
+				}
+			}
+		},
+		{
 			"name": "College of Ancients",
 			"source": "Hergard",
 			"className": "Bard",
@@ -14985,6 +15041,40 @@
 					"className": "Sorcerer",
 					"classSource": "Hergard"
 				},
+				{
+			"name": "Mage of Prismari (UA)",
+			"shortName": "Prismari (UA)",
+			"source": "UA2021MagesOfStrixhaven",
+			"className": "Sorcerer",
+			"classSource": "Hergard",
+			"_copy": {
+				"name": "Mage of Prismari (UA)",
+				"shortName": "Prismari (UA)",
+				"source": "UA2021MagesOfStrixhaven",
+				"className": "Generic",
+				"classSource": "Generic",
+				"_preserve": {
+					"page": true
+				}
+			}
+		},
+		{
+			"name": "Mage of Quandrix (UA)",
+			"shortName": "Quandrix (UA)",
+			"source": "UA2021MagesOfStrixhaven",
+			"className": "Sorcerer",
+			"classSource": "Hergard",
+			"_copy": {
+				"name": "Mage of Quandrix (UA)",
+				"shortName": "Quandrix (UA)",
+				"source": "UA2021MagesOfStrixhaven",
+				"className": "Generic",
+				"classSource": "Generic",
+				"_preserve": {
+					"page": true
+				}
+			}
+		},
 		{
 			"name": "The Noble Genie",
 			"source": "Hergard",
@@ -28416,7 +28506,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, you have the ability to twist fate using your wild magic. When another creature you can see makes an attack roll, an ability check, or a saving throw, you can grant advantage or impose disadvantage on the roll.",
+				"At 6th level, you have the ability to twist fate using your wild magic. When another creature you can see makes an attack roll, an ability check, or a saving throw, you can twist reality to favor or yield their actions. When that happens, the creature rolls three d20 when they make the roll. Use the highest of the three rolls if they are favored, and use the lowest roll if they are yielded.",
 				"You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
 				
 			]
