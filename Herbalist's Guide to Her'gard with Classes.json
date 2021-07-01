@@ -12545,7 +12545,7 @@
 			"name": "College of Ancients",
 			"source": "Hergard",
 			"className": "Bard",
-			"classSource": "PHB",
+			"classSource": "Hergard",
 			"shortName": "Ancients",
 			"subclassFeatures": [
 				"College of Ancients|Bard|PHB|Ancients|Hergard|3",
@@ -12557,7 +12557,7 @@
 			"name": "College of Desire",
 			"source": "Hergard",
 			"className": "Bard",
-			"classSource": "PHB",
+			"classSource": "Hergard",
 			"shortName": "Desire",
 			"subclassFeatures": [
 				"College of Desire|Bard|PHB|Desire|Hergard|3",
@@ -12569,7 +12569,7 @@
 			"name": "College of Dirges",
 			"source": "Hergard",
 			"className": "Bard",
-			"classSource": "PHB",
+			"classSource": "Hergard",
 			"shortName": "Dirges",
 			"subclassFeatures": [
 				"College of Dirges|Bard|PHB|Dirges|Hergard|3",
@@ -12581,7 +12581,7 @@
 			"name": "College of the Maestro",
 			"source": "Hergard",
 			"className": "Bard",
-			"classSource": "PHB",
+			"classSource": "Hergard",
 			"shortName": "Maestro",
 			"subclassFeatures": [
 				"College of the Maestro|Bard|PHB|Maestro|Hergard|3",
@@ -12593,7 +12593,7 @@
 			"name": "College of Roaring Thunder",
 			"source": "Hergard",
 			"className": "Bard",
-			"classSource": "PHB",
+			"classSource": "Hergard",
 			"shortName": "Roaring Thunder",
 			"subclassFeatures": [
 				"College of Roaring Thunder|Bard|PHB|Roaring Thunder|Hergard|3",
@@ -12605,7 +12605,7 @@
 			"name": "College of Tales",
 			"source": "Hergard",
 			"className": "Bard",
-			"classSource": "PHB",
+			"classSource": "Hergard",
 			"shortName": "Tales",
 			"subclassFeatures": [
 				"College of Tales|Bard|PHB|Tales|Hergard|3",
@@ -13342,7 +13342,7 @@
 			"name": "Arcane Archer",
 			"source": "Hergard",
 			"className": "Fighter",
-			"classSource": "PHB",
+			"classSource": "Hergard",
 			"shortName": "Arcane Archer",
 			"subclassFeatures": [
 				"Arcane Archer|Fighter|PHB|Arcane Archer|Hergard|3",
@@ -13355,7 +13355,7 @@
 			"name": "Battle Master",
 			"source": "Hergard",
 			"className": "Fighter",
-			"classSource": "PHB",
+			"classSource": "Hergard",
 			"shortName": "Battle Master",
 			"subclassFeatures": [
 				"Battle Master|Fighter|PHB|Battle Master|Hergard|3",
@@ -13369,7 +13369,7 @@
 			"name": "Blademaker",
 			"source": "Hergard",
 			"className": "Fighter",
-			"classSource": "PHB",
+			"classSource": "Hergard",
 			"shortName": "Blademaker",
 			"subclassFeatures": [
 				"Blademaker|Fighter|PHB|Blademaker|Hergard|3",
@@ -13383,7 +13383,7 @@
 			"name": "Champion",
 			"source": "Hergard",
 			"className": "Fighter",
-			"classSource": "PHB",
+			"classSource": "Hergard",
 			"shortName": "Champion",
 			"subclassFeatures": [
 				"Champion|Fighter|PHB|Champion|Hergard|3",
@@ -13397,7 +13397,7 @@
 			"name": "Combat Medic",
 			"source": "Hergard",
 			"className": "Fighter",
-			"classSource": "PHB",
+			"classSource": "Hergard",
 			"shortName": "Combat Medic",
 			"subclassFeatures": [
 				"Combat Medic|Fighter|PHB|Combat Medic|Hergard|3",
@@ -13411,7 +13411,7 @@
 			"name": "Conqueror",
 			"source": "Hergard",
 			"className": "Fighter",
-			"classSource": "PHB",
+			"classSource": "Hergard",
 			"shortName": "Conqueror",
 			"subclassFeatures": [
 				"Conqueror|Fighter|PHB|Conqueror|Hergard|3",
@@ -13425,7 +13425,7 @@
 			"name": "Gunslinger",
 			"source": "Hergard",
 			"className": "Fighter",
-			"classSource": "PHB",
+			"classSource": "Hergard",
 			"shortName": "Gunslinger",
 			"subclassFeatures": [
 				"Gunslinger|Fighter|PHB|Gunslinger|Hergard|3",
@@ -13440,7 +13440,7 @@
 			"name": "Purple Dragon Knight",
 			"source": "Hergard",
 			"className": "Fighter",
-			"classSource": "PHB",
+			"classSource": "Hergard",
 			"shortName": "Purple Dragon Knight",
 			"subclassFeatures": [
 				"Purple Dragon Knight|Fighter|PHB|Purple Dragon Knight|Hergard|3",
@@ -13454,7 +13454,7 @@
 			"name": "Spellbreaker",
 			"source": "Hergard",
 			"className": "Fighter",
-			"classSource": "PHB",
+			"classSource": "Hergard",
 			"shortName": "Spellbreaker",
 			"subclassFeatures": [
 				"Spellbreaker|Fighter|PHB|Spellbreaker|Hergard|3",
