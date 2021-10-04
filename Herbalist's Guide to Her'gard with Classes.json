@@ -7455,6 +7455,115 @@
 			"When you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).",
 			"To be eligible, a spell must be incapable of targeting more than one creature at the spell's current level. For example, magic missile and scorching ray aren't eligible, but ray of frost and chromatic orb are."
 			]
+		},
+		{
+			"name": "Acid Burst",
+			"source": "Hergard",
+			"featureType": "Card Tricks",
+			"entries": [
+			"You draw a card that starts to dissolve and explodes with acid. As part of your action, make a ranged weapon attack with your cards against a target within range. On a hit, the target takes an additional 2d6 acid damage as the acid burns them.",
+			"This trick's acid damage increases by 1d6 when you reach 9th level (3d6), 13th level (4d6), and 17th level (5d6)."
+			]
+		},
+		{
+			"name": "Acid Burst",
+			"source": "Hergard",
+			"featureType": "Card Tricks",
+			"entries": [
+			"You draw a card that starts to dissolve and explodes with acid. As part of your action, make a ranged weapon attack with your cards against a target within range. On a hit, the target takes an additional 2d6 acid damage as the acid burns them.",
+			"This trick's acid damage increases by 1d6 when you reach 9th level (3d6), 13th level (4d6), and 17th level (5d6)."
+			]
+		},
+		{
+			"name": "Blind Defense",
+			"source": "Hergard",
+			"featureType": "Card Tricks",
+			"entries": [
+			"You draw a card that begins to glow with a bright and blinding light. As part of your action, make a ranged weapon attack with your cards against a target within range. On a hit, the creature takes an extra 1d6 radiant damage. The creature must also succeed on a Constitution saving throw, or be blinded until the end of your next turn.",
+			"This trick's radiant damage increases by 1d6 when you reach 9th level (2d6), 13th level (3d6), and 17th level (4d6)."
+			]
+		},
+		{
+			"name": "Bluff",
+			"source": "Hergard",
+			"featureType": "Card Tricks",
+			"entries": [
+			"You draw a card which appears blurry to everyone else. You can now bluff a humanoid within 30 feet that you can see. It must succeed on a Wisdom saving throw, or it has disadvantage on Insight checks against you for 1 hour.",
+			"This trick allows you to target an additional humanoid within 30 feet that you can see when you reach 9th level, 13th level, and 17th level."
+			]
+		},
+		{
+			"name": "Cold Call",
+			"source": "Hergard",
+			"featureType": "Card Tricks",
+			"entries": [
+			"You draw a card covered in frost that freezes enemies hit by it. As part of your action, make a ranged weapon attack with your cards against a target within range. On a hit, the target takes an additional 2d6 cold damage and its speed is reduced by 10 feet until the start of your next turn.",
+			"This trick's cold damage increases by 1d6 when you reach 9th level (3d6), 13th level (4d6), and 17th level (5d6)."
+			]
+		},
+		{
+			"name": "Disguise",
+			"source": "Hergard",
+			"featureType": "Card Tricks",
+			"entries": [
+			"You draw a card which transforms into a different card. You can cast disguise self without any components as part of using this card trick.",
+			"This trick can disguise an additional willing creature when you reach 13th level. You choose the appearance of that creature and the spell acts as if it had cast it on themselves."
+			]
+		},
+		{
+			"name": "Duplicate",
+			"source": "Hergard",
+			"featureType": "Card Tricks",
+			"entries": [
+				"You draw a card and magically split it into two identical cards. This creates a perfect illusory duplicate of yourself that lasts for 1 minute, or until you lose your concentration (as if you were concentrating on a spell).",
+				"The illusion appears in an unoccupied space that you can see within 30 feet of you. As a bonus action on your turn, you can move the illusion up to 30 feet to a space you can see, but it must remain within 90 feet of you. For the duration, when both you and your illusion are within 5 feet of a creature that can see the illusion, you have advantage on attack rolls against that creature, given how distracting the illusion is to the target.",
+				"At 13th level, you can throw cards as though you were in the illusion's space."
+			]
+		},
+		{
+			"name": "Heater",
+			"source": "Hergard",
+			"featureType": "Card Tricks",
+			"entries": [
+				"You draw a card that begins to glow red and erupts in flames a few seconds later. As part of your action, make a ranged weapon attack with your cards against a target within range. On a hit, the card ignites and the target takes an additional 2d6 fire damage. A flammable object hit by this spell ignites if it isn't being worn or carried.",
+				"This trick's fire damage increases by 1d6 when you reach 9th level (3d6), 13th level (4d6), and 17th level (5d6)."
+			]
+		},
+		{
+			"name": "Luck of the Draw",
+			"source": "Hergard",
+			"featureType": "Card Tricks",
+			"entries": [
+				"You draw a card and nothing appears to happen. For 1 minute whenever you make an attack roll, an ability check, or a saving throw, you can choose to spend this trick to roll an additional d20 one time. You can choose to use this trick after you roll the die, but before the outcome is determined. You choose which of the d20s is used for the attack roll, ability check, or saving throw.",
+				"At 13th level, you can also give this trick's effect to anyone you can see within 60 feet."
+			]
+		},
+		{
+			"name": "Quick Escape",
+			"source": "Hergard",
+			"featureType": "Card Tricks",
+			"entries": [
+				"You draw a card that turns to mist as you vanish. As part of your action, you can cast misty step without any components.",
+				"At 13th level, after you teleport you are invisible until the start of your next turn unless you make an attack or cast a spell. Anything you are wearing or carrying is invisible as long as it is on your person."
+			]
+		},
+		{
+			"name": "Shock and Awe",
+			"source": "Hergard",
+			"featureType": "Card Tricks",
+			"entries": [
+				"You draw a card that begins to spark with electrical energy and shocks any who are hit by it. As part of your action, make a ranged weapon attack with your cards against a target within range. On a hit, lightning springs from the card and the target takes an additional 2d6 lightning damage and it can't take reactions until the start of its next turn.",
+				"This trick's lightning damage increases by 1d6 when you reach 9th level (3d6), 13th level (4d6), and 17th level (5d6)."
+			]
+		},
+		{
+			"name": "Scare Card",
+			"source": "Hergard",
+			"featureType": "Card Tricks",
+			"entries": [
+				"You draw a card filled with illusory magic. You fill the mind of a creature you can see within 30 feet with some illusory image of the creatures worst fears. Unless the target succeeds at a Wisdom saving throw it takes 1d6 psychic damage and becomes frightened for 1 minute, or until you lose your concentration (as if you were concentrating on a spell).",
+				"This trick deals additional psychic damage when you reach 9th level (2d6), 13th level (3d6), and 17th level (4d6)."
+			]
 		}
 	],
 	"class": [{
@@ -15190,6 +15299,45 @@
 				"Tangletrap|Wizard|PHB|Herbology|Hergard|6",
 				"Exposure Therapy|Wizard|PHB|Herbology|Hergard|10",
 				"Growth|Wizard|PHB|Herbology|Hergard|14"
+			]
+		},
+		{
+			"name": "Guild of Assassins",
+			"source": "Hergard",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"shortName": "Assassin",
+			"subclassFeatures": [
+				"Guild of Assassins|Rogue|PHB|Assassin|Hergard|3",
+				"One with Many Faces|Rogue|PHB|Assassin|Hergard|9",
+				"Master of Liquid Death|Rogue|PHB|Assassin|Hergard|13",
+				"Death Strike|Rogue|PHB|Assassin|Hergard|17"
+			]
+		},
+		{
+			"name": "Guild of the Cardslingers",
+			"source": "Hergard",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"shortName": "Cardslinger",
+			"subclassFeatures": [
+				"Guild of the Cardslingers|Rogue|PHB|Cardslinger|Hergard|3",
+				"Elemental Suit|Rogue|PHB|Cardslinger|Hergard|9",
+				"Counterattack|Rogue|PHB|Cardslinger|Hergard|13",
+				"One More Hand|Rogue|PHB|Cardslinger|Hergard|17"
+			]
+		},
+		{
+			"name": "Guild of the Clock Stoppers",
+			"source": "Hergard",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"shortName": "Clock Stopper",
+			"subclassFeatures": [
+				"Guild of the Clock Stoppers|Rogue|PHB|Clock Stopper|Hergard|3",
+				"...Or You'll Miss It|Rogue|PHB|Clock Stopper|Hergard|9",
+				"Broken Clock|Rogue|PHB|Clock Stopper|Hergard|13",
+				"Race Against Time|Rogue|PHB|Clock Stopper|Hergard|17"
 			]
 		}
 	],
@@ -29894,8 +30042,315 @@
 				"The surculus shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the defender can take any action of its choice, not just Dodge.",
 				"Once you cast the spell in this way, you can't do so again until you finish a long rest."
 			]
+		},
+		{
+			"name": "Guild of Assassins",
+			"source": "Hergard",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Assassin",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"entries": [
+				"You focus your training on the grim art of death. The members of this guild are diverse: hired killers, spies, bounty hunters, and even specially anointed priests trained to exterminate the enemies of their deity. Stealth, poison, and disguise help you eliminate your foes with deadly efficiency.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Guild Training|Rogue|PHB|Assassin|Hergard|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Assassinate|Rogue|PHB|Assassin|Hergard|3"
+				}
+			]
+		},
+		{
+			"name": "Guild Training",
+			"source": "Hergard",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Assassin",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you join this guild at 3rd level, you gain proficiency with the disguise kit and the poisoner's kit.",
+				"At 9th level, poisons you create using your poisoner's kit ignore a creature's resistance to poison damage.",
+				"Furthermore at 13th level, your poisons created in this way treat a creature's immunity to poison as resistance."
+			]
+		},
+		{
+			"name": "Assassinate",
+			"source": "Hergard",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Assassin",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Starting at 3rd level, you are at your deadliest when you get the drop on your enemies. You have advantage on attack rolls against any creature that hasn't taken a turn in the combat yet. In addition, any hit you score against a creature that is surprised is a critical hit."
+			]
+		},
+		{
+			"name": "One with Many Faces",
+			"source": "Hergard",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Assassin",
+			"subclassSource": "Hergard",
+			"level": 9,
+			"entries": [
+				"Starting at 9th level, you gain the ability to unerringly mimic another person's speech, writing, and behavior. You must spend at least an hour studying these three components of the person's behavior, listening to speech, examining handwriting, and observing mannerisms. This time is reduced to 10 minutes at 13th level and a minute at 17th level.",
+				"Your ruse is indiscernible to the casual observer. If a creature is intimately familiar with the person you imitate, you have advantage on all Charisma checks you make to avoid detection by them.",
+				"Additionally, you can unfailingly create false identities for yourself. You must spend two days to establish the history, profession, and affiliations for an identity. You can't establish an identity that belongs to someone else. For example, you might acquire appropriate clothing, letters of introduction, and official-looking certification to establish yourself as a member of a trading house from a remote city so you can insinuate yourself into the company of other wealthy merchants.",
+				"Thereafter, if you adopt the new identity as a disguise, other creatures believe you to be that person until given an obvious reason not to."
+			]
+		},
+		{
+			"name": "Master of Liquid Death",
+			"source": "Hergard",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Assassin",
+			"subclassSource": "Hergard",
+			"level": 13,
+			"entries": [
+				"At 13th level, you can increase the potency of your poisons to such a level, that even creatures accustomed to mundane poisons are effected by them. At the end of a short or long rest, you can choose to enhance the effects of a single dose of poison that inflicts a creature with the poisoned condition, using your poisoner's kit.",
+				"Whenever a creature that is immune to the poisoned condition is inflicted with one of these enhanced poisons, it must succeed on a Constitution saving throw (DC 8 + your Intelligence modifier + your proficiency bonus). On a failed save, the creature's immunity to the condition is suppressed for the duration of the poison.",
+				"An enhanced poison loses its extra potency at the end of your next long rest.",
+				"Additionally, you can use your Sneak Attack against a target that is poisoned, even if you don't have advantage on the attack roll, but not if you have disadvantage on it."
+			]
+		},
+		{
+			"name": "Death Strike",
+			"source": "Hergard",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Assassin",
+			"subclassSource": "Hergard",
+			"level": 17,
+			"entries": [
+				"Starting at 17th level, you become a master of instant death. When you score a critical hit against a creature, it must make a Constitution saving throw (DC 8 + your Dexterity modifier + your proficiency bonus). On a failed save, double the damage of your attack against the creature."
+			]
+		},
+		{
+			"name": "Guild of the Cardslingers",
+			"source": "Hergard",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Cardslinger",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"entries": [
+				"Cardslingers are rogues that depend as much on their agility as their charisma and uncanny abilities with playing cards.",
+				"As a cardslinger, your expertise with playing cards goes beyond sleight of hand tricks and winning at the poker table. Cards are weapons in your hands and your skill with them is uncanny. Your abilities allow you to throw cards with deadly accuracy and even infuse them with magic. Each time you draw a card, your connection to the arcane and a little luck allow for the extraordinary and unexpected. With each shuffle of your deck, you come closer to understanding your gift and realizing your true potential.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Card Tricks|Rogue|PHB|Cardslinger|Hergard|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Cardsharp|Rogue|PHB|Cardslinger|Hergard|3"
+				}
+			]
+		},
+		{
+			"name": "Card Tricks",
+			"source": "Hergard",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Cardslinger",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you join this guild at 3rd level, you have learned to harness the mystical and untold power of cards. You learn three {@filter Card Trick |optionalfeatures|feature type=Card Tricks} options of your choice detailed at the end of this guild's description. Once per turn, when you draw a card from a deck of cards as an action, and execute one of your Card Trick options. You have two uses of this ability, called charges. You regain all expended charges when you shuffle any playing card set during a short or long rest, magically resetting the deck to a full 54 cards. You gain an additional Card Trick option and charge when you reach 9th level, and again at 13th and 17th level.",
+				"The magical powers of cards is a new discovery within magical circles but without their knowledge lowlives and gamblers have been using them for many years. You have studied the behavior of certain cards and can harness them at your will.",
+				"Some of your card tricks require your target to make a saving throw to resist their effects. The saving throw DC is calculated as follows:",
+				{
+							"type": "abilityDc",
+							"name": "Card Tricks",
+							"attributes": [
+								"cha"
+							]
+				}
+				
+			]
+		},
+		{
+			"name": "Cardsharp",
+			"source": "Hergard",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Cardslinger",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Also at 3rd level, cards are deadly weapons in your hands. You can use cards as simple ranged weapons with the light, finesse, thrown (30/60) properties that deal 1d4 slashing damage on a hit. To throw a card, you must first draw a card from your deck. If you draw a Jack, Queen, King, or Ace you can choose to reroll your damage. If you draw a Joker, you gain back a spent Card Trick charge.",
+				"Additionally, you gain proficiency with all gaming sets and expertise with the playing card set."
+			]
+		},
+		{
+			"name": "Elemental Suit",
+			"source": "Hergard",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Cardslinger",
+			"subclassSource": "Hergard",
+			"level": 9,
+			"entries": [
+				"Starting at 9th level, your cards flow with magical elemental energy. Their range improves to (50/100) and their damage die becomes a d6. In addition, normal thrown card attacks count as magical for the purpose of overcoming resistance and immunity to non-magical attacks and damage. As a bonus action, you can elementally charge a card based on its suit, adding an extra 1d6 damage of that type on a hit. If a card is used for a trick, it loses its elemental charge.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Card Suit",
+						"Damage Type"
+					],
+					"colStyles": [
+						"col-2",
+						"col-2"
+					],
+					"rows": [
+						[
+							"Club",
+							"lightning"
+						],
+						[
+							"Diamond",
+							"cold"
+						],
+						[
+							"Heart",
+							"fire"
+						],
+						[
+							"Spade",
+							"acid"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Counterattack",
+			"source": "Hergard",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Cardslinger",
+			"subclassSource": "Hergard",
+			"level": 13,
+			"entries": [
+				"Beginning at 13th level, when an enemy misses you or an ally within 30 feet of you with an attack, you may use your reaction to throw a card at that enemy. If you draw an Ace from your deck, the attack roll should be treated as a critical hit regardless of what the dice roll value was.",
+				"You can use this feature a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses of it when you finish a long rest."
+			]
+		},
+		{
+			"name": "One More Hand",
+			"source": "Hergard",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Cardslinger",
+			"subclassSource": "Hergard",
+			"level": 17,
+			"entries": [
+				"Starting at 17th level, if you roll initiative and have no Card Trick charges remaining, you regain one Card Trick charge."
+			]
+		},
+		{
+			"name": "Guild of the Clock Stoppers",
+			"source": "Hergard",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Clock Stopper",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"entries": [
+				"Rogues of this guild study the flow of time and how to manipulate it. They rely on their intricate understanding of the nature of passing time to benefit their roguish excursions, escaping death where most other rogues would certainly fall. No target can escape the cold grasp of time itself catching up to them.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Accelerated Reflexes|Rogue|PHB|Clock Stopper|Hergard|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Don't Blink|Rogue|PHB|Clock Stopper|Hergard|3"
+				}
+			]
+		},
+		{
+			"name": "Accelerated Reflexes",
+			"source": "Hergard",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Clock Stopper",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you join this guild at 3rd level, your understanding of your flow of time allows you to react faster when it matters the most. You gain a bonus to your Initiative rolls equal to your Intelligence modifier.",
+				"You also gain uncanny knowledge of the current time of day and calendar date wherever you are."
+			]
+		},
+		{
+			"name": "Don't Blink",
+			"source": "Hergard",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Clock Stopper",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Also at 3rd level, you gain the ability to hurl yourself through time. You may cast misty step a number of times equal to your Intelligence bonus (minimum of once).",
+				"You regain all expended uses of this feature when you finish a long rest."
+			]
+		},
+		{
+			"name": "...Or You'll Miss It",
+			"source": "Hergard",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Clock Stopper",
+			"subclassSource": "Hergard",
+			"level": 9,
+			"entries": [
+				"Beginning at 9th level, your visage becomes temporarily blurred to those who view you as you move through time. When you use your Don't Blink feature and end the teleport within 5 feet of a hostile creature, that creature has disadvantage on the next attack roll it makes against you before the end of its next turn."
+			]
+		},
+		{
+			"name": "Broken Clock",
+			"source": "Hergard",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Clock Stopper",
+			"subclassSource": "Hergard",
+			"level": 13,
+			"entries": [
+				"At 13th level, your ability to control time now extends beyond you, affecting those who wish to do you harm. You can cast slow without expending a spell slot or material components. Intelligence is your spellcasting ability for this spell. The saving throw DC for this spell is calculated as follows:",
+				{
+							"type": "abilityDc",
+							"name": "Spell",
+							"attributes": [
+								"int"
+							]
+				},
+				"You regain the use of this feature when you finish a long rest.",
+				"Additionally, when you take the Dash action, after 5 feet of movement you become invisible and reappear at your destination."
+			]
+		},
+		{
+			"name": "Race Against Time",
+			"source": "Hergard",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Clock Stopper",
+			"subclassSource": "Hergard",
+			"level": 17,
+			"entries": [
+				"Starting at 17th level, you can temporarily alter the flow of time. When you use your Uncanny Dodge or Evasion features, you can immediately make one attack or take the Disengage, Dash or Use Object action as part of the reaction.",
+				"Additionally, you may cast time stop once, and can't cast it again until you finish a long rest."
+			]
 		}
-
 	],
 	"monster": [{
 			"name": "Surculus",
