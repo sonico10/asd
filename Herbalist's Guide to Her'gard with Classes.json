@@ -3618,14 +3618,14 @@
 		"subraces": [{
 				"name": "River",
 				"ability": [{
-					"cha": 1
+					"wis": 1
 				}],
 				"entries": [{
 						"type": "section",
 						"entries": [{
 							"name": "Lutrinian (River)",
 							"entries": [
-								"Living in small enclaved cities along river banks, river lutrinians are not welcoming of outsiders."
+								"Living in small enclaved cities along river banks, river lutrinians are always suspicious of outsiders."
 							]
 						}]
 					},
@@ -4170,7 +4170,7 @@
 			"name": "Veneris",
 			"source": "Hergard",
 			"entries": [
-				"Hiding in plain sight, there are a group of humans who share a cursed ancestry. Accursed many years ago, they struggle to live in civilized society, shunned for their horrid appearance. Not much is known about how they became the way they are, causing the more adventurous veneris to seek out arcane texts on their history.",
+				"Hiding in plain sight, veneris are a people who share a cursed ancestry. Accursed many years ago, they struggle to live in civilized society, shunned for their horrid appearance. Not much is known about how they became the way they are, causing the more adventurous veneris to seek out arcane texts on their history.",
 				{
 					"name": "Hexed by Ancient Magic",
 					"entries": [
@@ -4180,9 +4180,8 @@
 				{
 					"name": "Terrifying Appearance",
 					"entries": [
-						"Veneris are usually not pleasant to the eye of an outsider. They are slim, mostly human skinned individuals, with snake-like coils in place of their hair and a venomous bite alike to a skake's. Unlike monsterous medusas, veneris aren't inherently evil but have been brutally hunted for their incredibly rare venom and hardy scales. Although they are more intelligent than most races by nature, they have been forced out of civilization due to their hideous appearance.",
-						"Veneris usually wear rags, tattered cloth and leather. Even the wealthy individuals prefer silky cloths, wispy dresses and light robes instead of layered clothing or armor.",
-						"Those who have an affinity with natural magic dress themselves in decorative fungi, allowing them to be further in tune with mother nature."
+						"Veneris are usually not pleasant to the eye of an outsider. They are slim, mostly human skinned individuals, with scaly coils in place of their hair and a venomous bite alike to a snake's. Unlike monstrous medusas, veneris aren't inherently evil, but have been brutally hunted for their incredibly rare venom and hardy scales in the past. Although they are more intelligent than most races by nature, they have been forced out of civilization due to their hideous appearance.","Veneris usually wear rags, tattered cloth and leather. Even the wealthy individuals prefer silky cloths, wispy dresses and light robes instead of layered clothing or armor.",
+						"Those who have an affinity with natural magic dress "
 					]
 				},
 				{
