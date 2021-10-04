@@ -30099,6 +30099,7 @@
 			"subclassShortName": "Assassin",
 			"subclassSource": "Hergard",
 			"level": 9,
+			"header": 2,
 			"entries": [
 				"Starting at 9th level, you gain the ability to unerringly mimic another person's speech, writing, and behavior. You must spend at least an hour studying these three components of the person's behavior, listening to speech, examining handwriting, and observing mannerisms. This time is reduced to 10 minutes at 13th level and a minute at 17th level.",
 				"Your ruse is indiscernible to the casual observer. If a creature is intimately familiar with the person you imitate, you have advantage on all Charisma checks you make to avoid detection by them.",
@@ -30114,6 +30115,7 @@
 			"subclassShortName": "Assassin",
 			"subclassSource": "Hergard",
 			"level": 13,
+			"header": 2,
 			"entries": [
 				"At 13th level, you can increase the potency of your poisons to such a level, that even creatures accustomed to mundane poisons are effected by them. At the end of a short or long rest, you can choose to enhance the effects of a single dose of poison that inflicts a creature with the poisoned condition, using your poisoner's kit.",
 				"Whenever a creature that is immune to the poisoned condition is inflicted with one of these enhanced poisons, it must succeed on a Constitution saving throw (DC 8 + your Intelligence modifier + your proficiency bonus). On a failed save, the creature's immunity to the condition is suppressed for the duration of the poison.",
@@ -30129,6 +30131,7 @@
 			"subclassShortName": "Assassin",
 			"subclassSource": "Hergard",
 			"level": 17,
+			"header": 2,
 			"entries": [
 				"Starting at 17th level, you become a master of instant death. When you score a critical hit against a creature, it must make a Constitution saving throw (DC 8 + your Dexterity modifier + your proficiency bonus). On a failed save, double the damage of your attack against the creature."
 			]
@@ -30199,6 +30202,7 @@
 			"subclassShortName": "Cardslinger",
 			"subclassSource": "Hergard",
 			"level": 9,
+			"header": 2,
 			"entries": [
 				"Starting at 9th level, your cards flow with magical elemental energy. Their range improves to (50/100) and their damage die becomes a d6. In addition, normal thrown card attacks count as magical for the purpose of overcoming resistance and immunity to non-magical attacks and damage. As a bonus action, you can elementally charge a card based on its suit, adding an extra 1d6 damage of that type on a hit. If a card is used for a trick, it loses its elemental charge.",
 				{
@@ -30240,6 +30244,7 @@
 			"subclassShortName": "Cardslinger",
 			"subclassSource": "Hergard",
 			"level": 13,
+			"header": 2,
 			"entries": [
 				"Beginning at 13th level, when an enemy misses you or an ally within 30 feet of you with an attack, you may use your reaction to throw a card at that enemy. If you draw an Ace from your deck, the attack roll should be treated as a critical hit regardless of what the dice roll value was.",
 				"You can use this feature a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses of it when you finish a long rest."
@@ -30253,6 +30258,7 @@
 			"subclassShortName": "Cardslinger",
 			"subclassSource": "Hergard",
 			"level": 17,
+			"header": 2,
 			"entries": [
 				"Starting at 17th level, if you roll initiative and have no Card Trick charges remaining, you regain one Card Trick charge."
 			]
@@ -30313,6 +30319,7 @@
 			"subclassShortName": "Clock Stopper",
 			"subclassSource": "Hergard",
 			"level": 9,
+			"header": 2,
 			"entries": [
 				"Beginning at 9th level, your visage becomes temporarily blurred to those who view you as you move through time. When you use your Don't Blink feature and end the teleport within 5 feet of a hostile creature, that creature has disadvantage on the next attack roll it makes against you before the end of its next turn."
 			]
@@ -30325,6 +30332,7 @@
 			"subclassShortName": "Clock Stopper",
 			"subclassSource": "Hergard",
 			"level": 13,
+			"header": 2,
 			"entries": [
 				"At 13th level, your ability to control time now extends beyond you, affecting those who wish to do you harm. You can cast slow without expending a spell slot or material components. Intelligence is your spellcasting ability for this spell. The saving throw DC for this spell is calculated as follows:",
 				{
@@ -30346,6 +30354,7 @@
 			"subclassShortName": "Clock Stopper",
 			"subclassSource": "Hergard",
 			"level": 17,
+			"header": 2,
 			"entries": [
 				"Starting at 17th level, you can temporarily alter the flow of time. When you use your Uncanny Dodge or Evasion features, you can immediately make one attack or take the Disengage, Dash or Use Object action as part of the reaction.",
 				"Additionally, you may cast time stop once, and can't cast it again until you finish a long rest."
