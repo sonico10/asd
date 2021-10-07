@@ -3546,6 +3546,7 @@
 		}
 	],
 	"race": [{
+
 		"name": "Lutrinian",
 		"source": "Hergard",
 		"ability": [{
@@ -4180,7 +4181,7 @@
 				{
 					"name": "Terrifying Appearance",
 					"entries": [
-						"Veneris are usually not pleasant to the eye of an outsider. They are slim, mostly human skinned individuals, with scaly coils in place of their hair and a venomous bite alike to a snake's. Unlike monstrous medusas, veneris aren't inherently evil, but have been brutally hunted for their incredibly rare venom and hardy scales in the past. Although they are more intelligent than most races by nature, they have been forced out of civilization due to their hideous appearance.","Veneris usually wear rags, tattered cloth and leather. Even the wealthy individuals prefer silky cloths, wispy dresses and light robes instead of layered clothing or armor.",
+						"Veneris are usually not pleasant to the eye of an outsider. They are slim, mostly human skinned individuals, with scaly coils in place of their hair and a venomous bite alike to a snake's. Unlike monstrous medusas, veneris aren't inherently evil, but have been brutally hunted for their incredibly rare venom and hardy scales in the past. Although they are more intelligent than most races by nature, they have been forced out of civilization due to their hideous appearance.", "Veneris usually wear rags, tattered cloth and leather. Even the wealthy individuals prefer silky cloths, wispy dresses and light robes instead of layered clothing or armor.",
 						"Those who have an affinity with natural magic dress "
 					]
 				},
@@ -5168,6 +5169,7 @@
 
 	],
 	"optionalfeature": [{
+
 			"name": "Aria of Suspense (Ansla)",
 			"source": "Hergard",
 			"featureType": "Conducting Techniques",
@@ -7377,7 +7379,7 @@
 			"source": "Hergard",
 			"featureType": "MM",
 			"entries": [
-			"When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, you spend 1 sorcery point and choose a number of creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell."
+				"When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, you spend 1 sorcery point and choose a number of creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell."
 			]
 		},
 		{
@@ -7385,8 +7387,8 @@
 			"source": "Hergard",
 			"featureType": "MM",
 			"entries": [
-			"When you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to double the range of the spell.",
-			"When you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet."
+				"When you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to double the range of the spell.",
+				"When you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet."
 			]
 		},
 		{
@@ -7394,8 +7396,8 @@
 			"source": "Hergard",
 			"featureType": "MM",
 			"entries": [
-			"When you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use the new rolls.",
-			"You can use Empowered Spell even if you have already used a different Metamagic option during the casting of the spell."
+				"When you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use the new rolls.",
+				"You can use Empowered Spell even if you have already used a different Metamagic option during the casting of the spell."
 			]
 		},
 		{
@@ -7403,7 +7405,7 @@
 			"source": "Hergard",
 			"featureType": "MM",
 			"entries": [
-			"When you cast a spell that has a duration of 1 minute or longer, you can spend 1 sorcery point to double its duration, to a maximum duration of 24 hours."
+				"When you cast a spell that has a duration of 1 minute or longer, you can spend 1 sorcery point to double its duration, to a maximum duration of 24 hours."
 			]
 		},
 		{
@@ -7411,7 +7413,7 @@
 			"source": "Hergard",
 			"featureType": "MM",
 			"entries": [
-			"When you cast a spell that forces a creature to make a saving throw to resist its effects, you can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw made against the spell."
+				"When you cast a spell that forces a creature to make a saving throw to resist its effects, you can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw made against the spell."
 			]
 		},
 		{
@@ -7419,7 +7421,7 @@
 			"source": "Hergard",
 			"featureType": "MM",
 			"entries": [
-			"When you cast a spell that has a casting time of 1 action, you can spend 2 sorcery points to change the casting time to 1 bonus action for this casting."
+				"When you cast a spell that has a casting time of 1 action, you can spend 2 sorcery points to change the casting time to 1 bonus action for this casting."
 			]
 		},
 		{
@@ -7427,8 +7429,8 @@
 			"source": "Hergard",
 			"featureType": "MM",
 			"entries": [
-			"If you make an attack roll for a spell and miss, you can spend 2 sorcery points to reroll the d20, and you must use the new roll.",
-			"You can use Seeking Spell even if you have already used a different Metamagic option during the casting of the spell."
+				"If you make an attack roll for a spell and miss, you can spend 2 sorcery points to reroll the d20, and you must use the new roll.",
+				"You can use Seeking Spell even if you have already used a different Metamagic option during the casting of the spell."
 			]
 		},
 		{
@@ -7436,7 +7438,7 @@
 			"source": "Hergard",
 			"featureType": "MM",
 			"entries": [
-			"When you cast a spell, you can spend 1 sorcery point to cast it without any somatic or verbal components."
+				"When you cast a spell, you can spend 1 sorcery point to cast it without any somatic or verbal components."
 			]
 		},
 		{
@@ -7444,7 +7446,7 @@
 			"source": "Hergard",
 			"featureType": "MM",
 			"entries": [
-			"When you cast a spell that deals a type of damage from the following list, you can spend 1 sorcery point to change that damage type to one of the other listed types: acid, cold, fire, lightning, poison, thunder."
+				"When you cast a spell that deals a type of damage from the following list, you can spend 1 sorcery point to change that damage type to one of the other listed types: acid, cold, fire, lightning, poison, thunder."
 			]
 		},
 		{
@@ -7452,8 +7454,8 @@
 			"source": "Hergard",
 			"featureType": "MM",
 			"entries": [
-			"When you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).",
-			"To be eligible, a spell must be incapable of targeting more than one creature at the spell's current level. For example, magic missile and scorching ray aren't eligible, but ray of frost and chromatic orb are."
+				"When you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).",
+				"To be eligible, a spell must be incapable of targeting more than one creature at the spell's current level. For example, magic missile and scorching ray aren't eligible, but ray of frost and chromatic orb are."
 			]
 		},
 		{
@@ -7461,8 +7463,8 @@
 			"source": "Hergard",
 			"featureType": "Card Tricks",
 			"entries": [
-			"You draw a card that starts to dissolve and explodes with acid. As part of your action, make a ranged weapon attack with your cards against a target within range. On a hit, the target takes an additional 2d6 acid damage as the acid burns them.",
-			"This trick's acid damage increases by 1d6 when you reach 9th level (3d6), 13th level (4d6), and 17th level (5d6)."
+				"You draw a card that starts to dissolve and explodes with acid. As part of your action, make a ranged weapon attack with your cards against a target within range. On a hit, the target takes an additional 2d6 acid damage as the acid burns them.",
+				"This trick's acid damage increases by 1d6 when you reach 9th level (3d6), 13th level (4d6), and 17th level (5d6)."
 			]
 		},
 		{
@@ -7470,8 +7472,8 @@
 			"source": "Hergard",
 			"featureType": "Card Tricks",
 			"entries": [
-			"You draw a card that starts to dissolve and explodes with acid. As part of your action, make a ranged weapon attack with your cards against a target within range. On a hit, the target takes an additional 2d6 acid damage as the acid burns them.",
-			"This trick's acid damage increases by 1d6 when you reach 9th level (3d6), 13th level (4d6), and 17th level (5d6)."
+				"You draw a card that starts to dissolve and explodes with acid. As part of your action, make a ranged weapon attack with your cards against a target within range. On a hit, the target takes an additional 2d6 acid damage as the acid burns them.",
+				"This trick's acid damage increases by 1d6 when you reach 9th level (3d6), 13th level (4d6), and 17th level (5d6)."
 			]
 		},
 		{
@@ -7479,8 +7481,8 @@
 			"source": "Hergard",
 			"featureType": "Card Tricks",
 			"entries": [
-			"You draw a card that begins to glow with a bright and blinding light. As part of your action, make a ranged weapon attack with your cards against a target within range. On a hit, the creature takes an extra 1d6 radiant damage. The creature must also succeed on a Constitution saving throw, or be blinded until the end of your next turn.",
-			"This trick's radiant damage increases by 1d6 when you reach 9th level (2d6), 13th level (3d6), and 17th level (4d6)."
+				"You draw a card that begins to glow with a bright and blinding light. As part of your action, make a ranged weapon attack with your cards against a target within range. On a hit, the creature takes an extra 1d6 radiant damage. The creature must also succeed on a Constitution saving throw, or be blinded until the end of your next turn.",
+				"This trick's radiant damage increases by 1d6 when you reach 9th level (2d6), 13th level (3d6), and 17th level (4d6)."
 			]
 		},
 		{
@@ -7488,8 +7490,8 @@
 			"source": "Hergard",
 			"featureType": "Card Tricks",
 			"entries": [
-			"You draw a card which appears blurry to everyone else. You can now bluff a humanoid within 30 feet that you can see. It must succeed on a Wisdom saving throw, or it has disadvantage on Insight checks against you for 1 hour.",
-			"This trick allows you to target an additional humanoid within 30 feet that you can see when you reach 9th level, 13th level, and 17th level."
+				"You draw a card which appears blurry to everyone else. You can now bluff a humanoid within 30 feet that you can see. It must succeed on a Wisdom saving throw, or it has disadvantage on Insight checks against you for 1 hour.",
+				"This trick allows you to target an additional humanoid within 30 feet that you can see when you reach 9th level, 13th level, and 17th level."
 			]
 		},
 		{
@@ -7497,8 +7499,8 @@
 			"source": "Hergard",
 			"featureType": "Card Tricks",
 			"entries": [
-			"You draw a card covered in frost that freezes enemies hit by it. As part of your action, make a ranged weapon attack with your cards against a target within range. On a hit, the target takes an additional 2d6 cold damage and its speed is reduced by 10 feet until the start of your next turn.",
-			"This trick's cold damage increases by 1d6 when you reach 9th level (3d6), 13th level (4d6), and 17th level (5d6)."
+				"You draw a card covered in frost that freezes enemies hit by it. As part of your action, make a ranged weapon attack with your cards against a target within range. On a hit, the target takes an additional 2d6 cold damage and its speed is reduced by 10 feet until the start of your next turn.",
+				"This trick's cold damage increases by 1d6 when you reach 9th level (3d6), 13th level (4d6), and 17th level (5d6)."
 			]
 		},
 		{
@@ -7506,8 +7508,8 @@
 			"source": "Hergard",
 			"featureType": "Card Tricks",
 			"entries": [
-			"You draw a card which transforms into a different card. You can cast disguise self without any components as part of using this card trick.",
-			"This trick can disguise an additional willing creature when you reach 13th level. You choose the appearance of that creature and the spell acts as if it had cast it on themselves."
+				"You draw a card which transforms into a different card. You can cast disguise self without any components as part of using this card trick.",
+				"This trick can disguise an additional willing creature when you reach 13th level. You choose the appearance of that creature and the spell acts as if it had cast it on themselves."
 			]
 		},
 		{
@@ -7563,6 +7565,88 @@
 			"entries": [
 				"You draw a card filled with illusory magic. You fill the mind of a creature you can see within 30 feet with some illusory image of the creatures worst fears. Unless the target succeeds at a Wisdom saving throw it takes 1d6 psychic damage and becomes frightened for 1 minute, or until you lose your concentration (as if you were concentrating on a spell).",
 				"This trick deals additional psychic damage when you reach 9th level (2d6), 13th level (3d6), and 17th level (4d6)."
+			]
+		},
+		{
+			"name": "Brew",
+			"source": "Hergard",
+			"featureType": "Hexes",
+			"entries": [
+				"As a bonus action, you pour a potion onto the poppet. The creature linked with the poppet gains the effects of the potion as if it had drunk it, and the potion is consumed."
+			]
+		},
+		{
+			"name": "Finding",
+			"source": "Hergard",
+			"featureType": "Hexes",
+			"entries": [
+				"As an action, you place a compass onto the poppet. For the next hour. the needle will point in the direction the target is as long as the target is within 500 feet of you, granting you advantage on Wisdom (Survival) checks to track the creature."
+			]
+		},
+		{
+			"name": "Hush",
+			"source": "Hergard",
+			"featureType": "Hexes",
+			"entries": [
+				"As a bonus action, you press on the poppet's mouth and throat. The creature linked must make a Wisdom saving throw. On a failed save, the creature feels choked and is unable to speak. They cannot cast spells with verbal components until the end of their next turn. On a successful save, the creature is not affected."
+			]
+		},
+		{
+			"name": "Instill Fear",
+			"source": "Hergard",
+			"featureType": "Hexes",
+			"entries": [
+				"As an action, you push the poppet onto a blade to threaten the creature linked to it. If the creature can see you, it must make a Wisdom saving throw. On a failed save, the creature becomes frightened of you until the start of your next turn. On a successful save, the creature is not affected."
+			]
+		},
+		{
+			"name": "Manacle",
+			"source": "Hergard",
+			"featureType": "Hexes",
+			"entries": [
+				"As an action, you can wrap the poppet in string or rope. The creature linked to it must make a Strength saving throw as ethereal chains appear and try to drag it down. If the creature is prone, it has disadvantage on this saving throw. On a failed save, the creature becomes restrained until the start of your next turn."
+			]
+		},
+		{
+			"name": "Mental Ward",
+			"source": "Hergard",
+			"featureType": "Hexes",
+			"entries": [
+				"As a bonus action, you can rub your fingers on the temples of your poppet. The creature linked to it gains advantage on Intelligence, Wisdom, or Charisma saving throws (your choice) until the start of your next turn."
+			]
+		},
+		{
+			"name": "Retribution",
+			"source": "Hergard",
+			"featureType": "Hexes",
+			"prerequisite": [{
+				"level": {
+					"level": 9
+				}
+			}],
+			"entries": [
+				"As a reaction, when a creature hits you with an attack, you may crush their poppet in response. The creature immediately takes necrotic damage equal to the damage they dealt to you."
+			]
+		},
+		{
+			"name": "Stroke of Luck",
+			"source": "Hergard",
+			"featureType": "Hexes",
+			"entries": [
+				"Whenever a creature you have a poppet linked with makes a saving throw or ability check, you may press a pair of dice into your poppet as a reaction to give that creature advantage on the roll."
+			]
+		},
+		{
+			"name": "Turn to Toad",
+			"source": "Hergard",
+			"featureType": "Hexes",
+			"prerequisite": [{
+				"level": {
+					"level": 9
+				}
+			}],
+			"entries": [
+				"You may cast polymorph without expending a spell slot on a creature linked to one of your poppets. This can only turn the target into a frog. The spell lasts a minute or until the target is damaged."
 			]
 		}
 	],
@@ -9577,21 +9661,19 @@
 					"{@item quarterstaff|phb|quarterstaffs}",
 					"{@item light crossbow|phb|light crossbows}"
 				],
-				"skills": [
-					{
-						"choose": {
-							"from": [
-								"arcana",
-								"deception",
-								"insight",
-								"intimidation",
-								"persuasion",
-								"religion"
-							],
-							"count": 2
-						}
+				"skills": [{
+					"choose": {
+						"from": [
+							"arcana",
+							"deception",
+							"insight",
+							"intimidation",
+							"persuasion",
+							"religion"
+						],
+						"count": 2
 					}
-				]
+				}]
 			},
 			"startingEquipment": {
 				"additionalFromBackground": true,
@@ -9602,17 +9684,14 @@
 					"Two {@item dagger|phb|daggers}"
 				],
 				"goldAlternative": "{@dice 3d4 × 10|3d4 × 10|Starting Gold}",
-				"defaultData": [
-					{
+				"defaultData": [{
 						"a": [
 							"light crossbow|phb",
 							"crossbow bolts (20)|phb"
 						],
-						"b": [
-							{
-								"equipmentType": "weaponSimple"
-							}
-						]
+						"b": [{
+							"equipmentType": "weaponSimple"
+						}]
 					},
 					{
 						"a": [
@@ -9631,12 +9710,10 @@
 						]
 					},
 					{
-						"_": [
-							{
-								"item": "dagger|phb",
-								"quantity": 2
-							}
-						]
+						"_": [{
+							"item": "dagger|phb",
+							"quantity": 2
+						}]
 					}
 				]
 			},
@@ -9645,8 +9722,7 @@
 					"cha": 13
 				}
 			},
-			"classTableGroups": [
-				{
+			"classTableGroups": [{
 					"colLabels": [
 						"Sorcery Points"
 					],
@@ -10084,8 +10160,7 @@
 				"Sorcerous Mastery|Sorcerer||20|Hergard"
 			],
 			"subclassTitle": "Sorcerous Origin",
-			"fluff": [
-				{
+			"fluff": [{
 					"name": "Sorcerer",
 					"type": "section",
 					"entries": [
@@ -10131,8 +10206,7 @@
 				},
 				{
 					"type": "section",
-					"entries": [
-						{
+					"entries": [{
 							"type": "quote",
 							"entries": [
 								"Practice and study are for amateurs. True power is a birthright."
@@ -10161,8 +10235,7 @@
 										"col-11"
 									],
 									"rows": [
-										[
-											{
+										[{
 												"type": "cell",
 												"roll": {
 													"exact": 1
@@ -10170,8 +10243,7 @@
 											},
 											"Your power arises from your family's bloodline. You are related to some powerful creature, or you inherited a blessing or a curse."
 										],
-										[
-											{
+										[{
 												"type": "cell",
 												"roll": {
 													"exact": 2
@@ -10179,8 +10251,7 @@
 											},
 											"You are the reincarnation of a being from another plane of existence."
 										],
-										[
-											{
+										[{
 												"type": "cell",
 												"roll": {
 													"exact": 3
@@ -10188,8 +10259,7 @@
 											},
 											"A powerful entity entered the world. Its magic changed you."
 										],
-										[
-											{
+										[{
 												"type": "cell",
 												"roll": {
 													"exact": 4
@@ -10197,8 +10267,7 @@
 											},
 											"Your birth was prophesied in an ancient text, and you are foretold to use your power for terrible ends."
 										],
-										[
-											{
+										[{
 												"type": "cell",
 												"roll": {
 													"exact": 5
@@ -10206,8 +10275,7 @@
 											},
 											"You are the product of generations of careful, selective breeding."
 										],
-										[
-											{
+										[{
 												"type": "cell",
 												"roll": {
 													"exact": 6
@@ -10237,8 +10305,7 @@
 										"col-11"
 									],
 									"rows": [
-										[
-											{
+										[{
 												"type": "cell",
 												"roll": {
 													"exact": 1
@@ -10246,8 +10313,7 @@
 											},
 											"Your powers are seen as a great blessing by those around you, and you are expected to use them in service to your community."
 										],
-										[
-											{
+										[{
 												"type": "cell",
 												"roll": {
 													"exact": 2
@@ -10255,8 +10321,7 @@
 											},
 											"Your powers caused destruction and even a death when they became evident, and you were treated as a criminal."
 										],
-										[
-											{
+										[{
 												"type": "cell",
 												"roll": {
 													"exact": 3
@@ -10264,8 +10329,7 @@
 											},
 											"Your neighbors hate and fear your power, causing them to shun you."
 										],
-										[
-											{
+										[{
 												"type": "cell",
 												"roll": {
 													"exact": 4
@@ -10273,8 +10337,7 @@
 											},
 											"You came to the attention of a sinister cult that plans on exploiting your abilities."
 										],
-										[
-											{
+										[{
 												"type": "cell",
 												"roll": {
 													"exact": 5
@@ -10282,8 +10345,7 @@
 											},
 											"People around you believe that your powers are a curse levied on your family for a past transgression."
 										],
-										[
-											{
+										[{
 												"type": "cell",
 												"roll": {
 													"exact": 6
@@ -10313,8 +10375,7 @@
 										"col-11"
 									],
 									"rows": [
-										[
-											{
+										[{
 												"type": "cell",
 												"roll": {
 													"exact": 1
@@ -10322,8 +10383,7 @@
 											},
 											"Your eyes are an unusual color, such as red."
 										],
-										[
-											{
+										[{
 												"type": "cell",
 												"roll": {
 													"exact": 2
@@ -10331,8 +10391,7 @@
 											},
 											"You have an extra toe on one foot."
 										],
-										[
-											{
+										[{
 												"type": "cell",
 												"roll": {
 													"exact": 3
@@ -10340,8 +10399,7 @@
 											},
 											"One of your ears is noticeably larger than the other."
 										],
-										[
-											{
+										[{
 												"type": "cell",
 												"roll": {
 													"exact": 4
@@ -10349,8 +10407,7 @@
 											},
 											"Your hair grows at a prodigious rate."
 										],
-										[
-											{
+										[{
 												"type": "cell",
 												"roll": {
 													"exact": 5
@@ -10358,8 +10415,7 @@
 											},
 											"You wrinkle your nose repeatedly while you are chewing."
 										],
-										[
-											{
+										[{
 												"type": "cell",
 												"roll": {
 													"exact": 6
@@ -10389,8 +10445,7 @@
 										"col-11"
 									],
 									"rows": [
-										[
-											{
+										[{
 												"type": "cell",
 												"roll": {
 													"exact": 1
@@ -10398,8 +10453,7 @@
 											},
 											"You deliver the verbal components of your spells in the booming voice of a titan."
 										],
-										[
-											{
+										[{
 												"type": "cell",
 												"roll": {
 													"exact": 2
@@ -10407,8 +10461,7 @@
 											},
 											"For a moment after you cast a spell, the area around you grows dark and gloomy."
 										],
-										[
-											{
+										[{
 												"type": "cell",
 												"roll": {
 													"exact": 3
@@ -10416,8 +10469,7 @@
 											},
 											"You sweat profusely while casting a spell and for a few seconds thereafter."
 										],
-										[
-											{
+										[{
 												"type": "cell",
 												"roll": {
 													"exact": 4
@@ -10425,8 +10477,7 @@
 											},
 											"Your hair and garments are briefly buffeted about, as if by a breeze, whenever you call forth a spell."
 										],
-										[
-											{
+										[{
 												"type": "cell",
 												"roll": {
 													"exact": 5
@@ -10434,8 +10485,7 @@
 											},
 											"If you are standing when you cast a spell, you rise six inches into the air and gently float back down."
 										],
-										[
-											{
+										[{
 												"type": "cell",
 												"roll": {
 													"exact": 6
@@ -11879,10 +11929,10 @@
 				{
 					"type": "refClassFeature",
 					"classFeature": "Flexible Casting|Sorcerer||2"
-				},{ 
+				}, {
 					"type": "refClassFeature",
 					"classFeature": "Imbuing Touch|Sorcerer||2|Hergard"
-				},{
+				}, {
 					"type": "refClassFeature",
 					"classFeature": "Sorcerous Fortitude|Sorcerer||2|Hergard"
 				}
@@ -11959,7 +12009,7 @@
 			"header": 1,
 			"entries": [
 				"As an action, you can touch one nonmagical weapon and spend 2 sorcery points to imbue it with magic for 1 minute. For the duration, the weapon is considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks."
-				]
+			]
 		},
 		{
 			"name": "Sorcerous Fortitude",
@@ -11971,7 +12021,7 @@
 			"header": 1,
 			"entries": [
 				"As an action, you can spend any number of sorcery points to roll a d4 for each point expended. You gain a number of temporary hit points equal to the total rolled."
-				]
+			]
 		},
 		{
 			"name": "Font of Magic Options",
@@ -12010,8 +12060,7 @@
 				{
 					"type": "options",
 					"count": 2,
-					"entries": [
-						{
+					"entries": [{
 							"type": "refOptionalfeature",
 							"optionalfeature": "Careful Spell|Hergard"
 						},
@@ -12656,15 +12705,13 @@
 			"className": "Bard",
 			"classSource": "Hergard",
 			"page": 28,
-			"additionalSpells": [
-				{
-					"innate": {
-						"3": [
-							"guidance"
-						]
-					}
+			"additionalSpells": [{
+				"innate": {
+					"3": [
+						"guidance"
+					]
 				}
-			],
+			}],
 			"subclassFeatures": [
 				"College of Spirits|Bard||Spirits|VRGR|3",
 				"Spirit Session|Bard||Spirits|VRGR|6",
@@ -14674,482 +14721,467 @@
 				"Trained mind|Sorcerer|PHB|Oracle|Hergard|14",
 				"Divinium Arcana|Sorcerer|PHB|Oracle|Hergard|18"
 			]
-		},{
-					"name": "Draconic Bloodline",
-					"shortName": "Draconic",
-					"source": "PHB",
-					"page": 102,
-					"srd": true,
-					"subclassFeatures": [
-						"Draconic Bloodline|Sorcerer||Draconic||1",
-						"Elemental Affinity|Sorcerer||Draconic||6",
-						"Dragon Wings|Sorcerer||Draconic||14",
-						"Draconic Presence|Sorcerer||Draconic||18"
+		}, {
+			"name": "Draconic Bloodline",
+			"shortName": "Draconic",
+			"source": "PHB",
+			"page": 102,
+			"srd": true,
+			"subclassFeatures": [
+				"Draconic Bloodline|Sorcerer||Draconic||1",
+				"Elemental Affinity|Sorcerer||Draconic||6",
+				"Dragon Wings|Sorcerer||Draconic||14",
+				"Draconic Presence|Sorcerer||Draconic||18"
+			],
+			"className": "Sorcerer",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Wild Magic",
+			"shortName": "Wild",
+			"source": "PHB",
+			"page": 103,
+			"subclassFeatures": [
+				"Wild Magic|Sorcerer||Wild||1",
+				"Bend Luck|Sorcerer||Wild||6",
+				"Controlled Chaos|Sorcerer||Wild||14",
+				"Spell Bombardment|Sorcerer||Wild||18"
+			],
+			"className": "Sorcerer",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Favored Soul (UA)",
+			"shortName": "Favored Soul (UA)",
+			"source": "UAModifyingClasses",
+			"page": 8,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"Favored Soul|Sorcerer||Favored Soul (UA)|UAModifyingClasses|1",
+				"Extra Attack|Sorcerer||Favored Soul (UA)|UAModifyingClasses|6",
+				"Divine Wings|Sorcerer||Favored Soul (UA)|UAModifyingClasses|14",
+				"Power of the Chosen|Sorcerer||Favored Soul (UA)|UAModifyingClasses|18"
+			],
+			"className": "Sorcerer",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Storm Sorcery (UA)",
+			"shortName": "Storm (UA)",
+			"source": "UAWaterborneAdventures",
+			"page": 4,
+			"isReprinted": true,
+			"additionalSpells": [{
+				"prepared": {
+					"1": [
+						"fog cloud",
+						"thunderwave"
 					],
-					"className": "Sorcerer",
-					"classSource": "Hergard"
+					"3": [
+						"gust of wind",
+						"levitate"
+					],
+					"5": [
+						"call lightning",
+						"sleet storm"
+					],
+					"7": [
+						"conjure minor elementals",
+						"ice storm"
+					],
+					"9": [
+						"conjure elemental"
+					]
+				}
+			}],
+			"subclassFeatures": [
+				"Storm Sorcery|Sorcerer||Storm (UA)|UAWaterborneAdventures|1",
+				"Heart of the Storm|Sorcerer||Storm (UA)|UAWaterborneAdventures|6",
+				"Storm Guide|Sorcerer||Storm (UA)|UAWaterborneAdventures|6",
+				"Storm's Fury|Sorcerer||Storm (UA)|UAWaterborneAdventures|14",
+				"Wind Soul|Sorcerer||Storm (UA)|UAWaterborneAdventures|18"
+			],
+			"className": "Sorcerer",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Shadow (UA)",
+			"shortName": "Shadow (UA)",
+			"source": "UALightDarkUnderdark",
+			"page": 2,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"Shadow|Sorcerer||Shadow (UA)|UALightDarkUnderdark|1",
+				"Hound of Ill Omen|Sorcerer||Shadow (UA)|UALightDarkUnderdark|6",
+				"Shadow Walk|Sorcerer||Shadow (UA)|UALightDarkUnderdark|14",
+				"Shadow Form|Sorcerer||Shadow (UA)|UALightDarkUnderdark|18"
+			],
+			"className": "Sorcerer",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Favored Soul v2 (UA)",
+			"shortName": "Favored Soul v2 (UA)",
+			"source": "UASorcerer",
+			"page": 1,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"Favored Soul v2|Sorcerer||Favored Soul v2 (UA)|UASorcerer|1",
+				"Blessed Countenance|Sorcerer||Favored Soul v2 (UA)|UASorcerer|6",
+				"Divine Purity|Sorcerer||Favored Soul v2 (UA)|UASorcerer|14",
+				"Unearthly Recovery|Sorcerer||Favored Soul v2 (UA)|UASorcerer|18"
+			],
+			"className": "Sorcerer",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Phoenix Sorcery (UA)",
+			"shortName": "Phoenix (UA)",
+			"source": "UASorcerer",
+			"page": 1,
+			"subclassFeatures": [
+				"Phoenix Sorcery (UA)|Sorcerer||Phoenix (UA)|UASorcerer|1",
+				"Phoenix Spark|Sorcerer||Phoenix (UA)|UASorcerer|6",
+				"Nourishing Fire|Sorcerer||Phoenix (UA)|UASorcerer|14",
+				"Form of the Phoenix|Sorcerer||Phoenix (UA)|UASorcerer|18"
+			],
+			"className": "Sorcerer",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Sea Sorcery (UA)",
+			"shortName": "Sea (UA)",
+			"source": "UASorcerer",
+			"page": 2,
+			"subclassFeatures": [
+				"Sea Sorcery (UA)|Sorcerer||Sea (UA)|UASorcerer|1",
+				"Watery Defense|Sorcerer||Sea (UA)|UASorcerer|6",
+				"Shifting Form|Sorcerer||Sea (UA)|UASorcerer|14",
+				"Water Soul|Sorcerer||Sea (UA)|UASorcerer|18"
+			],
+			"className": "Sorcerer",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Stone Sorcery (UA)",
+			"shortName": "Stone (UA)",
+			"source": "UASorcerer",
+			"page": 3,
+			"subclassFeatures": [
+				"Stone Sorcery (UA)|Sorcerer||Stone (UA)|UASorcerer|1",
+				"Stone Aegis|Sorcerer||Stone (UA)|UASorcerer|6",
+				"Stone's Edge|Sorcerer||Stone (UA)|UASorcerer|14",
+				"Earth Master's Aegis|Sorcerer||Stone (UA)|UASorcerer|18"
+			],
+			"className": "Sorcerer",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Pyromancer (PSK)",
+			"shortName": "Pyromancer (PSK)",
+			"source": "PSK",
+			"page": 9,
+			"subclassFeatures": [
+				"Pyromancer (PSK)|Sorcerer||Pyromancer (PSK)|PSK|1",
+				"Fire in the Veins|Sorcerer||Pyromancer (PSK)|PSK|6",
+				"Pyromancer's Fury|Sorcerer||Pyromancer (PSK)|PSK|14",
+				"Fiery Soul|Sorcerer||Pyromancer (PSK)|PSK|18"
+			],
+			"className": "Sorcerer",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Favored Soul v3 (UA)",
+			"shortName": "Favored Soul v3 (UA)",
+			"source": "UARevisedSubclasses",
+			"page": 5,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"Favored Soul v3|Sorcerer||Favored Soul v3 (UA)|UARevisedSubclasses|1",
+				"Empowered Healing|Sorcerer||Favored Soul v3 (UA)|UARevisedSubclasses|6",
+				"Angelic Form|Sorcerer||Favored Soul v3 (UA)|UARevisedSubclasses|14",
+				"Unearthly Recovery|Sorcerer||Favored Soul v3 (UA)|UARevisedSubclasses|18"
+			],
+			"className": "Sorcerer",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Divine Soul",
+			"shortName": "Divine Soul",
+			"source": "XGE",
+			"page": 50,
+			"additionalSpells": [{
+					"prepared": {
+						"1": [
+							"cure wounds"
+						]
+					}
 				},
 				{
-					"name": "Wild Magic",
-					"shortName": "Wild",
-					"source": "PHB",
-					"page": 103,
-					"subclassFeatures": [
-						"Wild Magic|Sorcerer||Wild||1",
-						"Bend Luck|Sorcerer||Wild||6",
-						"Controlled Chaos|Sorcerer||Wild||14",
-						"Spell Bombardment|Sorcerer||Wild||18"
-					],
-					"className": "Sorcerer",
-					"classSource": "Hergard"
+					"prepared": {
+						"1": [
+							"inflict wounds"
+						]
+					}
 				},
 				{
-					"name": "Favored Soul (UA)",
-					"shortName": "Favored Soul (UA)",
-					"source": "UAModifyingClasses",
-					"page": 8,
-					"isReprinted": true,
-					"subclassFeatures": [
-						"Favored Soul|Sorcerer||Favored Soul (UA)|UAModifyingClasses|1",
-						"Extra Attack|Sorcerer||Favored Soul (UA)|UAModifyingClasses|6",
-						"Divine Wings|Sorcerer||Favored Soul (UA)|UAModifyingClasses|14",
-						"Power of the Chosen|Sorcerer||Favored Soul (UA)|UAModifyingClasses|18"
-					],
-					"className": "Sorcerer",
-					"classSource": "Hergard"
+					"prepared": {
+						"1": [
+							"bless"
+						]
+					}
 				},
 				{
-					"name": "Storm Sorcery (UA)",
-					"shortName": "Storm (UA)",
-					"source": "UAWaterborneAdventures",
-					"page": 4,
-					"isReprinted": true,
-					"additionalSpells": [
-						{
-							"prepared": {
-								"1": [
-									"fog cloud",
-									"thunderwave"
-								],
-								"3": [
-									"gust of wind",
-									"levitate"
-								],
-								"5": [
-									"call lightning",
-									"sleet storm"
-								],
-								"7": [
-									"conjure minor elementals",
-									"ice storm"
-								],
-								"9": [
-									"conjure elemental"
-								]
-							}
-						}
-					],
-					"subclassFeatures": [
-						"Storm Sorcery|Sorcerer||Storm (UA)|UAWaterborneAdventures|1",
-						"Heart of the Storm|Sorcerer||Storm (UA)|UAWaterborneAdventures|6",
-						"Storm Guide|Sorcerer||Storm (UA)|UAWaterborneAdventures|6",
-						"Storm's Fury|Sorcerer||Storm (UA)|UAWaterborneAdventures|14",
-						"Wind Soul|Sorcerer||Storm (UA)|UAWaterborneAdventures|18"
-					],
-					"className": "Sorcerer",
-					"classSource": "Hergard"
+					"prepared": {
+						"1": [
+							"bane"
+						]
+					}
 				},
 				{
-					"name": "Shadow (UA)",
-					"shortName": "Shadow (UA)",
-					"source": "UALightDarkUnderdark",
-					"page": 2,
-					"isReprinted": true,
-					"subclassFeatures": [
-						"Shadow|Sorcerer||Shadow (UA)|UALightDarkUnderdark|1",
-						"Hound of Ill Omen|Sorcerer||Shadow (UA)|UALightDarkUnderdark|6",
-						"Shadow Walk|Sorcerer||Shadow (UA)|UALightDarkUnderdark|14",
-						"Shadow Form|Sorcerer||Shadow (UA)|UALightDarkUnderdark|18"
+					"prepared": {
+						"1": [
+							"protection from evil and good"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Divine Soul|Sorcerer||Divine Soul|XGE|1",
+				"Empowered Healing|Sorcerer||Divine Soul|XGE|6",
+				"Otherworldly Wings|Sorcerer||Divine Soul|XGE|14",
+				"Unearthly Recovery|Sorcerer||Divine Soul|XGE|18"
+			],
+			"className": "Sorcerer",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Shadow Magic",
+			"shortName": "Shadow",
+			"source": "XGE",
+			"page": 50,
+			"additionalSpells": [{
+				"prepared": {
+					"3": [
+						"darkness"
+					]
+				}
+			}],
+			"subclassFeatures": [
+				"Shadow Magic|Sorcerer||Shadow|XGE|1",
+				"Hound of Ill Omen|Sorcerer||Shadow|XGE|6",
+				"Shadow Walk|Sorcerer||Shadow|XGE|14",
+				"Umbral Form|Sorcerer||Shadow|XGE|18"
+			],
+			"className": "Sorcerer",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Storm Sorcery",
+			"shortName": "Storm",
+			"source": "XGE",
+			"page": 51,
+			"otherSources": [{
+				"source": "SCAG",
+				"page": 137
+			}],
+			"subclassFeatures": [
+				"Storm Sorcery|Sorcerer||Storm|XGE|1",
+				"Heart of the Storm|Sorcerer||Storm|XGE|6",
+				"Storm Guide|Sorcerer||Storm|XGE|6",
+				"Storm's Fury|Sorcerer||Storm|XGE|14",
+				"Wind Soul|Sorcerer||Storm|XGE|18"
+			],
+			"className": "Sorcerer",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Giant Soul (UA)",
+			"shortName": "Giant Soul (UA)",
+			"source": "UAGiantSoulSorcerer",
+			"page": 1,
+			"subclassFeatures": [
+				"Giant Soul (UA)|Sorcerer||Giant Soul (UA)|UAGiantSoulSorcerer|1",
+				"Soul of Lost Ostoria|Sorcerer||Giant Soul (UA)|UAGiantSoulSorcerer|6",
+				"Rage of Fallen Ostoria|Sorcerer||Giant Soul (UA)|UAGiantSoulSorcerer|14",
+				"Blessing of the All Father|Sorcerer||Giant Soul (UA)|UAGiantSoulSorcerer|18"
+			],
+			"className": "Sorcerer",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Aberrant Mind (UA)",
+			"shortName": "Aberrant Mind (UA)",
+			"source": "UASorcererAndWarlock",
+			"page": 1,
+			"isReprinted": true,
+			"additionalSpells": [{
+				"prepared": {
+					"1": [
+						"arms of Hadar",
+						"dissonant whispers"
 					],
-					"className": "Sorcerer",
-					"classSource": "Hergard"
-				},
-				{
-					"name": "Favored Soul v2 (UA)",
-					"shortName": "Favored Soul v2 (UA)",
-					"source": "UASorcerer",
-					"page": 1,
-					"isReprinted": true,
-					"subclassFeatures": [
-						"Favored Soul v2|Sorcerer||Favored Soul v2 (UA)|UASorcerer|1",
-						"Blessed Countenance|Sorcerer||Favored Soul v2 (UA)|UASorcerer|6",
-						"Divine Purity|Sorcerer||Favored Soul v2 (UA)|UASorcerer|14",
-						"Unearthly Recovery|Sorcerer||Favored Soul v2 (UA)|UASorcerer|18"
+					"3": [
+						"calm emotions",
+						"detect thoughts"
 					],
-					"className": "Sorcerer",
-					"classSource": "Hergard"
-				},
-				{
-					"name": "Phoenix Sorcery (UA)",
-					"shortName": "Phoenix (UA)",
-					"source": "UASorcerer",
-					"page": 1,
-					"subclassFeatures": [
-						"Phoenix Sorcery (UA)|Sorcerer||Phoenix (UA)|UASorcerer|1",
-						"Phoenix Spark|Sorcerer||Phoenix (UA)|UASorcerer|6",
-						"Nourishing Fire|Sorcerer||Phoenix (UA)|UASorcerer|14",
-						"Form of the Phoenix|Sorcerer||Phoenix (UA)|UASorcerer|18"
+					"5": [
+						"hunger of Hadar",
+						"sending"
 					],
-					"className": "Sorcerer",
-					"classSource": "Hergard"
-				},
-				{
-					"name": "Sea Sorcery (UA)",
-					"shortName": "Sea (UA)",
-					"source": "UASorcerer",
-					"page": 2,
-					"subclassFeatures": [
-						"Sea Sorcery (UA)|Sorcerer||Sea (UA)|UASorcerer|1",
-						"Watery Defense|Sorcerer||Sea (UA)|UASorcerer|6",
-						"Shifting Form|Sorcerer||Sea (UA)|UASorcerer|14",
-						"Water Soul|Sorcerer||Sea (UA)|UASorcerer|18"
+					"7": [
+						"compulsion",
+						"Evard's black tentacles"
 					],
-					"className": "Sorcerer",
-					"classSource": "Hergard"
-				},
-				{
-					"name": "Stone Sorcery (UA)",
-					"shortName": "Stone (UA)",
-					"source": "UASorcerer",
-					"page": 3,
-					"subclassFeatures": [
-						"Stone Sorcery (UA)|Sorcerer||Stone (UA)|UASorcerer|1",
-						"Stone Aegis|Sorcerer||Stone (UA)|UASorcerer|6",
-						"Stone's Edge|Sorcerer||Stone (UA)|UASorcerer|14",
-						"Earth Master's Aegis|Sorcerer||Stone (UA)|UASorcerer|18"
+					"9": [
+						"modify memory",
+						"Rary's telepathic bond"
+					]
+				}
+			}],
+			"subclassFeatures": [
+				"Aberrant Mind|Sorcerer||Aberrant Mind (UA)|UASorcererAndWarlock|1",
+				"Psionic Sorcery|Sorcerer||Aberrant Mind (UA)|UASorcererAndWarlock|6",
+				"Psychic Defenses|Sorcerer||Aberrant Mind (UA)|UASorcererAndWarlock|6",
+				"Revelation in Flesh|Sorcerer||Aberrant Mind (UA)|UASorcererAndWarlock|14",
+				"Warp Reality|Sorcerer||Aberrant Mind (UA)|UASorcererAndWarlock|18"
+			],
+			"className": "Sorcerer",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Clockwork Soul (UA)",
+			"shortName": "Clockwork Soul (UA)",
+			"source": "UA2020SubclassesPt2",
+			"page": 4,
+			"isReprinted": true,
+			"additionalSpells": [{
+				"prepared": {
+					"1": [
+						"alarm",
+						"protection from evil and good"
 					],
-					"className": "Sorcerer",
-					"classSource": "Hergard"
-				},
-				{
-					"name": "Pyromancer (PSK)",
-					"shortName": "Pyromancer (PSK)",
-					"source": "PSK",
-					"page": 9,
-					"subclassFeatures": [
-						"Pyromancer (PSK)|Sorcerer||Pyromancer (PSK)|PSK|1",
-						"Fire in the Veins|Sorcerer||Pyromancer (PSK)|PSK|6",
-						"Pyromancer's Fury|Sorcerer||Pyromancer (PSK)|PSK|14",
-						"Fiery Soul|Sorcerer||Pyromancer (PSK)|PSK|18"
+					"3": [
+						"find traps",
+						"heat metal"
 					],
-					"className": "Sorcerer",
-					"classSource": "Hergard"
-				},
-				{
-					"name": "Favored Soul v3 (UA)",
-					"shortName": "Favored Soul v3 (UA)",
-					"source": "UARevisedSubclasses",
-					"page": 5,
-					"isReprinted": true,
-					"subclassFeatures": [
-						"Favored Soul v3|Sorcerer||Favored Soul v3 (UA)|UARevisedSubclasses|1",
-						"Empowered Healing|Sorcerer||Favored Soul v3 (UA)|UARevisedSubclasses|6",
-						"Angelic Form|Sorcerer||Favored Soul v3 (UA)|UARevisedSubclasses|14",
-						"Unearthly Recovery|Sorcerer||Favored Soul v3 (UA)|UARevisedSubclasses|18"
+					"5": [
+						"counterspell",
+						"glyph of warding"
 					],
-					"className": "Sorcerer",
-					"classSource": "Hergard"
-				},
-				{
-					"name": "Divine Soul",
-					"shortName": "Divine Soul",
-					"source": "XGE",
-					"page": 50,
-					"additionalSpells": [
-						{
-							"prepared": {
-								"1": [
-									"cure wounds"
-								]
-							}
-						},
-						{
-							"prepared": {
-								"1": [
-									"inflict wounds"
-								]
-							}
-						},
-						{
-							"prepared": {
-								"1": [
-									"bless"
-								]
-							}
-						},
-						{
-							"prepared": {
-								"1": [
-									"bane"
-								]
-							}
-						},
-						{
-							"prepared": {
-								"1": [
-									"protection from evil and good"
-								]
-							}
-						}
+					"7": [
+						"arcane eye",
+						"Otiluke's resilient sphere"
 					],
-					"subclassFeatures": [
-						"Divine Soul|Sorcerer||Divine Soul|XGE|1",
-						"Empowered Healing|Sorcerer||Divine Soul|XGE|6",
-						"Otherworldly Wings|Sorcerer||Divine Soul|XGE|14",
-						"Unearthly Recovery|Sorcerer||Divine Soul|XGE|18"
+					"9": [
+						"animate objects",
+						"wall of force"
+					]
+				}
+			}],
+			"subclassFeatures": [
+				"Clockwork Soul|Sorcerer||Clockwork Soul (UA)|UA2020SubclassesPt2|1",
+				"Bulwark of Law|Sorcerer||Clockwork Soul (UA)|UA2020SubclassesPt2|6",
+				"Trance of Order|Sorcerer||Clockwork Soul (UA)|UA2020SubclassesPt2|14",
+				"Clockwork Cavalcade|Sorcerer||Clockwork Soul (UA)|UA2020SubclassesPt2|18"
+			],
+			"className": "Sorcerer",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Psionic Soul (UA)",
+			"shortName": "Psionic Soul (UA)",
+			"source": "UA2020PsionicOptionsRevisited",
+			"page": 5,
+			"isReprinted": true,
+			"subclassFeatures": [
+				"Psionic Soul|Sorcerer||Psionic Soul (UA)|UA2020PsionicOptionsRevisited|1",
+				"Psychic Strike|Sorcerer||Psionic Soul (UA)|UA2020PsionicOptionsRevisited|6",
+				"Mind Over Body|Sorcerer||Psionic Soul (UA)|UA2020PsionicOptionsRevisited|14",
+				"Psychic Aura|Sorcerer||Psionic Soul (UA)|UA2020PsionicOptionsRevisited|18"
+			],
+			"className": "Sorcerer",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Aberrant Mind",
+			"shortName": "Aberrant Mind",
+			"source": "TCE",
+			"page": 66,
+			"additionalSpells": [{
+				"prepared": {
+					"1": [
+						"arms of Hadar",
+						"dissonant whispers",
+						"mind sliver|tce"
 					],
-					"className": "Sorcerer",
-					"classSource": "Hergard"
-				},
-				{
-					"name": "Shadow Magic",
-					"shortName": "Shadow",
-					"source": "XGE",
-					"page": 50,
-					"additionalSpells": [
-						{
-							"prepared": {
-								"3": [
-									"darkness"
-								]
-							}
-						}
+					"3": [
+						"calm emotions",
+						"detect thoughts"
 					],
-					"subclassFeatures": [
-						"Shadow Magic|Sorcerer||Shadow|XGE|1",
-						"Hound of Ill Omen|Sorcerer||Shadow|XGE|6",
-						"Shadow Walk|Sorcerer||Shadow|XGE|14",
-						"Umbral Form|Sorcerer||Shadow|XGE|18"
+					"5": [
+						"hunger of Hadar",
+						"sending"
 					],
-					"className": "Sorcerer",
-					"classSource": "Hergard"
-				},
-				{
-					"name": "Storm Sorcery",
-					"shortName": "Storm",
-					"source": "XGE",
-					"page": 51,
-					"otherSources": [
-						{
-							"source": "SCAG",
-							"page": 137
-						}
+					"7": [
+						"Evard's black tentacles",
+						"summon aberration|TCE"
 					],
-					"subclassFeatures": [
-						"Storm Sorcery|Sorcerer||Storm|XGE|1",
-						"Heart of the Storm|Sorcerer||Storm|XGE|6",
-						"Storm Guide|Sorcerer||Storm|XGE|6",
-						"Storm's Fury|Sorcerer||Storm|XGE|14",
-						"Wind Soul|Sorcerer||Storm|XGE|18"
+					"9": [
+						"Rary's telepathic bond",
+						"telekinesis"
+					]
+				}
+			}],
+			"subclassFeatures": [
+				"Aberrant Mind|Sorcerer||Aberrant Mind|TCE|1",
+				"Psionic Sorcery|Sorcerer||Aberrant Mind|TCE|6",
+				"Psychic Defenses|Sorcerer||Aberrant Mind|TCE|6",
+				"Revelation in Flesh|Sorcerer||Aberrant Mind|TCE|14",
+				"Warping Implosion|Sorcerer||Aberrant Mind|TCE|18"
+			],
+			"className": "Sorcerer",
+			"classSource": "Hergard"
+		},
+		{
+			"name": "Clockwork Soul",
+			"shortName": "Clockwork Soul",
+			"source": "TCE",
+			"page": 68,
+			"additionalSpells": [{
+				"prepared": {
+					"1": [
+						"alarm",
+						"protection from evil and good"
 					],
-					"className": "Sorcerer",
-					"classSource": "Hergard"
-				},
-				{
-					"name": "Giant Soul (UA)",
-					"shortName": "Giant Soul (UA)",
-					"source": "UAGiantSoulSorcerer",
-					"page": 1,
-					"subclassFeatures": [
-						"Giant Soul (UA)|Sorcerer||Giant Soul (UA)|UAGiantSoulSorcerer|1",
-						"Soul of Lost Ostoria|Sorcerer||Giant Soul (UA)|UAGiantSoulSorcerer|6",
-						"Rage of Fallen Ostoria|Sorcerer||Giant Soul (UA)|UAGiantSoulSorcerer|14",
-						"Blessing of the All Father|Sorcerer||Giant Soul (UA)|UAGiantSoulSorcerer|18"
+					"3": [
+						"aid",
+						"lesser restoration"
 					],
-					"className": "Sorcerer",
-					"classSource": "Hergard"
-				},
-				{
-					"name": "Aberrant Mind (UA)",
-					"shortName": "Aberrant Mind (UA)",
-					"source": "UASorcererAndWarlock",
-					"page": 1,
-					"isReprinted": true,
-					"additionalSpells": [
-						{
-							"prepared": {
-								"1": [
-									"arms of Hadar",
-									"dissonant whispers"
-								],
-								"3": [
-									"calm emotions",
-									"detect thoughts"
-								],
-								"5": [
-									"hunger of Hadar",
-									"sending"
-								],
-								"7": [
-									"compulsion",
-									"Evard's black tentacles"
-								],
-								"9": [
-									"modify memory",
-									"Rary's telepathic bond"
-								]
-							}
-						}
+					"5": [
+						"dispel magic",
+						"protection from energy"
 					],
-					"subclassFeatures": [
-						"Aberrant Mind|Sorcerer||Aberrant Mind (UA)|UASorcererAndWarlock|1",
-						"Psionic Sorcery|Sorcerer||Aberrant Mind (UA)|UASorcererAndWarlock|6",
-						"Psychic Defenses|Sorcerer||Aberrant Mind (UA)|UASorcererAndWarlock|6",
-						"Revelation in Flesh|Sorcerer||Aberrant Mind (UA)|UASorcererAndWarlock|14",
-						"Warp Reality|Sorcerer||Aberrant Mind (UA)|UASorcererAndWarlock|18"
+					"7": [
+						"freedom of movement",
+						"summon construct|TCE"
 					],
-					"className": "Sorcerer",
-					"classSource": "Hergard"
-				},
-				{
-					"name": "Clockwork Soul (UA)",
-					"shortName": "Clockwork Soul (UA)",
-					"source": "UA2020SubclassesPt2",
-					"page": 4,
-					"isReprinted": true,
-					"additionalSpells": [
-						{
-							"prepared": {
-								"1": [
-									"alarm",
-									"protection from evil and good"
-								],
-								"3": [
-									"find traps",
-									"heat metal"
-								],
-								"5": [
-									"counterspell",
-									"glyph of warding"
-								],
-								"7": [
-									"arcane eye",
-									"Otiluke's resilient sphere"
-								],
-								"9": [
-									"animate objects",
-									"wall of force"
-								]
-							}
-						}
-					],
-					"subclassFeatures": [
-						"Clockwork Soul|Sorcerer||Clockwork Soul (UA)|UA2020SubclassesPt2|1",
-						"Bulwark of Law|Sorcerer||Clockwork Soul (UA)|UA2020SubclassesPt2|6",
-						"Trance of Order|Sorcerer||Clockwork Soul (UA)|UA2020SubclassesPt2|14",
-						"Clockwork Cavalcade|Sorcerer||Clockwork Soul (UA)|UA2020SubclassesPt2|18"
-					],
-					"className": "Sorcerer",
-					"classSource": "Hergard"
-				},
-				{
-					"name": "Psionic Soul (UA)",
-					"shortName": "Psionic Soul (UA)",
-					"source": "UA2020PsionicOptionsRevisited",
-					"page": 5,
-					"isReprinted": true,
-					"subclassFeatures": [
-						"Psionic Soul|Sorcerer||Psionic Soul (UA)|UA2020PsionicOptionsRevisited|1",
-						"Psychic Strike|Sorcerer||Psionic Soul (UA)|UA2020PsionicOptionsRevisited|6",
-						"Mind Over Body|Sorcerer||Psionic Soul (UA)|UA2020PsionicOptionsRevisited|14",
-						"Psychic Aura|Sorcerer||Psionic Soul (UA)|UA2020PsionicOptionsRevisited|18"
-					],
-					"className": "Sorcerer",
-					"classSource": "Hergard"
-				},
-				{
-					"name": "Aberrant Mind",
-					"shortName": "Aberrant Mind",
-					"source": "TCE",
-					"page": 66,
-					"additionalSpells": [
-						{
-							"prepared": {
-								"1": [
-									"arms of Hadar",
-									"dissonant whispers",
-									"mind sliver|tce"
-								],
-								"3": [
-									"calm emotions",
-									"detect thoughts"
-								],
-								"5": [
-									"hunger of Hadar",
-									"sending"
-								],
-								"7": [
-									"Evard's black tentacles",
-									"summon aberration|TCE"
-								],
-								"9": [
-									"Rary's telepathic bond",
-									"telekinesis"
-								]
-							}
-						}
-					],
-					"subclassFeatures": [
-						"Aberrant Mind|Sorcerer||Aberrant Mind|TCE|1",
-						"Psionic Sorcery|Sorcerer||Aberrant Mind|TCE|6",
-						"Psychic Defenses|Sorcerer||Aberrant Mind|TCE|6",
-						"Revelation in Flesh|Sorcerer||Aberrant Mind|TCE|14",
-						"Warping Implosion|Sorcerer||Aberrant Mind|TCE|18"
-					],
-					"className": "Sorcerer",
-					"classSource": "Hergard"
-				},
-				{
-					"name": "Clockwork Soul",
-					"shortName": "Clockwork Soul",
-					"source": "TCE",
-					"page": 68,
-					"additionalSpells": [
-						{
-							"prepared": {
-								"1": [
-									"alarm",
-									"protection from evil and good"
-								],
-								"3": [
-									"aid",
-									"lesser restoration"
-								],
-								"5": [
-									"dispel magic",
-									"protection from energy"
-								],
-								"7": [
-									"freedom of movement",
-									"summon construct|TCE"
-								],
-								"9": [
-									"greater restoration",
-									"wall of force"
-								]
-							}
-						}
-					],
-					"subclassFeatures": [
-						"Clockwork Soul|Sorcerer||Clockwork Soul|TCE|1",
-						"Bastion of Law|Sorcerer||Clockwork Soul|TCE|6",
-						"Trance of Order|Sorcerer||Clockwork Soul|TCE|14",
-						"Clockwork Cavalcade|Sorcerer||Clockwork Soul|TCE|18"
-					],
-					"className": "Sorcerer",
-					"classSource": "Hergard"
-				},
-				{
+					"9": [
+						"greater restoration",
+						"wall of force"
+					]
+				}
+			}],
+			"subclassFeatures": [
+				"Clockwork Soul|Sorcerer||Clockwork Soul|TCE|1",
+				"Bastion of Law|Sorcerer||Clockwork Soul|TCE|6",
+				"Trance of Order|Sorcerer||Clockwork Soul|TCE|14",
+				"Clockwork Cavalcade|Sorcerer||Clockwork Soul|TCE|18"
+			],
+			"className": "Sorcerer",
+			"classSource": "Hergard"
+		},
+		{
 			"name": "Mage of Prismari (UA)",
 			"shortName": "Prismari (UA)",
 			"source": "UA2021MagesOfStrixhaven",
@@ -15338,6 +15370,32 @@
 				"...Or You'll Miss It|Rogue|PHB|Clock Stopper|Hergard|9",
 				"Broken Clock|Rogue|PHB|Clock Stopper|Hergard|13",
 				"Race Against Time|Rogue|PHB|Clock Stopper|Hergard|17"
+			]
+		},
+		{
+			"name": "Guild of the Hexers",
+			"source": "Hergard",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"shortName": "Hexer",
+			"subclassFeatures": [
+				"Guild of the Hexers|Rogue|PHB|Hexer|Hergard|3",
+				"Basic Cursing|Rogue|PHB|Hexer|Hergard|9",
+				"Mask of the Trees|Rogue|PHB|Hexer|Hergard|13",
+				"Stuck by a Pin|Rogue|PHB|Hexer|Hergard|17"
+			]
+		},
+		{
+			"name": "Guild of Thieves",
+			"source": "Hergard",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"shortName": "Thief",
+			"subclassFeatures": [
+				"Guild of Thieves|Rogue|PHB|Thief|Hergard|3",
+				"Sidestep|Rogue|PHB|Thief|Hergard|9",
+				"Use Magic Device|Rogue|PHB|Thief|Hergard|13",
+				"Thief's Reflexes|Rogue|PHB|Thief|Hergard|17"
 			]
 		}
 	],
@@ -27396,16 +27454,16 @@
 						"col-4 text-center"
 					],
 					"rows": [
-						["Black","Acid"],
-						["Blue","Lightning"],
-						["Brass","Fire"],
-						["Bronze","Lightning"],
-						["Copper","Acid"],
-						["Gold","Fire"],
-						["Green","Poison"],
-						["Red","Fire"],
-						["Silver","Cold"],
-						["White","Cold"]
+						["Black", "Acid"],
+						["Blue", "Lightning"],
+						["Brass", "Fire"],
+						["Bronze", "Lightning"],
+						["Copper", "Acid"],
+						["Gold", "Fire"],
+						["Green", "Poison"],
+						["Red", "Fire"],
+						["Silver", "Cold"],
+						["White", "Cold"]
 					]
 				}
 			]
@@ -28527,7 +28585,7 @@
 					]
 				},
 				"The hound appears in an unoccupied space of your choice within 30 feet of the target. The hound shares your initiative count, but it takes its turn immediately after yours. On its turn, it can move only toward its target by the most direct route, and it can use its action only to attack its target. The hound can make opportunity attacks, but only against its target. Additionally, while the hound is within 5 feet of the target, the target has disadvantage on saving throws against any spell you cast. The hound disappears if it is reduced to 0 hit points, if its target is reduced to 0 hit points, or after 5 minutes."
-				
+
 			]
 		},
 		{
@@ -28655,7 +28713,7 @@
 			"entries": [
 				"At 6th level, you have the ability to twist fate using your wild magic. When another creature you can see makes an attack roll, an ability check, or a saving throw, you can twist reality to favor or yield their actions. When that happens, the creature rolls three d20 when they make the roll. Use the highest of the three rolls if they are favored, and use the lowest roll if they are yielded.",
 				"You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
-				
+
 			]
 		},
 		{
@@ -28678,8 +28736,8 @@
 						"After the blast has happened, the sorcerer experiences an event, as determined by the DM. This could include, but is not limited to: being shifted forwards in time to a possible future, being affected by the reincarnate spell, or being subject to the effects of feeblemind for a number of days."
 					]
 				}
-				
-				
+
+
 			]
 		},
 		{
@@ -30153,6 +30211,10 @@
 				},
 				{
 					"type": "refSubclassFeature",
+					"subclassFeature": "Card Trick Options|Rogue|PHB|Cardslinger|Hergard|3"
+				},
+				{
+					"type": "refSubclassFeature",
 					"subclassFeature": "Cardsharp|Rogue|PHB|Cardslinger|Hergard|3"
 				}
 			]
@@ -30171,13 +30233,35 @@
 				"The magical powers of cards is a new discovery within magical circles but without their knowledge lowlives and gamblers have been using them for many years. You have studied the behavior of certain cards and can harness them at your will.",
 				"Some of your card tricks require your target to make a saving throw to resist their effects. The saving throw DC is calculated as follows:",
 				{
-							"type": "abilityDc",
-							"name": "Card Tricks",
-							"attributes": [
-								"cha"
-							]
+					"type": "abilityDc",
+					"name": "Card Tricks",
+					"attributes": [
+						"cha"
+					]
 				}
-				
+
+			]
+		},
+		{
+			"name": "Card Trick Options",
+			"source": "Hergard",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Cardslinger",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"The magical powers of cards is a new discovery within magical circles but without their knowledge lowlives and gamblers have been using them for many years. You have studied the behavior of certain cards and can harness them at your will.",
+				"Some of your card tricks require your target to make a saving throw to resist their effects. The saving throw DC is calculated as follows:",
+				{
+					"type": "abilityDc",
+					"name": "Card Tricks",
+					"attributes": [
+						"cha"
+					]
+				}
+
 			]
 		},
 		{
@@ -30336,11 +30420,11 @@
 			"entries": [
 				"At 13th level, your ability to control time now extends beyond you, affecting those who wish to do you harm. You can cast slow without expending a spell slot or material components. Intelligence is your spellcasting ability for this spell. The saving throw DC for this spell is calculated as follows:",
 				{
-							"type": "abilityDc",
-							"name": "Spell",
-							"attributes": [
-								"int"
-							]
+					"type": "abilityDc",
+					"name": "Spell",
+					"attributes": [
+						"int"
+					]
 				},
 				"You regain the use of this feature when you finish a long rest.",
 				"Additionally, when you take the Dash action, after 5 feet of movement you become invisible and reappear at your destination."
@@ -30358,6 +30442,220 @@
 			"entries": [
 				"Starting at 17th level, you can temporarily alter the flow of time. When you use your Uncanny Dodge or Evasion features, you can immediately make one attack or take the Disengage, Dash or Use Object action as part of the reaction.",
 				"Additionally, you may cast time stop once, and can't cast it again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Guild of the Hexers",
+			"source": "Hergard",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Hexer",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"entries": [
+				"A bit of blood, a lock of hair, a fingernail nervously bitten off. All of these things end up in the toolbag of a hexer, out to make your life miserable. It should be noted that hexers are not all crones that live in the woods and commune with nature or otherworldly beings. Some of them use their hexes and curses to climb the social ladder, protect a town, or even bring justice to those who'd bring woe to their doorstep.",
+				"Not many hexers can utilize actual magic by tapping into the weave, instead relying on basic, primal rituals through the use of poppets, effigies, or fetishes against their foes. They study the correspondence in the nature of things and use it to their advantage in alchemy and various hexes.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Poppets and Effigies|Rogue|PHB|Hexer|Hergard|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Hexer Training|Rogue|PHB|Hexer|Hergard|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Hex Options|Rogue|PHB|Hexer|Hergard|3"
+				}
+			]
+		},
+		{
+			"name": "Poppets and Effigies",
+			"source": "Hergard",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Hexer",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you join this guild at 3rd level, you gain access to creating poppets in order to hex your targets. Making a poppet requires a small amount of materials, something from the creature you wish to influence and a small bag or doll to keep them in.",
+				"When you gain this feature, you may only have two poppets active at a time. The number of poppets you can store increases by one at 6th level and again at 9th, 13th and 17th level."
+			]
+		},
+		{
+			"name": "Hexer Training",
+			"source": "Hergard",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Hexer",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Also at 3rd level, you gain proficiency in Alchemist's supplies, and you learn to speak, read and write Sylvan.",
+				"Additionally, you have advantage on Dexterity (Sleight of Hand) checks to steal things like a tuft of hair, a bit of blood, or a scrap of clothing from a creature to use for creating poppets.",
+				"Furthermore, you may use your poppets twice per day to inflict hexes upon your targets. All of your poppets regain their hex uses when you finish a long rest. When you gain this feature, you learn two hexes of your choice and learn an additional hex of your choice at 9th, 13th, and 17th level. Your hex options are detailed at the end of this guild's description."
+			]
+		},
+		{
+			"name": "Hex Options",
+			"source": "Hergard",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Hexer",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Hexes are minor curses and blessings of magical origin. Their secret originates from hags and witches of the forests. Throughout the years, rogues of the Guild of Hexers stole, earned or bargained for these lower magics and mastered their use to further their efforts.",
+				"Some of your hexes require your target to make a saving throw to resist their effects. The saving throw DC is calculated as follows:",
+				{
+					"type": "abilityDc",
+					"name": "Poppet",
+					"attributes": [
+						"wis"
+					]
+				}
+
+			]
+		},
+		{
+			"name": "Basic Cursing",
+			"source": "Hergard",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Hexer",
+			"subclassSource": "Hergard",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"At 9th level, you begin to learn the ways of curses and how to utilize and remove them. You gain the ability to cast bestow curse, hex and remove curse without expending a spell slot and may use this feature to cast them a combined number of times equal to your Wisdom modifier. You regain all expended uses of this feature when you finish a long rest."
+			]
+		},
+		{
+			"name": "Mask of the Trees",
+			"source": "Hergard",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Hexer",
+			"subclassSource": "Hergard",
+			"level": 13,
+			"header": 2,
+			"entries": [
+				"Staring at 13th level, your affinity to nature through sympathetic magic becomes much stronger and allows you to take advantage of the wilds.",
+				"On your turn, you and all you carry can meld into a tree using all of your movement. Once in, you are hidden and cannot be detected by non-magical means. You can see and hear what happens around you, but you have disadvantage on Wisdom (Perception) checks. If the tree is damaged, you take half the damage it suffers and if it is destroyed, you are expelled and knocked prone in the nearest empty space. You may use 5 feet of movement on a subsequent turn to leave the tree.",
+				"While inside a tree, you may use your bonus action to teleport to another tree within 120 feet and may choose to reappear in an empty space adjacent to that tree.",
+				"Once you use this feature you cannot do so again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Stuck by a Pin",
+			"source": "Hergard",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Hexer",
+			"subclassSource": "Hergard",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"At 17th level, your power with your poppets intensifies. You may use your Sneak Attack on any creature that you have a poppet linked to even if you don't have advantage.",
+				"Additionally, you can use a poppet to harm the creature it depicts. As an action you can stick a pin into a poppet, damaging the psyche of the creature it depicts. The creature must succeed on a Wisdom saving throw or take psychic damage equal to your Sneak Attack damage. In doing so, the poppet is used up and its magic becomes inert."
+			]
+		},
+		{
+			"name": "Guild of Thieves",
+			"source": "Hergard",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Thief",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"entries": [
+				"You hone your skills in the larcenous arts. Burglars, bandits, cutpurses, and other criminals typically join this guild, but so do rogues who prefer to think of themselves as professional treasure seekers, explorers, delvers, and investigators. In addition to improving your agility and stealth, you learn skills useful for delving into ancient ruins, reading unfamiliar languages, and using magic items you normally couldn't employ.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Burgler's Focus|Rogue|PHB|Thief|Hergard|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Light as a Feather|Rogue|PHB|Thief|Hergard|3"
+				}
+			]
+		},
+		{
+			"name": "Burgler's Focus",
+			"source": "Hergard",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Thief",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you join this guild at 3rd level, your specialty in thievery allows you to quickly deal with traps or pickpocket an unsuspecting victim. You can use the bonus action granted by your Cunning Action to make a Dexterity (Sleight of Hand) check, use your thieves' tools to disarm a trap or open a lock, make a Wisdom (Perception) or Intelligence (Investigation) check to search for traps or take the Use an Object action."
+			]
+		},
+		{
+			"name": "Light as a Feather",
+			"source": "Hergard",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Thief",
+			"subclassSource": "Hergard",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Also at 3rd level, your acrobatic skills manifest in a variety of ways. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Your speed increases by 5 feet",
+						"Climbing no longer costs you extra movement",
+						"When you make a running jump, the distance you cover increases by a number of feet equal to five times your proficiency bonus"
+					]
+				}
+			]
+		},
+		{
+			"name": "Sidestep",
+			"source": "Hergard",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Thief",
+			"subclassSource": "Hergard",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"Starting at 9th level, your reflexes in burglary aid you in combat against enemies that fumble their attacks.",
+				"If a Huge or smaller creature within 5 feet of you misses you with an attack, you can use your reaction to move to another space within 5 feet of the creature. This movement doesn't provoke opportunity attacks. After moving, you can immediately make a weapon attack with advantage against the creature as part of this reaction.",
+				"Additionally, you can no longer activate traps which use pressure, tripwires or other similar mechanisms to fire."
+			]
+		},
+		{
+			"name": "Use Magic Device",
+			"source": "Hergard",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Thief",
+			"subclassSource": "Hergard",
+			"level": 13,
+			"header": 2,
+			"entries": [
+				"By 13th level, you have learned enough about the workings of magic that you can improvise the use of items even when they are not intended for you. You ignore all class, race, and level requirements on the use of magic items."
+			]
+		},
+		{
+			"name": "Thief's Reflexes",
+			"source": "Hergard",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Thief",
+			"subclassSource": "Hergard",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"When you reach 17th level, you have become adept at laying ambushes and quickly escaping danger. You can take two turns during the first round of any combat. You take your first turn at your normal initiative and your second turn at your initiative minus 10. You can't use this feature when you are surprised."
 			]
 		}
 	],
@@ -30916,56 +31214,56 @@
 				"col-12"
 			],
 			"rows": [
-				["01-02","Roll on this table at the start of each of your turns for the next minute, ignoring this result on subsequent rolls."],
-				["03-04","For the next minute, you can see any invisible creature if you have line of sight to it."],
-				["05-06","A modron chosen and controlled by the DM appears in an unoccupied space within 5 feet of you, then disappears 1 minute later."],
-				["07-08","You cast fireball as a 3rd-level spell centered on yourself."],
-				["09-10","You cast magic missile as a 5th-level spell."],
-				["11-12","Roll a d10. Your height changes by a number of inches equal to the roll. If the roll is odd, you shrink. If the roll is even, you grow."],
-				["13-14","You cast confusion centered on yourself."],
-				["15-16","For the next minute, you regain 5 hit points at the start of each of your turns."],
-				["17-18","You grow a long beard made of feathers that remains until you sneeze, at which point the feathers explode out from your face."],
-				["19-20","You cast grease centered on yourself."],
-				["21-22","Creatures have disadvantage on saving throws against the next spell you cast in the next minute that involves a saving throw."],
-				["23-24","Your skin turns a vibrant shade of blue. A remove curse spell can end this effect."],
-				["25-26","An eye appears on your forehead for the next minute. During that time, you have advantage on Wisdom (Perception) checks that rely on sight."],
-				["27-28","For the next minute, all your spells with a casting time of 1 action have a casting time of 1 bonus action."],
-				["29-30","You teleport up to 60 feet to an unoccupied space of your choice that you can see."],
-				["31-32","You are transported to the Astral Plane until the end of your next turn, after which time you return to the space you previously occupied or the nearest unoccupied space if that space is occupied."],
-				["33-34","Maximize the damage of the next damaging spell you cast within the next minute."],
-				["35-36","Roll a d10. Your age changes by a number of years equal to the roll. If the roll is odd, you get younger (minimum 1 year old). If the roll is even, you get older."],
-				["37-38","1d6 flumphs controlled by the DM appear in unoccupied spaces within 60 feet of you and are frightened of you. They vanish after 1 minute."],
-				["39-40","You regain 2d10 hit points."],
-				["41-42","You turn into a potted plant until the start of your next turn. While a plant, you are incapacitated and have vulnerability to all damage. If you drop to 0 hit points, your pot breaks, and your form reverts."],
-				["43-44","For the next minute, you can teleport up to 20 feet as a bonus action on each of your turns."],
-				["45-46","You cast levitate on yourself."],
-				["47-48","A unicorn controlled by the DM appears in a space within 5 feet of you, then disappears 1 minute later."],
-				["49-50","You can't speak for the next minute. Whenever you try, pink bubbles float out of your mouth."],
-				["51-52","A spectral shield hovers near you for the next minute, granting you a +2 bonus to AC and immunity to magic missile."],
-				["53-54","You are immune to being intoxicated by alcohol for the next 5d6 days."],
-				["55-56","Your hair falls out but grows back within 24 hours."],
-				["57-58","For the next minute, any flammable object you touch that isn't being worn or carried by another creature bursts into flame."],
-				["59-60","You regain your lowest-level expended spell slot."],
-				["61-62","For the next minute, you must shout when you speak."],
-				["63-64","You cast fog cloud centered on yourself."],
-				["65-66","Up to three creatures you choose within 30 feet of you take 4d10 lightning damage."],
-				["67-68","You are frightened by the nearest creature until the end of your next turn."],
-				["69-70","Each creature within 30 feet of you becomes invisible for the next minute. The invisibility ends on a creature when it attacks or casts a spell."],
-				["71-72","You gain resistance to all damage for the next minute."],
-				["73-74","A random creature within 60 feet of you becomes poisoned for 1d4 hours."],
-				["75-76","You glow with bright light in a 30-foot radius for the next minute. Any creature that ends its turn within 5 feet of you is blinded until the end of its next turn."],
-				["77-78","You cast polymorph on yourself. If you fail the saving throw, you turn into a sheep for the spell's duration."],
-				["79-80","Illusory butterflies and flower petals flutter in the air within 10 feet of you for the next minute."],
-				["81-82","You can take one additional action immediately."],
-				["83-84","Each creature within 30 feet of you takes 1d10 necrotic damage. You regain hit points equal to the sum of the necrotic damage dealt."],
-				["85-86","You cast mirror image."],
-				["87-88","You cast fly on a random creature within 60 feet of you."],
-				["89-90","You become invisible for the next minute. During that time, other creatures can't hear you. The invisibility ends if you attack or cast a spell."],
-				["91-92","If you die within the next minute, you immediately come back to life as if by the reincarnate spell."],
-				["93-94","Your size increases by one size category for the next minute."],
-				["95-96","You and all creatures within 30 feet of you gain vulnerability to piercing damage for the next minute."],
-				["97-98","You are surrounded by faint, ethereal music for the next minute."],
-				["99-00","You regain all expended sorcery points."]
+				["01-02", "Roll on this table at the start of each of your turns for the next minute, ignoring this result on subsequent rolls."],
+				["03-04", "For the next minute, you can see any invisible creature if you have line of sight to it."],
+				["05-06", "A modron chosen and controlled by the DM appears in an unoccupied space within 5 feet of you, then disappears 1 minute later."],
+				["07-08", "You cast fireball as a 3rd-level spell centered on yourself."],
+				["09-10", "You cast magic missile as a 5th-level spell."],
+				["11-12", "Roll a d10. Your height changes by a number of inches equal to the roll. If the roll is odd, you shrink. If the roll is even, you grow."],
+				["13-14", "You cast confusion centered on yourself."],
+				["15-16", "For the next minute, you regain 5 hit points at the start of each of your turns."],
+				["17-18", "You grow a long beard made of feathers that remains until you sneeze, at which point the feathers explode out from your face."],
+				["19-20", "You cast grease centered on yourself."],
+				["21-22", "Creatures have disadvantage on saving throws against the next spell you cast in the next minute that involves a saving throw."],
+				["23-24", "Your skin turns a vibrant shade of blue. A remove curse spell can end this effect."],
+				["25-26", "An eye appears on your forehead for the next minute. During that time, you have advantage on Wisdom (Perception) checks that rely on sight."],
+				["27-28", "For the next minute, all your spells with a casting time of 1 action have a casting time of 1 bonus action."],
+				["29-30", "You teleport up to 60 feet to an unoccupied space of your choice that you can see."],
+				["31-32", "You are transported to the Astral Plane until the end of your next turn, after which time you return to the space you previously occupied or the nearest unoccupied space if that space is occupied."],
+				["33-34", "Maximize the damage of the next damaging spell you cast within the next minute."],
+				["35-36", "Roll a d10. Your age changes by a number of years equal to the roll. If the roll is odd, you get younger (minimum 1 year old). If the roll is even, you get older."],
+				["37-38", "1d6 flumphs controlled by the DM appear in unoccupied spaces within 60 feet of you and are frightened of you. They vanish after 1 minute."],
+				["39-40", "You regain 2d10 hit points."],
+				["41-42", "You turn into a potted plant until the start of your next turn. While a plant, you are incapacitated and have vulnerability to all damage. If you drop to 0 hit points, your pot breaks, and your form reverts."],
+				["43-44", "For the next minute, you can teleport up to 20 feet as a bonus action on each of your turns."],
+				["45-46", "You cast levitate on yourself."],
+				["47-48", "A unicorn controlled by the DM appears in a space within 5 feet of you, then disappears 1 minute later."],
+				["49-50", "You can't speak for the next minute. Whenever you try, pink bubbles float out of your mouth."],
+				["51-52", "A spectral shield hovers near you for the next minute, granting you a +2 bonus to AC and immunity to magic missile."],
+				["53-54", "You are immune to being intoxicated by alcohol for the next 5d6 days."],
+				["55-56", "Your hair falls out but grows back within 24 hours."],
+				["57-58", "For the next minute, any flammable object you touch that isn't being worn or carried by another creature bursts into flame."],
+				["59-60", "You regain your lowest-level expended spell slot."],
+				["61-62", "For the next minute, you must shout when you speak."],
+				["63-64", "You cast fog cloud centered on yourself."],
+				["65-66", "Up to three creatures you choose within 30 feet of you take 4d10 lightning damage."],
+				["67-68", "You are frightened by the nearest creature until the end of your next turn."],
+				["69-70", "Each creature within 30 feet of you becomes invisible for the next minute. The invisibility ends on a creature when it attacks or casts a spell."],
+				["71-72", "You gain resistance to all damage for the next minute."],
+				["73-74", "A random creature within 60 feet of you becomes poisoned for 1d4 hours."],
+				["75-76", "You glow with bright light in a 30-foot radius for the next minute. Any creature that ends its turn within 5 feet of you is blinded until the end of its next turn."],
+				["77-78", "You cast polymorph on yourself. If you fail the saving throw, you turn into a sheep for the spell's duration."],
+				["79-80", "Illusory butterflies and flower petals flutter in the air within 10 feet of you for the next minute."],
+				["81-82", "You can take one additional action immediately."],
+				["83-84", "Each creature within 30 feet of you takes 1d10 necrotic damage. You regain hit points equal to the sum of the necrotic damage dealt."],
+				["85-86", "You cast mirror image."],
+				["87-88", "You cast fly on a random creature within 60 feet of you."],
+				["89-90", "You become invisible for the next minute. During that time, other creatures can't hear you. The invisibility ends if you attack or cast a spell."],
+				["91-92", "If you die within the next minute, you immediately come back to life as if by the reincarnate spell."],
+				["93-94", "Your size increases by one size category for the next minute."],
+				["95-96", "You and all creatures within 30 feet of you gain vulnerability to piercing damage for the next minute."],
+				["97-98", "You are surrounded by faint, ethereal music for the next minute."],
+				["99-00", "You regain all expended sorcery points."]
 			]
 		}
 	],
