@@ -6665,7 +6665,7 @@
 				"patron": "The World Tree"
 			}],
 			"entries": [
-				"You add half your warlock level to the damage of your {@spell thorn whip|phb} as additional acid damage."
+				"You add your proficiency bonus to the damage of your {@spell thorn whip|phb} as additional acid damage."
 			]
 		},
 		{
@@ -6676,7 +6676,7 @@
 				"spell": ["acid splash#c"]
 			}],
 			"entries": [
-				"When you cast acid splash, you can target a number of additional creatures equal to your Charisma modifier (minimum of one). Each target of the spell must be within 5 feet of another target."
+				"When you cast acid splash, you can target a number of additional creatures equal to your proficiency bonus. Each target of the spell must be within 5 feet of another target."
 			]
 		},
 		{
@@ -6726,24 +6726,7 @@
 				}
 			}],
 			"entries": [
-				"You can cast barkskin without expending a spell slot once per short or long rest. However, casting it in this way you can only target yourself."
-			]
-		},
-		{
-			"name": "Cape of Icarus",
-			"source": "Hergard",
-			"featureType": "EI",
-			"prerequisite": [{
-				"level": {
-					"level": 7,
-					"class": {
-						"name": "Warlock"
-					}
-				},
-				"pact": "Pact of the Cowl"
-			}],
-			"entries": [
-				"Once per long rest, you can take an action to transform you cowl into a pair of wings and launch into the air. Your flying speed is 30 for up to 5 minutes, or until you lose concentration. When the duration ends, you fall if you are still in the air."
+				"You add barkskin to the list of choices for your Maleficium Spells. You can only target yourself when casting the spell this way."
 			]
 		},
 		{
@@ -6754,7 +6737,7 @@
 				"pact": "Pact of the Cards"
 			}],
 			"entries": [
-				"Other willing creatures can use their action to draw a card from your box as if they used the Pact of the Cards feature. Cards drawn by other creatures count against the number of cards you can draw between long rests."
+				"Other willing creatures can use their action to draw a card from your box as if they used the Pact of the Cards feature. The box only produces a number of cards to be drawn by creatures other than you equal to half your proficiency bonus (rounded down). The number of these cards replenishes at dawn."
 			]
 		},
 		{
@@ -6765,11 +6748,11 @@
 				"spell": ["guidance#c", "resistance#c"]
 			}],
 			"entries": [
-				"When you cast guidance or resistance, you can target additional creatures in range with the same spell, up to a number equal to your Charisma modifier (minimum of one)."
+				"When you cast guidance or resistance, you can target additional creatures in range with the same spell, up to a number equal to your proficiency bonus."
 			]
 		},
 		{
-			"name": "Cloak of Concealment",
+			"name": "Cloak of Flies",
 			"source": "Hergard",
 			"featureType": "EI",
 			"prerequisite": [{
@@ -6778,11 +6761,11 @@
 					"class": {
 						"name": "Warlock"
 					}
-				},
-				"pact": "Pact of the Cowl"
+				}
 			}],
 			"entries": [
-				"While you are wearing your cowl, you may cast the nondetection spell on yourself at will, without expending a spell slot or material components."
+				"As an action, you can surround yourself with a magical aura that looks like buzzing flies. The aura extends 5 feet from you in every direction, but not through total cover. It lasts until you're incapacitated or you dismiss it as a bonus action.",
+				"The aura grants you advantage on Charisma (Intimidation) checks but disadvantage on all other Charisma checks. Creatures of your choice that start their turn in the aura take poison damage equal to your Charisma modifier (minimum of 1 damage)."
 			]
 		},
 		{
@@ -6793,7 +6776,7 @@
 				"pact": "Pact of the Brand"
 			}],
 			"entries": [
-				"You can cast a spell of 1st-level or higher into your pact mark, expending the spell slot accordingly. The spell has no effect, and you can set a trigger for the spell, such as when a creature hits you with a weapon attack. When the trigger is met, you can use your reaction to cast the spell without expending a spell slot. This spell is lost when you complete a long rest, removing it from your mark."
+				"You can cast a spell of 1st-level or higher into your pact mark, expending the spell slot accordingly. The spell has no effect, and you can set a trigger for the spell, such as when a creature hits you with a weapon attack. When the trigger is met, you can use your reaction to cast the spell without expending a spell slot. This spell is lost when you finish a long rest, as it is removed from your mark."
 			]
 		},
 		{
@@ -6810,24 +6793,7 @@
 				"pact": "Pact of the Brand"
 			}],
 			"entries": [
-				"Your pact mark's magic improves, granting you the power of a single magical item. Your mark now acts as a magic item that requires attunement and gains the effects of one of the following magical items: Amulet of Proof against Detection and Location, Brooch of Shielding, Cloak of Elvenkind or Gloves of Missile Snaring. While attuned to the mark, you gain the benefits of the chosen item."
-			]
-		},
-		{
-			"name": "Disappearing Act",
-			"source": "Hergard",
-			"featureType": "EI",
-			"prerequisite": [{
-				"level": {
-					"level": 15,
-					"class": {
-						"name": "Warlock"
-					}
-				},
-				"pact": "Pact of the Cowl"
-			}],
-			"entries": [
-				"While you are wearing your cowl, you can cast misty step at will, without expending a spell slot."
+				"Your pact mark's magic improves, granting you the power of a single magical item. Your mark gains the effects of one of the following magical items: Amulet of Proof against Detection and Location, Brooch of Shielding, Cloak of Elvenkind or Gloves of Missile Snaring."
 			]
 		},
 		{
@@ -6845,7 +6811,7 @@
 			}],
 			"entries": [
 				"You always know the location of the box granted to you by the Pact of the Cards feature while both of you are on the same plane of existence.",
-				"While the box is within 500 feet of you, you can cast dimension door without expending a spell slot, targeting a space within 10 feet of the box. You regain the ability to do so when you finish a long rest."
+				"While the box is within 500 feet of you, you can cast dimension door without expending a spell slot, targeting a space within 10 feet of the box. You regain the ability to do so when you finish a short or long rest."
 			]
 		},
 		{
@@ -6856,7 +6822,7 @@
 				"spell": ["minor illusion#c"]
 			}],
 			"entries": [
-				"When you cast minor illusion, its range is 300 feet, and you can choose the illusion to be imperceptible to any number of creatures you have seen in the past minute."
+				"When you cast minor illusion, its range is increased to 300 feet, you can create an image and a sound at the same time with it, and you can choose the illusion to be imperceptible to any number of creatures you have seen in the past minute."
 			]
 		},
 		{
@@ -6884,7 +6850,7 @@
 				"spell": ["light#c"]
 			}],
 			"entries": [
-				"Non-hostile creatures within the bright light created by the light spell can reroll any 1 on a die rolled to restore hit points, but they must use the new roll."
+				"Creatures of your choice within the bright light created by the light spell can reroll any 1 on a die rolled to restore hit points, but they must use the new roll."
 			]
 		},
 		{
@@ -6895,7 +6861,7 @@
 				"patron": "The World Tree"
 			}],
 			"entries": [
-				"The range of your {@spell thorn whip|phb} doubles, and so does the distance it can pull a creature. Additionally, you can push a creature away from you, instead of pulling it toward you."
+				"The range of your {@spell thorn whip|phb} is doubled, and so does the distance it can pull a creature. Additionally, the vine can push a creature away from you, instead of pulling it toward you."
 			]
 		},
 		{
@@ -6903,7 +6869,15 @@
 			"source": "Hergard",
 			"featureType": "EI",
 			"entries": [
-				"When you roll for Initiative, you can treat the d20 roll of 8 or lower as a number equal to 8 + your Charisma modifier."
+				"When you roll for initiative, you can treat the d20 roll of 8 or lower as a number equal to 8 + your Charisma modifier."
+			]
+		},
+		{
+			"name": "Fiendish Vigor",
+			"source": "Hergard",
+			"featureType": "EI",
+			"entries": [
+				"You can cast false life on yourself without expending a spell slot or material components, and can do so again when you finish a short or long rest. The spell is cast at the level of your current warlock spell slots."
 			]
 		},
 		{
@@ -6914,7 +6888,7 @@
 				"spell": ["ray of frost#c"]
 			}],
 			"entries": [
-				"When you cast ray of frost, each creature in a 1 foot wide line between you and the target must make a Constitution saving throw. On a failed save, a creature takes cold damage equal to half your warlock level."
+				"When you cast ray of frost, each creature in a 5 foot wide line between you and the target must make a Constitution saving throw. On a failed save, a creature takes cold damage equal to your proficiency bonus."
 			]
 		},
 		{
@@ -6922,9 +6896,20 @@
 			"source": "Hergard",
 			"featureType": "EI",
 			"entries": [
-				"You can spend an action to learn the nature of a humanoid creature you can see within 120 feet of you, that has an Intelligence of 6 or higher. You learn its alignment and its most prevalent moral or behavioral tendency (violent, altruistic, aloof, etc.).",
+				"You can spend an action to learn the nature of a humanoid creature you can see within 60 feet of you, that has an Intelligence of 6 or higher. You learn its alignment and its most prevalent moral or behavioral tendency (violent, altruistic, aloof, etc.).",
 				"For 1 minute after doing this, treat any d20 roll for a Wisdom (Insight) check against the creature that is 11 or lower, as a 12. After the minute ends, the target is immune to this effect for 24 hours.",
-				"You can use this feature a number of times equal to your Charisma modifier, and regain all uses when you finish a long rest."
+				"You can use this feature a number of times equal to your proficiency bonus, and regain all uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Genie's Wrath",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [{
+				"pact": "Lamp"
+			}],
+			"entries": [
+				"Once during each of your turns when you hit with an attack roll, you can touch your lamp and empower your attack. The attack deals extra damage to the target equal to your proficiency bonus. The type of this damage is determined by your patron: bludgeoning (dao), thunder (djinni), fire (efreeti), or cold (marid)."
 			]
 		},
 		{
@@ -6939,24 +6924,6 @@
 			]
 		},
 		{
-			"name": "Gingerbread Familiar",
-			"source": "Hergard",
-			"featureType": "EI",
-			"prerequisite": [{
-				"pact": "Chain",
-				"level": {
-					"level": 7,
-					"class": {
-						"name": "Warlock"
-					}
-				},
-				"patron": "The Sweetstress"
-			}],
-			"entries": [
-				"When your familiar eats a candy created by your Sweet Tooth feature, it regains all of its missing hit points."
-			]
-		},
-		{
 			"name": "Grasp of the Storm Lord",
 			"source": "Hergard",
 			"featureType": "EI",
@@ -6964,7 +6931,7 @@
 				"spell": ["shocking grasp#c"]
 			}],
 			"entries": [
-				"When you cast shocking grasp, you can expend a warlock spell slot to amplify the attack. You gain a bonus to the attack roll equal to the level of the spell slot. If the attack hits, the target takes an extra 1d8 lightning damage per level of the spell slot and it must succeed on a Constitution saving throw or it is paralyzed until the start of your next turn."
+				"When you cast shocking grasp, you can expend a warlock spell slot to amplify the attack. You gain a bonus to the attack roll equal to the level of the spell slot. If the attack hits, the target takes an extra 1d6 lightning damage per level of the spell slot and it must succeed on a Constitution saving throw or become stunned until the start of your next turn."
 			]
 		},
 		{
@@ -6981,7 +6948,7 @@
 				"patron": "The World Tree"
 			}],
 			"entries": [
-				"You can cast speak with plants at-will."
+				"You can cast speak with plants at will."
 			]
 		},
 		{
@@ -7007,19 +6974,6 @@
 			]
 		},
 		{
-			"name": "Healing Splash",
-			"source": "Hergard",
-			"featureType": "EI",
-			"prerequisite": [{
-				"spell": ["eldritch blast#c"],
-				"patron": "The Quiet One"
-			}],
-			"entries": [
-				"You gain the ability to target a friendly creature with eldritch blast and reinvigorate them in the midst of battle. Instead of suffering damage, the target gains temporary hit points equal to half the damage they would take.",
-				"You regain the use of this feature when you finish a short or long rest."
-			]
-		},
-		{
 			"name": "Hidden Palace",
 			"source": "Hergard",
 			"featureType": "EI",
@@ -7033,7 +6987,8 @@
 				"pact": "Pact of the Lamp"
 			}],
 			"entries": [
-				"The extradimensional space located inside your Genie Lamp is now the size of a 30-foot radius, 60 foot high cylinder. While you are holding the lamp, you can use your action to teleport a willing creature you can see within 10 feet of you to the extradimensional space."
+				"The extradimensional space located inside your Genie Lamp is now the size of a 30-foot radius, 60 foot high cylinder. When you enter the lamp, you can now choose up to five willing creatures that you can see within 30 feet of you, and the chosen creatures are drawn into the vessel with you.",
+				"As a bonus action, you can eject any number of creatures from the the lamp, and everyone is ejected if you leave, die or if the vessel is destroyed."
 			]
 		},
 		{
@@ -7054,14 +7009,33 @@
 			]
 		},
 		{
+			"name": "Invigorating Splash",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [{
+				"level": {
+					"level": 14,
+					"class": {
+						"name": "Warlock"
+					}
+				},
+				"patron": "The Quiet One"
+			}],
+			"entries": [
+				"You gain the ability to target a friendly creature with eldritch blast and reinvigorate them in the midst of battle. Instead of suffering damage, the target gains temporary hit points equal to half the damage they would take.",
+				"You can do so a number of times equal to your proficiency bonus, and regain all its uses when you finish a long rest."
+			]
+		},
+		{
 			"name": "Lamp of Greed",
 			"source": "Hergard",
 			"featureType": "EI",
 			"prerequisite": [{
+				"level": 7,
 				"pact": "Pact of the Lamp"
 			}],
 			"entries": [
-				"While you are holding your Genie Lamp, you know the exact location of any electrum, gold, and platinum piece within 30 feet of you."
+				"While you are holding your Genie Lamp, you know the exact location of any electrum, gold, and platinum pieces, or precious gems within 120 feet of you."
 			]
 		},
 		{
@@ -7069,11 +7043,36 @@
 			"source": "Hergard",
 			"featureType": "EI",
 			"prerequisite": [{
+				"level": 12,
 				"pact": "Pact of the Lamp"
 			}],
 			"entries": [
+				"Your lamp becomes decorated with a menagerie of precious stones, growing 1d6 gems across its exterior.",
 				"When a creature casts a spell that has a material component worth more than 1 gp while holding your Genie Lamp, it can remove gems from the lamp to reduce the required value of the component for this casting of the spell. The required value is reduced by 50 gp for every gem removed this way. Once removed, a gem dissipates into smoke.",
 				"Whenever you finish a long rest, a new gem appears on your Genie Lamp (to a maximum of nine). When you receive a replacement for your lamp, the new lamp is decorated with the same number of gems as the previous lamp."
+			]
+		},
+		{
+			"name": "Lamp of Respite",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [{
+				"level": 7,
+				"pact": "Pact of the Lamp"
+			}],
+			"entries": [
+				"Anyone who remains within your Genie Lamp for at least 10 minutes gains the benefit of finishing a short rest, and can add your Charisma modifier + your proficiency bonus to the number of hit points they regain if they spend any Hit Dice as part of a short rest there."
+			]
+		},
+		{
+			"name": "Master of Myriad Forms",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [{
+				"level": 9
+			}],
+			"entries": [
+				"You can cast alter self at will, without expending a spell slot."
 			]
 		},
 		{
@@ -7084,7 +7083,7 @@
 				"spell": ["produce flame#c"]
 			}],
 			"entries": [
-				"When you attack a creature with the flame created by produce flame, you can expend a warlock spell slot to unleash a fiery explosion at the target's location. The target and each creature within 10 feet of it must make a Dexterity saving throw. On a failed save, a creature takes 3d4 fire damage per level of the spell slot. On a successful save, it takes half as much damage."
+				"When a creature is hit by the flame created by your produce flame, you can expend a warlock spell slot to unleash a fiery explosion at the target's location. The target and each creature within 10 feet of it must make a Dexterity saving throw. On a failed save, a creature takes 3d4 fire damage per level of the spell slot. On a successful save, it takes half as much damage."
 			]
 		},
 		{
@@ -7099,18 +7098,7 @@
 			]
 		},
 		{
-			"name": "Parachute",
-			"source": "Hergard",
-			"featureType": "EI",
-			"prerequisite": [{
-				"pact": "Pact of the Cowl"
-			}],
-			"entries": [
-				"While you are wearing your cowl, you may cast feather fallon yourself at will, without expending a spell slot."
-			]
-		},
-		{
-			"name": "Planar Sync",
+			"name": "Planar Wanderer",
 			"source": "Hergard",
 			"featureType": "EI",
 			"prerequisite": [{
@@ -7151,7 +7139,7 @@
 				"patron": "The Celestial"
 			}],
 			"entries": [
-				"You can cast life transference once without expending a spell slot. You may choose to cast the spell using this feature of a level equal to or lower than the current level of your spell slots gained from your Pact Magic warlock feature. You regain the ability to do so when you finish a short or long rest."
+				"You can cast life transference once without expending a spell slot. You may choose to cast the spell using this feature at a level equal to or lower than the current level of your warlock spell slots, and can do so again when you finish a short or long rest."
 			]
 		},
 		{
@@ -7162,7 +7150,7 @@
 				"patron": "The World Tree"
 			}],
 			"entries": [
-				"You can target and pull a willing ally using your {@spell thorn whip|phb} without damaging them. This movement does not provoke attacks of opportunity."
+				"You can target and pull a willing ally using your thorn whip instead of damaging them. This movement does not provoke attacks of opportunity."
 			]
 		},
 		{
@@ -7179,7 +7167,7 @@
 				"pact": "Pact of the Brand"
 			}],
 			"entries": [
-				"A creature that touches your pact mark when casting a spell can choose for it to be stored within the pact mark, provided it is on the sorcerer, warlock or wizard spell list. The spell has no effect and the slot is still consumed. Until you or the creature completes a long rest, you can expend charges from the mark to cast the spell as if it were a warlock spell."
+				"A creature that touches your pact mark when casting a spell can choose for it to be stored within the pact mark, provided it is on the artificer, sorcerer, warlock or wizard spell list. The spell has no effect and the slot is still consumed. Until you or the creature completes a long rest, you can expend charges from the mark to cast the spell as if it were a warlock spell."
 			]
 		},
 		{
@@ -7230,19 +7218,7 @@
 				"pact": "Pact of the Brand"
 			}],
 			"entries": [
-				"When a creature you can see within 60 feet of you casts a spell, you can use your reaction to consume any leftover magical energy, gaining charges equal to half the spell's level (rounded up). If you cast counterspell, you can use this feature with the same reaction. You can use this feature once, and regain the ability to do so when you complete a short or long rest."
-			]
-		},
-		{
-			"name": "Sugary Strikes",
-			"source": "Hergard",
-			"featureType": "EI",
-			"prerequisite": [{
-				"patron": "The Sweetstress",
-				"pact": "Blade"
-			}],
-			"entries": [
-				"When you critically strike with your pact weapon, you gain the effects of your Sugar Rush feature."
+				"When a creature you can see within 60 feet of you casts a spell, you can use your reaction to consume any leftover magical energy, gaining charges equal to half the spell's level (rounded up). If you cast counterspell, you can use this feature with the same reaction. You can use this feature once, and regain the ability to do so when you finish a short or long rest."
 			]
 		},
 		{
@@ -7268,6 +7244,54 @@
 			]
 		},
 		{
+			"name": "Trickster's Escape",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [{
+				"level": {
+					"level": 7,
+					"class": {
+						"name": "Warlock"
+					}
+				}
+			}],
+			"entries": [
+				"You add freedom of movement to the list of choices for your Maleficium Spells. You can only target yourself when casting the spell this way."
+			]
+		},
+		{
+			"name": "Undying Servitude",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [{
+				"level": {
+					"level": 5,
+					"class": {
+						"name": "Warlock"
+					}
+				}
+			}],
+			"entries": [
+				"You can cast animate dead once without using a spell slot. You cast the spell at a level equal to the current level of your warlock spell slots, and can do so again when you finish a long rest."
+			]
+		},
+		{
+			"name": "Visions of Distant Realms",
+			"source": "Hergard",
+			"featureType": "EI",
+			"prerequisite": [{
+				"level": {
+					"level": 12,
+					"class": {
+						"name": "Warlock"
+					}
+				}
+			}],
+			"entries": [
+				"You can cast arcane eye at will, without expending a spell slot."
+			]
+		},
+		{
 			"name": "Water's Care",
 			"source": "Hergard",
 			"featureType": "EI",
@@ -7275,7 +7299,7 @@
 				"patron": "The Quiet One"
 			}],
 			"entries": [
-				"You can cast aid once without expending a spell slot once per long rest. You cast the spell of a level equal to the current level of spell slots gained from your Pact Magic warlock feature."
+				"You can cast aid once without expending a spell slot. You cast the spell at a level equal to the current level of your warlock spell slots, and can do so again when you finish a long rest."
 			]
 		},
 		{
@@ -7302,7 +7326,7 @@
 				}
 			}],
 			"entries": [
-				"You can cast expeditious retreat at will, without expending a spell slot. When you take the Dash action on your turn while under the effect of the expeditious retreat spell, you can move across liquids until you stop moving."
+				"You can cast expeditious retreat at will, without expending a spell slot. When you take the Dash action on your turn while under the effect of the expeditious retreat spell, you can move across liquids on your turn without falling during the move."
 			]
 		},
 		{
