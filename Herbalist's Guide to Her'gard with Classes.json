@@ -6604,6 +6604,16 @@
 			]
 		},
 		{
+			"name": "Pact of the Blade",
+			"source": "Hergard",
+			"featureType": "PB",
+			"entries": [
+				"You can use your action to create a pact weapon in your empty hand. You can choose the form that this melee weapon takes each time you create it. You are proficient with it while you wield it. This weapon counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.",
+				"Your pact weapon disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the weapon (no action required), or if you die.",
+				"You can transform one magic weapon into your pact weapon by performing a special ritual while you hold the weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. You can then dismiss the weapon, shunting it into an extradimensional space, and it appears whenever you create your pact weapon thereafter. The weapon ceases being your pact weapon if you die, if you perform the 1-hour ritual on a different weapon, or if you use a 1-hour ritual to break your bond to it. The weapon appears at your feet if it is in the extradimensional space when the bond breaks."
+			]
+		},
+		{
 			"name": "Pact of the Brand",
 			"source": "Hergard",
 			"featureType": "PB",
@@ -10869,17 +10879,17 @@
 				}
 			],
 			"classFeatures": [
-				"Pact Magic|Warlock||1",
+				"Pact Magic|Warlock||1|Hergard",
 				"Spell Versatility|Warlock||1|UAClassFeatureVariants",
 				{
-					"classFeature": "Otherworldly Patron|Warlock||1",
+					"classFeature": "Otherworldly Patron|Warlock||1|Hergard",
 					"gainSubclassFeature": true
 				},
 				"Eldritch Invocations|Warlock||2",
 				"Pact Boon|Warlock||3|Hergard",
 				"Ability Score Improvement|Warlock||4",
 				"Proficiency Versatility|Warlock||4|UAClassFeatureVariants",
-				"Eldritch Versatility|Warlock||4|TCE",
+				"Eldritch Versatility|Warlock||4|Hergard",
 				"Waxing Malefica|Warlock||5|Hergard",
 				{
 					"classFeature": "Otherworldly Patron feature|Warlock||6",
@@ -13041,21 +13051,25 @@
 		},
 		{
 			"name": "Otherworldly Patron",
-			"source": "PHB",
-			"page": 105,
-			"srd": true,
+			"source": "Hergard",
 			"className": "Warlock",
 			"classSource": "PHB",
 			"level": 1,
 			"entries": [
-				"At 1st level, you have struck a bargain with an otherworldly being chosen from the list of available patrons. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level."
+				"At 1st level, you have struck a bargain with an otherworldly being chosen from the list of available patrons. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level.",
+				{
+					"type": "entries",
+					"name": "Spelldawn",
+					"entries": [
+						"In Her'gard, Otherworldly Patrons grant their warlocks a list of Pact Spells instead of Expanded Spell Lists, allowing them to learn additional spells at 1st, 3rd, 5th, 7th, and 9th level respectively. Each of these spells count as warlock spells for you, but they don't count against the number of warlock spells you know.",
+						"If an Otherworldly Patron's Expanded Spell List would let you add spells of 6th-level or higher to your spell list, you can still choose that spell as your Mystic Arcanum at the right level."
+					]
+				}
 			]
 		},
 		{
 			"name": "Pact Magic",
-			"source": "PHB",
-			"page": 105,
-			"srd": true,
+			"source": "Hergard",
 			"className": "Warlock",
 			"classSource": "PHB",
 			"level": 1,
@@ -13111,6 +13125,15 @@
 					"name": "Spellcasting Focus",
 					"entries": [
 						"You can use an {@item arcane focus|phb} as a spellcasting focus for your warlock spells."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Patron's Insight",
+					"entries": [
+						"As a result of your binding contract with your patron, you learn the basics of occult magic.",
+						"You learn the {@spell eldritch blast|phb} cantrip, but it doesn't count against your number of cantrips known.",
+						"You can cast {@spell hex|phb} without expending a spell slot. You can do so a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
 					]
 				}
 			]
@@ -13171,7 +13194,7 @@
 						},
 						{
 							"type": "refOptionalfeature",
-							"optionalfeature": "Pact of the Blade"
+							"optionalfeature": "Pact of the Blade|Hergard"
 						},
 						{
 							"type": "refOptionalfeature",
@@ -13208,21 +13231,19 @@
 		},
 		{
 			"name": "Eldritch Versatility",
-			"source": "TCE",
-			"page": 70,
+			"source": "Hergard",
 			"className": "Warlock",
 			"classSource": "PHB",
 			"level": 4,
 			"isClassFeatureVariant": true,
 			"entries": [
-				"{@i 4th-level warlock {@variantrule optional class features|tce|optional feature}}",
 				"Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing a change of focus in your occult studies:",
 				{
 					"type": "list",
 					"items": [
 						"Replace one cantrip you learned from this class's Pact Magic feature with another cantrip from the {@filter warlock spell list|spells|level=0|class=Warlock}.",
 						"Replace the option you chose for the Pact Boon feature with one of that feature's other options.",
-						"If you're 12th level or higher, replace one spell from your Mystic Arcanum feature with another warlock spell of the same level."
+						"If you're 13th level or higher, replace one spell from your Mystic Arcanum feature with another warlock spell of the same level."
 					]
 				},
 				"If this change makes you ineligible for any of your Eldritch Invocations, you must also replace them now, choosing invocations for which you qualify."
@@ -13276,7 +13297,26 @@
 									"{@spell conjure elemental}, {@spell geas}, {@spell modify memory}"
 								]
 							]
+				},
+				{
+					"type": "entries",
+					"name": "Fading Invocations",
+					"entries": [
+						"Due to the introduction of Waxing Malefica the following Eldritch Invocations became obsolete, and are not available to pick:",
+						{
+						"type": "list",
+						"items": [
+							"Thief of Five Fates",
+							"Mire the Mind",
+							"Sign of Ill Omen",
+							"Bewitching Whispers",
+							"Dreadful Word",
+							"Sculptor of Flesh",
+							"Minions of Chaos"
+						]
 						}
+					]
+				}
 			]
 		},
 		{
