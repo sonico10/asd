@@ -6629,7 +6629,7 @@
 			"featureType": ["PB"],
 			"entries": [
 				"Your patron grants you a simple box made of wood or iron, engraved with your name at the bottom. Upon inspection, the box appears empty. While the box is on your person, you are proficient with all gaming sets.",
-				"Additionally, you can use your action to draw a card from the box which magically appears in your hand as you reach into it. If you do so, roll on the Fate Cards table to determine the card's effect. Spells cast as part of this action don't require components. Once you have drawn a card and its magic has taken effect, it crumbles to dust. You can only draw one card at a time.",
+				"Additionally, you can use your action to draw a card from the box which magically appears in your hand as you reach into it. If you do so, roll on the {@table Fate Cards|Hergard} table to determine the card's effect. Spells cast as part of this action don't require components. Once you have drawn a card and its magic has taken effect, it crumbles to dust. You can only draw one card at a time.",
 				"Once you have drawn a number of cards equal to your Charisma modifier, you must finish a long rest before you can draw additional cards.",
 				"If you lose the box, you can perform a 1-hour ritual to receive a replacement from the Fateful. The ritual can be performed during a short or long rest, and it destroys the previous box."
 			]
@@ -10902,10 +10902,10 @@
 					"classFeature": "Otherworldly Patron feature|Warlock||10",
 					"gainSubclassFeature": true
 				},
-				"Mystic Arcanum (6th level)|Warlock||12|Hergard",
+				"Mystic Arcanum (6th level)|Warlock||11|Hergard",
 				"Ability Score Improvement|Warlock||12",
 				"Proficiency Versatility|Warlock||12|UAClassFeatureVariants",
-				"Mystic Arcanum (7th level)|Warlock||14|Hergard",
+				"Mystic Arcanum (7th level)|Warlock||13|Hergard",
 				{
 					"classFeature": "Otherworldly Patron feature|Warlock||14",
 					"gainSubclassFeature": true
@@ -10913,8 +10913,8 @@
 				"Occult Reservoir|Warlock||15|Hergard",
 				"Ability Score Improvement|Warlock||16",
 				"Proficiency Versatility|Warlock||16|UAClassFeatureVariants",
-				"Mystic Arcanum (8th level)|Warlock||16|Hergard",
-				"Mystic Arcanum (9th level)|Warlock||18|Hergard",
+				"Mystic Arcanum (8th level)|Warlock||15|Hergard",
+				"Mystic Arcanum (9th level)|Warlock||17|Hergard",
 				"Ability Score Improvement|Warlock||19",
 				"Proficiency Versatility|Warlock||19|UAClassFeatureVariants",
 				"Eldritch Master|Warlock||20|Hergard"
@@ -13376,9 +13376,9 @@
 			"source": "Hergard",
 			"className": "Warlock",
 			"classSource": "PHB",
-			"level": 12,
+			"level": 11,
 			"entries": [
-				"At 12th level, your patron bestows upon you a magical secret called an arcanum. Choose one {@filter 6th-level spell from the warlock spell list|spells|level=6|class=Warlock} as this arcanum.",
+				"At 11th level, your patron bestows upon you a magical secret called an arcanum. Choose one {@filter 6th-level spell from the warlock spell list|spells|level=6|class=Warlock} as this arcanum.",
 				"You can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again.",
 				"At higher levels, you gain more warlock spells of your choice that can be cast in this way: one 7th-level spell at 14th level, one 8th-level spell at 16th level, and one 9th-level spell at 18th level. You regain all uses of your Mystic Arcanum when you finish a long rest."
 			]
@@ -13415,9 +13415,9 @@
 			"source": "Hergard",
 			"className": "Warlock",
 			"classSource": "PHB",
-			"level": 14,
+			"level": 13,
 			"entries": [
-				"At 14th level, your patron bestows upon you a magical secret called an arcanum. Choose one {@filter 7th-level spell from the warlock spell list|spells|level=7|class=Warlock} as this arcanum.",
+				"At 13th level, your patron bestows upon you a magical secret called an arcanum. Choose one {@filter 7th-level spell from the warlock spell list|spells|level=7|class=Warlock} as this arcanum.",
 				"You can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again."
 			]
 		},
@@ -13438,9 +13438,9 @@
 			"source": "Hergard",
 			"className": "Warlock",
 			"classSource": "PHB",
-			"level": 16,
+			"level": 15,
 			"entries": [
-				"At 16th level, your patron bestows upon you a magical secret called an arcanum. Choose one {@filter 8th-level spell from the warlock spell list|spells|level=8|class=Warlock} as this arcanum.",
+				"At 15th level, your patron bestows upon you a magical secret called an arcanum. Choose one {@filter 8th-level spell from the warlock spell list|spells|level=8|class=Warlock} as this arcanum.",
 				"You can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again."
 			]
 		},
@@ -13476,9 +13476,9 @@
 			"source": "Hergard",
 			"className": "Warlock",
 			"classSource": "PHB",
-			"level": 18,
+			"level": 17,
 			"entries": [
-				"At 18th level, your patron bestows upon you a magical secret called an arcanum. Choose one {@filter 9th-level spell from the warlock spell list|spells|level=9|class=Warlock} as this arcanum.",
+				"At 17th level, your patron bestows upon you a magical secret called an arcanum. Choose one {@filter 9th-level spell from the warlock spell list|spells|level=9|class=Warlock} as this arcanum.",
 				"You can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again."
 			]
 		},
