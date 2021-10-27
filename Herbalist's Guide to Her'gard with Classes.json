@@ -6917,7 +6917,7 @@
 			"source": "Hergard",
 			"featureType": "EI",
 			"prerequisite": [{
-				"pact": "Lamp"
+				"pact": "Pact of the Lamp"
 			}],
 			"entries": [
 				"Once during each of your turns when you hit with an attack roll, you can touch your lamp and empower your attack. The attack deals extra damage to the target equal to your proficiency bonus. The type of this damage is determined by your patron: bludgeoning (dao), thunder (djinni), fire (efreeti), or cold (marid)."
@@ -17449,7 +17449,7 @@
 			"shortName": "Wicked Crone",
 			"subclassFeatures": [
 				"The Wicked Crone|Warlock|PHB|Wicked Crone|Hergard|1",
-				"Respect Your Elders|Warlock|PHB|Wicked Crone|Hergard|6",
+				"Witherbloom Brew|Warlock|PHB|Wicked Crone|Hergard|6",
 				"Bad Taste|Warlock|PHB|Wicked Crone|Hergard|10",
 				"Grandma's Recipe|Warlock|PHB|Wicked Crone|Hergard|14"
 			]
@@ -17542,7 +17542,7 @@
 			"shortName": "Wicked Crone",
 			"subclassFeatures": [
 				"The Wicked Crone|Warlock|PHB|Wicked Crone|Hergard|1",
-				"Respect Your Elders|Warlock|PHB|Wicked Crone|Hergard|6",
+				"Witherbloom Brew|Warlock|PHB|Wicked Crone|Hergard|6",
 				"Bad Taste|Warlock|PHB|Wicked Crone|Hergard|10",
 				"Grandma's Recipe|Warlock|PHB|Wicked Crone|Hergard|14"
 			]
@@ -26874,7 +26874,7 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"Starting at 2nd level, you are surrounded by invisible necrotic spores that are harmless until you unleash them on a creature nearby. When a creature you can see moves into a space within 10 feet of you or starts its turn there, you can use your reaction to deal 1d4 necrotic damage to that creature unless it succeeds on a Constitution saving throw against your spell save DC, taking half damage on a successful save.",
+				"Starting at 2nd level, you are surrounded by invisible necrotic spores that are harmless until you unleash them on a creature nearby. When a creature you can see moves into a space within 10 feet of you or starts its turn there, you can deal 1d4 necrotic damage to that creature unless it succeeds on a Constitution saving throw against your spell save DC, taking half damage on a successful save. You can do so a number of times each round equal to your proficiency bonus, after which you must use your reaction to deal this damage.",
 				"The necrotic damage increases to 1d6 at 6th level, 1d8 at 10th level, and 1d10 at 14th level."
 			]
 		},
@@ -26927,9 +26927,8 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"At 10th level, you gain the ability to seed an area with deadly spores. As a bonus action while your Symbiotic Entity feature is active, you can hurl spores up to 30 feet away. where they swirl in a 10-foot cube for 1 minute. The spores disappear early if you use this feature again, if you dismiss them as a bonus action, or if your Symbiotic Entity feature is no longer active.",
-				"Whenever a creature moves into the cube or starts its turn there, that creature takes your Halo of Spores damage, unless the creature succeeds on a Constitution saving throw against your spell save DC. A creature can take this damage no more than once per turn.",
-				"While the cube of spores persists, you can't use your Halo of Spores reaction."
+				"At 10th level, you gain the ability to seed an area with deadly spores. As a bonus action while your Symbiotic Entity feature is active, you can hurl spores up to 30 feet away, where they swirl in a 10-foot cube for 1 minute. The spores disappear early if you use this feature again, if you dismiss them as a bonus action, or if your Symbiotic Entity feature is no longer active. While the cube of spores persists, you can't use your Halo of Spores.",
+				"Whenever a creature moves into the cube or starts its turn there, that creature must make a Constitution saving throw against your spell save DC. On a failed save, it takes twice your Halo of Spores damage and becomes poisoned On a successful save they take half damage and are not poisoned. A creature can take this damage no more than once per turn."
 			]
 		},
 		{
@@ -31977,18 +31976,18 @@
 			"subclassSource": "Hergard",
 			"level": 1,
 			"entries": [
-				"You made a deal with a powerful crone —perhaps an auntie, a grandmother or a legendary hag like Baba Yaga— and gained a modicum of their weird, twisted powers. Maybe she tricked you into accepting, maybe you did it voluntarily, but one thing is certain: she will expect payment in return, whatever it is. Until then, you get to exercise some of her powers and innate abilities, including bargaining skills, mysterious black magic and a weird charming prowess.",
+				"You made a deal with a powerful crone —perhaps an auntie, a grandmother or a legendary hag like Baba Yaga— and gained a modicum of their weird, twisted powers. Maybe she tricked you into accepting, maybe you did it voluntarily, but one thing is certain: she will expect payment in return, whatever it is. Until then, you get to exercise some of her powers and innate abilities, including: brew-making, mysterious black magic and a penchant for creating weird charms.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Pact Spells|Warlock|PHB|Wicked Crone|Hergard|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Ritual casting|Warlock|PHB|Wicked Crone|Hergard|1"
+					"subclassFeature": "Secrets of the Coven|Warlock|PHB|Wicked Crone|Hergard|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Sinister Sneer|Warlock|PHB|Wicked Crone|Hergard|1"
+					"subclassFeature": "Cauldron of Ruin|Warlock|PHB|Wicked Crone|Hergard|1"
 				}
 			]
 		},
@@ -32017,7 +32016,7 @@
 					"rows": [
 						[
 							"1st",
-							"{@spell bane|PHB}, {@spell ray of sickness|PHB}"
+							"{@spell Tasha's caustic brew|xge}, {@spell ray of sickness|PHB}"
 						],
 						[
 							"2nd",
@@ -32029,18 +32028,18 @@
 						],
 						[
 							"4th",
-							"{@spell arcane eye|PHB}, {@spell Evard's black tentacles|phb}"
+							"{@spell arcane eye|PHB}, {@spell giant insect|phb}"
 						],
 						[
 							"5th",
-							"{@spell contagion|PHB}, {@spell dominate person|phb}"
+							"{@spell contagion|PHB}, {@spell insect plague|phb}"
 						]
 					]
 				}
 			]
 		},
 		{
-			"name": "Ritual casting",
+			"name": "Secrets of the Coven",
 			"source": "Hergard",
 			"className": "Warlock",
 			"classSource": "PHB",
@@ -32049,11 +32048,43 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"You learn how to cast certain spells as rituals. You can cast any warlock spell you know as a ritual if that spell has the ritual tag."
+				"Starting at 1st level, your matron grants you their knowledge both in magic and the harvest for ingredients. You learn how to cast certain spells as rituals. You can cast any warlock spell you know as a ritual if that spell has the ritual tag.",
+				"You gain proficiency in either alchemist's supplies or herbalism kits. At 6th level, your proficiency bonus when making checks using the chosen tool is doubled. You can use the chosen tool to acquire one or more magical ingredients by spending 1 minute harvesting the remains of a creature that died within the last hour. These ingredients remain fresh for 8 hours, but spoil and become useless afterward. You can harvest a number of ingredients each day equal to 1 + your warlock level.",
+				"When you make this harvest, roll on the Ingredient Types tables to determine the type of ingredient you harvest.",
+				{
+					"type": "table",
+					"caption": "Ingredient Types",
+					"colLabels": [
+						"{@dice 1d4}",
+						"Type"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"Verdant"
+						],
+						[
+							"2",
+							"Pestilent"
+						],
+						[
+							"3",
+							"Acidic"
+						],
+						[
+							"4",
+							"Vigorous"
+						]
+					]
+				}
 			]
 		},
 		{
-			"name": "Sinister Sneer",
+			"name": "Cauldron of Ruin",
 			"source": "Hergard",
 			"className": "Warlock",
 			"classSource": "PHB",
@@ -32062,12 +32093,42 @@
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"At 1st level, you learn tricks that your patron uses to deceive mortals and to instill fear and doubt in their enemies. You gain proficiency in the Deception skill. Your proficiency bonus is doubled for any ability check you make that uses this proficiency.",
-				"Whenever you cast a warlock spell of 1st-level or higher, you can use a bonus action to force its target to make a Wisdom saving throw. On a failure, it has disadvantage on attack rolls against you until the start of your next turn. A creature immediately succeeds on the saving throw if it is immune to the frightened condition."
+				"Also at 1st level, you can perform a 1-hour ceremony to turn a small pot, mortar or similar vessel into your cauldron of ruin. This ceremony can be performed during a short or long rest, and any previous vessel is destroyed. The cauldron's AC equals your spell save DC. Its hit points equal your warlock level plus your proficiency bonus, and it is immune to poison and psychic damage.",
+				"As an action while you are within 20 feet of your cauldron, you can throw a magical ingredient into the vessel and produce an effect based on the type of ingredient detailed in the Ingredient Effects table.",
+				{
+					"type": "table",
+					"caption": "Ingredient Types",
+					"colLabels": [
+						"Ingredient",
+						"Effect"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"Verdant",
+							"A creature of your choice that you can see within 30 feet of the cauldron regains a number of hit points equal to 1d6 + your Charisma modifier."
+						],
+						[
+							"Pestilent",
+							"Make a ranged spell attack against a creature within 60 feet of your vessel. On a hit, the target takes necrotic damage equal to 1d12 + your Charisma modifier."
+						],
+						[
+							"Acidic",
+							"Choose a point within a 60 feet of the cauldron that you can see. Each creature within a 15-foot radius of that point must make a Dexterity saving throw against your spell save DC, taking acid damage equal to 1d8 + your Charisma modifier on a failed save, or half as much on a successful one."
+						],
+						[
+							"Vigorous",
+							"A creature of your choice that you can see within 60 feet of the cauldron gains advantage on attack rolls it makes before the end of it's next turn."
+						]
+					]
+				}
 			]
 		},
 		{
-			"name": "Respect Your Elders",
+			"name": "Witherbloom Brew",
 			"source": "Hergard",
 			"className": "Warlock",
 			"classSource": "PHB",
@@ -32076,9 +32137,39 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, you can blur the eyes and confuse the minds of your enemies, making them attack their own friends.",
-				"When you are targeted by an attack or spell, you can choose a creature you can see within the range of the attack and use your reaction to force the attacker to make a Wisdom saving throw. On a failure, the chosen creature becomes the new target of the attack. If the attacker has disadvantage to the attack against you because of Sinister Sneer, it automatically fails the saving throw.",
-				"You can use this feature a number of times equal to your Charisma modifier (minimum of 1), and regain all expended uses when you finish a long rest."
+				"At 6th level, you can create a weird brew in your cauldron, it's effects stronger than an average ingredient.",
+				"Whenever you throw 3 or more ingredients into your cauldron of ruin, each within a minute of the next, you create a magical brew that is held inside your vessel. You can use an action to empty the brew from your cauldron into an empty flask. The effect of the brew depends on the last ingredient used to create it, as shown in the Brew Effects table below. The cauldron can hold only one brew at a time.",
+				"A brew retains its potency for 24 hours, unless you spend 100 gp worth of rare of herbs and spices to preserve it indefinitely.",
+				{
+					"type": "table",
+					"caption": "Brew Effects",
+					"colLabels": [
+						"Ingredient",
+						"Effect"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"Verdant",
+							"As an action, a creature can drink this brew or administer it to another creature. The drinker regains 5d8 hit points."
+						],
+						[
+							"Pestilent",
+							"As an action, a creature can apply this brew to a weapon or piece of ammunition. The first time within the next hour, when a creature is hit by an attack using the weapon or piece of ammunition, the target takes 6d6 additional necrotic damage from the attack."
+						],
+						[
+							"Acidic",
+							"The vial with this brew can be treated as an improvised thrown weapon with a range of 20 feet. On a hit, the target is covered in acid for 1 minute or until a creature uses its action to scrape or wash the acid off itself or another creature. A creature covered in the acid takes 6d4 acid damage at start of each of its turns."
+						],
+						[
+							"Vigorous",
+							"As an action, a creature can drink this brew or administer it to another creature. The drinker can end one disease or condition from the following list that is affecting it: blinded, charmed, deafened, frightened, paralyzed, poisoned, stunned."
+						]
+					]
+				}
 			]
 		},
 		{
@@ -32091,8 +32182,8 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Starting at 10th level, you develop an unusual curiosity for weird and unique objects and charms. You know the identify spell. It counts as a warlock spell for you, but it doesn't count against the number of warlock spells you know.",
-				"You can spend one hour during a short or long rest to create an object infused with a warlock spell you know, with a casting time of one action. A creature can use an action to destroy the item, and cast the spell infused within, without expending a spell slot. You can only have a number of items created this way equal to your proficiency bonus. If an item is not used within the same day it is created, it loses its magical properties."
+				"At 10th level, when you finish a long rest, you may turn a number of rations equal to your proficiency bonus into ingredients as though you harvested them using your Secrets of the Coven feature. Determine their ingredient types as normal.",
+				"You also develop an unusual ability to fabricate weird and unique objects and charms. You can spend one hour during a short or long rest creating an object infused with a warlock spell you know, with a casting time of one action. A creature can use an action to destroy the item, and cast the spell infused within, without expending a spell slot. The magical properties of your trinket remain until the next dawn, after which it loses its infused spell."
 			]
 		},
 		{
@@ -32105,9 +32196,38 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"At 14th level, your patron decides to share a powerful secret with you. You learn how to submit to your will those foolish enough to accept making a deal with you.",
-				"You can create a special potion with your Bad Taste feature. If a creature drinks it, it must succeed on a Wisdom saving throw or suffer the effect of a true polymorph spell, retaining the ability to speak and its mental ability scores. If the creature is unconscious when it drinks the potion, it automatically fails the saving throw. The creature is under your control as if under the effect of a dominate beast, dominate person or dominate monster spell, accordingly to its type, and you don't need to maintain concentration to control it. The effect lasts until you dismiss the servant or until you die. You can have only one creature under your control at any given time.",
-				"Once a creature succeeds on the saving throw or is dismissed, it can't be affected again by the effects of the potion for thirteen days, unless it chooses to do so willingly."
+				"At 14th level, your matron shares powerful secrets with you in the art of brew-making. Due to a potent youth serum, for every 10 years that pass, your body ages only 1 year, and you are immune to being magically aged.",
+				"The various effects caused by your ingredients are emboldened by the mystical secrets shared with you. The following effects replace those listed in your Cauldron of Ruin feature.",
+				{
+					"type": "table",
+					"caption": "Ingredient Effects",
+					"colLabels": [
+						"Ingredient",
+						"Effect"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"Verdant",
+							"Up to three creature of your choice that you can see within 60 feet of your cauldron regain 3d8 hit points."
+						],
+						[
+							"Pestilent",
+							"Each creature of your choice within 60 feet of your cauldron must make a Constitution saving throw against your spell save DC. A creature takes 3d10 necrotic damage on a failed save, or half as much damage on a successful one."
+						],
+						[
+							"Acidic",
+							"Make a ranged spell attack against a creature within 120 feet of your cauldron that you can see. On a hit, the target takes 4d6 acid damage immediately and 4d6 acid damage at the end of its next turn. On a miss, acid splashes the creature for the initial damage and deals no damage at the end of their next turn."
+						],
+						[
+							"Vigorous",
+							"Choose a creature within 60 feet of your cauldron that you can see. Until the start of your next turn, that creature has advantage on attack rolls, ability checks, and saving throws, can't suffer disadvantage for any of these rolls, and other creatures can't gain advantage on attack rolls against it."
+						]
+					]
+				}
 			]
 		},
 		{
